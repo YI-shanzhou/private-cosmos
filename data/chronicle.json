@@ -180,5 +180,19 @@
     "event": "genesis",
     "body_id": "body_0026",
     "summary": "第26纪元：art×literature碰撞，诞生黑洞「幽幻象·诡谲」"
+  },
+  {
+    "epoch": 27,
+    "timestamp": "2026-07-26T19:08:05",
+    "event": "genesis",
+    "body_id": "body_0027",
+    "summary": "第27纪元：myth×literature碰撞，诞生星云「魄英雄·壮阔」"
+  },
+  {
+    "epoch": 28,
+    "timestamp": "2026-07-26T19:08:15",
+    "event": "genesis",
+    "body_id": "body_0028",
+    "summary": "第28纪元：philosophy×astronomy碰撞，诞生白矮星「辉存在·苍凉」"
   }
 ]

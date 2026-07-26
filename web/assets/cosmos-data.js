@@ -1184,6 +1184,98 @@ window.COSMOS_DATA = [
       "size": 0.89,
       "luminosity": 0.26
     }
+  },
+  {
+    "id": "body_0027",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "魄英雄·壮阔",
+    "epoch": 27,
+    "born_at": "2026-07-26T19:08:05",
+    "collision_text": "「后羿射九日，留其一以照人间」吞下「醉后不知天在水，满船清梦压星河」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "parents": [
+      "myth_04",
+      "lit_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "宁静",
+        "诡谲"
+      ],
+      "themes": [
+        "英雄",
+        "星河"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.35,
+      "luminosity": 0.31
+    }
+  },
+  {
+    "id": "body_0028",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "辉存在·苍凉",
+    "epoch": 28,
+    "born_at": "2026-07-26T19:08:15",
+    "collision_text": "在红色荒原上足迹先于意义，未知的风雕刻无人认领的自我",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_03",
+      "apo_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "存在",
+        "行星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.57,
+      "luminosity": 0.21
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1368,6 +1460,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0026",
     "summary": "第26纪元：art×literature碰撞，诞生黑洞「幽幻象·诡谲」"
+  },
+  {
+    "epoch": 27,
+    "timestamp": "2026-07-26T19:08:05",
+    "event": "genesis",
+    "body_id": "body_0027",
+    "summary": "第27纪元：myth×literature碰撞，诞生星云「魄英雄·壮阔」"
+  },
+  {
+    "epoch": 28,
+    "timestamp": "2026-07-26T19:08:15",
+    "event": "genesis",
+    "body_id": "body_0028",
+    "summary": "第28纪元：philosophy×astronomy碰撞，诞生白矮星「辉存在·苍凉」"
   }
 ];
 window.APOD_DATA = [
