@@ -1,5 +1,6 @@
 """导出数据到 web/ 目录（本地和 GitHub Actions 通用）"""
 import json
+import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -22,8 +23,6 @@ js_content += "window.APOD_DATA = " + json.dumps(apod, ensure_ascii=False, inden
 
 WEB_DIR.mkdir(parents=True, exist_ok=True)
 (WEB_DIR / "assets").mkdir(parents=True, exist_ok=True)
-(WEB_DIR / "_shared" / "js").mkdir(parents=True, exist_ok=True)
-
 
 out_path = WEB_DIR / "assets" / "cosmos-data.js"
 out_path.write_text(js_content, encoding="utf-8")
