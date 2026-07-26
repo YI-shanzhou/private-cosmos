@@ -1,0 +1,187 @@
+[
+  {
+    "date": "1997-01-09",
+    "title": "Hazing Jupiter",
+    "url": "https://apod.nasa.gov/apod/image/9701/juphaze_gal_big.jpg",
+    "local_path": "assets/apod/apod_1997-01-09.jpg",
+    "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet. This false color representation is keyed to altitude - red indicates cloud features near the top of the gas giant's extensive atmosphere while blue corresponds to features at depth. North is up in the mosaic, centered at about 50 degrees northern Jovian latitude, and the limb or edge of the planet arcs ac",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#505050",
+        "#307090"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "aurora",
+          "cn": "极光"
+        }
+      ],
+      "moods": [
+        "宁静"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:00:09.674382"
+  },
+  {
+    "date": "1997-07-04",
+    "title": "A Landing On Mars",
+    "url": "https://apod.nasa.gov/apod/image/9707/success_pathfinder_big.jpg",
+    "local_path": "assets/apod/apod_1997-07-04.jpg",
+    "explanation": "Today, July 4th, at about 10:00 AM Pacific Daylight Time (PDT), the Mars Pathfinder spacecraft will land on Mars. Ninety minutes before reaching the surface Pathfinder will begin a flurry of activity. The robot spacecraft is scheduled to vent cooling fluid, jettison its cruise stage, decelerate at 20 gees on atmospheric entry, deploy a 24 foot parachute, jettison its heat shield, slide down a 60 foot bridle, fire solid fuel braking rockets, deploy a cocoon of airbags, separate from the bridle, i",
+    "tags": {
+      "colors": [
+        "#705030",
+        "#f0b070",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:13:11.597476"
+  },
+  {
+    "date": "2008-05-09",
+    "title": "Moon Meets Mercury",
+    "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",
+    "local_path": "assets/apod/apod_2008-05-09.jpg",
+    "explanation": "On Tuesday, May 6, while standing on planet Earth and sweeping your binoculars along the western horizon just after sunset, you might have encountered this arresting skyscape. The view features a slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees. Cradled in the sunlit lunar crescent, the night side of the Moon is faintly illuminated by earthshine -- sunlight reflected from planet Earth. Of course, the clouds in silhouette and fading twilight colors are ",
+    "tags": {
+      "colors": [
+        "#707070",
+        "#505050",
+        "#705050"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T18:55:18.500613"
+  },
+  {
+    "date": "2018-02-21",
+    "title": "Jupiter in Infrared from Hubble",
+    "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
+    "local_path": "assets/apod/apod_2018-02-21.jpg",
+    "explanation": "Jupiter looks a bit different in infrared light. To better understand Jupiter's cloud motions and to help NASA's robotic Juno spacecraft understand the planetary context of the small fields that it sees, the Hubble Space Telescope is being directed to regularly image the entire Jovian giant. The colors of Jupiter being monitored go beyond the normal human visual range to include both ultraviolet and infrared light.  Featured here in 2016, three bands of near-infrared light have been digitally re",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#507070",
+        "#7090b0"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:03:36.479574"
+  },
+  {
+    "date": "2022-07-20",
+    "title": "Jupiter and Ring in Infrared from Webb",
+    "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
+    "local_path": "assets/apod/apod_2022-07-20.jpg",
+    "explanation": "Why does Jupiter have rings?  Jupiter's main ring was discovered in 1979 by NASA's passing Voyager 1 spacecraft, but its origin was then a mystery.  Data from NASA's Galileo spacecraft that orbited Jupiter from 1995 to 2003, however, confirmed the hypothesis that this ring was created by meteoroid impacts on small nearby moons.  As a small meteoroid strikes tiny Metis, for example, it will bore into the moon, vaporize, and explode dirt and dust off into a Jovian orbit. The featured image of Jupi",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:09:34.338711"
+  }
+]

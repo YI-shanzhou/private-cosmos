@@ -1,0 +1,12 @@
+[
+  {"id": "phi_01", "text": "人不能两次踏入同一条河流", "source": "赫拉克利特", "tags": {"moods": ["诡谲"], "domain": "philosophy", "logic": "悖论", "theme": "变化"}},
+  {"id": "phi_02", "text": "我知道我一无所知", "source": "苏格拉底", "tags": {"moods": ["孤寂"], "domain": "philosophy", "logic": "命题", "theme": "认知"}},
+  {"id": "phi_03", "text": "存在先于本质", "source": "萨特", "tags": {"moods": ["苍凉"], "domain": "philosophy", "logic": "命题", "theme": "存在"}},
+  {"id": "phi_04", "text": "凡是合理的都是现实的，凡是现实的都是合理的", "source": "黑格尔", "tags": {"moods": ["壮阔"], "domain": "philosophy", "logic": "辩证", "theme": "理性"}},
+  {"id": "phi_05", "text": "上帝已死", "source": "尼采", "tags": {"moods": ["激烈"], "domain": "philosophy", "logic": "命题", "theme": "信仰"}},
+  {"id": "phi_06", "text": "未经审视的人生不值得过", "source": "苏格拉底", "tags": {"moods": ["孤寂"], "domain": "philosophy", "logic": "命题", "theme": "生命"}},
+  {"id": "phi_07", "text": "飞矢不动", "source": "芝诺悖论", "tags": {"moods": ["诡谲"], "domain": "philosophy", "logic": "悖论", "theme": "运动"}},
+  {"id": "phi_08", "text": "天地不仁，以万物为刍狗", "source": "老子《道德经》", "tags": {"moods": ["苍凉", "壮阔"], "domain": "philosophy", "logic": "命题", "theme": "自然"}},
+  {"id": "phi_09", "text": "一切坚固的东西都烟消云散了", "source": "马克思", "tags": {"moods": ["苍凉", "激烈"], "domain": "philosophy", "logic": "命题", "theme": "消解"}},
+  {"id": "phi_10", "text": "物自身不可知", "source": "康德", "tags": {"moods": ["诡谲", "孤寂"], "domain": "philosophy", "logic": "定义", "theme": "认知"}}
+]

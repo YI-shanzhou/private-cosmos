@@ -1,0 +1,12 @@
+[
+  {"id": "myth_01", "text": "盘古开天，混沌初开，清气上升为天，浊气下沉为地", "source": "中国神话", "tags": {"moods": ["壮阔"], "domain": "myth", "theme": "创世"}},
+  {"id": "myth_02", "text": "夸父逐日，渴死途中，手杖化为桃林", "source": "中国神话", "tags": {"moods": ["苍凉", "激越"], "domain": "myth", "theme": "追逐"}},
+  {"id": "myth_03", "text": "女娲炼五色石补天，断鳌足以立四极", "source": "中国神话", "tags": {"moods": ["壮阔"], "domain": "myth", "theme": "修补"}},
+  {"id": "myth_04", "text": "后羿射九日，留其一以照人间", "source": "中国神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "英雄"}},
+  {"id": "myth_05", "text": "嫦娥奔月，窃不死之药，居广寒宫", "source": "中国神话", "tags": {"moods": ["孤寂", "诡谲"], "domain": "myth", "theme": "孤独"}},
+  {"id": "myth_06", "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬", "source": "北欧神话", "tags": {"moods": ["诡谲", "苍凉"], "domain": "myth", "theme": "世界树"}},
+  {"id": "myth_07", "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海", "source": "北欧神话", "tags": {"moods": ["激烈", "苍凉"], "domain": "myth", "theme": "末日"}},
+  {"id": "myth_08", "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏", "source": "希腊神话", "tags": {"moods": ["苍凉", "壮阔"], "domain": "myth", "theme": "牺牲"}},
+  {"id": "myth_09", "text": "西西弗斯推石上山，石头日日滚落，永无止境", "source": "希腊神话", "tags": {"moods": ["苍凉", "孤寂"], "domain": "myth", "theme": "永恒"}},
+  {"id": "myth_10", "text": "那伽吞食日月，造成食相，人击鼓驱之", "source": "印度神话", "tags": {"moods": ["诡谲", "激烈"], "domain": "myth", "theme": "吞食"}}
+]

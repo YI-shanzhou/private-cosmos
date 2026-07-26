@@ -1,0 +1,17 @@
+# 环境变量（含 API key，切勿提交）
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+.trae-html-share-packages/

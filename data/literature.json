@@ -1,0 +1,12 @@
+[
+  {"id": "lit_01", "text": "星垂平野阔，月涌大江流", "source": "杜甫《旅夜书怀》", "tags": {"moods": ["辽阔", "苍凉"], "domain": "literature", "theme": "星空"}},
+  {"id": "lit_02", "text": "天接云涛连晓雾，星河欲转千帆舞", "source": "李清照《渔家傲》", "tags": {"moods": ["壮阔", "激越"], "domain": "literature", "theme": "星河"}},
+  {"id": "lit_03", "text": "迢迢牵牛星，皎皎河汉女", "source": "古诗十九首", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "星座"}},
+  {"id": "lit_04", "text": "醉后不知天在水，满船清梦压星河", "source": "唐温如《题龙阳县青草湖》", "tags": {"moods": ["宁静", "诡谲"], "domain": "literature", "theme": "星河"}},
+  {"id": "lit_05", "text": "七八个星天外，两三点雨山前", "source": "辛弃疾《西江月》", "tags": {"moods": ["宁静", "孤寂"], "domain": "literature", "theme": "星空"}},
+  {"id": "lit_06", "text": "危楼高百尺，手可摘星辰", "source": "李白《夜宿山寺》", "tags": {"moods": ["壮阔"], "domain": "literature", "theme": "星辰"}},
+  {"id": "lit_07", "text": "日月之行，若出其中；星汉灿烂，若出其里", "source": "曹操《观沧海》", "tags": {"moods": ["壮阔", "辽阔"], "domain": "literature", "theme": "星汉"}},
+  {"id": "lit_08", "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星", "source": "杜牧《秋夕》", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "星座"}},
+  {"id": "lit_09", "text": "长恨春归无觅处，不知转入此中来", "source": "白居易《大林寺桃花》", "tags": {"moods": ["诡谲"], "domain": "literature", "theme": "时间"}},
+  {"id": "lit_10", "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下", "source": "陈子昂《登幽州台歌》", "tags": {"moods": ["苍凉", "孤寂"], "domain": "literature", "theme": "时空"}}
+]

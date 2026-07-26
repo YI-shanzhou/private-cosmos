@@ -1,0 +1,12 @@
+[
+  {"id": "mus_01", "title": "月光奏鸣曲第一乐章", "composer": "贝多芬", "tags": {"moods": ["孤寂", "苍凉"], "domain": "art", "genre": "古典", "theme": "月夜"}},
+  {"id": "mus_02", "title": "致爱丽丝", "composer": "贝多芬", "tags": {"moods": ["宁静"], "domain": "art", "genre": "古典", "theme": "柔情"}},
+  {"id": "mus_03", "title": "G 弦上的咏叹调", "composer": "巴赫", "tags": {"moods": ["宁静", "壮阔"], "domain": "art", "genre": "巴洛克", "theme": "崇高"}},
+  {"id": "mus_04", "title": "幻想即兴曲", "composer": "肖邦", "tags": {"moods": ["激越", "诡谲"], "domain": "art", "genre": "浪漫", "theme": "幻象"}},
+  {"id": "mus_05", "title": "天鹅湖", "composer": "柴可夫斯基", "tags": {"moods": ["苍凉", "壮阔"], "domain": "art", "genre": "浪漫", "theme": "悲剧"}},
+  {"id": "mus_06", "title": "春之祭", "composer": "斯特拉文斯基", "tags": {"moods": ["激烈", "诡谲"], "domain": "art", "genre": "现代", "theme": "原始"}},
+  {"id": "mus_07", "title": "星空", "composer": "德彪西", "tags": {"moods": ["宁静", "辽阔"], "domain": "art", "genre": "印象", "theme": "夜空"}},
+  {"id": "mus_08", "title": "平均律 BWV846", "composer": "巴赫", "tags": {"moods": ["宁静"], "domain": "art", "genre": "巴洛克", "theme": "秩序"}},
+  {"id": "mus_09", "title": "第九交响曲·欢乐颂", "composer": "贝多芬", "tags": {"moods": ["壮阔", "激越"], "domain": "art", "genre": "古典", "theme": "崇高"}},
+  {"id": "mus_10", "title": "孤独的牧羊人", "composer": "传统民谣", "tags": {"moods": ["孤寂", "苍凉"], "domain": "art", "genre": "民谣", "theme": "旷野"}}
+]

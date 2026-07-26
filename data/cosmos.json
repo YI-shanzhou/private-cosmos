@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "body_0001",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "澜时间·诡谲",
+    "epoch": 1,
+    "born_at": "2026-07-25T23:59:38",
+    "collision_text": "「长恨春归无觅处，不知转入此中来」穿过「星空」，留下一道诡谲的尾迹。",
+    "collision_mode": "local",
+    "parents": [
+      "lit_09",
+      "mus_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长恨春归无觅处，不知转入此中来",
+        "source": "白居易《大林寺桃花》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "星空",
+        "source": "德彪西"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静",
+        "辽阔"
+      ],
+      "themes": [
+        "时间",
+        "夜空"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.85,
+      "luminosity": 0.35
+    }
+  },
+  {
+    "id": "body_0002",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "焰牺牲·苍凉",
+    "epoch": 2,
+    "born_at": "2026-07-25T23:59:38",
+    "collision_text": "「普罗米修斯盗火予人，被锁于高加索山，日日被鹰…」与「存在先于本质」在虚空中相撞，迸出苍凉的光。",
+    "collision_mode": "local",
+    "parents": [
+      "myth_08",
+      "phi_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "牺牲",
+        "存在"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.42,
+      "luminosity": 0.63
+    }
+  },
+  {
+    "id": "body_0003",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "渺信仰·诡谲",
+    "epoch": 3,
+    "born_at": "2026-07-25T23:59:38",
+    "collision_text": "「上帝已死」与「醉后不知天在水，满船清梦压星河」相互缠绕，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "parents": [
+      "phi_05",
+      "lit_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激烈",
+        "宁静"
+      ],
+      "themes": [
+        "信仰",
+        "星河"
+      ],
+      "domains": [
+        "philosophy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.53,
+      "luminosity": 0.85
+    }
+  },
+  {
+    "id": "body_0004",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·苍凉",
+    "epoch": 4,
+    "born_at": "2026-07-26T00:27:04",
+    "collision_text": "牧羊人推着滚落的星辰，在永恒的山坡上放牧寂静",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_09",
+      "mus_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "art",
+        "text": "孤独的牧羊人",
+        "source": "传统民谣"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "永恒",
+        "旷野"
+      ],
+      "domains": [
+        "myth",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.84,
+      "luminosity": 0.5
+    }
+  },
+  {
+    "id": "body_0005",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "弦秩序·宁静",
+    "epoch": 5,
+    "born_at": "2026-07-26T00:28:08",
+    "collision_text": "琴键在银河的弦上落下，流萤般的音符铺成通往织女星的天阶",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_08",
+      "lit_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "秩序",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.68,
+      "luminosity": 0.55
+    }
+  },
+  {
+    "id": "body_0006",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "幽崇高·壮阔",
+    "epoch": 6,
+    "born_at": "2026-07-26T00:28:11",
+    "collision_text": "在G弦的咏叹调中",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_03",
+      "lit_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "G 弦上的咏叹调",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "崇高",
+        "星辰"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.99,
+      "luminosity": 0.94
+    }
+  },
+  {
+    "id": "body_0007",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "尘孤独·孤寂",
+    "epoch": 7,
+    "born_at": "2026-07-26T00:28:13",
+    "collision_text": "月宫空悬不死药，上帝已死的回音在桂花香里碎裂成霜",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_05",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲",
+        "激烈"
+      ],
+      "themes": [
+        "孤独",
+        "信仰"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.94,
+      "luminosity": 0.64
+    }
+  },
+  {
+    "id": "body_0008",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "焰星汉·宁静",
+    "epoch": 8,
+    "born_at": "2026-07-26T00:28:15",
+    "collision_text": "星汉作谱，日月为键，宇宙静默弹奏一曲致爱丽丝的潮汐",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "星汉",
+        "柔情"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.34,
+      "luminosity": 0.69
+    }
+  },
+  {
+    "id": "body_0009",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "尘变化·诡谲",
+    "epoch": 9,
+    "born_at": "2026-07-26T00:28:18",
+    "collision_text": "在每一道流变的波痕里，巴赫的键音如恒星般凝定，又碎成新的时辰。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_01",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "人不能两次踏入同一条河流",
+        "source": "赫拉克利特"
+      },
+      "b": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "变化",
+        "秩序"
+      ],
+      "domains": [
+        "philosophy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.54,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0010",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "魄变化·诡谲",
+    "epoch": 10,
+    "born_at": "2026-07-26T00:28:20",
+    "collision_text": "每一个推石而上的脚印，都坠入同一条永不复返的河流。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_01",
+      "myth_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "人不能两次踏入同一条河流",
+        "source": "赫拉克利特"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "变化",
+        "永恒"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.41,
+      "luminosity": 0.43
+    }
+  },
+  {
+    "id": "body_0011",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "茫月夜·孤寂",
+    "epoch": 11,
+    "born_at": "2026-07-26T00:28:22",
+    "collision_text": "月光碾碎流萤的羽翼，琴键上浮起凉如秋水的星群",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_01",
+      "lit_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "月光奏鸣曲第一乐章",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "月夜",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.71,
+      "luminosity": 0.6
+    }
+  },
+  {
+    "id": "body_0012",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦变化·诡谲",
+    "epoch": 12,
+    "born_at": "2026-07-26T00:28:24",
+    "collision_text": "每次踏入同一条河流，鼓声碎成日月被那伽吞食又吐出的余音",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_01",
+      "myth_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "人不能两次踏入同一条河流",
+        "source": "赫拉克利特"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "那伽吞食日月，造成食相，人击鼓驱之",
+        "source": "印度神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激烈"
+      ],
+      "themes": [
+        "变化",
+        "吞食"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.5,
+      "luminosity": 0.68
+    }
+  },
+  {
+    "id": "body_0013",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "幽消解·苍凉",
+    "epoch": 13,
+    "born_at": "2026-07-26T00:28:27",
+    "collision_text": "夸父的骨骼崩散成桃林，日轮在水影中碎成千亿盏孤灯。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_09",
+      "myth_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "夸父逐日，渴死途中，手杖化为桃林",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈",
+        "激越"
+      ],
+      "themes": [
+        "消解",
+        "追逐"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.38,
+      "luminosity": 0.22
+    }
+  },
+  {
+    "id": "body_0014",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "渺理性·壮阔",
+    "epoch": 14,
+    "born_at": "2026-07-26T00:28:30",
+    "collision_text": "理性蜿蜒成湖面时天鹅的倒影与现实的壮阔一同",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_04",
+      "mus_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是合理的都是现实的，凡是现实的都是合理的",
+        "source": "黑格尔"
+      },
+      "b": {
+        "domain": "art",
+        "text": "天鹅湖",
+        "source": "柴可夫斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "理性",
+        "悲剧"
+      ],
+      "domains": [
+        "philosophy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.9,
+      "luminosity": 0.89
+    }
+  },
+  {
+    "id": "body_0015",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "茫秩序·宁静",
+    "epoch": 15,
+    "born_at": "2026-07-26T00:28:32",
+    "collision_text": "宁静的阶梯攀上危楼，平均律里摘星，宇宙轻颤于指尖。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_08",
+      "lit_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "秩序",
+        "星辰"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.71,
+      "luminosity": 0.4
+    }
+  },
+  {
+    "id": "body_0016",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "渊理性·壮阔",
+    "epoch": 16,
+    "born_at": "2026-07-26T00:28:35",
+    "collision_text": "现实吞食理性成为日月，鼓声在逻辑的暗面敲响宇宙的食相",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_04",
+      "myth_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是合理的都是现实的，凡是现实的都是合理的",
+        "source": "黑格尔"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "那伽吞食日月，造成食相，人击鼓驱之",
+        "source": "印度神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "激烈"
+      ],
+      "themes": [
+        "理性",
+        "吞食"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.8,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0017",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "寂星座·孤寂",
+    "epoch": 17,
+    "born_at": "2026-07-26T00:28:37",
+    "collision_text": "流萤碎作祭火点燃画屏冷光",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_08",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "星座",
+        "原始"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.82,
+      "luminosity": 0.5
+    }
+  },
+  {
+    "id": "body_0018",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "澜星座·孤寂",
+    "epoch": 18,
+    "born_at": "2026-07-26T00:28:39",
+    "collision_text": "星河寂静，牵牛与织女相望，各自审视自己孤独的光年。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_03",
+      "phi_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "星座",
+        "生命"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.39,
+      "luminosity": 0.87
+    }
+  },
+  {
+    "id": "body_0019",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "寂旷野·苍凉",
+    "epoch": 19,
+    "born_at": "2026-07-26T00:28:42",
+    "collision_text": "牧羊人的鞭梢划破虚空，羊群化作星尘，在消散的宇宙里回响苍凉的歌",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_10",
+      "phi_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "孤独的牧羊人",
+        "source": "传统民谣"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "激烈"
+      ],
+      "themes": [
+        "旷野",
+        "消解"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.44,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0020",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "墟孤独·孤寂",
+    "epoch": 20,
+    "born_at": "2026-07-26T18:40:52",
+    "collision_text": "广寒深处，不死药映照虚无，我知我一无所知的永恒。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_05",
+      "phi_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "我知道我一无所知",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "孤独",
+        "认知"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.99,
+      "luminosity": 0.38
+    }
+  },
+  {
+    "id": "body_0021",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "寂星辰·激越",
+    "epoch": 21,
+    "born_at": "2026-07-26T18:41:01",
+    "collision_text": "「危楼高百尺，手可摘星辰」被「夸父逐日，渴死途中，手杖化为桃林」点燃，烧成一片激越的余烬。",
+    "collision_mode": "local",
+    "parents": [
+      "lit_06",
+      "myth_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "夸父逐日，渴死途中，手杖化为桃林",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星辰",
+        "追逐"
+      ],
+      "domains": [
+        "literature",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.75,
+      "luminosity": 0.38
+    }
+  },
+  {
+    "id": "body_0022",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜星河·壮阔",
+    "epoch": 22,
+    "born_at": "2026-07-26T19:18:37",
+    "collision_text": "星河为女娲补天熔断千帆 鳌足撑起云涛中四极的裂痕",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "myth_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "themes": [
+        "星河",
+        "修补"
+      ],
+      "domains": [
+        "literature",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.36,
+      "luminosity": 0.29
+    }
+  },
+  {
+    "id": "body_0023",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "魄时空·孤寂",
+    "epoch": 23,
+    "born_at": "2026-07-26T19:18:40",
+    "collision_text": "天地悠悠，再无神明可涕，唯有独怆然的回声漫过万古荒原",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_10",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下",
+        "source": "陈子昂《登幽州台歌》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "时空",
+        "信仰"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.65,
+      "luminosity": 0.74
+    }
+  },
+  {
+    "id": "body_0024",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "墟柔情·苍凉",
+    "epoch": 24,
+    "born_at": "2026-07-26T19:18:43",
+    "collision_text": "在宇宙的宁静里，存在先于本质的旋律苍凉回响。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "phi_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "柔情",
+        "存在"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.32,
+      "luminosity": 0.41
+    }
+  },
+  {
+    "id": "body_0025",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "茫星河·激越",
+    "epoch": 25,
+    "born_at": "2026-07-26T19:18:45",
+    "collision_text": "星云如涛涌向木星腰际，红外漩涡里千帆舞动未名风暴",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "apo_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Jupiter in Infrared from Hubble",
+        "source": "NASA APOD 2018-02-21"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "行星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.86,
+      "luminosity": 0.72
+    }
+  },
+  {
+    "id": "body_0026",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "幽幻象·诡谲",
+    "epoch": 26,
+    "born_at": "2026-07-26T19:18:48",
+    "collision_text": "激越的琴键劈开水面，清梦压碎满河星子，船在诡谲的漩涡里旋舞",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_04",
+      "lit_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "幻想即兴曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激越",
+        "宁静"
+      ],
+      "themes": [
+        "幻象",
+        "星河"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.89,
+      "luminosity": 0.26
+    }
+  }
+]

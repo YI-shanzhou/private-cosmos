@@ -1,0 +1,184 @@
+[
+  {
+    "epoch": 1,
+    "timestamp": "2026-07-25T23:59:38",
+    "event": "genesis",
+    "body_id": "body_0001",
+    "summary": "第1纪元：literature×art碰撞，诞生黑洞「澜时间·诡谲」"
+  },
+  {
+    "epoch": 2,
+    "timestamp": "2026-07-25T23:59:38",
+    "event": "genesis",
+    "body_id": "body_0002",
+    "summary": "第2纪元：myth×philosophy碰撞，诞生白矮星「焰牺牲·苍凉」"
+  },
+  {
+    "epoch": 3,
+    "timestamp": "2026-07-25T23:59:38",
+    "event": "genesis",
+    "body_id": "body_0003",
+    "summary": "第3纪元：philosophy×literature碰撞，诞生暗物质「渺信仰·诡谲」"
+  },
+  {
+    "epoch": 4,
+    "timestamp": "2026-07-26T00:27:04",
+    "event": "genesis",
+    "body_id": "body_0004",
+    "summary": "第4纪元：myth×art碰撞，诞生白矮星「澜永恒·苍凉」"
+  },
+  {
+    "epoch": 5,
+    "timestamp": "2026-07-26T00:28:08",
+    "event": "genesis",
+    "body_id": "body_0005",
+    "summary": "第5纪元：art×literature碰撞，诞生行星「弦秩序·宁静」"
+  },
+  {
+    "epoch": 6,
+    "timestamp": "2026-07-26T00:28:11",
+    "event": "genesis",
+    "body_id": "body_0006",
+    "summary": "第6纪元：art×literature碰撞，诞生星云「幽崇高·壮阔」"
+  },
+  {
+    "epoch": 7,
+    "timestamp": "2026-07-26T00:28:13",
+    "event": "genesis",
+    "body_id": "body_0007",
+    "summary": "第7纪元：myth×philosophy碰撞，诞生流浪行星「尘孤独·孤寂」"
+  },
+  {
+    "epoch": 8,
+    "timestamp": "2026-07-26T00:28:15",
+    "event": "genesis",
+    "body_id": "body_0008",
+    "summary": "第8纪元：literature×art碰撞，诞生行星「焰星汉·宁静」"
+  },
+  {
+    "epoch": 9,
+    "timestamp": "2026-07-26T00:28:18",
+    "event": "genesis",
+    "body_id": "body_0009",
+    "summary": "第9纪元：philosophy×art碰撞，诞生暗物质「尘变化·诡谲」"
+  },
+  {
+    "epoch": 10,
+    "timestamp": "2026-07-26T00:28:20",
+    "event": "genesis",
+    "body_id": "body_0010",
+    "summary": "第10纪元：philosophy×myth碰撞，诞生暗物质「魄变化·诡谲」"
+  },
+  {
+    "epoch": 11,
+    "timestamp": "2026-07-26T00:28:22",
+    "event": "genesis",
+    "body_id": "body_0011",
+    "summary": "第11纪元：art×literature碰撞，诞生彗星「茫月夜·孤寂」"
+  },
+  {
+    "epoch": 12,
+    "timestamp": "2026-07-26T00:28:24",
+    "event": "genesis",
+    "body_id": "body_0012",
+    "summary": "第12纪元：philosophy×myth碰撞，诞生暗物质「弦变化·诡谲」"
+  },
+  {
+    "epoch": 13,
+    "timestamp": "2026-07-26T00:28:27",
+    "event": "genesis",
+    "body_id": "body_0013",
+    "summary": "第13纪元：philosophy×myth碰撞，诞生遗迹「幽消解·苍凉」"
+  },
+  {
+    "epoch": 14,
+    "timestamp": "2026-07-26T00:28:30",
+    "event": "genesis",
+    "body_id": "body_0014",
+    "summary": "第14纪元：philosophy×art碰撞，诞生星系「渺理性·壮阔」"
+  },
+  {
+    "epoch": 15,
+    "timestamp": "2026-07-26T00:28:32",
+    "event": "genesis",
+    "body_id": "body_0015",
+    "summary": "第15纪元：art×literature碰撞，诞生行星「茫秩序·宁静」"
+  },
+  {
+    "epoch": 16,
+    "timestamp": "2026-07-26T00:28:35",
+    "event": "genesis",
+    "body_id": "body_0016",
+    "summary": "第16纪元：philosophy×myth碰撞，诞生星系「渊理性·壮阔」"
+  },
+  {
+    "epoch": 17,
+    "timestamp": "2026-07-26T00:28:37",
+    "event": "genesis",
+    "body_id": "body_0017",
+    "summary": "第17纪元：literature×art碰撞，诞生流浪行星「寂星座·孤寂」"
+  },
+  {
+    "epoch": 18,
+    "timestamp": "2026-07-26T00:28:39",
+    "event": "genesis",
+    "body_id": "body_0018",
+    "summary": "第18纪元：literature×philosophy碰撞，诞生彗星「澜星座·孤寂」"
+  },
+  {
+    "epoch": 19,
+    "timestamp": "2026-07-26T00:28:42",
+    "event": "genesis",
+    "body_id": "body_0019",
+    "summary": "第19纪元：art×philosophy碰撞，诞生白矮星「寂旷野·苍凉」"
+  },
+  {
+    "epoch": 20,
+    "timestamp": "2026-07-26T18:40:52",
+    "event": "genesis",
+    "body_id": "body_0020",
+    "summary": "第20纪元：myth×philosophy碰撞，诞生流浪行星「墟孤独·孤寂」"
+  },
+  {
+    "epoch": 21,
+    "timestamp": "2026-07-26T18:41:01",
+    "event": "genesis",
+    "body_id": "body_0021",
+    "summary": "第21纪元：literature×myth碰撞，诞生类星体「寂星辰·激越」"
+  },
+  {
+    "epoch": 22,
+    "timestamp": "2026-07-26T19:18:37",
+    "event": "genesis",
+    "body_id": "body_0022",
+    "summary": "第22纪元：literature×myth碰撞，诞生星云「澜星河·壮阔」"
+  },
+  {
+    "epoch": 23,
+    "timestamp": "2026-07-26T19:18:40",
+    "event": "genesis",
+    "body_id": "body_0023",
+    "summary": "第23纪元：literature×philosophy碰撞，诞生流浪行星「魄时空·孤寂」"
+  },
+  {
+    "epoch": 24,
+    "timestamp": "2026-07-26T19:18:43",
+    "event": "genesis",
+    "body_id": "body_0024",
+    "summary": "第24纪元：art×philosophy碰撞，诞生白矮星「墟柔情·苍凉」"
+  },
+  {
+    "epoch": 25,
+    "timestamp": "2026-07-26T19:18:45",
+    "event": "genesis",
+    "body_id": "body_0025",
+    "summary": "第25纪元：literature×astronomy碰撞，诞生脉冲星「茫星河·激越」"
+  },
+  {
+    "epoch": 26,
+    "timestamp": "2026-07-26T19:18:48",
+    "event": "genesis",
+    "body_id": "body_0026",
+    "summary": "第26纪元：art×literature碰撞，诞生黑洞「幽幻象·诡谲」"
+  }
+]
