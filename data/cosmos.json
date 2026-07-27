@@ -1275,5 +1275,98 @@
       "size": 0.57,
       "luminosity": 0.21
     }
+  },
+  {
+    "id": "body_0029",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "焰沉没·苍凉",
+    "epoch": 29,
+    "born_at": "2026-07-27T13:29:26",
+    "collision_text": "月光奏鸣曲的潮汐漫过废弃船舱，钢琴师在星尘的孤寂中渐次溶解成苍凉的音符",
+    "collision_mode": "deepseek",
+    "parents": [
+      "cin_12",
+      "mus_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "月光奏鸣曲第一乐章",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "沉没",
+        "月夜"
+      ],
+      "domains": [
+        "cinema",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.67,
+      "luminosity": 0.88
+    }
+  },
+  {
+    "id": "body_0030",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "茫时间·壮阔",
+    "epoch": 30,
+    "born_at": "2026-07-27T13:29:28",
+    "collision_text": "我是一段苍凉的时间之海，潮汐拍打着宇宙的骨缝。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_26",
+      "mus_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "时间是构成我的实体",
+        "source": "柏格森"
+      },
+      "b": {
+        "domain": "art",
+        "text": "大海",
+        "source": "德彪西"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "苍凉",
+        "辽阔"
+      ],
+      "themes": [
+        "时间",
+        "海浪"
+      ],
+      "domains": [
+        "philosophy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.69,
+      "luminosity": 0.54
+    }
   }
 ]
