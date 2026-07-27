@@ -53,6 +53,8 @@ DOMAIN_FILES = {
     "philosophy": "philosophy.json",
     "art": "music.json",
     "myth": "myth.json",
+    "science": "science.json",
+    "cinema": "cinema.json",
 }
 
 
