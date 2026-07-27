@@ -1,32 +1,452 @@
 [
-  {"id": "sci_01", "text": "宇宙诞生于一次奇点大爆炸，在138亿年前的一瞬间，时间与空间同时展开", "source": "大爆炸理论", "tags": {"moods": ["壮阔", "激烈"], "domain": "science", "theme": "创世"}},
-  {"id": "sci_02", "text": "黑洞的引力强大到连光都无法逃逸，事件视界之内一切信息永远丢失", "source": "广义相对论", "tags": {"moods": ["诡谲", "苍凉"], "domain": "science", "theme": "吞噬"}},
-  {"id": "sci_03", "text": "量子纠缠：两个粒子无论相隔多远，测量一个瞬时影响另一个，爱因斯坦称之为'幽灵般的超距作用'", "source": "量子力学", "tags": {"moods": ["诡谲", "神秘"], "domain": "science", "theme": "纠缠"}},
-  {"id": "sci_04", "text": "暗物质占据宇宙质量的27%，却不发光、不反射光，我们只能通过引力效应感知它的存在", "source": "宇宙学", "tags": {"moods": ["神秘", "未知"], "domain": "science", "theme": "暗物质"}},
-  {"id": "sci_05", "text": "暗能量驱动宇宙加速膨胀，占宇宙总能量的68%，其本质至今未知", "source": "宇宙学", "tags": {"moods": ["未知", "壮阔"], "domain": "science", "theme": "膨胀"}},
-  {"id": "sci_06", "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向", "source": "热力学第二定律", "tags": {"moods": ["苍凉", "未知"], "domain": "science", "theme": "熵增"}},
-  {"id": "sci_07", "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗", "source": "热寂说", "tags": {"moods": ["苍凉", "辽阔"], "domain": "science", "theme": "热寂"}},
-  {"id": "sci_08", "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹", "source": "费米悖论", "tags": {"moods": ["孤寂", "诡谲"], "domain": "science", "theme": "沉默"}},
-  {"id": "sci_09", "text": "薛定谔的猫：在打开盒子之前，猫同时处于生与死的叠加态", "source": "量子力学", "tags": {"moods": ["诡谲", "神秘"], "domain": "science", "theme": "叠加"}},
-  {"id": "sci_10", "text": "光速是宇宙的终极速度极限，约每秒30万公里，任何携带信息的信号都无法超越", "source": "狭义相对论", "tags": {"moods": ["壮阔", "苍凉"], "domain": "science", "theme": "极限"}},
-  {"id": "sci_11", "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻", "source": "相对论", "tags": {"moods": ["诡谲", "苍凉"], "domain": "science", "theme": "时间扭曲"}},
-  {"id": "sci_12", "text": "波粒二象性：光既是波也是粒子，取决于你如何观察它", "source": "量子力学", "tags": {"moods": ["诡谲", "神秘"], "domain": "science", "theme": "二象"}},
-  {"id": "sci_13", "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的", "source": "海森堡不确定性原理", "tags": {"moods": ["诡谲", "未知"], "domain": "science", "theme": "不确定"}},
-  {"id": "sci_14", "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类", "source": "分子生物学", "tags": {"moods": ["壮阔", "神秘"], "domain": "science", "theme": "密码"}},
-  {"id": "sci_15", "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑", "source": "神经科学", "tags": {"moods": ["壮阔", "神秘"], "domain": "science", "theme": "意识"}},
-  {"id": "sci_16", "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风", "source": "混沌理论", "tags": {"moods": ["诡谲", "激越"], "domain": "science", "theme": "混沌"}},
-  {"id": "sci_17", "text": "分形几何：海岸线的长度取决于你用的尺子，无限放大仍见自相似的图案", "source": "分形几何", "tags": {"moods": ["神秘", "辽阔"], "domain": "science", "theme": "自相似"}},
-  {"id": "sci_18", "text": "质能方程E=mc²：极少的质量蕴含极大的能量，一克物质相当于两万吨TNT", "source": "狭义相对论", "tags": {"moods": ["激烈", "壮阔"], "domain": "science", "theme": "质能"}},
-  {"id": "sci_19", "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙", "source": "恒星物理学", "tags": {"moods": ["壮阔", "激烈"], "domain": "science", "theme": "炼星"}},
-  {"id": "sci_20", "text": "你身体里的每一个铁原子，都来自某颗远古恒星临终前的超新星爆发", "source": "天体物理学", "tags": {"moods": ["壮阔", "苍凉"], "domain": "science", "theme": "星尘"}},
-  {"id": "sci_21", "text": "中子星一茶匙物质重达数十亿吨，是原子被压碎后的极致密残骸", "source": "天体物理学", "tags": {"moods": ["诡谲", "激烈"], "domain": "science", "theme": "致密"}},
-  {"id": "sci_22", "text": "脉冲星每秒自转数百圈，从磁极射出灯塔般的光束扫过宇宙", "source": "天体物理学", "tags": {"moods": ["激越", "神秘"], "domain": "science", "theme": "灯塔"}},
-  {"id": "sci_23", "text": "可观测宇宙直径约930亿光年，但这只是我们能看到的，之外可能无限", "source": "宇宙学", "tags": {"moods": ["辽阔", "未知"], "domain": "science", "theme": "可观测"}},
-  {"id": "sci_24", "text": "多重宇宙假说：我们的宇宙只是无数气泡中的一个，每个都有不同的物理常数", "source": "多重宇宙理论", "tags": {"moods": ["未知", "壮阔"], "domain": "science", "theme": "多元"}},
-  {"id": "sci_25", "text": "进化论：生命通过自然选择从单细胞演化出千万形态，没有设计者却造就了无限精妙", "source": "达尔文进化论", "tags": {"moods": ["壮阔", "苍凉"], "domain": "science", "theme": "演化"}},
-  {"id": "sci_26", "text": "大过滤器：从无机物到星际文明之间必有一道几乎不可逾越的鸿沟，人类是否已跨越尚不可知", "source": "大过滤器理论", "tags": {"moods": ["苍凉", "未知"], "domain": "science", "theme": "过滤器"}},
-  {"id": "sci_27", "text": "宇宙微波背景辐射：大爆炸的余辉至今仍在空中回荡，温度只有2.7开尔文", "source": "宇宙学", "tags": {"moods": ["苍凉", "神秘"], "domain": "science", "theme": "余辉"}},
-  {"id": "sci_28", "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因", "source": "基因工程", "tags": {"moods": ["希望", "激烈"], "domain": "science", "theme": "编辑"}},
-  {"id": "sci_29", "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界", "source": "计算理论", "tags": {"moods": ["诡谲", "未知"], "domain": "science", "theme": "停机"}},
-  {"id": "sci_30", "text": "哥德尔不完备定理：任何足够复杂的数学体系都包含无法证明也无法证伪的真命题，真理总有余处", "source": "数理逻辑", "tags": {"moods": ["诡谲", "神秘"], "domain": "science", "theme": "不完备"}}
+  {
+    "id": "sci_01",
+    "text": "宇宙诞生于一次奇点大爆炸，在138亿年前的一瞬间，时间与空间同时展开",
+    "source": "大爆炸理论",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "science",
+      "theme": "创世",
+      "intensity": 5,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_02",
+    "text": "黑洞的引力强大到连光都无法逃逸，事件视界之内一切信息永远丢失",
+    "source": "广义相对论",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "science",
+      "theme": "吞噬",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_03",
+    "text": "量子纠缠：两个粒子无论相隔多远，测量一个瞬时影响另一个，爱因斯坦称之为'幽灵般的超距作用'",
+    "source": "量子力学",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "纠缠",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_04",
+    "text": "暗物质占据宇宙质量的27%，却不发光、不反射光，我们只能通过引力效应感知它的存在",
+    "source": "宇宙学",
+    "tags": {
+      "moods": [
+        "神秘",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "暗物质",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_05",
+    "text": "暗能量驱动宇宙加速膨胀，占宇宙总能量的68%，其本质至今未知",
+    "source": "宇宙学",
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔"
+      ],
+      "domain": "science",
+      "theme": "膨胀",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_06",
+    "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向",
+    "source": "热力学第二定律",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "熵增",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_07",
+    "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+    "source": "热寂说",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔"
+      ],
+      "domain": "science",
+      "theme": "热寂",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_08",
+    "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹",
+    "source": "费米悖论",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "domain": "science",
+      "theme": "沉默",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_09",
+    "text": "薛定谔的猫：在打开盒子之前，猫同时处于生与死的叠加态",
+    "source": "量子力学",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "叠加",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_10",
+    "text": "光速是宇宙的终极速度极限，约每秒30万公里，任何携带信息的信号都无法超越",
+    "source": "狭义相对论",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "science",
+      "theme": "极限",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_11",
+    "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻",
+    "source": "相对论",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "science",
+      "theme": "时间扭曲",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_12",
+    "text": "波粒二象性：光既是波也是粒子，取决于你如何观察它",
+    "source": "量子力学",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "二象",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_13",
+    "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的",
+    "source": "海森堡不确定性原理",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "不确定",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_14",
+    "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+    "source": "分子生物学",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "密码",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_15",
+    "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+    "source": "神经科学",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "意识",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_16",
+    "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风",
+    "source": "混沌理论",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激越"
+      ],
+      "domain": "science",
+      "theme": "混沌",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_17",
+    "text": "分形几何：海岸线的长度取决于你用的尺子，无限放大仍见自相似的图案",
+    "source": "分形几何",
+    "tags": {
+      "moods": [
+        "神秘",
+        "辽阔"
+      ],
+      "domain": "science",
+      "theme": "自相似",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_18",
+    "text": "质能方程E=mc²：极少的质量蕴含极大的能量，一克物质相当于两万吨TNT",
+    "source": "狭义相对论",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "science",
+      "theme": "质能",
+      "intensity": 5,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_19",
+    "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+    "source": "恒星物理学",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "science",
+      "theme": "炼星",
+      "intensity": 5,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_20",
+    "text": "你身体里的每一个铁原子，都来自某颗远古恒星临终前的超新星爆发",
+    "source": "天体物理学",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "science",
+      "theme": "星尘",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_21",
+    "text": "中子星一茶匙物质重达数十亿吨，是原子被压碎后的极致密残骸",
+    "source": "天体物理学",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激烈"
+      ],
+      "domain": "science",
+      "theme": "致密",
+      "intensity": 5,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_22",
+    "text": "脉冲星每秒自转数百圈，从磁极射出灯塔般的光束扫过宇宙",
+    "source": "天体物理学",
+    "tags": {
+      "moods": [
+        "激越",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "灯塔",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_23",
+    "text": "可观测宇宙直径约930亿光年，但这只是我们能看到的，之外可能无限",
+    "source": "宇宙学",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "可观测",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_24",
+    "text": "多重宇宙假说：我们的宇宙只是无数气泡中的一个，每个都有不同的物理常数",
+    "source": "多重宇宙理论",
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔"
+      ],
+      "domain": "science",
+      "theme": "多元",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_25",
+    "text": "进化论：生命通过自然选择从单细胞演化出千万形态，没有设计者却造就了无限精妙",
+    "source": "达尔文进化论",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "science",
+      "theme": "演化",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_26",
+    "text": "大过滤器：从无机物到星际文明之间必有一道几乎不可逾越的鸿沟，人类是否已跨越尚不可知",
+    "source": "大过滤器理论",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "过滤器",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_27",
+    "text": "宇宙微波背景辐射：大爆炸的余辉至今仍在空中回荡，温度只有2.7开尔文",
+    "source": "宇宙学",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "余辉",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_28",
+    "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因",
+    "source": "基因工程",
+    "tags": {
+      "moods": [
+        "希望",
+        "激烈"
+      ],
+      "domain": "science",
+      "theme": "编辑",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_29",
+    "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界",
+    "source": "计算理论",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "未知"
+      ],
+      "domain": "science",
+      "theme": "停机",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "sci_30",
+    "text": "哥德尔不完备定理：任何足够复杂的数学体系都包含无法证明也无法证伪的真命题，真理总有余处",
+    "source": "数理逻辑",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "science",
+      "theme": "不完备",
+      "intensity": 4,
+      "era": "现代"
+    }
+  }
 ]

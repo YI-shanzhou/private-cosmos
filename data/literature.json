@@ -1,42 +1,600 @@
 [
-  {"id": "lit_01", "text": "星垂平野阔，月涌大江流", "source": "杜甫《旅夜书怀》", "tags": {"moods": ["辽阔", "苍凉"], "domain": "literature", "theme": "星空"}},
-  {"id": "lit_02", "text": "天接云涛连晓雾，星河欲转千帆舞", "source": "李清照《渔家傲》", "tags": {"moods": ["壮阔", "激越"], "domain": "literature", "theme": "星河"}},
-  {"id": "lit_03", "text": "迢迢牵牛星，皎皎河汉女", "source": "古诗十九首", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "星座"}},
-  {"id": "lit_04", "text": "醉后不知天在水，满船清梦压星河", "source": "唐温如《题龙阳县青草湖》", "tags": {"moods": ["宁静", "诡谲"], "domain": "literature", "theme": "星河"}},
-  {"id": "lit_05", "text": "七八个星天外，两三点雨山前", "source": "辛弃疾《西江月》", "tags": {"moods": ["宁静", "孤寂"], "domain": "literature", "theme": "星空"}},
-  {"id": "lit_06", "text": "危楼高百尺，手可摘星辰", "source": "李白《夜宿山寺》", "tags": {"moods": ["壮阔"], "domain": "literature", "theme": "星辰"}},
-  {"id": "lit_07", "text": "日月之行，若出其中；星汉灿烂，若出其里", "source": "曹操《观沧海》", "tags": {"moods": ["壮阔", "辽阔"], "domain": "literature", "theme": "星汉"}},
-  {"id": "lit_08", "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星", "source": "杜牧《秋夕》", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "星座"}},
-  {"id": "lit_09", "text": "长恨春归无觅处，不知转入此中来", "source": "白居易《大林寺桃花》", "tags": {"moods": ["诡谲"], "domain": "literature", "theme": "时间"}},
-  {"id": "lit_10", "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下", "source": "陈子昂《登幽州台歌》", "tags": {"moods": ["苍凉", "孤寂"], "domain": "literature", "theme": "时空"}},
-  {"id": "lit_11", "text": "大漠孤烟直，长河落日圆", "source": "王维《使至塞上》", "tags": {"moods": ["辽阔", "苍凉"], "domain": "literature", "theme": "荒原"}},
-  {"id": "lit_12", "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪", "source": "柳宗元《江雪》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "literature", "theme": "寂灭"}},
-  {"id": "lit_13", "text": "空山不见人，但闻人语响。返景入深林，复照青苔上", "source": "王维《鹿柴》", "tags": {"moods": ["宁静", "神秘"], "domain": "literature", "theme": "空山"}},
-  {"id": "lit_14", "text": "海上生明月，天涯共此时", "source": "张九龄《望月怀远》", "tags": {"moods": ["辽阔", "希望"], "domain": "literature", "theme": "明月"}},
-  {"id": "lit_15", "text": "大江东去，浪淘尽，千古风流人物", "source": "苏轼《念奴娇·赤壁怀古》", "tags": {"moods": ["壮阔", "苍凉"], "domain": "literature", "theme": "消逝"}},
-  {"id": "lit_16", "text": "落霞与孤鹜齐飞，秋水共长天一色", "source": "王勃《滕王阁序》", "tags": {"moods": ["壮阔", "辽阔"], "domain": "literature", "theme": "长天"}},
-  {"id": "lit_17", "text": "野旷天低树，江清月近人", "source": "孟浩然《宿建德江》", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "旷野"}},
-  {"id": "lit_18", "text": "星垂平野阔，月涌大江流。名岂文章著，官应老病休", "source": "杜甫《旅夜书怀》", "tags": {"moods": ["苍凉", "辽阔"], "domain": "literature", "theme": "漂泊"}},
-  {"id": "lit_19", "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开", "source": "李白《梦游天姥吟留别》", "tags": {"moods": ["激烈", "诡谲"], "domain": "literature", "theme": "幻境"}},
-  {"id": "lit_20", "text": "飘飘何所似，天地一沙鸥", "source": "杜甫《旅夜书怀》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "literature", "theme": "漂泊"}},
-  {"id": "lit_21", "text": "何当共剪西窗烛，却话巴山夜雨时", "source": "李商隐《夜雨寄北》", "tags": {"moods": ["孤寂", "希望"], "domain": "literature", "theme": "思念"}},
-  {"id": "lit_22", "text": "沧海月明珠有泪，蓝田日暖玉生烟", "source": "李商隐《锦瑟》", "tags": {"moods": ["诡谲", "苍凉"], "domain": "literature", "theme": "迷惘"}},
-  {"id": "lit_23", "text": "此情可待成追忆，只是当时已惘然", "source": "李商隐《锦瑟》", "tags": {"moods": ["苍凉", "孤寂"], "domain": "literature", "theme": "追忆"}},
-  {"id": "lit_24", "text": "无可奈何花落去，似曾相识燕归来", "source": "晏殊《浣溪沙》", "tags": {"moods": ["苍凉", "宁静"], "domain": "literature", "theme": "流逝"}},
-  {"id": "lit_25", "text": "枝上柳绵吹又少，天涯何处无芳草", "source": "苏轼《蝶恋花》", "tags": {"moods": ["希望", "辽阔"], "domain": "literature", "theme": "远方"}},
-  {"id": "lit_26", "text": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处", "source": "辛弃疾《青玉案·元夕》", "tags": {"moods": ["神秘", "希望"], "domain": "literature", "theme": "寻觅"}},
-  {"id": "lit_27", "text": "昨夜西风凋碧树，独上高楼，望尽天涯路", "source": "晏殊《蝶恋花》", "tags": {"moods": ["孤寂", "辽阔"], "domain": "literature", "theme": "远路"}},
-  {"id": "lit_28", "text": "人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟", "source": "苏轼《水调歌头》", "tags": {"moods": ["苍凉", "希望"], "domain": "literature", "theme": "月圆"}},
-  {"id": "lit_29", "text": "盈盈一水间，脉脉不得语", "source": "古诗十九首《迢迢牵牛星》", "tags": {"moods": ["孤寂", "宁静"], "domain": "literature", "theme": "相望"}},
-  {"id": "lit_30", "text": "长风破浪会有时，直挂云帆济沧海", "source": "李白《行路难》", "tags": {"moods": ["壮阔", "激越"], "domain": "literature", "theme": "远航"}},
-  {"id": "lit_31", "text": "明月松间照，清泉石上流", "source": "王维《山居秋暝》", "tags": {"moods": ["宁静", "神秘"], "domain": "literature", "theme": "山林"}},
-  {"id": "lit_32", "text": "黄河之水天上来，奔流到海不复回", "source": "李白《将进酒》", "tags": {"moods": ["壮阔", "激烈"], "domain": "literature", "theme": "奔流"}},
-  {"id": "lit_33", "text": "孤帆远影碧空尽，唯见长江天际流", "source": "李白《黄鹤楼送孟浩然之广陵》", "tags": {"moods": ["辽阔", "孤寂"], "domain": "literature", "theme": "远去"}},
-  {"id": "lit_34", "text": "行到水穷处，坐看云起时", "source": "王维《终南别业》", "tags": {"moods": ["宁静", "神秘"], "domain": "literature", "theme": "顿悟"}},
-  {"id": "lit_35", "text": "不知乘月几人归，落月摇情满江树", "source": "张若虚《春江花月夜》", "tags": {"moods": ["孤寂", "诡谲"], "domain": "literature", "theme": "月落"}},
-  {"id": "lit_36", "text": "江畔何人初见月，江月何年初照人。人生代代无穷已，江月年年望相似", "source": "张若虚《春江花月夜》", "tags": {"moods": ["苍凉", "辽阔"], "domain": "literature", "theme": "永恒"}},
-  {"id": "lit_37", "text": "不知何处吹芦管，一夜征人尽望乡", "source": "李益《夜上受降城闻笛》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "literature", "theme": "乡愁"}},
-  {"id": "lit_38", "text": "黑云压城城欲摧，甲光向日金鳞开", "source": "李贺《雁门太守行》", "tags": {"moods": ["激烈", "壮阔"], "domain": "literature", "theme": "压城"}},
-  {"id": "lit_39", "text": "嫦娥应悔偷灵药，碧海青天夜夜心", "source": "李商隐《嫦娥》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "literature", "theme": "悔恨"}},
-  {"id": "lit_40", "text": "星稀月明，乌鹊南飞。绕树三匝，何枝可依", "source": "曹操《短歌行》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "literature", "theme": "无依"}}
+  {
+    "id": "lit_01",
+    "text": "星垂平野阔，月涌大江流",
+    "source": "杜甫《旅夜书怀》",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "星空",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_02",
+    "text": "天接云涛连晓雾，星河欲转千帆舞",
+    "source": "李清照《渔家傲》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "domain": "literature",
+      "theme": "星河",
+      "intensity": 4,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_03",
+    "text": "迢迢牵牛星，皎皎河汉女",
+    "source": "古诗十九首",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "星座",
+      "intensity": 2,
+      "era": "汉"
+    }
+  },
+  {
+    "id": "lit_04",
+    "text": "醉后不知天在水，满船清梦压星河",
+    "source": "唐温如《题龙阳县青草湖》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "诡谲"
+      ],
+      "domain": "literature",
+      "theme": "星河",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_05",
+    "text": "七八个星天外，两三点雨山前",
+    "source": "辛弃疾《西江月》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "domain": "literature",
+      "theme": "星空",
+      "intensity": 2,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_06",
+    "text": "危楼高百尺，手可摘星辰",
+    "source": "李白《夜宿山寺》",
+    "tags": {
+      "moods": [
+        "壮阔"
+      ],
+      "domain": "literature",
+      "theme": "星辰",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_07",
+    "text": "日月之行，若出其中；星汉灿烂，若出其里",
+    "source": "曹操《观沧海》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "星汉",
+      "intensity": 4,
+      "era": "汉魏"
+    }
+  },
+  {
+    "id": "lit_08",
+    "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+    "source": "杜牧《秋夕》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "星座",
+      "intensity": 2,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_09",
+    "text": "长恨春归无觅处，不知转入此中来",
+    "source": "白居易《大林寺桃花》",
+    "tags": {
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "literature",
+      "theme": "时间",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_10",
+    "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下",
+    "source": "陈子昂《登幽州台歌》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "literature",
+      "theme": "时空",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_11",
+    "text": "大漠孤烟直，长河落日圆",
+    "source": "王维《使至塞上》",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "荒原",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_12",
+    "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪",
+    "source": "柳宗元《江雪》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "寂灭",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_13",
+    "text": "空山不见人，但闻人语响。返景入深林，复照青苔上",
+    "source": "王维《鹿柴》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "神秘"
+      ],
+      "domain": "literature",
+      "theme": "空山",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_14",
+    "text": "海上生明月，天涯共此时",
+    "source": "张九龄《望月怀远》",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "希望"
+      ],
+      "domain": "literature",
+      "theme": "明月",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_15",
+    "text": "大江东去，浪淘尽，千古风流人物",
+    "source": "苏轼《念奴娇·赤壁怀古》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "消逝",
+      "intensity": 4,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_16",
+    "text": "落霞与孤鹜齐飞，秋水共长天一色",
+    "source": "王勃《滕王阁序》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "长天",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_17",
+    "text": "野旷天低树，江清月近人",
+    "source": "孟浩然《宿建德江》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "旷野",
+      "intensity": 2,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_18",
+    "text": "星垂平野阔，月涌大江流。名岂文章著，官应老病休",
+    "source": "杜甫《旅夜书怀》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "漂泊",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_19",
+    "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开",
+    "source": "李白《梦游天姥吟留别》",
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "literature",
+      "theme": "幻境",
+      "intensity": 5,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_20",
+    "text": "飘飘何所似，天地一沙鸥",
+    "source": "杜甫《旅夜书怀》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "漂泊",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_21",
+    "text": "何当共剪西窗烛，却话巴山夜雨时",
+    "source": "李商隐《夜雨寄北》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望"
+      ],
+      "domain": "literature",
+      "theme": "思念",
+      "intensity": 2,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_22",
+    "text": "沧海月明珠有泪，蓝田日暖玉生烟",
+    "source": "李商隐《锦瑟》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "迷惘",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_23",
+    "text": "此情可待成追忆，只是当时已惘然",
+    "source": "李商隐《锦瑟》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "literature",
+      "theme": "追忆",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_24",
+    "text": "无可奈何花落去，似曾相识燕归来",
+    "source": "晏殊《浣溪沙》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "流逝",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_25",
+    "text": "枝上柳绵吹又少，天涯何处无芳草",
+    "source": "苏轼《蝶恋花》",
+    "tags": {
+      "moods": [
+        "希望",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "远方",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_26",
+    "text": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处",
+    "source": "辛弃疾《青玉案·元夕》",
+    "tags": {
+      "moods": [
+        "神秘",
+        "希望"
+      ],
+      "domain": "literature",
+      "theme": "寻觅",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_27",
+    "text": "昨夜西风凋碧树，独上高楼，望尽天涯路",
+    "source": "晏殊《蝶恋花》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "远路",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_28",
+    "text": "人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟",
+    "source": "苏轼《水调歌头》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望"
+      ],
+      "domain": "literature",
+      "theme": "月圆",
+      "intensity": 3,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_29",
+    "text": "盈盈一水间，脉脉不得语",
+    "source": "古诗十九首《迢迢牵牛星》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "相望",
+      "intensity": 2,
+      "era": "汉"
+    }
+  },
+  {
+    "id": "lit_30",
+    "text": "长风破浪会有时，直挂云帆济沧海",
+    "source": "李白《行路难》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "domain": "literature",
+      "theme": "远航",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_31",
+    "text": "明月松间照，清泉石上流",
+    "source": "王维《山居秋暝》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "神秘"
+      ],
+      "domain": "literature",
+      "theme": "山林",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_32",
+    "text": "黄河之水天上来，奔流到海不复回",
+    "source": "李白《将进酒》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "literature",
+      "theme": "奔流",
+      "intensity": 5,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_33",
+    "text": "孤帆远影碧空尽，唯见长江天际流",
+    "source": "李白《黄鹤楼送孟浩然之广陵》",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "孤寂"
+      ],
+      "domain": "literature",
+      "theme": "远去",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_34",
+    "text": "行到水穷处，坐看云起时",
+    "source": "王维《终南别业》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "神秘"
+      ],
+      "domain": "literature",
+      "theme": "顿悟",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_35",
+    "text": "不知乘月几人归，落月摇情满江树",
+    "source": "张若虚《春江花月夜》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "domain": "literature",
+      "theme": "月落",
+      "intensity": 4,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_36",
+    "text": "江畔何人初见月，江月何年初照人。人生代代无穷已，江月年年望相似",
+    "source": "张若虚《春江花月夜》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔"
+      ],
+      "domain": "literature",
+      "theme": "永恒",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_37",
+    "text": "不知何处吹芦管，一夜征人尽望乡",
+    "source": "李益《夜上受降城闻笛》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "乡愁",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_38",
+    "text": "黑云压城城欲摧，甲光向日金鳞开",
+    "source": "李贺《雁门太守行》",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "literature",
+      "theme": "压城",
+      "intensity": 5,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_39",
+    "text": "嫦娥应悔偷灵药，碧海青天夜夜心",
+    "source": "李商隐《嫦娥》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "悔恨",
+      "intensity": 3,
+      "era": "唐"
+    }
+  },
+  {
+    "id": "lit_40",
+    "text": "星稀月明，乌鹊南飞。绕树三匝，何枝可依",
+    "source": "曹操《短歌行》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "literature",
+      "theme": "无依",
+      "intensity": 3,
+      "era": "汉魏"
+    }
+  }
 ]

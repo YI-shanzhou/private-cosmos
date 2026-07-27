@@ -208,5 +208,19 @@
     "event": "genesis",
     "body_id": "body_0030",
     "summary": "第30纪元：philosophy×art碰撞，诞生星云「茫时间·壮阔」"
+  },
+  {
+    "epoch": 31,
+    "timestamp": "2026-07-27T18:52:04",
+    "event": "genesis",
+    "body_id": "body_0031",
+    "summary": "第31纪元：science×philosophy碰撞，诞生星系「焰热寂·辽阔」"
+  },
+  {
+    "epoch": 32,
+    "timestamp": "2026-07-27T18:52:07",
+    "event": "genesis",
+    "body_id": "body_0032",
+    "summary": "第32纪元：literature×astronomy碰撞，诞生星系「尘星河·壮阔」"
   }
 ]

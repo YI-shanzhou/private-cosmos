@@ -1,32 +1,480 @@
 [
-  {"id": "mus_01", "title": "月光奏鸣曲第一乐章", "composer": "贝多芬", "tags": {"moods": ["孤寂", "苍凉"], "domain": "art", "genre": "古典", "theme": "月夜"}},
-  {"id": "mus_02", "title": "致爱丽丝", "composer": "贝多芬", "tags": {"moods": ["宁静"], "domain": "art", "genre": "古典", "theme": "柔情"}},
-  {"id": "mus_03", "title": "G 弦上的咏叹调", "composer": "巴赫", "tags": {"moods": ["宁静", "壮阔"], "domain": "art", "genre": "巴洛克", "theme": "崇高"}},
-  {"id": "mus_04", "title": "幻想即兴曲", "composer": "肖邦", "tags": {"moods": ["激越", "诡谲"], "domain": "art", "genre": "浪漫", "theme": "幻象"}},
-  {"id": "mus_05", "title": "天鹅湖", "composer": "柴可夫斯基", "tags": {"moods": ["苍凉", "壮阔"], "domain": "art", "genre": "浪漫", "theme": "悲剧"}},
-  {"id": "mus_06", "title": "春之祭", "composer": "斯特拉文斯基", "tags": {"moods": ["激烈", "诡谲"], "domain": "art", "genre": "现代", "theme": "原始"}},
-  {"id": "mus_07", "title": "星空", "composer": "德彪西", "tags": {"moods": ["宁静", "辽阔"], "domain": "art", "genre": "印象", "theme": "夜空"}},
-  {"id": "mus_08", "title": "平均律 BWV846", "composer": "巴赫", "tags": {"moods": ["宁静"], "domain": "art", "genre": "巴洛克", "theme": "秩序"}},
-  {"id": "mus_09", "title": "第九交响曲·欢乐颂", "composer": "贝多芬", "tags": {"moods": ["壮阔", "激越"], "domain": "art", "genre": "古典", "theme": "崇高"}},
-  {"id": "mus_10", "title": "孤独的牧羊人", "composer": "传统民谣", "tags": {"moods": ["孤寂", "苍凉"], "domain": "art", "genre": "民谣", "theme": "旷野"}},
-  {"id": "mus_11", "title": "悲怆奏鸣曲第二乐章", "composer": "贝多芬", "tags": {"moods": ["苍凉", "希望"], "domain": "art", "genre": "古典", "theme": "悲悯"}},
-  {"id": "mus_12", "title": "夜曲 Op.9 No.2", "composer": "肖邦", "tags": {"moods": ["宁静", "孤寂"], "domain": "art", "genre": "浪漫", "theme": "夜色"}},
-  {"id": "mus_13", "title": "大海", "composer": "德彪西", "tags": {"moods": ["壮阔", "辽阔"], "domain": "art", "genre": "印象", "theme": "海浪"}},
-  {"id": "mus_14", "title": "牧神午后前奏曲", "composer": "德彪西", "tags": {"moods": ["诡谲", "宁静"], "domain": "art", "genre": "印象", "theme": "幻梦"}},
-  {"id": "mus_15", "title": "第五交响曲·命运", "composer": "贝多芬", "tags": {"moods": ["激烈", "壮阔"], "domain": "art", "genre": "古典", "theme": "命运"}},
-  {"id": "mus_16", "title": "g小调第一叙事曲", "composer": "肖邦", "tags": {"moods": ["苍凉", "激越"], "domain": "art", "genre": "浪漫", "theme": "叙事"}},
-  {"id": "mus_17", "title": "哥德堡变奏曲", "composer": "巴赫", "tags": {"moods": ["宁静", "神秘"], "domain": "art", "genre": "巴洛克", "theme": "沉思"}},
-  {"id": "mus_18", "title": "查拉图斯特拉如是说", "composer": "理查·施特劳斯", "tags": {"moods": ["壮阔", "神秘"], "domain": "art", "genre": "浪漫", "theme": "超人"}},
-  {"id": "mus_19", "title": "霍尔斯特·行星组曲：木星", "composer": "霍尔斯特", "tags": {"moods": ["壮阔", "希望"], "domain": "art", "genre": "现代", "theme": "行星"}},
-  {"id": "mus_20", "title": "图兰朵·今夜无人入睡", "composer": "普契尼", "tags": {"moods": ["激越", "希望"], "domain": "art", "genre": "歌剧", "theme": "渴望"}},
-  {"id": "mus_21", "title": "维瓦尔第·冬·第一乐章", "composer": "维瓦尔第", "tags": {"moods": ["激烈", "苍凉"], "domain": "art", "genre": "巴洛克", "theme": "寒冬"}},
-  {"id": "mus_22", "title": "马勒·第五交响曲·小柔板", "composer": "马勒", "tags": {"moods": ["苍凉", "希望"], "domain": "art", "genre": "浪漫", "theme": "告别"}},
-  {"id": "mus_23", "title": "拉赫玛尼诺夫·第二钢琴协奏曲", "composer": "拉赫玛尼诺夫", "tags": {"moods": ["壮阔", "苍凉"], "domain": "art", "genre": "浪漫", "theme": "重生"}},
-  {"id": "mus_24", "title": "高山流水", "composer": "古曲", "tags": {"moods": ["辽阔", "宁静"], "domain": "art", "genre": "古琴", "theme": "知音"}},
-  {"id": "mus_25", "title": "十面埋伏", "composer": "古曲", "tags": {"moods": ["激烈", "诡谲"], "domain": "art", "genre": "琵琶", "theme": "战场"}},
-  {"id": "mus_26", "title": "二泉映月", "composer": "阿炳", "tags": {"moods": ["孤寂", "苍凉"], "domain": "art", "genre": "二胡", "theme": "月下"}},
-  {"id": "mus_27", "title": "梅花三弄", "composer": "古曲", "tags": {"moods": ["宁静", "孤寂"], "domain": "art", "genre": "古琴", "theme": "傲骨"}},
-  {"id": "mus_28", "title": "荒山之夜", "composer": "穆索尔斯基", "tags": {"moods": ["诡谲", "激烈"], "domain": "art", "genre": "民族", "theme": "巫夜"}},
-  {"id": "mus_29", "title": "帕赫贝尔·卡农", "composer": "帕赫贝尔", "tags": {"moods": ["宁静", "希望"], "domain": "art", "genre": "巴洛克", "theme": "永恒"}},
-  {"id": "mus_30", "title": "萨蒂·第一号裸体舞曲", "composer": "萨蒂", "tags": {"moods": ["孤寂", "神秘"], "domain": "art", "genre": "极简", "theme": "幽暗"}}
+  {
+    "id": "mus_01",
+    "title": "月光奏鸣曲第一乐章",
+    "composer": "贝多芬",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "art",
+      "genre": "古典",
+      "theme": "月夜",
+      "intensity": 3,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_02",
+    "title": "致爱丽丝",
+    "composer": "贝多芬",
+    "tags": {
+      "moods": [
+        "宁静"
+      ],
+      "domain": "art",
+      "genre": "古典",
+      "theme": "柔情",
+      "intensity": 1,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_03",
+    "title": "G 弦上的咏叹调",
+    "composer": "巴赫",
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔"
+      ],
+      "domain": "art",
+      "genre": "巴洛克",
+      "theme": "崇高",
+      "intensity": 3,
+      "era": "巴洛克"
+    }
+  },
+  {
+    "id": "mus_04",
+    "title": "幻想即兴曲",
+    "composer": "肖邦",
+    "tags": {
+      "moods": [
+        "激越",
+        "诡谲"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "幻象",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_05",
+    "title": "天鹅湖",
+    "composer": "柴可夫斯基",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "悲剧",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_06",
+    "title": "春之祭",
+    "composer": "斯特拉文斯基",
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "art",
+      "genre": "现代",
+      "theme": "原始",
+      "intensity": 5,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "mus_07",
+    "title": "星空",
+    "composer": "德彪西",
+    "tags": {
+      "moods": [
+        "宁静",
+        "辽阔"
+      ],
+      "domain": "art",
+      "genre": "印象",
+      "theme": "夜空",
+      "intensity": 3,
+      "era": "印象"
+    }
+  },
+  {
+    "id": "mus_08",
+    "title": "平均律 BWV846",
+    "composer": "巴赫",
+    "tags": {
+      "moods": [
+        "宁静"
+      ],
+      "domain": "art",
+      "genre": "巴洛克",
+      "theme": "秩序",
+      "intensity": 1,
+      "era": "巴洛克"
+    }
+  },
+  {
+    "id": "mus_09",
+    "title": "第九交响曲·欢乐颂",
+    "composer": "贝多芬",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "domain": "art",
+      "genre": "古典",
+      "theme": "崇高",
+      "intensity": 4,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_10",
+    "title": "孤独的牧羊人",
+    "composer": "传统民谣",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "art",
+      "genre": "民谣",
+      "theme": "旷野",
+      "intensity": 3,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_11",
+    "title": "悲怆奏鸣曲第二乐章",
+    "composer": "贝多芬",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望"
+      ],
+      "domain": "art",
+      "genre": "古典",
+      "theme": "悲悯",
+      "intensity": 3,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_12",
+    "title": "夜曲 Op.9 No.2",
+    "composer": "肖邦",
+    "tags": {
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "夜色",
+      "intensity": 2,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_13",
+    "title": "大海",
+    "composer": "德彪西",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "art",
+      "genre": "印象",
+      "theme": "海浪",
+      "intensity": 4,
+      "era": "印象"
+    }
+  },
+  {
+    "id": "mus_14",
+    "title": "牧神午后前奏曲",
+    "composer": "德彪西",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静"
+      ],
+      "domain": "art",
+      "genre": "印象",
+      "theme": "幻梦",
+      "intensity": 3,
+      "era": "印象"
+    }
+  },
+  {
+    "id": "mus_15",
+    "title": "第五交响曲·命运",
+    "composer": "贝多芬",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "art",
+      "genre": "古典",
+      "theme": "命运",
+      "intensity": 5,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_16",
+    "title": "g小调第一叙事曲",
+    "composer": "肖邦",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激越"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "叙事",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_17",
+    "title": "哥德堡变奏曲",
+    "composer": "巴赫",
+    "tags": {
+      "moods": [
+        "宁静",
+        "神秘"
+      ],
+      "domain": "art",
+      "genre": "巴洛克",
+      "theme": "沉思",
+      "intensity": 3,
+      "era": "巴洛克"
+    }
+  },
+  {
+    "id": "mus_18",
+    "title": "查拉图斯特拉如是说",
+    "composer": "理查·施特劳斯",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "超人",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_19",
+    "title": "霍尔斯特·行星组曲：木星",
+    "composer": "霍尔斯特",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望"
+      ],
+      "domain": "art",
+      "genre": "现代",
+      "theme": "行星",
+      "intensity": 4,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "mus_20",
+    "title": "图兰朵·今夜无人入睡",
+    "composer": "普契尼",
+    "tags": {
+      "moods": [
+        "激越",
+        "希望"
+      ],
+      "domain": "art",
+      "genre": "歌剧",
+      "theme": "渴望",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_21",
+    "title": "维瓦尔第·冬·第一乐章",
+    "composer": "维瓦尔第",
+    "tags": {
+      "moods": [
+        "激烈",
+        "苍凉"
+      ],
+      "domain": "art",
+      "genre": "巴洛克",
+      "theme": "寒冬",
+      "intensity": 5,
+      "era": "巴洛克"
+    }
+  },
+  {
+    "id": "mus_22",
+    "title": "马勒·第五交响曲·小柔板",
+    "composer": "马勒",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "告别",
+      "intensity": 3,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_23",
+    "title": "拉赫玛尼诺夫·第二钢琴协奏曲",
+    "composer": "拉赫玛尼诺夫",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "art",
+      "genre": "浪漫",
+      "theme": "重生",
+      "intensity": 4,
+      "era": "浪漫"
+    }
+  },
+  {
+    "id": "mus_24",
+    "title": "高山流水",
+    "composer": "古曲",
+    "tags": {
+      "moods": [
+        "辽阔",
+        "宁静"
+      ],
+      "domain": "art",
+      "genre": "古琴",
+      "theme": "知音",
+      "intensity": 3,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_25",
+    "title": "十面埋伏",
+    "composer": "古曲",
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "art",
+      "genre": "琵琶",
+      "theme": "战场",
+      "intensity": 5,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_26",
+    "title": "二泉映月",
+    "composer": "阿炳",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "art",
+      "genre": "二胡",
+      "theme": "月下",
+      "intensity": 3,
+      "era": "现代"
+    }
+  },
+  {
+    "id": "mus_27",
+    "title": "梅花三弄",
+    "composer": "古曲",
+    "tags": {
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "domain": "art",
+      "genre": "古琴",
+      "theme": "傲骨",
+      "intensity": 2,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_28",
+    "title": "荒山之夜",
+    "composer": "穆索尔斯基",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激烈"
+      ],
+      "domain": "art",
+      "genre": "民族",
+      "theme": "巫夜",
+      "intensity": 5,
+      "era": "古典"
+    }
+  },
+  {
+    "id": "mus_29",
+    "title": "帕赫贝尔·卡农",
+    "composer": "帕赫贝尔",
+    "tags": {
+      "moods": [
+        "宁静",
+        "希望"
+      ],
+      "domain": "art",
+      "genre": "巴洛克",
+      "theme": "永恒",
+      "intensity": 2,
+      "era": "巴洛克"
+    }
+  },
+  {
+    "id": "mus_30",
+    "title": "萨蒂·第一号裸体舞曲",
+    "composer": "萨蒂",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "神秘"
+      ],
+      "domain": "art",
+      "genre": "极简",
+      "theme": "幽暗",
+      "intensity": 3,
+      "era": "现代"
+    }
+  }
 ]

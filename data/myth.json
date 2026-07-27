@@ -1,32 +1,450 @@
 [
-  {"id": "myth_01", "text": "盘古开天，混沌初开，清气上升为天，浊气下沉为地", "source": "中国神话", "tags": {"moods": ["壮阔"], "domain": "myth", "theme": "创世"}},
-  {"id": "myth_02", "text": "夸父逐日，渴死途中，手杖化为桃林", "source": "中国神话", "tags": {"moods": ["苍凉", "激越"], "domain": "myth", "theme": "追逐"}},
-  {"id": "myth_03", "text": "女娲炼五色石补天，断鳌足以立四极", "source": "中国神话", "tags": {"moods": ["壮阔"], "domain": "myth", "theme": "修补"}},
-  {"id": "myth_04", "text": "后羿射九日，留其一以照人间", "source": "中国神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "英雄"}},
-  {"id": "myth_05", "text": "嫦娥奔月，窃不死之药，居广寒宫", "source": "中国神话", "tags": {"moods": ["孤寂", "诡谲"], "domain": "myth", "theme": "孤独"}},
-  {"id": "myth_06", "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬", "source": "北欧神话", "tags": {"moods": ["诡谲", "苍凉"], "domain": "myth", "theme": "世界树"}},
-  {"id": "myth_07", "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海", "source": "北欧神话", "tags": {"moods": ["激烈", "苍凉"], "domain": "myth", "theme": "末日"}},
-  {"id": "myth_08", "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏", "source": "希腊神话", "tags": {"moods": ["苍凉", "壮阔"], "domain": "myth", "theme": "牺牲"}},
-  {"id": "myth_09", "text": "西西弗斯推石上山，石头日日滚落，永无止境", "source": "希腊神话", "tags": {"moods": ["苍凉", "孤寂"], "domain": "myth", "theme": "永恒"}},
-  {"id": "myth_10", "text": "那伽吞食日月，造成食相，人击鼓驱之", "source": "印度神话", "tags": {"moods": ["诡谲", "激烈"], "domain": "myth", "theme": "吞食"}},
-  {"id": "myth_11", "text": "精卫衔微木填东海，常衔西山之木石，至死不辍", "source": "中国神话", "tags": {"moods": ["苍凉", "激越"], "domain": "myth", "theme": "执念"}},
-  {"id": "myth_12", "text": "刑天与帝争神，帝断其首，葬之常羊之山，以乳为目，以脐为口，操干戚以舞", "source": "中国神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "不屈"}},
-  {"id": "myth_13", "text": "共工怒触不周山，天柱折，地维绝，天倾西北，地陷东南", "source": "中国神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "怒触"}},
-  {"id": "myth_14", "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次", "source": "中国神话", "tags": {"moods": ["孤寂", "希望"], "domain": "myth", "theme": "相思"}},
-  {"id": "myth_15", "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊", "source": "中国神话", "tags": {"moods": ["苍凉", "壮阔"], "domain": "myth", "theme": "治水"}},
-  {"id": "myth_16", "text": "俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽冥", "source": "希腊神话", "tags": {"moods": ["苍凉", "孤寂"], "domain": "myth", "theme": "回望"}},
-  {"id": "myth_17", "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海", "source": "希腊神话", "tags": {"moods": ["激越", "苍凉"], "domain": "myth", "theme": "坠落"}},
-  {"id": "myth_18", "text": "潘多拉打开魔盒，灾厄涌出，唯余希望留于盒底", "source": "希腊神话", "tags": {"moods": ["诡谲", "希望"], "domain": "myth", "theme": "释放"}},
-  {"id": "myth_19", "text": "那耳喀索斯凝视水中倒影，至死不移，化作水仙", "source": "希腊神话", "tags": {"moods": ["孤寂", "诡谲"], "domain": "myth", "theme": "自恋"}},
-  {"id": "myth_20", "text": "坦塔罗斯立水中，水退至颌下；头顶果实，风起即远", "source": "希腊神话", "tags": {"moods": ["苍凉", "诡谲"], "domain": "myth", "theme": "渴望"}},
-  {"id": "myth_21", "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知", "source": "北欧神话", "tags": {"moods": ["苍凉", "神秘"], "domain": "myth", "theme": "献祭"}},
-  {"id": "myth_22", "text": "索尔锤击巨蛇耶梦加得，双方同归于尽", "source": "北欧神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "决战"}},
-  {"id": "myth_23", "text": "女武神瓦尔基里骑飞马穿越战场，引领英灵入英灵殿", "source": "北欧神话", "tags": {"moods": ["壮阔", "激越"], "domain": "myth", "theme": "引魂"}},
-  {"id": "myth_24", "text": "湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，宇宙在其足下震颤", "source": "印度神话", "tags": {"moods": ["激烈", "壮阔"], "domain": "myth", "theme": "毁灭与新生"}},
-  {"id": "myth_25", "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭", "source": "印度神话", "tags": {"moods": ["壮阔", "神秘"], "domain": "myth", "theme": "呼吸"}},
-  {"id": "myth_26", "text": "须弥山屹于世界中央，日月绕行，四天王镇守四方", "source": "印度/佛教神话", "tags": {"moods": ["壮阔", "辽阔"], "domain": "myth", "theme": "中心"}},
-  {"id": "myth_27", "text": "天照大神隐入天岩户，天地陷入永暗，众神以镜引其出", "source": "日本神话", "tags": {"moods": ["诡谲", "希望"], "domain": "myth", "theme": "隐匿"}},
-  {"id": "myth_28", "text": "伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁，巨石堵黄泉比良坂", "source": "日本神话", "tags": {"moods": ["诡谲", "苍凉"], "domain": "myth", "theme": "生死别"}},
-  {"id": "myth_29", "text": "阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒田野", "source": "埃及神话", "tags": {"moods": ["神秘", "苍凉"], "domain": "myth", "theme": "审判"}},
-  {"id": "myth_30", "text": "凤凰集香木自焚，三日三夜，从灰烬中重生", "source": "跨文化神话", "tags": {"moods": ["激烈", "希望"], "domain": "myth", "theme": "涅槃"}}
+  {
+    "id": "myth_01",
+    "text": "盘古开天，混沌初开，清气上升为天，浊气下沉为地",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "创世",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_02",
+    "text": "夸父逐日，渴死途中，手杖化为桃林",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激越"
+      ],
+      "domain": "myth",
+      "theme": "追逐",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_03",
+    "text": "女娲炼五色石补天，断鳌足以立四极",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "修补",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_04",
+    "text": "后羿射九日，留其一以照人间",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "英雄",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_05",
+    "text": "嫦娥奔月，窃不死之药，居广寒宫",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "domain": "myth",
+      "theme": "孤独",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_06",
+    "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬",
+    "source": "北欧神话",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "myth",
+      "theme": "世界树",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_07",
+    "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+    "source": "北欧神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "苍凉"
+      ],
+      "domain": "myth",
+      "theme": "末日",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_08",
+    "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "牺牲",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_09",
+    "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "myth",
+      "theme": "永恒",
+      "intensity": 3,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_10",
+    "text": "那伽吞食日月，造成食相，人击鼓驱之",
+    "source": "印度神话",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激烈"
+      ],
+      "domain": "myth",
+      "theme": "吞食",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_11",
+    "text": "精卫衔微木填东海，常衔西山之木石，至死不辍",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激越"
+      ],
+      "domain": "myth",
+      "theme": "执念",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_12",
+    "text": "刑天与帝争神，帝断其首，葬之常羊之山，以乳为目，以脐为口，操干戚以舞",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "不屈",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_13",
+    "text": "共工怒触不周山，天柱折，地维绝，天倾西北，地陷东南",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "怒触",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_14",
+    "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望"
+      ],
+      "domain": "myth",
+      "theme": "相思",
+      "intensity": 2,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_15",
+    "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+    "source": "中国神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "治水",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_16",
+    "text": "俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽冥",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "myth",
+      "theme": "回望",
+      "intensity": 3,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_17",
+    "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "激越",
+        "苍凉"
+      ],
+      "domain": "myth",
+      "theme": "坠落",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_18",
+    "text": "潘多拉打开魔盒，灾厄涌出，唯余希望留于盒底",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望"
+      ],
+      "domain": "myth",
+      "theme": "释放",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_19",
+    "text": "那耳喀索斯凝视水中倒影，至死不移，化作水仙",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "domain": "myth",
+      "theme": "自恋",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_20",
+    "text": "坦塔罗斯立水中，水退至颌下；头顶果实，风起即远",
+    "source": "希腊神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲"
+      ],
+      "domain": "myth",
+      "theme": "渴望",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_21",
+    "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知",
+    "source": "北欧神话",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘"
+      ],
+      "domain": "myth",
+      "theme": "献祭",
+      "intensity": 3,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_22",
+    "text": "索尔锤击巨蛇耶梦加得，双方同归于尽",
+    "source": "北欧神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "决战",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_23",
+    "text": "女武神瓦尔基里骑飞马穿越战场，引领英灵入英灵殿",
+    "source": "北欧神话",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "domain": "myth",
+      "theme": "引魂",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_24",
+    "text": "湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，宇宙在其足下震颤",
+    "source": "印度神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "myth",
+      "theme": "毁灭与新生",
+      "intensity": 5,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_25",
+    "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+    "source": "印度神话",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "domain": "myth",
+      "theme": "呼吸",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_26",
+    "text": "须弥山屹于世界中央，日月绕行，四天王镇守四方",
+    "source": "印度/佛教神话",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "myth",
+      "theme": "中心",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_27",
+    "text": "天照大神隐入天岩户，天地陷入永暗，众神以镜引其出",
+    "source": "日本神话",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望"
+      ],
+      "domain": "myth",
+      "theme": "隐匿",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_28",
+    "text": "伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁，巨石堵黄泉比良坂",
+    "source": "日本神话",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "myth",
+      "theme": "生死别",
+      "intensity": 4,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_29",
+    "text": "阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒田野",
+    "source": "埃及神话",
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉"
+      ],
+      "domain": "myth",
+      "theme": "审判",
+      "intensity": 3,
+      "era": "上古"
+    }
+  },
+  {
+    "id": "myth_30",
+    "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+    "source": "跨文化神话",
+    "tags": {
+      "moods": [
+        "激烈",
+        "希望"
+      ],
+      "domain": "myth",
+      "theme": "涅槃",
+      "intensity": 4,
+      "era": "上古"
+    }
+  }
 ]

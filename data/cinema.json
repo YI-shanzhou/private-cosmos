@@ -1,32 +1,482 @@
 [
-  {"id": "cin_01", "text": "宇航员穿越星际虫洞，在五维空间中看见女儿房间书架后的时间线条", "source": "《星际穿越》", "tags": {"moods": ["壮阔", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "五维"}},
-  {"id": "cin_02", "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星", "source": "《2001太空漫游》", "tags": {"moods": ["神秘", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "巨石"}},
-  {"id": "cin_03", "text": "地球的最后夜晚，主角在废墟城市中点燃最后一盏灯", "source": "《地球最后的夜晚》", "tags": {"moods": ["苍凉", "孤寂"], "domain": "cinema", "genre": "文艺", "theme": "废墟"}},
-  {"id": "cin_04", "text": "雨中的赛博朋克城市，霓虹倒映在积水的街道上，复制人在雨中述说看见的奇观", "source": "《银翼杀手》", "tags": {"moods": ["苍凉", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "雨夜"}},
-  {"id": "cin_05", "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转", "source": "《盗梦空间》", "tags": {"moods": ["激烈", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "失重"}},
-  {"id": "cin_06", "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪", "source": "《沙丘》", "tags": {"moods": ["壮阔", "激烈"], "domain": "cinema", "genre": "科幻", "theme": "沙虫"}},
-  {"id": "cin_07", "text": "太空舱外，地球在脚下缓缓旋转，宇航员在无尽寂静中坠落", "source": "《地心引力》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "cinema", "genre": "科幻", "theme": "失联"}},
-  {"id": "cin_08", "text": "男主角在时光倒流的火车站中奔跑，试图回到过去的某一刻", "source": "《逆世界》", "tags": {"moods": ["孤寂", "希望"], "domain": "cinema", "genre": "科幻", "theme": "逆流"}},
-  {"id": "cin_09", "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组", "source": "《湮灭》", "tags": {"moods": ["诡谲", "神秘"], "domain": "cinema", "genre": "科幻", "theme": "湮灭"}},
-  {"id": "cin_10", "text": "男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待一个不回来的人", "source": "《一代宗师》", "tags": {"moods": ["孤寂", "苍凉"], "domain": "cinema", "genre": "武侠", "theme": "等候"}},
-  {"id": "cin_11", "text": "末路英雄在荒原上独行，身后是无尽的尘土和落日", "source": "《疯狂的麦克斯》", "tags": {"moods": ["苍凉", "激烈"], "domain": "cinema", "genre": "动作", "theme": "荒原"}},
-  {"id": "cin_12", "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切", "source": "《海上钢琴师》", "tags": {"moods": ["苍凉", "宁静"], "domain": "cinema", "genre": "文艺", "theme": "沉没"}},
-  {"id": "cin_13", "text": "主角在永夜的城市中追逐一束光，光是唯一的出口", "source": "《楚门的世界》", "tags": {"moods": ["希望", "孤寂"], "domain": "cinema", "genre": "剧情", "theme": "出口"}},
-  {"id": "cin_14", "text": "太空中的蓝色星球缓缓放大，从一粒微尘变成整个世界", "source": "《太阳浩劫》", "tags": {"moods": ["壮阔", "希望"], "domain": "cinema", "genre": "科幻", "theme": "归航"}},
-  {"id": "cin_15", "text": "外星飞船遮蔽整个城市上空，云层中投下巨大的阴影", "source": "《独立日》", "tags": {"moods": ["激烈", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "降临"}},
-  {"id": "cin_16", "text": "女主角站在雪山之巅张开双臂，风将她的围巾吹成长长的飘带", "source": "《白日梦想家》", "tags": {"moods": ["壮阔", "希望"], "domain": "cinema", "genre": "冒险", "theme": "飞翔"}},
-  {"id": "cin_17", "text": "墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸回梦境", "source": "《黑客帝国》", "tags": {"moods": ["诡谲", "希望"], "domain": "cinema", "genre": "科幻", "theme": "选择"}},
-  {"id": "cin_18", "text": "废弃空间站中一株植物在暗光中独自生长，是宇宙中最后的绿色", "source": "《月球》", "tags": {"moods": ["孤寂", "希望"], "domain": "cinema", "genre": "科幻", "theme": "最后绿意"}},
-  {"id": "cin_19", "text": "少年在星空下的麦田中奔跑，追逐一架消失在云层的飞机", "source": "《菊次郎的夏天》", "tags": {"moods": ["宁静", "孤寂"], "domain": "cinema", "genre": "文艺", "theme": "追跑"}},
-  {"id": "cin_20", "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬", "source": "《迷雾》", "tags": {"moods": ["诡谲", "苍凉"], "domain": "cinema", "genre": "恐怖", "theme": "吞噬"}},
-  {"id": "cin_21", "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开", "source": "《彗星来的那一夜》", "tags": {"moods": ["诡谲", "神秘"], "domain": "cinema", "genre": "科幻", "theme": "平行"}},
-  {"id": "cin_22", "text": "末世废土上，一辆卡车载着最后的种子驶向远方的山", "source": "《疯狂的麦克斯4》", "tags": {"moods": ["苍凉", "希望"], "domain": "cinema", "genre": "动作", "theme": "种子"}},
-  {"id": "cin_23", "text": "时间静止的街道上，只有主角一人在走，橱窗里的模特仿佛在注视", "source": "《Omega Code》", "tags": {"moods": ["孤寂", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "静止"}},
-  {"id": "cin_24", "text": "深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖出最后一道光", "source": "《深海末日》", "tags": {"moods": ["苍凉", "激烈"], "domain": "cinema", "genre": "灾难", "theme": "深潜"}},
-  {"id": "cin_25", "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤", "source": "《走出非洲》", "tags": {"moods": ["壮阔", "辽阔"], "domain": "cinema", "genre": "文艺", "theme": "奔跑"}},
-  {"id": "cin_26", "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人", "source": "《机器人总动员》", "tags": {"moods": ["孤寂", "希望"], "domain": "cinema", "genre": "动画", "theme": "等待"}},
-  {"id": "cin_27", "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方", "source": "《英雄》", "tags": {"moods": ["宁静", "壮阔"], "domain": "cinema", "genre": "武侠", "theme": "云海"}},
-  {"id": "cin_28", "text": "黑洞的吸积盘在视觉上呈现为一个旋转的火环，时间在环外被拉伸为永恒", "source": "《星际穿越》", "tags": {"moods": ["壮阔", "诡谲"], "domain": "cinema", "genre": "科幻", "theme": "火环"}},
-  {"id": "cin_29", "text": "冰冻星球上暴风雪中独行的人影，白色吞噬了一切边界", "source": "《雪国列车》", "tags": {"moods": ["苍凉", "孤寂"], "domain": "cinema", "genre": "科幻", "theme": "冰雪"}},
-  {"id": "cin_30", "text": "宇宙的尽头是一面巨大的墙，墙上有无数扇门，每扇门后是一个平行世界", "source": "《瞬息全宇宙》", "tags": {"moods": ["诡谲", "壮阔"], "domain": "cinema", "genre": "科幻", "theme": "万门"}}
+  {
+    "id": "cin_01",
+    "text": "宇航员穿越星际虫洞，在五维空间中看见女儿房间书架后的时间线条",
+    "source": "《星际穿越》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "五维",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_02",
+    "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+    "source": "《2001太空漫游》",
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "巨石",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_03",
+    "text": "地球的最后夜晚，主角在废墟城市中点燃最后一盏灯",
+    "source": "《地球最后的夜晚》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "cinema",
+      "genre": "文艺",
+      "theme": "废墟",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_04",
+    "text": "雨中的赛博朋克城市，霓虹倒映在积水的街道上，复制人在雨中述说看见的奇观",
+    "source": "《银翼杀手》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "雨夜",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_05",
+    "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转",
+    "source": "《盗梦空间》",
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "失重",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_06",
+    "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪",
+    "source": "《沙丘》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "沙虫",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_07",
+    "text": "太空舱外，地球在脚下缓缓旋转，宇航员在无尽寂静中坠落",
+    "source": "《地心引力》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "失联",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_08",
+    "text": "男主角在时光倒流的火车站中奔跑，试图回到过去的某一刻",
+    "source": "《逆世界》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "逆流",
+      "intensity": 2,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_09",
+    "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+    "source": "《湮灭》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "湮灭",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_10",
+    "text": "男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待一个不回来的人",
+    "source": "《一代宗师》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "cinema",
+      "genre": "武侠",
+      "theme": "等候",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_11",
+    "text": "末路英雄在荒原上独行，身后是无尽的尘土和落日",
+    "source": "《疯狂的麦克斯》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈"
+      ],
+      "domain": "cinema",
+      "genre": "动作",
+      "theme": "荒原",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_12",
+    "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+    "source": "《海上钢琴师》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静"
+      ],
+      "domain": "cinema",
+      "genre": "文艺",
+      "theme": "沉没",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_13",
+    "text": "主角在永夜的城市中追逐一束光，光是唯一的出口",
+    "source": "《楚门的世界》",
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂"
+      ],
+      "domain": "cinema",
+      "genre": "剧情",
+      "theme": "出口",
+      "intensity": 2,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_14",
+    "text": "太空中的蓝色星球缓缓放大，从一粒微尘变成整个世界",
+    "source": "《太阳浩劫》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "归航",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_15",
+    "text": "外星飞船遮蔽整个城市上空，云层中投下巨大的阴影",
+    "source": "《独立日》",
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "降临",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_16",
+    "text": "女主角站在雪山之巅张开双臂，风将她的围巾吹成长长的飘带",
+    "source": "《白日梦想家》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "冒险",
+      "theme": "飞翔",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_17",
+    "text": "墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸回梦境",
+    "source": "《黑客帝国》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "选择",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_18",
+    "text": "废弃空间站中一株植物在暗光中独自生长，是宇宙中最后的绿色",
+    "source": "《月球》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "最后绿意",
+      "intensity": 2,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_19",
+    "text": "少年在星空下的麦田中奔跑，追逐一架消失在云层的飞机",
+    "source": "《菊次郎的夏天》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "domain": "cinema",
+      "genre": "文艺",
+      "theme": "追跑",
+      "intensity": 2,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_20",
+    "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+    "source": "《迷雾》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉"
+      ],
+      "domain": "cinema",
+      "genre": "恐怖",
+      "theme": "吞噬",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_21",
+    "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开",
+    "source": "《彗星来的那一夜》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "平行",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_22",
+    "text": "末世废土上，一辆卡车载着最后的种子驶向远方的山",
+    "source": "《疯狂的麦克斯4》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "动作",
+      "theme": "种子",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_23",
+    "text": "时间静止的街道上，只有主角一人在走，橱窗里的模特仿佛在注视",
+    "source": "《Omega Code》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "静止",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_24",
+    "text": "深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖出最后一道光",
+    "source": "《深海末日》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈"
+      ],
+      "domain": "cinema",
+      "genre": "灾难",
+      "theme": "深潜",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_25",
+    "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+    "source": "《走出非洲》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "cinema",
+      "genre": "文艺",
+      "theme": "奔跑",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_26",
+    "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+    "source": "《机器人总动员》",
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望"
+      ],
+      "domain": "cinema",
+      "genre": "动画",
+      "theme": "等待",
+      "intensity": 2,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_27",
+    "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方",
+    "source": "《英雄》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔"
+      ],
+      "domain": "cinema",
+      "genre": "武侠",
+      "theme": "云海",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_28",
+    "text": "黑洞的吸积盘在视觉上呈现为一个旋转的火环，时间在环外被拉伸为永恒",
+    "source": "《星际穿越》",
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "火环",
+      "intensity": 4,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_29",
+    "text": "冰冻星球上暴风雪中独行的人影，白色吞噬了一切边界",
+    "source": "《雪国列车》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "冰雪",
+      "intensity": 3,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_30",
+    "text": "宇宙的尽头是一面巨大的墙，墙上有无数扇门，每扇门后是一个平行世界",
+    "source": "《瞬息全宇宙》",
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "万门",
+      "intensity": 4,
+      "era": "当代"
+    }
+  }
 ]

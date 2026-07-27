@@ -1368,5 +1368,106 @@
       "size": 0.69,
       "luminosity": 0.54
     }
+  },
+  {
+    "id": "body_0031",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "焰热寂·辽阔",
+    "epoch": 31,
+    "born_at": "2026-07-27T18:52:04",
+    "collision_text": "众星熄灭的绝对零度里，",
+    "collision_mode": "deepseek",
+    "parents": [
+      "sci_07",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "热寂",
+        "柔德"
+      ],
+      "domains": [
+        "science",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.55,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0032",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·壮阔",
+    "epoch": 32,
+    "born_at": "2026-07-27T18:52:07",
+    "collision_text": "云涛翻卷处，水星与月的私语撞碎星河千帆，激越中绽开未知的澄明。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "apo_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "行星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.62,
+      "luminosity": 0.53
+    }
   }
 ]

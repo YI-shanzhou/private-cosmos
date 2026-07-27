@@ -65,20 +65,37 @@ def collide_api(content_a, content_b):
     text_b = content_b.get("text") or content_b.get("title", "")
     src_a = content_a.get("source") or content_a.get("composer", "")
     src_b = content_b.get("source") or content_b.get("composer", "")
-    dom_a = content_a.get("tags", {}).get("domain", "?")
-    dom_b = content_b.get("tags", {}).get("domain", "?")
-    mood_a = content_a.get("tags", {}).get("moods", [])
-    mood_b = content_b.get("tags", {}).get("moods", [])
+    tags_a = content_a.get("tags", {})
+    tags_b = content_b.get("tags", {})
+    dom_a = tags_a.get("domain", "?")
+    dom_b = tags_b.get("domain", "?")
+    mood_a = tags_a.get("moods", [])
+    mood_b = tags_b.get("moods", [])
+    theme_a = tags_a.get("theme", "")
+    theme_b = tags_b.get("theme", "")
+    era_a = tags_a.get("era", "")
+    era_b = tags_b.get("era", "")
+    int_a = tags_a.get("intensity", 2)
+    int_b = tags_b.get("intensity", 2)
+
+    # 判断碰撞类型
+    common_moods = set(mood_a) & set(mood_b)
+    collision_type = "共振" if common_moods else "反差"
+    era_gap = f"{era_a}×{era_b}" if era_a and era_b and era_a != era_b else ""
 
     prompt = (
         "你是「私宇宙」的语义碰撞引擎。两个来自不同领域的素材相撞，"
         "会诞生一个新的宇宙意象。\n\n"
-        f"素材甲（{dom_a}）：「{text_a}」—— {src_a}，情绪：{mood_a}\n"
-        f"素材乙（{dom_b}）：「{text_b}」—— {src_b}，情绪：{mood_b}\n\n"
+        f"素材甲（{dom_a}·{era_a}）：「{text_a}」—— {src_a}\n"
+        f"  情绪：{mood_a}，主题：{theme_a}，强度：{int_a}/5\n"
+        f"素材乙（{dom_b}·{era_b}）：「{text_b}」—— {src_b}\n"
+        f"  情绪：{mood_b}，主题：{theme_b}，强度：{int_b}/5\n"
+        f"碰撞类型：{collision_type}" + (f"，时空跨度：{era_gap}" if era_gap else "") + "\n\n"
         "请融合两者的主题与情绪，生成一句新的意象文本。要求：\n"
-        "1. 富有诗意与宇宙感\n"
-        "2. 中文，不超过 50 字\n"
-        "3. 只输出这一句话，不要解释、不要引号、不要标点以外的符号"
+        "1. 富有诗意与宇宙感，让两个素材的意象在碰撞中变形、融合、升华\n"
+        "2. 如果是共振碰撞，强化共同情绪；如果是反差碰撞，让对立产生张力\n"
+        "3. 中文，15-50 字\n"
+        "4. 只输出这一句话，不要解释、不要引号、不要标点以外的符号"
     )
 
     last_err = None
