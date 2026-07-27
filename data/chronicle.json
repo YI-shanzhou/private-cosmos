@@ -222,5 +222,19 @@
     "event": "genesis",
     "body_id": "body_0032",
     "summary": "第32纪元：literature×astronomy碰撞，诞生星系「尘星河·壮阔」"
+  },
+  {
+    "epoch": 33,
+    "timestamp": "2026-07-27T19:18:47",
+    "event": "genesis",
+    "body_id": "body_0033",
+    "summary": "第33纪元：literature×astronomy碰撞，诞生耀变体「茫星河·激越」"
+  },
+  {
+    "epoch": 34,
+    "timestamp": "2026-07-27T19:18:50",
+    "event": "genesis",
+    "body_id": "body_0034",
+    "summary": "第34纪元：myth×cinema碰撞，诞生千新星「辉涅槃·激烈」"
   }
 ]

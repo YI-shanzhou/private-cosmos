@@ -1276,6 +1276,200 @@ window.COSMOS_DATA = [
       "size": 0.57,
       "luminosity": 0.21
     }
+  },
+  {
+    "id": "body_0029",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "焰沉没·苍凉",
+    "epoch": 29,
+    "born_at": "2026-07-27T13:29:26",
+    "collision_text": "月光奏鸣曲的潮汐漫过废弃船舱，钢琴师在星尘的孤寂中渐次溶解成苍凉的音符",
+    "collision_mode": "deepseek",
+    "parents": [
+      "cin_12",
+      "mus_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "月光奏鸣曲第一乐章",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "沉没",
+        "月夜"
+      ],
+      "domains": [
+        "cinema",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.67,
+      "luminosity": 0.88
+    }
+  },
+  {
+    "id": "body_0030",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "茫时间·壮阔",
+    "epoch": 30,
+    "born_at": "2026-07-27T13:29:28",
+    "collision_text": "我是一段苍凉的时间之海，潮汐拍打着宇宙的骨缝。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_26",
+      "mus_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "时间是构成我的实体",
+        "source": "柏格森"
+      },
+      "b": {
+        "domain": "art",
+        "text": "大海",
+        "source": "德彪西"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "苍凉",
+        "辽阔"
+      ],
+      "themes": [
+        "时间",
+        "海浪"
+      ],
+      "domains": [
+        "philosophy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.69,
+      "luminosity": 0.54
+    }
+  },
+  {
+    "id": "body_0031",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "焰热寂·辽阔",
+    "epoch": 31,
+    "born_at": "2026-07-27T18:52:04",
+    "collision_text": "众星熄灭的绝对零度里，",
+    "collision_mode": "deepseek",
+    "parents": [
+      "sci_07",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "热寂",
+        "柔德"
+      ],
+      "domains": [
+        "science",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.55,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0032",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·壮阔",
+    "epoch": 32,
+    "born_at": "2026-07-27T18:52:07",
+    "collision_text": "云涛翻卷处，水星与月的私语撞碎星河千帆，激越中绽开未知的澄明。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "apo_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "行星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.62,
+      "luminosity": 0.53
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1474,6 +1668,34 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0028",
     "summary": "第28纪元：philosophy×astronomy碰撞，诞生白矮星「辉存在·苍凉」"
+  },
+  {
+    "epoch": 29,
+    "timestamp": "2026-07-27T13:29:26",
+    "event": "genesis",
+    "body_id": "body_0029",
+    "summary": "第29纪元：cinema×art碰撞，诞生遗迹「焰沉没·苍凉」"
+  },
+  {
+    "epoch": 30,
+    "timestamp": "2026-07-27T13:29:28",
+    "event": "genesis",
+    "body_id": "body_0030",
+    "summary": "第30纪元：philosophy×art碰撞，诞生星云「茫时间·壮阔」"
+  },
+  {
+    "epoch": 31,
+    "timestamp": "2026-07-27T18:52:04",
+    "event": "genesis",
+    "body_id": "body_0031",
+    "summary": "第31纪元：science×philosophy碰撞，诞生星系「焰热寂·辽阔」"
+  },
+  {
+    "epoch": 32,
+    "timestamp": "2026-07-27T18:52:07",
+    "event": "genesis",
+    "body_id": "body_0032",
+    "summary": "第32纪元：literature×astronomy碰撞，诞生星系「尘星河·壮阔」"
   }
 ];
 window.APOD_DATA = [

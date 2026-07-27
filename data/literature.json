@@ -596,5 +596,80 @@
       "intensity": 3,
       "era": "汉魏"
     }
+  },
+  {
+    "id": "lit_41",
+    "text": "古池や蛙飛び込む水の音（古池畔，青蛙跃入，水声清响）",
+    "source": "松尾芭蕉《古池》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "神秘"
+      ],
+      "domain": "literature",
+      "theme": "瞬刻",
+      "intensity": 2,
+      "era": "江户"
+    }
+  },
+  {
+    "id": "lit_42",
+    "text": "夏草や兵どもが夢の跡（夏草萋萋，武士们的梦想化为遗迹）",
+    "source": "松尾芭蕉《奥之细道》",
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "遗迹",
+      "intensity": 3,
+      "era": "江户"
+    }
+  },
+  {
+    "id": "lit_43",
+    "text": "我见青山多妩媚，料青山见我应如是",
+    "source": "辛弃疾《贺新郎》",
+    "tags": {
+      "moods": [
+        "宁静",
+        "希望"
+      ],
+      "domain": "literature",
+      "theme": "相照",
+      "intensity": 2,
+      "era": "宋"
+    }
+  },
+  {
+    "id": "lit_44",
+    "text": "A thing of beauty is a joy forever（美的事物是永恒的喜悦）",
+    "source": "济慈《恩底弥翁》",
+    "tags": {
+      "moods": [
+        "希望",
+        "宁静"
+      ],
+      "domain": "literature",
+      "theme": "美",
+      "intensity": 3,
+      "era": "近代"
+    }
+  },
+  {
+    "id": "lit_45",
+    "text": "Do not go gentle into that good night, rage against the dying of the light（不要温顺地走入那良夜，怒斥光明的消逝）",
+    "source": "狄兰·托马斯",
+    "tags": {
+      "moods": [
+        "激烈",
+        "激越"
+      ],
+      "domain": "literature",
+      "theme": "抗拒",
+      "intensity": 5,
+      "era": "现代"
+    }
   }
 ]

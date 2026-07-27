@@ -1469,5 +1469,108 @@
       "size": 0.62,
       "luminosity": 0.53
     }
+  },
+  {
+    "id": "body_0033",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "茫星河·激越",
+    "epoch": 33,
+    "born_at": "2026-07-27T19:18:47",
+    "collision_text": "云涛翻涌处，蟹状的残骸如千帆舞动，在星河欲转的漩涡里绽开诡谲的浪。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "apo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "M1: The Crab Nebula",
+        "source": "NASA APOD 2009-11-26"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "星河",
+        "星云"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "宋",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.95,
+      "luminosity": 0.71
+    }
+  },
+  {
+    "id": "body_0034",
+    "type": "kilonova",
+    "type_cn": "千新星",
+    "name": "辉涅槃·激烈",
+    "epoch": 34,
+    "born_at": "2026-07-27T19:18:50",
+    "collision_text": "零重力走廊里凤凰焚身成灰，宇宙倒悬中每一粒灰烬都是新生的旋涡",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_30",
+      "cin_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+        "source": "跨文化神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转",
+        "source": "《盗梦空间》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "希望",
+        "诡谲"
+      ],
+      "themes": [
+        "涅槃",
+        "失重"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.95,
+      "luminosity": 0.82
+    }
   }
 ]

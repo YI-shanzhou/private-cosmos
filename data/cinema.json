@@ -478,5 +478,53 @@
       "intensity": 4,
       "era": "当代"
     }
+  },
+  {
+    "id": "cin_31",
+    "text": "主角在飞船倒计时的最后十秒按下引擎按钮，全身被加速度压进座椅",
+    "source": "《星际穿越》",
+    "tags": {
+      "moods": [
+        "激越",
+        "激烈"
+      ],
+      "domain": "cinema",
+      "genre": "科幻",
+      "theme": "倒计时",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_32",
+    "text": "摇滚乐手在舞台中央撕裂吉他独奏，聚光灯下汗水飞溅，人群沸腾",
+    "source": "《波西米亚狂想曲》",
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔"
+      ],
+      "domain": "cinema",
+      "genre": "音乐",
+      "theme": "燃烧",
+      "intensity": 5,
+      "era": "当代"
+    }
+  },
+  {
+    "id": "cin_33",
+    "text": "赛车手在最后弯道全速漂移，引擎轰鸣撕裂夜空，只差一个车身的距离",
+    "source": "《速度与激情》",
+    "tags": {
+      "moods": [
+        "激越",
+        "激烈"
+      ],
+      "domain": "cinema",
+      "genre": "动作",
+      "theme": "极速",
+      "intensity": 5,
+      "era": "当代"
+    }
   }
 ]

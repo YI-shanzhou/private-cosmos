@@ -470,5 +470,53 @@
       "intensity": 4,
       "era": "近代"
     }
+  },
+  {
+    "id": "phi_31",
+    "text": "热爱命运——对自己所遭遇的一切说'是'，这是力量的最高形式",
+    "source": "尼采·命运之爱",
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔"
+      ],
+      "domain": "philosophy",
+      "logic": "命题",
+      "theme": "命运之爱",
+      "intensity": 5,
+      "era": "近代"
+    }
+  },
+  {
+    "id": "phi_32",
+    "text": "焦虑是自由的眩晕——站在悬崖边，你既害怕坠落，又害怕能坠落",
+    "source": "克尔凯郭尔",
+    "tags": {
+      "moods": [
+        "激越",
+        "诡谲"
+      ],
+      "domain": "philosophy",
+      "logic": "定义",
+      "theme": "焦虑",
+      "intensity": 4,
+      "era": "近代"
+    }
+  },
+  {
+    "id": "phi_33",
+    "text": "哲学家们只是用不同的方式解释世界，而问题在于改变世界",
+    "source": "马克思《关于费尔巴哈的提纲》",
+    "tags": {
+      "moods": [
+        "激越",
+        "激烈"
+      ],
+      "domain": "philosophy",
+      "logic": "命题",
+      "theme": "变革",
+      "intensity": 5,
+      "era": "近代"
+    }
   }
 ]
