@@ -1276,6 +1276,98 @@ window.COSMOS_DATA = [
       "size": 0.57,
       "luminosity": 0.21
     }
+  },
+  {
+    "id": "body_0029",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "墟星空·苍凉",
+    "epoch": 29,
+    "born_at": "2026-07-27T19:25:22",
+    "collision_text": "在星垂平野的尽头，月涌大江的孤寂里，我审视了整片荒芜的宇宙。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_01",
+      "phi_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "孤寂"
+      ],
+      "themes": [
+        "星空",
+        "生命"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.53,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0030",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "魄星汉·辽阔",
+    "epoch": 30,
+    "born_at": "2026-07-27T19:25:25",
+    "collision_text": "星汉随潮汐起伏，爱丽丝的指尖在浪尖上弹奏永恒的宁静。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "星汉",
+        "柔情"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.32,
+      "luminosity": 0.27
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1474,6 +1566,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0028",
     "summary": "第28纪元：philosophy×astronomy碰撞，诞生白矮星「辉存在·苍凉」"
+  },
+  {
+    "epoch": 29,
+    "timestamp": "2026-07-27T19:25:22",
+    "event": "genesis",
+    "body_id": "body_0029",
+    "summary": "第29纪元：literature×philosophy碰撞，诞生白矮星「墟星空·苍凉」"
+  },
+  {
+    "epoch": 30,
+    "timestamp": "2026-07-27T19:25:25",
+    "event": "genesis",
+    "body_id": "body_0030",
+    "summary": "第30纪元：literature×art碰撞，诞生星团「魄星汉·辽阔」"
   }
 ];
 window.APOD_DATA = [
@@ -1661,5 +1767,34 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:09:34.338711"
+  },
+  {
+    "date": "2026-01-17",
+    "title": "Apollo 14: A View from Antares",
+    "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
+    "local_path": "assets/apod/apod_2026-01-17.jpg",
+    "explanation": "Apollo 14's Lunar Module Antares landed on the Moon on February 5, 1971. Toward the end of the stay astronaut Ed Mitchell snapped a series of photos of the lunar surface while looking out a window, assembled into this detailed mosaic by Apollo Lunar Surface Journal editor Eric Jones. The view looks across the Fra Mauro highlands to the northwest of the landing site after the Apollo 14 astronauts had completed their second and final walk on the Moon. Prominent in the foreground is their Modular E",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-27T19:25:13.777044"
   }
 ];

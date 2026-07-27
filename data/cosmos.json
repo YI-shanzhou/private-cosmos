@@ -1275,5 +1275,97 @@
       "size": 0.57,
       "luminosity": 0.21
     }
+  },
+  {
+    "id": "body_0029",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "墟星空·苍凉",
+    "epoch": 29,
+    "born_at": "2026-07-27T19:25:22",
+    "collision_text": "在星垂平野的尽头，月涌大江的孤寂里，我审视了整片荒芜的宇宙。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_01",
+      "phi_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "孤寂"
+      ],
+      "themes": [
+        "星空",
+        "生命"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.53,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0030",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "魄星汉·辽阔",
+    "epoch": 30,
+    "born_at": "2026-07-27T19:25:25",
+    "collision_text": "星汉随潮汐起伏，爱丽丝的指尖在浪尖上弹奏永恒的宁静。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "星汉",
+        "柔情"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.32,
+      "luminosity": 0.27
+    }
   }
 ]

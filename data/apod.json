@@ -183,5 +183,34 @@
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:09:34.338711"
+  },
+  {
+    "date": "2026-01-17",
+    "title": "Apollo 14: A View from Antares",
+    "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
+    "local_path": "assets/apod/apod_2026-01-17.jpg",
+    "explanation": "Apollo 14's Lunar Module Antares landed on the Moon on February 5, 1971. Toward the end of the stay astronaut Ed Mitchell snapped a series of photos of the lunar surface while looking out a window, assembled into this detailed mosaic by Apollo Lunar Surface Journal editor Eric Jones. The view looks across the Fra Mauro highlands to the northwest of the landing site after the Apollo 14 astronauts had completed their second and final walk on the Moon. Prominent in the foreground is their Modular E",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-27T19:25:13.777044"
   }
 ]

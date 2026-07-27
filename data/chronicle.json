@@ -194,5 +194,19 @@
     "event": "genesis",
     "body_id": "body_0028",
     "summary": "第28纪元：philosophy×astronomy碰撞，诞生白矮星「辉存在·苍凉」"
+  },
+  {
+    "epoch": 29,
+    "timestamp": "2026-07-27T19:25:22",
+    "event": "genesis",
+    "body_id": "body_0029",
+    "summary": "第29纪元：literature×philosophy碰撞，诞生白矮星「墟星空·苍凉」"
+  },
+  {
+    "epoch": 30,
+    "timestamp": "2026-07-27T19:25:25",
+    "event": "genesis",
+    "body_id": "body_0030",
+    "summary": "第30纪元：literature×art碰撞，诞生星团「魄星汉·辽阔」"
   }
 ]
