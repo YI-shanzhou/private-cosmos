@@ -185,6 +185,48 @@
     "fetched_at": "2026-07-26T19:09:34.338711"
   },
   {
+    "date": "2022-11-14",
+    "title": "NGC 7380: The Wizard Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",
+    "local_path": "assets/apod/apod_2022-11-14.jpg",
+    "explanation": "What powers are being wielded in the Wizard Nebula?  Gravitation strong enough to form stars, and stellar winds and radiations powerful enough to create and dissolve towers of gas.  Located only 8,000 light years away, the Wizard nebula, featured here, surrounds developing open star cluster NGC 7380.  Visually, the interplay of stars, gas, and dust has created a shape that appears to some like a fictional medieval sorcerer.  The active star forming region spans 100 about light years, making it a",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#103030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-28T19:20:27.040074"
+  },
+  {
     "date": "2026-01-17",
     "title": "Apollo 14: A View from Antares",
     "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",

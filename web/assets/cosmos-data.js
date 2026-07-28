@@ -1368,6 +1368,99 @@ window.COSMOS_DATA = [
       "size": 0.32,
       "luminosity": 0.27
     }
+  },
+  {
+    "id": "body_0031",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺星河·宁静",
+    "epoch": 31,
+    "born_at": "2026-07-28T19:20:34",
+    "collision_text": "醉舟浮游于光晕的褶皱，星群坠入琴键，梦的边界泛起宇宙的寂静诡谲",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_04",
+      "mus_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "星空",
+        "source": "德彪西"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "诡谲",
+        "辽阔"
+      ],
+      "themes": [
+        "星河",
+        "夜空"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.91,
+      "luminosity": 0.61
+    }
+  },
+  {
+    "id": "body_0032",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺星座·孤寂",
+    "epoch": 32,
+    "born_at": "2026-07-28T19:20:44",
+    "collision_text": "银烛冷光里流萤化作星河 轻罗小扇拨动宇宙弦 奏响永恒的欢乐颂",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_08",
+      "mus_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "第九交响曲·欢乐颂",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静",
+        "壮阔",
+        "激越"
+      ],
+      "themes": [
+        "星座",
+        "崇高"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.8,
+      "luminosity": 0.85
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1580,6 +1673,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0030",
     "summary": "第30纪元：literature×art碰撞，诞生星团「魄星汉·辽阔」"
+  },
+  {
+    "epoch": 31,
+    "timestamp": "2026-07-28T19:20:34",
+    "event": "genesis",
+    "body_id": "body_0031",
+    "summary": "第31纪元：literature×art碰撞，诞生卫星「渺星河·宁静」"
+  },
+  {
+    "epoch": 32,
+    "timestamp": "2026-07-28T19:20:44",
+    "event": "genesis",
+    "body_id": "body_0032",
+    "summary": "第32纪元：literature×art碰撞，诞生流浪行星「渺星座·孤寂」"
   }
 ];
 window.APOD_DATA = [
@@ -1767,6 +1874,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:09:34.338711"
+  },
+  {
+    "date": "2022-11-14",
+    "title": "NGC 7380: The Wizard Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",
+    "local_path": "assets/apod/apod_2022-11-14.jpg",
+    "explanation": "What powers are being wielded in the Wizard Nebula?  Gravitation strong enough to form stars, and stellar winds and radiations powerful enough to create and dissolve towers of gas.  Located only 8,000 light years away, the Wizard nebula, featured here, surrounds developing open star cluster NGC 7380.  Visually, the interplay of stars, gas, and dust has created a shape that appears to some like a fictional medieval sorcerer.  The active star forming region spans 100 about light years, making it a",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#103030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-28T19:20:27.040074"
   },
   {
     "date": "2026-01-17",
