@@ -1461,6 +1461,97 @@ window.COSMOS_DATA = [
       "size": 0.8,
       "luminosity": 0.85
     }
+  },
+  {
+    "id": "body_0033",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "墟孤独·孤寂",
+    "epoch": 33,
+    "born_at": "2026-07-29T19:13:50",
+    "collision_text": "她吞下不死之药，坠入时间的裂缝，前后皆无人，天地间独剩一轮孤月。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_05",
+      "lit_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下",
+        "source": "陈子昂《登幽州台歌》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲",
+        "苍凉"
+      ],
+      "themes": [
+        "孤独",
+        "时空"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.55,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0034",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "弦星辰·壮阔",
+    "epoch": 34,
+    "born_at": "2026-07-29T19:13:54",
+    "collision_text": "在危楼摘星的指尖，存在先于本质，星辰因我而亮成虚空中的选择。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_06",
+      "phi_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星辰",
+        "存在"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.82,
+      "luminosity": 0.72
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1687,6 +1778,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0032",
     "summary": "第32纪元：literature×art碰撞，诞生流浪行星「渺星座·孤寂」"
+  },
+  {
+    "epoch": 33,
+    "timestamp": "2026-07-29T19:13:50",
+    "event": "genesis",
+    "body_id": "body_0033",
+    "summary": "第33纪元：myth×literature碰撞，诞生流浪行星「墟孤独·孤寂」"
+  },
+  {
+    "epoch": 34,
+    "timestamp": "2026-07-29T19:13:54",
+    "event": "genesis",
+    "body_id": "body_0034",
+    "summary": "第34纪元：literature×philosophy碰撞，诞生星云「弦星辰·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -1751,6 +1856,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:13:11.597476"
+  },
+  {
+    "date": "2000-07-21",
+    "title": "Eros Craters And Boulders",
+    "url": "https://apod.nasa.gov/apod/image/0007/erosjul7_near.jpg",
+    "local_path": "assets/apod/apod_2000-07-21.jpg",
+    "explanation": "From a delicate orbit around asteroid 433 Eros, the NEAR Shoemaker spacecraft's camera has now imaged the entire surface of the small oddly-shaped world at least once. Recorded on July 7th from a distance of 50 kilometers, this dramatic view is about 1.8 kilometers across. It shows the walls and rims of two large overlapping impact craters on the horizon. Massive boulders which may be debris from the impacts are perched along the crater edges. The prominent boulder on the horizon near picture ce",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "asteroid",
+          "cn": "小行星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
     "date": "2008-05-09",

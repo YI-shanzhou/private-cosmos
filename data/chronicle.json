@@ -222,5 +222,19 @@
     "event": "genesis",
     "body_id": "body_0032",
     "summary": "第32纪元：literature×art碰撞，诞生流浪行星「渺星座·孤寂」"
+  },
+  {
+    "epoch": 33,
+    "timestamp": "2026-07-29T19:13:50",
+    "event": "genesis",
+    "body_id": "body_0033",
+    "summary": "第33纪元：myth×literature碰撞，诞生流浪行星「墟孤独·孤寂」"
+  },
+  {
+    "epoch": 34,
+    "timestamp": "2026-07-29T19:13:54",
+    "event": "genesis",
+    "body_id": "body_0034",
+    "summary": "第34纪元：literature×philosophy碰撞，诞生星云「弦星辰·壮阔」"
   }
 ]
