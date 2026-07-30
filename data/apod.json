@@ -177,6 +177,47 @@
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2020-10-30",
+    "title": "Fear and Dread: The Moons of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
+    "local_path": "assets/apod/apod_2020-10-30.jpg",
+    "explanation": "On Halloween fear and dread will stalk your night skies, also known as Phobos and Deimos the moons of Mars. The 2020 opposition of Mars was on October 13, so the Red Planet will still rise shortly before sunset. Near Halloween's Full Moon on the sky, its strange yellowish glow will outshine other stars throughout the night. But the two tiny Martian moons are very faint and in close orbits, making them hard to spot, even with a small telescope. You can find them in this carefully annotated compos",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-30T19:23:32.967876"
+  },
+  {
     "date": "2022-07-20",
     "title": "Jupiter and Ring in Infrared from Webb",
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",

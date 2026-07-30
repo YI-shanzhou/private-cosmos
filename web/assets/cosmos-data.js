@@ -1552,6 +1552,97 @@ window.COSMOS_DATA = [
       "size": 0.82,
       "luminosity": 0.72
     }
+  },
+  {
+    "id": "body_0035",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺月球·孤寂",
+    "epoch": 35,
+    "born_at": "2026-07-30T19:23:35",
+    "collision_text": "他在环形山的阴影里推着月岩，每一次滚落都让星河重新计数。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_09",
+      "myth_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知",
+        "苍凉"
+      ],
+      "themes": [
+        "月球",
+        "永恒"
+      ],
+      "domains": [
+        "astronomy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.76,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0036",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "澜行星·宁静",
+    "epoch": 36,
+    "born_at": "2026-07-30T19:23:42",
+    "collision_text": "尘埃落定，红色荒原上巴赫的旋律缓缓铺开一段永恒的宁静。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "行星",
+        "秩序"
+      ],
+      "domains": [
+        "astronomy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.83,
+      "luminosity": 0.52
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1792,6 +1883,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0034",
     "summary": "第34纪元：literature×philosophy碰撞，诞生星云「弦星辰·壮阔」"
+  },
+  {
+    "epoch": 35,
+    "timestamp": "2026-07-30T19:23:35",
+    "event": "genesis",
+    "body_id": "body_0035",
+    "summary": "第35纪元：astronomy×myth碰撞，诞生流浪行星「渺月球·孤寂」"
+  },
+  {
+    "epoch": 36,
+    "timestamp": "2026-07-30T19:23:42",
+    "event": "genesis",
+    "body_id": "body_0036",
+    "summary": "第36纪元：astronomy×art碰撞，诞生行星「澜行星·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -1971,6 +2076,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:03:36.479574"
+  },
+  {
+    "date": "2020-10-30",
+    "title": "Fear and Dread: The Moons of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
+    "local_path": "assets/apod/apod_2020-10-30.jpg",
+    "explanation": "On Halloween fear and dread will stalk your night skies, also known as Phobos and Deimos the moons of Mars. The 2020 opposition of Mars was on October 13, so the Red Planet will still rise shortly before sunset. Near Halloween's Full Moon on the sky, its strange yellowish glow will outshine other stars throughout the night. But the two tiny Martian moons are very faint and in close orbits, making them hard to spot, even with a small telescope. You can find them in this carefully annotated compos",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-30T19:23:32.967876"
   },
   {
     "date": "2022-07-20",
