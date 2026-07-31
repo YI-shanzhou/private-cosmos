@@ -1643,6 +1643,97 @@ window.COSMOS_DATA = [
       "size": 0.83,
       "luminosity": 0.52
     }
+  },
+  {
+    "id": "body_0037",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "渺行星·诡谲",
+    "epoch": 37,
+    "born_at": "2026-07-31T19:22:05",
+    "collision_text": "红外之瞳浸在醉后的天河，满船清梦压过木星暗涌的纹章。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_06",
+      "lit_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter in Infrared from Hubble",
+        "source": "NASA APOD 2018-02-21"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "未知",
+        "宁静"
+      ],
+      "themes": [
+        "行星",
+        "星河"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.67,
+      "luminosity": 0.81
+    }
+  },
+  {
+    "id": "body_0038",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "寂恒星·未知",
+    "epoch": 38,
+    "born_at": "2026-07-31T19:22:08",
+    "collision_text": "恐惧是火卫一沉寂的碎影，爱丽丝的旋律在火星夜空静静漫溢",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      },
+      "b": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "宁静"
+      ],
+      "themes": [
+        "恒星",
+        "柔情"
+      ],
+      "domains": [
+        "astronomy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.95,
+      "luminosity": 0.25
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -1897,6 +1988,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0036",
     "summary": "第36纪元：astronomy×art碰撞，诞生行星「澜行星·宁静」"
+  },
+  {
+    "epoch": 37,
+    "timestamp": "2026-07-31T19:22:05",
+    "event": "genesis",
+    "body_id": "body_0037",
+    "summary": "第37纪元：astronomy×literature碰撞，诞生黑洞「渺行星·诡谲」"
+  },
+  {
+    "epoch": 38,
+    "timestamp": "2026-07-31T19:22:08",
+    "event": "genesis",
+    "body_id": "body_0038",
+    "summary": "第38纪元：astronomy×art碰撞，诞生尘埃云「寂恒星·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -1994,6 +2099,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2005-02-03",
+    "title": "SMART-1: Pythagoras Crater",
+    "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",
+    "local_path": "assets/apod/apod_2005-02-03.jpg",
+    "explanation": "Stark shadows show off the central peaks and terraced walls of 120 kilometer wide Pythagoras Crater in this mosaic of images from ESA's SMART-1 spacecraft. Characteristic of large, complex impact craters on the Moon, the central uplift was produced by a rebound of the suddenly molten lunar crust during the violent impact event. Propelled by an efficient ion engine, the innovative SMART-1 spacecraft entered lunar orbit in November last year after a leisurely 13 month journey from planet Earth. No",
+    "tags": {
+      "colors": [
+        "#909090",
+        "#b0b0b0",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "spiral",
+          "cn": "螺旋"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-31T19:21:55.624947"
   },
   {
     "date": "2008-05-09",

@@ -95,6 +95,47 @@
     "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
+    "date": "2005-02-03",
+    "title": "SMART-1: Pythagoras Crater",
+    "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",
+    "local_path": "assets/apod/apod_2005-02-03.jpg",
+    "explanation": "Stark shadows show off the central peaks and terraced walls of 120 kilometer wide Pythagoras Crater in this mosaic of images from ESA's SMART-1 spacecraft. Characteristic of large, complex impact craters on the Moon, the central uplift was produced by a rebound of the suddenly molten lunar crust during the violent impact event. Propelled by an efficient ion engine, the innovative SMART-1 spacecraft entered lunar orbit in November last year after a leisurely 13 month journey from planet Earth. No",
+    "tags": {
+      "colors": [
+        "#909090",
+        "#b0b0b0",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "spiral",
+          "cn": "螺旋"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-31T19:21:55.624947"
+  },
+  {
     "date": "2008-05-09",
     "title": "Moon Meets Mercury",
     "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",

@@ -250,5 +250,19 @@
     "event": "genesis",
     "body_id": "body_0036",
     "summary": "第36纪元：astronomy×art碰撞，诞生行星「澜行星·宁静」"
+  },
+  {
+    "epoch": 37,
+    "timestamp": "2026-07-31T19:22:05",
+    "event": "genesis",
+    "body_id": "body_0037",
+    "summary": "第37纪元：astronomy×literature碰撞，诞生黑洞「渺行星·诡谲」"
+  },
+  {
+    "epoch": 38,
+    "timestamp": "2026-07-31T19:22:08",
+    "event": "genesis",
+    "body_id": "body_0038",
+    "summary": "第38纪元：astronomy×art碰撞，诞生尘埃云「寂恒星·未知」"
   }
 ]
