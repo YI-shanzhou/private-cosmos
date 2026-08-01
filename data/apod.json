@@ -177,6 +177,48 @@
     "fetched_at": "2026-07-26T18:55:18.500613"
   },
   {
+    "date": "2015-10-12",
+    "title": "Galaxy, Stars, and Dust",
+    "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",
+    "local_path": "assets/apod/apod_2015-10-12.jpg",
+    "explanation": "Spiky stars and spooky shapes abound in this deep cosmic skyscape. Its well-composed field of view covers about a Full Moon on the sky toward the constellation Pegasus. Of course the brighter stars show diffraction spikes, the commonly seen effect of internal supports in reflecting telescopes, and lie well within our own Milky Way galaxy. The faint but pervasive clouds of interstellar dust ride above the galactic plane and dimly reflect the Milky Way's combined starlight. Known as high latitude ",
+    "tags": {
+      "colors": [
+        "#505050",
+        "#303030",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-01T19:05:36.043064"
+  },
+  {
     "date": "2018-02-21",
     "title": "Jupiter in Infrared from Hubble",
     "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
