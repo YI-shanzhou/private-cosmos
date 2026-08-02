@@ -95,6 +95,48 @@
     "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
+    "date": "2004-02-20",
+    "title": "SN1987A's Cosmic Pearls",
+    "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",
+    "local_path": "assets/apod/apod_2004-02-20.jpg",
+    "explanation": "In February 1987, light from the brightest stellar explosion seen in modern times reached Earth -- supernova SN1987A. This Hubble Space Telescope image from the sharp Advanced Camera for Surveys taken in November 2003 shows the explosion site over 16 years later. The snap shot indicates that the supernova blast wave continues to impact a pre-existing, one light-year wide ring of material, and the nascent central supernova remnant continues to expand. Like pearls on a cosmic necklace, bright hot ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#301010",
+        "#701030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-02T19:07:15.651723"
+  },
+  {
     "date": "2005-02-03",
     "title": "SMART-1: Pythagoras Crater",
     "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",

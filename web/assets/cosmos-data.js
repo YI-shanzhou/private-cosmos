@@ -1824,6 +1824,98 @@ window.COSMOS_DATA = [
       "size": 0.72,
       "luminosity": 0.95
     }
+  },
+  {
+    "id": "body_0041",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "弦柔情·宁静",
+    "epoch": 41,
+    "born_at": "2026-08-02T19:07:18",
+    "collision_text": "在永恒的高加索，月光为鹰的肝叶弹奏致爱丽丝，火种在寂静中蔓延成星河",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "myth_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "柔情",
+        "牺牲"
+      ],
+      "domains": [
+        "art",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.78,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0042",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "寂末日·激烈",
+    "epoch": 42,
+    "born_at": "2026-08-02T19:07:20",
+    "collision_text": "血潮淹没维格利德平原时，众神踏着春之祭的诡谲鼓点，向海渊献祭黎明。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_07",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "末日",
+        "原始"
+      ],
+      "domains": [
+        "myth",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.78,
+      "luminosity": 0.5
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2106,6 +2198,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0040",
     "summary": "第40纪元：astronomy×philosophy碰撞，诞生彗星「渊恒星·孤寂」"
+  },
+  {
+    "epoch": 41,
+    "timestamp": "2026-08-02T19:07:18",
+    "event": "genesis",
+    "body_id": "body_0041",
+    "summary": "第41纪元：art×myth碰撞，诞生卫星「弦柔情·宁静」"
+  },
+  {
+    "epoch": 42,
+    "timestamp": "2026-08-02T19:07:20",
+    "event": "genesis",
+    "body_id": "body_0042",
+    "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -2203,6 +2309,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2004-02-20",
+    "title": "SN1987A's Cosmic Pearls",
+    "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",
+    "local_path": "assets/apod/apod_2004-02-20.jpg",
+    "explanation": "In February 1987, light from the brightest stellar explosion seen in modern times reached Earth -- supernova SN1987A. This Hubble Space Telescope image from the sharp Advanced Camera for Surveys taken in November 2003 shows the explosion site over 16 years later. The snap shot indicates that the supernova blast wave continues to impact a pre-existing, one light-year wide ring of material, and the nascent central supernova remnant continues to expand. Like pearls on a cosmic necklace, bright hot ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#301010",
+        "#701030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-02T19:07:15.651723"
   },
   {
     "date": "2005-02-03",

@@ -278,5 +278,19 @@
     "event": "genesis",
     "body_id": "body_0040",
     "summary": "第40纪元：astronomy×philosophy碰撞，诞生彗星「渊恒星·孤寂」"
+  },
+  {
+    "epoch": 41,
+    "timestamp": "2026-08-02T19:07:18",
+    "event": "genesis",
+    "body_id": "body_0041",
+    "summary": "第41纪元：art×myth碰撞，诞生卫星「弦柔情·宁静」"
+  },
+  {
+    "epoch": 42,
+    "timestamp": "2026-08-02T19:07:20",
+    "event": "genesis",
+    "body_id": "body_0042",
+    "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
   }
 ]
