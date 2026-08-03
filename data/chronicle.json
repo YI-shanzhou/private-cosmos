@@ -292,5 +292,19 @@
     "event": "genesis",
     "body_id": "body_0042",
     "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
+  },
+  {
+    "epoch": 43,
+    "timestamp": "2026-08-03T19:27:58",
+    "event": "genesis",
+    "body_id": "body_0043",
+    "summary": "第43纪元：astronomy×literature碰撞，诞生尘埃云「渺行星·未知」"
+  },
+  {
+    "epoch": 44,
+    "timestamp": "2026-08-03T19:28:00",
+    "event": "genesis",
+    "body_id": "body_0044",
+    "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
   }
 ]

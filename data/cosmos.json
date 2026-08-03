@@ -1915,5 +1915,96 @@
       "size": 0.78,
       "luminosity": 0.5
     }
+  },
+  {
+    "id": "body_0043",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "渺行星·未知",
+    "epoch": 43,
+    "born_at": "2026-08-03T19:27:58",
+    "collision_text": "火星车前灯切开荒原，星垂如砾，月涌如尘，天地在履带下缓缓倾覆。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "lit_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "辽阔",
+        "苍凉"
+      ],
+      "themes": [
+        "行星",
+        "星空"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.97,
+      "luminosity": 0.93
+    }
+  },
+  {
+    "id": "body_0044",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺柔情·宁静",
+    "epoch": 44,
+    "born_at": "2026-08-03T19:28:00",
+    "collision_text": "月光在环形山间徘徊，爱丽丝的指尖轻触一枚蓝色的寂静音符。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "apo_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "柔情",
+        "月球"
+      ],
+      "domains": [
+        "art",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.72,
+      "luminosity": 0.82
+    }
   }
 ]

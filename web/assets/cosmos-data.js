@@ -1916,6 +1916,97 @@ window.COSMOS_DATA = [
       "size": 0.78,
       "luminosity": 0.5
     }
+  },
+  {
+    "id": "body_0043",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "渺行星·未知",
+    "epoch": 43,
+    "born_at": "2026-08-03T19:27:58",
+    "collision_text": "火星车前灯切开荒原，星垂如砾，月涌如尘，天地在履带下缓缓倾覆。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "lit_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "辽阔",
+        "苍凉"
+      ],
+      "themes": [
+        "行星",
+        "星空"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.97,
+      "luminosity": 0.93
+    }
+  },
+  {
+    "id": "body_0044",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺柔情·宁静",
+    "epoch": 44,
+    "born_at": "2026-08-03T19:28:00",
+    "collision_text": "月光在环形山间徘徊，爱丽丝的指尖轻触一枚蓝色的寂静音符。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "apo_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "柔情",
+        "月球"
+      ],
+      "domains": [
+        "art",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.72,
+      "luminosity": 0.82
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2212,6 +2303,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0042",
     "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
+  },
+  {
+    "epoch": 43,
+    "timestamp": "2026-08-03T19:27:58",
+    "event": "genesis",
+    "body_id": "body_0043",
+    "summary": "第43纪元：astronomy×literature碰撞，诞生尘埃云「渺行星·未知」"
+  },
+  {
+    "epoch": 44,
+    "timestamp": "2026-08-03T19:28:00",
+    "event": "genesis",
+    "body_id": "body_0044",
+    "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -2433,6 +2538,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T18:55:18.500613"
+  },
+  {
+    "date": "2009-01-05",
+    "title": "Comet and Meteor",
+    "url": "https://apod.nasa.gov/apod/image/0901/Quadran-Lulin_tafreshi.jpg",
+    "local_path": "assets/apod/apod_2009-01-05.jpg",
+    "explanation": "This meteor streaking toward the horizon through the early morning sky of January 4th is from the annual Quadrantid meteor shower. Aligned with the shower's radiant point high in the north (off the top of the view), the meteor trail passes to the right of bright bluish star Beta Scorpii. Remarkably, near the top of the trail is a small spot, the fuzzy greenish glow of a comet. Discovered in July of 2007, Comet Lulin (C/2007 N3), is too faint now to be easily seen by the unaided eye, but will lik",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "孤寂"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-03T19:27:54.048099"
   },
   {
     "date": "2015-10-12",
