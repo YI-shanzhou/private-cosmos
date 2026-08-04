@@ -2007,6 +2007,99 @@ window.COSMOS_DATA = [
       "size": 0.72,
       "luminosity": 0.82
     }
+  },
+  {
+    "id": "body_0045",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·壮阔",
+    "epoch": 45,
+    "born_at": "2026-08-04T19:29:34",
+    "collision_text": "云涛涌作天鹅之翼，星河坠入冰湖成帆，苍凉起舞",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "mus_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "天鹅湖",
+        "source": "柴可夫斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "苍凉"
+      ],
+      "themes": [
+        "星河",
+        "悲剧"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.98,
+      "luminosity": 0.64
+    }
+  },
+  {
+    "id": "body_0046",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "尘原始·宁静",
+    "epoch": 46,
+    "born_at": "2026-08-04T19:29:41",
+    "collision_text": "祭典鼓点震碎银烛秋光，流萤在冷屏上拼出星图，天阶凉夜旋转成静默的献祭。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_06",
+      "lit_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "激烈",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "原始",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.68,
+      "luminosity": 0.57
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2317,6 +2410,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0044",
     "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
+  },
+  {
+    "epoch": 45,
+    "timestamp": "2026-08-04T19:29:34",
+    "event": "genesis",
+    "body_id": "body_0045",
+    "summary": "第45纪元：literature×art碰撞，诞生星系「尘星河·壮阔」"
+  },
+  {
+    "epoch": 46,
+    "timestamp": "2026-08-04T19:29:41",
+    "event": "genesis",
+    "body_id": "body_0046",
+    "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -2456,6 +2563,31 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-02T19:07:15.651723"
+  },
+  {
+    "date": "2004-05-28",
+    "title": "A Manhattan Sunset",
+    "url": "https://apod.nasa.gov/apod/image/0405/nycsunset_tyson_big.jpg",
+    "local_path": "assets/apod/apod_2004-05-28.jpg",
+    "explanation": "Today, if it is clear, Manhattan will flood dramatically with sunlight just as the Sun sets precisely on the centerline of every street.  Usually, the tall buildings that line the gridded streets of New York City's tallest borough will hide the setting Sun.  This effect makes Manhattan a type of modern Stonehenge, although only aligned to about 30 degrees east of north.  Were Manhattan's road grid perfectly aligned to east and west, today's effect would occur on the Vernal and Autumnal Equinox, ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#d0d0d0"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-04T19:29:31.368308"
   },
   {
     "date": "2005-02-03",

@@ -137,6 +137,31 @@
     "fetched_at": "2026-08-02T19:07:15.651723"
   },
   {
+    "date": "2004-05-28",
+    "title": "A Manhattan Sunset",
+    "url": "https://apod.nasa.gov/apod/image/0405/nycsunset_tyson_big.jpg",
+    "local_path": "assets/apod/apod_2004-05-28.jpg",
+    "explanation": "Today, if it is clear, Manhattan will flood dramatically with sunlight just as the Sun sets precisely on the centerline of every street.  Usually, the tall buildings that line the gridded streets of New York City's tallest borough will hide the setting Sun.  This effect makes Manhattan a type of modern Stonehenge, although only aligned to about 30 degrees east of north.  Were Manhattan's road grid perfectly aligned to east and west, today's effect would occur on the Vernal and Autumnal Equinox, ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#d0d0d0"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-04T19:29:31.368308"
+  },
+  {
     "date": "2005-02-03",
     "title": "SMART-1: Pythagoras Crater",
     "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",

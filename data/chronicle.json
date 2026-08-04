@@ -306,5 +306,19 @@
     "event": "genesis",
     "body_id": "body_0044",
     "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
+  },
+  {
+    "epoch": 45,
+    "timestamp": "2026-08-04T19:29:34",
+    "event": "genesis",
+    "body_id": "body_0045",
+    "summary": "第45纪元：literature×art碰撞，诞生星系「尘星河·壮阔」"
+  },
+  {
+    "epoch": 46,
+    "timestamp": "2026-08-04T19:29:41",
+    "event": "genesis",
+    "body_id": "body_0046",
+    "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
   }
 ]
