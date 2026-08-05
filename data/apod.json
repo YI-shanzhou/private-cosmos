@@ -285,6 +285,48 @@
     "fetched_at": "2026-08-03T19:27:54.048099"
   },
   {
+    "date": "2011-01-03",
+    "title": "Winter Hexagon Over Stagecoach Colorado",
+    "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
+    "local_path": "assets/apod/apod_2011-01-03.jpg",
+    "explanation": "If you can find Orion, you might be able to find the Winter Hexagon.  The Winter Hexagon involves some of the brightest stars visible, together forming a large and easily found pattern in the winter sky of Earth's northern hemisphere.  The stars involved can usually be identified even in the bright night skies of a big city, although here they appear over darker Stagecoach, Colorado, USA..  The six stars that compose the Winter Hexagon are Aldebaran, Capella, Castor (and Pollux), Procyon, Rigel,",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#505030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-05T19:27:06.830260"
+  },
+  {
     "date": "2015-10-12",
     "title": "Galaxy, Stars, and Dust",
     "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",

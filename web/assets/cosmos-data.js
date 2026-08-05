@@ -2100,6 +2100,99 @@ window.COSMOS_DATA = [
       "size": 0.68,
       "luminosity": 0.57
     }
+  },
+  {
+    "id": "body_0047",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "焰牺牲·壮阔",
+    "epoch": 47,
+    "born_at": "2026-08-05T19:27:16",
+    "collision_text": "他被钉在星河对岸，以肝为火，照亮了迢迢相望的永恒沉默",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_08",
+      "lit_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "牺牲",
+        "星座"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.35,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0048",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "辉存在·诡谲",
+    "epoch": 48,
+    "born_at": "2026-08-05T19:27:26",
+    "collision_text": "荒原的骨血先于神名战栗起舞，宇宙在痉挛中娩出无名。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_03",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      },
+      "b": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "存在",
+        "原始"
+      ],
+      "domains": [
+        "philosophy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.59,
+      "luminosity": 0.28
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2424,6 +2517,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0046",
     "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
+  },
+  {
+    "epoch": 47,
+    "timestamp": "2026-08-05T19:27:16",
+    "event": "genesis",
+    "body_id": "body_0047",
+    "summary": "第47纪元：myth×literature碰撞，诞生星云「焰牺牲·壮阔」"
+  },
+  {
+    "epoch": 48,
+    "timestamp": "2026-08-05T19:27:26",
+    "event": "genesis",
+    "body_id": "body_0048",
+    "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -2711,6 +2818,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-03T19:27:54.048099"
+  },
+  {
+    "date": "2011-01-03",
+    "title": "Winter Hexagon Over Stagecoach Colorado",
+    "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
+    "local_path": "assets/apod/apod_2011-01-03.jpg",
+    "explanation": "If you can find Orion, you might be able to find the Winter Hexagon.  The Winter Hexagon involves some of the brightest stars visible, together forming a large and easily found pattern in the winter sky of Earth's northern hemisphere.  The stars involved can usually be identified even in the bright night skies of a big city, although here they appear over darker Stagecoach, Colorado, USA..  The six stars that compose the Winter Hexagon are Aldebaran, Capella, Castor (and Pollux), Procyon, Rigel,",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#505030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-05T19:27:06.830260"
   },
   {
     "date": "2015-10-12",

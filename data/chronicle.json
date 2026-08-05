@@ -320,5 +320,19 @@
     "event": "genesis",
     "body_id": "body_0046",
     "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
+  },
+  {
+    "epoch": 47,
+    "timestamp": "2026-08-05T19:27:16",
+    "event": "genesis",
+    "body_id": "body_0047",
+    "summary": "第47纪元：myth×literature碰撞，诞生星云「焰牺牲·壮阔」"
+  },
+  {
+    "epoch": 48,
+    "timestamp": "2026-08-05T19:27:26",
+    "event": "genesis",
+    "body_id": "body_0048",
+    "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
   }
 ]
