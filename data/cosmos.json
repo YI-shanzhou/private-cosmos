@@ -2192,5 +2192,97 @@
       "size": 0.59,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0049",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜英雄·壮阔",
+    "epoch": 49,
+    "born_at": "2026-08-06T23:56:35",
+    "collision_text": "射落九日的神弓垂下，牧羊人独自放牧着最后一个太阳。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_04",
+      "mus_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "art",
+        "text": "孤独的牧羊人",
+        "source": "传统民谣"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "英雄",
+        "旷野"
+      ],
+      "domains": [
+        "myth",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.48,
+      "luminosity": 0.4
+    }
+  },
+  {
+    "id": "body_0050",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "弦理性·未知",
+    "epoch": 50,
+    "born_at": "2026-08-06T23:56:37",
+    "collision_text": "于现实与合理相撞的月面，水星升起未知的辉光",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_04",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是合理的都是现实的，凡是现实的都是合理的",
+        "source": "黑格尔"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "理性",
+        "行星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.45,
+      "luminosity": 0.68
+    }
   }
 ]

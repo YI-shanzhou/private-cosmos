@@ -2193,6 +2193,98 @@ window.COSMOS_DATA = [
       "size": 0.59,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0049",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜英雄·壮阔",
+    "epoch": 49,
+    "born_at": "2026-08-06T23:56:35",
+    "collision_text": "射落九日的神弓垂下，牧羊人独自放牧着最后一个太阳。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_04",
+      "mus_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "art",
+        "text": "孤独的牧羊人",
+        "source": "传统民谣"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "英雄",
+        "旷野"
+      ],
+      "domains": [
+        "myth",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.48,
+      "luminosity": 0.4
+    }
+  },
+  {
+    "id": "body_0050",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "弦理性·未知",
+    "epoch": 50,
+    "born_at": "2026-08-06T23:56:37",
+    "collision_text": "于现实与合理相撞的月面，水星升起未知的辉光",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_04",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是合理的都是现实的，凡是现实的都是合理的",
+        "source": "黑格尔"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "理性",
+        "行星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.45,
+      "luminosity": 0.68
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2531,6 +2623,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0048",
     "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
+  },
+  {
+    "epoch": 49,
+    "timestamp": "2026-08-06T23:56:35",
+    "event": "genesis",
+    "body_id": "body_0049",
+    "summary": "第49纪元：myth×art碰撞，诞生星云「澜英雄·壮阔」"
+  },
+  {
+    "epoch": 50,
+    "timestamp": "2026-08-06T23:56:37",
+    "event": "genesis",
+    "body_id": "body_0050",
+    "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -2628,6 +2734,31 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2001-09-29",
+    "title": "The Iron Sun",
+    "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",
+    "local_path": "assets/apod/apod_2001-09-29.jpg",
+    "explanation": "The ultraviolet light emitted by eleven times ionized iron at temperatures over 2 million degrees Farenheit was used to record the above picture of the Sun on September 22, the date of the autumnal equinox. The image was made by the EIT camera onboard the SOHO spacecraft, a space observatory which can continuously observe the Sun. Eleven times ionized iron is atomic iron with eleven of its electrons stripped away. Here the electrons are stripped by the frantic collisions with other atoms and ele",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107010",
+        "#105010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-06T23:56:32.634738"
   },
   {
     "date": "2004-02-20",

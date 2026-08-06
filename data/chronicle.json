@@ -334,5 +334,19 @@
     "event": "genesis",
     "body_id": "body_0048",
     "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
+  },
+  {
+    "epoch": 49,
+    "timestamp": "2026-08-06T23:56:35",
+    "event": "genesis",
+    "body_id": "body_0049",
+    "summary": "第49纪元：myth×art碰撞，诞生星云「澜英雄·壮阔」"
+  },
+  {
+    "epoch": 50,
+    "timestamp": "2026-08-06T23:56:37",
+    "event": "genesis",
+    "body_id": "body_0050",
+    "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
   }
 ]

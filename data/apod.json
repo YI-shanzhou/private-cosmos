@@ -95,6 +95,31 @@
     "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
+    "date": "2001-09-29",
+    "title": "The Iron Sun",
+    "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",
+    "local_path": "assets/apod/apod_2001-09-29.jpg",
+    "explanation": "The ultraviolet light emitted by eleven times ionized iron at temperatures over 2 million degrees Farenheit was used to record the above picture of the Sun on September 22, the date of the autumnal equinox. The image was made by the EIT camera onboard the SOHO spacecraft, a space observatory which can continuously observe the Sun. Eleven times ionized iron is atomic iron with eleven of its electrons stripped away. Here the electrons are stripped by the frantic collisions with other atoms and ele",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107010",
+        "#105010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
     "date": "2004-02-20",
     "title": "SN1987A's Cosmic Pearls",
     "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",
