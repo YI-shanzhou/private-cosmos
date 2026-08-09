@@ -2285,6 +2285,98 @@ window.COSMOS_DATA = [
       "size": 0.45,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0051",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "寂星汉·辽阔",
+    "epoch": 51,
+    "born_at": "2026-08-09T18:37:42",
+    "collision_text": "沧海吞吐日月，水星悄然吻月，未知的银晕漫过星汉之里",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_07",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "未知"
+      ],
+      "themes": [
+        "星汉",
+        "行星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.9,
+      "luminosity": 0.57
+    }
+  },
+  {
+    "id": "body_0052",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "渊行星·激烈",
+    "epoch": 52,
+    "born_at": "2026-08-09T18:37:44",
+    "collision_text": "后羿的箭穿透九日，余烬落成火星，独留一颗灼照人间。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "myth_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "行星",
+        "英雄"
+      ],
+      "domains": [
+        "astronomy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.6,
+      "luminosity": 0.68
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2637,6 +2729,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0050",
     "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
+  },
+  {
+    "epoch": 51,
+    "timestamp": "2026-08-09T18:37:42",
+    "event": "genesis",
+    "body_id": "body_0051",
+    "summary": "第51纪元：literature×astronomy碰撞，诞生星系「寂星汉·辽阔」"
+  },
+  {
+    "epoch": 52,
+    "timestamp": "2026-08-09T18:37:44",
+    "event": "genesis",
+    "body_id": "body_0052",
+    "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -3198,6 +3304,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-28T19:20:27.040074"
+  },
+  {
+    "date": "2024-04-29",
+    "title": "Comet, Planet, Moon",
+    "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
+    "local_path": "assets/apod/apod_2024-04-29.jpg",
+    "explanation": "Three bright objects satisfied seasoned stargazers of the western sky just after sunset earlier this month. The most familiar was the Moon, seen on the upper left in a crescent phase. The rest of the Moon was faintly visible by sunlight first reflected by the Earth. The bright planet Jupiter, the largest planet in the Solar System, is seen to the upper left.  Most unusual was Comet 12P/Pons-Brooks, below the Moon and showing a stubby dust tail on the right but an impressive ion tail extending up",
+    "tags": {
+      "colors": [
+        "#303050",
+        "#303010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        }
+      ],
+      "moods": [
+        "孤寂"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
     "date": "2026-01-17",

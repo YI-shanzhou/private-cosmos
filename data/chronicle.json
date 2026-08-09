@@ -348,5 +348,19 @@
     "event": "genesis",
     "body_id": "body_0050",
     "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
+  },
+  {
+    "epoch": 51,
+    "timestamp": "2026-08-09T18:37:42",
+    "event": "genesis",
+    "body_id": "body_0051",
+    "summary": "第51纪元：literature×astronomy碰撞，诞生星系「寂星汉·辽阔」"
+  },
+  {
+    "epoch": 52,
+    "timestamp": "2026-08-09T18:37:44",
+    "event": "genesis",
+    "body_id": "body_0052",
+    "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
   }
 ]

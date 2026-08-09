@@ -559,6 +559,47 @@
     "fetched_at": "2026-07-28T19:20:27.040074"
   },
   {
+    "date": "2024-04-29",
+    "title": "Comet, Planet, Moon",
+    "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
+    "local_path": "assets/apod/apod_2024-04-29.jpg",
+    "explanation": "Three bright objects satisfied seasoned stargazers of the western sky just after sunset earlier this month. The most familiar was the Moon, seen on the upper left in a crescent phase. The rest of the Moon was faintly visible by sunlight first reflected by the Earth. The bright planet Jupiter, the largest planet in the Solar System, is seen to the upper left.  Most unusual was Comet 12P/Pons-Brooks, below the Moon and showing a stubby dust tail on the right but an impressive ion tail extending up",
+    "tags": {
+      "colors": [
+        "#303050",
+        "#303010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        }
+      ],
+      "moods": [
+        "孤寂"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-09T18:37:40.677162"
+  },
+  {
     "date": "2026-01-17",
     "title": "Apollo 14: A View from Antares",
     "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
