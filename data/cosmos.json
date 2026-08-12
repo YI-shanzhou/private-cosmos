@@ -2376,5 +2376,96 @@
       "size": 0.6,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0053",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "辉秩序·苍凉",
+    "epoch": 53,
+    "born_at": "2026-08-12T18:59:31",
+    "collision_text": "琴键上那座巴洛克教堂静静崩塌，每粒尘埃都按平均律落入星海。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_08",
+      "phi_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "激烈"
+      ],
+      "themes": [
+        "秩序",
+        "消解"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.51,
+      "luminosity": 0.63
+    }
+  },
+  {
+    "id": "body_0054",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "弦吞食·激烈",
+    "epoch": 54,
+    "born_at": "2026-08-12T18:59:34",
+    "collision_text": "那伽吞尽日月，诸神之血溅满虚空，上帝已死无人击鼓。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_10",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "那伽吞食日月，造成食相，人击鼓驱之",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "吞食",
+        "信仰"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.36,
+      "luminosity": 0.65
+    }
   }
 ]

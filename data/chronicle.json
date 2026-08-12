@@ -362,5 +362,19 @@
     "event": "genesis",
     "body_id": "body_0052",
     "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
+  },
+  {
+    "epoch": 53,
+    "timestamp": "2026-08-12T18:59:31",
+    "event": "genesis",
+    "body_id": "body_0053",
+    "summary": "第53纪元：art×philosophy碰撞，诞生白矮星「辉秩序·苍凉」"
+  },
+  {
+    "epoch": 54,
+    "timestamp": "2026-08-12T18:59:34",
+    "event": "genesis",
+    "body_id": "body_0054",
+    "summary": "第54纪元：myth×philosophy碰撞，诞生超新星「弦吞食·激烈」"
   }
 ]

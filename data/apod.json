@@ -352,6 +352,35 @@
     "fetched_at": "2026-08-05T19:27:06.830260"
   },
   {
+    "date": "2012-06-16",
+    "title": "APOD Turns 17",
+    "url": "https://apod.nasa.gov/apod/image/1206/apod17_person_2500.jpg",
+    "local_path": "assets/apod/apod_2012-06-16.jpg",
+    "explanation": "The first APOD appeared seventeen years ago today, on 1995 June 16.  Although garnering only 14 page views on that day, we are proud to estimate that APOD has now served over one billion space-related images over the last 1.7 decades.  That early beginning, along with a nearly unchanging format, has allowed APOD to be a consistent and familiar site on a web frequently filled with change.   Many people don't know, though, that APOD is now translated daily into many major languages and featured on",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
     "date": "2015-10-12",
     "title": "Galaxy, Stars, and Dust",
     "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",

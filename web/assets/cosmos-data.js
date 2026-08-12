@@ -2377,6 +2377,97 @@ window.COSMOS_DATA = [
       "size": 0.6,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0053",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "辉秩序·苍凉",
+    "epoch": 53,
+    "born_at": "2026-08-12T18:59:31",
+    "collision_text": "琴键上那座巴洛克教堂静静崩塌，每粒尘埃都按平均律落入星海。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_08",
+      "phi_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "激烈"
+      ],
+      "themes": [
+        "秩序",
+        "消解"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.51,
+      "luminosity": 0.63
+    }
+  },
+  {
+    "id": "body_0054",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "弦吞食·激烈",
+    "epoch": 54,
+    "born_at": "2026-08-12T18:59:34",
+    "collision_text": "那伽吞尽日月，诸神之血溅满虚空，上帝已死无人击鼓。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_10",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "那伽吞食日月，造成食相，人击鼓驱之",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "吞食",
+        "信仰"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.36,
+      "luminosity": 0.65
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2743,6 +2834,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0052",
     "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
+  },
+  {
+    "epoch": 53,
+    "timestamp": "2026-08-12T18:59:31",
+    "event": "genesis",
+    "body_id": "body_0053",
+    "summary": "第53纪元：art×philosophy碰撞，诞生白矮星「辉秩序·苍凉」"
+  },
+  {
+    "epoch": 54,
+    "timestamp": "2026-08-12T18:59:34",
+    "event": "genesis",
+    "body_id": "body_0054",
+    "summary": "第54纪元：myth×philosophy碰撞，诞生超新星「弦吞食·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -3097,6 +3202,35 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-05T19:27:06.830260"
+  },
+  {
+    "date": "2012-06-16",
+    "title": "APOD Turns 17",
+    "url": "https://apod.nasa.gov/apod/image/1206/apod17_person_2500.jpg",
+    "local_path": "assets/apod/apod_2012-06-16.jpg",
+    "explanation": "The first APOD appeared seventeen years ago today, on 1995 June 16.  Although garnering only 14 page views on that day, we are proud to estimate that APOD has now served over one billion space-related images over the last 1.7 decades.  That early beginning, along with a nearly unchanging format, has allowed APOD to be a consistent and familiar site on a web frequently filled with change.   Many people don't know, though, that APOD is now translated daily into many major languages and featured on",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-12T18:59:24.142072"
   },
   {
     "date": "2015-10-12",
