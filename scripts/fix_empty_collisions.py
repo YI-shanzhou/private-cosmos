@@ -5,11 +5,11 @@ import os
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(PROJECT_ROOT / "engine"))
+sys.path.insert(0, str(PROJECT_ROOT))
 
-import config
-import deepseek_client
-from evolve import load_all_sources, _short
+from engine import config
+from engine.collider import collide
+from engine.source_loader import load_all_sources
 
 sources = load_all_sources()
 source_map = {}
@@ -41,7 +41,7 @@ for body in cosmos:
         failed += 1
         continue
     try:
-        result = deepseek_client.collide(pa, pb)
+        result = collide(pa, pb)
         new_text = result["text"].strip()
         if new_text:
             body["collision_text"] = new_text

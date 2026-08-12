@@ -1,291 +1,144 @@
 """
-evolve.py — 私宇宙 · 演化引擎
+evolve.py — 私宇宙 · 演化引擎（薄 CLI 入口）
 
 四阶段演化，每次运行诞生一个新天体：
-  1. 规则演化  — 从各领域素材中跨领域配对选材
-  2. 语义碰撞  — 两个素材相撞，诞生新意象（DeepSeek / 本地降级）
-  3. 受控随机  — 根据碰撞情绪决定天体类型、颜色、亮度、命名
-  4. 时间发酵  — 写入天体总表 cosmos.json + 编年史 chronicle.json
+  1. 规则演化  — engine.pairing.stage_rule_evolve
+  2. 语义碰撞  — engine.collider.collide
+  3. 受控随机  — engine.body_factory.stage_controlled_random
+  4. 时间发酵  — engine.chronicler.stage_ferment
 
 用法:
   python engine/evolve.py            # 演化 1 个天体
   python engine/evolve.py --count 3  # 连续演化 3 个
   python engine/evolve.py --dry-run  # 只预览不写入
 """
-import json
 import os
 import sys
-import random
 import argparse
+import random
 from datetime import datetime
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import config
-import deepseek_client
+# 将项目根目录加入 sys.path，支持 `python engine/evolve.py` 直接运行（以 engine 为包）
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from engine import config
+from engine.utils import _short, load_json
+from engine.source_loader import load_all_sources
+from engine.pairing import stage_rule_evolve
+from engine.collider import collide
+from engine.body_factory import stage_controlled_random
+from engine.chronicler import stage_ferment, generate_daily_report, save_daily_report
 
 
-# ---- 天体类型库：主导情绪 → 候选天体 (英文, 中文) ----
-BODY_TYPES = {
-    "壮阔": [("nebula", "星云"), ("galaxy", "星系"), ("supervoid", "超空洞")],
-    "辽阔": [("galaxy", "星系"), ("cluster", "星团"), ("supervoid", "超空洞")],
-    "苍凉": [("white_dwarf", "白矮星"), ("remnant", "遗迹"), ("void", "虚空")],
-    "孤寂": [("comet", "彗星"), ("rogue_planet", "流浪行星"), ("void", "虚空")],
-    "宁静": [("planet", "行星"), ("moon", "卫星"), ("dust_cloud", "尘埃云")],
-    "诡谲": [("black_hole", "黑洞"), ("dark_matter", "暗物质"), ("wormhole", "虫洞")],
-    "激烈": [("supernova", "超新星"), ("magnetar", "磁星"), ("kilonova", "千新星")],
-    "激越": [("pulsar", "脉冲星"), ("quasar", "类星体"), ("blazar", "耀变体")],
-    "神秘": [("dark_matter", "暗物质"), ("wormhole", "虫洞"), ("dark_nebula", "暗星云")],
-    "希望": [("star", "恒星"), ("protostar", "原恒星"), ("blue_giant", "蓝巨星")],
-    "未知": [("dust_cloud", "尘埃云"), ("rogue_planet", "流浪行星"), ("void", "虚空")],
-}
-
-# 情绪 → 主色（与项目美学一致：星海深空 × 暗物质）
-MOOD_COLORS = {
-    "壮阔": "#6D5AE6", "辽阔": "#0EA5E9", "苍凉": "#64748B",
-    "孤寂": "#475569", "宁静": "#14B8A6", "诡谲": "#7C3AED",
-    "激烈": "#F2715E", "激越": "#F2C94C", "神秘": "#8B5CF6",
-    "希望": "#FBBF24", "未知": "#8A86A8",
-}
-
-# 命名词缀
-NAME_PREFIXES = ["幽", "寂", "焰", "渊", "辉", "尘", "弦", "墟", "澜", "渺", "魄", "茫"]
-
-
-# ---- 数据读写 ----
-def load_json(path):
-    if not path.exists():
-        return []
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_json(path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(".tmp")
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    tmp.replace(path)
-
-
-def load_all_sources():
-    """加载所有领域素材，打平成统一结构并标记 _domain"""
-    sources = []
-    for domain, filename in config.DOMAIN_FILES.items():
-        path = config.DATA_DIR / filename
-        items = load_json(path)
-        for idx, item in enumerate(items):
-            entry = dict(item)
-            entry["_domain"] = domain
-            # 适配 APOD 天文数据格式
-            if domain == "astronomy":
-                if "id" not in entry:
-                    entry["id"] = f"apo_{idx+1:02d}"
-                if "text" not in entry:
-                    entry["text"] = entry.get("title", "")
-                if "source" not in entry:
-                    entry["source"] = f"NASA APOD {entry.get('date', '')}"
-                # 将 themes 对象数组转为 theme 字符串
-                tags = entry.get("tags", {})
-                themes_obj = tags.get("themes", [])
-                if themes_obj and isinstance(themes_obj[0], dict):
-                    tags["theme"] = themes_obj[0].get("cn", "")
-            sources.append(entry)
-    return sources
-
-
-# ---- 四阶段演化 ----
-def stage_rule_evolve(sources):
-    """阶段一·规则演化：跨领域配对选材
-    
-    三种配对模式随机切换：
-    - random: 纯随机跨领域（原始模式）
-    - resonance: 情绪共振——找有共同情绪的跨领域素材
-    - contrast: 情绪反差——找情绪完全不同、强度差异大的素材
-    """
-    by_domain = {}
-    for s in sources:
-        by_domain.setdefault(s["_domain"], []).append(s)
-    domains = list(by_domain.keys())
-    if len(domains) < 2:
-        if len(sources) >= 2:
-            return random.sample(sources, 2)
-        return None
-
-    mode = random.choice(["random", "resonance", "contrast"])
-
-    if mode == "resonance":
-        pair = _pair_resonance(sources, by_domain, domains)
-        if pair:
-            return pair
-    elif mode == "contrast":
-        pair = _pair_contrast(sources, by_domain, domains)
-        if pair:
-            return pair
-
-    # fallback: 原始随机配对
-    dom_a, dom_b = random.sample(domains, 2)
-    a = random.choice(by_domain[dom_a])
-    b = random.choice(by_domain[dom_b])
-    return a, b
-
-
-def _pair_resonance(sources, by_domain, domains):
-    """共振配对：寻找跨领域但有共同情绪的素材对"""
-    # 收集所有 (mood, source) 并按情绪分组
-    mood_index = {}
-    for s in sources:
-        for m in s.get("tags", {}).get("moods", []):
-            mood_index.setdefault(m, []).append(s)
-
-    # 找有跨领域共同情绪的组合
-    candidates = []
-    for mood, items in mood_index.items():
-        by_dom = {}
-        for item in items:
-            by_dom.setdefault(item["_domain"], []).append(item)
-        doms = list(by_dom.keys())
-        if len(doms) >= 2:
-            dom_a, dom_b = random.sample(doms, 2)
-            a = random.choice(by_dom[dom_a])
-            b = random.choice(by_dom[dom_b])
-            candidates.append((a, b))
-
-    if candidates:
-        return random.choice(candidates)
-    return None
-
-
-def _pair_contrast(sources, by_domain, domains):
-    """反差配对：寻找情绪不同、强度差异大的跨领域素材对"""
-    # 按强度分层
-    high = [s for s in sources if s.get("tags", {}).get("intensity", 2) >= 4]
-    low = [s for s in sources if s.get("tags", {}).get("intensity", 2) <= 2]
-
-    if not high or not low:
-        return None
-
-    # 尝试找跨领域的高低组合
-    for _ in range(20):
-        a = random.choice(high)
-        b = random.choice(low)
-        if a["_domain"] != b["_domain"]:
-            # 确认情绪不重叠
-            moods_a = set(a.get("tags", {}).get("moods", []))
-            moods_b = set(b.get("tags", {}).get("moods", []))
-            if not moods_a & moods_b:
-                return a, b
-
-    # fallback: 任意跨领域高低组合
-    for _ in range(10):
-        a = random.choice(high)
-        b = random.choice(low)
-        if a["_domain"] != b["_domain"]:
-            return a, b
-    return None
-
-
-def stage_semantic_collide(a, b):
-    """阶段二·语义碰撞"""
-    return deepseek_client.collide(a, b)
-
-
-def stage_controlled_random(result, a, b):
-    """阶段三·受控随机：决定天体类型、颜色、亮度、命名"""
-    mood = result["mood"]
-    type_en, type_cn = random.choice(BODY_TYPES.get(mood, [("dust_cloud", "尘埃云")]))
-    color = MOOD_COLORS.get(mood, "#8A86A8")
-    size = round(random.uniform(0.3, 1.0), 2)
-    luminosity = round(random.uniform(0.2, 1.0), 2)
-
-    # 命名：前缀 + 主题首两字 + 情绪
-    prefix = random.choice(NAME_PREFIXES)
-    theme_a = a.get("tags", {}).get("theme", "")
-    theme_b = b.get("tags", {}).get("theme", "")
-    core = (theme_a or theme_b or "无名")
-    core = core[:2] if len(core) >= 2 else core
-    name = f"{prefix}{core}·{mood}"
-
-    return {
-        "type_en": type_en, "type_cn": type_cn,
-        "color": color, "size": size, "luminosity": luminosity,
-        "name": name, "mood": mood,
-    }
-
-
-def merge_tags(a, b, mood):
-    """合并两个素材的标签"""
+def merge_tags(a, b, mood, c=None):
+    """合并两个或三个素材的标签。"""
     tags_a = a.get("tags", {})
     tags_b = b.get("tags", {})
     moods = list(dict.fromkeys([mood] + tags_a.get("moods", []) + tags_b.get("moods", [])))
     raw_themes = [tags_a.get("theme"), tags_b.get("theme")]
-    themes = list(dict.fromkeys([t for t in raw_themes if t]))
-    # 合并强度（取较高者）
     int_a = tags_a.get("intensity", 2)
     int_b = tags_b.get("intensity", 2)
-    intensity = max(int_a, int_b)
-    # 合并时代
+    domains = [a["_domain"], b["_domain"]]
     era_a = tags_a.get("era", "")
     era_b = tags_b.get("era", "")
     eras = list(dict.fromkeys([e for e in [era_a, era_b] if e]))
+
+    if c:
+        tags_c = c.get("tags", {})
+        moods = list(dict.fromkeys(moods + tags_c.get("moods", [])))
+        raw_themes.append(tags_c.get("theme"))
+        int_c = tags_c.get("intensity", 2)
+        intensity = max(int_a, int_b, int_c)
+        domains.append(c["_domain"])
+        era_c = tags_c.get("era", "")
+        eras = list(dict.fromkeys(eras + [e for e in [era_c] if e]))
+    else:
+        intensity = max(int_a, int_b)
+
+    themes = list(dict.fromkeys([t for t in raw_themes if t]))
     return {
         "moods": moods[:4], "themes": themes[:4],
-        "domains": [a["_domain"], b["_domain"]],
+        "domains": domains[:3],
         "intensity": intensity, "eras": eras[:3],
     }
 
 
-def stage_ferment(body, dry_run=False):
-    """阶段四·时间发酵：写入天体总表 + 编年史"""
-    if dry_run:
-        return body
-    cosmos = load_json(config.COSMOS_FILE)
-    cosmos.append(body)
-    save_json(config.COSMOS_FILE, cosmos)
-
-    chronicle = load_json(config.CHRONICLE_FILE)
-    chronicle.append({
-        "epoch": body["epoch"],
-        "timestamp": body["born_at"],
-        "event": "genesis",
-        "body_id": body["id"],
-        "summary": (
-            f"第{body['epoch']}纪元：{body['composition']['a']['domain']}"
-            f"×{body['composition']['b']['domain']}碰撞，"
-            f"诞生{body['type_cn']}「{body['name']}」"
-        ),
-    })
-    save_json(config.CHRONICLE_FILE, chronicle)
-    return body
-
-
 def evolve_once(dry_run=False):
-    """执行一次完整演化，返回新天体（或 None）"""
+    """执行一次完整演化，返回新天体（或 None）。"""
     sources = load_all_sources()
     if len(sources) < 2:
         print("  × 素材不足，至少需要 2 条")
         return None
 
-    # 阶段一
-    pair = stage_rule_evolve(sources)
-    if not pair:
-        print("  × 无法完成跨领域配对")
-        return None
-    a, b = pair
-    print(f"  [规则演化] {a['_domain']} × {b['_domain']}")
-    print(f"    甲: {_short(a.get('text') or a.get('title','?'))}")
-    print(f"    乙: {_short(b.get('text') or b.get('title','?'))}")
+    # 25% 概率触发世代模式（需要已有天体）
+    parent_body = None
+    cosmos = load_json(config.COSMOS_FILE)
+    if cosmos and random.random() < 0.25:
+        # 限制世代深度：最多3代
+        eligible = [b for b in cosmos if b.get("lineage", {}).get("generation", 0) < 3]
+        if eligible:
+            parent_body = random.choice(eligible)
+
+    if parent_body:
+        print(f"  [世代模式] 父代: {parent_body['type_cn']}「{parent_body['name']}」")
+        # 从素材中随机选两个作为"碰撞"基础（用于生成碰撞文本）
+        a, b = random.sample(sources, 2) if len(sources) >= 2 else (sources[0], sources[0])
+        c = None
+    else:
+        # 阶段一
+        pair = stage_rule_evolve(sources)
+        if not pair:
+            print("  × 无法完成跨领域配对")
+            return None
+
+        # 判断是两体还是三体
+        if len(pair) == 3:
+            a, b, c = pair
+            print(f"  [规则演化·三体] {a['_domain']} × {b['_domain']} × {c['_domain']}")
+            print(f"    甲: {_short(a.get('text') or a.get('title','?'))}")
+            print(f"    乙: {_short(b.get('text') or b.get('title','?'))}")
+            print(f"    丙: {_short(c.get('text') or c.get('title','?'))}")
+        else:
+            a, b = pair
+            c = None
+            print(f"  [规则演化] {a['_domain']} × {b['_domain']}")
+            print(f"    甲: {_short(a.get('text') or a.get('title','?'))}")
+            print(f"    乙: {_short(b.get('text') or b.get('title','?'))}")
 
     # 阶段二
-    result = stage_semantic_collide(a, b)
-    print(f"  [语义碰撞·{result['mode']}] {result['text']}")
+    result = collide(a, b, c)
+    collision_label = "三体·DeepSeek" if result['mode'] == 'deepseek' and c else ("DeepSeek" if result['mode'] == 'deepseek' else "本地")
+    if parent_body:
+        collision_label = f"世代·{collision_label}"
+    print(f"  [语义碰撞·{collision_label}] {result['text']}")
 
     # 阶段三
-    cr = stage_controlled_random(result, a, b)
+    cr = stage_controlled_random(result, a, b, parent_body)
     print(f"  [受控随机] {cr['type_cn']}「{cr['name']}」 色{cr['color']} 径{cr['size']} 亮{cr['luminosity']}")
 
     # 组装天体
-    cosmos = load_json(config.COSMOS_FILE)
     epoch = len(cosmos) + 1
+    parents = [a.get("id", "?"), b.get("id", "?")]
+    composition = {
+        "a": {
+            "domain": a["_domain"],
+            "text": a.get("text") or a.get("title", ""),
+            "source": a.get("source") or a.get("composer", ""),
+        },
+        "b": {
+            "domain": b["_domain"],
+            "text": b.get("text") or b.get("title", ""),
+            "source": b.get("source") or b.get("composer", ""),
+        },
+    }
+    if c:
+        parents.append(c.get("id", "?"))
+        composition["c"] = {
+            "domain": c["_domain"],
+            "text": c.get("text") or c.get("title", ""),
+            "source": c.get("source") or c.get("composer", ""),
+        }
+
     body = {
         "id": f"body_{epoch:04d}",
         "type": cr["type_en"],
@@ -295,20 +148,10 @@ def evolve_once(dry_run=False):
         "born_at": datetime.now().isoformat(timespec="seconds"),
         "collision_text": result["text"],
         "collision_mode": result["mode"],
-        "parents": [a.get("id", "?"), b.get("id", "?")],
-        "composition": {
-            "a": {
-                "domain": a["_domain"],
-                "text": a.get("text") or a.get("title", ""),
-                "source": a.get("source") or a.get("composer", ""),
-            },
-            "b": {
-                "domain": b["_domain"],
-                "text": b.get("text") or b.get("title", ""),
-                "source": b.get("source") or b.get("composer", ""),
-            },
-        },
-        "tags": merge_tags(a, b, cr["mood"]),
+        "collision_type": "triple" if c else "dual",
+        "parents": parents,
+        "composition": composition,
+        "tags": merge_tags(a, b, cr["mood"], c),
         "visual": {
             "color": cr["color"],
             "size": cr["size"],
@@ -316,18 +159,22 @@ def evolve_once(dry_run=False):
         },
     }
 
+    # 世代信息
+    if parent_body:
+        parent_gen = parent_body.get("lineage", {}).get("generation", 0)
+        body["lineage"] = {
+            "parent_id": parent_body["id"],
+            "generation": parent_gen + 1,
+            "inherited_traits": ["type_family", "color"],
+        }
+
     # 阶段四
-    stage_ferment(body, dry_run)
+    stage_ferment(body, dry_run, parent_body)
     if dry_run:
         print("  [dry-run] 未写入")
     else:
         print(f"  [时间发酵] cosmos.json 共 {len(cosmos)+1} 体，已写入编年史")
     return body
-
-
-def _short(text, n=26):
-    text = (text or "?").strip()
-    return text[:n] + ("…" if len(text) > n else "")
 
 
 def main():
@@ -342,16 +189,26 @@ def main():
     print(f"  目标: 诞生 {args.count} 个天体\n")
 
     born = 0
+    new_bodies = []
     for i in range(args.count):
         print(f"--- 第 {i+1}/{args.count} 次演化 ---")
         body = evolve_once(dry_run=args.dry_run)
         if body:
             born += 1
+            new_bodies.append(body)
             print(f"  ✓ 诞生: {body['type_cn']}「{body['name']}」\n")
         else:
             print(f"  × 失败\n")
 
     print(f"=== 完成：共诞生 {born} 个天体 ===")
+
+    # 生成每日宇宙报告
+    if new_bodies and not args.dry_run:
+        print("\n--- 生成宇宙日报 ---")
+        report = generate_daily_report(new_bodies)
+        if report:
+            print(f"  {report['summary']}")
+            save_daily_report(report, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
