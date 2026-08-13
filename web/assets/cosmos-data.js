@@ -2468,6 +2468,99 @@ window.COSMOS_DATA = [
       "size": 0.36,
       "luminosity": 0.65
     }
+  },
+  {
+    "id": "body_0055",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "渊崇高·激烈",
+    "epoch": 55,
+    "born_at": "2026-08-13T19:00:28",
+    "collision_text": "G弦余震里，众神崩解为星尘，寂静的轰鸣铺满宇宙。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_03",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "G 弦上的咏叹调",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "崇高",
+        "信仰"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.6,
+      "luminosity": 0.34
+    }
+  },
+  {
+    "id": "body_0056",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "弦幻象·激越",
+    "epoch": 56,
+    "born_at": "2026-08-13T19:00:34",
+    "collision_text": "织女以诡谲指法弹奏孤寂的银汉，迢迢之音在激越的星轨上凝成永恒静默",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_04",
+      "lit_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "幻想即兴曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "诡谲",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "幻象",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.62,
+      "luminosity": 0.63
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2848,6 +2941,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0054",
     "summary": "第54纪元：myth×philosophy碰撞，诞生超新星「弦吞食·激烈」"
+  },
+  {
+    "epoch": 55,
+    "timestamp": "2026-08-13T19:00:28",
+    "event": "genesis",
+    "body_id": "body_0055",
+    "summary": "第55纪元：art×philosophy碰撞，诞生超新星「渊崇高·激烈」"
+  },
+  {
+    "epoch": 56,
+    "timestamp": "2026-08-13T19:00:34",
+    "event": "genesis",
+    "body_id": "body_0056",
+    "summary": "第56纪元：art×literature碰撞，诞生脉冲星「弦幻象·激越」"
   }
 ];
 window.APOD_DATA = [
@@ -2945,6 +3052,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2001-01-19",
+    "title": "Black Holes Are Black",
+    "url": "https://apod.nasa.gov/apod/image/0101/blackhole_illustration.jpg",
+    "local_path": "assets/apod/apod_2001-01-19.jpg",
+    "explanation": "Q: Why are black holes black? A: Because they have an event horizon. The event horizon is that one-way boundary predicted by general relativity beyond which nothing, not even light, can return. X-ray astronomers using the space-based Chandra Observatory now believe they have direct evidence for event horizons - therefore black holes - in binary star systems which can be detected in x-ray light. These binaries, sometimes called x-ray novae, are known to consist of relatively normal stars dumping ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0d0d0",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-13T19:00:25.767116"
   },
   {
     "date": "2001-09-29",

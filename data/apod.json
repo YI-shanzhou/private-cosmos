@@ -95,6 +95,39 @@
     "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
+    "date": "2001-01-19",
+    "title": "Black Holes Are Black",
+    "url": "https://apod.nasa.gov/apod/image/0101/blackhole_illustration.jpg",
+    "local_path": "assets/apod/apod_2001-01-19.jpg",
+    "explanation": "Q: Why are black holes black? A: Because they have an event horizon. The event horizon is that one-way boundary predicted by general relativity beyond which nothing, not even light, can return. X-ray astronomers using the space-based Chandra Observatory now believe they have direct evidence for event horizons - therefore black holes - in binary star systems which can be detected in x-ray light. These binaries, sometimes called x-ray novae, are known to consist of relatively normal stars dumping ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0d0d0",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-13T19:00:25.767116"
+  },
+  {
     "date": "2001-09-29",
     "title": "The Iron Sun",
     "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",
