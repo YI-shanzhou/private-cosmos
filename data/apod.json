@@ -414,6 +414,48 @@
     "fetched_at": "2026-08-12T18:59:24.142072"
   },
   {
+    "date": "2013-03-10",
+    "title": "Milky Way Panorama from Mauna Kea",
+    "url": "https://apod.nasa.gov/apod/image/1303/MKMilkyWaypan_pacholka_600WPAP.jpg",
+    "local_path": "assets/apod/apod_2013-03-10.jpg",
+    "explanation": "Aloha and welcome to a breathtaking skyscape. The dreamlike panoramic view looks out from the 4,200 meter volcanic summit of Mauna Kea, Hawai'i, across a layer of clouds toward a starry night sky and the rising Milky Way. Anchoring the scene on the far left is the dome of the Canada-France-Hawaii Telescope (CFHT), with north star Polaris shining beyond the dome to the right. Farther right, headed by bright star Deneb, the Northern Cross asterism is embedded along the plane of the Milky Way as it",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-14T18:51:27.790920"
+  },
+  {
     "date": "2015-10-12",
     "title": "Galaxy, Stars, and Dust",
     "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",

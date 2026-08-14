@@ -2561,6 +2561,98 @@ window.COSMOS_DATA = [
       "size": 0.62,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0057",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "弦时间·壮阔",
+    "epoch": 57,
+    "born_at": "2026-08-14T18:51:30",
+    "collision_text": "春在巫师袖中点燃星骸，众神呼喝，把长恨锻成星尘回旋的庆典。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_09",
+      "apo_18"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长恨春归无觅处，不知转入此中来",
+        "source": "白居易《大林寺桃花》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NGC 7380: The Wizard Nebula",
+        "source": "NASA APOD 2022-11-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "热闹"
+      ],
+      "themes": [
+        "时间",
+        "星云"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.81,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0058",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渊星河·宁静",
+    "epoch": 58,
+    "born_at": "2026-08-14T18:51:32",
+    "collision_text": "铁太阳溺入青草湖，满船清梦枕着未知的星骸",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_04",
+      "apo_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "诡谲",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "太阳"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.73,
+      "luminosity": 0.37
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -2955,6 +3047,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0056",
     "summary": "第56纪元：art×literature碰撞，诞生脉冲星「弦幻象·激越」"
+  },
+  {
+    "epoch": 57,
+    "timestamp": "2026-08-14T18:51:30",
+    "event": "genesis",
+    "body_id": "body_0057",
+    "summary": "第57纪元：literature×astronomy碰撞，诞生星云「弦时间·壮阔」"
+  },
+  {
+    "epoch": 58,
+    "timestamp": "2026-08-14T18:51:32",
+    "event": "genesis",
+    "body_id": "body_0058",
+    "summary": "第58纪元：literature×astronomy碰撞，诞生卫星「渊星河·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -3371,6 +3477,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
+    "date": "2013-03-10",
+    "title": "Milky Way Panorama from Mauna Kea",
+    "url": "https://apod.nasa.gov/apod/image/1303/MKMilkyWaypan_pacholka_600WPAP.jpg",
+    "local_path": "assets/apod/apod_2013-03-10.jpg",
+    "explanation": "Aloha and welcome to a breathtaking skyscape. The dreamlike panoramic view looks out from the 4,200 meter volcanic summit of Mauna Kea, Hawai'i, across a layer of clouds toward a starry night sky and the rising Milky Way. Anchoring the scene on the far left is the dome of the Canada-France-Hawaii Telescope (CFHT), with north star Polaris shining beyond the dome to the right. Farther right, headed by bright star Deneb, the Northern Cross asterism is embedded along the plane of the Milky Way as it",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-14T18:51:27.790920"
   },
   {
     "date": "2015-10-12",

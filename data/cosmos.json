@@ -2560,5 +2560,97 @@
       "size": 0.62,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0057",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "弦时间·壮阔",
+    "epoch": 57,
+    "born_at": "2026-08-14T18:51:30",
+    "collision_text": "春在巫师袖中点燃星骸，众神呼喝，把长恨锻成星尘回旋的庆典。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_09",
+      "apo_18"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长恨春归无觅处，不知转入此中来",
+        "source": "白居易《大林寺桃花》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NGC 7380: The Wizard Nebula",
+        "source": "NASA APOD 2022-11-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "热闹"
+      ],
+      "themes": [
+        "时间",
+        "星云"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.81,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0058",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渊星河·宁静",
+    "epoch": 58,
+    "born_at": "2026-08-14T18:51:32",
+    "collision_text": "铁太阳溺入青草湖，满船清梦枕着未知的星骸",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_04",
+      "apo_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "诡谲",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "太阳"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.73,
+      "luminosity": 0.37
+    }
   }
 ]
