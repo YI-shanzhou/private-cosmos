@@ -85,9 +85,7 @@ jobs:
         run: |
           mkdir -p _site
           cp -r web/* _site/
-          if [ ! -f _site/index.html ]; then
-            cp _site/private-cosmos-skymap.html _site/index.html
-          fi
+          # web/index.html 为 Pages 默认入口（旧版兜底已于 Day 7 移除）
 
       - name: 上传 Pages 产物
         uses: actions/upload-pages-artifact@v3

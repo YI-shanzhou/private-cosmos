@@ -1,155 +1,72 @@
-# 🌌 私宇宙 Private Cosmos
+# 私宇宙 · Private Cosmos
 
-> 一个会自己长大的生成式宇宙。每一颗天体，都诞生自两个不同领域素材的 AI 语义碰撞。
+> 由 AI 语义碰撞引擎驱动的生成式宇宙——每一次碰撞，诞生一颗天体。
+
+![skymap](docs/skymap-verify.png)
+
+线上体验：**https://yi-shanzhou.github.io/private-cosmos/**（GitHub Pages 自动部署，每日 UTC 定时演化）
 
 ## 这是什么
 
-「私宇宙」是一个生成式艺术项目。它每天自动运行：
+「私宇宙」把 9 大领域（文学、哲学、音乐、神话、科学、电影、历史、地理、天文）的素材两两/三体碰撞，经 DeepSeek（或本地模板降级）生成一颗带有碰撞文本、情绪标签与视觉参数的天体，并在 3D 星图中螺旋展开。宇宙每天自动演化，也会为你的名字生成专属星座。
 
-1. **捞取** — 从 NASA APOD 拉取每日天文图片
-2. **碰撞** — 从文学、哲学、艺术、神话、天文五个领域随机抽取两个素材
-3. **生成** — 调用 DeepSeek V4 大模型，让两个素材"撞"出一个新的宇宙意象
-4. **诞生** — 根据碰撞结果生成一颗新天体（星云、黑洞、脉冲星…），写入宇宙总表
+## 功能总览
 
-宇宙每天自动长大，永不停歇。
+| 模块 | 说明 |
+|---|---|
+| 3D 星图 | three.js 渲染，800 粒子深空 + 天体球体/光晕/名称标签，~120fps |
+| 交互 | 轨道旋转/缩放/平移、自动旋转、悬停高亮（30ms 节流 raycast）、点击详情面板 |
+| 详情面板 | 碰撞文本、父素材与出处、情绪/主题/领域标签、世代谱系、视觉参数 |
+| 统计面板 | ECharts 类型饼图 / 情绪柱状图 / 领域雷达（数据驱动） |
+| 时间轴回放 | 纪元滑块 + 播放（450ms 淡入动画）+ 0.5x/1x/2x 速度 |
+| 搜索筛选 | 关键词（名称/碰撞文本/类型/素材）+ 领域/类型/情绪多选，URL hash 持久化 |
+| 星座连线 | 共享父素材 / 共享主导情绪的连线（≤50 条，strength 排序），悬停高亮两端 |
+| 个人星图 | 姓名哈希（FNV-1a+mulberry32）确定性生成 3-5 颗专属星座，PNG 保存与分享链接 |
+| PWA | manifest + Service Worker（31 项预缓存，three 全本地化），**真实离线可用** |
 
-## 在线 demo
+![offline](docs/offline-pwa.png)
 
-<!-- 部署后替换为你的 GitHub Pages 地址 -->
-`https://你的用户名.github.io/private-cosmos/`
-
-## 效果示例
-
-> 西西弗斯推石上山 × 孤独的牧羊人
-> → "牧羊人推着滚落的星辰，在永恒的山坡上放牧寂静"
-
-> 李清照「天接云涛连晓雾」 × NASA木星红外照片
-> → "星云如涛涌向木星腰际，红外漩涡里千帆舞动未名风暴"
-
-## 快速开始
-
-### 1. 克隆仓库
-
-```bash
-git clone https://github.com/你的用户名/private-cosmos.git
-cd private-cosmos
-```
-
-### 2. 配置 API 密钥
-
-```bash
-cp .env.example .env
-```
-
-编辑 `.env`，填入你的密钥：
-
-```
-NASA_API_KEY=你的NASA密钥      # 去 https://api.nasa.gov/ 免费注册
-DEEPSEEK_API_KEY=sk-你的密钥   # 去 https://platform.deepseek.com/ 注册
-```
-
-### 3. 安装依赖
-
-```bash
-pip install requests Pillow
-```
-
-### 4. 运行
-
-```bash
-# 拉取一张 NASA 天文图
-python engine/fetch_apod.py
-
-# 演化 3 个新天体
-python engine/evolve.py --count 3
-
-# 启动本地预览
-python -m http.server 8765 --directory web
-```
-
-浏览器打开 `http://localhost:8765` 即可看到星空图。
-
-## 自动演化
-
-项目已配置 GitHub Actions，每天凌晨 2 点（北京时间）自动：
-
-1. 拉取当日 NASA APOD
-2. 演化 2 个新天体（DeepSeek 真实碰撞）
-3. 更新星空页面
-4. 自动部署到 GitHub Pages
-
-**无需电脑开机**，GitHub 服务器替你运行。
-
-### 配置 Secrets
-
-在 GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret，添加：
-
-| Name | Value |
-|------|-------|
-| `NASA_API_KEY` | 你的 NASA API key |
-| `DEEPSEEK_API_KEY` | 你的 DeepSeek API key（以 sk- 开头）|
-
-## 自定义
-
-### 换素材
-
-编辑 `data/` 目录下的 JSON 文件：
-
-- `literature.json` — 文学素材（诗句）
-- `philosophy.json` — 哲学素材（命题/金句）
-- `music.json` — 艺术素材（音乐片段）
-- `myth.json` — 神话素材
-- `apod.json` — 天文素材（自动生成）
-
-每条素材格式：
-
-```json
-{
-  "id": "lit_01",
-  "text": "星垂平野阔，月涌大江流",
-  "source": "杜甫《旅夜书怀》",
-  "tags": { "moods": ["辽阔", "苍凉"], "domain": "literature", "theme": "星空" }
-}
-```
-
-### 改规则
-
-编辑 `engine/evolve.py` 中的 `BODY_TYPES`、`MOOD_COLORS`、`NAME_PREFIXES` 来自定义天体类型、配色和命名。
-
-### 调视觉
-
-编辑 `web/private-cosmos-skymap.html` 和 `web/assets/charts.js`。
-
-## 技术栈
-
-- **引擎**：Python + DeepSeek V4 API + NASA APOD API
-- **前端**：原生 HTML/CSS/JS + ECharts
-- **自动化**：GitHub Actions
-- **部署**：GitHub Pages
-
-## 项目结构
+## 架构
 
 ```
 private-cosmos/
-├── engine/           # 演化引擎
-│   ├── config.py         # 配置加载
-│   ├── evolve.py         # 四阶段演化引擎
-│   ├── deepseek_client.py # AI 语义碰撞
-│   └── fetch_apod.py     # NASA 天文图捞取
-├── data/             # 素材池 + 宇宙数据
-│   ├── cosmos.json       # 天体总表
-│   ├── chronicle.json    # 演化编年史
-│   └── *.json            # 各领域素材
-├── scripts/          # 工具脚本
-├── web/              # 星空可视化页面
-├── .github/workflows/ # GitHub Actions
-└── .env              # API 密钥（不提交）
+├── engine/            # Python 演化引擎（11 模块：素材加载/配对/碰撞/视觉/编年史/日报…）
+│   └── evolve.py      # CLI: --count N --dry-run --force-mode {triple,lineage} --seed
+├── data/              # cosmos.json(58+) chronicle.json daily_reports.json 领域素材库
+├── scripts/
+│   └── export_data.py # 导出 web/assets/cosmos-data.js（五个全局变量）+ 自动 bump SW 缓存版本
+├── web/               # 纯静态前端（无构建步骤）
+│   ├── index.html     # importmap → 本地 three
+│   ├── assets/        # 9 个模块：skymap-core/bodies/controls/panel/charts/timeline/search/constellation/personal
+│   ├── css/base.css   # 全局样式 + 768px 响应式
+│   ├── manifest.json / sw.js / assets/icons/
+│   └── _shared/       # echarts + three@0.160.0 本地化 + 字体
+└── .github/workflows/ # daily-evolve（每日演化+部署）/ deploy-pages（推送即部署）
 ```
+
+## 本地运行
+
+```bash
+cd web
+python -m http.server 8123        # 需 HTTP（Service Worker/ES modules 不支持 file://）
+# 打开 http://127.0.0.1:8123/index.html
+```
+
+演化与导出：
+
+```bash
+python engine/evolve.py --count 3          # 演化 3 颗天体（--dry-run 只读）
+python scripts/export_data.py              # 导出前端数据 + bump SW 缓存版本
+```
+
+需要 DeepSeek 真实碰撞时在 `.env` 配置 `DEEPSEEK_API_KEY`（缺省自动降级本地模板）。
+
+## 质量与验证
+
+- 每个模块经独立验证（浏览器实测取证 + 数据交叉重算），完整检验报告见项目外「任务验证者」档案
+- Lighthouse：Accessibility 92 / Best Practices 96（Performance 因 WebGL + 模拟节流按替代口径：实测 120fps）
+- 离线可用性经"停服实测"验证（阶段 A/B 双取证）
 
 ## License
 
-MIT — 随意取用，改成你自己的宇宙。
-
----
-
-🌌 **让宇宙自己长大。**
+MIT（three.js/echarts 各自遵循其开源协议）
