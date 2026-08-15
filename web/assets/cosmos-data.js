@@ -2653,6 +2653,120 @@ window.COSMOS_DATA = [
       "size": 0.73,
       "luminosity": 0.37
     }
+  },
+  {
+    "id": "body_0059",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "寂决战·壮阔",
+    "epoch": 59,
+    "born_at": "2026-08-15T18:26:28",
+    "collision_text": "雷锤崩裂长蛇的刹那，寂灭的灵魂在宇宙余烬中听见安宁的呼吸。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_22",
+      "phi_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "索尔锤击巨蛇耶梦加得，双方同归于尽",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "幸福不在于占有牲畜，也不在于占有黄金，幸福在于灵魂的安宁",
+        "source": "伊壁鸠鲁"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "宁静",
+        "希望"
+      ],
+      "themes": [
+        "决战",
+        "幸福"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古希腊"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.99,
+      "luminosity": 0.33
+    }
+  },
+  {
+    "id": "body_0060",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺月下·苍凉",
+    "epoch": 60,
+    "born_at": "2026-08-15T18:26:30",
+    "collision_text": "琴弦勒住熵增的月色，金星在西元九世纪坠弦，玛雅人把弃城走成不可逆的弓。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "mus_26",
+      "sci_06",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "science",
+        "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向",
+        "source": "热力学第二定律"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "月下",
+        "熵增",
+        "失落"
+      ],
+      "domains": [
+        "music",
+        "science",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.37,
+      "luminosity": 0.68
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3061,6 +3175,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0058",
     "summary": "第58纪元：literature×astronomy碰撞，诞生卫星「渊星河·宁静」"
+  },
+  {
+    "epoch": 59,
+    "timestamp": "2026-08-15T18:26:28",
+    "event": "genesis",
+    "body_id": "body_0059",
+    "summary": "第59纪元：myth×philosophy碰撞，诞生超空洞「寂决战·壮阔」"
+  },
+  {
+    "epoch": 60,
+    "timestamp": "2026-08-15T18:26:30",
+    "event": "genesis",
+    "body_id": "body_0060",
+    "summary": "第60纪元：music×science碰撞，诞生白矮星「渺月下·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -3521,6 +3649,43 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-14T18:51:27.790920"
   },
   {
+    "date": "2015-09-14",
+    "title": "Pluto from above Cthulhu Regio",
+    "url": "https://apod.nasa.gov/apod/image/1509/pluto05_NewHorizons_2475.jpg",
+    "local_path": "assets/apod/apod_2015-09-14.jpg",
+    "explanation": "New high resolution images of Pluto are starting to arrive from the outer Solar System. The robotic New Horizons spacecraft, which zoomed by Pluto in July, has finished sending back some needed engineering data and is now transmitting selections from its tremendous storehouse of images of Pluto and its moons. The featured image, a digital composite, details a surprising terrain filled with craters, plains, landscape of unknown character, and landforms that resemble something on Earth but are qui",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-15T18:26:20.895168"
+  },
+  {
     "date": "2015-10-12",
     "title": "Galaxy, Stars, and Dust",
     "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",
@@ -3879,8 +4044,8 @@ window.DAILY_REPORTS = [
   },
   {
     "date": "2026-08-15",
-    "summary": "三处虚空自星海褶皱中显形：茫过滤·壮阔拓开超空洞的静默疆域，澜旷野·诡谲卷曲虫洞的谜题，弦荒原·激烈灼燃磁星的脉冲。地理与哲思共振，影像与音律互蚀，一次三体相撞惊醒世代前未竟的梦。",
-    "body_count": 3,
+    "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
+    "body_count": 5,
     "new_bodies": [
       {
         "name": "茫过滤·壮阔",
@@ -3896,30 +4061,43 @@ window.DAILY_REPORTS = [
         "name": "弦荒原·激烈",
         "type_cn": "磁星",
         "id": "body_0044"
+      },
+      {
+        "name": "寂决战·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0059"
+      },
+      {
+        "name": "渺月下·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0060"
       }
     ],
     "mood_distribution": {
       "激烈": 1,
       "诡谲": 1,
-      "壮阔": 1
+      "壮阔": 2,
+      "苍凉": 1
     },
     "domain_distribution": {
       "geography": 2,
-      "philosophy": 1,
+      "philosophy": 2,
       "cinema": 1,
-      "music": 1,
-      "science": 2
+      "music": 2,
+      "science": 3,
+      "myth": 1,
+      "history": 1
     },
     "lineage_count": 0,
-    "triple_count": 1
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 58,
-  "chronicle_entries": 58,
+  "total_bodies": 60,
+  "chronicle_entries": 60,
   "daily_report_count": 3,
   "type_distribution": {
-    "白矮星": 8,
+    "白矮星": 9,
     "星云": 7,
     "流浪行星": 7,
     "卫星": 5,
@@ -3933,26 +4111,32 @@ window.COSMOS_STATS = {
     "脉冲星": 2,
     "星团": 1,
     "类星体": 1,
+    "超空洞": 1,
     "遗迹": 1
   },
   "mood_distribution": {
-    "宁静": 28,
-    "苍凉": 24,
-    "壮阔": 22,
+    "宁静": 29,
+    "苍凉": 25,
+    "壮阔": 23,
     "诡谲": 21,
-    "孤寂": 19,
-    "激烈": 17,
-    "未知": 13,
+    "孤寂": 20,
+    "激烈": 18,
+    "未知": 14,
     "激越": 8,
     "辽阔": 7,
-    "热闹": 1
+    "希望": 1,
+    "热闹": 1,
+    "神秘": 1
   },
   "domain_distribution": {
     "literature": 30,
     "art": 29,
-    "philosophy": 23,
-    "myth": 19,
-    "astronomy": 15
+    "philosophy": 24,
+    "myth": 20,
+    "astronomy": 15,
+    "history": 1,
+    "music": 1,
+    "science": 1
   },
   "generation": {
     "max_generation": 0,

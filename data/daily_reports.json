@@ -79,8 +79,8 @@
   },
   {
     "date": "2026-08-15",
-    "summary": "三处虚空自星海褶皱中显形：茫过滤·壮阔拓开超空洞的静默疆域，澜旷野·诡谲卷曲虫洞的谜题，弦荒原·激烈灼燃磁星的脉冲。地理与哲思共振，影像与音律互蚀，一次三体相撞惊醒世代前未竟的梦。",
-    "body_count": 3,
+    "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
+    "body_count": 5,
     "new_bodies": [
       {
         "name": "茫过滤·壮阔",
@@ -96,21 +96,34 @@
         "name": "弦荒原·激烈",
         "type_cn": "磁星",
         "id": "body_0044"
+      },
+      {
+        "name": "寂决战·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0059"
+      },
+      {
+        "name": "渺月下·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0060"
       }
     ],
     "mood_distribution": {
       "激烈": 1,
       "诡谲": 1,
-      "壮阔": 1
+      "壮阔": 2,
+      "苍凉": 1
     },
     "domain_distribution": {
       "geography": 2,
-      "philosophy": 1,
+      "philosophy": 2,
       "cinema": 1,
-      "music": 1,
-      "science": 2
+      "music": 2,
+      "science": 3,
+      "myth": 1,
+      "history": 1
     },
     "lineage_count": 0,
-    "triple_count": 1
+    "triple_count": 2
   }
 ]

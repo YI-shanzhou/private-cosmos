@@ -2652,5 +2652,119 @@
       "size": 0.73,
       "luminosity": 0.37
     }
+  },
+  {
+    "id": "body_0059",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "寂决战·壮阔",
+    "epoch": 59,
+    "born_at": "2026-08-15T18:26:28",
+    "collision_text": "雷锤崩裂长蛇的刹那，寂灭的灵魂在宇宙余烬中听见安宁的呼吸。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_22",
+      "phi_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "索尔锤击巨蛇耶梦加得，双方同归于尽",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "幸福不在于占有牲畜，也不在于占有黄金，幸福在于灵魂的安宁",
+        "source": "伊壁鸠鲁"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "宁静",
+        "希望"
+      ],
+      "themes": [
+        "决战",
+        "幸福"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古希腊"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.99,
+      "luminosity": 0.33
+    }
+  },
+  {
+    "id": "body_0060",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺月下·苍凉",
+    "epoch": 60,
+    "born_at": "2026-08-15T18:26:30",
+    "collision_text": "琴弦勒住熵增的月色，金星在西元九世纪坠弦，玛雅人把弃城走成不可逆的弓。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "mus_26",
+      "sci_06",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "science",
+        "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向",
+        "source": "热力学第二定律"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "月下",
+        "熵增",
+        "失落"
+      ],
+      "domains": [
+        "music",
+        "science",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.37,
+      "luminosity": 0.68
+    }
   }
 ]

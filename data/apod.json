@@ -456,6 +456,43 @@
     "fetched_at": "2026-08-14T18:51:27.790920"
   },
   {
+    "date": "2015-09-14",
+    "title": "Pluto from above Cthulhu Regio",
+    "url": "https://apod.nasa.gov/apod/image/1509/pluto05_NewHorizons_2475.jpg",
+    "local_path": "assets/apod/apod_2015-09-14.jpg",
+    "explanation": "New high resolution images of Pluto are starting to arrive from the outer Solar System. The robotic New Horizons spacecraft, which zoomed by Pluto in July, has finished sending back some needed engineering data and is now transmitting selections from its tremendous storehouse of images of Pluto and its moons. The featured image, a digital composite, details a surprising terrain filled with craters, plains, landscape of unknown character, and landforms that resemble something on Earth but are qui",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#d0d0d0",
+        "#b0b0b0"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-15T18:26:20.895168"
+  },
+  {
     "date": "2015-10-12",
     "title": "Galaxy, Stars, and Dust",
     "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",

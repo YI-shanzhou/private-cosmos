@@ -404,5 +404,19 @@
     "event": "genesis",
     "body_id": "body_0058",
     "summary": "第58纪元：literature×astronomy碰撞，诞生卫星「渊星河·宁静」"
+  },
+  {
+    "epoch": 59,
+    "timestamp": "2026-08-15T18:26:28",
+    "event": "genesis",
+    "body_id": "body_0059",
+    "summary": "第59纪元：myth×philosophy碰撞，诞生超空洞「寂决战·壮阔」"
+  },
+  {
+    "epoch": 60,
+    "timestamp": "2026-08-15T18:26:30",
+    "event": "genesis",
+    "body_id": "body_0060",
+    "summary": "第60纪元：music×science碰撞，诞生白矮星「渺月下·苍凉」"
   }
 ]
