@@ -97,3 +97,24 @@ print(
     f"领域{len(stats['domain_distribution'])}个, "
     f"最深世代: 第{stats['generation']['max_generation']}代"
 )
+
+# ---- 数据热更新联动：bump sw.js 缓存版本（Day 6 · 6.2）----
+# cache-first 策略下，若 cosmos-data.js 更新而 CACHE_VERSION 不变，
+# 离线/二次访问用户将永久停留在旧数据。导出即 bump，确保 SW 重新预缓存。
+import re as _re
+import time as _time
+
+_sw = WEB_DIR / "sw.js"
+if _sw.exists():
+    _src = _sw.read_text(encoding="utf-8")
+    _new = "pc-v" + _time.strftime("%Y%m%d.%H%M%S")
+    _updated, _n = _re.subn(
+        r"const CACHE_VERSION = '[^']+';",
+        f"const CACHE_VERSION = '{_new}';",
+        _src,
+    )
+    if _n == 1:
+        _sw.write_text(_updated, encoding="utf-8")
+        print(f"sw.js 缓存版本已 bump: {_new}")
+    else:
+        print(f"警告: sw.js CACHE_VERSION 标记未匹配（{_n} 处），请人工核查")
