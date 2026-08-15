@@ -17,7 +17,7 @@
   // ---- 样式 ----
   const style = document.createElement('style');
   style.textContent = `
-    #timeline{position:fixed;left:50%;transform:translateX(-50%);bottom:248px;z-index:14;
+    #timeline{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--stats-h, 232px) + 16px);z-index:14;
       display:flex;align-items:center;gap:10px;padding:8px 14px;
       background:rgba(8,10,24,.9);border:1px solid rgba(120,130,180,.3);border-radius:10px;
       color:#cbd5e1;font:12px "JetBrains Mono","Microsoft YaHei",monospace;
@@ -42,7 +42,7 @@
   tl.id = 'timeline';
   tl.innerHTML = `
     <button id="tl-play" title="播放/暂停">▶</button>
-    <input type="range" id="tl-range" min="0" max="${MAX}" step="1" value="${MAX}">
+    <input type="range" id="tl-range" min="0" max="${MAX}" step="1" value="${MAX}" aria-label="时间轴纪元滑块">
     <span id="tl-label"></span>
     <select id="tl-speed" title="播放速度">
       <option value="0.5">0.5x</option>

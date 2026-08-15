@@ -21,3 +21,6 @@ data/backup_*/
 
 # 本地日志
 *.log
+
+# Lighthouse 本地验证产物
+.lh-report*.json

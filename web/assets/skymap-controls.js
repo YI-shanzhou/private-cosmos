@@ -70,7 +70,12 @@ function unhighlight(mesh) {
   mesh.material.emissiveIntensity = 1;
 }
 
+let lastHoverAt = 0;
 function onPointerMove(e) {
+  // 悬停 raycast 节流（Day 7 · 7.1）：30ms 间隔，降低高频 pointermove 开销
+  const now = performance.now();
+  if (now - lastHoverAt < 30) return;
+  lastHoverAt = now;
   const mesh = pick(e);
   if (hovered && hovered !== mesh) unhighlight(hovered);
   if (mesh && mesh !== hovered) highlight(mesh);
@@ -94,7 +99,7 @@ function onClick(e) {
   }
   const detail = { bodyId: mesh.userData.bodyId, body: mesh.userData.body };
   document.dispatchEvent(new CustomEvent('body-clicked', { detail }));
-  console.log('[skymap-controls] body-clicked:', detail.bodyId, detail.body.name);
+  if (SkyMap.debug) console.log('[skymap-controls] body-clicked:', detail.bodyId, detail.body.name);
 }
 
 canvas.addEventListener('pointermove', onPointerMove);

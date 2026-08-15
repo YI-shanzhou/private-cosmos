@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260815.121359Z';
+const CACHE_VERSION = 'pc-v20260815.124124Z';
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [

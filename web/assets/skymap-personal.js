@@ -108,7 +108,7 @@
       <button id="personal-close" title="关闭">×</button>
       <h3>我的个人星图</h3>
       <div id="personal-input-row">
-        <input id="personal-name" type="text" maxlength="30" placeholder="输入姓名（留空则随机）…">
+        <input id="personal-name" type="text" maxlength="30" placeholder="输入姓名（留空则随机）…" aria-label="姓名输入">
         <button id="personal-gen">生成</button>
       </div>
       <canvas id="personal-preview" width="1000" height="620"></canvas>
@@ -116,7 +116,7 @@
       <div id="personal-actions">
         <button id="personal-save">保存图片</button>
         <button id="personal-copy">复制链接</button>
-        <input id="personal-link" readonly title="分享链接">
+        <input id="personal-link" readonly title="分享链接" aria-label="分享链接">
       </div>
       <div id="personal-seed-tip"></div>
     </div>

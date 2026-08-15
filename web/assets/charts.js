@@ -134,11 +134,14 @@
     }],
   });
 
-  // 折叠开关
+  // 折叠开关（同步 --stats-h CSS 变量，时间轴位置随之联动 · Day 7 · 7.1）
   const toggle = document.getElementById('stats-toggle');
+  const setStatsH = (collapsed) =>
+    document.documentElement.style.setProperty('--stats-h', collapsed ? '33px' : '232px');
   toggle.addEventListener('click', () => {
     const collapsed = panel.classList.toggle('collapsed');
     toggle.textContent = collapsed ? '展开' : '收起';
+    setStatsH(collapsed);
     if (!collapsed) Object.values(charts).forEach((c) => c.resize());
   });
 

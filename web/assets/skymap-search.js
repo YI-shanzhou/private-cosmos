@@ -14,7 +14,8 @@
   const SkyMap = window.SkyMap;
   const DATA = (typeof COSMOS_DATA !== 'undefined' && Array.isArray(COSMOS_DATA)) ? COSMOS_DATA : [];
   const DOMAIN_CN = SkyMap.DOMAIN_CN || {};
-  const DOMAINS = ['literature', 'philosophy', 'music', 'myth', 'science', 'cinema', 'history', 'geography', 'astronomy'];
+  // 领域 chips 从数据实际域集合派生（Day 7 · 7.1）：自动覆盖新增域（如 art）
+  const DOMAINS = [...new Set(DATA.flatMap((b) => (b.tags && b.tags.domains) || []))].sort();
   const TYPES = [...new Set(DATA.map((b) => b.type_cn).filter(Boolean))];
   const MOODS = [...new Set(DATA.flatMap((b) => (b.tags && b.tags.moods) || []))];
 
@@ -42,7 +43,7 @@
     #search-reset{background:rgba(20,20,40,.6);color:#cbd5e1;border:1px solid rgba(120,130,180,.4);
       border-radius:4px;padding:3px 12px;font:12px monospace;cursor:pointer}
     #search-reset:hover{background:rgba(60,70,120,.6)}
-    #search-count{color:#5e6a8c;font-size:11px}
+    #search-count{color:#9aa8cc;font-size:11px}
     @media (max-width:768px){
       #searchbar{left:8px;right:8px;max-width:none;top:118px}
     }
@@ -53,7 +54,7 @@
   const bar = document.createElement('div');
   bar.id = 'searchbar';
   bar.innerHTML = `
-    <input id="search-q" type="text" placeholder="搜索天体名 / 碰撞文本 / 素材来源…">
+    <input id="search-q" type="text" placeholder="搜索天体名 / 碰撞文本 / 素材来源…" aria-label="搜索天体关键词">
     <div class="chip-row" id="domain-chips"></div>
     <details><summary>类型（${TYPES.length}）</summary><div class="chip-row" id="type-chips"></div></details>
     <details><summary>情绪（${MOODS.length}）</summary><div class="chip-row" id="mood-chips"></div></details>

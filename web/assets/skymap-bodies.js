@@ -113,4 +113,15 @@ SkyMap.state.bodies = data;
 ensureLabelRenderer();
 buildBodies(data);
 SkyMap.shiftHue = shiftHue;
-console.log('[skymap-bodies] 天体渲染完成：' + data.length + ' 颗');
+console.log('[skymap-bodies] 天体渲染完成：' + SkyMap.bodyMeshes.length + ' 颗');
+
+  // 标签 LOD（Day 7 · 7.1）：远视角收敛标签数量，降低 DOM/渲染负担
+  SkyMap.updateHooks.push(() => {
+    const dist = SkyMap.camera.position.length();
+    const full = dist <= 90; // 近/中视角：全量标签
+    SkyMap.bodyMeshes.forEach((m, i) => {
+      const lo = m.userData.labelObj;
+      if (!lo || !m.visible) return;
+      lo.visible = full || i < 20; // 远视角只保留前 20 个（早期纪元）
+    });
+  });

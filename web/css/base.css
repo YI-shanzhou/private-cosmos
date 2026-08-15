@@ -9,6 +9,7 @@
   --accent: #7C3AED;
   --accent-2: #38bdf8;
   --font-mono: "JetBrains Mono", "Microsoft YaHei", monospace;
+  --stats-h: 232px; /* 统计面板高度（折叠时由 charts.js 更新为 33px），时间轴位置依赖此变量 */
 }
 
 html, body {
@@ -92,7 +93,7 @@ html, body {
     left: 8px !important;
     right: 8px !important;
     max-width: none !important;
-    top: 156px !important;
+    top: 190px !important; /* 为两行时间轴（82+97.5≈180）留足空间，消除顶缘叠压（Day 7 · 7.1） */
   }
 
   /* 详情面板 → 底部抽屉 */
