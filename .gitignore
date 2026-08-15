@@ -1,17 +1,10 @@
-# 环境变量（含 API key，切勿提交）
-.env
-
-# Python
+# 私宇宙 V3 · .gitignore
 __pycache__/
 *.pyc
-*.pyo
-.venv/
-venv/
-
-# 系统
 .DS_Store
-Thumbs.db
 
-# 临时文件
-*.tmp
-.trae-html-share-packages/
+# 流水线验证的本地数据备份（不入库）
+data/backup_*/
+
+# 本地临时
+*.log

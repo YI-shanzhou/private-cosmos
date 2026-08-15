@@ -107,7 +107,8 @@ import time as _time
 _sw = WEB_DIR / "sw.js"
 if _sw.exists():
     _src = _sw.read_text(encoding="utf-8")
-    _new = "pc-v" + _time.strftime("%Y%m%d.%H%M%S")
+    # 统一 UTC 时间戳（与 Actions runner 时区一致），避免本地/CI 版本号新旧歧义
+    _new = "pc-v" + _time.strftime("%Y%m%d.%H%M%S", _time.gmtime()) + "Z"
     _updated, _n = _re.subn(
         r"const CACHE_VERSION = '[^']+';",
         f"const CACHE_VERSION = '{_new}';",
@@ -115,6 +116,6 @@ if _sw.exists():
     )
     if _n == 1:
         _sw.write_text(_updated, encoding="utf-8")
-        print(f"sw.js 缓存版本已 bump: {_new}")
+        print(f"sw.js 缓存版本已 bump: {_new} (UTC)")
     else:
         print(f"警告: sw.js CACHE_VERSION 标记未匹配（{_n} 处），请人工核查")
