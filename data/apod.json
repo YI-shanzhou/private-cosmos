@@ -4,7 +4,7 @@
     "title": "Hazing Jupiter",
     "url": "https://apod.nasa.gov/apod/image/9701/juphaze_gal_big.jpg",
     "local_path": "assets/apod/apod_1997-01-09.jpg",
-    "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet.",
+    "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet. This false color representation is keyed to altitude - red indicates cloud features near the top of the gas giant's extensive atmosphere while blue corresponds to features at depth. North is up in the mosaic, centered at about 50 degrees northern Jovian latitude, and the limb or edge of the planet arcs ac",
     "tags": {
       "colors": [
         "#101010",
@@ -19,23 +19,25 @@
         {
           "en": "jupiter",
           "cn": "木星"
+        },
+        {
+          "en": "aurora",
+          "cn": "极光"
         }
       ],
       "moods": [
         "宁静"
       ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:00:09"
+    "fetched_at": "2026-07-26T19:00:09.674382"
   },
   {
     "date": "1997-07-04",
     "title": "A Landing On Mars",
     "url": "https://apod.nasa.gov/apod/image/9707/success_pathfinder_big.jpg",
     "local_path": "assets/apod/apod_1997-07-04.jpg",
-    "explanation": "The Mars Pathfinder spacecraft lands on Mars, deploying airbags and parachutes in a flurry of automated activity.",
+    "explanation": "Today, July 4th, at about 10:00 AM Pacific Daylight Time (PDT), the Mars Pathfinder spacecraft will land on Mars. Ninety minutes before reaching the surface Pathfinder will begin a flurry of activity. The robot spacecraft is scheduled to vent cooling fluid, jettison its cruise stage, decelerate at 20 gees on atmospheric entry, deploy a 24 foot parachute, jettison its heat shield, slide down a 60 foot bridle, fire solid fuel braking rockets, deploy a cocoon of airbags, separate from the bridle, i",
     "tags": {
       "colors": [
         "#705030",
@@ -55,18 +57,215 @@
       "moods": [
         "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:13:11"
+    "fetched_at": "2026-07-26T19:13:11.597476"
+  },
+  {
+    "date": "2000-07-21",
+    "title": "Eros Craters And Boulders",
+    "url": "https://apod.nasa.gov/apod/image/0007/erosjul7_near.jpg",
+    "local_path": "assets/apod/apod_2000-07-21.jpg",
+    "explanation": "From a delicate orbit around asteroid 433 Eros, the NEAR Shoemaker spacecraft's camera has now imaged the entire surface of the small oddly-shaped world at least once. Recorded on July 7th from a distance of 50 kilometers, this dramatic view is about 1.8 kilometers across. It shows the walls and rims of two large overlapping impact craters on the horizon. Massive boulders which may be debris from the impacts are perched along the crater edges. The prominent boulder on the horizon near picture ce",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "asteroid",
+          "cn": "小行星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2001-01-19",
+    "title": "Black Holes Are Black",
+    "url": "https://apod.nasa.gov/apod/image/0101/blackhole_illustration.jpg",
+    "local_path": "assets/apod/apod_2001-01-19.jpg",
+    "explanation": "Q: Why are black holes black? A: Because they have an event horizon. The event horizon is that one-way boundary predicted by general relativity beyond which nothing, not even light, can return. X-ray astronomers using the space-based Chandra Observatory now believe they have direct evidence for event horizons - therefore black holes - in binary star systems which can be detected in x-ray light. These binaries, sometimes called x-ray novae, are known to consist of relatively normal stars dumping ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0d0d0",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-13T19:00:25.767116"
+  },
+  {
+    "date": "2001-09-29",
+    "title": "The Iron Sun",
+    "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",
+    "local_path": "assets/apod/apod_2001-09-29.jpg",
+    "explanation": "The ultraviolet light emitted by eleven times ionized iron at temperatures over 2 million degrees Farenheit was used to record the above picture of the Sun on September 22, the date of the autumnal equinox. The image was made by the EIT camera onboard the SOHO spacecraft, a space observatory which can continuously observe the Sun. Eleven times ionized iron is atomic iron with eleven of its electrons stripped away. Here the electrons are stripped by the frantic collisions with other atoms and ele",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107010",
+        "#105010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
+    "date": "2004-02-20",
+    "title": "SN1987A's Cosmic Pearls",
+    "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",
+    "local_path": "assets/apod/apod_2004-02-20.jpg",
+    "explanation": "In February 1987, light from the brightest stellar explosion seen in modern times reached Earth -- supernova SN1987A. This Hubble Space Telescope image from the sharp Advanced Camera for Surveys taken in November 2003 shows the explosion site over 16 years later. The snap shot indicates that the supernova blast wave continues to impact a pre-existing, one light-year wide ring of material, and the nascent central supernova remnant continues to expand. Like pearls on a cosmic necklace, bright hot ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#301010",
+        "#701030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-02T19:07:15.651723"
+  },
+  {
+    "date": "2004-05-28",
+    "title": "A Manhattan Sunset",
+    "url": "https://apod.nasa.gov/apod/image/0405/nycsunset_tyson_big.jpg",
+    "local_path": "assets/apod/apod_2004-05-28.jpg",
+    "explanation": "Today, if it is clear, Manhattan will flood dramatically with sunlight just as the Sun sets precisely on the centerline of every street.  Usually, the tall buildings that line the gridded streets of New York City's tallest borough will hide the setting Sun.  This effect makes Manhattan a type of modern Stonehenge, although only aligned to about 30 degrees east of north.  Were Manhattan's road grid perfectly aligned to east and west, today's effect would occur on the Vernal and Autumnal Equinox, ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#d0d0d0"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-04T19:29:31.368308"
+  },
+  {
+    "date": "2005-02-03",
+    "title": "SMART-1: Pythagoras Crater",
+    "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",
+    "local_path": "assets/apod/apod_2005-02-03.jpg",
+    "explanation": "Stark shadows show off the central peaks and terraced walls of 120 kilometer wide Pythagoras Crater in this mosaic of images from ESA's SMART-1 spacecraft. Characteristic of large, complex impact craters on the Moon, the central uplift was produced by a rebound of the suddenly molten lunar crust during the violent impact event. Propelled by an efficient ion engine, the innovative SMART-1 spacecraft entered lunar orbit in November last year after a leisurely 13 month journey from planet Earth. No",
+    "tags": {
+      "colors": [
+        "#909090",
+        "#b0b0b0",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "spiral",
+          "cn": "螺旋"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-31T19:21:55.624947"
   },
   {
     "date": "2008-05-09",
     "title": "Moon Meets Mercury",
     "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",
     "local_path": "assets/apod/apod_2008-05-09.jpg",
-    "explanation": "A slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees, cradled in earthshine.",
+    "explanation": "On Tuesday, May 6, while standing on planet Earth and sweeping your binoculars along the western horizon just after sunset, you might have encountered this arresting skyscape. The view features a slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees. Cradled in the sunlit lunar crescent, the night side of the Moon is faintly illuminated by earthshine -- sunlight reflected from planet Earth. Of course, the clouds in silhouette and fading twilight colors are ",
     "tags": {
       "colors": [
         "#707070",
@@ -75,61 +274,39 @@
       ],
       "themes": [
         {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
           "en": "moon",
           "cn": "月球"
         },
         {
-          "en": "mercury",
-          "cn": "水星"
-        }
-      ],
-      "moods": [
-        "宁静",
-        "孤寂"
-      ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
-    },
-    "fetched_at": "2026-07-26T18:55:18"
-  },
-  {
-    "date": "2018-02-21",
-    "title": "Jupiter in Infrared from Hubble",
-    "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
-    "local_path": "assets/apod/apod_2018-02-21.jpg",
-    "explanation": "Jupiter looks different in infrared light. Three bands of near-infrared light reveal the giant planet's cloud motions in false color.",
-    "tags": {
-      "colors": [
-        "#101010",
-        "#507070",
-        "#7090b0"
-      ],
-      "themes": [
-        {
-          "en": "jupiter",
-          "cn": "木星"
+          "en": "sun",
+          "cn": "太阳"
         },
         {
-          "en": "infrared",
-          "cn": "红外"
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "诡谲"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:03:36"
+    "fetched_at": "2026-07-26T18:55:18.500613"
   },
   {
-    "date": "2022-07-20",
-    "title": "Jupiter and Ring in Infrared from Webb",
-    "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
-    "local_path": "assets/apod/apod_2022-07-20.jpg",
-    "explanation": "Jupiter's rings, created by meteoroid impacts on small nearby moons, glow in infrared light captured by the James Webb Space Telescope.",
+    "date": "2009-01-05",
+    "title": "Comet and Meteor",
+    "url": "https://apod.nasa.gov/apod/image/0901/Quadran-Lulin_tafreshi.jpg",
+    "local_path": "assets/apod/apod_2009-01-05.jpg",
+    "explanation": "This meteor streaking toward the horizon through the early morning sky of January 4th is from the annual Quadrantid meteor shower. Aligned with the shower's radiant point high in the north (off the top of the view), the meteor trail passes to the right of bright bluish star Beta Scorpii. Remarkably, near the top of the trail is a small spot, the fuzzy greenish glow of a comet. Discovered in July of 2007, Comet Lulin (C/2007 N3), is too faint now to be easily seen by the unaided eye, but will lik",
     "tags": {
       "colors": [
         "#303030",
@@ -138,485 +315,381 @@
       ],
       "themes": [
         {
-          "en": "jupiter",
-          "cn": "木星"
+          "en": "star",
+          "cn": "恒星"
         },
         {
-          "en": "ring",
-          "cn": "星环"
-        }
-      ],
-      "moods": [
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    },
-    "fetched_at": "2026-07-26T19:09:34"
-  },
-  {
-    "date": "1995-04-01",
-    "title": "The Pillars of Creation",
-    "url": "https://apod.nasa.gov/apod/image/9504/M16mime.jpg",
-    "explanation": "Towering pillars of cold molecular hydrogen and dust in the Eagle Nebula, incubators for new star formation, stretching light-years across.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "eagle",
-          "cn": "鹰状"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2004-01-15",
-    "title": "A Galaxy is not a Comet",
-    "url": "https://apod.nasa.gov/apod/image/0401/galaxy_comet_c3.jpg",
-    "explanation": "A spiral galaxy and a comet appear side by side in the same telescopic field, one millions of light-years away, the other within our own solar system.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "planet",
+          "cn": "行星"
         },
         {
           "en": "comet",
           "cn": "彗星"
+        },
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "辽阔",
-        "苍凉"
+        "孤寂"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "local_path": "assets/apod/apod_2004-01-15.jpg"
+    "fetched_at": "2026-08-03T19:27:54.048099"
   },
   {
-    "date": "2006-09-26",
-    "title": "A Total Solar Eclipse",
-    "url": "https://apod.nasa.gov/apod/image/0609/eclipse_tse2006.jpg",
-    "explanation": "The sun's corona blazes in the daytime sky during totality, as the moon completely blocks the solar disk, turning day to night.",
+    "date": "2011-01-03",
+    "title": "Winter Hexagon Over Stagecoach Colorado",
+    "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
+    "local_path": "assets/apod/apod_2011-01-03.jpg",
+    "explanation": "If you can find Orion, you might be able to find the Winter Hexagon.  The Winter Hexagon involves some of the brightest stars visible, together forming a large and easily found pattern in the winter sky of Earth's northern hemisphere.  The stars involved can usually be identified even in the bright night skies of a big city, although here they appear over darker Stagecoach, Colorado, USA..  The six stars that compose the Winter Hexagon are Aldebaran, Capella, Castor (and Pollux), Procyon, Rigel,",
     "tags": {
-      "themes": [
-        {
-          "en": "sun",
-          "cn": "太阳"
-        },
-        {
-          "en": "eclipse",
-          "cn": "日食"
-        }
+      "colors": [
+        "#303030",
+        "#101010",
+        "#505030"
       ],
-      "moods": [
-        "激烈",
-        "壮阔"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2009-11-26",
-    "title": "M1: The Crab Nebula",
-    "url": "https://apod.nasa.gov/apod/image/0911/M1_crab.jpg",
-    "explanation": "The Crab Nebula, the expanding remnant of a supernova explosion witnessed by Chinese astronomers in 1054 AD, still glows with energy from its spinning neutron star core.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "supernova",
-          "cn": "超新星"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2012-01-23",
-    "title": "The Andromeda Galaxy",
-    "url": "https://apod.nasa.gov/apod/image/1201/andromeda_gendler.jpg",
-    "explanation": "The Andromeda Galaxy, our nearest large galactic neighbor, spans 260,000 light-years and contains a trillion stars, on a collision course with the Milky Way.",
-    "tags": {
       "themes": [
         {
           "en": "galaxy",
           "cn": "星系"
         },
         {
-          "en": "andromeda",
-          "cn": "仙女座"
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-05T19:27:06.830260"
+  },
+  {
+    "date": "2012-06-16",
+    "title": "APOD Turns 17",
+    "url": "https://apod.nasa.gov/apod/image/1206/apod17_person_2500.jpg",
+    "local_path": "assets/apod/apod_2012-06-16.jpg",
+    "explanation": "The first APOD appeared seventeen years ago today, on 1995 June 16.  Although garnering only 14 page views on that day, we are proud to estimate that APOD has now served over one billion space-related images over the last 1.7 decades.  That early beginning, along with a nearly unchanging format, has allowed APOD to be a consistent and familiar site on a web frequently filled with change.   Many people don't know, though, that APOD is now translated daily into many major languages and featured on",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
+    "date": "2013-03-10",
+    "title": "Milky Way Panorama from Mauna Kea",
+    "url": "https://apod.nasa.gov/apod/image/1303/MKMilkyWaypan_pacholka_600WPAP.jpg",
+    "local_path": "assets/apod/apod_2013-03-10.jpg",
+    "explanation": "Aloha and welcome to a breathtaking skyscape. The dreamlike panoramic view looks out from the 4,200 meter volcanic summit of Mauna Kea, Hawai'i, across a layer of clouds toward a starry night sky and the rising Milky Way. Anchoring the scene on the far left is the dome of the Canada-France-Hawaii Telescope (CFHT), with north star Polaris shining beyond the dome to the right. Farther right, headed by bright star Deneb, the Northern Cross asterism is embedded along the plane of the Milky Way as it",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-14T18:51:27.790920"
+  },
+  {
+    "date": "2015-10-12",
+    "title": "Galaxy, Stars, and Dust",
+    "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",
+    "local_path": "assets/apod/apod_2015-10-12.jpg",
+    "explanation": "Spiky stars and spooky shapes abound in this deep cosmic skyscape. Its well-composed field of view covers about a Full Moon on the sky toward the constellation Pegasus. Of course the brighter stars show diffraction spikes, the commonly seen effect of internal supports in reflecting telescopes, and lie well within our own Milky Way galaxy. The faint but pervasive clouds of interstellar dust ride above the galactic plane and dimly reflect the Milky Way's combined starlight. Known as high latitude ",
+    "tags": {
+      "colors": [
+        "#505050",
+        "#303030",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
         }
       ],
       "moods": [
         "壮阔",
         "辽阔"
       ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
-    "date": "2013-03-15",
-    "title": "Saturn's Hexagon",
-    "url": "https://apod.nasa.gov/apod/image/1303/saturn_hexagon_cassini.jpg",
-    "explanation": "A persistent hexagonal cloud pattern at Saturn's north pole, 30,000 kilometers across, has remained stable for decades, its origin still a mystery.",
+    "date": "2018-02-21",
+    "title": "Jupiter in Infrared from Hubble",
+    "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
+    "local_path": "assets/apod/apod_2018-02-21.jpg",
+    "explanation": "Jupiter looks a bit different in infrared light. To better understand Jupiter's cloud motions and to help NASA's robotic Juno spacecraft understand the planetary context of the small fields that it sees, the Hubble Space Telescope is being directed to regularly image the entire Jovian giant. The colors of Jupiter being monitored go beyond the normal human visual range to include both ultraviolet and infrared light.  Featured here in 2016, three bands of near-infrared light have been digitally re",
     "tags": {
+      "colors": [
+        "#101010",
+        "#507070",
+        "#7090b0"
+      ],
       "themes": [
         {
-          "en": "saturn",
-          "cn": "土星"
-        },
-        {
-          "en": "hexagon",
-          "cn": "六边形"
-        }
-      ],
-      "moods": [
-        "诡谲",
-        "神秘"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2014-10-03",
-    "title": "Aurora over Norway",
-    "url": "https://apod.nasa.gov/apod/image/1410/aurora_norway.jpg",
-    "explanation": "Green and purple auroral curtains dance over a Norwegian fjord, powered by charged particles from the sun channeled by Earth's magnetic field.",
-    "tags": {
-      "themes": [
-        {
-          "en": "aurora",
-          "cn": "极光"
-        },
-        {
-          "en": "earth",
-          "cn": "地球"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2015-07-14",
-    "title": "Pluto Flyby from New Horizons",
-    "url": "https://apod.nasa.gov/apod/image/1507/pluto_nh.jpg",
-    "explanation": "New Horizons spacecraft flies past Pluto, revealing a heart-shaped nitrogen ice plain and 3,500-meter water-ice mountains on the distant dwarf planet.",
-    "tags": {
-      "themes": [
-        {
-          "en": "pluto",
-          "cn": "冥王星"
-        },
-        {
-          "en": "ice",
-          "cn": "冰"
-        }
-      ],
-      "moods": [
-        "孤寂",
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2016-04-12",
-    "title": "Black Hole CGCG 3943",
-    "url": "https://apod.nasa.gov/apod/image/1604/blackhole_nasa.jpg",
-    "explanation": "A supermassive black hole at the center of galaxy CGCG 3943 devours a passing star, launching a jet of plasma at nearly the speed of light.",
-    "tags": {
-      "themes": [
-        {
-          "en": "black_hole",
-          "cn": "黑洞"
-        },
-        {
-          "en": "jet",
-          "cn": "喷流"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2017-09-28",
-    "title": "M27: The Dumbbell Nebula",
-    "url": "https://apod.nasa.gov/apod/image/1709/M27_dumbbell.jpg",
-    "explanation": "The Dumbbell Nebula, a glowing shell of gas ejected by a dying star, floats in the constellation Vulpecula, 1,200 light-years from Earth.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "white_dwarf",
-          "cn": "白矮星"
-        }
-      ],
-      "moods": [
-        "宁静",
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2018-10-05",
-    "title": "Pulsar Fills Its Cosmic Bubbles",
-    "url": "https://apod.nasa.gov/apod/image/1810/pulsar_nasa.jpg",
-    "explanation": "A pulsar's relativistic wind inflates twin bubbles of high-energy particles, visible in X-rays, as it spins hundreds of times per second.",
-    "tags": {
-      "themes": [
-        {
-          "en": "pulsar",
-          "cn": "脉冲星"
-        },
-        {
-          "en": "bubble",
-          "cn": "气泡"
-        }
-      ],
-      "moods": [
-        "激越",
-        "神秘"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2019-04-10",
-    "title": "First Image of a Black Hole",
-    "url": "https://apod.nasa.gov/apod/image/1904/blackhole_eht.jpg",
-    "explanation": "The Event Horizon Telescope captures the first direct image of a black hole, the supermassive object at the center of galaxy M87, 55 million light-years away.",
-    "tags": {
-      "themes": [
-        {
-          "en": "black_hole",
-          "cn": "黑洞"
-        },
-        {
-          "en": "m87",
-          "cn": "M87"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2020-06-21",
-    "title": "Annular Solar Eclipse",
-    "url": "https://apod.nasa.gov/apod/image/2006/eclipse_annular.jpg",
-    "explanation": "A ring of fire glows around the silhouetted moon during an annular solar eclipse, visible across Asia as the moon passes in front of the sun.",
-    "tags": {
-      "themes": [
-        {
-          "en": "eclipse",
-          "cn": "日食"
+          "en": "planet",
+          "cn": "行星"
         },
         {
           "en": "sun",
           "cn": "太阳"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "壮阔"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2021-07-12",
-    "title": "Jupiter and Saturn at Opposition",
-    "url": "https://apod.nasa.gov/apod/image/2107/jupiter_saturn.jpg",
-    "explanation": "Jupiter and Saturn shine at their brightest and closest to Earth, visible all night, as both gas giants reach opposition within days of each other.",
-    "tags": {
-      "themes": [
+        },
         {
           "en": "jupiter",
           "cn": "木星"
         },
         {
-          "en": "saturn",
-          "cn": "土星"
-        }
-      ],
-      "moods": [
-        "辽阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2022-07-11",
-    "title": "Webb's First Deep Field",
-    "url": "https://apod.nasa.gov/apod/image/2207/webb_deep_field.jpg",
-    "explanation": "The James Webb Space Telescope's first deep field image reveals thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length, some light from 13 billion years ago.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "orbit",
+          "cn": "轨道"
         },
         {
-          "en": "webb",
-          "cn": "韦伯"
+          "en": "telescope",
+          "cn": "telescope"
         }
       ],
       "moods": [
-        "壮阔",
-        "辽阔",
-        "希望"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
-    "date": "2023-04-14",
-    "title": "The Horsehead Nebula",
-    "url": "https://apod.nasa.gov/apod/image/2304/horsehead_nebula.jpg",
-    "explanation": "The Horsehead Nebula, a dark cloud of dust and gas silhouetted against a glowing red emission nebula, is 1,375 light-years away in the constellation Orion.",
+    "date": "2020-10-30",
+    "title": "Fear and Dread: The Moons of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
+    "local_path": "assets/apod/apod_2020-10-30.jpg",
+    "explanation": "On Halloween fear and dread will stalk your night skies, also known as Phobos and Deimos the moons of Mars. The 2020 opposition of Mars was on October 13, so the Red Planet will still rise shortly before sunset. Near Halloween's Full Moon on the sky, its strange yellowish glow will outshine other stars throughout the night. But the two tiny Martian moons are very faint and in close orbits, making them hard to spot, even with a small telescope. You can find them in this carefully annotated compos",
     "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#707070"
+      ],
       "themes": [
         {
-          "en": "nebula",
-          "cn": "星云"
+          "en": "star",
+          "cn": "恒星"
         },
         {
-          "en": "orion",
-          "cn": "猎户座"
-        }
-      ],
-      "moods": [
-        "神秘",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2023-09-25",
-    "title": "A Starfield in the Sword of Orion",
-    "url": "https://apod.nasa.gov/apod/image/2309/orion_sword.jpg",
-    "explanation": "The Orion Nebula, the Great Nebula in Orion, and a cluster of young stars glow in the sword of Orion, 1,344 light-years away, the nearest region of massive star formation.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
+          "en": "planet",
+          "cn": "行星"
         },
         {
-          "en": "orion",
-          "cn": "猎户座"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "宁静"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2024-03-14",
-    "title": "The Sombrero Galaxy",
-    "url": "https://apod.nasa.gov/apod/image/2403/sombrero_galaxy.jpg",
-    "explanation": "The Sombrero Galaxy, seen nearly edge-on, shows a brilliant white core encircled by dark dust lanes, 28 million light-years away in the constellation Virgo.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "moon",
+          "cn": "月球"
         },
         {
-          "en": "virgo",
-          "cn": "室女座"
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
         }
       ],
       "moods": [
-        "辽阔",
-        "孤寂"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-30T19:23:32.967876"
   },
   {
-    "date": "2024-08-12",
-    "title": "Perseid Meteor Shower",
-    "url": "https://apod.nasa.gov/apod/image/2408/perseid_meteor.jpg",
-    "explanation": "Bright Perseid meteors streak across the night sky over a dark mountain lake, as Earth passes through the debris trail of comet Swift-Tuttle.",
+    "date": "2022-07-20",
+    "title": "Jupiter and Ring in Infrared from Webb",
+    "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
+    "local_path": "assets/apod/apod_2022-07-20.jpg",
+    "explanation": "Why does Jupiter have rings?  Jupiter's main ring was discovered in 1979 by NASA's passing Voyager 1 spacecraft, but its origin was then a mystery.  Data from NASA's Galileo spacecraft that orbited Jupiter from 1995 to 2003, however, confirmed the hypothesis that this ring was created by meteoroid impacts on small nearby moons.  As a small meteoroid strikes tiny Metis, for example, it will bore into the moon, vaporize, and explode dirt and dust off into a Jovian orbit. The featured image of Jupi",
     "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#301010"
+      ],
       "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
         {
           "en": "meteor",
           "cn": "流星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:09:34.338711"
+  },
+  {
+    "date": "2022-11-14",
+    "title": "NGC 7380: The Wizard Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",
+    "local_path": "assets/apod/apod_2022-11-14.jpg",
+    "explanation": "What powers are being wielded in the Wizard Nebula?  Gravitation strong enough to form stars, and stellar winds and radiations powerful enough to create and dissolve towers of gas.  Located only 8,000 light years away, the Wizard nebula, featured here, surrounds developing open star cluster NGC 7380.  Visually, the interplay of stars, gas, and dust has created a shape that appears to some like a fictional medieval sorcerer.  The active star forming region spans 100 about light years, making it a",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#103030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-28T19:20:27.040074"
+  },
+  {
+    "date": "2024-04-29",
+    "title": "Comet, Planet, Moon",
+    "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
+    "local_path": "assets/apod/apod_2024-04-29.jpg",
+    "explanation": "Three bright objects satisfied seasoned stargazers of the western sky just after sunset earlier this month. The most familiar was the Moon, seen on the upper left in a crescent phase. The rest of the Moon was faintly visible by sunlight first reflected by the Earth. The bright planet Jupiter, the largest planet in the Solar System, is seen to the upper left.  Most unusual was Comet 12P/Pons-Brooks, below the Moon and showing a stubby dust tail on the right but an impressive ion tail extending up",
+    "tags": {
+      "colors": [
+        "#303050",
+        "#303010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
         },
         {
           "en": "comet",
@@ -624,37 +697,39 @@
         }
       ],
       "moods": [
-        "激越",
-        "希望"
+        "孤寂"
       ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
-    "date": "2025-01-10",
-    "title": "The Cosmic Web",
-    "url": "https://apod.nasa.gov/apod/image/2501/cosmic_web.jpg",
-    "explanation": "Simulations reveal the large-scale structure of the universe: a vast cosmic web of dark matter filaments spanning hundreds of millions of light-years, with galaxies forming at the nodes.",
+    "date": "2026-01-17",
+    "title": "Apollo 14: A View from Antares",
+    "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
+    "local_path": "assets/apod/apod_2026-01-17.jpg",
+    "explanation": "Apollo 14's Lunar Module Antares landed on the Moon on February 5, 1971. Toward the end of the stay astronaut Ed Mitchell snapped a series of photos of the lunar surface while looking out a window, assembled into this detailed mosaic by Apollo Lunar Surface Journal editor Eric Jones. The view looks across the Fra Mauro highlands to the northwest of the landing site after the Apollo 14 astronauts had completed their second and final walk on the Moon. Prominent in the foreground is their Modular E",
     "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
       "themes": [
         {
-          "en": "dark_matter",
-          "cn": "暗物质"
+          "en": "moon",
+          "cn": "月球"
         },
         {
-          "en": "structure",
-          "cn": "结构"
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "壮阔",
         "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-27T19:25:13.777044"
   }
 ]

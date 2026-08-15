@@ -197,114 +197,212 @@
   },
   {
     "epoch": 29,
-    "timestamp": "2026-07-27T13:29:26",
+    "timestamp": "2026-07-27T19:25:22",
     "event": "genesis",
     "body_id": "body_0029",
-    "summary": "第29纪元：cinema×art碰撞，诞生遗迹「焰沉没·苍凉」"
+    "summary": "第29纪元：literature×philosophy碰撞，诞生白矮星「墟星空·苍凉」"
   },
   {
     "epoch": 30,
-    "timestamp": "2026-07-27T13:29:28",
+    "timestamp": "2026-07-27T19:25:25",
     "event": "genesis",
     "body_id": "body_0030",
-    "summary": "第30纪元：philosophy×art碰撞，诞生星云「茫时间·壮阔」"
+    "summary": "第30纪元：literature×art碰撞，诞生星团「魄星汉·辽阔」"
   },
   {
     "epoch": 31,
-    "timestamp": "2026-07-27T18:52:04",
+    "timestamp": "2026-07-28T19:20:34",
     "event": "genesis",
     "body_id": "body_0031",
-    "summary": "第31纪元：science×philosophy碰撞，诞生星系「焰热寂·辽阔」"
+    "summary": "第31纪元：literature×art碰撞，诞生卫星「渺星河·宁静」"
   },
   {
     "epoch": 32,
-    "timestamp": "2026-07-27T18:52:07",
+    "timestamp": "2026-07-28T19:20:44",
     "event": "genesis",
     "body_id": "body_0032",
-    "summary": "第32纪元：literature×astronomy碰撞，诞生星系「尘星河·壮阔」"
+    "summary": "第32纪元：literature×art碰撞，诞生流浪行星「渺星座·孤寂」"
   },
   {
     "epoch": 33,
-    "timestamp": "2026-07-27T19:18:47",
+    "timestamp": "2026-07-29T19:13:50",
     "event": "genesis",
     "body_id": "body_0033",
-    "summary": "第33纪元：literature×astronomy碰撞，诞生耀变体「茫星河·激越」"
+    "summary": "第33纪元：myth×literature碰撞，诞生流浪行星「墟孤独·孤寂」"
   },
   {
     "epoch": 34,
-    "timestamp": "2026-07-27T19:18:50",
+    "timestamp": "2026-07-29T19:13:54",
     "event": "genesis",
     "body_id": "body_0034",
-    "summary": "第34纪元：myth×cinema碰撞，诞生千新星「辉涅槃·激烈」"
+    "summary": "第34纪元：literature×philosophy碰撞，诞生星云「弦星辰·壮阔」"
   },
   {
     "epoch": 35,
-    "timestamp": "2026-08-12T23:45:55",
+    "timestamp": "2026-07-30T19:23:35",
     "event": "genesis",
     "body_id": "body_0035",
-    "summary": "第35纪元：philosophy×history碰撞，诞生虫洞「魄运动·诡谲」"
+    "summary": "第35纪元：astronomy×myth碰撞，诞生流浪行星「渺月球·孤寂」"
   },
   {
     "epoch": 36,
-    "timestamp": "2026-08-12T23:46:18",
+    "timestamp": "2026-07-30T19:23:42",
     "event": "genesis",
     "body_id": "body_0036",
-    "summary": "第36纪元：cinema×geography碰撞，诞生星系「茫降临·壮阔」"
+    "summary": "第36纪元：astronomy×art碰撞，诞生行星「澜行星·宁静」"
   },
   {
     "epoch": 37,
-    "timestamp": "2026-08-12T23:46:25",
+    "timestamp": "2026-07-31T19:22:05",
     "event": "genesis",
     "body_id": "body_0037",
-    "summary": "第37纪元：philosophy×geography碰撞，诞生白矮星「弦消解·苍凉」"
+    "summary": "第37纪元：astronomy×literature碰撞，诞生黑洞「渺行星·诡谲」"
   },
   {
     "epoch": 38,
-    "timestamp": "2026-08-12T23:46:27",
-    "event": "lineage",
+    "timestamp": "2026-07-31T19:22:08",
+    "event": "genesis",
     "body_id": "body_0038",
-    "summary": "第38纪元：流浪行星「寂星座·孤寂」繁衍出第1代子嗣——流浪行星「寂星座·苍凉·子」"
+    "summary": "第38纪元：astronomy×art碰撞，诞生尘埃云「寂恒星·未知」"
   },
   {
     "epoch": 39,
-    "timestamp": "2026-08-14T23:44:03",
+    "timestamp": "2026-08-01T19:05:39",
     "event": "genesis",
     "body_id": "body_0039",
-    "summary": "第39纪元：literature×science碰撞，诞生星系「渺星空·辽阔」"
+    "summary": "第39纪元：art×astronomy碰撞，诞生白矮星「澜秩序·苍凉」"
   },
   {
     "epoch": 40,
-    "timestamp": "2026-08-14T23:44:15",
+    "timestamp": "2026-08-01T19:05:41",
     "event": "genesis",
     "body_id": "body_0040",
-    "summary": "第40纪元：geography×literature碰撞，诞生超新星「幽地火·激烈」"
+    "summary": "第40纪元：astronomy×philosophy碰撞，诞生彗星「渊恒星·孤寂」"
   },
   {
     "epoch": 41,
-    "timestamp": "2026-08-14T23:44:18",
-    "event": "lineage",
+    "timestamp": "2026-08-02T19:07:18",
+    "event": "genesis",
     "body_id": "body_0041",
-    "summary": "第41纪元：流浪行星「寂星座·苍凉·子」繁衍出第2代子嗣——流浪行星「寂星座·希望·子」"
+    "summary": "第41纪元：art×myth碰撞，诞生卫星「弦柔情·宁静」"
   },
   {
     "epoch": 42,
-    "timestamp": "2026-08-15T19:41:58",
+    "timestamp": "2026-08-02T19:07:20",
     "event": "genesis",
     "body_id": "body_0042",
-    "summary": "第42纪元：science×geography碰撞，诞生超空洞「茫过滤·壮阔」"
+    "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
   },
   {
     "epoch": 43,
-    "timestamp": "2026-08-15T19:42:04",
+    "timestamp": "2026-08-03T19:27:58",
     "event": "genesis",
     "body_id": "body_0043",
-    "summary": "第43纪元：music×science碰撞，诞生虫洞「澜旷野·诡谲」"
+    "summary": "第43纪元：astronomy×literature碰撞，诞生尘埃云「渺行星·未知」"
   },
   {
     "epoch": 44,
-    "timestamp": "2026-08-15T19:42:06",
+    "timestamp": "2026-08-03T19:28:00",
     "event": "genesis",
     "body_id": "body_0044",
-    "summary": "第44纪元：cinema×philosophy碰撞，诞生磁星「弦荒原·激烈」"
+    "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
+  },
+  {
+    "epoch": 45,
+    "timestamp": "2026-08-04T19:29:34",
+    "event": "genesis",
+    "body_id": "body_0045",
+    "summary": "第45纪元：literature×art碰撞，诞生星系「尘星河·壮阔」"
+  },
+  {
+    "epoch": 46,
+    "timestamp": "2026-08-04T19:29:41",
+    "event": "genesis",
+    "body_id": "body_0046",
+    "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
+  },
+  {
+    "epoch": 47,
+    "timestamp": "2026-08-05T19:27:16",
+    "event": "genesis",
+    "body_id": "body_0047",
+    "summary": "第47纪元：myth×literature碰撞，诞生星云「焰牺牲·壮阔」"
+  },
+  {
+    "epoch": 48,
+    "timestamp": "2026-08-05T19:27:26",
+    "event": "genesis",
+    "body_id": "body_0048",
+    "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
+  },
+  {
+    "epoch": 49,
+    "timestamp": "2026-08-06T23:56:35",
+    "event": "genesis",
+    "body_id": "body_0049",
+    "summary": "第49纪元：myth×art碰撞，诞生星云「澜英雄·壮阔」"
+  },
+  {
+    "epoch": 50,
+    "timestamp": "2026-08-06T23:56:37",
+    "event": "genesis",
+    "body_id": "body_0050",
+    "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
+  },
+  {
+    "epoch": 51,
+    "timestamp": "2026-08-09T18:37:42",
+    "event": "genesis",
+    "body_id": "body_0051",
+    "summary": "第51纪元：literature×astronomy碰撞，诞生星系「寂星汉·辽阔」"
+  },
+  {
+    "epoch": 52,
+    "timestamp": "2026-08-09T18:37:44",
+    "event": "genesis",
+    "body_id": "body_0052",
+    "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
+  },
+  {
+    "epoch": 53,
+    "timestamp": "2026-08-12T18:59:31",
+    "event": "genesis",
+    "body_id": "body_0053",
+    "summary": "第53纪元：art×philosophy碰撞，诞生白矮星「辉秩序·苍凉」"
+  },
+  {
+    "epoch": 54,
+    "timestamp": "2026-08-12T18:59:34",
+    "event": "genesis",
+    "body_id": "body_0054",
+    "summary": "第54纪元：myth×philosophy碰撞，诞生超新星「弦吞食·激烈」"
+  },
+  {
+    "epoch": 55,
+    "timestamp": "2026-08-13T19:00:28",
+    "event": "genesis",
+    "body_id": "body_0055",
+    "summary": "第55纪元：art×philosophy碰撞，诞生超新星「渊崇高·激烈」"
+  },
+  {
+    "epoch": 56,
+    "timestamp": "2026-08-13T19:00:34",
+    "event": "genesis",
+    "body_id": "body_0056",
+    "summary": "第56纪元：art×literature碰撞，诞生脉冲星「弦幻象·激越」"
+  },
+  {
+    "epoch": 57,
+    "timestamp": "2026-08-14T18:51:30",
+    "event": "genesis",
+    "body_id": "body_0057",
+    "summary": "第57纪元：literature×astronomy碰撞，诞生星云「弦时间·壮阔」"
+  },
+  {
+    "epoch": 58,
+    "timestamp": "2026-08-14T18:51:32",
+    "event": "genesis",
+    "body_id": "body_0058",
+    "summary": "第58纪元：literature×astronomy碰撞，诞生卫星「渊星河·宁静」"
   }
 ]
