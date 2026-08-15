@@ -31,7 +31,7 @@
 ```
 private-cosmos/
 ├── engine/            # Python 演化引擎（11 模块：素材加载/配对/碰撞/视觉/编年史/日报…）
-│   └── evolve.py      # CLI: --count N --dry-run --force-mode {triple,lineage} --seed
+│   └── evolve.py      # CLI: --count N --dry-run --force-mode {dual,triple,lineage} --seed
 ├── data/              # cosmos.json(58+) chronicle.json daily_reports.json 领域素材库
 ├── scripts/
 │   └── export_data.py # 导出 web/assets/cosmos-data.js（五个全局变量）+ 自动 bump SW 缓存版本
