@@ -1279,85 +1279,909 @@ window.COSMOS_DATA = [
   },
   {
     "id": "body_0029",
-    "type": "remnant",
-    "type_cn": "遗迹",
-    "name": "焰沉没·苍凉",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "墟星空·苍凉",
     "epoch": 29,
-    "born_at": "2026-07-27T13:29:26",
-    "collision_text": "月光奏鸣曲的潮汐漫过废弃船舱，钢琴师在星尘的孤寂中渐次溶解成苍凉的音符",
+    "born_at": "2026-07-27T19:25:22",
+    "collision_text": "在星垂平野的尽头，月涌大江的孤寂里，我审视了整片荒芜的宇宙。",
     "collision_mode": "deepseek",
     "parents": [
-      "cin_12",
-      "mus_01"
+      "lit_01",
+      "phi_06"
     ],
     "composition": {
       "a": {
-        "domain": "cinema",
-        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
-        "source": "《海上钢琴师》"
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "孤寂"
+      ],
+      "themes": [
+        "星空",
+        "生命"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.53,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0030",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "魄星汉·辽阔",
+    "epoch": 30,
+    "born_at": "2026-07-27T19:25:25",
+    "collision_text": "星汉随潮汐起伏，爱丽丝的指尖在浪尖上弹奏永恒的宁静。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
       },
       "b": {
         "domain": "art",
-        "text": "月光奏鸣曲第一乐章",
+        "text": "致爱丽丝",
         "source": "贝多芬"
       }
     },
     "tags": {
       "moods": [
-        "苍凉",
-        "宁静",
-        "孤寂"
+        "辽阔",
+        "壮阔",
+        "宁静"
       ],
       "themes": [
-        "沉没",
-        "月夜"
+        "星汉",
+        "柔情"
       ],
       "domains": [
-        "cinema",
+        "literature",
         "art"
       ]
     },
     "visual": {
-      "color": "#64748B",
-      "size": 0.67,
-      "luminosity": 0.88
+      "color": "#0EA5E9",
+      "size": 0.32,
+      "luminosity": 0.27
     }
   },
   {
-    "id": "body_0030",
-    "type": "nebula",
-    "type_cn": "星云",
-    "name": "茫时间·壮阔",
-    "epoch": 30,
-    "born_at": "2026-07-27T13:29:28",
-    "collision_text": "我是一段苍凉的时间之海，潮汐拍打着宇宙的骨缝。",
+    "id": "body_0031",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺星河·宁静",
+    "epoch": 31,
+    "born_at": "2026-07-28T19:20:34",
+    "collision_text": "醉舟浮游于光晕的褶皱，星群坠入琴键，梦的边界泛起宇宙的寂静诡谲",
     "collision_mode": "deepseek",
     "parents": [
-      "phi_26",
-      "mus_13"
+      "lit_04",
+      "mus_07"
     ],
     "composition": {
       "a": {
-        "domain": "philosophy",
-        "text": "时间是构成我的实体",
-        "source": "柏格森"
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
       },
       "b": {
         "domain": "art",
-        "text": "大海",
+        "text": "星空",
         "source": "德彪西"
       }
     },
     "tags": {
       "moods": [
-        "壮阔",
-        "神秘",
-        "苍凉",
+        "宁静",
+        "诡谲",
         "辽阔"
       ],
       "themes": [
-        "时间",
-        "海浪"
+        "星河",
+        "夜空"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.91,
+      "luminosity": 0.61
+    }
+  },
+  {
+    "id": "body_0032",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺星座·孤寂",
+    "epoch": 32,
+    "born_at": "2026-07-28T19:20:44",
+    "collision_text": "银烛冷光里流萤化作星河 轻罗小扇拨动宇宙弦 奏响永恒的欢乐颂",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_08",
+      "mus_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "第九交响曲·欢乐颂",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静",
+        "壮阔",
+        "激越"
+      ],
+      "themes": [
+        "星座",
+        "崇高"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.8,
+      "luminosity": 0.85
+    }
+  },
+  {
+    "id": "body_0033",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "墟孤独·孤寂",
+    "epoch": 33,
+    "born_at": "2026-07-29T19:13:50",
+    "collision_text": "她吞下不死之药，坠入时间的裂缝，前后皆无人，天地间独剩一轮孤月。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_05",
+      "lit_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下",
+        "source": "陈子昂《登幽州台歌》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲",
+        "苍凉"
+      ],
+      "themes": [
+        "孤独",
+        "时空"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.55,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0034",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "弦星辰·壮阔",
+    "epoch": 34,
+    "born_at": "2026-07-29T19:13:54",
+    "collision_text": "在危楼摘星的指尖，存在先于本质，星辰因我而亮成虚空中的选择。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_06",
+      "phi_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星辰",
+        "存在"
+      ],
+      "domains": [
+        "literature",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.82,
+      "luminosity": 0.72
+    }
+  },
+  {
+    "id": "body_0035",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺月球·孤寂",
+    "epoch": 35,
+    "born_at": "2026-07-30T19:23:35",
+    "collision_text": "他在环形山的阴影里推着月岩，每一次滚落都让星河重新计数。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_09",
+      "myth_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知",
+        "苍凉"
+      ],
+      "themes": [
+        "月球",
+        "永恒"
+      ],
+      "domains": [
+        "astronomy",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.76,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0036",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "澜行星·宁静",
+    "epoch": 36,
+    "born_at": "2026-07-30T19:23:42",
+    "collision_text": "尘埃落定，红色荒原上巴赫的旋律缓缓铺开一段永恒的宁静。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "行星",
+        "秩序"
+      ],
+      "domains": [
+        "astronomy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.83,
+      "luminosity": 0.52
+    }
+  },
+  {
+    "id": "body_0037",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "渺行星·诡谲",
+    "epoch": 37,
+    "born_at": "2026-07-31T19:22:05",
+    "collision_text": "红外之瞳浸在醉后的天河，满船清梦压过木星暗涌的纹章。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_06",
+      "lit_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter in Infrared from Hubble",
+        "source": "NASA APOD 2018-02-21"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "未知",
+        "宁静"
+      ],
+      "themes": [
+        "行星",
+        "星河"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.67,
+      "luminosity": 0.81
+    }
+  },
+  {
+    "id": "body_0038",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "寂恒星·未知",
+    "epoch": 38,
+    "born_at": "2026-07-31T19:22:08",
+    "collision_text": "恐惧是火卫一沉寂的碎影，爱丽丝的旋律在火星夜空静静漫溢",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_07",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      },
+      "b": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "宁静"
+      ],
+      "themes": [
+        "恒星",
+        "柔情"
+      ],
+      "domains": [
+        "astronomy",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.95,
+      "luminosity": 0.25
+    }
+  },
+  {
+    "id": "body_0039",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜秩序·苍凉",
+    "epoch": 39,
+    "born_at": "2026-08-01T19:05:39",
+    "collision_text": "平均律的余韵凝成红外环带，木星苍凉如巴赫未写出的休止符",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_08",
+      "apo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Jupiter and Ring in Infrared from Webb",
+        "source": "NASA APOD 2022-07-20"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "秩序",
+        "月球"
+      ],
+      "domains": [
+        "art",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.51,
+      "luminosity": 0.59
+    }
+  },
+  {
+    "id": "body_0040",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "渊恒星·孤寂",
+    "epoch": 40,
+    "born_at": "2026-08-01T19:05:41",
+    "collision_text": "火卫的暗影里，我唯一知晓的，是那不知的荒芜。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_08",
+      "phi_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "我知道我一无所知",
+        "source": "苏格拉底"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知"
+      ],
+      "themes": [
+        "恒星",
+        "认知"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.72,
+      "luminosity": 0.95
+    }
+  },
+  {
+    "id": "body_0041",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "弦柔情·宁静",
+    "epoch": 41,
+    "born_at": "2026-08-02T19:07:18",
+    "collision_text": "在永恒的高加索，月光为鹰的肝叶弹奏致爱丽丝，火种在寂静中蔓延成星河",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "myth_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "柔情",
+        "牺牲"
+      ],
+      "domains": [
+        "art",
+        "myth"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.78,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0042",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "寂末日·激烈",
+    "epoch": 42,
+    "born_at": "2026-08-02T19:07:20",
+    "collision_text": "血潮淹没维格利德平原时，众神踏着春之祭的诡谲鼓点，向海渊献祭黎明。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_07",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "末日",
+        "原始"
+      ],
+      "domains": [
+        "myth",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.78,
+      "luminosity": 0.5
+    }
+  },
+  {
+    "id": "body_0043",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "渺行星·未知",
+    "epoch": 43,
+    "born_at": "2026-08-03T19:27:58",
+    "collision_text": "火星车前灯切开荒原，星垂如砾，月涌如尘，天地在履带下缓缓倾覆。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "apo_02",
+      "lit_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "星垂平野阔，月涌大江流",
+        "source": "杜甫《旅夜书怀》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "辽阔",
+        "苍凉"
+      ],
+      "themes": [
+        "行星",
+        "星空"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.97,
+      "luminosity": 0.93
+    }
+  },
+  {
+    "id": "body_0044",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺柔情·宁静",
+    "epoch": 44,
+    "born_at": "2026-08-03T19:28:00",
+    "collision_text": "月光在环形山间徘徊，爱丽丝的指尖轻触一枚蓝色的寂静音符。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_02",
+      "apo_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "柔情",
+        "月球"
+      ],
+      "domains": [
+        "art",
+        "astronomy"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.72,
+      "luminosity": 0.82
+    }
+  },
+  {
+    "id": "body_0045",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·壮阔",
+    "epoch": 45,
+    "born_at": "2026-08-04T19:29:34",
+    "collision_text": "云涛涌作天鹅之翼，星河坠入冰湖成帆，苍凉起舞",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_02",
+      "mus_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "art",
+        "text": "天鹅湖",
+        "source": "柴可夫斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "苍凉"
+      ],
+      "themes": [
+        "星河",
+        "悲剧"
+      ],
+      "domains": [
+        "literature",
+        "art"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.98,
+      "luminosity": 0.64
+    }
+  },
+  {
+    "id": "body_0046",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "尘原始·宁静",
+    "epoch": 46,
+    "born_at": "2026-08-04T19:29:41",
+    "collision_text": "祭典鼓点震碎银烛秋光，流萤在冷屏上拼出星图，天阶凉夜旋转成静默的献祭。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_06",
+      "lit_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "银烛秋光冷画屏，轻罗小扇扑流萤。天阶夜色凉如水，卧看牵牛织女星",
+        "source": "杜牧《秋夕》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "激烈",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "原始",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.68,
+      "luminosity": 0.57
+    }
+  },
+  {
+    "id": "body_0047",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "焰牺牲·壮阔",
+    "epoch": 47,
+    "born_at": "2026-08-05T19:27:16",
+    "collision_text": "他被钉在星河对岸，以肝为火，照亮了迢迢相望的永恒沉默",
+    "collision_mode": "deepseek",
+    "parents": [
+      "myth_08",
+      "lit_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "牺牲",
+        "星座"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.35,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0048",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "辉存在·诡谲",
+    "epoch": 48,
+    "born_at": "2026-08-05T19:27:26",
+    "collision_text": "荒原的骨血先于神名战栗起舞，宇宙在痉挛中娩出无名。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "phi_03",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      },
+      "b": {
+        "domain": "art",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "存在",
+        "原始"
       ],
       "domains": [
         "philosophy",
@@ -1365,80 +2189,76 @@ window.COSMOS_DATA = [
       ]
     },
     "visual": {
-      "color": "#6D5AE6",
-      "size": 0.69,
-      "luminosity": 0.54
+      "color": "#7C3AED",
+      "size": 0.59,
+      "luminosity": 0.28
     }
   },
   {
-    "id": "body_0031",
-    "type": "galaxy",
-    "type_cn": "星系",
-    "name": "焰热寂·辽阔",
-    "epoch": 31,
-    "born_at": "2026-07-27T18:52:04",
-    "collision_text": "众星熄灭的绝对零度里，",
+    "id": "body_0049",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜英雄·壮阔",
+    "epoch": 49,
+    "born_at": "2026-08-06T23:56:35",
+    "collision_text": "射落九日的神弓垂下，牧羊人独自放牧着最后一个太阳。",
     "collision_mode": "deepseek",
     "parents": [
-      "sci_07",
-      "phi_16"
+      "myth_04",
+      "mus_10"
     ],
     "composition": {
       "a": {
-        "domain": "science",
-        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
-        "source": "热寂说"
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
       },
       "b": {
-        "domain": "philosophy",
-        "text": "上善若水，水善利万物而不争",
-        "source": "老子《道德经》"
+        "domain": "art",
+        "text": "孤独的牧羊人",
+        "source": "传统民谣"
       }
     },
     "tags": {
       "moods": [
-        "辽阔",
-        "苍凉",
-        "宁静"
+        "壮阔",
+        "激烈",
+        "孤寂",
+        "苍凉"
       ],
       "themes": [
-        "热寂",
-        "柔德"
+        "英雄",
+        "旷野"
       ],
       "domains": [
-        "science",
-        "philosophy"
-      ],
-      "intensity": 3,
-      "eras": [
-        "现代",
-        "先秦"
+        "myth",
+        "art"
       ]
     },
     "visual": {
-      "color": "#0EA5E9",
-      "size": 0.55,
-      "luminosity": 0.75
+      "color": "#6D5AE6",
+      "size": 0.48,
+      "luminosity": 0.4
     }
   },
   {
-    "id": "body_0032",
-    "type": "galaxy",
-    "type_cn": "星系",
-    "name": "尘星河·壮阔",
-    "epoch": 32,
-    "born_at": "2026-07-27T18:52:07",
-    "collision_text": "云涛翻卷处，水星与月的私语撞碎星河千帆，激越中绽开未知的澄明。",
+    "id": "body_0050",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "弦理性·未知",
+    "epoch": 50,
+    "born_at": "2026-08-06T23:56:37",
+    "collision_text": "于现实与合理相撞的月面，水星升起未知的辉光",
     "collision_mode": "deepseek",
     "parents": [
-      "lit_02",
-      "apo_03"
+      "phi_04",
+      "apo_08"
     ],
     "composition": {
       "a": {
-        "domain": "literature",
-        "text": "天接云涛连晓雾，星河欲转千帆舞",
-        "source": "李清照《渔家傲》"
+        "domain": "philosophy",
+        "text": "凡是合理的都是现实的，凡是现实的都是合理的",
+        "source": "黑格尔"
       },
       "b": {
         "domain": "astronomy",
@@ -1448,699 +2268,390 @@ window.COSMOS_DATA = [
     },
     "tags": {
       "moods": [
-        "壮阔",
-        "激越",
-        "未知"
+        "未知",
+        "壮阔"
       ],
       "themes": [
-        "星河",
+        "理性",
         "行星"
       ],
       "domains": [
-        "literature",
+        "philosophy",
         "astronomy"
-      ],
-      "intensity": 4,
-      "eras": [
-        "宋"
       ]
     },
     "visual": {
-      "color": "#6D5AE6",
-      "size": 0.62,
-      "luminosity": 0.53
+      "color": "#8A86A8",
+      "size": 0.45,
+      "luminosity": 0.68
     }
   },
   {
-    "id": "body_0033",
-    "type": "blazar",
-    "type_cn": "耀变体",
-    "name": "茫星河·激越",
-    "epoch": 33,
-    "born_at": "2026-07-27T19:18:47",
-    "collision_text": "云涛翻涌处，蟹状的残骸如千帆舞动，在星河欲转的漩涡里绽开诡谲的浪。",
+    "id": "body_0051",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "寂星汉·辽阔",
+    "epoch": 51,
+    "born_at": "2026-08-09T18:37:42",
+    "collision_text": "沧海吞吐日月，水星悄然吻月，未知的银晕漫过星汉之里",
     "collision_mode": "deepseek",
     "parents": [
-      "lit_02",
-      "apo_09"
+      "lit_07",
+      "apo_08"
     ],
     "composition": {
       "a": {
         "domain": "literature",
-        "text": "天接云涛连晓雾，星河欲转千帆舞",
-        "source": "李清照《渔家傲》"
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
       },
       "b": {
         "domain": "astronomy",
-        "text": "M1: The Crab Nebula",
-        "source": "NASA APOD 2009-11-26"
-      }
-    },
-    "tags": {
-      "moods": [
-        "激越",
-        "壮阔",
-        "激烈",
-        "诡谲"
-      ],
-      "themes": [
-        "星河",
-        "星云"
-      ],
-      "domains": [
-        "literature",
-        "astronomy"
-      ],
-      "intensity": 5,
-      "eras": [
-        "宋",
-        "现代"
-      ]
-    },
-    "visual": {
-      "color": "#F2C94C",
-      "size": 0.95,
-      "luminosity": 0.71
-    }
-  },
-  {
-    "id": "body_0034",
-    "type": "kilonova",
-    "type_cn": "千新星",
-    "name": "辉涅槃·激烈",
-    "epoch": 34,
-    "born_at": "2026-07-27T19:18:50",
-    "collision_text": "零重力走廊里凤凰焚身成灰，宇宙倒悬中每一粒灰烬都是新生的旋涡",
-    "collision_mode": "deepseek",
-    "parents": [
-      "myth_30",
-      "cin_05"
-    ],
-    "composition": {
-      "a": {
-        "domain": "myth",
-        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
-        "source": "跨文化神话"
-      },
-      "b": {
-        "domain": "cinema",
-        "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转",
-        "source": "《盗梦空间》"
-      }
-    },
-    "tags": {
-      "moods": [
-        "激烈",
-        "希望",
-        "诡谲"
-      ],
-      "themes": [
-        "涅槃",
-        "失重"
-      ],
-      "domains": [
-        "myth",
-        "cinema"
-      ],
-      "intensity": 5,
-      "eras": [
-        "上古",
-        "当代"
-      ]
-    },
-    "visual": {
-      "color": "#F2715E",
-      "size": 0.95,
-      "luminosity": 0.82
-    }
-  },
-  {
-    "id": "body_0035",
-    "type": "wormhole",
-    "type_cn": "虫洞",
-    "name": "魄运动·诡谲",
-    "epoch": 35,
-    "born_at": "2026-08-12T23:45:55",
-    "collision_text": "「飞矢不动」「玛雅人用天文台观测金星，精确到五百年仅差一天…」「何当共剪西窗烛，却话巴山夜雨时」相互缠绕，编织出一片诡谲的星云。",
-    "collision_mode": "local",
-    "collision_type": "triple",
-    "parents": [
-      "phi_07",
-      "his_09",
-      "lit_21"
-    ],
-    "composition": {
-      "a": {
-        "domain": "philosophy",
-        "text": "飞矢不动",
-        "source": "芝诺悖论"
-      },
-      "b": {
-        "domain": "history",
-        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
-        "source": "玛雅文明消失·公元9世纪"
-      },
-      "c": {
-        "domain": "literature",
-        "text": "何当共剪西窗烛，却话巴山夜雨时",
-        "source": "李商隐《夜雨寄北》"
-      }
-    },
-    "tags": {
-      "moods": [
-        "诡谲",
-        "神秘",
-        "苍凉",
-        "孤寂"
-      ],
-      "themes": [
-        "运动",
-        "失落",
-        "思念"
-      ],
-      "domains": [
-        "philosophy",
-        "history",
-        "literature"
-      ],
-      "intensity": 4,
-      "eras": [
-        "古希腊",
-        "古代",
-        "唐"
-      ]
-    },
-    "visual": {
-      "color": "#7C3AED",
-      "size": 0.91,
-      "luminosity": 0.95
-    }
-  },
-  {
-    "id": "body_0036",
-    "type": "galaxy",
-    "type_cn": "星系",
-    "name": "茫降临·壮阔",
-    "epoch": 36,
-    "born_at": "2026-08-12T23:46:18",
-    "collision_text": "当「外星飞船遮蔽整个城市上空，云层中投下巨大的阴…」遇见「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」，壮阔的引力把它们拧成了新的轨道。",
-    "collision_mode": "local",
-    "collision_type": "dual",
-    "parents": [
-      "cin_15",
-      "geo_09"
-    ],
-    "composition": {
-      "a": {
-        "domain": "cinema",
-        "text": "外星飞船遮蔽整个城市上空，云层中投下巨大的阴影",
-        "source": "《独立日》"
-      },
-      "b": {
-        "domain": "geography",
-        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
-        "source": "挪威峡湾·北欧"
-      }
-    },
-    "tags": {
-      "moods": [
-        "壮阔",
-        "激烈",
-        "诡谲",
-        "辽阔"
-      ],
-      "themes": [
-        "降临",
-        "峡湾"
-      ],
-      "domains": [
-        "cinema",
-        "geography"
-      ],
-      "intensity": 5,
-      "eras": [
-        "当代",
-        "永恒"
-      ]
-    },
-    "visual": {
-      "color": "#6D5AE6",
-      "size": 0.41,
-      "luminosity": 0.51
-    }
-  },
-  {
-    "id": "body_0037",
-    "type": "white_dwarf",
-    "type_cn": "白矮星",
-    "name": "弦消解·苍凉",
-    "epoch": 37,
-    "born_at": "2026-08-12T23:46:25",
-    "collision_text": "冰封一千五百万年的呼吸穿过过滤器，在人类仰望的刹那，所有坚固的星辰都化为解冻的微生物。",
-    "collision_mode": "deepseek",
-    "collision_type": "triple",
-    "parents": [
-      "phi_09",
-      "geo_07",
-      "sci_26"
-    ],
-    "composition": {
-      "a": {
-        "domain": "philosophy",
-        "text": "一切坚固的东西都烟消云散了",
-        "source": "马克思"
-      },
-      "b": {
-        "domain": "geography",
-        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
-        "source": "沃斯托克湖·南极洲"
-      },
-      "c": {
-        "domain": "science",
-        "text": "大过滤器：从无机物到星际文明之间必有一道几乎不可逾越的鸿沟，人类是否已跨越尚不可知",
-        "source": "大过滤器理论"
-      }
-    },
-    "tags": {
-      "moods": [
-        "苍凉",
-        "激烈",
-        "神秘",
-        "未知"
-      ],
-      "themes": [
-        "消解",
-        "冰封",
-        "过滤器"
-      ],
-      "domains": [
-        "philosophy",
-        "geography",
-        "science"
-      ],
-      "intensity": 5,
-      "eras": [
-        "近代",
-        "永恒",
-        "现代"
-      ]
-    },
-    "visual": {
-      "color": "#64748B",
-      "size": 0.99,
-      "luminosity": 0.58
-    }
-  },
-  {
-    "id": "body_0038",
-    "type": "rogue_planet",
-    "type_cn": "流浪行星",
-    "name": "寂星座·苍凉·子",
-    "epoch": 38,
-    "born_at": "2026-08-12T23:46:27",
-    "collision_text": "在光速的尽头，二泉映着苍白的月，弦音追不上任何远去的时光。",
-    "collision_mode": "deepseek",
-    "collision_type": "dual",
-    "parents": [
-      "sci_10",
-      "mus_26"
-    ],
-    "composition": {
-      "a": {
-        "domain": "science",
-        "text": "光速是宇宙的终极速度极限，约每秒30万公里，任何携带信息的信号都无法超越",
-        "source": "狭义相对论"
-      },
-      "b": {
-        "domain": "music",
-        "text": "二泉映月",
-        "source": "阿炳"
-      }
-    },
-    "tags": {
-      "moods": [
-        "苍凉",
-        "壮阔",
-        "孤寂"
-      ],
-      "themes": [
-        "极限",
-        "月下"
-      ],
-      "domains": [
-        "science",
-        "music"
-      ],
-      "intensity": 4,
-      "eras": [
-        "现代"
-      ]
-    },
-    "visual": {
-      "color": "#506860",
-      "size": 0.69,
-      "luminosity": 0.47
-    },
-    "lineage": {
-      "parent_id": "body_0017",
-      "generation": 1,
-      "inherited_traits": [
-        "type_family",
-        "color"
-      ]
-    }
-  },
-  {
-    "id": "body_0039",
-    "type": "galaxy",
-    "type_cn": "星系",
-    "name": "渺星空·辽阔",
-    "epoch": 39,
-    "born_at": "2026-08-14T23:44:03",
-    "collision_text": "星垂是丈量旷野的尺，每道江流里都折叠着月亮的自相似形状。",
-    "collision_mode": "deepseek",
-    "collision_type": "dual",
-    "parents": [
-      "lit_01",
-      "sci_17"
-    ],
-    "composition": {
-      "a": {
-        "domain": "literature",
-        "text": "星垂平野阔，月涌大江流",
-        "source": "杜甫《旅夜书怀》"
-      },
-      "b": {
-        "domain": "science",
-        "text": "分形几何：海岸线的长度取决于你用的尺子，无限放大仍见自相似的图案",
-        "source": "分形几何"
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
       }
     },
     "tags": {
       "moods": [
         "辽阔",
-        "苍凉",
-        "神秘"
+        "壮阔",
+        "未知"
       ],
       "themes": [
-        "星空",
-        "自相似"
+        "星汉",
+        "行星"
       ],
       "domains": [
         "literature",
-        "science"
-      ],
-      "intensity": 3,
-      "eras": [
-        "唐",
-        "现代"
+        "astronomy"
       ]
     },
     "visual": {
       "color": "#0EA5E9",
-      "size": 0.96,
-      "luminosity": 0.25
+      "size": 0.9,
+      "luminosity": 0.57
     }
   },
   {
-    "id": "body_0040",
+    "id": "body_0052",
     "type": "supernova",
     "type_cn": "超新星",
-    "name": "幽地火·激烈",
-    "epoch": 40,
-    "born_at": "2026-08-14T23:44:15",
-    "collision_text": "「黄石公园的超级火山每六十万年喷发一次，地表下…」穿过「古池や蛙飛び込む水の音（古池畔，青蛙跃入，水…」，留下一道激烈的尾迹。",
-    "collision_mode": "local",
-    "collision_type": "dual",
+    "name": "渊行星·激烈",
+    "epoch": 52,
+    "born_at": "2026-08-09T18:37:44",
+    "collision_text": "后羿的箭穿透九日，余烬落成火星，独留一颗灼照人间。",
+    "collision_mode": "deepseek",
     "parents": [
-      "geo_08",
-      "lit_41"
+      "apo_02",
+      "myth_04"
     ],
     "composition": {
       "a": {
-        "domain": "geography",
-        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
-        "source": "黄石超级火山·美国"
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
       },
       "b": {
-        "domain": "literature",
-        "text": "古池や蛙飛び込む水の音（古池畔，青蛙跃入，水声清响）",
-        "source": "松尾芭蕉《古池》"
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
       }
     },
     "tags": {
       "moods": [
         "激烈",
-        "诡谲",
-        "宁静",
-        "神秘"
+        "未知",
+        "壮阔"
       ],
       "themes": [
-        "地火",
-        "瞬刻"
+        "行星",
+        "英雄"
       ],
       "domains": [
-        "geography",
-        "literature"
-      ],
-      "intensity": 5,
-      "eras": [
-        "永恒",
-        "江户"
+        "astronomy",
+        "myth"
       ]
     },
     "visual": {
       "color": "#F2715E",
-      "size": 0.72,
-      "luminosity": 0.42
+      "size": 0.6,
+      "luminosity": 0.68
     }
   },
   {
-    "id": "body_0041",
-    "type": "rogue_planet",
-    "type_cn": "流浪行星",
-    "name": "寂星座·希望·子",
-    "epoch": 41,
-    "born_at": "2026-08-14T23:44:18",
-    "collision_text": "木星土星隔着螺旋的深渊相望，三十亿个碱基在冲日的刹那，排列成天际的密码。",
+    "id": "body_0053",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "辉秩序·苍凉",
+    "epoch": 53,
+    "born_at": "2026-08-12T18:59:31",
+    "collision_text": "琴键上那座巴洛克教堂静静崩塌，每粒尘埃都按平均律落入星海。",
     "collision_mode": "deepseek",
-    "collision_type": "dual",
     "parents": [
-      "sci_14",
-      "apo_19"
+      "mus_08",
+      "phi_09"
     ],
     "composition": {
       "a": {
-        "domain": "science",
-        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
-        "source": "分子生物学"
+        "domain": "art",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
       },
       "b": {
-        "domain": "astronomy",
-        "text": "Jupiter and Saturn at Opposition",
-        "source": "NASA APOD 2021-07-12"
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
       }
     },
     "tags": {
       "moods": [
-        "希望",
-        "壮阔",
-        "神秘",
-        "辽阔"
+        "苍凉",
+        "宁静",
+        "激烈"
       ],
       "themes": [
-        "密码",
-        "木星"
+        "秩序",
+        "消解"
       ],
       "domains": [
-        "science",
-        "astronomy"
-      ],
-      "intensity": 4,
-      "eras": [
-        "现代"
+        "art",
+        "philosophy"
       ]
     },
     "visual": {
-      "color": "#517d48",
-      "size": 0.85,
-      "luminosity": 0.34
-    },
-    "lineage": {
-      "parent_id": "body_0038",
-      "generation": 2,
-      "inherited_traits": [
-        "type_family",
-        "color"
-      ]
+      "color": "#64748B",
+      "size": 0.51,
+      "luminosity": 0.63
     }
   },
   {
-    "id": "body_0042",
-    "type": "supervoid",
-    "type_cn": "超空洞",
-    "name": "茫过滤·壮阔",
-    "epoch": 42,
-    "born_at": "2026-08-15T19:41:58",
-    "collision_text": "树冠层每一声未命名的鸣叫，都是生命对宇宙过滤器的古老应答",
+    "id": "body_0054",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "弦吞食·激烈",
+    "epoch": 54,
+    "born_at": "2026-08-12T18:59:34",
+    "collision_text": "那伽吞尽日月，诸神之血溅满虚空，上帝已死无人击鼓。",
     "collision_mode": "deepseek",
-    "collision_type": "dual",
     "parents": [
-      "sci_26",
-      "geo_05"
+      "myth_10",
+      "phi_05"
     ],
     "composition": {
       "a": {
-        "domain": "science",
-        "text": "大过滤器：从无机物到星际文明之间必有一道几乎不可逾越的鸿沟，人类是否已跨越尚不可知",
-        "source": "大过滤器理论"
+        "domain": "myth",
+        "text": "那伽吞食日月，造成食相，人击鼓驱之",
+        "source": "印度神话"
       },
       "b": {
-        "domain": "geography",
-        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
-        "source": "亚马逊雨林·南美洲"
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "吞食",
+        "信仰"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.36,
+      "luminosity": 0.65
+    }
+  },
+  {
+    "id": "body_0055",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "渊崇高·激烈",
+    "epoch": 55,
+    "born_at": "2026-08-13T19:00:28",
+    "collision_text": "G弦余震里，众神崩解为星尘，寂静的轰鸣铺满宇宙。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_03",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "G 弦上的咏叹调",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "崇高",
+        "信仰"
+      ],
+      "domains": [
+        "art",
+        "philosophy"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.6,
+      "luminosity": 0.34
+    }
+  },
+  {
+    "id": "body_0056",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "弦幻象·激越",
+    "epoch": 56,
+    "born_at": "2026-08-13T19:00:34",
+    "collision_text": "织女以诡谲指法弹奏孤寂的银汉，迢迢之音在激越的星轨上凝成永恒静默",
+    "collision_mode": "deepseek",
+    "parents": [
+      "mus_04",
+      "lit_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "art",
+        "text": "幻想即兴曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "诡谲",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "幻象",
+        "星座"
+      ],
+      "domains": [
+        "art",
+        "literature"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.62,
+      "luminosity": 0.63
+    }
+  },
+  {
+    "id": "body_0057",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "弦时间·壮阔",
+    "epoch": 57,
+    "born_at": "2026-08-14T18:51:30",
+    "collision_text": "春在巫师袖中点燃星骸，众神呼喝，把长恨锻成星尘回旋的庆典。",
+    "collision_mode": "deepseek",
+    "parents": [
+      "lit_09",
+      "apo_18"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长恨春归无觅处，不知转入此中来",
+        "source": "白居易《大林寺桃花》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NGC 7380: The Wizard Nebula",
+        "source": "NASA APOD 2022-11-14"
       }
     },
     "tags": {
       "moods": [
         "壮阔",
-        "苍凉",
-        "未知",
-        "神秘"
+        "诡谲",
+        "热闹"
       ],
       "themes": [
-        "过滤器",
-        "雨林"
+        "时间",
+        "星云"
       ],
       "domains": [
-        "science",
-        "geography"
-      ],
-      "intensity": 3,
-      "eras": [
-        "现代",
-        "永恒"
+        "literature",
+        "astronomy"
       ]
     },
     "visual": {
       "color": "#6D5AE6",
-      "size": 0.44,
-      "luminosity": 0.27
+      "size": 0.81,
+      "luminosity": 0.75
     }
   },
   {
-    "id": "body_0043",
-    "type": "wormhole",
-    "type_cn": "虫洞",
-    "name": "澜旷野·诡谲",
-    "epoch": 43,
-    "born_at": "2026-08-15T19:42:04",
-    "collision_text": "牧羊人踩过六十四万年的灰烬，每一步都是位置与动量的谜底，而地火在不确定的刻度上牧放群星。",
+    "id": "body_0058",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渊星河·宁静",
+    "epoch": 58,
+    "born_at": "2026-08-14T18:51:32",
+    "collision_text": "铁太阳溺入青草湖，满船清梦枕着未知的星骸",
     "collision_mode": "deepseek",
-    "collision_type": "triple",
     "parents": [
-      "mus_10",
-      "sci_13",
-      "geo_08"
+      "lit_04",
+      "apo_05"
     ],
     "composition": {
       "a": {
-        "domain": "music",
-        "text": "孤独的牧羊人",
-        "source": "传统民谣"
+        "domain": "literature",
+        "text": "醉后不知天在水，满船清梦压星河",
+        "source": "唐温如《题龙阳县青草湖》"
       },
       "b": {
-        "domain": "science",
-        "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的",
-        "source": "海森堡不确定性原理"
-      },
-      "c": {
-        "domain": "geography",
-        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
-        "source": "黄石超级火山·美国"
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
       }
     },
     "tags": {
       "moods": [
+        "宁静",
         "诡谲",
-        "孤寂",
-        "苍凉",
         "未知"
       ],
       "themes": [
-        "旷野",
-        "不确定",
-        "地火"
+        "星河",
+        "太阳"
       ],
       "domains": [
-        "music",
-        "science",
-        "geography"
-      ],
-      "intensity": 5,
-      "eras": [
-        "古典",
-        "现代",
-        "永恒"
+        "literature",
+        "astronomy"
       ]
     },
     "visual": {
-      "color": "#7C3AED",
-      "size": 0.63,
-      "luminosity": 0.99
-    }
-  },
-  {
-    "id": "body_0044",
-    "type": "magnetar",
-    "type_cn": "磁星",
-    "name": "弦荒原·激烈",
-    "epoch": 44,
-    "born_at": "2026-08-15T19:42:06",
-    "collision_text": "落日碾碎荒原，我以残烬之思重铸存在，每一步都踏出宇宙的回响",
-    "collision_mode": "deepseek",
-    "collision_type": "dual",
-    "parents": [
-      "cin_11",
-      "phi_11"
-    ],
-    "composition": {
-      "a": {
-        "domain": "cinema",
-        "text": "末路英雄在荒原上独行，身后是无尽的尘土和落日",
-        "source": "《疯狂的麦克斯》"
-      },
-      "b": {
-        "domain": "philosophy",
-        "text": "我思故我在",
-        "source": "笛卡尔"
-      }
-    },
-    "tags": {
-      "moods": [
-        "激烈",
-        "苍凉",
-        "孤寂",
-        "希望"
-      ],
-      "themes": [
-        "荒原",
-        "自我"
-      ],
-      "domains": [
-        "cinema",
-        "philosophy"
-      ],
-      "intensity": 5,
-      "eras": [
-        "当代",
-        "近代"
-      ]
-    },
-    "visual": {
-      "color": "#F2715E",
-      "size": 0.96,
-      "luminosity": 0.69
+      "color": "#14B8A6",
+      "size": 0.73,
+      "luminosity": 0.37
     }
   }
 ];
@@ -2343,115 +2854,213 @@ window.CHRONICLE_DATA = [
   },
   {
     "epoch": 29,
-    "timestamp": "2026-07-27T13:29:26",
+    "timestamp": "2026-07-27T19:25:22",
     "event": "genesis",
     "body_id": "body_0029",
-    "summary": "第29纪元：cinema×art碰撞，诞生遗迹「焰沉没·苍凉」"
+    "summary": "第29纪元：literature×philosophy碰撞，诞生白矮星「墟星空·苍凉」"
   },
   {
     "epoch": 30,
-    "timestamp": "2026-07-27T13:29:28",
+    "timestamp": "2026-07-27T19:25:25",
     "event": "genesis",
     "body_id": "body_0030",
-    "summary": "第30纪元：philosophy×art碰撞，诞生星云「茫时间·壮阔」"
+    "summary": "第30纪元：literature×art碰撞，诞生星团「魄星汉·辽阔」"
   },
   {
     "epoch": 31,
-    "timestamp": "2026-07-27T18:52:04",
+    "timestamp": "2026-07-28T19:20:34",
     "event": "genesis",
     "body_id": "body_0031",
-    "summary": "第31纪元：science×philosophy碰撞，诞生星系「焰热寂·辽阔」"
+    "summary": "第31纪元：literature×art碰撞，诞生卫星「渺星河·宁静」"
   },
   {
     "epoch": 32,
-    "timestamp": "2026-07-27T18:52:07",
+    "timestamp": "2026-07-28T19:20:44",
     "event": "genesis",
     "body_id": "body_0032",
-    "summary": "第32纪元：literature×astronomy碰撞，诞生星系「尘星河·壮阔」"
+    "summary": "第32纪元：literature×art碰撞，诞生流浪行星「渺星座·孤寂」"
   },
   {
     "epoch": 33,
-    "timestamp": "2026-07-27T19:18:47",
+    "timestamp": "2026-07-29T19:13:50",
     "event": "genesis",
     "body_id": "body_0033",
-    "summary": "第33纪元：literature×astronomy碰撞，诞生耀变体「茫星河·激越」"
+    "summary": "第33纪元：myth×literature碰撞，诞生流浪行星「墟孤独·孤寂」"
   },
   {
     "epoch": 34,
-    "timestamp": "2026-07-27T19:18:50",
+    "timestamp": "2026-07-29T19:13:54",
     "event": "genesis",
     "body_id": "body_0034",
-    "summary": "第34纪元：myth×cinema碰撞，诞生千新星「辉涅槃·激烈」"
+    "summary": "第34纪元：literature×philosophy碰撞，诞生星云「弦星辰·壮阔」"
   },
   {
     "epoch": 35,
-    "timestamp": "2026-08-12T23:45:55",
+    "timestamp": "2026-07-30T19:23:35",
     "event": "genesis",
     "body_id": "body_0035",
-    "summary": "第35纪元：philosophy×history碰撞，诞生虫洞「魄运动·诡谲」"
+    "summary": "第35纪元：astronomy×myth碰撞，诞生流浪行星「渺月球·孤寂」"
   },
   {
     "epoch": 36,
-    "timestamp": "2026-08-12T23:46:18",
+    "timestamp": "2026-07-30T19:23:42",
     "event": "genesis",
     "body_id": "body_0036",
-    "summary": "第36纪元：cinema×geography碰撞，诞生星系「茫降临·壮阔」"
+    "summary": "第36纪元：astronomy×art碰撞，诞生行星「澜行星·宁静」"
   },
   {
     "epoch": 37,
-    "timestamp": "2026-08-12T23:46:25",
+    "timestamp": "2026-07-31T19:22:05",
     "event": "genesis",
     "body_id": "body_0037",
-    "summary": "第37纪元：philosophy×geography碰撞，诞生白矮星「弦消解·苍凉」"
+    "summary": "第37纪元：astronomy×literature碰撞，诞生黑洞「渺行星·诡谲」"
   },
   {
     "epoch": 38,
-    "timestamp": "2026-08-12T23:46:27",
-    "event": "lineage",
+    "timestamp": "2026-07-31T19:22:08",
+    "event": "genesis",
     "body_id": "body_0038",
-    "summary": "第38纪元：流浪行星「寂星座·孤寂」繁衍出第1代子嗣——流浪行星「寂星座·苍凉·子」"
+    "summary": "第38纪元：astronomy×art碰撞，诞生尘埃云「寂恒星·未知」"
   },
   {
     "epoch": 39,
-    "timestamp": "2026-08-14T23:44:03",
+    "timestamp": "2026-08-01T19:05:39",
     "event": "genesis",
     "body_id": "body_0039",
-    "summary": "第39纪元：literature×science碰撞，诞生星系「渺星空·辽阔」"
+    "summary": "第39纪元：art×astronomy碰撞，诞生白矮星「澜秩序·苍凉」"
   },
   {
     "epoch": 40,
-    "timestamp": "2026-08-14T23:44:15",
+    "timestamp": "2026-08-01T19:05:41",
     "event": "genesis",
     "body_id": "body_0040",
-    "summary": "第40纪元：geography×literature碰撞，诞生超新星「幽地火·激烈」"
+    "summary": "第40纪元：astronomy×philosophy碰撞，诞生彗星「渊恒星·孤寂」"
   },
   {
     "epoch": 41,
-    "timestamp": "2026-08-14T23:44:18",
-    "event": "lineage",
+    "timestamp": "2026-08-02T19:07:18",
+    "event": "genesis",
     "body_id": "body_0041",
-    "summary": "第41纪元：流浪行星「寂星座·苍凉·子」繁衍出第2代子嗣——流浪行星「寂星座·希望·子」"
+    "summary": "第41纪元：art×myth碰撞，诞生卫星「弦柔情·宁静」"
   },
   {
     "epoch": 42,
-    "timestamp": "2026-08-15T19:41:58",
+    "timestamp": "2026-08-02T19:07:20",
     "event": "genesis",
     "body_id": "body_0042",
-    "summary": "第42纪元：science×geography碰撞，诞生超空洞「茫过滤·壮阔」"
+    "summary": "第42纪元：myth×art碰撞，诞生超新星「寂末日·激烈」"
   },
   {
     "epoch": 43,
-    "timestamp": "2026-08-15T19:42:04",
+    "timestamp": "2026-08-03T19:27:58",
     "event": "genesis",
     "body_id": "body_0043",
-    "summary": "第43纪元：music×science碰撞，诞生虫洞「澜旷野·诡谲」"
+    "summary": "第43纪元：astronomy×literature碰撞，诞生尘埃云「渺行星·未知」"
   },
   {
     "epoch": 44,
-    "timestamp": "2026-08-15T19:42:06",
+    "timestamp": "2026-08-03T19:28:00",
     "event": "genesis",
     "body_id": "body_0044",
-    "summary": "第44纪元：cinema×philosophy碰撞，诞生磁星「弦荒原·激烈」"
+    "summary": "第44纪元：art×astronomy碰撞，诞生卫星「渺柔情·宁静」"
+  },
+  {
+    "epoch": 45,
+    "timestamp": "2026-08-04T19:29:34",
+    "event": "genesis",
+    "body_id": "body_0045",
+    "summary": "第45纪元：literature×art碰撞，诞生星系「尘星河·壮阔」"
+  },
+  {
+    "epoch": 46,
+    "timestamp": "2026-08-04T19:29:41",
+    "event": "genesis",
+    "body_id": "body_0046",
+    "summary": "第46纪元：art×literature碰撞，诞生卫星「尘原始·宁静」"
+  },
+  {
+    "epoch": 47,
+    "timestamp": "2026-08-05T19:27:16",
+    "event": "genesis",
+    "body_id": "body_0047",
+    "summary": "第47纪元：myth×literature碰撞，诞生星云「焰牺牲·壮阔」"
+  },
+  {
+    "epoch": 48,
+    "timestamp": "2026-08-05T19:27:26",
+    "event": "genesis",
+    "body_id": "body_0048",
+    "summary": "第48纪元：philosophy×art碰撞，诞生黑洞「辉存在·诡谲」"
+  },
+  {
+    "epoch": 49,
+    "timestamp": "2026-08-06T23:56:35",
+    "event": "genesis",
+    "body_id": "body_0049",
+    "summary": "第49纪元：myth×art碰撞，诞生星云「澜英雄·壮阔」"
+  },
+  {
+    "epoch": 50,
+    "timestamp": "2026-08-06T23:56:37",
+    "event": "genesis",
+    "body_id": "body_0050",
+    "summary": "第50纪元：philosophy×astronomy碰撞，诞生尘埃云「弦理性·未知」"
+  },
+  {
+    "epoch": 51,
+    "timestamp": "2026-08-09T18:37:42",
+    "event": "genesis",
+    "body_id": "body_0051",
+    "summary": "第51纪元：literature×astronomy碰撞，诞生星系「寂星汉·辽阔」"
+  },
+  {
+    "epoch": 52,
+    "timestamp": "2026-08-09T18:37:44",
+    "event": "genesis",
+    "body_id": "body_0052",
+    "summary": "第52纪元：astronomy×myth碰撞，诞生超新星「渊行星·激烈」"
+  },
+  {
+    "epoch": 53,
+    "timestamp": "2026-08-12T18:59:31",
+    "event": "genesis",
+    "body_id": "body_0053",
+    "summary": "第53纪元：art×philosophy碰撞，诞生白矮星「辉秩序·苍凉」"
+  },
+  {
+    "epoch": 54,
+    "timestamp": "2026-08-12T18:59:34",
+    "event": "genesis",
+    "body_id": "body_0054",
+    "summary": "第54纪元：myth×philosophy碰撞，诞生超新星「弦吞食·激烈」"
+  },
+  {
+    "epoch": 55,
+    "timestamp": "2026-08-13T19:00:28",
+    "event": "genesis",
+    "body_id": "body_0055",
+    "summary": "第55纪元：art×philosophy碰撞，诞生超新星「渊崇高·激烈」"
+  },
+  {
+    "epoch": 56,
+    "timestamp": "2026-08-13T19:00:34",
+    "event": "genesis",
+    "body_id": "body_0056",
+    "summary": "第56纪元：art×literature碰撞，诞生脉冲星「弦幻象·激越」"
+  },
+  {
+    "epoch": 57,
+    "timestamp": "2026-08-14T18:51:30",
+    "event": "genesis",
+    "body_id": "body_0057",
+    "summary": "第57纪元：literature×astronomy碰撞，诞生星云「弦时间·壮阔」"
+  },
+  {
+    "epoch": 58,
+    "timestamp": "2026-08-14T18:51:32",
+    "event": "genesis",
+    "body_id": "body_0058",
+    "summary": "第58纪元：literature×astronomy碰撞，诞生卫星「渊星河·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -2460,7 +3069,7 @@ window.APOD_DATA = [
     "title": "Hazing Jupiter",
     "url": "https://apod.nasa.gov/apod/image/9701/juphaze_gal_big.jpg",
     "local_path": "assets/apod/apod_1997-01-09.jpg",
-    "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet.",
+    "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet. This false color representation is keyed to altitude - red indicates cloud features near the top of the gas giant's extensive atmosphere while blue corresponds to features at depth. North is up in the mosaic, centered at about 50 degrees northern Jovian latitude, and the limb or edge of the planet arcs ac",
     "tags": {
       "colors": [
         "#101010",
@@ -2475,23 +3084,25 @@ window.APOD_DATA = [
         {
           "en": "jupiter",
           "cn": "木星"
+        },
+        {
+          "en": "aurora",
+          "cn": "极光"
         }
       ],
       "moods": [
         "宁静"
       ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:00:09"
+    "fetched_at": "2026-07-26T19:00:09.674382"
   },
   {
     "date": "1997-07-04",
     "title": "A Landing On Mars",
     "url": "https://apod.nasa.gov/apod/image/9707/success_pathfinder_big.jpg",
     "local_path": "assets/apod/apod_1997-07-04.jpg",
-    "explanation": "The Mars Pathfinder spacecraft lands on Mars, deploying airbags and parachutes in a flurry of automated activity.",
+    "explanation": "Today, July 4th, at about 10:00 AM Pacific Daylight Time (PDT), the Mars Pathfinder spacecraft will land on Mars. Ninety minutes before reaching the surface Pathfinder will begin a flurry of activity. The robot spacecraft is scheduled to vent cooling fluid, jettison its cruise stage, decelerate at 20 gees on atmospheric entry, deploy a 24 foot parachute, jettison its heat shield, slide down a 60 foot bridle, fire solid fuel braking rockets, deploy a cocoon of airbags, separate from the bridle, i",
     "tags": {
       "colors": [
         "#705030",
@@ -2511,18 +3122,215 @@ window.APOD_DATA = [
       "moods": [
         "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:13:11"
+    "fetched_at": "2026-07-26T19:13:11.597476"
+  },
+  {
+    "date": "2000-07-21",
+    "title": "Eros Craters And Boulders",
+    "url": "https://apod.nasa.gov/apod/image/0007/erosjul7_near.jpg",
+    "local_path": "assets/apod/apod_2000-07-21.jpg",
+    "explanation": "From a delicate orbit around asteroid 433 Eros, the NEAR Shoemaker spacecraft's camera has now imaged the entire surface of the small oddly-shaped world at least once. Recorded on July 7th from a distance of 50 kilometers, this dramatic view is about 1.8 kilometers across. It shows the walls and rims of two large overlapping impact craters on the horizon. Massive boulders which may be debris from the impacts are perched along the crater edges. The prominent boulder on the horizon near picture ce",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "asteroid",
+          "cn": "小行星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2001-01-19",
+    "title": "Black Holes Are Black",
+    "url": "https://apod.nasa.gov/apod/image/0101/blackhole_illustration.jpg",
+    "local_path": "assets/apod/apod_2001-01-19.jpg",
+    "explanation": "Q: Why are black holes black? A: Because they have an event horizon. The event horizon is that one-way boundary predicted by general relativity beyond which nothing, not even light, can return. X-ray astronomers using the space-based Chandra Observatory now believe they have direct evidence for event horizons - therefore black holes - in binary star systems which can be detected in x-ray light. These binaries, sometimes called x-ray novae, are known to consist of relatively normal stars dumping ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0d0d0",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-13T19:00:25.767116"
+  },
+  {
+    "date": "2001-09-29",
+    "title": "The Iron Sun",
+    "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",
+    "local_path": "assets/apod/apod_2001-09-29.jpg",
+    "explanation": "The ultraviolet light emitted by eleven times ionized iron at temperatures over 2 million degrees Farenheit was used to record the above picture of the Sun on September 22, the date of the autumnal equinox. The image was made by the EIT camera onboard the SOHO spacecraft, a space observatory which can continuously observe the Sun. Eleven times ionized iron is atomic iron with eleven of its electrons stripped away. Here the electrons are stripped by the frantic collisions with other atoms and ele",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107010",
+        "#105010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
+    "date": "2004-02-20",
+    "title": "SN1987A's Cosmic Pearls",
+    "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",
+    "local_path": "assets/apod/apod_2004-02-20.jpg",
+    "explanation": "In February 1987, light from the brightest stellar explosion seen in modern times reached Earth -- supernova SN1987A. This Hubble Space Telescope image from the sharp Advanced Camera for Surveys taken in November 2003 shows the explosion site over 16 years later. The snap shot indicates that the supernova blast wave continues to impact a pre-existing, one light-year wide ring of material, and the nascent central supernova remnant continues to expand. Like pearls on a cosmic necklace, bright hot ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#301010",
+        "#701030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-02T19:07:15.651723"
+  },
+  {
+    "date": "2004-05-28",
+    "title": "A Manhattan Sunset",
+    "url": "https://apod.nasa.gov/apod/image/0405/nycsunset_tyson_big.jpg",
+    "local_path": "assets/apod/apod_2004-05-28.jpg",
+    "explanation": "Today, if it is clear, Manhattan will flood dramatically with sunlight just as the Sun sets precisely on the centerline of every street.  Usually, the tall buildings that line the gridded streets of New York City's tallest borough will hide the setting Sun.  This effect makes Manhattan a type of modern Stonehenge, although only aligned to about 30 degrees east of north.  Were Manhattan's road grid perfectly aligned to east and west, today's effect would occur on the Vernal and Autumnal Equinox, ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#d0d0d0"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-04T19:29:31.368308"
+  },
+  {
+    "date": "2005-02-03",
+    "title": "SMART-1: Pythagoras Crater",
+    "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",
+    "local_path": "assets/apod/apod_2005-02-03.jpg",
+    "explanation": "Stark shadows show off the central peaks and terraced walls of 120 kilometer wide Pythagoras Crater in this mosaic of images from ESA's SMART-1 spacecraft. Characteristic of large, complex impact craters on the Moon, the central uplift was produced by a rebound of the suddenly molten lunar crust during the violent impact event. Propelled by an efficient ion engine, the innovative SMART-1 spacecraft entered lunar orbit in November last year after a leisurely 13 month journey from planet Earth. No",
+    "tags": {
+      "colors": [
+        "#909090",
+        "#b0b0b0",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "spiral",
+          "cn": "螺旋"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-31T19:21:55.624947"
   },
   {
     "date": "2008-05-09",
     "title": "Moon Meets Mercury",
     "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",
     "local_path": "assets/apod/apod_2008-05-09.jpg",
-    "explanation": "A slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees, cradled in earthshine.",
+    "explanation": "On Tuesday, May 6, while standing on planet Earth and sweeping your binoculars along the western horizon just after sunset, you might have encountered this arresting skyscape. The view features a slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees. Cradled in the sunlit lunar crescent, the night side of the Moon is faintly illuminated by earthshine -- sunlight reflected from planet Earth. Of course, the clouds in silhouette and fading twilight colors are ",
     "tags": {
       "colors": [
         "#707070",
@@ -2531,61 +3339,39 @@ window.APOD_DATA = [
       ],
       "themes": [
         {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
           "en": "moon",
           "cn": "月球"
         },
         {
-          "en": "mercury",
-          "cn": "水星"
-        }
-      ],
-      "moods": [
-        "宁静",
-        "孤寂"
-      ],
-      "domain": "astronomy",
-      "intensity": 2,
-      "era": "现代"
-    },
-    "fetched_at": "2026-07-26T18:55:18"
-  },
-  {
-    "date": "2018-02-21",
-    "title": "Jupiter in Infrared from Hubble",
-    "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
-    "local_path": "assets/apod/apod_2018-02-21.jpg",
-    "explanation": "Jupiter looks different in infrared light. Three bands of near-infrared light reveal the giant planet's cloud motions in false color.",
-    "tags": {
-      "colors": [
-        "#101010",
-        "#507070",
-        "#7090b0"
-      ],
-      "themes": [
-        {
-          "en": "jupiter",
-          "cn": "木星"
+          "en": "sun",
+          "cn": "太阳"
         },
         {
-          "en": "infrared",
-          "cn": "红外"
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "诡谲"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "fetched_at": "2026-07-26T19:03:36"
+    "fetched_at": "2026-07-26T18:55:18.500613"
   },
   {
-    "date": "2022-07-20",
-    "title": "Jupiter and Ring in Infrared from Webb",
-    "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
-    "local_path": "assets/apod/apod_2022-07-20.jpg",
-    "explanation": "Jupiter's rings, created by meteoroid impacts on small nearby moons, glow in infrared light captured by the James Webb Space Telescope.",
+    "date": "2009-01-05",
+    "title": "Comet and Meteor",
+    "url": "https://apod.nasa.gov/apod/image/0901/Quadran-Lulin_tafreshi.jpg",
+    "local_path": "assets/apod/apod_2009-01-05.jpg",
+    "explanation": "This meteor streaking toward the horizon through the early morning sky of January 4th is from the annual Quadrantid meteor shower. Aligned with the shower's radiant point high in the north (off the top of the view), the meteor trail passes to the right of bright bluish star Beta Scorpii. Remarkably, near the top of the trail is a small spot, the fuzzy greenish glow of a comet. Discovered in July of 2007, Comet Lulin (C/2007 N3), is too faint now to be easily seen by the unaided eye, but will lik",
     "tags": {
       "colors": [
         "#303030",
@@ -2594,485 +3380,381 @@ window.APOD_DATA = [
       ],
       "themes": [
         {
-          "en": "jupiter",
-          "cn": "木星"
+          "en": "star",
+          "cn": "恒星"
         },
         {
-          "en": "ring",
-          "cn": "星环"
-        }
-      ],
-      "moods": [
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    },
-    "fetched_at": "2026-07-26T19:09:34"
-  },
-  {
-    "date": "1995-04-01",
-    "title": "The Pillars of Creation",
-    "url": "https://apod.nasa.gov/apod/image/9504/M16mime.jpg",
-    "explanation": "Towering pillars of cold molecular hydrogen and dust in the Eagle Nebula, incubators for new star formation, stretching light-years across.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "eagle",
-          "cn": "鹰状"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2004-01-15",
-    "title": "A Galaxy is not a Comet",
-    "url": "https://apod.nasa.gov/apod/image/0401/galaxy_comet_c3.jpg",
-    "explanation": "A spiral galaxy and a comet appear side by side in the same telescopic field, one millions of light-years away, the other within our own solar system.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "planet",
+          "cn": "行星"
         },
         {
           "en": "comet",
           "cn": "彗星"
+        },
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "辽阔",
-        "苍凉"
+        "孤寂"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
+      "domain": "astronomy"
     },
-    "local_path": "assets/apod/apod_2004-01-15.jpg"
+    "fetched_at": "2026-08-03T19:27:54.048099"
   },
   {
-    "date": "2006-09-26",
-    "title": "A Total Solar Eclipse",
-    "url": "https://apod.nasa.gov/apod/image/0609/eclipse_tse2006.jpg",
-    "explanation": "The sun's corona blazes in the daytime sky during totality, as the moon completely blocks the solar disk, turning day to night.",
+    "date": "2011-01-03",
+    "title": "Winter Hexagon Over Stagecoach Colorado",
+    "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
+    "local_path": "assets/apod/apod_2011-01-03.jpg",
+    "explanation": "If you can find Orion, you might be able to find the Winter Hexagon.  The Winter Hexagon involves some of the brightest stars visible, together forming a large and easily found pattern in the winter sky of Earth's northern hemisphere.  The stars involved can usually be identified even in the bright night skies of a big city, although here they appear over darker Stagecoach, Colorado, USA..  The six stars that compose the Winter Hexagon are Aldebaran, Capella, Castor (and Pollux), Procyon, Rigel,",
     "tags": {
-      "themes": [
-        {
-          "en": "sun",
-          "cn": "太阳"
-        },
-        {
-          "en": "eclipse",
-          "cn": "日食"
-        }
+      "colors": [
+        "#303030",
+        "#101010",
+        "#505030"
       ],
-      "moods": [
-        "激烈",
-        "壮阔"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2009-11-26",
-    "title": "M1: The Crab Nebula",
-    "url": "https://apod.nasa.gov/apod/image/0911/M1_crab.jpg",
-    "explanation": "The Crab Nebula, the expanding remnant of a supernova explosion witnessed by Chinese astronomers in 1054 AD, still glows with energy from its spinning neutron star core.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "supernova",
-          "cn": "超新星"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2012-01-23",
-    "title": "The Andromeda Galaxy",
-    "url": "https://apod.nasa.gov/apod/image/1201/andromeda_gendler.jpg",
-    "explanation": "The Andromeda Galaxy, our nearest large galactic neighbor, spans 260,000 light-years and contains a trillion stars, on a collision course with the Milky Way.",
-    "tags": {
       "themes": [
         {
           "en": "galaxy",
           "cn": "星系"
         },
         {
-          "en": "andromeda",
-          "cn": "仙女座"
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-05T19:27:06.830260"
+  },
+  {
+    "date": "2012-06-16",
+    "title": "APOD Turns 17",
+    "url": "https://apod.nasa.gov/apod/image/1206/apod17_person_2500.jpg",
+    "local_path": "assets/apod/apod_2012-06-16.jpg",
+    "explanation": "The first APOD appeared seventeen years ago today, on 1995 June 16.  Although garnering only 14 page views on that day, we are proud to estimate that APOD has now served over one billion space-related images over the last 1.7 decades.  That early beginning, along with a nearly unchanging format, has allowed APOD to be a consistent and familiar site on a web frequently filled with change.   Many people don't know, though, that APOD is now translated daily into many major languages and featured on",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
+    "date": "2013-03-10",
+    "title": "Milky Way Panorama from Mauna Kea",
+    "url": "https://apod.nasa.gov/apod/image/1303/MKMilkyWaypan_pacholka_600WPAP.jpg",
+    "local_path": "assets/apod/apod_2013-03-10.jpg",
+    "explanation": "Aloha and welcome to a breathtaking skyscape. The dreamlike panoramic view looks out from the 4,200 meter volcanic summit of Mauna Kea, Hawai'i, across a layer of clouds toward a starry night sky and the rising Milky Way. Anchoring the scene on the far left is the dome of the Canada-France-Hawaii Telescope (CFHT), with north star Polaris shining beyond the dome to the right. Farther right, headed by bright star Deneb, the Northern Cross asterism is embedded along the plane of the Milky Way as it",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-14T18:51:27.790920"
+  },
+  {
+    "date": "2015-10-12",
+    "title": "Galaxy, Stars, and Dust",
+    "url": "https://apod.nasa.gov/apod/image/1510/NGC7497_Coles_3950.jpg",
+    "local_path": "assets/apod/apod_2015-10-12.jpg",
+    "explanation": "Spiky stars and spooky shapes abound in this deep cosmic skyscape. Its well-composed field of view covers about a Full Moon on the sky toward the constellation Pegasus. Of course the brighter stars show diffraction spikes, the commonly seen effect of internal supports in reflecting telescopes, and lie well within our own Milky Way galaxy. The faint but pervasive clouds of interstellar dust ride above the galactic plane and dimly reflect the Milky Way's combined starlight. Known as high latitude ",
+    "tags": {
+      "colors": [
+        "#505050",
+        "#303030",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
         }
       ],
       "moods": [
         "壮阔",
         "辽阔"
       ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
-    "date": "2013-03-15",
-    "title": "Saturn's Hexagon",
-    "url": "https://apod.nasa.gov/apod/image/1303/saturn_hexagon_cassini.jpg",
-    "explanation": "A persistent hexagonal cloud pattern at Saturn's north pole, 30,000 kilometers across, has remained stable for decades, its origin still a mystery.",
+    "date": "2018-02-21",
+    "title": "Jupiter in Infrared from Hubble",
+    "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
+    "local_path": "assets/apod/apod_2018-02-21.jpg",
+    "explanation": "Jupiter looks a bit different in infrared light. To better understand Jupiter's cloud motions and to help NASA's robotic Juno spacecraft understand the planetary context of the small fields that it sees, the Hubble Space Telescope is being directed to regularly image the entire Jovian giant. The colors of Jupiter being monitored go beyond the normal human visual range to include both ultraviolet and infrared light.  Featured here in 2016, three bands of near-infrared light have been digitally re",
     "tags": {
+      "colors": [
+        "#101010",
+        "#507070",
+        "#7090b0"
+      ],
       "themes": [
         {
-          "en": "saturn",
-          "cn": "土星"
-        },
-        {
-          "en": "hexagon",
-          "cn": "六边形"
-        }
-      ],
-      "moods": [
-        "诡谲",
-        "神秘"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2014-10-03",
-    "title": "Aurora over Norway",
-    "url": "https://apod.nasa.gov/apod/image/1410/aurora_norway.jpg",
-    "explanation": "Green and purple auroral curtains dance over a Norwegian fjord, powered by charged particles from the sun channeled by Earth's magnetic field.",
-    "tags": {
-      "themes": [
-        {
-          "en": "aurora",
-          "cn": "极光"
-        },
-        {
-          "en": "earth",
-          "cn": "地球"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2015-07-14",
-    "title": "Pluto Flyby from New Horizons",
-    "url": "https://apod.nasa.gov/apod/image/1507/pluto_nh.jpg",
-    "explanation": "New Horizons spacecraft flies past Pluto, revealing a heart-shaped nitrogen ice plain and 3,500-meter water-ice mountains on the distant dwarf planet.",
-    "tags": {
-      "themes": [
-        {
-          "en": "pluto",
-          "cn": "冥王星"
-        },
-        {
-          "en": "ice",
-          "cn": "冰"
-        }
-      ],
-      "moods": [
-        "孤寂",
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2016-04-12",
-    "title": "Black Hole CGCG 3943",
-    "url": "https://apod.nasa.gov/apod/image/1604/blackhole_nasa.jpg",
-    "explanation": "A supermassive black hole at the center of galaxy CGCG 3943 devours a passing star, launching a jet of plasma at nearly the speed of light.",
-    "tags": {
-      "themes": [
-        {
-          "en": "black_hole",
-          "cn": "黑洞"
-        },
-        {
-          "en": "jet",
-          "cn": "喷流"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2017-09-28",
-    "title": "M27: The Dumbbell Nebula",
-    "url": "https://apod.nasa.gov/apod/image/1709/M27_dumbbell.jpg",
-    "explanation": "The Dumbbell Nebula, a glowing shell of gas ejected by a dying star, floats in the constellation Vulpecula, 1,200 light-years from Earth.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
-        },
-        {
-          "en": "white_dwarf",
-          "cn": "白矮星"
-        }
-      ],
-      "moods": [
-        "宁静",
-        "苍凉"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2018-10-05",
-    "title": "Pulsar Fills Its Cosmic Bubbles",
-    "url": "https://apod.nasa.gov/apod/image/1810/pulsar_nasa.jpg",
-    "explanation": "A pulsar's relativistic wind inflates twin bubbles of high-energy particles, visible in X-rays, as it spins hundreds of times per second.",
-    "tags": {
-      "themes": [
-        {
-          "en": "pulsar",
-          "cn": "脉冲星"
-        },
-        {
-          "en": "bubble",
-          "cn": "气泡"
-        }
-      ],
-      "moods": [
-        "激越",
-        "神秘"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2019-04-10",
-    "title": "First Image of a Black Hole",
-    "url": "https://apod.nasa.gov/apod/image/1904/blackhole_eht.jpg",
-    "explanation": "The Event Horizon Telescope captures the first direct image of a black hole, the supermassive object at the center of galaxy M87, 55 million light-years away.",
-    "tags": {
-      "themes": [
-        {
-          "en": "black_hole",
-          "cn": "黑洞"
-        },
-        {
-          "en": "m87",
-          "cn": "M87"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2020-06-21",
-    "title": "Annular Solar Eclipse",
-    "url": "https://apod.nasa.gov/apod/image/2006/eclipse_annular.jpg",
-    "explanation": "A ring of fire glows around the silhouetted moon during an annular solar eclipse, visible across Asia as the moon passes in front of the sun.",
-    "tags": {
-      "themes": [
-        {
-          "en": "eclipse",
-          "cn": "日食"
+          "en": "planet",
+          "cn": "行星"
         },
         {
           "en": "sun",
           "cn": "太阳"
-        }
-      ],
-      "moods": [
-        "激烈",
-        "壮阔"
-      ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2021-07-12",
-    "title": "Jupiter and Saturn at Opposition",
-    "url": "https://apod.nasa.gov/apod/image/2107/jupiter_saturn.jpg",
-    "explanation": "Jupiter and Saturn shine at their brightest and closest to Earth, visible all night, as both gas giants reach opposition within days of each other.",
-    "tags": {
-      "themes": [
+        },
         {
           "en": "jupiter",
           "cn": "木星"
         },
         {
-          "en": "saturn",
-          "cn": "土星"
-        }
-      ],
-      "moods": [
-        "辽阔",
-        "希望"
-      ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2022-07-11",
-    "title": "Webb's First Deep Field",
-    "url": "https://apod.nasa.gov/apod/image/2207/webb_deep_field.jpg",
-    "explanation": "The James Webb Space Telescope's first deep field image reveals thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length, some light from 13 billion years ago.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "orbit",
+          "cn": "轨道"
         },
         {
-          "en": "webb",
-          "cn": "韦伯"
+          "en": "telescope",
+          "cn": "telescope"
         }
       ],
       "moods": [
-        "壮阔",
-        "辽阔",
-        "希望"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
-    "date": "2023-04-14",
-    "title": "The Horsehead Nebula",
-    "url": "https://apod.nasa.gov/apod/image/2304/horsehead_nebula.jpg",
-    "explanation": "The Horsehead Nebula, a dark cloud of dust and gas silhouetted against a glowing red emission nebula, is 1,375 light-years away in the constellation Orion.",
+    "date": "2020-10-30",
+    "title": "Fear and Dread: The Moons of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
+    "local_path": "assets/apod/apod_2020-10-30.jpg",
+    "explanation": "On Halloween fear and dread will stalk your night skies, also known as Phobos and Deimos the moons of Mars. The 2020 opposition of Mars was on October 13, so the Red Planet will still rise shortly before sunset. Near Halloween's Full Moon on the sky, its strange yellowish glow will outshine other stars throughout the night. But the two tiny Martian moons are very faint and in close orbits, making them hard to spot, even with a small telescope. You can find them in this carefully annotated compos",
     "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#707070"
+      ],
       "themes": [
         {
-          "en": "nebula",
-          "cn": "星云"
+          "en": "star",
+          "cn": "恒星"
         },
         {
-          "en": "orion",
-          "cn": "猎户座"
-        }
-      ],
-      "moods": [
-        "神秘",
-        "诡谲"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2023-09-25",
-    "title": "A Starfield in the Sword of Orion",
-    "url": "https://apod.nasa.gov/apod/image/2309/orion_sword.jpg",
-    "explanation": "The Orion Nebula, the Great Nebula in Orion, and a cluster of young stars glow in the sword of Orion, 1,344 light-years away, the nearest region of massive star formation.",
-    "tags": {
-      "themes": [
-        {
-          "en": "nebula",
-          "cn": "星云"
+          "en": "planet",
+          "cn": "行星"
         },
         {
-          "en": "orion",
-          "cn": "猎户座"
-        }
-      ],
-      "moods": [
-        "壮阔",
-        "宁静"
-      ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
-  },
-  {
-    "date": "2024-03-14",
-    "title": "The Sombrero Galaxy",
-    "url": "https://apod.nasa.gov/apod/image/2403/sombrero_galaxy.jpg",
-    "explanation": "The Sombrero Galaxy, seen nearly edge-on, shows a brilliant white core encircled by dark dust lanes, 28 million light-years away in the constellation Virgo.",
-    "tags": {
-      "themes": [
-        {
-          "en": "galaxy",
-          "cn": "星系"
+          "en": "moon",
+          "cn": "月球"
         },
         {
-          "en": "virgo",
-          "cn": "室女座"
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
         }
       ],
       "moods": [
-        "辽阔",
-        "孤寂"
+        "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 3,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-30T19:23:32.967876"
   },
   {
-    "date": "2024-08-12",
-    "title": "Perseid Meteor Shower",
-    "url": "https://apod.nasa.gov/apod/image/2408/perseid_meteor.jpg",
-    "explanation": "Bright Perseid meteors streak across the night sky over a dark mountain lake, as Earth passes through the debris trail of comet Swift-Tuttle.",
+    "date": "2022-07-20",
+    "title": "Jupiter and Ring in Infrared from Webb",
+    "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
+    "local_path": "assets/apod/apod_2022-07-20.jpg",
+    "explanation": "Why does Jupiter have rings?  Jupiter's main ring was discovered in 1979 by NASA's passing Voyager 1 spacecraft, but its origin was then a mystery.  Data from NASA's Galileo spacecraft that orbited Jupiter from 1995 to 2003, however, confirmed the hypothesis that this ring was created by meteoroid impacts on small nearby moons.  As a small meteoroid strikes tiny Metis, for example, it will bore into the moon, vaporize, and explode dirt and dust off into a Jovian orbit. The featured image of Jupi",
     "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#301010"
+      ],
       "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
         {
           "en": "meteor",
           "cn": "流星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-26T19:09:34.338711"
+  },
+  {
+    "date": "2022-11-14",
+    "title": "NGC 7380: The Wizard Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",
+    "local_path": "assets/apod/apod_2022-11-14.jpg",
+    "explanation": "What powers are being wielded in the Wizard Nebula?  Gravitation strong enough to form stars, and stellar winds and radiations powerful enough to create and dissolve towers of gas.  Located only 8,000 light years away, the Wizard nebula, featured here, surrounds developing open star cluster NGC 7380.  Visually, the interplay of stars, gas, and dust has created a shape that appears to some like a fictional medieval sorcerer.  The active star forming region spans 100 about light years, making it a",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#103030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-28T19:20:27.040074"
+  },
+  {
+    "date": "2024-04-29",
+    "title": "Comet, Planet, Moon",
+    "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
+    "local_path": "assets/apod/apod_2024-04-29.jpg",
+    "explanation": "Three bright objects satisfied seasoned stargazers of the western sky just after sunset earlier this month. The most familiar was the Moon, seen on the upper left in a crescent phase. The rest of the Moon was faintly visible by sunlight first reflected by the Earth. The bright planet Jupiter, the largest planet in the Solar System, is seen to the upper left.  Most unusual was Comet 12P/Pons-Brooks, below the Moon and showing a stubby dust tail on the right but an impressive ion tail extending up",
+    "tags": {
+      "colors": [
+        "#303050",
+        "#303010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
         },
         {
           "en": "comet",
@@ -3080,38 +3762,40 @@ window.APOD_DATA = [
         }
       ],
       "moods": [
-        "激越",
-        "希望"
+        "孤寂"
       ],
-      "domain": "astronomy",
-      "intensity": 4,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
-    "date": "2025-01-10",
-    "title": "The Cosmic Web",
-    "url": "https://apod.nasa.gov/apod/image/2501/cosmic_web.jpg",
-    "explanation": "Simulations reveal the large-scale structure of the universe: a vast cosmic web of dark matter filaments spanning hundreds of millions of light-years, with galaxies forming at the nodes.",
+    "date": "2026-01-17",
+    "title": "Apollo 14: A View from Antares",
+    "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
+    "local_path": "assets/apod/apod_2026-01-17.jpg",
+    "explanation": "Apollo 14's Lunar Module Antares landed on the Moon on February 5, 1971. Toward the end of the stay astronaut Ed Mitchell snapped a series of photos of the lunar surface while looking out a window, assembled into this detailed mosaic by Apollo Lunar Surface Journal editor Eric Jones. The view looks across the Fra Mauro highlands to the northwest of the landing site after the Apollo 14 astronauts had completed their second and final walk on the Moon. Prominent in the foreground is their Modular E",
     "tags": {
+      "colors": [
+        "#101010",
+        "#909090",
+        "#707070"
+      ],
       "themes": [
         {
-          "en": "dark_matter",
-          "cn": "暗物质"
+          "en": "moon",
+          "cn": "月球"
         },
         {
-          "en": "structure",
-          "cn": "结构"
+          "en": "horizon",
+          "cn": "horizon"
         }
       ],
       "moods": [
-        "壮阔",
         "未知"
       ],
-      "domain": "astronomy",
-      "intensity": 5,
-      "era": "现代"
-    }
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-07-27T19:25:13.777044"
   }
 ];
 window.DAILY_REPORTS = [
@@ -3231,59 +3915,48 @@ window.DAILY_REPORTS = [
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 44,
-  "chronicle_entries": 44,
+  "total_bodies": 58,
+  "chronicle_entries": 58,
   "daily_report_count": 3,
   "type_distribution": {
-    "星系": 6,
-    "流浪行星": 6,
-    "白矮星": 6,
-    "星云": 4,
+    "白矮星": 8,
+    "星云": 7,
+    "流浪行星": 7,
+    "卫星": 5,
+    "星系": 4,
     "暗物质": 4,
-    "行星": 3,
-    "彗星": 2,
-    "虫洞": 2,
-    "遗迹": 2,
-    "黑洞": 2,
-    "千新星": 1,
-    "磁星": 1,
+    "行星": 4,
+    "超新星": 4,
+    "黑洞": 4,
+    "尘埃云": 3,
+    "彗星": 3,
+    "脉冲星": 2,
+    "星团": 1,
     "类星体": 1,
-    "耀变体": 1,
-    "脉冲星": 1,
-    "超新星": 1,
-    "超空洞": 1
+    "遗迹": 1
   },
   "mood_distribution": {
-    "苍凉": 21,
-    "壮阔": 17,
-    "诡谲": 17,
-    "宁静": 16,
-    "孤寂": 15,
-    "激烈": 15,
-    "激越": 7,
-    "神秘": 7,
+    "宁静": 28,
+    "苍凉": 24,
+    "壮阔": 22,
+    "诡谲": 21,
+    "孤寂": 19,
+    "激烈": 17,
+    "未知": 13,
+    "激越": 8,
     "辽阔": 7,
-    "未知": 6,
-    "希望": 3
+    "热闹": 1
   },
   "domain_distribution": {
-    "literature": 20,
-    "philosophy": 20,
-    "art": 15,
-    "myth": 12,
-    "science": 7,
-    "astronomy": 5,
-    "geography": 5,
-    "cinema": 4,
-    "music": 2,
-    "history": 1
+    "literature": 30,
+    "art": 29,
+    "philosophy": 23,
+    "myth": 19,
+    "astronomy": 15
   },
   "generation": {
-    "max_generation": 2,
-    "lineage_bodies": 2,
-    "distribution": {
-      "第1代": 1,
-      "第2代": 1
-    }
+    "max_generation": 0,
+    "lineage_bodies": 0,
+    "distribution": {}
   }
 };
