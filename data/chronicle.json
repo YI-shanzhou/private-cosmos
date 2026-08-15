@@ -236,5 +236,75 @@
     "event": "genesis",
     "body_id": "body_0034",
     "summary": "第34纪元：myth×cinema碰撞，诞生千新星「辉涅槃·激烈」"
+  },
+  {
+    "epoch": 35,
+    "timestamp": "2026-08-12T23:45:55",
+    "event": "genesis",
+    "body_id": "body_0035",
+    "summary": "第35纪元：philosophy×history碰撞，诞生虫洞「魄运动·诡谲」"
+  },
+  {
+    "epoch": 36,
+    "timestamp": "2026-08-12T23:46:18",
+    "event": "genesis",
+    "body_id": "body_0036",
+    "summary": "第36纪元：cinema×geography碰撞，诞生星系「茫降临·壮阔」"
+  },
+  {
+    "epoch": 37,
+    "timestamp": "2026-08-12T23:46:25",
+    "event": "genesis",
+    "body_id": "body_0037",
+    "summary": "第37纪元：philosophy×geography碰撞，诞生白矮星「弦消解·苍凉」"
+  },
+  {
+    "epoch": 38,
+    "timestamp": "2026-08-12T23:46:27",
+    "event": "lineage",
+    "body_id": "body_0038",
+    "summary": "第38纪元：流浪行星「寂星座·孤寂」繁衍出第1代子嗣——流浪行星「寂星座·苍凉·子」"
+  },
+  {
+    "epoch": 39,
+    "timestamp": "2026-08-14T23:44:03",
+    "event": "genesis",
+    "body_id": "body_0039",
+    "summary": "第39纪元：literature×science碰撞，诞生星系「渺星空·辽阔」"
+  },
+  {
+    "epoch": 40,
+    "timestamp": "2026-08-14T23:44:15",
+    "event": "genesis",
+    "body_id": "body_0040",
+    "summary": "第40纪元：geography×literature碰撞，诞生超新星「幽地火·激烈」"
+  },
+  {
+    "epoch": 41,
+    "timestamp": "2026-08-14T23:44:18",
+    "event": "lineage",
+    "body_id": "body_0041",
+    "summary": "第41纪元：流浪行星「寂星座·苍凉·子」繁衍出第2代子嗣——流浪行星「寂星座·希望·子」"
+  },
+  {
+    "epoch": 42,
+    "timestamp": "2026-08-15T19:41:58",
+    "event": "genesis",
+    "body_id": "body_0042",
+    "summary": "第42纪元：science×geography碰撞，诞生超空洞「茫过滤·壮阔」"
+  },
+  {
+    "epoch": 43,
+    "timestamp": "2026-08-15T19:42:04",
+    "event": "genesis",
+    "body_id": "body_0043",
+    "summary": "第43纪元：music×science碰撞，诞生虫洞「澜旷野·诡谲」"
+  },
+  {
+    "epoch": 44,
+    "timestamp": "2026-08-15T19:42:06",
+    "event": "genesis",
+    "body_id": "body_0044",
+    "summary": "第44纪元：cinema×philosophy碰撞，诞生磁星「弦荒原·激烈」"
   }
 ]

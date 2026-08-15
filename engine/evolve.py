@@ -63,21 +63,31 @@ def merge_tags(a, b, mood, c=None):
     }
 
 
-def evolve_once(dry_run=False):
-    """执行一次完整演化，返回新天体（或 None）。"""
+def evolve_once(dry_run=False, force_mode=None):
+    """执行一次完整演化，返回新天体（或 None）。
+
+    force_mode（调试/验收用）："triple" 强制三体、"dual" 强制两体、
+    "lineage" 强制世代繁衍；None 保持默认随机行为。
+    """
     sources = load_all_sources()
     if len(sources) < 2:
         print("  × 素材不足，至少需要 2 条")
         return None
 
-    # 25% 概率触发世代模式（需要已有天体）
+    # 25% 概率触发世代模式（需要已有天体）；force_mode="lineage" 必走，
+    # 强制 dual/triple 时禁用随机世代（保证强制路径不被抢占）
     parent_body = None
     cosmos = load_json(config.COSMOS_FILE)
-    if cosmos and random.random() < 0.25:
+    lineage_wanted = force_mode == "lineage" or (
+        force_mode is None and random.random() < 0.25
+    )
+    if cosmos and lineage_wanted:
         # 限制世代深度：最多3代
         eligible = [b for b in cosmos if b.get("lineage", {}).get("generation", 0) < 3]
         if eligible:
             parent_body = random.choice(eligible)
+        elif force_mode == "lineage":
+            print("  × [force-mode=lineage] 无可繁衍父代（均已满3代），回退常规配对")
 
     if parent_body:
         print(f"  [世代模式] 父代: {parent_body['type_cn']}「{parent_body['name']}」")
@@ -86,7 +96,9 @@ def evolve_once(dry_run=False):
         c = None
     else:
         # 阶段一
-        pair = stage_rule_evolve(sources)
+        pair = stage_rule_evolve(
+            sources, force_mode=force_mode if force_mode in ("dual", "triple") else None
+        )
         if not pair:
             print("  × 无法完成跨领域配对")
             return None
@@ -181,18 +193,28 @@ def main():
     parser = argparse.ArgumentParser(description="私宇宙·演化引擎")
     parser.add_argument("--count", type=int, default=1, help="连续演化次数")
     parser.add_argument("--dry-run", action="store_true", help="只预览不写入")
+    parser.add_argument(
+        "--force-mode", choices=["dual", "triple", "lineage"], default=None,
+        help="强制演化路径（调试/验收用）：triple=三体 dual=两体 lineage=世代繁衍",
+    )
+    parser.add_argument("--seed", type=int, default=None, help="随机种子（复现实验用）")
     args = parser.parse_args()
+
+    if args.seed is not None:
+        random.seed(args.seed)
 
     mode_label = "DeepSeek 真实碰撞" if config.deepseek_available() else "本地降级碰撞"
     print("=== 私宇宙·演化引擎启动 ===")
     print(f"  碰撞模式: {mode_label}")
+    if args.force_mode:
+        print(f"  强制模式: {args.force_mode}")
     print(f"  目标: 诞生 {args.count} 个天体\n")
 
     born = 0
     new_bodies = []
     for i in range(args.count):
         print(f"--- 第 {i+1}/{args.count} 次演化 ---")
-        body = evolve_once(dry_run=args.dry_run)
+        body = evolve_once(dry_run=args.dry_run, force_mode=args.force_mode)
         if body:
             born += 1
             new_bodies.append(body)

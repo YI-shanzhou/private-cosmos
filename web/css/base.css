@@ -1,0 +1,120 @@
+/* base.css — 基础功能样式（Day 3 · 3.3，只保证布局与可用性，视觉设计属 Day 7 之后阶段） */
+
+:root {
+  --bg: #030014;
+  --panel-bg: rgba(10, 12, 28, 0.93);
+  --border: rgba(120, 130, 180, 0.35);
+  --ink: #e2e8f0;
+  --muted: #8b95b5;
+  --accent: #7C3AED;
+  --accent-2: #38bdf8;
+  --font-mono: "JetBrains Mono", "Microsoft YaHei", monospace;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-mono);
+}
+
+/* 星图全屏画布 */
+#app { position: fixed; inset: 0; }
+#app canvas { display: block; touch-action: none; /* 交由 OrbitControls 处理触摸手势 */ }
+
+/* CSS2D 天体标签（自 index.html 内联迁入，消除双源层叠歧义） */
+.label {
+  color: rgba(255, 255, 255, 0.85);
+  font: 11px/1.4 "JetBrains Mono", "Microsoft YaHei", monospace;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* 顶部左侧 HUD 控制条（z-index 高于 timeline/searchbar，保证按钮可点击） */
+#hud {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 16;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  color: var(--muted);
+  font: 12px var(--font-mono);
+  user-select: none;
+}
+#hud button {
+  margin-right: 6px;
+  background: rgba(20, 20, 40, 0.6);
+  color: #cbd5e1;
+  border: 1px solid rgba(120, 130, 180, 0.4);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font: 12px "JetBrains Mono", "Microsoft YaHei", monospace;
+  cursor: pointer;
+}
+#hud button:hover { background: rgba(60, 70, 120, 0.6); }
+
+/* 通用滚动条（深色） */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(120, 130, 180, 0.35); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* 键盘可达性：获得焦点的按钮描边 */
+#hud button:focus-visible,
+#stats-toggle:focus-visible { outline: 1px solid var(--accent-2); }
+
+/* ---- 移动端响应式（平板以下） ---- */
+@media (max-width: 768px) {
+  #hud {
+    left: 8px;
+    top: 8px;
+    right: 8px;
+    z-index: 16;
+  }
+
+  /* 垂直栈：HUD（可两行）→ 时间轴 → 搜索栏（!important 压过模块注入的 top 值） */
+  body #timeline {
+    left: 8px !important;
+    right: 8px !important;
+    transform: none !important;
+    bottom: auto !important;
+    top: 82px !important;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  body #searchbar {
+    left: 8px !important;
+    right: 8px !important;
+    max-width: none !important;
+    top: 156px !important;
+  }
+
+  /* 详情面板 → 底部抽屉 */
+  body #panel {
+    left: 8px !important;
+    right: 8px !important;
+    width: auto !important;
+    top: auto !important;
+    bottom: 12px !important;
+    max-height: 52vh !important;
+  }
+
+  /* 统计面板 → 横向滚动三图 */
+  body #stats-charts {
+    grid-template-columns: repeat(3, minmax(170px, 1fr)) !important;
+    overflow-x: auto;
+    height: 150px !important;
+    box-sizing: border-box;
+  }
+  body .chart-box { min-height: 0; }
+  body .chart { height: 118px !important; }
+
+  /* 天体标签缩小（加 body 前缀与 !important，防运行期注入样式层叠覆盖） */
+  body .label { font-size: 9px !important; }
+}

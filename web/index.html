@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#030014">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon-192.png" type="image/png">
+<title>私宇宙 · Private Cosmos</title>
+<link rel="stylesheet" href="css/base.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./_shared/js/three/three.module.js",
+    "three/addons/": "./_shared/js/three/addons/"
+  }
+}
+</script>
+</head>
+<body>
+<div id="app"></div>
+<div id="hud"></div>
+<script src="assets/cosmos-data.js"></script>
+<script src="_shared/js/echarts.min.js"></script>
+<!-- Day 2 模块（按环节逐步启用） -->
+<script type="module" src="assets/skymap-core.js"></script>
+<script type="module" src="assets/skymap-bodies.js"></script>
+<script type="module" src="assets/skymap-controls.js"></script>
+<script type="module" src="assets/skymap-panel.js"></script>
+<script type="module" src="assets/charts.js"></script>
+<script type="module" src="assets/skymap-timeline.js"></script>
+<script type="module" src="assets/skymap-search.js"></script>
+<script type="module" src="assets/skymap-constellation.js"></script>
+<script type="module" src="assets/skymap-personal.js"></script>
+<script>
+  // Service Worker 注册（Day 6 · 6.1，PWA 离线能力）
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then((reg) => console.log('[sw] Service Worker 注册成功：scope=' + reg.scope))
+        .catch((err) => console.error('[sw] Service Worker 注册失败：', err));
+    });
+  }
+</script>
+</body>
+</html>

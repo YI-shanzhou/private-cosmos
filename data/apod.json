@@ -5,7 +5,29 @@
     "url": "https://apod.nasa.gov/apod/image/9701/juphaze_gal_big.jpg",
     "local_path": "assets/apod/apod_1997-01-09.jpg",
     "explanation": "A dramatic mosaic of recent images from the Galileo spacecraft reveals details of swirling clouds and a thick stratospheric haze in the atmosphere of Jupiter, the Solar System's largest planet.",
-    "tags": {"colors": ["#101010","#505050","#307090"], "themes": [{"en":"planet","cn":"行星"},{"en":"jupiter","cn":"木星"}], "moods": ["宁静"], "domain": "astronomy", "intensity": 2, "era": "现代"},
+    "tags": {
+      "colors": [
+        "#101010",
+        "#505050",
+        "#307090"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        }
+      ],
+      "moods": [
+        "宁静"
+      ],
+      "domain": "astronomy",
+      "intensity": 2,
+      "era": "现代"
+    },
     "fetched_at": "2026-07-26T19:00:09"
   },
   {
@@ -14,7 +36,29 @@
     "url": "https://apod.nasa.gov/apod/image/9707/success_pathfinder_big.jpg",
     "local_path": "assets/apod/apod_1997-07-04.jpg",
     "explanation": "The Mars Pathfinder spacecraft lands on Mars, deploying airbags and parachutes in a flurry of automated activity.",
-    "tags": {"colors": ["#705030","#f0b070","#503030"], "themes": [{"en":"planet","cn":"行星"},{"en":"mars","cn":"火星"}], "moods": ["未知"], "domain": "astronomy", "intensity": 2, "era": "现代"},
+    "tags": {
+      "colors": [
+        "#705030",
+        "#f0b070",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy",
+      "intensity": 2,
+      "era": "现代"
+    },
     "fetched_at": "2026-07-26T19:13:11"
   },
   {
@@ -23,7 +67,30 @@
     "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",
     "local_path": "assets/apod/apod_2008-05-09.jpg",
     "explanation": "A slender crescent Moon and bright planet Mercury separated on the sky by only about 2 degrees, cradled in earthshine.",
-    "tags": {"colors": ["#707070","#505050","#705050"], "themes": [{"en":"moon","cn":"月球"},{"en":"mercury","cn":"水星"}], "moods": ["宁静", "孤寂"], "domain": "astronomy", "intensity": 2, "era": "现代"},
+    "tags": {
+      "colors": [
+        "#707070",
+        "#505050",
+        "#705050"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "mercury",
+          "cn": "水星"
+        }
+      ],
+      "moods": [
+        "宁静",
+        "孤寂"
+      ],
+      "domain": "astronomy",
+      "intensity": 2,
+      "era": "现代"
+    },
     "fetched_at": "2026-07-26T18:55:18"
   },
   {
@@ -32,7 +99,29 @@
     "url": "https://apod.nasa.gov/apod/image/1802/JupiterIR_HubbleSchmidt_1211.jpg",
     "local_path": "assets/apod/apod_2018-02-21.jpg",
     "explanation": "Jupiter looks different in infrared light. Three bands of near-infrared light reveal the giant planet's cloud motions in false color.",
-    "tags": {"colors": ["#101010","#507070","#7090b0"], "themes": [{"en":"jupiter","cn":"木星"},{"en":"infrared","cn":"红外"}], "moods": ["诡谲"], "domain": "astronomy", "intensity": 3, "era": "现代"},
+    "tags": {
+      "colors": [
+        "#101010",
+        "#507070",
+        "#7090b0"
+      ],
+      "themes": [
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "infrared",
+          "cn": "红外"
+        }
+      ],
+      "moods": [
+        "诡谲"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    },
     "fetched_at": "2026-07-26T19:03:36"
   },
   {
@@ -41,7 +130,29 @@
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
     "local_path": "assets/apod/apod_2022-07-20.jpg",
     "explanation": "Jupiter's rings, created by meteoroid impacts on small nearby moons, glow in infrared light captured by the James Webb Space Telescope.",
-    "tags": {"colors": ["#303030","#101010","#301010"], "themes": [{"en":"jupiter","cn":"木星"},{"en":"ring","cn":"星环"}], "moods": ["苍凉"], "domain": "astronomy", "intensity": 3, "era": "现代"},
+    "tags": {
+      "colors": [
+        "#303030",
+        "#101010",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "ring",
+          "cn": "星环"
+        }
+      ],
+      "moods": [
+        "苍凉"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    },
     "fetched_at": "2026-07-26T19:09:34"
   },
   {
@@ -49,139 +160,501 @@
     "title": "The Pillars of Creation",
     "url": "https://apod.nasa.gov/apod/image/9504/M16mime.jpg",
     "explanation": "Towering pillars of cold molecular hydrogen and dust in the Eagle Nebula, incubators for new star formation, stretching light-years across.",
-    "tags": {"themes": [{"en":"nebula","cn":"星云"},{"en":"eagle","cn":"鹰状"}], "moods": ["壮阔", "希望"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "eagle",
+          "cn": "鹰状"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "希望"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2004-01-15",
     "title": "A Galaxy is not a Comet",
     "url": "https://apod.nasa.gov/apod/image/0401/galaxy_comet_c3.jpg",
     "explanation": "A spiral galaxy and a comet appear side by side in the same telescopic field, one millions of light-years away, the other within our own solar system.",
-    "tags": {"themes": [{"en":"galaxy","cn":"星系"},{"en":"comet","cn":"彗星"}], "moods": ["辽阔", "苍凉"], "domain": "astronomy", "intensity": 3, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "苍凉"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    },
+    "local_path": "assets/apod/apod_2004-01-15.jpg"
   },
   {
     "date": "2006-09-26",
     "title": "A Total Solar Eclipse",
     "url": "https://apod.nasa.gov/apod/image/0609/eclipse_tse2006.jpg",
     "explanation": "The sun's corona blazes in the daytime sky during totality, as the moon completely blocks the solar disk, turning day to night.",
-    "tags": {"themes": [{"en":"sun","cn":"太阳"},{"en":"eclipse","cn":"日食"}], "moods": ["激烈", "壮阔"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "eclipse",
+          "cn": "日食"
+        }
+      ],
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2009-11-26",
     "title": "M1: The Crab Nebula",
     "url": "https://apod.nasa.gov/apod/image/0911/M1_crab.jpg",
     "explanation": "The Crab Nebula, the expanding remnant of a supernova explosion witnessed by Chinese astronomers in 1054 AD, still glows with energy from its spinning neutron star core.",
-    "tags": {"themes": [{"en":"nebula","cn":"星云"},{"en":"supernova","cn":"超新星"}], "moods": ["激烈", "诡谲"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        }
+      ],
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2012-01-23",
     "title": "The Andromeda Galaxy",
     "url": "https://apod.nasa.gov/apod/image/1201/andromeda_gendler.jpg",
     "explanation": "The Andromeda Galaxy, our nearest large galactic neighbor, spans 260,000 light-years and contains a trillion stars, on a collision course with the Milky Way.",
-    "tags": {"themes": [{"en":"galaxy","cn":"星系"},{"en":"andromeda","cn":"仙女座"}], "moods": ["壮阔", "辽阔"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "andromeda",
+          "cn": "仙女座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "辽阔"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2013-03-15",
     "title": "Saturn's Hexagon",
     "url": "https://apod.nasa.gov/apod/image/1303/saturn_hexagon_cassini.jpg",
     "explanation": "A persistent hexagonal cloud pattern at Saturn's north pole, 30,000 kilometers across, has remained stable for decades, its origin still a mystery.",
-    "tags": {"themes": [{"en":"saturn","cn":"土星"},{"en":"hexagon","cn":"六边形"}], "moods": ["诡谲", "神秘"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "hexagon",
+          "cn": "六边形"
+        }
+      ],
+      "moods": [
+        "诡谲",
+        "神秘"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2014-10-03",
     "title": "Aurora over Norway",
     "url": "https://apod.nasa.gov/apod/image/1410/aurora_norway.jpg",
     "explanation": "Green and purple auroral curtains dance over a Norwegian fjord, powered by charged particles from the sun channeled by Earth's magnetic field.",
-    "tags": {"themes": [{"en":"aurora","cn":"极光"},{"en":"earth","cn":"地球"}], "moods": ["壮阔", "希望"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "aurora",
+          "cn": "极光"
+        },
+        {
+          "en": "earth",
+          "cn": "地球"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "希望"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2015-07-14",
     "title": "Pluto Flyby from New Horizons",
     "url": "https://apod.nasa.gov/apod/image/1507/pluto_nh.jpg",
     "explanation": "New Horizons spacecraft flies past Pluto, revealing a heart-shaped nitrogen ice plain and 3,500-meter water-ice mountains on the distant dwarf planet.",
-    "tags": {"themes": [{"en":"pluto","cn":"冥王星"},{"en":"ice","cn":"冰"}], "moods": ["孤寂", "苍凉"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "pluto",
+          "cn": "冥王星"
+        },
+        {
+          "en": "ice",
+          "cn": "冰"
+        }
+      ],
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2016-04-12",
     "title": "Black Hole CGCG 3943",
     "url": "https://apod.nasa.gov/apod/image/1604/blackhole_nasa.jpg",
     "explanation": "A supermassive black hole at the center of galaxy CGCG 3943 devours a passing star, launching a jet of plasma at nearly the speed of light.",
-    "tags": {"themes": [{"en":"black_hole","cn":"黑洞"},{"en":"jet","cn":"喷流"}], "moods": ["激烈", "诡谲"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "black_hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "jet",
+          "cn": "喷流"
+        }
+      ],
+      "moods": [
+        "激烈",
+        "诡谲"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2017-09-28",
     "title": "M27: The Dumbbell Nebula",
     "url": "https://apod.nasa.gov/apod/image/1709/M27_dumbbell.jpg",
     "explanation": "The Dumbbell Nebula, a glowing shell of gas ejected by a dying star, floats in the constellation Vulpecula, 1,200 light-years from Earth.",
-    "tags": {"themes": [{"en":"nebula","cn":"星云"},{"en":"white_dwarf","cn":"白矮星"}], "moods": ["宁静", "苍凉"], "domain": "astronomy", "intensity": 3, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "white_dwarf",
+          "cn": "白矮星"
+        }
+      ],
+      "moods": [
+        "宁静",
+        "苍凉"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    }
   },
   {
     "date": "2018-10-05",
     "title": "Pulsar Fills Its Cosmic Bubbles",
     "url": "https://apod.nasa.gov/apod/image/1810/pulsar_nasa.jpg",
     "explanation": "A pulsar's relativistic wind inflates twin bubbles of high-energy particles, visible in X-rays, as it spins hundreds of times per second.",
-    "tags": {"themes": [{"en":"pulsar","cn":"脉冲星"},{"en":"bubble","cn":"气泡"}], "moods": ["激越", "神秘"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "pulsar",
+          "cn": "脉冲星"
+        },
+        {
+          "en": "bubble",
+          "cn": "气泡"
+        }
+      ],
+      "moods": [
+        "激越",
+        "神秘"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2019-04-10",
     "title": "First Image of a Black Hole",
     "url": "https://apod.nasa.gov/apod/image/1904/blackhole_eht.jpg",
     "explanation": "The Event Horizon Telescope captures the first direct image of a black hole, the supermassive object at the center of galaxy M87, 55 million light-years away.",
-    "tags": {"themes": [{"en":"black_hole","cn":"黑洞"},{"en":"m87","cn":"M87"}], "moods": ["壮阔", "诡谲"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "black_hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "m87",
+          "cn": "M87"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "诡谲"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2020-06-21",
     "title": "Annular Solar Eclipse",
     "url": "https://apod.nasa.gov/apod/image/2006/eclipse_annular.jpg",
     "explanation": "A ring of fire glows around the silhouetted moon during an annular solar eclipse, visible across Asia as the moon passes in front of the sun.",
-    "tags": {"themes": [{"en":"eclipse","cn":"日食"},{"en":"sun","cn":"太阳"}], "moods": ["激烈", "壮阔"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "eclipse",
+          "cn": "日食"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        }
+      ],
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2021-07-12",
     "title": "Jupiter and Saturn at Opposition",
     "url": "https://apod.nasa.gov/apod/image/2107/jupiter_saturn.jpg",
     "explanation": "Jupiter and Saturn shine at their brightest and closest to Earth, visible all night, as both gas giants reach opposition within days of each other.",
-    "tags": {"themes": [{"en":"jupiter","cn":"木星"},{"en":"saturn","cn":"土星"}], "moods": ["辽阔", "希望"], "domain": "astronomy", "intensity": 3, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "希望"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    }
   },
   {
     "date": "2022-07-11",
     "title": "Webb's First Deep Field",
     "url": "https://apod.nasa.gov/apod/image/2207/webb_deep_field.jpg",
     "explanation": "The James Webb Space Telescope's first deep field image reveals thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length, some light from 13 billion years ago.",
-    "tags": {"themes": [{"en":"galaxy","cn":"星系"},{"en":"webb","cn":"韦伯"}], "moods": ["壮阔", "辽阔", "希望"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "webb",
+          "cn": "韦伯"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "希望"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   },
   {
     "date": "2023-04-14",
     "title": "The Horsehead Nebula",
     "url": "https://apod.nasa.gov/apod/image/2304/horsehead_nebula.jpg",
     "explanation": "The Horsehead Nebula, a dark cloud of dust and gas silhouetted against a glowing red emission nebula, is 1,375 light-years away in the constellation Orion.",
-    "tags": {"themes": [{"en":"nebula","cn":"星云"},{"en":"orion","cn":"猎户座"}], "moods": ["神秘", "诡谲"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "orion",
+          "cn": "猎户座"
+        }
+      ],
+      "moods": [
+        "神秘",
+        "诡谲"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2023-09-25",
     "title": "A Starfield in the Sword of Orion",
     "url": "https://apod.nasa.gov/apod/image/2309/orion_sword.jpg",
     "explanation": "The Orion Nebula, the Great Nebula in Orion, and a cluster of young stars glow in the sword of Orion, 1,344 light-years away, the nearest region of massive star formation.",
-    "tags": {"themes": [{"en":"nebula","cn":"星云"},{"en":"orion","cn":"猎户座"}], "moods": ["壮阔", "宁静"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "orion",
+          "cn": "猎户座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "宁静"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2024-03-14",
     "title": "The Sombrero Galaxy",
     "url": "https://apod.nasa.gov/apod/image/2403/sombrero_galaxy.jpg",
     "explanation": "The Sombrero Galaxy, seen nearly edge-on, shows a brilliant white core encircled by dark dust lanes, 28 million light-years away in the constellation Virgo.",
-    "tags": {"themes": [{"en":"galaxy","cn":"星系"},{"en":"virgo","cn":"室女座"}], "moods": ["辽阔", "孤寂"], "domain": "astronomy", "intensity": 3, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "virgo",
+          "cn": "室女座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "孤寂"
+      ],
+      "domain": "astronomy",
+      "intensity": 3,
+      "era": "现代"
+    }
   },
   {
     "date": "2024-08-12",
     "title": "Perseid Meteor Shower",
     "url": "https://apod.nasa.gov/apod/image/2408/perseid_meteor.jpg",
     "explanation": "Bright Perseid meteors streak across the night sky over a dark mountain lake, as Earth passes through the debris trail of comet Swift-Tuttle.",
-    "tags": {"themes": [{"en":"meteor","cn":"流星"},{"en":"comet","cn":"彗星"}], "moods": ["激越", "希望"], "domain": "astronomy", "intensity": 4, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        }
+      ],
+      "moods": [
+        "激越",
+        "希望"
+      ],
+      "domain": "astronomy",
+      "intensity": 4,
+      "era": "现代"
+    }
   },
   {
     "date": "2025-01-10",
     "title": "The Cosmic Web",
     "url": "https://apod.nasa.gov/apod/image/2501/cosmic_web.jpg",
     "explanation": "Simulations reveal the large-scale structure of the universe: a vast cosmic web of dark matter filaments spanning hundreds of millions of light-years, with galaxies forming at the nodes.",
-    "tags": {"themes": [{"en":"dark_matter","cn":"暗物质"},{"en":"structure","cn":"结构"}], "moods": ["壮阔", "未知"], "domain": "astronomy", "intensity": 5, "era": "现代"}
+    "tags": {
+      "themes": [
+        {
+          "en": "dark_matter",
+          "cn": "暗物质"
+        },
+        {
+          "en": "structure",
+          "cn": "结构"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "未知"
+      ],
+      "domain": "astronomy",
+      "intensity": 5,
+      "era": "现代"
+    }
   }
 ]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "geo_01",
+    "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+    "source": "冰岛极光",
+    "tags": {
+      "moods": ["壮阔", "神秘"],
+      "domain": "geography",
+      "theme": "极光",
+      "intensity": 4,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_02",
+    "text": "马里亚纳海沟一万一千米深处，水压足以压碎钢铁，却仍有透明小鱼在黑暗中游弋",
+    "source": "马里亚纳海沟·太平洋",
+    "tags": {
+      "moods": ["神秘", "诡谲"],
+      "domain": "geography",
+      "theme": "深渊",
+      "intensity": 4,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_03",
+    "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+    "source": "撒哈拉沙漠·非洲",
+    "tags": {
+      "moods": ["辽阔", "苍凉"],
+      "domain": "geography",
+      "theme": "沙海",
+      "intensity": 3,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_04",
+    "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+    "source": "珠穆朗玛峰·喜马拉雅",
+    "tags": {
+      "moods": ["壮阔", "孤寂"],
+      "domain": "geography",
+      "theme": "绝顶",
+      "intensity": 5,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_05",
+    "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+    "source": "亚马逊雨林·南美洲",
+    "tags": {
+      "moods": ["神秘", "壮阔"],
+      "domain": "geography",
+      "theme": "雨林",
+      "intensity": 3,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_06",
+    "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+    "source": "死海·中东",
+    "tags": {
+      "moods": ["宁静", "诡谲"],
+      "domain": "geography",
+      "theme": "盐海",
+      "intensity": 2,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_07",
+    "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+    "source": "沃斯托克湖·南极洲",
+    "tags": {
+      "moods": ["神秘", "苍凉"],
+      "domain": "geography",
+      "theme": "冰封",
+      "intensity": 4,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_08",
+    "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+    "source": "黄石超级火山·美国",
+    "tags": {
+      "moods": ["激烈", "诡谲"],
+      "domain": "geography",
+      "theme": "地火",
+      "intensity": 5,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_09",
+    "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+    "source": "挪威峡湾·北欧",
+    "tags": {
+      "moods": ["壮阔", "辽阔"],
+      "domain": "geography",
+      "theme": "峡湾",
+      "intensity": 3,
+      "era": "永恒"
+    }
+  },
+  {
+    "id": "geo_10",
+    "text": "大堡礁从太空中肉眼可见，两千三百公里长的珊瑚城在暖流中呼吸，彩色鱼群如星尘般穿梭",
+    "source": "大堡礁·澳大利亚",
+    "tags": {
+      "moods": ["希望", "宁静"],
+      "domain": "geography",
+      "theme": "珊瑚",
+      "intensity": 2,
+      "era": "永恒"
+    }
+  }
+]

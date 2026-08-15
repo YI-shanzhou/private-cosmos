@@ -117,15 +117,48 @@ def generate_daily_report(bodies):
     return report
 
 
+def _absorb_reports(base, extra):
+    """把 extra 合并进 base：计数/清单/分布求和，摘要取 extra（较新）的值。"""
+    base["body_count"] = base.get("body_count", 0) + extra.get("body_count", 0)
+    base["new_bodies"] = base.get("new_bodies", []) + extra.get("new_bodies", [])
+    base["lineage_count"] = base.get("lineage_count", 0) + extra.get("lineage_count", 0)
+    base["triple_count"] = base.get("triple_count", 0) + extra.get("triple_count", 0)
+    for key in ("mood_distribution", "domain_distribution"):
+        dist = dict(base.get(key) or {})
+        for k, v in (extra.get(key) or {}).items():
+            dist[k] = dist.get(k, 0) + v
+        base[key] = dist
+    base["summary"] = extra["summary"]
+    return base
+
+
+def merge_same_day(reports, report):
+    """将 report 并入 reports：同 date 的全部条目（含历史重复）收敛为一条。
+
+    返回新列表，不修改入参；合并条目置于末尾。
+    """
+    same_day = [r for r in reports if r.get("date") == report["date"]]
+    if not same_day:
+        return reports + [report]
+    merged = dict(same_day[0])
+    for r in same_day[1:]:
+        merged = _absorb_reports(merged, r)
+    merged = _absorb_reports(merged, report)
+    rest = [r for r in reports if r.get("date") != report["date"]]
+    return rest + [merged]
+
+
 def save_daily_report(report, dry_run=False):
-    """保存每日宇宙报告。"""
+    """保存每日宇宙报告（同日幂等：同一天多次运行合并为一条，历史同日重复一并收敛）。"""
     if dry_run or not report:
         return
     report_path = config.DATA_DIR / "daily_reports.json"
     reports = []
     if report_path.exists():
         reports = json.loads(report_path.read_text(encoding="utf-8"))
-    reports.append(report)
+
+    reports = merge_same_day(reports, report)
+
     # 只保留最近30天
     reports = reports[-30:]
     report_path.parent.mkdir(parents=True, exist_ok=True)
@@ -133,4 +166,4 @@ def save_daily_report(report, dry_run=False):
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(reports, f, ensure_ascii=False, indent=2)
     tmp.replace(report_path)
-    print("  [日报] 已保存到 data/daily_reports.json")
+    print(f"  [日报] 已保存到 {report_path}")

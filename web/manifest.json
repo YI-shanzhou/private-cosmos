@@ -1,0 +1,32 @@
+{
+  "name": "私宇宙 · Private Cosmos",
+  "short_name": "私宇宙",
+  "description": "基于多领域素材碰撞生成的个人 3D 星图宇宙",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#030014",
+  "theme_color": "#030014",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

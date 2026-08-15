@@ -62,7 +62,7 @@ def _pair_contrast(sources, by_domain, domains):
     return None
 
 
-def stage_rule_evolve(sources):
+def stage_rule_evolve(sources, force_mode=None):
     """阶段一·规则演化：跨领域配对选材。
 
     四种配对模式随机切换：
@@ -70,6 +70,10 @@ def stage_rule_evolve(sources):
     - resonance: 情绪共振——找有共同情绪的跨领域素材
     - contrast: 情绪反差——找情绪完全不同、强度差异大的素材
     - triple: 三体碰撞——从三个不同领域各选一个素材
+
+    force_mode（调试/验收用，None 保持默认随机行为）：
+    - "triple": 强制三体碰撞（域不足3个时返回 None）
+    - "dual":   强制两体碰撞（跳过三体概率）
     """
     by_domain = {}
     for s in sources:
@@ -80,8 +84,14 @@ def stage_rule_evolve(sources):
             return random.sample(sources, 2)
         return None
 
-    # 30% 概率三体碰撞（需要至少3个域）
-    if len(domains) >= 3 and random.random() < 0.3:
+    # 强制三体但域不足 3 个：按声明返回 None（由上游打印配对失败）
+    if force_mode == "triple" and len(domains) < 3:
+        return None
+
+    # 三体碰撞：force_mode="triple" 必走；"dual" 必不走；默认 30% 概率
+    if force_mode != "dual" and len(domains) >= 3 and (
+        force_mode == "triple" or random.random() < 0.3
+    ):
         doms = random.sample(domains, 3)
         a = random.choice(by_domain[doms[0]])
         b = random.choice(by_domain[doms[1]])

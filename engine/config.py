@@ -51,10 +51,12 @@ DOMAIN_FILES = {
     "astronomy": "apod.json",
     "literature": "literature.json",
     "philosophy": "philosophy.json",
-    "art": "music.json",
+    "music": "music.json",
     "myth": "myth.json",
     "science": "science.json",
     "cinema": "cinema.json",
+    "history": "history.json",
+    "geography": "geography.json",
 }
 
 

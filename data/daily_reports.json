@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-08-12",
+    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、白矮星、流浪行星在cinema、geography、science、music、philosophy的碰撞中绽放，情绪以壮阔、苍凉、苍凉为主导。",
+    "body_count": 4,
+    "new_bodies": [
+      {
+        "name": "魄运动·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0035"
+      },
+      {
+        "name": "茫降临·壮阔",
+        "type_cn": "星系",
+        "id": "body_0036"
+      },
+      {
+        "name": "弦消解·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0037"
+      },
+      {
+        "name": "寂星座·苍凉·子",
+        "type_cn": "流浪行星",
+        "id": "body_0038"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "苍凉": 2,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "history": 1,
+      "literature": 1,
+      "cinema": 1,
+      "geography": 2,
+      "science": 2,
+      "music": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 2
+  },
+  {
+    "date": "2026-08-14",
+    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、超新星、流浪行星在geography、literature、science、astronomy的碰撞中绽放，情绪以辽阔、激烈、希望为主导。",
+    "body_count": 3,
+    "new_bodies": [
+      {
+        "name": "渺星空·辽阔",
+        "type_cn": "星系",
+        "id": "body_0039"
+      },
+      {
+        "name": "幽地火·激烈",
+        "type_cn": "超新星",
+        "id": "body_0040"
+      },
+      {
+        "name": "寂星座·希望·子",
+        "type_cn": "流浪行星",
+        "id": "body_0041"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "激烈": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "geography": 1,
+      "literature": 2,
+      "science": 2,
+      "astronomy": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-08-15",
+    "summary": "三处虚空自星海褶皱中显形：茫过滤·壮阔拓开超空洞的静默疆域，澜旷野·诡谲卷曲虫洞的谜题，弦荒原·激烈灼燃磁星的脉冲。地理与哲思共振，影像与音律互蚀，一次三体相撞惊醒世代前未竟的梦。",
+    "body_count": 3,
+    "new_bodies": [
+      {
+        "name": "茫过滤·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0042"
+      },
+      {
+        "name": "澜旷野·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0043"
+      },
+      {
+        "name": "弦荒原·激烈",
+        "type_cn": "磁星",
+        "id": "body_0044"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "geography": 2,
+      "philosophy": 1,
+      "cinema": 1,
+      "music": 1,
+      "science": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 1
+  }
+]

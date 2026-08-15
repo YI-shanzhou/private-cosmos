@@ -8,7 +8,7 @@
         "孤寂",
         "苍凉"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古典",
       "theme": "月夜",
       "intensity": 3,
@@ -23,7 +23,7 @@
       "moods": [
         "宁静"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古典",
       "theme": "柔情",
       "intensity": 1,
@@ -39,7 +39,7 @@
         "宁静",
         "壮阔"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "巴洛克",
       "theme": "崇高",
       "intensity": 3,
@@ -55,7 +55,7 @@
         "激越",
         "诡谲"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "幻象",
       "intensity": 4,
@@ -71,7 +71,7 @@
         "苍凉",
         "壮阔"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "悲剧",
       "intensity": 4,
@@ -87,7 +87,7 @@
         "激烈",
         "诡谲"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "现代",
       "theme": "原始",
       "intensity": 5,
@@ -103,7 +103,7 @@
         "宁静",
         "辽阔"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "印象",
       "theme": "夜空",
       "intensity": 3,
@@ -118,7 +118,7 @@
       "moods": [
         "宁静"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "巴洛克",
       "theme": "秩序",
       "intensity": 1,
@@ -134,7 +134,7 @@
         "壮阔",
         "激越"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古典",
       "theme": "崇高",
       "intensity": 4,
@@ -150,7 +150,7 @@
         "孤寂",
         "苍凉"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "民谣",
       "theme": "旷野",
       "intensity": 3,
@@ -166,7 +166,7 @@
         "苍凉",
         "希望"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古典",
       "theme": "悲悯",
       "intensity": 3,
@@ -182,7 +182,7 @@
         "宁静",
         "孤寂"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "夜色",
       "intensity": 2,
@@ -198,7 +198,7 @@
         "壮阔",
         "辽阔"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "印象",
       "theme": "海浪",
       "intensity": 4,
@@ -214,7 +214,7 @@
         "诡谲",
         "宁静"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "印象",
       "theme": "幻梦",
       "intensity": 3,
@@ -230,7 +230,7 @@
         "激烈",
         "壮阔"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古典",
       "theme": "命运",
       "intensity": 5,
@@ -246,7 +246,7 @@
         "苍凉",
         "激越"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "叙事",
       "intensity": 4,
@@ -262,7 +262,7 @@
         "宁静",
         "神秘"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "巴洛克",
       "theme": "沉思",
       "intensity": 3,
@@ -278,7 +278,7 @@
         "壮阔",
         "神秘"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "超人",
       "intensity": 4,
@@ -294,7 +294,7 @@
         "壮阔",
         "希望"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "现代",
       "theme": "行星",
       "intensity": 4,
@@ -310,7 +310,7 @@
         "激越",
         "希望"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "歌剧",
       "theme": "渴望",
       "intensity": 4,
@@ -326,7 +326,7 @@
         "激烈",
         "苍凉"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "巴洛克",
       "theme": "寒冬",
       "intensity": 5,
@@ -342,7 +342,7 @@
         "苍凉",
         "希望"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "告别",
       "intensity": 3,
@@ -358,7 +358,7 @@
         "壮阔",
         "苍凉"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "浪漫",
       "theme": "重生",
       "intensity": 4,
@@ -374,7 +374,7 @@
         "辽阔",
         "宁静"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古琴",
       "theme": "知音",
       "intensity": 3,
@@ -390,7 +390,7 @@
         "激烈",
         "诡谲"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "琵琶",
       "theme": "战场",
       "intensity": 5,
@@ -406,7 +406,7 @@
         "孤寂",
         "苍凉"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "二胡",
       "theme": "月下",
       "intensity": 3,
@@ -422,7 +422,7 @@
         "宁静",
         "孤寂"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "古琴",
       "theme": "傲骨",
       "intensity": 2,
@@ -438,7 +438,7 @@
         "诡谲",
         "激烈"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "民族",
       "theme": "巫夜",
       "intensity": 5,
@@ -454,7 +454,7 @@
         "宁静",
         "希望"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "巴洛克",
       "theme": "永恒",
       "intensity": 2,
@@ -470,7 +470,7 @@
         "孤寂",
         "神秘"
       ],
-      "domain": "art",
+      "domain": "music",
       "genre": "极简",
       "theme": "幽暗",
       "intensity": 3,
