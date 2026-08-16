@@ -2817,5 +2817,110 @@
       "size": 0.34,
       "luminosity": 0.35
     }
+  },
+  {
+    "id": "body_0062",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "墟知音·宁静",
+    "epoch": 62,
+    "born_at": "2026-08-16T18:26:09",
+    "collision_text": "琴弦上滑落七八颗星，山前两三点雨，天地静默如知音低语",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "mus_24",
+      "lit_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "高山流水",
+        "source": "古曲"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "七八个星天外，两三点雨山前",
+        "source": "辛弃疾《西江月》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "辽阔",
+        "孤寂"
+      ],
+      "themes": [
+        "知音",
+        "星空"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古典",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.35,
+      "luminosity": 0.53
+    }
+  },
+  {
+    "id": "body_0063",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "辉密码·诡谲",
+    "epoch": 63,
+    "born_at": "2026-08-16T18:26:19",
+    "collision_text": "地幔在碱基对中翻涌，每次喷发都是一段沉默的遗传密码，等待六十四万年破译",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_14",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "密码",
+        "地火"
+      ],
+      "domains": [
+        "science",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.9,
+      "luminosity": 0.31
+    }
   }
 ]

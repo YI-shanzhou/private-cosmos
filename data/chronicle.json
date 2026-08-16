@@ -425,5 +425,19 @@
     "event": "genesis",
     "body_id": "body_0061",
     "summary": "第61纪元：myth×astronomy碰撞，诞生超空洞「尘牺牲·壮阔」"
+  },
+  {
+    "epoch": 62,
+    "timestamp": "2026-08-16T18:26:09",
+    "event": "genesis",
+    "body_id": "body_0062",
+    "summary": "第62纪元：music×literature碰撞，诞生卫星「墟知音·宁静」"
+  },
+  {
+    "epoch": 63,
+    "timestamp": "2026-08-16T18:26:19",
+    "event": "genesis",
+    "body_id": "body_0063",
+    "summary": "第63纪元：science×geography碰撞，诞生黑洞「辉密码·诡谲」"
   }
 ]

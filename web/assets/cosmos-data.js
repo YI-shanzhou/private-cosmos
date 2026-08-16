@@ -2818,6 +2818,111 @@ window.COSMOS_DATA = [
       "size": 0.34,
       "luminosity": 0.35
     }
+  },
+  {
+    "id": "body_0062",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "墟知音·宁静",
+    "epoch": 62,
+    "born_at": "2026-08-16T18:26:09",
+    "collision_text": "琴弦上滑落七八颗星，山前两三点雨，天地静默如知音低语",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "mus_24",
+      "lit_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "高山流水",
+        "source": "古曲"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "七八个星天外，两三点雨山前",
+        "source": "辛弃疾《西江月》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "辽阔",
+        "孤寂"
+      ],
+      "themes": [
+        "知音",
+        "星空"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古典",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.35,
+      "luminosity": 0.53
+    }
+  },
+  {
+    "id": "body_0063",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "辉密码·诡谲",
+    "epoch": 63,
+    "born_at": "2026-08-16T18:26:19",
+    "collision_text": "地幔在碱基对中翻涌，每次喷发都是一段沉默的遗传密码，等待六十四万年破译",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_14",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "密码",
+        "地火"
+      ],
+      "domains": [
+        "science",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.9,
+      "luminosity": 0.31
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3247,6 +3352,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0061",
     "summary": "第61纪元：myth×astronomy碰撞，诞生超空洞「尘牺牲·壮阔」"
+  },
+  {
+    "epoch": 62,
+    "timestamp": "2026-08-16T18:26:09",
+    "event": "genesis",
+    "body_id": "body_0062",
+    "summary": "第62纪元：music×literature碰撞，诞生卫星「墟知音·宁静」"
+  },
+  {
+    "epoch": 63,
+    "timestamp": "2026-08-16T18:26:19",
+    "event": "genesis",
+    "body_id": "body_0063",
+    "summary": "第63纪元：science×geography碰撞，诞生黑洞「辉密码·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -3951,6 +4070,39 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-28T19:20:27.040074"
   },
   {
+    "date": "2022-12-14",
+    "title": "Lunar Dust and Duct Tape",
+    "url": "https://apod.nasa.gov/apod/image/2212/AS17-137-20979.jpg",
+    "local_path": "assets/apod/apod_2022-12-14.jpg",
+    "explanation": "Why is the Moon so dusty? On Earth, rocks are weathered by wind and water, creating soil and sand. On the Moon, the history of constant micrometeorite bombardment has blasted away at the rocky surface creating a layer of powdery lunar soil or regolith.  For the Apollo astronauts and their equipment, the pervasive, fine, gritty dust was definitely a problem. Fifty years ago, on the lunar surface in December 1972, Apollo 17 astronauts Harrison Schmitt and Eugene Cernan needed to repair one of thei",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#505050",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "meteor",
+          "cn": "流星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-16T18:26:04.094674"
+  },
+  {
     "date": "2024-04-29",
     "title": "Comet, Planet, Moon",
     "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
@@ -4151,40 +4303,56 @@ window.DAILY_REPORTS = [
   },
   {
     "date": "2026-08-16",
-    "summary": "今日，超空洞「尘牺牲·壮阔」于虚无中睁眼——天文与神话在真空里交媾，一个无星的祭坛隆起。壮阔是它的呼吸，吞没光，也吞没遗忘。宇宙为此静默了一瞬。",
-    "body_count": 1,
+    "summary": "今日宇宙又长大了——2颗新天体在science、music、literature、geography领域的碰撞中诞生。卫星、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
+    "body_count": 3,
     "new_bodies": [
       {
         "name": "尘牺牲·壮阔",
         "type_cn": "超空洞",
         "id": "body_0061"
+      },
+      {
+        "name": "墟知音·宁静",
+        "type_cn": "卫星",
+        "id": "body_0062"
+      },
+      {
+        "name": "辉密码·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0063"
       }
     ],
     "mood_distribution": {
-      "壮阔": 1
+      "壮阔": 1,
+      "宁静": 1,
+      "诡谲": 1
     },
     "domain_distribution": {
       "astronomy": 1,
-      "myth": 1
+      "myth": 1,
+      "science": 1,
+      "music": 1,
+      "literature": 1,
+      "geography": 1
     },
     "lineage_count": 0,
     "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 61,
-  "chronicle_entries": 61,
+  "total_bodies": 63,
+  "chronicle_entries": 63,
   "daily_report_count": 4,
   "type_distribution": {
     "白矮星": 9,
     "星云": 7,
     "流浪行星": 7,
-    "卫星": 5,
+    "卫星": 6,
+    "黑洞": 5,
     "星系": 4,
     "暗物质": 4,
     "行星": 4,
     "超新星": 4,
-    "黑洞": 4,
     "尘埃云": 3,
     "彗星": 3,
     "脉冲星": 2,
@@ -4194,28 +4362,29 @@ window.COSMOS_STATS = {
     "遗迹": 1
   },
   "mood_distribution": {
-    "宁静": 29,
+    "宁静": 30,
     "苍凉": 26,
-    "壮阔": 24,
-    "诡谲": 21,
-    "孤寂": 20,
-    "激烈": 18,
+    "壮阔": 25,
+    "诡谲": 22,
+    "孤寂": 21,
+    "激烈": 19,
     "未知": 15,
     "激越": 8,
-    "辽阔": 7,
+    "辽阔": 8,
+    "神秘": 2,
     "希望": 1,
-    "热闹": 1,
-    "神秘": 1
+    "热闹": 1
   },
   "domain_distribution": {
-    "literature": 30,
+    "literature": 31,
     "art": 29,
     "philosophy": 24,
     "myth": 21,
     "astronomy": 16,
-    "history": 1,
-    "music": 1,
-    "science": 1
+    "music": 2,
+    "science": 2,
+    "geography": 1,
+    "history": 1
   },
   "generation": {
     "max_generation": 0,

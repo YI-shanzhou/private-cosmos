@@ -128,21 +128,37 @@
   },
   {
     "date": "2026-08-16",
-    "summary": "今日，超空洞「尘牺牲·壮阔」于虚无中睁眼——天文与神话在真空里交媾，一个无星的祭坛隆起。壮阔是它的呼吸，吞没光，也吞没遗忘。宇宙为此静默了一瞬。",
-    "body_count": 1,
+    "summary": "今日宇宙又长大了——2颗新天体在science、music、literature、geography领域的碰撞中诞生。卫星、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
+    "body_count": 3,
     "new_bodies": [
       {
         "name": "尘牺牲·壮阔",
         "type_cn": "超空洞",
         "id": "body_0061"
+      },
+      {
+        "name": "墟知音·宁静",
+        "type_cn": "卫星",
+        "id": "body_0062"
+      },
+      {
+        "name": "辉密码·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0063"
       }
     ],
     "mood_distribution": {
-      "壮阔": 1
+      "壮阔": 1,
+      "宁静": 1,
+      "诡谲": 1
     },
     "domain_distribution": {
       "astronomy": 1,
-      "myth": 1
+      "myth": 1,
+      "science": 1,
+      "music": 1,
+      "literature": 1,
+      "geography": 1
     },
     "lineage_count": 0,
     "triple_count": 0
