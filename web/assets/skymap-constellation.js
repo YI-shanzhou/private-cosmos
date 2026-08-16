@@ -1,3 +1,7 @@
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 /**
  * skymap-constellation.js — 星座连线模块（Day 5 · 5.1）
  *
@@ -176,3 +180,5 @@
   console.log('[skymap-constellation] 星座连线就绪：候选边截取 ' + lines.length +
     ' 条（父素材 ' + parentEdgeCount + ' / 主导情绪 ' + moodEdgeCount + '，上限 ' + MAX_EDGES + '）');
 })();
+
+} // V4-M5-B：fatal 态守卫结束

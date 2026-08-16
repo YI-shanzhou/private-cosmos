@@ -1,3 +1,7 @@
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 /**
  * skymap-personal.js — 个人星图模块（Day 5 · 5.2）
  *
@@ -287,3 +291,5 @@
   console.log('[skymap-personal] 个人星图就绪' +
     (initialSeed != null ? '：检测到分享种子 ' + initialSeed + '，已还原' : ''));
 })();
+
+} // V4-M5-B：fatal 态守卫结束

@@ -12,6 +12,10 @@
  */
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 
 const SkyMap = window.SkyMap;
 
@@ -21,6 +25,35 @@ controls.enableDamping = true;       // 阻尼惯性
 controls.dampingFactor = 0.08;
 controls.autoRotate = true;          // 自动旋转默认开启
 controls.autoRotateSpeed = 0.5;      // 速度 0.5（验收标准）
+
+// ---- V4-M5-C：设置 localStorage 持久化（FR-08 后半，Q5 定案最小集：开关+速度）----
+// localStorage 不可用（隐私模式/被禁）时 try/catch 降级内存态，功能不阻断
+const SETTINGS_KEY = 'pc.settings.v1';
+const ROTATE_SPEEDS = [0.25, 0.5, 1.0, 2.0];
+
+function loadSettings() {
+  try {
+    const raw = localStorage.getItem(SETTINGS_KEY);
+    if (!raw) return {};
+    const s = JSON.parse(raw);
+    return (s && typeof s === 'object') ? s : {};
+  } catch (e) {
+    console.warn('[skymap-controls] localStorage 读取失败（隐私模式?），降级本次会话内存态：', e && e.message);
+    return {};
+  }
+}
+
+function saveSettings(patch) {
+  try {
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify({ ...loadSettings(), ...patch }));
+  } catch (e) {
+    console.warn('[skymap-controls] localStorage 写入失败（隐私模式?），设置仅本次会话生效：', e && e.message);
+  }
+}
+
+const _saved = loadSettings();
+if (typeof _saved.autoRotate === 'boolean') controls.autoRotate = _saved.autoRotate;
+if (ROTATE_SPEEDS.includes(_saved.autoRotateSpeed)) controls.autoRotateSpeed = _saved.autoRotateSpeed;
 controls.minDistance = 8;
 controls.maxDistance = 160;
 SkyMap.controls = controls;
@@ -135,20 +168,22 @@ function buildHUD() {
     return b;
   };
 
-  // 自动旋转开关（默认开）
-  const rotBtn = mkBtn('自动旋转：开', () => {
+  // 自动旋转开关（默认开；V4-M5-C：初始文案反映持久化值，点击即持久化）
+  const rotBtn = mkBtn('自动旋转：' + (controls.autoRotate ? '开' : '关'), () => {
     controls.autoRotate = !controls.autoRotate;
     rotBtn.textContent = '自动旋转：' + (controls.autoRotate ? '开' : '关');
+    saveSettings({ autoRotate: controls.autoRotate }); // V4-M5-C
     SkyMap.invalidate('autorotate-toggle:' + (controls.autoRotate ? 'on' : 'off')); // V4-M4-B：开关联动调度器
   });
 
-  // 速度调节：0.25 / 0.5 / 1 / 2 循环
-  const speeds = [0.25, 0.5, 1.0, 2.0];
-  let si = 1; // 默认 0.5
-  const spdBtn = mkBtn('速度：0.5', () => {
+  // 速度调节：0.25 / 0.5 / 1 / 2 循环（V4-M5-C：初始档位对齐持久化速度，点击即持久化）
+  const speeds = ROTATE_SPEEDS;
+  let si = Math.max(0, speeds.indexOf(controls.autoRotateSpeed)); // 对齐持久化速度
+  const spdBtn = mkBtn('速度：' + speeds[si], () => {
     si = (si + 1) % speeds.length;
     controls.autoRotateSpeed = speeds[si];
     spdBtn.textContent = '速度：' + speeds[si];
+    saveSettings({ autoRotateSpeed: speeds[si] }); // V4-M5-C
     SkyMap.invalidate('speed-toggle'); // V4-M4-B
   });
 
@@ -167,3 +202,5 @@ console.log(
   '[skymap-controls] 交互控制就绪：autoRotate=' + controls.autoRotate +
   ', speed=' + controls.autoRotateSpeed,
 );
+
+} // V4-M5-B：fatal 态守卫结束

@@ -1,3 +1,7 @@
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 /**
  * charts.js — 统计面板模块（Day 3 · 3.2）
  *
@@ -155,3 +159,5 @@
     '种 / 情绪' + Object.keys(stats.mood_distribution).length +
     '种 / 领域' + Object.keys(stats.domain_distribution).length + '个');
 })();
+
+} // V4-M5-B：fatal 态守卫结束

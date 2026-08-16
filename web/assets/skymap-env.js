@@ -1,4 +1,4 @@
-﻿/**
+/**
  * skymap-env.js - 环境模块（V4 · M1）
  *
  * 职责（S1 计划 1.2/1.3/3.1 节落地）：
@@ -11,6 +11,10 @@
  * skymap-bodies.js 之前（bodies/M3 读 SkyMap.theme，晚于本模块挂载即安全）。
  */
 import * as THREE from 'three';
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 
 const SkyMap = window.SkyMap;
 
@@ -222,3 +226,5 @@ buildStarfield(SkyMap.theme.stars);
 SkyMap.setTheme = setTheme;
 if (typeof SkyMap.applyBloomTheme === 'function') SkyMap.applyBloomTheme(SkyMap.theme.bloom); // V4-M3：bloom 参数依主题校准（core init 时 theme 未挂载，此处延迟生效）
 console.log('[skymap-env] 环境初始化完成：theme=' + SkyMap.theme.name + ' sky=' + SkyMap.theme.sky.background + ' stars=' + SkyMap.theme.stars.count);
+
+} // V4-M5-B：fatal 态守卫结束

@@ -1,3 +1,7 @@
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 /**
  * skymap-search.js — 搜索筛选模块（Day 4 · 4.2）
  *
@@ -142,3 +146,5 @@
 
   console.log('[skymap-search] 搜索筛选就绪：领域9 / 类型' + TYPES.length + ' / 情绪' + MOODS.length);
 })();
+
+} // V4-M5-B：fatal 态守卫结束

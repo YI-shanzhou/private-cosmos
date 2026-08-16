@@ -424,4 +424,77 @@ SkyMap.getBodyById = function (id) {
   return data.find((b) => b.id === id) || null;
 };
 
+/* ================= V4-M5-B：数据加载校验 + 友好错误页（FR-08 前半） =================
+ * 宽进严出口径（S1 M5-B）：仅阻断"完全不可渲染"态——非数组/空数组/首元素无有效 id；
+ * 其余 4 个附属全局（CHRONICLE/APOD/DAILY_REPORTS/COSMOS_STATS）仅存在性警告不阻断。
+ * 失败路径：#app 内渲染纯 DOM 错误界面（零素材）+ 顶层 await 挂起本模块求值——
+ * ESM 按文档序求值，后续 skymap-* 模块（依赖 camera/renderer）不会执行，
+ * 从而满足"控制台无未捕获异常"（白盒验收口径，US-05 友好提示而非白屏）。 */
+function validateCosmosData() {
+  const problems = [];
+  if (typeof COSMOS_DATA === 'undefined' || COSMOS_DATA === null) {
+    problems.push('COSMOS_DATA 未定义（cosmos-data.js 未加载或已损坏）');
+  } else if (!Array.isArray(COSMOS_DATA)) {
+    problems.push('COSMOS_DATA 不是数组（实际类型：' + typeof COSMOS_DATA + '）');
+  } else if (COSMOS_DATA.length === 0) {
+    problems.push('COSMOS_DATA 为空数组（宇宙中没有天体）');
+  } else if (!COSMOS_DATA[0] || typeof COSMOS_DATA[0].id !== 'string' || !COSMOS_DATA[0].id) {
+    problems.push('首元素缺少有效的 id 字段（抽样校验失败，数据结构不完整）');
+  }
+  // 附属全局：仅存在性警告，不阻断渲染
+  ['CHRONICLE_DATA', 'APOD_DATA', 'DAILY_REPORTS', 'COSMOS_STATS'].forEach((k) => {
+    if (typeof window[k] === 'undefined') {
+      console.warn('[skymap-core] 警告：' + k + ' 未定义（附属功能可能退化，不阻断渲染）');
+    }
+  });
+  return problems;
+}
+
+function renderDataErrorPage(problems) {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+  const box = document.createElement('div');
+  box.style.cssText = [
+    'position:fixed', 'inset:0', 'display:flex', 'flex-direction:column',
+    'align-items:center', 'justify-content:center', 'gap:16px',
+    'background:#050505', 'color:#9a9a9a', 'font-family:system-ui,sans-serif',
+    'padding:32px', 'text-align:center', 'z-index:2147483646',
+  ].join(';');
+  const title = document.createElement('h1');
+  title.textContent = '宇宙数据暂时无法加载';
+  title.style.cssText = 'font-size:20px;font-weight:400;color:#e0e0e0;margin:0';
+  const desc = document.createElement('p');
+  desc.textContent = '星图依赖的天体数据缺失或已损坏，为避免白屏已停止渲染。请检查网络后刷新重试；若反复出现，请在 DevTools > Application > Service Workers 中 Unregister 后重试。';
+  desc.style.cssText = 'font-size:13px;line-height:1.8;max-width:520px;margin:0';
+  const detail = document.createElement('pre');
+  detail.textContent = problems.map((p2, i) => (i + 1) + '. ' + p2).join('\n');
+  detail.style.cssText = [
+    'font-size:12px', 'color:#6f6f6f', 'background:#0d0d0d', 'border:1px solid #222',
+    'border-radius:6px', 'padding:12px 16px', 'margin:0', 'max-width:560px',
+    'overflow:auto', 'text-align:left', 'white-space:pre-wrap',
+  ].join(';');
+  const btn = document.createElement('button');
+  btn.textContent = '刷新重试';
+  btn.style.cssText = [
+    'font-size:13px', 'color:#d0d0d0', 'background:#161616', 'border:1px solid #333',
+    'border-radius:6px', 'padding:8px 24px', 'cursor:pointer', 'margin-top:8px',
+  ].join(';');
+  btn.addEventListener('click', () => location.reload());
+  box.append(title, desc, detail, btn);
+  app.appendChild(box);
+  // fatal 态隐藏星图 HUD（数据已坏，星图控件无意义）
+  const hud = document.getElementById('hud');
+  if (hud) hud.style.display = 'none';
+}
+
+const _dataProblems = validateCosmosData();
+if (_dataProblems.length) {
+  console.error('[skymap-core] 数据校验失败（M5-B 守卫），已阻止场景初始化：', _dataProblems);
+  SkyMap.fatal = true; // 供全局兜底识别 fatal 态（见 index.html：抑制默认 Uncaught 输出）
+  renderDataErrorPage(_dataProblems);
+  // 挂起本模块求值：标准浏览器下后续 skymap-* 模块不再执行；
+  // 非标环境（实测本 webview 未阻塞兄弟模块）由 fatal 态 + 全局兜底归拢崩溃日志
+  await new Promise(() => {});
+}
+
 init();

@@ -9,26 +9,26 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260816.M4'; // V4-M4：按需渲染调度（三态机+invalidate）+ 自适应画质（三档升降） // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
+const CACHE_VERSION = 'pc-v20260816.M5d'; // V4-M5c: M5b基础上补登5张apod图+移除孤儿2004-01-15; M5b: fatal测试期间M5预缓存被污染(缓存了COSMOS_DATA=null版), bump触发全量重装+activate清旧缓存 // V4-M4：按需渲染调度（三态机+invalidate）+ 自适应画质（三档升降） // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [
   './',
   './index.html',
   './manifest.json',
-  './css/base.css',
+  './css/base.css?v=20260816M5',
   // 业务模块
-  './assets/cosmos-data.js',
-  './assets/skymap-core.js',
-  './assets/skymap-env.js',
-  './assets/skymap-bodies.js',
-  './assets/skymap-controls.js',
-  './assets/skymap-panel.js',
-  './assets/charts.js',
-  './assets/skymap-timeline.js',
-  './assets/skymap-search.js',
-  './assets/skymap-constellation.js',
-  './assets/skymap-personal.js',
+  './assets/cosmos-data.js?v=20260816M5',
+  './assets/skymap-core.js?v=20260816M5',
+  './assets/skymap-env.js?v=20260816M5',
+  './assets/skymap-bodies.js?v=20260816M5',
+  './assets/skymap-controls.js?v=20260816M5',
+  './assets/skymap-panel.js?v=20260816M5',
+  './assets/charts.js?v=20260816M5',
+  './assets/skymap-timeline.js?v=20260816M5',
+  './assets/skymap-search.js?v=20260816M5',
+  './assets/skymap-constellation.js?v=20260816M5',
+  './assets/skymap-personal.js?v=20260816M5',
   // three 本地化
   './_shared/js/three/three.module.js',
   './_shared/js/three/addons/controls/OrbitControls.js',
@@ -45,7 +45,7 @@ const PRECACHE_URLS = [
   './_shared/js/three/addons/shaders/LuminosityHighPassShader.js',
   './_shared/js/three/addons/shaders/OutputShader.js',
   // echarts
-  './_shared/js/echarts.min.js',
+  './_shared/js/echarts.min.js?v=20260816M5',
   // 字体（5）
   './_shared/fonts/JetBrainsMono-Regular.ttf',
   './_shared/fonts/InstrumentSans-Regular.ttf',
@@ -55,13 +55,29 @@ const PRECACHE_URLS = [
   // 图标
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
-  // apod 图片（6）
+  // apod 图片（10，M5c 修补：与 data/apod.json local_path 实存清单一致；2004-01-15 已被数据淘汰移除，新补 5 张登记）
+  // apod 图片（21，M5d：O1 采纳——仓库根 assets/apod 历史全量图校验后补入 web，FR-09 完全关闭）
   './assets/apod/apod_1997-01-09.jpg',
   './assets/apod/apod_1997-07-04.jpg',
-  './assets/apod/apod_2004-01-15.jpg',
+  './assets/apod/apod_2000-07-21.jpg',
+  './assets/apod/apod_2001-01-19.jpg',
+  './assets/apod/apod_2001-09-29.jpg',
+  './assets/apod/apod_2004-02-20.jpg',
+  './assets/apod/apod_2004-05-28.jpg',
+  './assets/apod/apod_2005-02-03.jpg',
   './assets/apod/apod_2008-05-09.jpg',
+  './assets/apod/apod_2009-01-05.jpg',
+  './assets/apod/apod_2011-01-03.jpg',
+  './assets/apod/apod_2012-06-16.jpg',
+  './assets/apod/apod_2013-03-10.jpg',
+  './assets/apod/apod_2015-09-14.jpg',
+  './assets/apod/apod_2015-10-12.jpg',
   './assets/apod/apod_2018-02-21.jpg',
+  './assets/apod/apod_2020-10-30.jpg',
   './assets/apod/apod_2022-07-20.jpg',
+  './assets/apod/apod_2022-11-14.jpg',
+  './assets/apod/apod_2024-04-29.jpg',
+  './assets/apod/apod_2026-01-17.jpg',
 ];
 
 self.addEventListener('install', (event) => {

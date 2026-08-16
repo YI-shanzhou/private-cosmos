@@ -18,6 +18,10 @@
  */
 import * as THREE from 'three';
 import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 
 const SkyMap = window.SkyMap;
 
@@ -174,7 +178,7 @@ function buildBodies(bodiesData) {
 
 /* ---------- material.opacity <-> uniforms.uOpacity 每帧同步 ----------
  * 既有淡化链路（_setBodyFade / filterBodies / timeline fadeIn）直接写 material.opacity，
- * ShaderMaterial 不自动消费该属性，此处每帧桥接（58 次浮点赋值，开销可忽略；M4 挂起时冻结无碍）。 */
+ * ShaderMaterial 不自动消费该属性，此处每帧桥接（每天体 1 次浮点赋值，开销可忽略；M4 挂起时冻结无碍）。 */
 SkyMap.updateHooks.push(() => {
   for (const m of SkyMap.bodyMeshes) {
     const u = m.material.uniforms;
@@ -239,3 +243,4 @@ console.log('[skymap-bodies] 天体渲染完成（V4-M2 Shader材质+共享几�
       lo.visible = full || i < 20; // 远视角只保留前 20 个（早期纪元）
     });
   });
+} // V4-M5-B：fatal 态守卫结束

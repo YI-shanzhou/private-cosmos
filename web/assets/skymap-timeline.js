@@ -1,3 +1,7 @@
+// V4-M5-B：fatal 态守卫——数据校验失败时本模块整体跳过（防 null 链式崩溃与控制台噪音）
+if (window.SkyMap && window.SkyMap.fatal) {
+  console.warn('[skymap] fatal 态，跳过模块：' + (import.meta.url || '').split('/').pop());
+} else {
 /**
  * skymap-timeline.js — 时间轴回放模块（Day 4 · 4.1）
  *
@@ -146,3 +150,5 @@
   applyValue(MAX);
   console.log('[skymap-timeline] 时间轴就绪：maxEpoch=' + MAX);
 })();
+
+} // V4-M5-B：fatal 态守卫结束
