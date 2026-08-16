@@ -160,8 +160,11 @@ SkyMap.filterBodies = function (filters = {}) {
 SkyMap.highlightBody = function (id) {
   const m = (SkyMap.bodyMeshes || []).find((x) => x.userData.bodyId === id);
   if (!m || !m.visible) return null;
-  m.scale.setScalar(1.35);
-  m.material.emissiveIntensity = 1.6;
+  const base = m.userData.baseScale || 1;      // V4-M2：共享几何后基准 scale = visual.size
+  m.scale.setScalar(base * 1.35);
+  if (m.material.uniforms && m.material.uniforms.uHighlight) {
+    m.material.uniforms.uHighlight.value = 1; // V4-M2：ShaderMaterial 高亮（原 emissiveIntensity=1.6）
+  }
   return m;
 };
 

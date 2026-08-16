@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260816.050533Z'; // V4-M1 含skymap-env.js 预缓存
+const CACHE_VERSION = 'pc-v20260816.M2a'; // V4-M2：天体Shader材质+共享几何
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [

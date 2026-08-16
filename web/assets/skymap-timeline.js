@@ -77,10 +77,10 @@
       const k = Math.min(1, a.t);
       a.mesh.material.transparent = true;
       a.mesh.material.opacity = k;
-      a.mesh.scale.setScalar(0.25 + 0.75 * k);
+      a.mesh.scale.setScalar((a.mesh.userData.baseScale || 1) * (0.25 + 0.75 * k)); // V4-M2：基准 scale = visual.size
       if (k >= 1) {
         a.mesh.material.opacity = 1;
-        a.mesh.scale.setScalar(1);
+        a.mesh.scale.setScalar(a.mesh.userData.baseScale || 1);
         anims.splice(i, 1);
       }
     }
@@ -88,7 +88,7 @@
   function fadeIn(mesh) {
     mesh.material.transparent = true;
     mesh.material.opacity = 0;
-    mesh.scale.setScalar(0.25);
+    mesh.scale.setScalar((mesh.userData.baseScale || 1) * 0.25); // V4-M2：基准 scale = visual.size
     anims.push({ mesh, t: 0 });
   }
 

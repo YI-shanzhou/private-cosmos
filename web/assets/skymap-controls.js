@@ -61,13 +61,15 @@ function pick(e) {
 }
 
 function highlight(mesh) {
-  mesh.scale.setScalar(1.35);
-  mesh.material.emissiveIntensity = 1.6;
+  const base = mesh.userData.baseScale || 1; // V4-M2：基准 scale = visual.size（共享几何）
+  mesh.scale.setScalar(base * 1.35);
+  if (mesh.material.uniforms && mesh.material.uniforms.uHighlight) mesh.material.uniforms.uHighlight.value = 1;
 }
 
 function unhighlight(mesh) {
-  mesh.scale.setScalar(1);
-  mesh.material.emissiveIntensity = 1;
+  const base = mesh.userData.baseScale || 1;
+  mesh.scale.setScalar(base);
+  if (mesh.material.uniforms && mesh.material.uniforms.uHighlight) mesh.material.uniforms.uHighlight.value = 0;
 }
 
 let lastHoverAt = 0;

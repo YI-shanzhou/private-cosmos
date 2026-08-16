@@ -113,7 +113,7 @@
     // 无条件恢复快照值：即使悬停期间天体被时间轴隐藏，恢复后也不残留 1.35 放大态
     hovered.restored.forEach((r) => {
       r.mesh.scale.setScalar(r.scale);
-      r.mesh.material.emissiveIntensity = r.emissive;
+      if (r.mesh.material.uniforms && r.mesh.material.uniforms.uHighlight) r.mesh.material.uniforms.uHighlight.value = r.emissive; // V4-M2：uHighlight 快照恢复
     });
     canvas.style.cursor = ''; // 解除对 controls 模块 cursor 兜底的隐式依赖
     hovered = null;
@@ -132,10 +132,11 @@
     if (hitLine) {
       const { aMesh, bMesh } = hitLine.userData;
       const restored = [aMesh, bMesh].map((mesh) => {
-        const snap = { mesh, scale: mesh.scale.x, emissive: mesh.material.emissiveIntensity };
+        const uH = mesh.material.uniforms && mesh.material.uniforms.uHighlight;
+        const snap = { mesh, scale: mesh.scale.x, emissive: uH ? uH.value : 0 };
         if (mesh.visible) {
-          mesh.scale.setScalar(1.35);
-          mesh.material.emissiveIntensity = 1.6;
+          mesh.scale.setScalar((mesh.userData.baseScale || 1) * 1.35); // V4-M2：基准 scale = visual.size
+          if (uH) uH.value = 1;
         }
         return snap;
       });
