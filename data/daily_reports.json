@@ -125,5 +125,26 @@
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-08-16",
+    "summary": "今日，超空洞「尘牺牲·壮阔」于虚无中睁眼——天文与神话在真空里交媾，一个无星的祭坛隆起。壮阔是它的呼吸，吞没光，也吞没遗忘。宇宙为此静默了一瞬。",
+    "body_count": 1,
+    "new_bodies": [
+      {
+        "name": "尘牺牲·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0061"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

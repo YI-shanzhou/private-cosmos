@@ -2766,5 +2766,56 @@
       "size": 0.37,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0061",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "尘牺牲·壮阔",
+    "epoch": 61,
+    "born_at": "2026-08-16T20:12:41",
+    "collision_text": "鹰喙啄开月球环形山，肝脏碎作星火，盗火的锁链蜿蜒成九天陨轨",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_08",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "牺牲",
+        "恒星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.34,
+      "luminosity": 0.35
+    }
   }
 ]

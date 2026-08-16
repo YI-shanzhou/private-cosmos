@@ -2767,6 +2767,57 @@ window.COSMOS_DATA = [
       "size": 0.37,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0061",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "尘牺牲·壮阔",
+    "epoch": 61,
+    "born_at": "2026-08-16T20:12:41",
+    "collision_text": "鹰喙啄开月球环形山，肝脏碎作星火，盗火的锁链蜿蜒成九天陨轨",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_08",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "普罗米修斯盗火予人，被锁于高加索山，日日被鹰啄食肝脏",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "牺牲",
+        "恒星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.34,
+      "luminosity": 0.35
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3189,6 +3240,13 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0060",
     "summary": "第60纪元：music×science碰撞，诞生白矮星「渺月下·苍凉」"
+  },
+  {
+    "epoch": 61,
+    "timestamp": "2026-08-16T20:12:41",
+    "event": "genesis",
+    "body_id": "body_0061",
+    "summary": "第61纪元：myth×astronomy碰撞，诞生超空洞「尘牺牲·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -4090,12 +4148,33 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-08-16",
+    "summary": "今日，超空洞「尘牺牲·壮阔」于虚无中睁眼——天文与神话在真空里交媾，一个无星的祭坛隆起。壮阔是它的呼吸，吞没光，也吞没遗忘。宇宙为此静默了一瞬。",
+    "body_count": 1,
+    "new_bodies": [
+      {
+        "name": "尘牺牲·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0061"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 60,
-  "chronicle_entries": 60,
-  "daily_report_count": 3,
+  "total_bodies": 61,
+  "chronicle_entries": 61,
+  "daily_report_count": 4,
   "type_distribution": {
     "白矮星": 9,
     "星云": 7,
@@ -4109,19 +4188,19 @@ window.COSMOS_STATS = {
     "尘埃云": 3,
     "彗星": 3,
     "脉冲星": 2,
+    "超空洞": 2,
     "星团": 1,
     "类星体": 1,
-    "超空洞": 1,
     "遗迹": 1
   },
   "mood_distribution": {
     "宁静": 29,
-    "苍凉": 25,
-    "壮阔": 23,
+    "苍凉": 26,
+    "壮阔": 24,
     "诡谲": 21,
     "孤寂": 20,
     "激烈": 18,
-    "未知": 14,
+    "未知": 15,
     "激越": 8,
     "辽阔": 7,
     "希望": 1,
@@ -4132,8 +4211,8 @@ window.COSMOS_STATS = {
     "literature": 30,
     "art": 29,
     "philosophy": 24,
-    "myth": 20,
-    "astronomy": 15,
+    "myth": 21,
+    "astronomy": 16,
     "history": 1,
     "music": 1,
     "science": 1

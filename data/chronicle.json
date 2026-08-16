@@ -418,5 +418,12 @@
     "event": "genesis",
     "body_id": "body_0060",
     "summary": "第60纪元：music×science碰撞，诞生白矮星「渺月下·苍凉」"
+  },
+  {
+    "epoch": 61,
+    "timestamp": "2026-08-16T20:12:41",
+    "event": "genesis",
+    "body_id": "body_0061",
+    "summary": "第61纪元：myth×astronomy碰撞，诞生超空洞「尘牺牲·壮阔」"
   }
 ]
