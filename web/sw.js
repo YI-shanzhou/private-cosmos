@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260815.182632Z';
+const CACHE_VERSION = 'pc-v20260816.050533Z'; // V4-M1 含skymap-env.js 预缓存
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [
@@ -20,6 +20,7 @@ const PRECACHE_URLS = [
   // 业务模块
   './assets/cosmos-data.js',
   './assets/skymap-core.js',
+  './assets/skymap-env.js',
   './assets/skymap-bodies.js',
   './assets/skymap-controls.js',
   './assets/skymap-panel.js',

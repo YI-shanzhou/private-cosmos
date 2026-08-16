@@ -2,7 +2,7 @@
  * skymap-core.js — 场景核心模块（Day 2 · 2.1）
  *
  * 职责：
- *  - Three.js 场景初始化（深空背景 + 800 颗粒子星空）
+ *  - Three.js 场景骨架初始化（背景色与星幕已移交 skymap-env.js，V4 · M1）
  *  - 自适应螺旋坐标公式：radius = 5 + i*(maxR-5)/(n-1)
  *  - 窗口 resize 处理
  *  - 场景状态管理（当前天体列表 / 筛选状态 / 时间轴位置）
@@ -12,7 +12,6 @@
  */
 import * as THREE from 'three';
 
-const STAR_COUNT = 800;   // 粒子星空数量（验收标准）
 const MAX_RADIUS = 30;    // 螺旋最大半径
 
 const SkyMap = (window.SkyMap = {
@@ -25,6 +24,8 @@ const SkyMap = (window.SkyMap = {
   controls: null,          // 由 skymap-controls.js 创建
   updateHooks: [],         // 每帧回调：fn(dt)
   bodyMeshes: [],          // 天体网格（由 skymap-bodies.js 填充）
+  theme: null,             // 主题挂载点（由 skymap-env.js 填充，V4 · M1）
+  env: null,               // 环境模块挂载点（starfield/themes，由 skymap-env.js 填充）
   state: {
     bodies: [],            // 当前天体列表（COSMOS_DATA 引用）
     filterState: null,     // 筛选状态（Day 4 使用）
@@ -43,37 +44,6 @@ function spiralPosition(i, n, maxR = MAX_RADIUS) {
     y,
     Math.sin(angle) * radius,
   );
-}
-
-/** 800 颗粒子星空：球壳分布（半径 60~140），带轻微色温变化 */
-function buildStarField() {
-  const geo = new THREE.BufferGeometry();
-  const pos = new Float32Array(STAR_COUNT * 3);
-  const colors = new Float32Array(STAR_COUNT * 3);
-  for (let i = 0; i < STAR_COUNT; i++) {
-    const r = 60 + Math.random() * 80;
-    const theta = Math.random() * Math.PI * 2;
-    const phi = Math.acos(2 * Math.random() - 1);
-    pos[i * 3] = r * Math.sin(phi) * Math.cos(theta);
-    pos[i * 3 + 1] = r * Math.cos(phi);
-    pos[i * 3 + 2] = r * Math.sin(phi) * Math.sin(theta);
-    const c = new THREE.Color().setHSL(
-      0.55 + Math.random() * 0.12, 0.5, 0.6 + Math.random() * 0.35,
-    );
-    colors[i * 3] = c.r;
-    colors[i * 3 + 1] = c.g;
-    colors[i * 3 + 2] = c.b;
-  }
-  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-  geo.setAttribute('color', new THREE.BufferAttribute(colors, 3));
-  const mat = new THREE.PointsMaterial({
-    size: 0.7, vertexColors: true, transparent: true,
-    opacity: 0.9, sizeAttenuation: true,
-  });
-  const points = new THREE.Points(geo, mat);
-  points.name = 'starfield';
-  SkyMap.scene.add(points);
-  return points;
 }
 
 /** 窗口 resize：相机宽高比 + 渲染器尺寸 + 标签渲染器同步 */
@@ -102,7 +72,6 @@ function startLoop() {
 function init() {
   SkyMap.container = document.getElementById('app');
   SkyMap.scene = new THREE.Scene();
-  SkyMap.scene.background = new THREE.Color(0x030014); // 深空背景
 
   SkyMap.camera = new THREE.PerspectiveCamera(
     60, SkyMap.container.clientWidth / SkyMap.container.clientHeight, 0.1, 500,
@@ -119,11 +88,10 @@ function init() {
   const sun = new THREE.PointLight(0xffffff, 300, 0, 1.2);
   SkyMap.scene.add(sun);
 
-  buildStarField();
   window.addEventListener('resize', onResize);
   onResize();
   startLoop();
-  console.log('[skymap-core] 场景初始化完成：starfield=' + STAR_COUNT);
+  console.log('[skymap-core] 场景骨架初始化完成（背景/星幕由 skymap-env.js 提供）；theme 挂载点已就绪');
 }
 
 SkyMap.spiralPosition = spiralPosition;

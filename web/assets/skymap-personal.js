@@ -140,7 +140,7 @@
     // 深空渐变背景
     const g = ctx.createLinearGradient(0, 0, W, H);
     g.addColorStop(0, '#05001c');
-    g.addColorStop(1, '#030014');
+    g.addColorStop(1, '#050505');
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, W, H);
     // 装饰星星
