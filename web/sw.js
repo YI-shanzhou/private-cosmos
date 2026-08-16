@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260816.M2a'; // V4-M2：天体Shader材质+共享几何
+const CACHE_VERSION = 'pc-v20260816.M3b'; // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [
@@ -33,6 +33,17 @@ const PRECACHE_URLS = [
   './_shared/js/three/three.module.js',
   './_shared/js/three/addons/controls/OrbitControls.js',
   './_shared/js/three/addons/renderers/CSS2DRenderer.js',
+  // V4-M3：后处理管线本地化（10 文件，three r160）
+  './_shared/js/three/addons/postprocessing/EffectComposer.js',
+  './_shared/js/three/addons/postprocessing/RenderPass.js',
+  './_shared/js/three/addons/postprocessing/ShaderPass.js',
+  './_shared/js/three/addons/postprocessing/UnrealBloomPass.js',
+  './_shared/js/three/addons/postprocessing/OutputPass.js',
+  './_shared/js/three/addons/postprocessing/MaskPass.js',
+  './_shared/js/three/addons/postprocessing/Pass.js',
+  './_shared/js/three/addons/shaders/CopyShader.js',
+  './_shared/js/three/addons/shaders/LuminosityHighPassShader.js',
+  './_shared/js/three/addons/shaders/OutputShader.js',
   // echarts
   './_shared/js/echarts.min.js',
   // 字体（5）

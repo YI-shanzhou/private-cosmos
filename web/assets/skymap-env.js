@@ -50,7 +50,7 @@ const THEME_VOID = {
     baseBrightness: 0.55, haloScale: 1.8, haloOpacityBase: 0.12,
   },
   bloom: {                                 // 辉光层（消费者 M3；M1 仅存储）
-    enabled: true, strength: 0.35, radius: 0.6, threshold: 0.85,
+    enabled: true, strength: 0.35, radius: 0.6, threshold: 0.6,
     toneMapping: 'ACESFilmic', autoDowngradeFps: 50,
   },
   quality: {                               // 画质层（消费者 M4；M1 仅存储）
@@ -197,9 +197,13 @@ function setTheme(params) {
     buildStarfield(next.stars);
   }
 
-  // body 层：M2 接入 uniforms 热切换；M1 阶段仅合并存储（材质尚未 Shader 化，无消费者）
-  // bloom 层：M3 接入 composer 分发；M1 阶段仅合并存储
-  // quality 层：M4 接入调度器阈值；M1 阶段仅合并存储
+  // body 层：M2 已接入 uniforms 热切换（skymap-bodies.js 监听 theme-changed）
+  // bloom 层：M3 已接入 composer 分发（applyBloomTheme 热切 strength/radius/threshold/toneMapping/enabled）
+  if ((JSON.stringify(next.bloom) !== JSON.stringify(prev.bloom) || (params.bloom && 'enabled' in params.bloom)) && typeof SkyMap.applyBloomTheme === 'function') {
+    // P2 修补：显式传 enabled（即使同值）也强制分发——自动降级后 setTheme({bloom:{enabled:true}}) 的重开路径依赖此分支重置降级锁
+    SkyMap.applyBloomTheme(next.bloom);
+  }
+  // quality 层：M4 接入调度器阈值；当前仅合并存储
 
   SkyMap.theme = next;
   document.dispatchEvent(new CustomEvent('theme-changed', { detail: { name: next.name } }));
@@ -212,4 +216,5 @@ SkyMap.theme = deepMerge(THEME_VOID, {});
 SkyMap.scene.background = new THREE.Color(SkyMap.theme.sky.background); // FR-01：#050505 纯黑虚空
 buildStarfield(SkyMap.theme.stars);
 SkyMap.setTheme = setTheme;
+if (typeof SkyMap.applyBloomTheme === 'function') SkyMap.applyBloomTheme(SkyMap.theme.bloom); // V4-M3：bloom 参数依主题校准（core init 时 theme 未挂载，此处延迟生效）
 console.log('[skymap-env] 环境初始化完成：theme=' + SkyMap.theme.name + ' sky=' + SkyMap.theme.sky.background + ' stars=' + SkyMap.theme.stars.count);

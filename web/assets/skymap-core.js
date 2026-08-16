@@ -11,6 +11,10 @@
  * 全局命名空间：window.SkyMap（后续模块只读写该命名空间，不重复 init）
  */
 import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 
 const MAX_RADIUS = 30;    // 螺旋最大半径
 
@@ -21,6 +25,8 @@ const SkyMap = (window.SkyMap = {
   renderer: null,
   container: null,
   labelRenderer: null,     // 由 skymap-bodies.js 创建
+  composer: null,          // V4-M3：EffectComposer（由 init 创建，env 挂载后参数依 theme 校准）
+  bloomPass: null,         // V4-M3：UnrealBloomPass（applyBloomTheme 热切换）
   controls: null,          // 由 skymap-controls.js 创建
   updateHooks: [],         // 每帧回调：fn(dt)
   bodyMeshes: [],          // 天体网格（由 skymap-bodies.js 填充）
@@ -53,6 +59,10 @@ function onResize() {
   SkyMap.camera.aspect = w / h;
   SkyMap.camera.updateProjectionMatrix();
   SkyMap.renderer.setSize(w, h);
+  if (SkyMap.composer) { // V4-M3：resize 链路同步 composer
+    SkyMap.composer.setSize(w, h);
+    SkyMap.composer.setPixelRatio(SkyMap.renderer.getPixelRatio());
+  }
   if (SkyMap.labelRenderer) SkyMap.labelRenderer.setSize(w, h);
   SkyMap.state.viewport = { width: w, height: h };
 }
@@ -64,7 +74,8 @@ function startLoop() {
     requestAnimationFrame(loop);
     const dt = SkyMap.clock.getDelta();
     for (const hook of SkyMap.updateHooks) hook(dt);
-    SkyMap.renderer.render(SkyMap.scene, SkyMap.camera);
+    if (SkyMap.composer) SkyMap.composer.render(); // V4-M3：后处理管线（CSS2D 标签层独立 DOM，不受 bloom 波及）
+    else SkyMap.renderer.render(SkyMap.scene, SkyMap.camera);
   };
   loop();
 }
@@ -82,6 +93,15 @@ function init() {
   SkyMap.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   SkyMap.renderer.setSize(SkyMap.container.clientWidth, SkyMap.container.clientHeight);
   SkyMap.container.appendChild(SkyMap.renderer.domElement);
+
+  // V4-M3：后处理管线 RenderPass -> UnrealBloomPass -> OutputPass（M3-B）
+  SkyMap.renderer.toneMapping = THREE.ACESFilmicToneMapping; // 色调映射（applyBloomTheme 依 theme.bloom.toneMapping 热切）
+  SkyMap.composer = new EffectComposer(SkyMap.renderer);
+  SkyMap.composer.addPass(new RenderPass(SkyMap.scene, SkyMap.camera));
+  const vpSize = new THREE.Vector2(SkyMap.container.clientWidth, SkyMap.container.clientHeight);
+  SkyMap.bloomPass = new UnrealBloomPass(vpSize, 0.35, 0.6, 0.85); // 占位默认；env 挂载后 applyBloomTheme(theme.bloom) 校准
+  SkyMap.composer.addPass(SkyMap.bloomPass);
+  SkyMap.composer.addPass(new OutputPass());
 
   // 灯光：环境光 + 中心点光（天体自带 emissive 自发光，灯光作补充）
   SkyMap.scene.add(new THREE.AmbientLight(0x8888aa, 0.9));
@@ -167,6 +187,45 @@ SkyMap.highlightBody = function (id) {
   }
   return m;
 };
+
+/** V4-M3：bloom 主题应用（env 初始化/setTheme 分发调用；core init 时 theme 未挂载故延迟校准）
+ *  toneMapping 字符串 -> THREE 常量；显式 setTheme 重设 bloom.enabled=true 时重置自动降级锁 */
+SkyMap.applyBloomTheme = function (bloom) {
+  if (!bloom || !SkyMap.bloomPass) return;
+  SkyMap.bloomPass.enabled = bloom.enabled !== false;
+  SkyMap.bloomPass.strength = bloom.strength;
+  SkyMap.bloomPass.radius = bloom.radius;
+  SkyMap.bloomPass.threshold = bloom.threshold;
+  const tmMap = {
+    ACESFilmic: THREE.ACESFilmicToneMapping,
+    Reinhard: THREE.ReinhardToneMapping,
+    Linear: THREE.LinearToneMapping,
+    None: THREE.NoToneMapping,
+  };
+  SkyMap.renderer.toneMapping = tmMap[bloom.toneMapping] ?? THREE.ACESFilmicToneMapping;
+  if (bloom.enabled !== false && bloomAutoOff) bloomAutoOff = false; // 显式重设即重开（分级升降归 M4）
+};
+
+/* V4-M3：低帧率自动降级（FR-04 后半简版：FPS < autoDowngradeFps 持续 3s -> 关 bloom；
+ * 不自动重开避免振荡；重开路径 = setTheme 显式重设或 M4 画质调节器分级管理） */
+let bloomAutoOff = false;
+let _lowFpsSince = 0;
+SkyMap.updateHooks.push((dt) => {
+  if (!SkyMap.bloomPass || !SkyMap.bloomPass.enabled || bloomAutoOff) { _lowFpsSince = 0; return; }
+  const th = (SkyMap.theme && SkyMap.theme.bloom) || {};
+  const fps = dt > 0 ? 1 / dt : 60;
+  if (fps < (th.autoDowngradeFps ?? 50)) {
+    if (!_lowFpsSince) _lowFpsSince = performance.now();
+    else if (performance.now() - _lowFpsSince >= 3000) {
+      SkyMap.bloomPass.enabled = false;
+      bloomAutoOff = true;
+      _lowFpsSince = 0;
+      console.warn('[skymap-core] FPS 持续低于 ' + (th.autoDowngradeFps ?? 50) + ' 达 3s，已自动关闭轻辉光（分级回升由画质调节器管理，M4）');
+    }
+  } else {
+    _lowFpsSince = 0;
+  }
+});
 
 /** 按 id 查询天体数据（Day 5 · 5.1，计划书指定接口） */
 SkyMap.getBodyById = function (id) {
