@@ -92,6 +92,7 @@
     group.visible = enabled;
     btn.textContent = enabled ? '星座连线：开' : '星座连线：关';
     if (!enabled) clearLineHover();
+    SkyMap.invalidate('constellation-toggle'); // V4-M4：连线可见性变化即需一帧
   });
   hud.appendChild(btn);
 

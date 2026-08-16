@@ -91,7 +91,7 @@ function ensureLabelRenderer() {
   lr.domElement.style.pointerEvents = 'none';
   SkyMap.container.appendChild(lr.domElement);
   SkyMap.labelRenderer = lr;
-  SkyMap.updateHooks.push(() => lr.render(SkyMap.scene, SkyMap.camera));
+  // V4-M4：CSS2D render 移交 core renderFrame 统一调用（仅渲染帧，S1 M4-A 口径）
 }
 
 /** 天体网格构建：共享单位球 + Shader 材质 + 光晕 + 标签，按螺旋坐标放置 */
@@ -215,6 +215,18 @@ SkyMap.state.bodies = data;
 ensureLabelRenderer();
 buildBodies(data);
 SkyMap.shiftHue = shiftHue;
+
+/** V4-M4-C：画质档位几何切换（level 0 -> unitSphereLo 低模球；恢复 -> unitSphereHi）
+ *  仅换 geometry 引用（材质/label/ userData 不动），返回切换的网格数 */
+SkyMap.setBodyGeometryLOD = function (low) {
+  const target = low ? unitSphereLo : unitSphereHi;
+  let changed = 0;
+  for (const m of SkyMap.bodyMeshes || []) {
+    if (m.geometry !== target) { m.geometry = target; changed++; }
+  }
+  return changed;
+};
+
 console.log('[skymap-bodies] 天体渲染完成（V4-M2 Shader材质+共享几何）：' + SkyMap.bodyMeshes.length + ' 颗');
 
   // 标签 LOD（Day 7 · 7.1）：远视角收敛标签数量，降低 DOM/渲染负担

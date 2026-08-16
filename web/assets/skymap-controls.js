@@ -26,9 +26,17 @@ controls.maxDistance = 160;
 SkyMap.controls = controls;
 SkyMap.updateHooks.push(() => controls.update());
 
-// ---- FPS 采样（0.5s 窗口） ----
-const fps = { frames: 0, elapsed: 0, value: 0 };
+// V4-M4-B：交互事件 -> invalidate（脏标记 + 重置 idle 计时）。
+// 阻尼惯性尾口径（S1 M4-B 风险条）：惯性期间 controls 持续派发 change -> idle 不断重置，
+// idleTimeout 自然从惯性稳定（最后一次 change）起算，惯性尾巴不会被挂起截断。
+controls.addEventListener('start', () => SkyMap.invalidate('controls-start'));
+controls.addEventListener('change', () => SkyMap.invalidate('controls-change'));
+
+// ---- FPS 采样（0.5s 窗口；V4-M4：仅渲染帧计入，空转帧不采样） ----
+const fps = { frames: 0, elapsed: 0, value: 0, _lastCount: -1 };
 SkyMap.updateHooks.push((dt) => {
+  if (SkyMap._renderedFrameCount === fps._lastCount) return; // 非渲染帧跳过
+  fps._lastCount = SkyMap._renderedFrameCount;
   fps.frames += 1;
   fps.elapsed += dt;
   if (fps.elapsed >= 0.5) {
@@ -83,6 +91,7 @@ function onPointerMove(e) {
   if (mesh && mesh !== hovered) highlight(mesh);
   hovered = mesh;
   canvas.style.cursor = mesh ? 'pointer' : 'grab';
+  SkyMap.invalidate('pointermove'); // V4-M4：悬停高亮/光标变化即需一帧（防挂起态"卡死假象"）
 }
 
 // 拖拽阈值：按下与抬起位移 >5px 视为旋转/平移操作，不触发点击
@@ -107,6 +116,11 @@ function onClick(e) {
 canvas.addEventListener('pointermove', onPointerMove);
 canvas.addEventListener('pointerdown', onPointerDown);
 canvas.addEventListener('click', onClick);
+// V4-M4：唤醒源挂 window/document 捕获层——dispatchEvent(document) 不下行到 canvas 子元素，
+// S1 M4-A 验收口径即 document.dispatchEvent(pointerdown)，必须在冒泡路径（window）上拦截
+window.addEventListener('pointerdown', () => SkyMap.invalidate('pointerdown'), true);
+window.addEventListener('wheel', () => SkyMap.invalidate('wheel'), { passive: true, capture: true });
+window.addEventListener('keydown', () => SkyMap.invalidate('keydown'), true); // V4-M4：键盘交互唤醒
 
 // ---- HUD：自动旋转开关 + 速度调节 + FPS 显示 ----
 function buildHUD() {
@@ -125,6 +139,7 @@ function buildHUD() {
   const rotBtn = mkBtn('自动旋转：开', () => {
     controls.autoRotate = !controls.autoRotate;
     rotBtn.textContent = '自动旋转：' + (controls.autoRotate ? '开' : '关');
+    SkyMap.invalidate('autorotate-toggle:' + (controls.autoRotate ? 'on' : 'off')); // V4-M4-B：开关联动调度器
   });
 
   // 速度调节：0.25 / 0.5 / 1 / 2 循环
@@ -134,6 +149,7 @@ function buildHUD() {
     si = (si + 1) % speeds.length;
     controls.autoRotateSpeed = speeds[si];
     spdBtn.textContent = '速度：' + speeds[si];
+    SkyMap.invalidate('speed-toggle'); // V4-M4-B
   });
 
   // FPS 实时显示

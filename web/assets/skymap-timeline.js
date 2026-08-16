@@ -82,6 +82,7 @@
         a.mesh.material.opacity = 1;
         a.mesh.scale.setScalar(a.mesh.userData.baseScale || 1);
         anims.splice(i, 1);
+        SkyMap.activeTweens = Math.max(0, SkyMap.activeTweens - 1); // V4-M4：过渡动画结束
       }
     }
   });
@@ -90,6 +91,8 @@
     mesh.material.opacity = 0;
     mesh.scale.setScalar((mesh.userData.baseScale || 1) * 0.25); // V4-M2：基准 scale = visual.size
     anims.push({ mesh, t: 0 });
+    SkyMap.activeTweens = (SkyMap.activeTweens || 0) + 1; // V4-M4：过渡动画进行中（阻止挂起）
+    SkyMap.invalidate('timeline-fadeIn');
   }
 
   // ---- 可见性更新 ----

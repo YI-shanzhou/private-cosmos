@@ -7,6 +7,8 @@
  *  - 窗口 resize 处理
  *  - 场景状态管理（当前天体列表 / 筛选状态 / 时间轴位置）
  *  - 统一渲染循环（updateHooks 供 controls / 标签渲染等注册逐帧回调）
+ *  - V4-M4：按需渲染调度器（三态 continuous/on-demand/suspended + invalidate 零延迟唤醒）
+ *    与自适应画质调节器（qualityLevel 2→0 分级升降，迟滞防振荡）
  *
  * 全局命名空间：window.SkyMap（后续模块只读写该命名空间，不重复 init）
  */
@@ -65,20 +67,111 @@ function onResize() {
   }
   if (SkyMap.labelRenderer) SkyMap.labelRenderer.setSize(w, h);
   SkyMap.state.viewport = { width: w, height: h };
+  if (SkyMap.invalidate) SkyMap.invalidate('resize'); // V4-M4：resize 即需重绘
 }
 
-/** 统一渲染循环 */
+/* ================= V4-M4：按需渲染调度器（S1 计划 2.2/M4-A 三态机） =================
+ * 三态：continuous=逐帧渲染（兼容态/动画过渡期）；on-demand=rAF 常驻、按脏标记渲染
+ *       （星幕缓旋/GPU 闪烁等持续环境动画自动保持渲染，S1 1.3/3.1 口径）；
+ *       suspended=rAF 已 cancel，画面完全冻结（含闪烁/缓旋，FR-05"挂起"语义）。
+ * 挂起条件：无交互 idle >= theme.quality.idleTimeoutMs 且 autoRotate 关闭且无过渡动画（fade/tween）。
+ * 唤醒：任一 invalidate（pointerdown/wheel/keydown/resize/controls change/...）下一帧即渲染（零延迟）。 */
+
+const SCHED = {
+  mode: 'on-demand',          // 启动即按需态（缓旋常驻 -> 实际逐帧渲染，与旧版观感一致）
+  dirty: true,
+  idleMs: 0,
+  qualityLevel: 2,            // M4-C：2=全画质 -> 0=最低档
+  get bloomEnabled() { return !!(SkyMap.bloomPass && SkyMap.bloomPass.enabled); },
+};
+SkyMap.renderScheduler = SCHED;
+SkyMap._renderedFrameCount = 0;   // 渲染帧计数（FPS 采样仅计渲染帧，防 on-demand 空转虚高）
+SkyMap.activeTweens = 0;          // 过渡动画计数（timeline fadeIn 注册/注销，挂起判定消费）
+
+let _rafId = 0;
+let _rafRunning = false;
+let _lastActivityAt = performance.now();
+let _qCfg = { pixelRatioCap: 2, adaptive: true, fpsLow: 50, fpsHigh: 58, idleTimeoutMs: 10000 };
+
+/** 环境持续动画源：星幕（缓旋+GPU 闪烁）在 on-demand 态保持渲染，仅 suspended 冻结 */
+function envAnimating() {
+  return !!(SkyMap.env && SkyMap.env.starfield);
+}
+
+/** 本帧是否需要渲染：脏标记 / autoRotate / 过渡动画 / 环境缓旋任一命中即渲 */
+function needRender() {
+  return SCHED.mode === 'continuous'
+    || SCHED.dirty
+    || !!(SkyMap.controls && SkyMap.controls.autoRotate)
+    || SkyMap.activeTweens > 0
+    || envAnimating();
+}
+
+/** 统一渲染帧：WebGL（composer 优先）+ CSS2D 标签层（S1 M4-A：CSS2D 仅渲染帧调用） */
+function renderFrame() {
+  if (SkyMap.composer) SkyMap.composer.render();
+  else SkyMap.renderer.render(SkyMap.scene, SkyMap.camera);
+  if (SkyMap.labelRenderer) SkyMap.labelRenderer.render(SkyMap.scene, SkyMap.camera);
+  SkyMap._renderedFrameCount++;
+}
+
+/** 挂起：cancel rAF（GPU 归零，NFR-03）；dirty 置真保证唤醒首帧必渲 */
+function suspendLoop() {
+  if (_rafRunning) cancelAnimationFrame(_rafId);
+  _rafRunning = false;
+  SCHED.mode = 'suspended';
+  SCHED.dirty = true;
+  console.log('[skymap-core] 调度器挂起：静止 ' + _qCfg.idleTimeoutMs + 'ms（autoRotate 关/无过渡动画），rAF 已取消');
+}
+
+function loop() {
+  _rafId = requestAnimationFrame(loop);
+  const dt = Math.min(SkyMap.clock.getDelta(), 0.25); // 钳制：防挂起唤醒/标签页切回的巨帧 dt
+  for (const hook of SkyMap.updateHooks) hook(dt);
+  if (needRender()) {
+    renderFrame();
+    SCHED.dirty = false;
+  }
+  if (SCHED.mode === 'on-demand') {
+    SCHED.idleMs = performance.now() - _lastActivityAt;
+    const noAnim = !(SkyMap.controls && SkyMap.controls.autoRotate) && SkyMap.activeTweens === 0;
+    if (SCHED.idleMs >= _qCfg.idleTimeoutMs && noAnim) suspendLoop();
+  }
+}
+
 function startLoop() {
-  SkyMap.clock = new THREE.Clock();
-  const loop = () => {
-    requestAnimationFrame(loop);
-    const dt = SkyMap.clock.getDelta();
-    for (const hook of SkyMap.updateHooks) hook(dt);
-    if (SkyMap.composer) SkyMap.composer.render(); // V4-M3：后处理管线（CSS2D 标签层独立 DOM，不受 bloom 波及）
-    else SkyMap.renderer.render(SkyMap.scene, SkyMap.camera);
-  };
+  if (_rafRunning) return;
+  _rafRunning = true;
+  if (!SkyMap.clock) SkyMap.clock = new THREE.Clock();
+  else SkyMap.clock.getDelta(); // 预消费：丢弃挂起期间累积的时间（防唤醒首帧 dt 异常）
   loop();
 }
+
+/** 脏标记入口（S1 2.2 契约）：置脏 + 重置 idle 计时 + 从 suspended 零延迟唤醒（下一帧即渲） */
+SkyMap.invalidate = function (reason) {
+  SCHED.dirty = true;
+  _lastActivityAt = performance.now();
+  if (SCHED.mode === 'suspended') {
+    SCHED.mode = 'on-demand';
+    SCHED.idleMs = 0;
+    startLoop();
+    if (SkyMap.debug) console.log('[skymap-core] invalidate(' + reason + ')：suspended -> on-demand 唤醒');
+  }
+};
+
+/** 手动切换渲染模式（测试/调试入口；suspended 不可直接设——由挂起条件自动进入）
+ *  V4-M4-D1 修补：suspended 态调用时必须先重启 rAF（startLoop）再设 mode——
+ *  若先改 mode 再走 invalidate，其唤醒分支（mode==='suspended' 判定）将失效致死锁 */
+SkyMap.setRenderMode = function (mode) {
+  if (mode !== 'continuous' && mode !== 'on-demand') {
+    console.warn('[skymap-core] setRenderMode 仅支持 continuous | on-demand');
+    return;
+  }
+  if (!_rafRunning) startLoop(); // suspended 态直接唤醒（rAF 重启 + clock 预消费）
+  SCHED.mode = mode;
+  SCHED.dirty = true;
+  _lastActivityAt = performance.now();
+};
 
 function init() {
   SkyMap.container = document.getElementById('app');
@@ -123,6 +216,7 @@ SkyMap.updateVisibleBodies = function (maxEpoch) {
     m.visible = (m.userData.body ? m.userData.body.epoch : 0) <= maxEpoch;
   });
   SkyMap.state.visibleMaxEpoch = maxEpoch;
+  SkyMap.invalidate('updateVisibleBodies'); // V4-M4：可见性变化即需一帧
 };
 
 /** 天体淡化（Day 4 · 4.2 内部）：本体/光晕/标签整体透明度 */
@@ -137,6 +231,7 @@ SkyMap._setBodyFade = function (mesh, op) {
   const labelObj = mesh.userData.labelObj;
   if (labelObj && labelObj.element) labelObj.element.style.opacity = op;
   mesh.userData._faded = op < 1;
+  SkyMap.invalidate('_setBodyFade'); // V4-M4：淡化变化即需一帧
 };
 
 /** 搜索筛选接口（Day 4 · 4.2）：filters = {q, domains[], types[], moods[]}；返回匹配数
@@ -173,6 +268,7 @@ SkyMap.filterBodies = function (filters = {}) {
     SkyMap._setBodyFade(m, ok ? 1 : 0.15);
   });
   SkyMap.state.filterState = { q, domains: doms, types, moods, matchCount: match };
+  SkyMap.invalidate('filterBodies'); // V4-M4：筛选变化即需一帧
   return match;
 };
 
@@ -185,6 +281,7 @@ SkyMap.highlightBody = function (id) {
   if (m.material.uniforms && m.material.uniforms.uHighlight) {
     m.material.uniforms.uHighlight.value = 1; // V4-M2：ShaderMaterial 高亮（原 emissiveIntensity=1.6）
   }
+  SkyMap.invalidate('highlightBody'); // V4-M4：高亮变化即需一帧
   return m;
 };
 
@@ -224,6 +321,100 @@ SkyMap.updateHooks.push((dt) => {
     }
   } else {
     _lowFpsSince = 0;
+  }
+});
+
+/* ================= V4-M4-C：自适应画质调节器（FR-05 后半 + US-04） =================
+ * 三档 qualityLevel：2=全画质 -> 1=关 bloom -> 0=最低档（pixelRatio 降 1.0 + 星幕减半 + 低模球）
+ * 迟滞防振荡：连续 3s 低于 fpsLow(50) 降一级；连续 5s 高于 fpsHigh(58) 升一级；
+ * FPS 源 = SkyMap.getFPS()（0.5s 窗口渲染帧率，仅渲染帧计入，空转帧不采样）。
+ * 切档原子性：pixelRatio + bloom + 星幕重建 + 球切换在同一调用内完成，末尾 invalidate 一次。 */
+
+let _baseStarCount = 0;   // 降档前捕获的星幕基准数（升档恢复；用户在 level 0 期间改 stars.count 的场景记已知限制）
+let _lowQSince = 0;
+let _highQSince = 0;
+
+/** 应用指定画质档（内部：档位参数原子切换） */
+function applyQualityLevel(level) {
+  const prev = SCHED.qualityLevel;
+  if (level === prev) return;
+  const q = _qCfg;
+
+  // bloom：level 2 依 theme.bloom.enabled（走 applyBloomTheme 重置 M3 降级锁）；level 1/0 直接关
+  if (level === 2) {
+    if (SkyMap.theme && SkyMap.theme.bloom && typeof SkyMap.applyBloomTheme === 'function') {
+      SkyMap.applyBloomTheme(SkyMap.theme.bloom);
+    }
+  } else if (SkyMap.bloomPass) {
+    SkyMap.bloomPass.enabled = false;
+  }
+
+  // pixelRatio：level 0/1 依档位；level 2 恢复 cap
+  const dpr = Math.min(window.devicePixelRatio || 1, level === 0 ? 1.0 : q.pixelRatioCap);
+  SkyMap.renderer.setPixelRatio(dpr);
+  if (SkyMap.composer) SkyMap.composer.setPixelRatio(dpr);
+  SkyMap.onResize(); // 同步 renderer/composer/labelRenderer 尺寸链路
+
+  // 星幕：level 0 减半（捕获基准），升档恢复
+  if (level === 0) {
+    if (!_baseStarCount && SkyMap.theme) _baseStarCount = SkyMap.theme.stars.count;
+    if (typeof SkyMap.setTheme === 'function') {
+      SkyMap.setTheme({ stars: { count: Math.max(80, Math.round(_baseStarCount / 2)) } });
+    }
+  } else if (_baseStarCount && typeof SkyMap.setTheme === 'function') {
+    SkyMap.setTheme({ stars: { count: _baseStarCount } });
+    if (level === 2) _baseStarCount = 0; // 回到基准后清捕获
+  }
+
+  // 天体几何：level 0 切低模球（M2 预留 unitSphereLo），否则回 Hi
+  if (typeof SkyMap.setBodyGeometryLOD === 'function') SkyMap.setBodyGeometryLOD(level === 0);
+
+  SCHED.qualityLevel = level;
+  _lowQSince = 0;
+  _highQSince = 0;
+  SkyMap.invalidate('quality-level:' + prev + '->' + level);
+  const fpsNow = (typeof SkyMap.getFPS === 'function') ? SkyMap.getFPS() : '?';
+  console.log('[skymap-core] 画质调节：level ' + prev + ' -> ' + level + '（FPS ' + fpsNow + '）');
+}
+
+/** theme.quality 分发入口（setTheme quality 层变化时由 skymap-env.js 调用） */
+SkyMap.applyQualityTheme = function (quality) {
+  if (!quality) return;
+  _qCfg = {
+    pixelRatioCap: quality.pixelRatioCap ?? _qCfg.pixelRatioCap,
+    adaptive: quality.adaptive !== false,
+    fpsLow: quality.fpsLow ?? _qCfg.fpsLow,
+    fpsHigh: quality.fpsHigh ?? _qCfg.fpsHigh,
+    idleTimeoutMs: quality.idleTimeoutMs ?? _qCfg.idleTimeoutMs,
+  };
+  // 非 level-0 态下 cap 变化即时生效
+  if (SCHED.qualityLevel > 0) {
+    const dpr = Math.min(window.devicePixelRatio || 1, _qCfg.pixelRatioCap);
+    SkyMap.renderer.setPixelRatio(dpr);
+    if (SkyMap.composer) SkyMap.composer.setPixelRatio(dpr);
+    SkyMap.onResize();
+  }
+  SkyMap.invalidate('applyQualityTheme');
+};
+
+/** 调度器逐帧 hook：FPS 迟滞升降档（挂起态自然停摆） */
+SkyMap.updateHooks.push(() => {
+  if (!_qCfg.adaptive) return;
+  if (typeof SkyMap.getFPS !== 'function') return; // controls 未挂载（模块加载时序）不采样
+  const fps = SkyMap.getFPS();
+  if (fps <= 0) return; // 尚无有效采样
+  const now = performance.now();
+  if (fps < _qCfg.fpsLow) {
+    _highQSince = 0;
+    if (!_lowQSince) _lowQSince = now;
+    else if (now - _lowQSince >= 3000 && SCHED.qualityLevel > 0) applyQualityLevel(SCHED.qualityLevel - 1);
+  } else if (fps > _qCfg.fpsHigh) {
+    _lowQSince = 0;
+    if (!_highQSince) _highQSince = now;
+    else if (now - _highQSince >= 5000 && SCHED.qualityLevel < 2) applyQualityLevel(SCHED.qualityLevel + 1);
+  } else {
+    _lowQSince = 0;
+    _highQSince = 0;
   }
 });
 

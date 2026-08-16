@@ -203,10 +203,14 @@ function setTheme(params) {
     // P2 修补：显式传 enabled（即使同值）也强制分发——自动降级后 setTheme({bloom:{enabled:true}}) 的重开路径依赖此分支重置降级锁
     SkyMap.applyBloomTheme(next.bloom);
   }
-  // quality 层：M4 接入调度器阈值；当前仅合并存储
+  // quality 层：V4-M4 已接入调度器（阈值/pixelRatioCap/adaptive 热更新）
+  if (JSON.stringify(next.quality) !== JSON.stringify(prev.quality) && typeof SkyMap.applyQualityTheme === 'function') {
+    SkyMap.applyQualityTheme(next.quality);
+  }
 
   SkyMap.theme = next;
   document.dispatchEvent(new CustomEvent('theme-changed', { detail: { name: next.name } }));
+  if (SkyMap.invalidate) SkyMap.invalidate('setTheme'); // V4-M4：主题切换后需一帧
   return deepMerge(next, {}); // 只读快照
 }
 

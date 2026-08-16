@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260816.M3b'; // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
+const CACHE_VERSION = 'pc-v20260816.M4'; // V4-M4：按需渲染调度（三态机+invalidate）+ 自适应画质（三档升降） // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [
