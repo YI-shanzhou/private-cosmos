@@ -1,4 +1,4 @@
-# 私宇宙 · 本地与 GitHub 同步脚本
+﻿# 私宇宙 · 本地与 GitHub 同步脚本
 # 用法: powershell -ExecutionPolicy Bypass -File scripts/sync.ps1
 # 作用: 拉取 GitHub Actions 的自动演化结果，并把本地新 commit 推上去
 

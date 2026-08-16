@@ -204,6 +204,10 @@ function init() {
   window.addEventListener('resize', onResize);
   onResize();
   startLoop();
+  // V4-S3-B（NFR-02 回流 M1-C）：boot 占位移除——场景骨架就绪（canvas 已挂载、首帧即将渲染），
+  // 背景色与主题一致（#050505）无闪跳；占位仅服务 FCP 前移与加载期视觉反馈
+  const bootEl = document.getElementById('boot');
+  if (bootEl) bootEl.remove();
   console.log('[skymap-core] 场景骨架初始化完成（背景/星幕由 skymap-env.js 提供）；theme 挂载点已就绪');
 }
 

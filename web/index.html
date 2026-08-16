@@ -58,9 +58,24 @@
     });
   })();
 </script>
+<!-- V4-S3-B（NFR-02 回流 M1-C）：modulepreload 并行拉取 three 13 件——HTML 解析期即启动关键依赖下载，
+     消除“入口模块解析后才发现 import”的串行 RTT（desktop RTT 40ms 口径下 LCP/FCP 前移；生产 Pages 真实用户同理受益） -->
+<link rel="modulepreload" href="_shared/js/three/three.module.js">
+<link rel="modulepreload" href="_shared/js/three/addons/controls/OrbitControls.js">
+<link rel="modulepreload" href="_shared/js/three/addons/renderers/CSS2DRenderer.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/EffectComposer.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/RenderPass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/ShaderPass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/UnrealBloomPass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/OutputPass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/MaskPass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/postprocessing/Pass.js">
+<link rel="modulepreload" href="_shared/js/three/addons/shaders/CopyShader.js">
+<link rel="modulepreload" href="_shared/js/three/addons/shaders/LuminosityHighPassShader.js">
+<link rel="modulepreload" href="_shared/js/three/addons/shaders/OutputShader.js">
 </head>
 <body>
-<div id="app"></div>
+<div id="app"><div id="boot" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#050505;color:#8b95b5;font:13px/1 'JetBrains Mono','Microsoft YaHei',monospace;letter-spacing:.3em;pointer-events:none">私宇宙 · 初始化中</div></div>
 <div id="hud"></div>
 <noscript>
   <div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#050505;color:#9a9a9a;font:14px/1.8 system-ui,sans-serif;text-align:center;padding:32px;z-index:99999;">
@@ -68,14 +83,12 @@
   </div>
 </noscript>
 <script defer src="assets/cosmos-data.js?v=20260816M5"></script>
-<script defer src="_shared/js/echarts.min.js?v=20260816M5"></script>
 <!-- Day 2 模块（按环节逐步启用） -->
-<script type="module" src="assets/skymap-core.js?v=20260816M5"></script>
-<script type="module" src="assets/skymap-env.js?v=20260816M5"></script>
+<script type="module" src="assets/skymap-core.js?v=20260816S3b"></script>
+<script type="module" src="assets/skymap-env.js?v=20260816S3"></script>
 <script type="module" src="assets/skymap-bodies.js?v=20260816M5"></script>
 <script type="module" src="assets/skymap-controls.js?v=20260816M5"></script>
 <script type="module" src="assets/skymap-panel.js?v=20260816M5"></script>
-<script type="module" src="assets/charts.js?v=20260816M5"></script>
 <script type="module" src="assets/skymap-timeline.js?v=20260816M5"></script>
 <script type="module" src="assets/skymap-search.js?v=20260816M5"></script>
 <script type="module" src="assets/skymap-constellation.js?v=20260816M5"></script>
@@ -89,6 +102,26 @@
         .catch((err) => console.error('[sw] Service Worker 注册失败：', err));
     });
   }
+</script>
+<script>
+  // V4-S3-B (NFR-02 回流 M1-C)：echarts + charts.js 移出首屏关键路径——window.load 后空闲动态加载。
+  // URL 与 sw.js PRECACHE 完全一致（含 v 参数，SW cache-first 精确命中，离线仍可用）；统计面板功能不变（M5 已验收口径）
+  window.addEventListener('load', function () {
+    function loadCharts() {
+      var s = document.createElement('script');
+      s.src = '_shared/js/echarts.min.js?v=20260816M5';
+      s.onload = function () {
+        var m = document.createElement('script');
+        m.type = 'module';
+        m.src = 'assets/charts.js?v=20260816M5';
+        document.body.appendChild(m);
+      };
+      s.onerror = function () { console.error('[charts] echarts 懒加载失败，统计面板不可用'); };
+      document.body.appendChild(s);
+    }
+    if ('requestIdleCallback' in window) { requestIdleCallback(loadCharts, { timeout: 1500 }); }
+    else { setTimeout(loadCharts, 300); }
+  });
 </script>
 </body>
 </html>

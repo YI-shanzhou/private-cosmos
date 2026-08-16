@@ -176,6 +176,9 @@ SkyMap.updateHooks.push((dt) => {
   sf.rotation.y += SkyMap.theme.stars.driftSpeed * dt; // 星幕独立缓旋（天体组不动 -> 视差）
 });
 
+// P-03（S3-E）：#hex 合法色校验（3/6/8 位，大小写不敏感）—— setTheme 色值入口守卫用
+const HEX_COLOR_RE = /^#(?:[0-9a-f]{3}|[0-9a-f]{6}|[0-9a-f]{8})$/i;
+
 /* ---------- setTheme：深合并 -> 逐层分发（S1 计划 1.3 节） ---------- */
 function setTheme(params) {
   if (!isPlainObject(params)) {
@@ -189,6 +192,12 @@ function setTheme(params) {
   if (!(next.stars.count >= 1) || !Number.isFinite(next.stars.count)) {
     console.warn('[skymap-env] stars.count 非法（' + next.stars.count + '），保持现值 ' + prev.stars.count);
     next.stars.count = prev.stars.count;
+  }
+
+  // P-03（S3-E）守卫：sky.background 颜色合法性（#hex 3/6/8 位）—— 非法保持现值（与上方数值守卫语义统一，THREE.Color 构造前拦截）
+  if (!HEX_COLOR_RE.test(String(next.sky.background))) {
+    console.warn('[skymap-env] sky.background 非法（' + next.sky.background + '），保持现值 ' + prev.sky.background);
+    next.sky.background = prev.sky.background;
   }
 
   // sky 层：即时生效
