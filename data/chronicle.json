@@ -439,5 +439,19 @@
     "event": "genesis",
     "body_id": "body_0063",
     "summary": "第63纪元：science×geography碰撞，诞生黑洞「辉密码·诡谲」"
+  },
+  {
+    "epoch": 64,
+    "timestamp": "2026-08-17T18:36:56",
+    "event": "lineage",
+    "body_id": "body_0064",
+    "summary": "第64纪元：彗星「澜星座·孤寂」繁衍出第1代子嗣——彗星「澜星座·辽阔·子」"
+  },
+  {
+    "epoch": 65,
+    "timestamp": "2026-08-17T18:37:02",
+    "event": "genesis",
+    "body_id": "body_0065",
+    "summary": "第65纪元：myth×history碰撞，诞生遗迹「幽修补·苍凉」"
   }
 ]

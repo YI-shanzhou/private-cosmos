@@ -2922,5 +2922,118 @@
       "size": 0.9,
       "luminosity": 0.31
     }
+  },
+  {
+    "id": "body_0064",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "澜星座·辽阔·子",
+    "epoch": 64,
+    "born_at": "2026-08-17T18:36:56",
+    "collision_text": "「落霞与孤鹜齐飞，秋水共长天一色」穿过「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江…」，留下一道辽阔的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_16",
+      "lit_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "落霞与孤鹜齐飞，秋水共长天一色",
+        "source": "王勃《滕王阁序》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪",
+        "source": "柳宗元《江雪》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "长天",
+        "寂灭"
+      ],
+      "domains": [
+        "literature",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#4a4c6a",
+      "size": 0.3,
+      "luminosity": 0.94
+    },
+    "lineage": {
+      "parent_id": "body_0018",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0065",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "幽修补·苍凉",
+    "epoch": 65,
+    "born_at": "2026-08-17T18:37:02",
+    "collision_text": "五色石补不住金星盈缺，玛雅人把城还给了丛林，只留天文台替天空守着那道裂缝。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_03",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "修补",
+        "失落"
+      ],
+      "domains": [
+        "myth",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.76,
+      "luminosity": 0.84
+    }
   }
 ]

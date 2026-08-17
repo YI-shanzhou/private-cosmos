@@ -9,7 +9,7 @@
  *
  * 版本： bump CACHE_VERSION 以触发更新（activate 清旧缓存 + skipWaiting 立即接管）
  */
-const CACHE_VERSION = 'pc-v20260816.182621Z'; // V4-S3-B r2：boot 占位+core.js boot 移除（core 内容变更，引用参数 bump S3b）→ bump 清 S3b 防缓存清单残留； r1：echarts/charts.js 移出关键路径； // V4-S3-E：P-03 守卫补丁（skymap-env.js 变更）→ 缓存版本 bump // V4-M5c: M5b基础上补登5张apod图+移除孤儿2004-01-15; M5b: fatal测试期间M5预缓存被污染(缓存了COSMOS_DATA=null版), bump触发全量重装+activate清旧缓存 // V4-M4：按需渲染调度（三态机+invalidate）+ 自适应画质（三档升降） // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
+const CACHE_VERSION = 'pc-v20260817.183704Z'; // V4-S3-B r2：boot 占位+core.js boot 移除（core 内容变更，引用参数 bump S3b）→ bump 清 S3b 防缓存清单残留； r1：echarts/charts.js 移出关键路径； // V4-S3-E：P-03 守卫补丁（skymap-env.js 变更）→ 缓存版本 bump // V4-M5c: M5b基础上补登5张apod图+移除孤儿2004-01-15; M5b: fatal测试期间M5预缓存被污染(缓存了COSMOS_DATA=null版), bump触发全量重装+activate清旧缓存 // V4-M4：按需渲染调度（三态机+invalidate）+ 自适应画质（三档升降） // V4-M3 修补：threshold 0.85->0.6（P1）+ setTheme enabled 强制分发（P2）
 const CACHE_NAME = 'private-cosmos-' + CACHE_VERSION;
 
 const PRECACHE_URLS = [

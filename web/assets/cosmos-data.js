@@ -2923,6 +2923,119 @@ window.COSMOS_DATA = [
       "size": 0.9,
       "luminosity": 0.31
     }
+  },
+  {
+    "id": "body_0064",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "澜星座·辽阔·子",
+    "epoch": 64,
+    "born_at": "2026-08-17T18:36:56",
+    "collision_text": "「落霞与孤鹜齐飞，秋水共长天一色」穿过「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江…」，留下一道辽阔的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_16",
+      "lit_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "落霞与孤鹜齐飞，秋水共长天一色",
+        "source": "王勃《滕王阁序》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪",
+        "source": "柳宗元《江雪》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "长天",
+        "寂灭"
+      ],
+      "domains": [
+        "literature",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#4a4c6a",
+      "size": 0.3,
+      "luminosity": 0.94
+    },
+    "lineage": {
+      "parent_id": "body_0018",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0065",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "幽修补·苍凉",
+    "epoch": 65,
+    "born_at": "2026-08-17T18:37:02",
+    "collision_text": "五色石补不住金星盈缺，玛雅人把城还给了丛林，只留天文台替天空守着那道裂缝。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_03",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "修补",
+        "失落"
+      ],
+      "domains": [
+        "myth",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.76,
+      "luminosity": 0.84
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3366,6 +3479,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0063",
     "summary": "第63纪元：science×geography碰撞，诞生黑洞「辉密码·诡谲」"
+  },
+  {
+    "epoch": 64,
+    "timestamp": "2026-08-17T18:36:56",
+    "event": "lineage",
+    "body_id": "body_0064",
+    "summary": "第64纪元：彗星「澜星座·孤寂」繁衍出第1代子嗣——彗星「澜星座·辽阔·子」"
+  },
+  {
+    "epoch": 65,
+    "timestamp": "2026-08-17T18:37:02",
+    "event": "genesis",
+    "body_id": "body_0065",
+    "summary": "第65纪元：myth×history碰撞，诞生遗迹「幽修补·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -4337,58 +4464,88 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-17",
+    "summary": "今日两粒星尘自历史与神话的罅隙坠入宇宙——澜星座·辽阔·子曳着彗尾拓开疆土，幽修补·苍凉凝作遗迹低语旧章。繁衍一颗新生，无碰撞惊扰，唯苍茫诗行在深空缓缓铺展。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜星座·辽阔·子",
+        "type_cn": "彗星",
+        "id": "body_0064"
+      },
+      {
+        "name": "幽修补·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0065"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "myth": 1,
+      "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 63,
-  "chronicle_entries": 63,
-  "daily_report_count": 4,
+  "total_bodies": 65,
+  "chronicle_entries": 65,
+  "daily_report_count": 5,
   "type_distribution": {
     "白矮星": 9,
     "星云": 7,
     "流浪行星": 7,
     "卫星": 6,
     "黑洞": 5,
+    "彗星": 4,
     "星系": 4,
     "暗物质": 4,
     "行星": 4,
     "超新星": 4,
     "尘埃云": 3,
-    "彗星": 3,
     "脉冲星": 2,
     "超空洞": 2,
+    "遗迹": 2,
     "星团": 1,
-    "类星体": 1,
-    "遗迹": 1
+    "类星体": 1
   },
   "mood_distribution": {
     "宁静": 30,
-    "苍凉": 26,
-    "壮阔": 25,
+    "苍凉": 28,
+    "壮阔": 27,
+    "孤寂": 22,
     "诡谲": 22,
-    "孤寂": 21,
     "激烈": 19,
     "未知": 15,
+    "辽阔": 9,
     "激越": 8,
-    "辽阔": 8,
-    "神秘": 2,
+    "神秘": 3,
     "希望": 1,
     "热闹": 1
   },
   "domain_distribution": {
-    "literature": 31,
+    "literature": 33,
     "art": 29,
     "philosophy": 24,
-    "myth": 21,
+    "myth": 22,
     "astronomy": 16,
+    "history": 2,
     "music": 2,
     "science": 2,
-    "geography": 1,
-    "history": 1
+    "geography": 1
   },
   "generation": {
-    "max_generation": 0,
-    "lineage_bodies": 0,
-    "distribution": {}
+    "max_generation": 1,
+    "lineage_bodies": 1,
+    "distribution": {
+      "第1代": 1
+    }
   }
 };

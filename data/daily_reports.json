@@ -162,5 +162,33 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-17",
+    "summary": "今日两粒星尘自历史与神话的罅隙坠入宇宙——澜星座·辽阔·子曳着彗尾拓开疆土，幽修补·苍凉凝作遗迹低语旧章。繁衍一颗新生，无碰撞惊扰，唯苍茫诗行在深空缓缓铺展。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜星座·辽阔·子",
+        "type_cn": "彗星",
+        "id": "body_0064"
+      },
+      {
+        "name": "幽修补·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0065"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "myth": 1,
+      "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ]
