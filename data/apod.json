@@ -95,6 +95,31 @@
     "fetched_at": "2026-07-29T19:13:43.129602"
   },
   {
+    "date": "2000-11-12",
+    "title": "The Lyman Alpha Forest",
+    "url": "https://apod.nasa.gov/apod/image/9802/lyalpha_gc3_big.gif",
+    "local_path": "assets/apod/apod_2000-11-12.jpg",
+    "explanation": "We live in a forest.  Strewn throughout the universe are \"trees\" of hydrogen gas that absorb light from distant objects.  These gas clouds leave numerous absorption lines in a distant quasar's spectra, together called the Lyman-alpha forest.  Distant quasars appear to be absorbed by many more Lyman-alpha clouds than nearby quasars, indicating a Lyman-alpha thicket early in our universe.  The above image depicts one possible computer realization of how Lyman-alpha clouds were distributed at a red",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107050",
+        "#109070"
+      ],
+      "themes": [
+        {
+          "en": "quasar",
+          "cn": "类星体"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-18T18:35:27.724538"
+  },
+  {
     "date": "2001-01-19",
     "title": "Black Holes Are Black",
     "url": "https://apod.nasa.gov/apod/image/0101/blackhole_illustration.jpg",

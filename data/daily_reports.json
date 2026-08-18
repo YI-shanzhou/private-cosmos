@@ -190,5 +190,32 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-18",
+    "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫星河·激越",
+        "type_cn": "类星体",
+        "id": "body_0066"
+      },
+      {
+        "name": "弦幻象·壮阔·子",
+        "type_cn": "脉冲星",
+        "id": "body_0067"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "literature": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ]

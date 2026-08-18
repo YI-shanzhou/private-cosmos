@@ -3035,5 +3035,117 @@
       "size": 0.76,
       "luminosity": 0.84
     }
+  },
+  {
+    "id": "body_0066",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "茫星河·激越",
+    "epoch": 66,
+    "born_at": "2026-08-18T18:35:32",
+    "collision_text": "云涛翻涌处千帆逆光而舞，蜡翼随星河倒悬，坠成一片燃烧的海",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_02",
+      "myth_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星河",
+        "坠落"
+      ],
+      "domains": [
+        "literature",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.71,
+      "luminosity": 0.6
+    }
+  },
+  {
+    "id": "body_0067",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "弦幻象·壮阔·子",
+    "epoch": 67,
+    "born_at": "2026-08-18T18:35:39",
+    "collision_text": "梵天以昼夜为息，星河转作千帆舞，云涛翻涌处莲华开阖，一呼世界生，一吸星河渡",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_25",
+      "lit_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "激越"
+      ],
+      "themes": [
+        "呼吸",
+        "星河"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#eaca53",
+      "size": 0.56,
+      "luminosity": 0.61
+    },
+    "lineage": {
+      "parent_id": "body_0056",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

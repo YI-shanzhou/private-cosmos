@@ -3036,6 +3036,118 @@ window.COSMOS_DATA = [
       "size": 0.76,
       "luminosity": 0.84
     }
+  },
+  {
+    "id": "body_0066",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "茫星河·激越",
+    "epoch": 66,
+    "born_at": "2026-08-18T18:35:32",
+    "collision_text": "云涛翻涌处千帆逆光而舞，蜡翼随星河倒悬，坠成一片燃烧的海",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_02",
+      "myth_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星河",
+        "坠落"
+      ],
+      "domains": [
+        "literature",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.71,
+      "luminosity": 0.6
+    }
+  },
+  {
+    "id": "body_0067",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "弦幻象·壮阔·子",
+    "epoch": 67,
+    "born_at": "2026-08-18T18:35:39",
+    "collision_text": "梵天以昼夜为息，星河转作千帆舞，云涛翻涌处莲华开阖，一呼世界生，一吸星河渡",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_25",
+      "lit_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "激越"
+      ],
+      "themes": [
+        "呼吸",
+        "星河"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#eaca53",
+      "size": 0.56,
+      "luminosity": 0.61
+    },
+    "lineage": {
+      "parent_id": "body_0056",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3493,6 +3605,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0065",
     "summary": "第65纪元：myth×history碰撞，诞生遗迹「幽修补·苍凉」"
+  },
+  {
+    "epoch": 66,
+    "timestamp": "2026-08-18T18:35:32",
+    "event": "genesis",
+    "body_id": "body_0066",
+    "summary": "第66纪元：literature×myth碰撞，诞生类星体「茫星河·激越」"
+  },
+  {
+    "epoch": 67,
+    "timestamp": "2026-08-18T18:35:39",
+    "event": "lineage",
+    "body_id": "body_0067",
+    "summary": "第67纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——脉冲星「弦幻象·壮阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -3590,6 +3716,31 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-29T19:13:43.129602"
+  },
+  {
+    "date": "2000-11-12",
+    "title": "The Lyman Alpha Forest",
+    "url": "https://apod.nasa.gov/apod/image/9802/lyalpha_gc3_big.gif",
+    "local_path": "assets/apod/apod_2000-11-12.jpg",
+    "explanation": "We live in a forest.  Strewn throughout the universe are \"trees\" of hydrogen gas that absorb light from distant objects.  These gas clouds leave numerous absorption lines in a distant quasar's spectra, together called the Lyman-alpha forest.  Distant quasars appear to be absorbed by many more Lyman-alpha clouds than nearby quasars, indicating a Lyman-alpha thicket early in our universe.  The above image depicts one possible computer realization of how Lyman-alpha clouds were distributed at a red",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#107050",
+        "#109070"
+      ],
+      "themes": [
+        {
+          "en": "quasar",
+          "cn": "类星体"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-18T18:35:27.724538"
   },
   {
     "date": "2001-01-19",
@@ -4492,12 +4643,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-18",
+    "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫星河·激越",
+        "type_cn": "类星体",
+        "id": "body_0066"
+      },
+      {
+        "name": "弦幻象·壮阔·子",
+        "type_cn": "脉冲星",
+        "id": "body_0067"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "literature": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 65,
-  "chronicle_entries": 65,
-  "daily_report_count": 5,
+  "total_bodies": 67,
+  "chronicle_entries": 67,
+  "daily_report_count": 6,
   "type_distribution": {
     "白矮星": 9,
     "星云": 7,
@@ -4510,31 +4688,31 @@ window.COSMOS_STATS = {
     "行星": 4,
     "超新星": 4,
     "尘埃云": 3,
-    "脉冲星": 2,
+    "脉冲星": 3,
+    "类星体": 2,
     "超空洞": 2,
     "遗迹": 2,
-    "星团": 1,
-    "类星体": 1
+    "星团": 1
   },
   "mood_distribution": {
     "宁静": 30,
-    "苍凉": 28,
-    "壮阔": 27,
+    "壮阔": 29,
+    "苍凉": 29,
     "孤寂": 22,
     "诡谲": 22,
     "激烈": 19,
     "未知": 15,
+    "激越": 10,
     "辽阔": 9,
-    "激越": 8,
-    "神秘": 3,
+    "神秘": 4,
     "希望": 1,
     "热闹": 1
   },
   "domain_distribution": {
-    "literature": 33,
+    "literature": 35,
     "art": 29,
+    "myth": 24,
     "philosophy": 24,
-    "myth": 22,
     "astronomy": 16,
     "history": 2,
     "music": 2,
@@ -4543,9 +4721,9 @@ window.COSMOS_STATS = {
   },
   "generation": {
     "max_generation": 1,
-    "lineage_bodies": 1,
+    "lineage_bodies": 2,
     "distribution": {
-      "第1代": 1
+      "第1代": 2
     }
   }
 };

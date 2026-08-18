@@ -453,5 +453,19 @@
     "event": "genesis",
     "body_id": "body_0065",
     "summary": "第65纪元：myth×history碰撞，诞生遗迹「幽修补·苍凉」"
+  },
+  {
+    "epoch": 66,
+    "timestamp": "2026-08-18T18:35:32",
+    "event": "genesis",
+    "body_id": "body_0066",
+    "summary": "第66纪元：literature×myth碰撞，诞生类星体「茫星河·激越」"
+  },
+  {
+    "epoch": 67,
+    "timestamp": "2026-08-18T18:35:39",
+    "event": "lineage",
+    "body_id": "body_0067",
+    "summary": "第67纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——脉冲星「弦幻象·壮阔·子」"
   }
 ]
