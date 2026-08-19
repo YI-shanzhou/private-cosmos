@@ -3147,5 +3147,117 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0068",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "茫深渊·神秘",
+    "epoch": 68,
+    "born_at": "2026-08-19T18:32:21",
+    "collision_text": "万钧黑暗里，透明之鱼沿着一生二的纹路游弋，深渊于是生出整个无光宇宙。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_02",
+      "phi_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "马里亚纳海沟一万一千米深处，水压足以压碎钢铁，却仍有透明小鱼在黑暗中游弋",
+        "source": "马里亚纳海沟·太平洋"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "道生一，一生二，二生三，三生万物",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "壮阔"
+      ],
+      "themes": [
+        "深渊",
+        "生成"
+      ],
+      "domains": [
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.86,
+      "luminosity": 0.66
+    }
+  },
+  {
+    "id": "body_0069",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "魄星汉·壮阔·子",
+    "epoch": 69,
+    "born_at": "2026-08-19T18:32:24",
+    "collision_text": "在月面印下坐标的刹那，才惊觉这枚足迹正以不确定的动量，漂向未知的宇宙。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_13",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的",
+        "source": "海森堡不确定性原理"
+      },
+      "b": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "未知",
+        "希望"
+      ],
+      "themes": [
+        "不确定",
+        "登月"
+      ],
+      "domains": [
+        "science",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#00b3fb",
+      "size": 0.43,
+      "luminosity": 0.2
+    },
+    "lineage": {
+      "parent_id": "body_0030",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
