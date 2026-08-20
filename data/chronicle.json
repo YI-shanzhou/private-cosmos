@@ -481,5 +481,19 @@
     "event": "lineage",
     "body_id": "body_0069",
     "summary": "第69纪元：星团「魄星汉·辽阔」繁衍出第1代子嗣——星团「魄星汉·壮阔·子」"
+  },
+  {
+    "epoch": 70,
+    "timestamp": "2026-08-20T18:36:30",
+    "event": "lineage",
+    "body_id": "body_0070",
+    "summary": "第70纪元：彗星「澜星座·辽阔·子」繁衍出第2代子嗣——流浪行星「澜星座·希望·子」"
+  },
+  {
+    "epoch": 71,
+    "timestamp": "2026-08-20T18:36:36",
+    "event": "genesis",
+    "body_id": "body_0071",
+    "summary": "第71纪元：philosophy×astronomy碰撞，诞生超空洞「渺命运·壮阔」"
   }
 ]

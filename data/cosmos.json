@@ -3259,5 +3259,115 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0070",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜星座·希望·子",
+    "epoch": 70,
+    "born_at": "2026-08-20T18:36:30",
+    "collision_text": "我们驶向",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "his_07",
+      "apo_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Lyman Alpha Forest",
+        "source": "NASA APOD 2000-11-12"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "壮阔",
+        "未知"
+      ],
+      "themes": [
+        "远航",
+        "类星体"
+      ],
+      "domains": [
+        "history",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#433c65",
+      "size": 0.25,
+      "luminosity": 0.92
+    },
+    "lineage": {
+      "parent_id": "body_0064",
+      "generation": 2,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0071",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渺命运·壮阔",
+    "epoch": 71,
+    "born_at": "2026-08-20T18:36:36",
+    "collision_text": "环形山收下每一道撞击，我在寂静里对全部陨落说是",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_31",
+      "apo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "热爱命运——对自己所遭遇的一切说'是'，这是力量的最高形式",
+        "source": "尼采·命运之爱"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "命运之爱",
+        "恒星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.4,
+      "luminosity": 0.59
+    }
   }
 ]

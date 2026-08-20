@@ -3260,6 +3260,116 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0070",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜星座·希望·子",
+    "epoch": 70,
+    "born_at": "2026-08-20T18:36:30",
+    "collision_text": "我们驶向",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "his_07",
+      "apo_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Lyman Alpha Forest",
+        "source": "NASA APOD 2000-11-12"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "壮阔",
+        "未知"
+      ],
+      "themes": [
+        "远航",
+        "类星体"
+      ],
+      "domains": [
+        "history",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#433c65",
+      "size": 0.25,
+      "luminosity": 0.92
+    },
+    "lineage": {
+      "parent_id": "body_0064",
+      "generation": 2,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0071",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渺命运·壮阔",
+    "epoch": 71,
+    "born_at": "2026-08-20T18:36:36",
+    "collision_text": "环形山收下每一道撞击，我在寂静里对全部陨落说是",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_31",
+      "apo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "热爱命运——对自己所遭遇的一切说'是'，这是力量的最高形式",
+        "source": "尼采·命运之爱"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "命运之爱",
+        "恒星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.4,
+      "luminosity": 0.59
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3745,6 +3855,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0069",
     "summary": "第69纪元：星团「魄星汉·辽阔」繁衍出第1代子嗣——星团「魄星汉·壮阔·子」"
+  },
+  {
+    "epoch": 70,
+    "timestamp": "2026-08-20T18:36:30",
+    "event": "lineage",
+    "body_id": "body_0070",
+    "summary": "第70纪元：彗星「澜星座·辽阔·子」繁衍出第2代子嗣——流浪行星「澜星座·希望·子」"
+  },
+  {
+    "epoch": 71,
+    "timestamp": "2026-08-20T18:36:36",
+    "event": "genesis",
+    "body_id": "body_0071",
+    "summary": "第71纪元：philosophy×astronomy碰撞，诞生超空洞「渺命运·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -4253,6 +4377,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-14T18:51:27.790920"
+  },
+  {
+    "date": "2015-04-23",
+    "title": "Meteor in the Milky Way",
+    "url": "https://apod.nasa.gov/apod/image/1504/IMG_2999korosecMilkyMet.png",
+    "local_path": "assets/apod/apod_2015-04-23.jpg",
+    "explanation": "rth's April showers include the Lyrid Meteor Shower, observed for more than 2,000 years when the planet makes its annual passage through the dust stream of long-period Comet Thatcher. A grain of that comet's dust, moving 48 kilometers per second at an altitude of 100 kilometers or so, is swept up in this night sky view from the early hours of April 21. Flashing toward the southeastern horizon, the meteor's brilliant streak crosses the central region of the rising Milky Way. Its trail points back",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#507070"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        }
+      ],
+      "moods": [
+        "孤寂"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-20T18:36:19.965835"
   },
   {
     "date": "2015-09-14",
@@ -4850,16 +5015,44 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-20",
+    "summary": "今日宇宙分娩二象：流浪行星“澜星座·希望·子”携世代希声漂游，超空洞“渺命运·壮阔”以虚空拓印哲学之穹。三体未逢，历史新页自天文深处展开——零次碰撞，无限壮阔。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜星座·希望·子",
+        "type_cn": "流浪行星",
+        "id": "body_0070"
+      },
+      {
+        "name": "渺命运·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0071"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "astronomy": 2,
+      "philosophy": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 69,
-  "chronicle_entries": 69,
-  "daily_report_count": 7,
+  "total_bodies": 71,
+  "chronicle_entries": 71,
+  "daily_report_count": 8,
   "type_distribution": {
     "白矮星": 9,
+    "流浪行星": 8,
     "星云": 7,
-    "流浪行星": 7,
     "卫星": 6,
     "黑洞": 5,
     "彗星": 4,
@@ -4869,42 +5062,43 @@ window.COSMOS_STATS = {
     "超新星": 4,
     "尘埃云": 3,
     "脉冲星": 3,
+    "超空洞": 3,
     "星团": 2,
     "类星体": 2,
-    "超空洞": 2,
     "遗迹": 2,
     "虫洞": 1
   },
   "mood_distribution": {
-    "壮阔": 31,
+    "壮阔": 33,
     "宁静": 30,
     "苍凉": 29,
     "诡谲": 24,
     "孤寂": 22,
     "激烈": 19,
-    "未知": 16,
-    "激越": 10,
+    "未知": 18,
+    "激越": 11,
     "辽阔": 9,
     "神秘": 5,
-    "希望": 2,
+    "希望": 3,
     "热闹": 1
   },
   "domain_distribution": {
     "literature": 35,
     "art": 29,
-    "philosophy": 25,
+    "philosophy": 26,
     "myth": 24,
-    "astronomy": 16,
-    "history": 3,
+    "astronomy": 18,
+    "history": 4,
     "science": 3,
     "geography": 2,
     "music": 2
   },
   "generation": {
-    "max_generation": 1,
-    "lineage_bodies": 3,
+    "max_generation": 2,
+    "lineage_bodies": 4,
     "distribution": {
-      "第1代": 3
+      "第1代": 3,
+      "第2代": 1
     }
   }
 };

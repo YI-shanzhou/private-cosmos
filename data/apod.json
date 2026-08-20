@@ -506,6 +506,47 @@
     "fetched_at": "2026-08-14T18:51:27.790920"
   },
   {
+    "date": "2015-04-23",
+    "title": "Meteor in the Milky Way",
+    "url": "https://apod.nasa.gov/apod/image/1504/IMG_2999korosecMilkyMet.png",
+    "local_path": "assets/apod/apod_2015-04-23.jpg",
+    "explanation": "rth's April showers include the Lyrid Meteor Shower, observed for more than 2,000 years when the planet makes its annual passage through the dust stream of long-period Comet Thatcher. A grain of that comet's dust, moving 48 kilometers per second at an altitude of 100 kilometers or so, is swept up in this night sky view from the early hours of April 21. Flashing toward the southeastern horizon, the meteor's brilliant streak crosses the central region of the rising Milky Way. Its trail points back",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#707090",
+        "#507070"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        }
+      ],
+      "moods": [
+        "孤寂"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-20T18:36:19.965835"
+  },
+  {
     "date": "2015-09-14",
     "title": "Pluto from above Cthulhu Regio",
     "url": "https://apod.nasa.gov/apod/image/1509/pluto05_NewHorizons_2475.jpg",
