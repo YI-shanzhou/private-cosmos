@@ -3370,6 +3370,129 @@ window.COSMOS_DATA = [
       "size": 0.4,
       "luminosity": 0.59
     }
+  },
+  {
+    "id": "body_0072",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "弦静止·孤寂",
+    "epoch": 72,
+    "born_at": "2026-08-21T18:33:52",
+    "collision_text": "橱窗模特眼中凝着珠峰的风，遗骨是路标；静街如露如电，我走过这具幻影。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "cin_23",
+      "geo_04",
+      "phi_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "时间静止的街道上，只有主角一人在走，橱窗里的模特仿佛在注视",
+        "source": "《Omega Code》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+        "source": "珠穆朗玛峰·喜马拉雅"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "一切有为法，如梦幻泡影，如露亦如电，应作如是观",
+        "source": "《金刚经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "静止",
+        "绝顶",
+        "无常"
+      ],
+      "domains": [
+        "cinema",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "永恒",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.37,
+      "luminosity": 0.7
+    }
+  },
+  {
+    "id": "body_0073",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂运动·诡谲",
+    "epoch": 73,
+    "born_at": "2026-08-21T18:33:55",
+    "collision_text": "星云崩摧时飞矢凝停，烟水裂处洞天中开，洪荒的箭镞钉住永恒之瞬。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "phi_07",
+      "apo_22",
+      "lit_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "飞矢不动",
+        "source": "芝诺悖论"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NGC 7380: The Wizard Nebula",
+        "source": "NASA APOD 2022-11-14"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开",
+        "source": "李白《梦游天姥吟留别》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔",
+        "热闹",
+        "激烈"
+      ],
+      "themes": [
+        "运动",
+        "星云",
+        "幻境"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古希腊",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.89,
+      "luminosity": 0.79
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -3869,6 +3992,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0071",
     "summary": "第71纪元：philosophy×astronomy碰撞，诞生超空洞「渺命运·壮阔」"
+  },
+  {
+    "epoch": 72,
+    "timestamp": "2026-08-21T18:33:52",
+    "event": "genesis",
+    "body_id": "body_0072",
+    "summary": "第72纪元：cinema×geography碰撞，诞生流浪行星「弦静止·孤寂」"
+  },
+  {
+    "epoch": 73,
+    "timestamp": "2026-08-21T18:33:55",
+    "event": "genesis",
+    "body_id": "body_0073",
+    "summary": "第73纪元：philosophy×astronomy碰撞，诞生虫洞「寂运动·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -4738,6 +4875,47 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
+    "date": "2025-07-21",
+    "title": "Cat's Paw Nebula from Webb Space Telescope",
+    "url": "https://apod.nasa.gov/apod/image/2507/CatsPaw_Webb_1822.jpg",
+    "local_path": "assets/apod/apod_2025-07-21.jpg",
+    "explanation": "Nebulas are perhaps as famous for being identified with familiar shapes as perhaps cats are for getting into trouble.  Still, no known cat could have created the vast Cat's Paw Nebula visible toward the constellation of the Scorpion  (Scorpius).  At 5,700 light years distant, Cat's Paw is an emission nebula within a larger molecular cloud.  Alternatively known as the Bear Claw Nebula and cataloged as NGC 6334, stars nearly ten times the mass of our Sun have been born there in only the past few m",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        }
+      ],
+      "moods": [
+        "壮阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-21T18:33:46.617771"
+  },
+  {
     "date": "2026-01-17",
     "title": "Apollo 14: A View from Antares",
     "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg",
@@ -5043,15 +5221,45 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-21",
+    "summary": "弦静止于孤寂，流浪行星默写银幕上的地理；寂运动成诡谲，虫洞折入哲学未启封的篇章。两度三体相撞，零次世代繁衍，仅余天穹暗涌的韵律。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦静止·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0072"
+      },
+      {
+        "name": "寂运动·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0073"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "literature": 1,
+      "geography": 1,
+      "philosophy": 2,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 71,
-  "chronicle_entries": 71,
-  "daily_report_count": 8,
+  "total_bodies": 73,
+  "chronicle_entries": 73,
+  "daily_report_count": 9,
   "type_distribution": {
+    "流浪行星": 9,
     "白矮星": 9,
-    "流浪行星": 8,
     "星云": 7,
     "卫星": 6,
     "黑洞": 5,
@@ -5065,33 +5273,34 @@ window.COSMOS_STATS = {
     "超空洞": 3,
     "星团": 2,
     "类星体": 2,
-    "遗迹": 2,
-    "虫洞": 1
+    "虫洞": 2,
+    "遗迹": 2
   },
   "mood_distribution": {
-    "壮阔": 33,
+    "壮阔": 35,
     "宁静": 30,
-    "苍凉": 29,
-    "诡谲": 24,
-    "孤寂": 22,
-    "激烈": 19,
+    "苍凉": 30,
+    "诡谲": 26,
+    "孤寂": 23,
+    "激烈": 20,
     "未知": 18,
     "激越": 11,
     "辽阔": 9,
     "神秘": 5,
     "希望": 3,
-    "热闹": 1
+    "热闹": 2
   },
   "domain_distribution": {
-    "literature": 35,
+    "literature": 36,
     "art": 29,
-    "philosophy": 26,
+    "philosophy": 28,
     "myth": 24,
-    "astronomy": 18,
+    "astronomy": 19,
     "history": 4,
+    "geography": 3,
     "science": 3,
-    "geography": 2,
-    "music": 2
+    "music": 2,
+    "cinema": 1
   },
   "generation": {
     "max_generation": 2,

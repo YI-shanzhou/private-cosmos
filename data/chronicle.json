@@ -495,5 +495,19 @@
     "event": "genesis",
     "body_id": "body_0071",
     "summary": "第71纪元：philosophy×astronomy碰撞，诞生超空洞「渺命运·壮阔」"
+  },
+  {
+    "epoch": 72,
+    "timestamp": "2026-08-21T18:33:52",
+    "event": "genesis",
+    "body_id": "body_0072",
+    "summary": "第72纪元：cinema×geography碰撞，诞生流浪行星「弦静止·孤寂」"
+  },
+  {
+    "epoch": 73,
+    "timestamp": "2026-08-21T18:33:55",
+    "event": "genesis",
+    "body_id": "body_0073",
+    "summary": "第73纪元：philosophy×astronomy碰撞，诞生虫洞「寂运动·诡谲」"
   }
 ]

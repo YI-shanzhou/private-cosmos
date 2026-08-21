@@ -3369,5 +3369,128 @@
       "size": 0.4,
       "luminosity": 0.59
     }
+  },
+  {
+    "id": "body_0072",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "弦静止·孤寂",
+    "epoch": 72,
+    "born_at": "2026-08-21T18:33:52",
+    "collision_text": "橱窗模特眼中凝着珠峰的风，遗骨是路标；静街如露如电，我走过这具幻影。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "cin_23",
+      "geo_04",
+      "phi_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "时间静止的街道上，只有主角一人在走，橱窗里的模特仿佛在注视",
+        "source": "《Omega Code》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+        "source": "珠穆朗玛峰·喜马拉雅"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "一切有为法，如梦幻泡影，如露亦如电，应作如是观",
+        "source": "《金刚经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "静止",
+        "绝顶",
+        "无常"
+      ],
+      "domains": [
+        "cinema",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "永恒",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.37,
+      "luminosity": 0.7
+    }
+  },
+  {
+    "id": "body_0073",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂运动·诡谲",
+    "epoch": 73,
+    "born_at": "2026-08-21T18:33:55",
+    "collision_text": "星云崩摧时飞矢凝停，烟水裂处洞天中开，洪荒的箭镞钉住永恒之瞬。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "phi_07",
+      "apo_22",
+      "lit_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "飞矢不动",
+        "source": "芝诺悖论"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NGC 7380: The Wizard Nebula",
+        "source": "NASA APOD 2022-11-14"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开",
+        "source": "李白《梦游天姥吟留别》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔",
+        "热闹",
+        "激烈"
+      ],
+      "themes": [
+        "运动",
+        "星云",
+        "幻境"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古希腊",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.89,
+      "luminosity": 0.79
+    }
   }
 ]

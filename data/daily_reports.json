@@ -274,5 +274,35 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-21",
+    "summary": "弦静止于孤寂，流浪行星默写银幕上的地理；寂运动成诡谲，虫洞折入哲学未启封的篇章。两度三体相撞，零次世代繁衍，仅余天穹暗涌的韵律。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦静止·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0072"
+      },
+      {
+        "name": "寂运动·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0073"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "literature": 1,
+      "geography": 1,
+      "philosophy": 2,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]
