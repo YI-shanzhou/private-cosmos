@@ -3492,5 +3492,128 @@
       "size": 0.89,
       "luminosity": 0.79
     }
+  },
+  {
+    "id": "body_0074",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "焰消逝·壮阔",
+    "epoch": 74,
+    "born_at": "2026-08-22T18:27:17",
+    "collision_text": "须弥山巅的雪崩入赤壁的火，大江淘尽众生，四天王",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "lit_15",
+      "his_01",
+      "myth_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "大江东去，浪淘尽，千古风流人物",
+        "source": "苏轼《念奴娇·赤壁怀古》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "须弥山屹于世界中央，日月绕行，四天王镇守四方",
+        "source": "印度/佛教神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈",
+        "辽阔"
+      ],
+      "themes": [
+        "消逝",
+        "烽火",
+        "中心"
+      ],
+      "domains": [
+        "literature",
+        "history",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "宋",
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.63,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0075",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "渊悲剧·苍凉",
+    "epoch": 75,
+    "born_at": "2026-08-22T18:27:26",
+    "collision_text": "「天鹅湖」「未经审视的人生不值得过」「男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待…」三者在虚空中相撞，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_05",
+      "phi_06",
+      "cin_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "天鹅湖",
+        "source": "柴可夫斯基"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待一个不回来的人",
+        "source": "《一代宗师》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "孤寂"
+      ],
+      "themes": [
+        "悲剧",
+        "生命",
+        "等候"
+      ],
+      "domains": [
+        "music",
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.59,
+      "luminosity": 0.58
+    }
   }
 ]

@@ -3493,6 +3493,129 @@ window.COSMOS_DATA = [
       "size": 0.89,
       "luminosity": 0.79
     }
+  },
+  {
+    "id": "body_0074",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "焰消逝·壮阔",
+    "epoch": 74,
+    "born_at": "2026-08-22T18:27:17",
+    "collision_text": "须弥山巅的雪崩入赤壁的火，大江淘尽众生，四天王",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "lit_15",
+      "his_01",
+      "myth_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "大江东去，浪淘尽，千古风流人物",
+        "source": "苏轼《念奴娇·赤壁怀古》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "须弥山屹于世界中央，日月绕行，四天王镇守四方",
+        "source": "印度/佛教神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈",
+        "辽阔"
+      ],
+      "themes": [
+        "消逝",
+        "烽火",
+        "中心"
+      ],
+      "domains": [
+        "literature",
+        "history",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "宋",
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.63,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0075",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "渊悲剧·苍凉",
+    "epoch": 75,
+    "born_at": "2026-08-22T18:27:26",
+    "collision_text": "「天鹅湖」「未经审视的人生不值得过」「男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待…」三者在虚空中相撞，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_05",
+      "phi_06",
+      "cin_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "天鹅湖",
+        "source": "柴可夫斯基"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "男主角在黑色雨夜撑伞站在路口，灯火阑珊中等待一个不回来的人",
+        "source": "《一代宗师》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "孤寂"
+      ],
+      "themes": [
+        "悲剧",
+        "生命",
+        "等候"
+      ],
+      "domains": [
+        "music",
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.59,
+      "luminosity": 0.58
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4006,6 +4129,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0073",
     "summary": "第73纪元：philosophy×astronomy碰撞，诞生虫洞「寂运动·诡谲」"
+  },
+  {
+    "epoch": 74,
+    "timestamp": "2026-08-22T18:27:17",
+    "event": "genesis",
+    "body_id": "body_0074",
+    "summary": "第74纪元：literature×history碰撞，诞生超空洞「焰消逝·壮阔」"
+  },
+  {
+    "epoch": 75,
+    "timestamp": "2026-08-22T18:27:26",
+    "event": "genesis",
+    "body_id": "body_0075",
+    "summary": "第75纪元：music×philosophy碰撞，诞生遗迹「渊悲剧·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -4514,6 +4651,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-14T18:51:27.790920"
+  },
+  {
+    "date": "2013-04-13",
+    "title": "Sun with Solar Flare",
+    "url": "https://apod.nasa.gov/apod/image/1304/sdo_20130411-M6flare-orig_2048.jpg",
+    "local_path": "assets/apod/apod_2013-04-13.jpg",
+    "explanation": "This week the Sun gave up its strongest solar flare so far in 2013, accompanied by a coronal mass ejection (CME) headed toward planet Earth. A false-color composite image in extreme ultraviolet light from the Solar Dynamics Observatory captures the moment, recorded on April 11 at 0711 UTC. The flash, a moderate, M6.5 class flare erupting from active region AR 11719, is near the center of the solar disk. Other active regions, areas of intense magnetic fields seen as sunspot groups in visible ligh",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#705030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "aurora",
+          "cn": "极光"
+        }
+      ],
+      "moods": [
+        "宁静"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-22T18:27:08.386004"
   },
   {
     "date": "2015-04-23",
@@ -5251,12 +5421,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-08-22",
+    "summary": "焰消逝于壮阔中，渊悲剧浸透苍凉。两枚空洞与遗迹，自cinema、史册与神话的褶皱间坍缩成诗。零代繁衍，二次三体相撞，宇宙在静默里改写自己的墓志铭。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰消逝·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0074"
+      },
+      {
+        "name": "渊悲剧·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0075"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "history": 1,
+      "literature": 1,
+      "myth": 1,
+      "philosophy": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 73,
-  "chronicle_entries": 73,
-  "daily_report_count": 9,
+  "total_bodies": 75,
+  "chronicle_entries": 75,
+  "daily_report_count": 10,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
@@ -5268,39 +5469,39 @@ window.COSMOS_STATS = {
     "暗物质": 4,
     "行星": 4,
     "超新星": 4,
+    "超空洞": 4,
     "尘埃云": 3,
     "脉冲星": 3,
-    "超空洞": 3,
+    "遗迹": 3,
     "星团": 2,
     "类星体": 2,
-    "虫洞": 2,
-    "遗迹": 2
+    "虫洞": 2
   },
   "mood_distribution": {
-    "壮阔": 35,
+    "壮阔": 37,
+    "苍凉": 32,
     "宁静": 30,
-    "苍凉": 30,
     "诡谲": 26,
-    "孤寂": 23,
-    "激烈": 20,
+    "孤寂": 24,
+    "激烈": 21,
     "未知": 18,
     "激越": 11,
-    "辽阔": 9,
+    "辽阔": 10,
     "神秘": 5,
     "希望": 3,
     "热闹": 2
   },
   "domain_distribution": {
-    "literature": 36,
+    "literature": 37,
     "art": 29,
-    "philosophy": 28,
-    "myth": 24,
+    "philosophy": 29,
+    "myth": 25,
     "astronomy": 19,
-    "history": 4,
+    "history": 5,
     "geography": 3,
+    "music": 3,
     "science": 3,
-    "music": 2,
-    "cinema": 1
+    "cinema": 2
   },
   "generation": {
     "max_generation": 2,

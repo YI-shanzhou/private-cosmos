@@ -509,5 +509,19 @@
     "event": "genesis",
     "body_id": "body_0073",
     "summary": "第73纪元：philosophy×astronomy碰撞，诞生虫洞「寂运动·诡谲」"
+  },
+  {
+    "epoch": 74,
+    "timestamp": "2026-08-22T18:27:17",
+    "event": "genesis",
+    "body_id": "body_0074",
+    "summary": "第74纪元：literature×history碰撞，诞生超空洞「焰消逝·壮阔」"
+  },
+  {
+    "epoch": 75,
+    "timestamp": "2026-08-22T18:27:26",
+    "event": "genesis",
+    "body_id": "body_0075",
+    "summary": "第75纪元：music×philosophy碰撞，诞生遗迹「渊悲剧·苍凉」"
   }
 ]

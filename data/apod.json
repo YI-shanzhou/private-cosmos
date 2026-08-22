@@ -506,6 +506,39 @@
     "fetched_at": "2026-08-14T18:51:27.790920"
   },
   {
+    "date": "2013-04-13",
+    "title": "Sun with Solar Flare",
+    "url": "https://apod.nasa.gov/apod/image/1304/sdo_20130411-M6flare-orig_2048.jpg",
+    "local_path": "assets/apod/apod_2013-04-13.jpg",
+    "explanation": "This week the Sun gave up its strongest solar flare so far in 2013, accompanied by a coronal mass ejection (CME) headed toward planet Earth. A false-color composite image in extreme ultraviolet light from the Solar Dynamics Observatory captures the moment, recorded on April 11 at 0711 UTC. The flash, a moderate, M6.5 class flare erupting from active region AR 11719, is near the center of the solar disk. Other active regions, areas of intense magnetic fields seen as sunspot groups in visible ligh",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#705030",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "aurora",
+          "cn": "极光"
+        }
+      ],
+      "moods": [
+        "宁静"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-22T18:27:08.386004"
+  },
+  {
     "date": "2015-04-23",
     "title": "Meteor in the Milky Way",
     "url": "https://apod.nasa.gov/apod/image/1504/IMG_2999korosecMilkyMet.png",
