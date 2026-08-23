@@ -3615,5 +3615,109 @@
       "size": 0.59,
       "luminosity": 0.58
     }
+  },
+  {
+    "id": "body_0076",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "澜极光·宁静",
+    "epoch": 76,
+    "born_at": "2026-08-23T18:26:08",
+    "collision_text": "极光的绿在玄武岩上盘旋成卡农，星海翻身时，永恒静静垂下巴洛克的光。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_01",
+      "mus_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      },
+      "b": {
+        "domain": "music",
+        "text": "帕赫贝尔·卡农",
+        "source": "帕赫贝尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔",
+        "神秘",
+        "希望"
+      ],
+      "themes": [
+        "极光",
+        "永恒"
+      ],
+      "domains": [
+        "geography",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.98,
+      "luminosity": 0.46
+    }
+  },
+  {
+    "id": "body_0077",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "寂炼星·激烈",
+    "epoch": 77,
+    "born_at": "2026-08-23T18:26:11",
+    "collision_text": "原始祭舞踏碎星辰的壳，核聚变鼓点将氢与氦锻成神祇的铁骨，超新星溅落为献祭之血",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_19",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+        "source": "恒星物理学"
+      },
+      "b": {
+        "domain": "music",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "诡谲"
+      ],
+      "themes": [
+        "炼星",
+        "原始"
+      ],
+      "domains": [
+        "science",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.43,
+      "luminosity": 0.58
+    }
   }
 ]

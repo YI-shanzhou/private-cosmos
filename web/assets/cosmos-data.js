@@ -3616,6 +3616,110 @@ window.COSMOS_DATA = [
       "size": 0.59,
       "luminosity": 0.58
     }
+  },
+  {
+    "id": "body_0076",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "澜极光·宁静",
+    "epoch": 76,
+    "born_at": "2026-08-23T18:26:08",
+    "collision_text": "极光的绿在玄武岩上盘旋成卡农，星海翻身时，永恒静静垂下巴洛克的光。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_01",
+      "mus_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      },
+      "b": {
+        "domain": "music",
+        "text": "帕赫贝尔·卡农",
+        "source": "帕赫贝尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔",
+        "神秘",
+        "希望"
+      ],
+      "themes": [
+        "极光",
+        "永恒"
+      ],
+      "domains": [
+        "geography",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.98,
+      "luminosity": 0.46
+    }
+  },
+  {
+    "id": "body_0077",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "寂炼星·激烈",
+    "epoch": 77,
+    "born_at": "2026-08-23T18:26:11",
+    "collision_text": "原始祭舞踏碎星辰的壳，核聚变鼓点将氢与氦锻成神祇的铁骨，超新星溅落为献祭之血",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_19",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+        "source": "恒星物理学"
+      },
+      "b": {
+        "domain": "music",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "诡谲"
+      ],
+      "themes": [
+        "炼星",
+        "原始"
+      ],
+      "domains": [
+        "science",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.43,
+      "luminosity": 0.58
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4143,6 +4247,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0075",
     "summary": "第75纪元：music×philosophy碰撞，诞生遗迹「渊悲剧·苍凉」"
+  },
+  {
+    "epoch": 76,
+    "timestamp": "2026-08-23T18:26:08",
+    "event": "genesis",
+    "body_id": "body_0076",
+    "summary": "第76纪元：geography×music碰撞，诞生卫星「澜极光·宁静」"
+  },
+  {
+    "epoch": 77,
+    "timestamp": "2026-08-23T18:26:11",
+    "event": "genesis",
+    "body_id": "body_0077",
+    "summary": "第77纪元：science×music碰撞，诞生磁星「寂炼星·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -4431,6 +4549,43 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-31T19:21:55.624947"
+  },
+  {
+    "date": "2005-06-25",
+    "title": "Venus: Just Passing By",
+    "url": "https://apod.nasa.gov/apod/image/0506/venus2_gal_full.jpg",
+    "local_path": "assets/apod/apod_2005-06-25.jpg",
+    "explanation": "Venus, the second closest planet to the Sun, is by far the brightest of the three planets gathered in this weekend's western sky at sunset. It has also proven to be a popular way-point for spacecraft headed for the gas giant planets in the outer reaches of the solar system. Why visit Venus first? Using a gravity assist maneuver, spacecraft can swing by planets and gain energy during their brief encounter, saving fuel for use at the end of their long interplanetary voyage. This colorized image of",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#5090d0",
+        "#103070"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "venus",
+          "cn": "金星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-23T18:26:05.635921"
   },
   {
     "date": "2006-12-25",
@@ -5452,17 +5607,45 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-08-23",
+    "summary": "今日澜极光·宁静绕行于无声之轨，寂炼星·激烈在磁场深处奏响挽歌。科学、音乐与大地交织，二星同诞，宇宙于静谧与炽烈间，续写无字史诗。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜极光·宁静",
+        "type_cn": "卫星",
+        "id": "body_0076"
+      },
+      {
+        "name": "寂炼星·激烈",
+        "type_cn": "磁星",
+        "id": "body_0077"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "激烈": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "music": 2,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 75,
-  "chronicle_entries": 75,
-  "daily_report_count": 10,
+  "total_bodies": 77,
+  "chronicle_entries": 77,
+  "daily_report_count": 11,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
+    "卫星": 7,
     "星云": 7,
-    "卫星": 6,
     "黑洞": 5,
     "彗星": 4,
     "星系": 4,
@@ -5475,20 +5658,21 @@ window.COSMOS_STATS = {
     "遗迹": 3,
     "星团": 2,
     "类星体": 2,
-    "虫洞": 2
+    "虫洞": 2,
+    "磁星": 1
   },
   "mood_distribution": {
-    "壮阔": 37,
+    "壮阔": 39,
     "苍凉": 32,
-    "宁静": 30,
-    "诡谲": 26,
+    "宁静": 31,
+    "诡谲": 27,
     "孤寂": 24,
-    "激烈": 21,
+    "激烈": 22,
     "未知": 18,
     "激越": 11,
     "辽阔": 10,
-    "神秘": 5,
-    "希望": 3,
+    "神秘": 6,
+    "希望": 4,
     "热闹": 2
   },
   "domain_distribution": {
@@ -5498,9 +5682,9 @@ window.COSMOS_STATS = {
     "myth": 25,
     "astronomy": 19,
     "history": 5,
-    "geography": 3,
-    "music": 3,
-    "science": 3,
+    "music": 5,
+    "geography": 4,
+    "science": 4,
     "cinema": 2
   },
   "generation": {

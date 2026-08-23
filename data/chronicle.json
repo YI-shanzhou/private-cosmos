@@ -523,5 +523,19 @@
     "event": "genesis",
     "body_id": "body_0075",
     "summary": "第75纪元：music×philosophy碰撞，诞生遗迹「渊悲剧·苍凉」"
+  },
+  {
+    "epoch": 76,
+    "timestamp": "2026-08-23T18:26:08",
+    "event": "genesis",
+    "body_id": "body_0076",
+    "summary": "第76纪元：geography×music碰撞，诞生卫星「澜极光·宁静」"
+  },
+  {
+    "epoch": 77,
+    "timestamp": "2026-08-23T18:26:11",
+    "event": "genesis",
+    "body_id": "body_0077",
+    "summary": "第77纪元：science×music碰撞，诞生磁星「寂炼星·激烈」"
   }
 ]

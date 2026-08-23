@@ -286,6 +286,43 @@
     "fetched_at": "2026-07-31T19:21:55.624947"
   },
   {
+    "date": "2005-06-25",
+    "title": "Venus: Just Passing By",
+    "url": "https://apod.nasa.gov/apod/image/0506/venus2_gal_full.jpg",
+    "local_path": "assets/apod/apod_2005-06-25.jpg",
+    "explanation": "Venus, the second closest planet to the Sun, is by far the brightest of the three planets gathered in this weekend's western sky at sunset. It has also proven to be a popular way-point for spacecraft headed for the gas giant planets in the outer reaches of the solar system. Why visit Venus first? Using a gravity assist maneuver, spacecraft can swing by planets and gain energy during their brief encounter, saving fuel for use at the end of their long interplanetary voyage. This colorized image of",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#5090d0",
+        "#103070"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "venus",
+          "cn": "金星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-23T18:26:05.635921"
+  },
+  {
     "date": "2006-12-25",
     "title": "Upgrading the International Space Station",
     "url": "https://apod.nasa.gov/apod/image/0612/trussnauts_sts116_big.jpg",

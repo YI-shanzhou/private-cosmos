@@ -335,5 +335,33 @@
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-08-23",
+    "summary": "今日澜极光·宁静绕行于无声之轨，寂炼星·激烈在磁场深处奏响挽歌。科学、音乐与大地交织，二星同诞，宇宙于静谧与炽烈间，续写无字史诗。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜极光·宁静",
+        "type_cn": "卫星",
+        "id": "body_0076"
+      },
+      {
+        "name": "寂炼星·激烈",
+        "type_cn": "磁星",
+        "id": "body_0077"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "激烈": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "music": 2,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]
