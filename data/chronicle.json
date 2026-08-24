@@ -537,5 +537,19 @@
     "event": "genesis",
     "body_id": "body_0077",
     "summary": "第77纪元：science×music碰撞，诞生磁星「寂炼星·激烈」"
+  },
+  {
+    "epoch": 78,
+    "timestamp": "2026-08-24T18:37:17",
+    "event": "genesis",
+    "body_id": "body_0078",
+    "summary": "第78纪元：myth×astronomy碰撞，诞生耀变体「辉坠落·激越」"
+  },
+  {
+    "epoch": 79,
+    "timestamp": "2026-08-24T18:37:27",
+    "event": "genesis",
+    "body_id": "body_0079",
+    "summary": "第79纪元：science×cinema碰撞，诞生虚空「辉时间·苍凉」"
   }
 ]

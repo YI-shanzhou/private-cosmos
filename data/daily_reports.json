@@ -363,5 +363,35 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-24",
+    "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉坠落·激越",
+        "type_cn": "耀变体",
+        "id": "body_0078"
+      },
+      {
+        "name": "辉时间·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0079"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "激越": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "cinema": 1,
+      "astronomy": 1,
+      "science": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ]

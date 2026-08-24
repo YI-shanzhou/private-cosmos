@@ -178,6 +178,48 @@
     "fetched_at": "2026-08-06T23:56:32.634738"
   },
   {
+    "date": "2002-05-02",
+    "title": "Arp 188 and the Tadpole's Tidal Tail",
+    "url": "https://apod.nasa.gov/apod/image/0205/tadpole_hst_big.jpg",
+    "local_path": "assets/apod/apod_2002-05-02.jpg",
+    "explanation": "In this stunning vista recorded with the Hubble Space Telescope's new advanced camera, distant galaxies form a dramatic backdrop for disrupted spiral galaxy Arp 188, the Tadpole Galaxy. The cosmic Tadpole is a mere 420 million light-years distant toward the northern constellation Draco. Its eye-catching tail is about 280 thousand light-years long and features massive, bright blue star clusters. One story goes that a more compact intruder galaxy crossed in front of Arp 188 - from left to right in",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-24T18:37:11.982594"
+  },
+  {
     "date": "2004-02-20",
     "title": "SN1987A's Cosmic Pearls",
     "url": "https://apod.nasa.gov/apod/image/0402/sn1987a_acsHubble_full.jpg",

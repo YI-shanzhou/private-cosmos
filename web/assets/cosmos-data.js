@@ -3720,6 +3720,119 @@ window.COSMOS_DATA = [
       "size": 0.43,
       "luminosity": 0.58
     }
+  },
+  {
+    "id": "body_0078",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "辉坠落·激越",
+    "epoch": 78,
+    "born_at": "2026-08-24T18:37:17",
+    "collision_text": "蜡翼烧尽时，水星正擦过月亮的暗面，坠落成为宇宙的另一种相遇。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_17",
+      "apo_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "坠落",
+        "行星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.89,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0079",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "辉时间·苍凉",
+    "epoch": 79,
+    "born_at": "2026-08-24T18:37:27",
+    "collision_text": "「时间膨胀：速度越快、引力越强，时间流逝越慢，…」「少年在星空下的麦田中奔跑，追逐一架消失在云层…」「拉赫玛尼诺夫·第二钢琴协奏曲」三者在虚空中相撞，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_11",
+      "cin_19",
+      "mus_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻",
+        "source": "相对论"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "少年在星空下的麦田中奔跑，追逐一架消失在云层的飞机",
+        "source": "《菊次郎的夏天》"
+      },
+      "c": {
+        "domain": "music",
+        "text": "拉赫玛尼诺夫·第二钢琴协奏曲",
+        "source": "拉赫玛尼诺夫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "时间扭曲",
+        "追跑",
+        "重生"
+      ],
+      "domains": [
+        "science",
+        "cinema",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代",
+        "浪漫"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.32,
+      "luminosity": 0.63
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4261,6 +4374,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0077",
     "summary": "第77纪元：science×music碰撞，诞生磁星「寂炼星·激烈」"
+  },
+  {
+    "epoch": 78,
+    "timestamp": "2026-08-24T18:37:17",
+    "event": "genesis",
+    "body_id": "body_0078",
+    "summary": "第78纪元：myth×astronomy碰撞，诞生耀变体「辉坠落·激越」"
+  },
+  {
+    "epoch": 79,
+    "timestamp": "2026-08-24T18:37:27",
+    "event": "genesis",
+    "body_id": "body_0079",
+    "summary": "第79纪元：science×cinema碰撞，诞生虚空「辉时间·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -4441,6 +4568,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
+    "date": "2002-05-02",
+    "title": "Arp 188 and the Tadpole's Tidal Tail",
+    "url": "https://apod.nasa.gov/apod/image/0205/tadpole_hst_big.jpg",
+    "local_path": "assets/apod/apod_2002-05-02.jpg",
+    "explanation": "In this stunning vista recorded with the Hubble Space Telescope's new advanced camera, distant galaxies form a dramatic backdrop for disrupted spiral galaxy Arp 188, the Tadpole Galaxy. The cosmic Tadpole is a mere 420 million light-years distant toward the northern constellation Draco. Its eye-catching tail is about 280 thousand light-years long and features massive, bright blue star clusters. One story goes that a more compact intruder galaxy crossed in front of Arp 188 - from left to right in",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-24T18:37:11.982594"
   },
   {
     "date": "2004-02-20",
@@ -5635,12 +5804,42 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-24",
+    "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉坠落·激越",
+        "type_cn": "耀变体",
+        "id": "body_0078"
+      },
+      {
+        "name": "辉时间·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0079"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "激越": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "cinema": 1,
+      "astronomy": 1,
+      "science": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 77,
-  "chronicle_entries": 77,
-  "daily_report_count": 11,
+  "total_bodies": 79,
+  "chronicle_entries": 79,
+  "daily_report_count": 12,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
@@ -5659,17 +5858,19 @@ window.COSMOS_STATS = {
     "星团": 2,
     "类星体": 2,
     "虫洞": 2,
-    "磁星": 1
+    "磁星": 1,
+    "耀变体": 1,
+    "虚空": 1
   },
   "mood_distribution": {
     "壮阔": 39,
-    "苍凉": 32,
-    "宁静": 31,
-    "诡谲": 27,
-    "孤寂": 24,
+    "苍凉": 34,
+    "宁静": 32,
+    "诡谲": 28,
+    "孤寂": 25,
     "激烈": 22,
-    "未知": 18,
-    "激越": 11,
+    "未知": 19,
+    "激越": 12,
     "辽阔": 10,
     "神秘": 6,
     "希望": 4,
@@ -5679,13 +5880,13 @@ window.COSMOS_STATS = {
     "literature": 37,
     "art": 29,
     "philosophy": 29,
-    "myth": 25,
-    "astronomy": 19,
+    "myth": 26,
+    "astronomy": 20,
+    "music": 6,
     "history": 5,
-    "music": 5,
+    "science": 5,
     "geography": 4,
-    "science": 4,
-    "cinema": 2
+    "cinema": 3
   },
   "generation": {
     "max_generation": 2,

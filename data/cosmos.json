@@ -3719,5 +3719,118 @@
       "size": 0.43,
       "luminosity": 0.58
     }
+  },
+  {
+    "id": "body_0078",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "辉坠落·激越",
+    "epoch": 78,
+    "born_at": "2026-08-24T18:37:17",
+    "collision_text": "蜡翼烧尽时，水星正擦过月亮的暗面，坠落成为宇宙的另一种相遇。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_17",
+      "apo_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "伊卡洛斯飞近太阳，蜡翼融化，坠入大海",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Moon Meets Mercury",
+        "source": "NASA APOD 2008-05-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "坠落",
+        "行星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.89,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0079",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "辉时间·苍凉",
+    "epoch": 79,
+    "born_at": "2026-08-24T18:37:27",
+    "collision_text": "「时间膨胀：速度越快、引力越强，时间流逝越慢，…」「少年在星空下的麦田中奔跑，追逐一架消失在云层…」「拉赫玛尼诺夫·第二钢琴协奏曲」三者在虚空中相撞，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_11",
+      "cin_19",
+      "mus_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻",
+        "source": "相对论"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "少年在星空下的麦田中奔跑，追逐一架消失在云层的飞机",
+        "source": "《菊次郎的夏天》"
+      },
+      "c": {
+        "domain": "music",
+        "text": "拉赫玛尼诺夫·第二钢琴协奏曲",
+        "source": "拉赫玛尼诺夫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "时间扭曲",
+        "追跑",
+        "重生"
+      ],
+      "domains": [
+        "science",
+        "cinema",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代",
+        "浪漫"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.32,
+      "luminosity": 0.63
+    }
   }
 ]
