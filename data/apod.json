@@ -779,6 +779,44 @@
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2019-03-08",
+    "title": "Stardust and Starlight in M78",
+    "url": "https://apod.nasa.gov/apod/image/1903/M78_RGBwright.jpg",
+    "local_path": "assets/apod/apod_2019-03-08.jpg",
+    "explanation": "Interstellar dust clouds and bright nebulae abound in the fertile constellation of Orion. One of the brightest, M78, is near the center in this colorful telescopic view, covering an area north of Orion's belt. At a distance of about 1,500 light-years, the bluish nebula itself is about 5 light-years across. Its blue tint is due to dust preferentially reflecting the blue light of hot, young stars in the region. Dark dust lanes and other nebulae can easily be traced through the gorgeous skyscape th",
+    "tags": {
+      "colors": [
+        "#301030",
+        "#101030",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-25T18:36:44.464476"
+  },
+  {
     "date": "2020-10-30",
     "title": "Fear and Dread: The Moons of Mars",
     "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",

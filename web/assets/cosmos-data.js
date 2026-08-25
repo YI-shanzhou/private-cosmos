@@ -3833,6 +3833,126 @@ window.COSMOS_DATA = [
       "size": 0.32,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0080",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "墟知音·孤寂·子",
+    "epoch": 80,
+    "born_at": "2026-08-25T18:36:46",
+    "collision_text": "彗尾扫过荒寂星环，月亮的缺席也在涌现——存在不过是一次擦肩的显形。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_28",
+      "phi_28"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Comet, Planet, Moon",
+        "source": "NASA APOD 2024-04-29"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在是一种涌现，而非一种状态",
+        "source": "海德格尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "神秘",
+        "壮阔"
+      ],
+      "themes": [
+        "恒星",
+        "涌现"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#1da096",
+      "size": 0.42,
+      "luminosity": 0.53
+    },
+    "lineage": {
+      "parent_id": "body_0062",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0081",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊变化·诡谲",
+    "epoch": 81,
+    "born_at": "2026-08-25T18:36:49",
+    "collision_text": "星光与尘埃皆流自同一未知之河，你踏进的瞬间，位置与动量早已在波函数里失语。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "phi_01",
+      "apo_21",
+      "sci_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "人不能两次踏入同一条河流",
+        "source": "赫拉克利特"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Galaxy, Stars, and Dust",
+        "source": "NASA APOD 2015-10-12"
+      },
+      "c": {
+        "domain": "science",
+        "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的",
+        "source": "海森堡不确定性原理"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "壮阔",
+        "辽阔",
+        "未知"
+      ],
+      "themes": [
+        "变化",
+        "星云",
+        "不确定"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.64,
+      "luminosity": 0.28
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4388,6 +4508,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0079",
     "summary": "第79纪元：science×cinema碰撞，诞生虚空「辉时间·苍凉」"
+  },
+  {
+    "epoch": 80,
+    "timestamp": "2026-08-25T18:36:46",
+    "event": "lineage",
+    "body_id": "body_0080",
+    "summary": "第80纪元：卫星「墟知音·宁静」繁衍出第1代子嗣——彗星「墟知音·孤寂·子」"
+  },
+  {
+    "epoch": 81,
+    "timestamp": "2026-08-25T18:36:49",
+    "event": "genesis",
+    "body_id": "body_0081",
+    "summary": "第81纪元：philosophy×astronomy碰撞，诞生虫洞「渊变化·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -5171,6 +5305,44 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2019-03-08",
+    "title": "Stardust and Starlight in M78",
+    "url": "https://apod.nasa.gov/apod/image/1903/M78_RGBwright.jpg",
+    "local_path": "assets/apod/apod_2019-03-08.jpg",
+    "explanation": "Interstellar dust clouds and bright nebulae abound in the fertile constellation of Orion. One of the brightest, M78, is near the center in this colorful telescopic view, covering an area north of Orion's belt. At a distance of about 1,500 light-years, the bluish nebula itself is about 5 light-years across. Its blue tint is due to dust preferentially reflecting the blue light of hot, young stars in the region. Dark dust lanes and other nebulae can easily be traced through the gorgeous skyscape th",
+    "tags": {
+      "colors": [
+        "#301030",
+        "#101030",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-25T18:36:44.464476"
+  },
+  {
     "date": "2020-10-30",
     "title": "Fear and Dread: The Moons of Mars",
     "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
@@ -5834,19 +6006,47 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-08-25",
+    "summary": "墟知音·孤寂·子曳尾而过，陨落成诗；渊变化·诡谲悄然裂开，吞吐哲学的微光。一次三体碰撞，繁衍孤寂，宇宙在诡谲中更为深邃。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟知音·孤寂·子",
+        "type_cn": "彗星",
+        "id": "body_0080"
+      },
+      {
+        "name": "渊变化·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0081"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "astronomy": 2,
+      "philosophy": 2,
+      "science": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 79,
-  "chronicle_entries": 79,
-  "daily_report_count": 12,
+  "total_bodies": 81,
+  "chronicle_entries": 81,
+  "daily_report_count": 13,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
+    "彗星": 5,
     "黑洞": 5,
-    "彗星": 4,
     "星系": 4,
     "暗物质": 4,
     "行星": 4,
@@ -5854,45 +6054,45 @@ window.COSMOS_STATS = {
     "超空洞": 4,
     "尘埃云": 3,
     "脉冲星": 3,
+    "虫洞": 3,
     "遗迹": 3,
     "星团": 2,
     "类星体": 2,
-    "虫洞": 2,
     "磁星": 1,
     "耀变体": 1,
     "虚空": 1
   },
   "mood_distribution": {
-    "壮阔": 39,
+    "壮阔": 41,
     "苍凉": 34,
     "宁静": 32,
-    "诡谲": 28,
-    "孤寂": 25,
+    "诡谲": 29,
+    "孤寂": 26,
     "激烈": 22,
-    "未知": 19,
+    "未知": 20,
     "激越": 12,
-    "辽阔": 10,
-    "神秘": 6,
+    "辽阔": 11,
+    "神秘": 7,
     "希望": 4,
     "热闹": 2
   },
   "domain_distribution": {
     "literature": 37,
+    "philosophy": 31,
     "art": 29,
-    "philosophy": 29,
     "myth": 26,
-    "astronomy": 20,
+    "astronomy": 22,
     "music": 6,
+    "science": 6,
     "history": 5,
-    "science": 5,
     "geography": 4,
     "cinema": 3
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 4,
+    "lineage_bodies": 5,
     "distribution": {
-      "第1代": 3,
+      "第1代": 4,
       "第2代": 1
     }
   }

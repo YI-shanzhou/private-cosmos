@@ -551,5 +551,19 @@
     "event": "genesis",
     "body_id": "body_0079",
     "summary": "第79纪元：science×cinema碰撞，诞生虚空「辉时间·苍凉」"
+  },
+  {
+    "epoch": 80,
+    "timestamp": "2026-08-25T18:36:46",
+    "event": "lineage",
+    "body_id": "body_0080",
+    "summary": "第80纪元：卫星「墟知音·宁静」繁衍出第1代子嗣——彗星「墟知音·孤寂·子」"
+  },
+  {
+    "epoch": 81,
+    "timestamp": "2026-08-25T18:36:49",
+    "event": "genesis",
+    "body_id": "body_0081",
+    "summary": "第81纪元：philosophy×astronomy碰撞，诞生虫洞「渊变化·诡谲」"
   }
 ]
