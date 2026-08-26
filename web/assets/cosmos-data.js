@@ -3953,6 +3953,108 @@ window.COSMOS_DATA = [
       "size": 0.64,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0082",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "渺远航·激越",
+    "epoch": 82,
+    "born_at": "2026-08-26T19:46:40",
+    "collision_text": "云帆撞碎铁幕的星海，沧海在锤声中坍缩成自由彼岸",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_30",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长风破浪会有时，直挂云帆济沧海",
+        "source": "李白《行路难》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "希望"
+      ],
+      "themes": [
+        "远航",
+        "解放"
+      ],
+      "domains": [
+        "literature",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "唐",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.79,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0083",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "辉月球·苍凉",
+    "epoch": 83,
+    "born_at": "2026-08-26T19:46:46",
+    "collision_text": "红壤的环隙里，一颗铁原子认出自身：那是某颗恒星临终前，为木星戴上的苍凉指环。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_26",
+      "sci_20"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter and Ring in Infrared from Webb",
+        "source": "NASA APOD 2022-07-20"
+      },
+      "b": {
+        "domain": "science",
+        "text": "你身体里的每一个铁原子，都来自某颗远古恒星临终前的超新星爆发",
+        "source": "天体物理学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "月球",
+        "星尘"
+      ],
+      "domains": [
+        "astronomy",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.57,
+      "luminosity": 0.49
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4522,6 +4624,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0081",
     "summary": "第81纪元：philosophy×astronomy碰撞，诞生虫洞「渊变化·诡谲」"
+  },
+  {
+    "epoch": 82,
+    "timestamp": "2026-08-26T19:46:40",
+    "event": "genesis",
+    "body_id": "body_0082",
+    "summary": "第82纪元：literature×history碰撞，诞生类星体「渺远航·激越」"
+  },
+  {
+    "epoch": 83,
+    "timestamp": "2026-08-26T19:46:46",
+    "event": "genesis",
+    "body_id": "body_0083",
+    "summary": "第83纪元：astronomy×science碰撞，诞生遗迹「辉月球·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -4914,6 +5030,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-19T18:32:14.720521"
+  },
+  {
+    "date": "2007-10-10",
+    "title": "The Strange Trailing Side of Saturn's Iapetus",
+    "url": "https://apod.nasa.gov/apod/image/0710/iapetus2_cassini_big.jpg",
+    "local_path": "assets/apod/apod_2007-10-10.jpg",
+    "explanation": "What has happened to Saturn's moon Iapetus?  Vast sections of this strange world are dark as coal, while others are as bright as ice.  The composition of the dark material is unknown, but infrared spectra indicate that it possibly contains some dark form of carbon.  Iapetus also has an unusual equatorial ridge that makes it appear like a walnut.  To help better understand this mysterious moon, NASA directed the robotic Cassini spacecraft orbiting Saturn to swoop within 2,000 kilometers just last",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#b0b0b0",
+        "#909090"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-26T19:46:39.022666"
   },
   {
     "date": "2008-05-09",
@@ -6034,12 +6183,41 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-08-26",
+    "summary": "今日宇宙裂开两道诗行：类星体“渺远航·激越”以光焰书写航史，遗迹“辉月球·苍凉”静默如古籍余温。激越与苍凉交轨，天文在尘埃里梦见文学。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺远航·激越",
+        "type_cn": "类星体",
+        "id": "body_0082"
+      },
+      {
+        "name": "辉月球·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0083"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "literature": 1,
+      "astronomy": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 81,
-  "chronicle_entries": 81,
-  "daily_report_count": 13,
+  "total_bodies": 83,
+  "chronicle_entries": 83,
+  "daily_report_count": 14,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
@@ -6052,39 +6230,39 @@ window.COSMOS_STATS = {
     "行星": 4,
     "超新星": 4,
     "超空洞": 4,
+    "遗迹": 4,
     "尘埃云": 3,
+    "类星体": 3,
     "脉冲星": 3,
     "虫洞": 3,
-    "遗迹": 3,
     "星团": 2,
-    "类星体": 2,
     "磁星": 1,
     "耀变体": 1,
     "虚空": 1
   },
   "mood_distribution": {
-    "壮阔": 41,
-    "苍凉": 34,
+    "壮阔": 43,
+    "苍凉": 35,
     "宁静": 32,
     "诡谲": 29,
     "孤寂": 26,
     "激烈": 22,
     "未知": 20,
-    "激越": 12,
+    "激越": 13,
     "辽阔": 11,
     "神秘": 7,
-    "希望": 4,
+    "希望": 5,
     "热闹": 2
   },
   "domain_distribution": {
-    "literature": 37,
+    "literature": 38,
     "philosophy": 31,
     "art": 29,
     "myth": 26,
-    "astronomy": 22,
+    "astronomy": 23,
+    "science": 7,
+    "history": 6,
     "music": 6,
-    "science": 6,
-    "history": 5,
     "geography": 4,
     "cinema": 3
   },

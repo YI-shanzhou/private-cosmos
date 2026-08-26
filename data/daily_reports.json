@@ -421,5 +421,34 @@
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-08-26",
+    "summary": "今日宇宙裂开两道诗行：类星体“渺远航·激越”以光焰书写航史，遗迹“辉月球·苍凉”静默如古籍余温。激越与苍凉交轨，天文在尘埃里梦见文学。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺远航·激越",
+        "type_cn": "类星体",
+        "id": "body_0082"
+      },
+      {
+        "name": "辉月球·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0083"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "literature": 1,
+      "astronomy": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

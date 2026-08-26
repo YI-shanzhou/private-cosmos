@@ -390,6 +390,39 @@
     "fetched_at": "2026-08-19T18:32:14.720521"
   },
   {
+    "date": "2007-10-10",
+    "title": "The Strange Trailing Side of Saturn's Iapetus",
+    "url": "https://apod.nasa.gov/apod/image/0710/iapetus2_cassini_big.jpg",
+    "local_path": "assets/apod/apod_2007-10-10.jpg",
+    "explanation": "What has happened to Saturn's moon Iapetus?  Vast sections of this strange world are dark as coal, while others are as bright as ice.  The composition of the dark material is unknown, but infrared spectra indicate that it possibly contains some dark form of carbon.  Iapetus also has an unusual equatorial ridge that makes it appear like a walnut.  To help better understand this mysterious moon, NASA directed the robotic Cassini spacecraft orbiting Saturn to swoop within 2,000 kilometers just last",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#b0b0b0",
+        "#909090"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-26T19:46:39.022666"
+  },
+  {
     "date": "2008-05-09",
     "title": "Moon Meets Mercury",
     "url": "https://apod.nasa.gov/apod/image/0805/MercuryandMoon2_heden.jpg",

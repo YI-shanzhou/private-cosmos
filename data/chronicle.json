@@ -565,5 +565,19 @@
     "event": "genesis",
     "body_id": "body_0081",
     "summary": "第81纪元：philosophy×astronomy碰撞，诞生虫洞「渊变化·诡谲」"
+  },
+  {
+    "epoch": 82,
+    "timestamp": "2026-08-26T19:46:40",
+    "event": "genesis",
+    "body_id": "body_0082",
+    "summary": "第82纪元：literature×history碰撞，诞生类星体「渺远航·激越」"
+  },
+  {
+    "epoch": 83,
+    "timestamp": "2026-08-26T19:46:46",
+    "event": "genesis",
+    "body_id": "body_0083",
+    "summary": "第83纪元：astronomy×science碰撞，诞生遗迹「辉月球·苍凉」"
   }
 ]

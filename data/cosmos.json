@@ -3952,5 +3952,107 @@
       "size": 0.64,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0082",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "渺远航·激越",
+    "epoch": 82,
+    "born_at": "2026-08-26T19:46:40",
+    "collision_text": "云帆撞碎铁幕的星海，沧海在锤声中坍缩成自由彼岸",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_30",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "长风破浪会有时，直挂云帆济沧海",
+        "source": "李白《行路难》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "希望"
+      ],
+      "themes": [
+        "远航",
+        "解放"
+      ],
+      "domains": [
+        "literature",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "唐",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.79,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0083",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "辉月球·苍凉",
+    "epoch": 83,
+    "born_at": "2026-08-26T19:46:46",
+    "collision_text": "红壤的环隙里，一颗铁原子认出自身：那是某颗恒星临终前，为木星戴上的苍凉指环。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_26",
+      "sci_20"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter and Ring in Infrared from Webb",
+        "source": "NASA APOD 2022-07-20"
+      },
+      "b": {
+        "domain": "science",
+        "text": "你身体里的每一个铁原子，都来自某颗远古恒星临终前的超新星爆发",
+        "source": "天体物理学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "月球",
+        "星尘"
+      ],
+      "domains": [
+        "astronomy",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.57,
+      "luminosity": 0.49
+    }
   }
 ]
