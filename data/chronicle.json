@@ -579,5 +579,19 @@
     "event": "genesis",
     "body_id": "body_0083",
     "summary": "第83纪元：astronomy×science碰撞，诞生遗迹「辉月球·苍凉」"
+  },
+  {
+    "epoch": 84,
+    "timestamp": "2026-08-28T02:02:11",
+    "event": "genesis",
+    "body_id": "body_0084",
+    "summary": "第84纪元：science×astronomy碰撞，诞生虚空「幽编辑·孤寂」"
+  },
+  {
+    "epoch": 85,
+    "timestamp": "2026-08-28T02:02:14",
+    "event": "genesis",
+    "body_id": "body_0085",
+    "summary": "第85纪元：geography×cinema碰撞，诞生暗物质「茫盐海·诡谲」"
   }
 ]

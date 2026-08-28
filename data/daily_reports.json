@@ -450,5 +450,34 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-28",
+    "summary": "今日虚空深处，两粒孤独的种子悄然绽开：幽编辑·孤寂凝结成无声的胶片，茫盐海·诡谲在暗物质潮汐中铺展谜样的盐图。宇宙于沉默中，添了两笔未解的隐喻。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽编辑·孤寂",
+        "type_cn": "虚空",
+        "id": "body_0084"
+      },
+      {
+        "name": "茫盐海·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0085"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "science": 1,
+      "geography": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

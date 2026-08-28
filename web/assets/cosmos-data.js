@@ -4055,6 +4055,109 @@ window.COSMOS_DATA = [
       "size": 0.57,
       "luminosity": 0.49
     }
+  },
+  {
+    "id": "body_0084",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "幽编辑·孤寂",
+    "epoch": 84,
+    "born_at": "2026-08-28T02:02:11",
+    "collision_text": "流星在银河的基因组里剪切孤寂，世间从此有了会写诗的基因。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_28",
+      "apo_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因",
+        "source": "基因工程"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "激烈"
+      ],
+      "themes": [
+        "编辑",
+        "恒星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.53,
+      "luminosity": 0.48
+    }
+  },
+  {
+    "id": "body_0085",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "茫盐海·诡谲",
+    "epoch": 85,
+    "born_at": "2026-08-28T02:02:14",
+    "collision_text": "盐层凝成灯塔，金光在死海深处溶解记忆，人静卧于永不沉没的矿物蓝上。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_06",
+      "cin_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静",
+        "神秘"
+      ],
+      "themes": [
+        "盐海",
+        "湮灭"
+      ],
+      "domains": [
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.72,
+      "luminosity": 0.5
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4638,6 +4741,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0083",
     "summary": "第83纪元：astronomy×science碰撞，诞生遗迹「辉月球·苍凉」"
+  },
+  {
+    "epoch": 84,
+    "timestamp": "2026-08-28T02:02:11",
+    "event": "genesis",
+    "body_id": "body_0084",
+    "summary": "第84纪元：science×astronomy碰撞，诞生虚空「幽编辑·孤寂」"
+  },
+  {
+    "epoch": 85,
+    "timestamp": "2026-08-28T02:02:14",
+    "event": "genesis",
+    "body_id": "body_0085",
+    "summary": "第85纪元：geography×cinema碰撞，诞生暗物质「茫盐海·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -5030,6 +5147,49 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-19T18:32:14.720521"
+  },
+  {
+    "date": "2007-05-11",
+    "title": "LDN 1622: Dark Nebula in Orion",
+    "url": "https://apod.nasa.gov/apod/image/0705/ldn1622_carboni.jpg",
+    "local_path": "assets/apod/apod_2007-05-11.jpg",
+    "explanation": "The silhouette of an intriguing dark nebula inhabits this cosmic scene, based on images from the Palomar Observatory Sky Survey. Lynds' Dark Nebula (LDN) 1622 appears against a faint background of glowing hydrogen gas only easily seen in long telescopic exposures of the region. LDN 1622 lies near the plane of our Milky Way Galaxy, close on the sky to Barnard's Loop - a large cloud surrounding the rich complex of emission nebulae found in the Belt and Sword of Orion. But the obscuring dust of LDN",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-28T02:02:08.981289"
   },
   {
     "date": "2007-10-10",
@@ -6212,21 +6372,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-28",
+    "summary": "今日虚空深处，两粒孤独的种子悄然绽开：幽编辑·孤寂凝结成无声的胶片，茫盐海·诡谲在暗物质潮汐中铺展谜样的盐图。宇宙于沉默中，添了两笔未解的隐喻。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽编辑·孤寂",
+        "type_cn": "虚空",
+        "id": "body_0084"
+      },
+      {
+        "name": "茫盐海·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0085"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "science": 1,
+      "geography": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 83,
-  "chronicle_entries": 83,
-  "daily_report_count": 14,
+  "total_bodies": 85,
+  "chronicle_entries": 85,
+  "daily_report_count": 15,
   "type_distribution": {
     "流浪行星": 9,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
     "彗星": 5,
+    "暗物质": 5,
     "黑洞": 5,
     "星系": 4,
-    "暗物质": 4,
     "行星": 4,
     "超新星": 4,
     "超空洞": 4,
@@ -6236,22 +6425,22 @@ window.COSMOS_STATS = {
     "脉冲星": 3,
     "虫洞": 3,
     "星团": 2,
+    "虚空": 2,
     "磁星": 1,
-    "耀变体": 1,
-    "虚空": 1
+    "耀变体": 1
   },
   "mood_distribution": {
     "壮阔": 43,
     "苍凉": 35,
-    "宁静": 32,
-    "诡谲": 29,
-    "孤寂": 26,
-    "激烈": 22,
+    "宁静": 33,
+    "诡谲": 30,
+    "孤寂": 27,
+    "激烈": 23,
     "未知": 20,
     "激越": 13,
     "辽阔": 11,
-    "神秘": 7,
-    "希望": 5,
+    "神秘": 8,
+    "希望": 6,
     "热闹": 2
   },
   "domain_distribution": {
@@ -6259,12 +6448,12 @@ window.COSMOS_STATS = {
     "philosophy": 31,
     "art": 29,
     "myth": 26,
-    "astronomy": 23,
-    "science": 7,
+    "astronomy": 24,
+    "science": 8,
     "history": 6,
     "music": 6,
-    "geography": 4,
-    "cinema": 3
+    "geography": 5,
+    "cinema": 4
   },
   "generation": {
     "max_generation": 2,

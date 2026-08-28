@@ -4054,5 +4054,108 @@
       "size": 0.57,
       "luminosity": 0.49
     }
+  },
+  {
+    "id": "body_0084",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "幽编辑·孤寂",
+    "epoch": 84,
+    "born_at": "2026-08-28T02:02:11",
+    "collision_text": "流星在银河的基因组里剪切孤寂，世间从此有了会写诗的基因。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_28",
+      "apo_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因",
+        "source": "基因工程"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "激烈"
+      ],
+      "themes": [
+        "编辑",
+        "恒星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.53,
+      "luminosity": 0.48
+    }
+  },
+  {
+    "id": "body_0085",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "茫盐海·诡谲",
+    "epoch": 85,
+    "born_at": "2026-08-28T02:02:14",
+    "collision_text": "盐层凝成灯塔，金光在死海深处溶解记忆，人静卧于永不沉没的矿物蓝上。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_06",
+      "cin_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静",
+        "神秘"
+      ],
+      "themes": [
+        "盐海",
+        "湮灭"
+      ],
+      "domains": [
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.72,
+      "luminosity": 0.5
+    }
   }
 ]

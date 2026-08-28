@@ -390,6 +390,49 @@
     "fetched_at": "2026-08-19T18:32:14.720521"
   },
   {
+    "date": "2007-05-11",
+    "title": "LDN 1622: Dark Nebula in Orion",
+    "url": "https://apod.nasa.gov/apod/image/0705/ldn1622_carboni.jpg",
+    "local_path": "assets/apod/apod_2007-05-11.jpg",
+    "explanation": "The silhouette of an intriguing dark nebula inhabits this cosmic scene, based on images from the Palomar Observatory Sky Survey. Lynds' Dark Nebula (LDN) 1622 appears against a faint background of glowing hydrogen gas only easily seen in long telescopic exposures of the region. LDN 1622 lies near the plane of our Milky Way Galaxy, close on the sky to Barnard's Loop - a large cloud surrounding the rich complex of emission nebulae found in the Belt and Sword of Orion. But the obscuring dust of LDN",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-28T02:02:08.981289"
+  },
+  {
     "date": "2007-10-10",
     "title": "The Strange Trailing Side of Saturn's Iapetus",
     "url": "https://apod.nasa.gov/apod/image/0710/iapetus2_cassini_big.jpg",
