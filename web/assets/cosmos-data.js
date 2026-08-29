@@ -4158,6 +4158,125 @@ window.COSMOS_DATA = [
       "size": 0.72,
       "luminosity": 0.5
     }
+  },
+  {
+    "id": "body_0086",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜月球·未知",
+    "epoch": 86,
+    "born_at": "2026-08-29T01:28:30",
+    "collision_text": "「The Strange Trailing S…」穿过「牛郎织女隔银河相望，每年七夕鹊桥相会一次」和「进化论：生命通过自然选择从单细胞演化出千万形…」，在混沌中凝成未知的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_15",
+      "myth_14",
+      "sci_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "The Strange Trailing Side of Saturn's Iapetus",
+        "source": "NASA APOD 2007-10-10"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+        "source": "中国神话"
+      },
+      "c": {
+        "domain": "science",
+        "text": "进化论：生命通过自然选择从单细胞演化出千万形态，没有设计者却造就了无限精妙",
+        "source": "达尔文进化论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "孤寂",
+        "希望",
+        "壮阔"
+      ],
+      "themes": [
+        "月球",
+        "相思",
+        "演化"
+      ],
+      "domains": [
+        "astronomy",
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.72,
+      "luminosity": 0.55
+    }
+  },
+  {
+    "id": "body_0087",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜月球·诡谲·子",
+    "epoch": 87,
+    "born_at": "2026-08-29T01:28:32",
+    "collision_text": "金星二度映照河面时，流水已不是第一次看见光的那双眼。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_12",
+      "phi_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Venus: Just Passing By",
+        "source": "NASA APOD 2005-06-25"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "人不能两次踏入同一条河流",
+        "source": "赫拉克利特"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "未知"
+      ],
+      "themes": [
+        "行星",
+        "变化"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊"
+      ]
+    },
+    "visual": {
+      "color": "#9d8896",
+      "size": 0.76,
+      "luminosity": 0.7
+    },
+    "lineage": {
+      "parent_id": "body_0086",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4755,9 +4874,43 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0085",
     "summary": "第85纪元：geography×cinema碰撞，诞生暗物质「茫盐海·诡谲」"
+  },
+  {
+    "epoch": 86,
+    "timestamp": "2026-08-29T01:28:30",
+    "event": "genesis",
+    "body_id": "body_0086",
+    "summary": "第86纪元：astronomy×myth碰撞，诞生流浪行星「澜月球·未知」"
+  },
+  {
+    "epoch": 87,
+    "timestamp": "2026-08-29T01:28:32",
+    "event": "lineage",
+    "body_id": "body_0087",
+    "summary": "第87纪元：流浪行星「澜月球·未知」繁衍出第1代子嗣——流浪行星「澜月球·诡谲·子」"
   }
 ];
 window.APOD_DATA = [
+  {
+    "date": "1995-11-11",
+    "title": "Red Sprite Lightning",
+    "url": "https://apod.nasa.gov/apod/image/redsprite.gif",
+    "local_path": "assets/apod/apod_1995-11-11.jpg",
+    "explanation": "Recently two new types of lightning have been verified: red sprites and blue jets.  These atmospheric discharges occur very high in the Earth's atmosphere - much higher than the familiar form of lightning. Red sprites appear red in color and go from the tops of clouds to as high as the ionosphere - an ionized layer 90 kilometers above the Earth's surface. They last only a small fraction of a second.  The existence of red sprites has been suggested previously, but only in 1994 were aircraft flown",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#101030",
+        "#301010"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-29T01:28:21.854045"
+  },
   {
     "date": "1997-01-09",
     "title": "Hazing Jupiter",
@@ -6401,14 +6554,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-29",
+    "summary": "今日宇宙双生流浪者——“澜月球·未知”与",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜月球·未知",
+        "type_cn": "流浪行星",
+        "id": "body_0086"
+      },
+      {
+        "name": "澜月球·诡谲·子",
+        "type_cn": "流浪行星",
+        "id": "body_0087"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "philosophy": 1,
+      "science": 1,
+      "astronomy": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 85,
-  "chronicle_entries": 85,
-  "daily_report_count": 15,
+  "total_bodies": 87,
+  "chronicle_entries": 87,
+  "daily_report_count": 16,
   "type_distribution": {
-    "流浪行星": 9,
+    "流浪行星": 11,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
@@ -6430,26 +6612,26 @@ window.COSMOS_STATS = {
     "耀变体": 1
   },
   "mood_distribution": {
-    "壮阔": 43,
+    "壮阔": 44,
     "苍凉": 35,
     "宁静": 33,
-    "诡谲": 30,
-    "孤寂": 27,
+    "诡谲": 31,
+    "孤寂": 28,
     "激烈": 23,
-    "未知": 20,
+    "未知": 22,
     "激越": 13,
     "辽阔": 11,
     "神秘": 8,
-    "希望": 6,
+    "希望": 7,
     "热闹": 2
   },
   "domain_distribution": {
     "literature": 38,
-    "philosophy": 31,
+    "philosophy": 32,
     "art": 29,
-    "myth": 26,
-    "astronomy": 24,
-    "science": 8,
+    "myth": 27,
+    "astronomy": 26,
+    "science": 9,
     "history": 6,
     "music": 6,
     "geography": 5,
@@ -6457,9 +6639,9 @@ window.COSMOS_STATS = {
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 5,
+    "lineage_bodies": 6,
     "distribution": {
-      "第1代": 4,
+      "第1代": 5,
       "第2代": 1
     }
   }

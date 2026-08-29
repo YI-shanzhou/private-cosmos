@@ -479,5 +479,34 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-29",
+    "summary": "今日宇宙双生流浪者——“澜月球·未知”与",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜月球·未知",
+        "type_cn": "流浪行星",
+        "id": "body_0086"
+      },
+      {
+        "name": "澜月球·诡谲·子",
+        "type_cn": "流浪行星",
+        "id": "body_0087"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "philosophy": 1,
+      "science": 1,
+      "astronomy": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ]

@@ -1,5 +1,25 @@
 [
   {
+    "date": "1995-11-11",
+    "title": "Red Sprite Lightning",
+    "url": "https://apod.nasa.gov/apod/image/redsprite.gif",
+    "local_path": "assets/apod/apod_1995-11-11.jpg",
+    "explanation": "Recently two new types of lightning have been verified: red sprites and blue jets.  These atmospheric discharges occur very high in the Earth's atmosphere - much higher than the familiar form of lightning. Red sprites appear red in color and go from the tops of clouds to as high as the ionosphere - an ionized layer 90 kilometers above the Earth's surface. They last only a small fraction of a second.  The existence of red sprites has been suggested previously, but only in 1994 were aircraft flown",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#101030",
+        "#301010"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-29T01:28:21.854045"
+  },
+  {
     "date": "1997-01-09",
     "title": "Hazing Jupiter",
     "url": "https://apod.nasa.gov/apod/image/9701/juphaze_gal_big.jpg",

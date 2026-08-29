@@ -593,5 +593,19 @@
     "event": "genesis",
     "body_id": "body_0085",
     "summary": "第85纪元：geography×cinema碰撞，诞生暗物质「茫盐海·诡谲」"
+  },
+  {
+    "epoch": 86,
+    "timestamp": "2026-08-29T01:28:30",
+    "event": "genesis",
+    "body_id": "body_0086",
+    "summary": "第86纪元：astronomy×myth碰撞，诞生流浪行星「澜月球·未知」"
+  },
+  {
+    "epoch": 87,
+    "timestamp": "2026-08-29T01:28:32",
+    "event": "lineage",
+    "body_id": "body_0087",
+    "summary": "第87纪元：流浪行星「澜月球·未知」繁衍出第1代子嗣——流浪行星「澜月球·诡谲·子」"
   }
 ]
