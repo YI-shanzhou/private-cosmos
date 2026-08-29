@@ -4277,6 +4277,109 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0088",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "澜星系·热闹",
+    "epoch": 88,
+    "born_at": "2026-08-29T20:25:42",
+    "collision_text": "石棺般的星系核推动潮汐尾，野马在辐射森林的蹄印化作星尘，孤寂地游过无人深空。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_08",
+      "his_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Arp 188 and the Tadpole's Tidal Tail",
+        "source": "NASA APOD 2002-05-02"
+      },
+      "b": {
+        "domain": "history",
+        "text": "切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森林里野马在无人区自由奔跑",
+        "source": "切尔诺贝利核事故·1986年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "热闹",
+        "辽阔",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "星系",
+        "禁区"
+      ],
+      "domains": [
+        "astronomy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.36,
+      "luminosity": 0.87
+    }
+  },
+  {
+    "id": "body_0089",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "弦意识·壮阔",
+    "epoch": 89,
+    "born_at": "2026-08-29T20:25:50",
+    "collision_text": "意识裂开时，八百六十亿道电光如五色石补缀穹苍，断鳌足撑起知觉的四极。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_15",
+      "myth_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "意识",
+        "修补"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.93,
+      "luminosity": 0.6
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -4888,6 +4991,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0087",
     "summary": "第87纪元：流浪行星「澜月球·未知」繁衍出第1代子嗣——流浪行星「澜月球·诡谲·子」"
+  },
+  {
+    "epoch": 88,
+    "timestamp": "2026-08-29T20:25:42",
+    "event": "genesis",
+    "body_id": "body_0088",
+    "summary": "第88纪元：astronomy×history碰撞，诞生尘埃云「澜星系·热闹」"
+  },
+  {
+    "epoch": 89,
+    "timestamp": "2026-08-29T20:25:50",
+    "event": "genesis",
+    "body_id": "body_0089",
+    "summary": "第89纪元：science×myth碰撞，诞生星系「弦意识·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -5767,6 +5884,48 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2019-02-07",
+    "title": "Fox Fur, Unicorn, and Christmas Tree",
+    "url": "https://apod.nasa.gov/apod/image/1902/FoxFur_new_color_2048px.jpg",
+    "local_path": "assets/apod/apod_2019-02-07.jpg",
+    "explanation": "Clouds of glowing hydrogen gas fill this colorful skyscape in the faint but fanciful constellation Monoceros, the Unicorn. A star forming region cataloged as NGC 2264, the complex jumble of cosmic gas and dust is about 2,700 light-years distant and mixes reddish emission nebulae excited by energetic light from newborn stars with dark interstellar dust clouds. Where the otherwise obscuring dust clouds lie close to the hot, young stars they also reflect starlight, forming blue reflection nebulae. ",
+    "tags": {
+      "colors": [
+        "#301010",
+        "#501030",
+        "#301030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-29T20:25:39.878410"
+  },
+  {
     "date": "2019-03-08",
     "title": "Stardust and Starlight in M78",
     "url": "https://apod.nasa.gov/apod/image/1903/M78_RGBwright.jpg",
@@ -6557,8 +6716,8 @@ window.DAILY_REPORTS = [
   },
   {
     "date": "2026-08-29",
-    "summary": "今日宇宙双生流浪者——“澜月球·未知”与",
-    "body_count": 2,
+    "summary": "今日宇宙又长大了——2颗新天体在science、myth、astronomy、history领域的碰撞中诞生。尘埃云、星系们带着热闹、壮阔的情绪，在星空中找到了自己的位置。",
+    "body_count": 4,
     "new_bodies": [
       {
         "name": "澜月球·未知",
@@ -6569,25 +6728,38 @@ window.DAILY_REPORTS = [
         "name": "澜月球·诡谲·子",
         "type_cn": "流浪行星",
         "id": "body_0087"
+      },
+      {
+        "name": "澜星系·热闹",
+        "type_cn": "尘埃云",
+        "id": "body_0088"
+      },
+      {
+        "name": "弦意识·壮阔",
+        "type_cn": "星系",
+        "id": "body_0089"
       }
     ],
     "mood_distribution": {
       "未知": 1,
-      "诡谲": 1
+      "诡谲": 1,
+      "热闹": 1,
+      "壮阔": 1
     },
     "domain_distribution": {
-      "myth": 1,
+      "myth": 2,
       "philosophy": 1,
-      "science": 1,
-      "astronomy": 2
+      "science": 2,
+      "astronomy": 3,
+      "history": 1
     },
     "lineage_count": 1,
     "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 87,
-  "chronicle_entries": 87,
+  "total_bodies": 89,
+  "chronicle_entries": 89,
   "daily_report_count": 16,
   "type_distribution": {
     "流浪行星": 11,
@@ -6595,14 +6767,14 @@ window.COSMOS_STATS = {
     "卫星": 7,
     "星云": 7,
     "彗星": 5,
+    "星系": 5,
     "暗物质": 5,
     "黑洞": 5,
-    "星系": 4,
+    "尘埃云": 4,
     "行星": 4,
     "超新星": 4,
     "超空洞": 4,
     "遗迹": 4,
-    "尘埃云": 3,
     "类星体": 3,
     "脉冲星": 3,
     "虫洞": 3,
@@ -6612,27 +6784,27 @@ window.COSMOS_STATS = {
     "耀变体": 1
   },
   "mood_distribution": {
-    "壮阔": 44,
+    "壮阔": 45,
     "苍凉": 35,
     "宁静": 33,
-    "诡谲": 31,
-    "孤寂": 28,
+    "诡谲": 32,
+    "孤寂": 29,
     "激烈": 23,
     "未知": 22,
     "激越": 13,
-    "辽阔": 11,
-    "神秘": 8,
+    "辽阔": 12,
+    "神秘": 9,
     "希望": 7,
-    "热闹": 2
+    "热闹": 3
   },
   "domain_distribution": {
     "literature": 38,
     "philosophy": 32,
     "art": 29,
-    "myth": 27,
-    "astronomy": 26,
-    "science": 9,
-    "history": 6,
+    "myth": 28,
+    "astronomy": 27,
+    "science": 10,
+    "history": 7,
     "music": 6,
     "geography": 5,
     "cinema": 4

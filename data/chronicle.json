@@ -607,5 +607,19 @@
     "event": "lineage",
     "body_id": "body_0087",
     "summary": "第87纪元：流浪行星「澜月球·未知」繁衍出第1代子嗣——流浪行星「澜月球·诡谲·子」"
+  },
+  {
+    "epoch": 88,
+    "timestamp": "2026-08-29T20:25:42",
+    "event": "genesis",
+    "body_id": "body_0088",
+    "summary": "第88纪元：astronomy×history碰撞，诞生尘埃云「澜星系·热闹」"
+  },
+  {
+    "epoch": 89,
+    "timestamp": "2026-08-29T20:25:50",
+    "event": "genesis",
+    "body_id": "body_0089",
+    "summary": "第89纪元：science×myth碰撞，诞生星系「弦意识·壮阔」"
   }
 ]

@@ -875,6 +875,48 @@
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2019-02-07",
+    "title": "Fox Fur, Unicorn, and Christmas Tree",
+    "url": "https://apod.nasa.gov/apod/image/1902/FoxFur_new_color_2048px.jpg",
+    "local_path": "assets/apod/apod_2019-02-07.jpg",
+    "explanation": "Clouds of glowing hydrogen gas fill this colorful skyscape in the faint but fanciful constellation Monoceros, the Unicorn. A star forming region cataloged as NGC 2264, the complex jumble of cosmic gas and dust is about 2,700 light-years distant and mixes reddish emission nebulae excited by energetic light from newborn stars with dark interstellar dust clouds. Where the otherwise obscuring dust clouds lie close to the hot, young stars they also reflect starlight, forming blue reflection nebulae. ",
+    "tags": {
+      "colors": [
+        "#301010",
+        "#501030",
+        "#301030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-29T20:25:39.878410"
+  },
+  {
     "date": "2019-03-08",
     "title": "Stardust and Starlight in M78",
     "url": "https://apod.nasa.gov/apod/image/1903/M78_RGBwright.jpg",

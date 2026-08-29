@@ -482,8 +482,8 @@
   },
   {
     "date": "2026-08-29",
-    "summary": "今日宇宙双生流浪者——“澜月球·未知”与",
-    "body_count": 2,
+    "summary": "今日宇宙又长大了——2颗新天体在science、myth、astronomy、history领域的碰撞中诞生。尘埃云、星系们带着热闹、壮阔的情绪，在星空中找到了自己的位置。",
+    "body_count": 4,
     "new_bodies": [
       {
         "name": "澜月球·未知",
@@ -494,17 +494,30 @@
         "name": "澜月球·诡谲·子",
         "type_cn": "流浪行星",
         "id": "body_0087"
+      },
+      {
+        "name": "澜星系·热闹",
+        "type_cn": "尘埃云",
+        "id": "body_0088"
+      },
+      {
+        "name": "弦意识·壮阔",
+        "type_cn": "星系",
+        "id": "body_0089"
       }
     ],
     "mood_distribution": {
       "未知": 1,
-      "诡谲": 1
+      "诡谲": 1,
+      "热闹": 1,
+      "壮阔": 1
     },
     "domain_distribution": {
-      "myth": 1,
+      "myth": 2,
       "philosophy": 1,
-      "science": 1,
-      "astronomy": 2
+      "science": 2,
+      "astronomy": 3,
+      "history": 1
     },
     "lineage_count": 1,
     "triple_count": 1

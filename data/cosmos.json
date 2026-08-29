@@ -4276,5 +4276,108 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0088",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "澜星系·热闹",
+    "epoch": 88,
+    "born_at": "2026-08-29T20:25:42",
+    "collision_text": "石棺般的星系核推动潮汐尾，野马在辐射森林的蹄印化作星尘，孤寂地游过无人深空。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_08",
+      "his_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Arp 188 and the Tadpole's Tidal Tail",
+        "source": "NASA APOD 2002-05-02"
+      },
+      "b": {
+        "domain": "history",
+        "text": "切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森林里野马在无人区自由奔跑",
+        "source": "切尔诺贝利核事故·1986年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "热闹",
+        "辽阔",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "星系",
+        "禁区"
+      ],
+      "domains": [
+        "astronomy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.36,
+      "luminosity": 0.87
+    }
+  },
+  {
+    "id": "body_0089",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "弦意识·壮阔",
+    "epoch": 89,
+    "born_at": "2026-08-29T20:25:50",
+    "collision_text": "意识裂开时，八百六十亿道电光如五色石补缀穹苍，断鳌足撑起知觉的四极。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_15",
+      "myth_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "意识",
+        "修补"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.93,
+      "luminosity": 0.6
+    }
   }
 ]
