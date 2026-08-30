@@ -4379,5 +4379,125 @@
       "size": 0.93,
       "luminosity": 0.6
     }
+  },
+  {
+    "id": "body_0090",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "墟孤独·宁静·子",
+    "epoch": 90,
+    "born_at": "2026-08-30T20:35:15",
+    "collision_text": "诸神黄昏的雪落上古琴弦，三弄梅花在沉没的维格利德上独自开完",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_07",
+      "mus_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "music",
+        "text": "梅花三弄",
+        "source": "古曲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "激烈",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "末日",
+        "傲骨"
+      ],
+      "domains": [
+        "myth",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#306963",
+      "size": 1.02,
+      "luminosity": 0.39
+    },
+    "lineage": {
+      "parent_id": "body_0020",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0091",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "茫星河·诡谲·子",
+    "epoch": 91,
+    "born_at": "2026-08-30T20:35:16",
+    "collision_text": "灯塔的余光里，彗星拖着记忆的尾迹，将孤寂燃成行星重生的尘埃。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "cin_09",
+      "apo_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Comet, Planet, Moon",
+        "source": "NASA APOD 2024-04-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "孤寂"
+      ],
+      "themes": [
+        "湮灭",
+        "恒星"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#f4b456",
+      "size": 0.82,
+      "luminosity": 0.87
+    },
+    "lineage": {
+      "parent_id": "body_0025",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

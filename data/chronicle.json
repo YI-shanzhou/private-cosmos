@@ -621,5 +621,19 @@
     "event": "genesis",
     "body_id": "body_0089",
     "summary": "第89纪元：science×myth碰撞，诞生星系「弦意识·壮阔」"
+  },
+  {
+    "epoch": 90,
+    "timestamp": "2026-08-30T20:35:15",
+    "event": "lineage",
+    "body_id": "body_0090",
+    "summary": "第90纪元：流浪行星「墟孤独·孤寂」繁衍出第1代子嗣——流浪行星「墟孤独·宁静·子」"
+  },
+  {
+    "epoch": 91,
+    "timestamp": "2026-08-30T20:35:16",
+    "event": "lineage",
+    "body_id": "body_0091",
+    "summary": "第91纪元：脉冲星「茫星河·激越」繁衍出第1代子嗣——耀变体「茫星河·诡谲·子」"
   }
 ]

@@ -521,5 +521,34 @@
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-08-30",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、耀变体在music、astronomy、myth、cinema的碰撞中绽放，情绪以宁静、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟孤独·宁静·子",
+        "type_cn": "流浪行星",
+        "id": "body_0090"
+      },
+      {
+        "name": "茫星河·诡谲·子",
+        "type_cn": "耀变体",
+        "id": "body_0091"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "宁静": 1
+    },
+    "domain_distribution": {
+      "music": 1,
+      "astronomy": 1,
+      "myth": 1,
+      "cinema": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
   }
 ]

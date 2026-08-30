@@ -4380,6 +4380,126 @@ window.COSMOS_DATA = [
       "size": 0.93,
       "luminosity": 0.6
     }
+  },
+  {
+    "id": "body_0090",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "墟孤独·宁静·子",
+    "epoch": 90,
+    "born_at": "2026-08-30T20:35:15",
+    "collision_text": "诸神黄昏的雪落上古琴弦，三弄梅花在沉没的维格利德上独自开完",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_07",
+      "mus_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "music",
+        "text": "梅花三弄",
+        "source": "古曲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "激烈",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "末日",
+        "傲骨"
+      ],
+      "domains": [
+        "myth",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#306963",
+      "size": 1.02,
+      "luminosity": 0.39
+    },
+    "lineage": {
+      "parent_id": "body_0020",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0091",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "茫星河·诡谲·子",
+    "epoch": 91,
+    "born_at": "2026-08-30T20:35:16",
+    "collision_text": "灯塔的余光里，彗星拖着记忆的尾迹，将孤寂燃成行星重生的尘埃。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "cin_09",
+      "apo_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Comet, Planet, Moon",
+        "source": "NASA APOD 2024-04-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "孤寂"
+      ],
+      "themes": [
+        "湮灭",
+        "恒星"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#f4b456",
+      "size": 0.82,
+      "luminosity": 0.87
+    },
+    "lineage": {
+      "parent_id": "body_0025",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5005,6 +5125,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0089",
     "summary": "第89纪元：science×myth碰撞，诞生星系「弦意识·壮阔」"
+  },
+  {
+    "epoch": 90,
+    "timestamp": "2026-08-30T20:35:15",
+    "event": "lineage",
+    "body_id": "body_0090",
+    "summary": "第90纪元：流浪行星「墟孤独·孤寂」繁衍出第1代子嗣——流浪行星「墟孤独·宁静·子」"
+  },
+  {
+    "epoch": 91,
+    "timestamp": "2026-08-30T20:35:16",
+    "event": "lineage",
+    "body_id": "body_0091",
+    "summary": "第91纪元：脉冲星「茫星河·激越」繁衍出第1代子嗣——耀变体「茫星河·诡谲·子」"
   }
 ];
 window.APOD_DATA = [
@@ -5646,6 +5780,44 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
+    "date": "2013-01-27",
+    "title": "Comet McNaught Over Chile",
+    "url": "https://apod.nasa.gov/apod/image/1301/mcnaught_guisard_881.jpg",
+    "local_path": "assets/apod/apod_2013-01-27.jpg",
+    "explanation": "Comet McNaught of 2007 has been, so far, the most photogenic comet of our time.  After making quite a show in the northern hemisphere in early 2007 January, the comet moved south and developed a long and unusual dust tail that dazzled southern hemisphere observers.  In this image, Comet McNaught was captured above Santiago, Chile.  The bright comet dominates on the left while part of its magnificent tail spreads across the entire frame.   From this vantage point in the Andes Mountains, one looks",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303050",
+        "#303030"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-30T20:35:06.393076"
   },
   {
     "date": "2013-03-10",
@@ -6755,14 +6927,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-08-30",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、耀变体在music、astronomy、myth、cinema的碰撞中绽放，情绪以宁静、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟孤独·宁静·子",
+        "type_cn": "流浪行星",
+        "id": "body_0090"
+      },
+      {
+        "name": "茫星河·诡谲·子",
+        "type_cn": "耀变体",
+        "id": "body_0091"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "宁静": 1
+    },
+    "domain_distribution": {
+      "music": 1,
+      "astronomy": 1,
+      "myth": 1,
+      "cinema": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 89,
-  "chronicle_entries": 89,
-  "daily_report_count": 16,
+  "total_bodies": 91,
+  "chronicle_entries": 91,
+  "daily_report_count": 17,
   "type_distribution": {
-    "流浪行星": 11,
+    "流浪行星": 12,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
@@ -6779,21 +6980,21 @@ window.COSMOS_STATS = {
     "脉冲星": 3,
     "虫洞": 3,
     "星团": 2,
+    "耀变体": 2,
     "虚空": 2,
-    "磁星": 1,
-    "耀变体": 1
+    "磁星": 1
   },
   "mood_distribution": {
     "壮阔": 45,
-    "苍凉": 35,
-    "宁静": 33,
-    "诡谲": 32,
-    "孤寂": 29,
-    "激烈": 23,
+    "苍凉": 36,
+    "宁静": 34,
+    "诡谲": 33,
+    "孤寂": 31,
+    "激烈": 24,
     "未知": 22,
     "激越": 13,
     "辽阔": 12,
-    "神秘": 9,
+    "神秘": 10,
     "希望": 7,
     "热闹": 3
   },
@@ -6801,19 +7002,19 @@ window.COSMOS_STATS = {
     "literature": 38,
     "philosophy": 32,
     "art": 29,
-    "myth": 28,
-    "astronomy": 27,
+    "myth": 29,
+    "astronomy": 28,
     "science": 10,
     "history": 7,
-    "music": 6,
-    "geography": 5,
-    "cinema": 4
+    "music": 7,
+    "cinema": 5,
+    "geography": 5
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 6,
+    "lineage_bodies": 8,
     "distribution": {
-      "第1代": 5,
+      "第1代": 7,
       "第2代": 1
     }
   }
