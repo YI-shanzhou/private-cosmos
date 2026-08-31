@@ -4500,6 +4500,119 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0092",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦深渊·诡谲",
+    "epoch": 92,
+    "born_at": "2026-08-31T22:28:16",
+    "collision_text": "铁太阳沉入深渊时，那回望的目光锈成了整片星河。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_23",
+      "apo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "如果你长久凝视深渊，深渊也将回望你",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "深渊",
+        "太阳"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.56,
+      "luminosity": 0.56
+    }
+  },
+  {
+    "id": "body_0093",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "辉失落·神秘",
+    "epoch": 93,
+    "born_at": "2026-08-31T22:28:26",
+    "collision_text": "「玛雅人用天文台观测金星，精确到五百年仅差一天…」穿过「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」和「我思故我在」，在混沌中凝成神秘的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "his_09",
+      "geo_06",
+      "phi_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "我思故我在",
+        "source": "笛卡尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "宁静",
+        "诡谲"
+      ],
+      "themes": [
+        "失落",
+        "盐海",
+        "自我"
+      ],
+      "domains": [
+        "history",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代",
+        "永恒",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.35,
+      "luminosity": 0.4
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5139,6 +5252,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0091",
     "summary": "第91纪元：脉冲星「茫星河·激越」繁衍出第1代子嗣——耀变体「茫星河·诡谲·子」"
+  },
+  {
+    "epoch": 92,
+    "timestamp": "2026-08-31T22:28:16",
+    "event": "genesis",
+    "body_id": "body_0092",
+    "summary": "第92纪元：philosophy×astronomy碰撞，诞生暗物质「弦深渊·诡谲」"
+  },
+  {
+    "epoch": 93,
+    "timestamp": "2026-08-31T22:28:26",
+    "event": "genesis",
+    "body_id": "body_0093",
+    "summary": "第93纪元：history×geography碰撞，诞生暗物质「辉失落·神秘」"
   }
 ];
 window.APOD_DATA = [
@@ -6334,6 +6461,48 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
+    "date": "2024-06-08",
+    "title": "Pandora's Cluster of Galaxies",
+    "url": "https://apod.nasa.gov/apod/image/2406/abell2744_jwst.png",
+    "local_path": "assets/apod/apod_2024-06-08.jpg",
+    "explanation": "This deep field mosaicked image presents a stunning view of galaxy cluster Abell 2744 recorded by the James Webb Space Telescope's NIRCam. Also dubbed Pandora's Cluster, Abell 2744 itself appears to be a ponderous merger of three different massive galaxy clusters. It lies some 3.5 billion light-years away, toward the constellation Sculptor. Dominated by dark matter, the mega-cluster warps and distorts the fabric of spacetime, gravitationally lensing even more distant objects. Redder than the Pan",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-08-31T22:28:13.042349"
+  },
+  {
     "date": "2025-07-21",
     "title": "Cat's Paw Nebula from Webb Space Telescope",
     "url": "https://apod.nasa.gov/apod/image/2507/CatsPaw_Webb_1822.jpg",
@@ -6956,20 +7125,49 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 2,
     "triple_count": 0
+  },
+  {
+    "date": "2026-08-31",
+    "summary": "弦起处，深渊诡谲；光落时，辉映神秘。两粒暗物质悄然凝结，哲学与天文交叠，历史与地理共鸣。三体一次相撞，繁衍未生，然宇宙的谜底，又多两道褶皱。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦深渊·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0092"
+      },
+      {
+        "name": "辉失落·神秘",
+        "type_cn": "暗物质",
+        "id": "body_0093"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "神秘": 1
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "astronomy": 1,
+      "history": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 91,
-  "chronicle_entries": 91,
-  "daily_report_count": 17,
+  "total_bodies": 93,
+  "chronicle_entries": 93,
+  "daily_report_count": 18,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
+    "暗物质": 7,
     "彗星": 5,
     "星系": 5,
-    "暗物质": 5,
     "黑洞": 5,
     "尘埃云": 4,
     "行星": 4,
@@ -6986,29 +7184,29 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 45,
-    "苍凉": 36,
-    "宁静": 34,
-    "诡谲": 33,
+    "苍凉": 38,
+    "宁静": 35,
+    "诡谲": 35,
     "孤寂": 31,
     "激烈": 24,
-    "未知": 22,
+    "未知": 23,
     "激越": 13,
     "辽阔": 12,
-    "神秘": 10,
+    "神秘": 11,
     "希望": 7,
     "热闹": 3
   },
   "domain_distribution": {
     "literature": 38,
-    "philosophy": 32,
+    "philosophy": 34,
     "art": 29,
+    "astronomy": 29,
     "myth": 29,
-    "astronomy": 28,
     "science": 10,
-    "history": 7,
+    "history": 8,
     "music": 7,
-    "cinema": 5,
-    "geography": 5
+    "geography": 6,
+    "cinema": 5
   },
   "generation": {
     "max_generation": 2,

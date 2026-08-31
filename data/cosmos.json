@@ -4499,5 +4499,118 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0092",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦深渊·诡谲",
+    "epoch": 92,
+    "born_at": "2026-08-31T22:28:16",
+    "collision_text": "铁太阳沉入深渊时，那回望的目光锈成了整片星河。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_23",
+      "apo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "如果你长久凝视深渊，深渊也将回望你",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "深渊",
+        "太阳"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.56,
+      "luminosity": 0.56
+    }
+  },
+  {
+    "id": "body_0093",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "辉失落·神秘",
+    "epoch": 93,
+    "born_at": "2026-08-31T22:28:26",
+    "collision_text": "「玛雅人用天文台观测金星，精确到五百年仅差一天…」穿过「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」和「我思故我在」，在混沌中凝成神秘的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "his_09",
+      "geo_06",
+      "phi_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "我思故我在",
+        "source": "笛卡尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "宁静",
+        "诡谲"
+      ],
+      "themes": [
+        "失落",
+        "盐海",
+        "自我"
+      ],
+      "domains": [
+        "history",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代",
+        "永恒",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.35,
+      "luminosity": 0.4
+    }
   }
 ]

@@ -635,5 +635,19 @@
     "event": "lineage",
     "body_id": "body_0091",
     "summary": "第91纪元：脉冲星「茫星河·激越」繁衍出第1代子嗣——耀变体「茫星河·诡谲·子」"
+  },
+  {
+    "epoch": 92,
+    "timestamp": "2026-08-31T22:28:16",
+    "event": "genesis",
+    "body_id": "body_0092",
+    "summary": "第92纪元：philosophy×astronomy碰撞，诞生暗物质「弦深渊·诡谲」"
+  },
+  {
+    "epoch": 93,
+    "timestamp": "2026-08-31T22:28:26",
+    "event": "genesis",
+    "body_id": "body_0093",
+    "summary": "第93纪元：history×geography碰撞，诞生暗物质「辉失落·神秘」"
   }
 ]
