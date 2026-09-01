@@ -4613,6 +4613,111 @@ window.COSMOS_DATA = [
       "size": 0.35,
       "luminosity": 0.4
     }
+  },
+  {
+    "id": "body_0094",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "墟自然·诡谲",
+    "epoch": 94,
+    "born_at": "2026-09-01T20:34:12",
+    "collision_text": "刍狗在失重走廊里翻转，苍穹冷眼旁观这场无人称王的格斗。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_08",
+      "cin_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "天地不仁，以万物为刍狗",
+        "source": "老子《道德经》"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转",
+        "source": "《盗梦空间》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "壮阔",
+        "激烈"
+      ],
+      "themes": [
+        "自然",
+        "失重"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "先秦",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.44,
+      "luminosity": 0.98
+    }
+  },
+  {
+    "id": "body_0095",
+    "type": "blue_giant",
+    "type_cn": "蓝巨星",
+    "name": "尘珊瑚·希望",
+    "epoch": 95,
+    "born_at": "2026-09-01T20:34:22",
+    "collision_text": "「大堡礁从太空中肉眼可见，两千三百公里长的珊瑚…」吞下「我思故我在」，吐出一段希望的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_10",
+      "phi_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "大堡礁从太空中肉眼可见，两千三百公里长的珊瑚城在暖流中呼吸，彩色鱼群如星尘般穿梭",
+        "source": "大堡礁·澳大利亚"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "我思故我在",
+        "source": "笛卡尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "珊瑚",
+        "自我"
+      ],
+      "domains": [
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "eras": [
+        "永恒",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.42,
+      "luminosity": 0.3
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5266,6 +5371,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0093",
     "summary": "第93纪元：history×geography碰撞，诞生暗物质「辉失落·神秘」"
+  },
+  {
+    "epoch": 94,
+    "timestamp": "2026-09-01T20:34:12",
+    "event": "genesis",
+    "body_id": "body_0094",
+    "summary": "第94纪元：philosophy×cinema碰撞，诞生虫洞「墟自然·诡谲」"
+  },
+  {
+    "epoch": 95,
+    "timestamp": "2026-09-01T20:34:22",
+    "event": "genesis",
+    "body_id": "body_0095",
+    "summary": "第95纪元：geography×philosophy碰撞，诞生蓝巨星「尘珊瑚·希望」"
   }
 ];
 window.APOD_DATA = [
@@ -6140,6 +6259,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-01T19:05:36.043064"
+  },
+  {
+    "date": "2017-12-05",
+    "title": "A Horizon with Blue and Red",
+    "url": "https://apod.nasa.gov/apod/image/1712/BlueMoonRedVolcano_Montufar_4096.jpg",
+    "local_path": "assets/apod/apod_2017-12-05.jpg",
+    "explanation": "What's happening on the horizon? The horizon itself, past a spinach field in Guatemala, shows not only trees but a large volcano: the Volc�n de Fuego (Volcano of Fire). The red glow at the top of the volcano is hot lava. But your eye may also be drawn to the blue circle above the horizon on the left. This circle surrounds the Moon and, together with other colors, is called a corona. A corona is caused by diffraction of light -- here moonlight -- by small water droplets in the Earth's intervening",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303010",
+        "#103010"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-01T20:34:10.226051"
   },
   {
     "date": "2018-02-21",
@@ -7154,12 +7314,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-09-01",
+    "summary": "今日宇宙又长大了——2颗新天体在geography、cinema、philosophy领域的碰撞中诞生。虫洞、蓝巨星们带着诡谲、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟自然·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0094"
+      },
+      {
+        "name": "尘珊瑚·希望",
+        "type_cn": "蓝巨星",
+        "id": "body_0095"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "geography": 1,
+      "cinema": 1,
+      "philosophy": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 93,
-  "chronicle_entries": 93,
-  "daily_report_count": 18,
+  "total_bodies": 95,
+  "chronicle_entries": 95,
+  "daily_report_count": 19,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 9,
@@ -7170,43 +7358,44 @@ window.COSMOS_STATS = {
     "星系": 5,
     "黑洞": 5,
     "尘埃云": 4,
+    "虫洞": 4,
     "行星": 4,
     "超新星": 4,
     "超空洞": 4,
     "遗迹": 4,
     "类星体": 3,
     "脉冲星": 3,
-    "虫洞": 3,
     "星团": 2,
     "耀变体": 2,
     "虚空": 2,
-    "磁星": 1
+    "磁星": 1,
+    "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 45,
-    "苍凉": 38,
-    "宁静": 35,
-    "诡谲": 35,
-    "孤寂": 31,
-    "激烈": 24,
+    "壮阔": 46,
+    "苍凉": 39,
+    "宁静": 36,
+    "诡谲": 36,
+    "孤寂": 32,
+    "激烈": 25,
     "未知": 23,
     "激越": 13,
     "辽阔": 12,
     "神秘": 11,
-    "希望": 7,
+    "希望": 8,
     "热闹": 3
   },
   "domain_distribution": {
     "literature": 38,
-    "philosophy": 34,
+    "philosophy": 36,
     "art": 29,
     "astronomy": 29,
     "myth": 29,
     "science": 10,
     "history": 8,
+    "geography": 7,
     "music": 7,
-    "geography": 6,
-    "cinema": 5
+    "cinema": 6
   },
   "generation": {
     "max_generation": 2,

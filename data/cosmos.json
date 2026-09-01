@@ -4612,5 +4612,110 @@
       "size": 0.35,
       "luminosity": 0.4
     }
+  },
+  {
+    "id": "body_0094",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "墟自然·诡谲",
+    "epoch": 94,
+    "born_at": "2026-09-01T20:34:12",
+    "collision_text": "刍狗在失重走廊里翻转，苍穹冷眼旁观这场无人称王的格斗。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_08",
+      "cin_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "天地不仁，以万物为刍狗",
+        "source": "老子《道德经》"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "主角在零重力旋转走廊中打斗，整个世界在头顶翻转",
+        "source": "《盗梦空间》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "壮阔",
+        "激烈"
+      ],
+      "themes": [
+        "自然",
+        "失重"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "先秦",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.44,
+      "luminosity": 0.98
+    }
+  },
+  {
+    "id": "body_0095",
+    "type": "blue_giant",
+    "type_cn": "蓝巨星",
+    "name": "尘珊瑚·希望",
+    "epoch": 95,
+    "born_at": "2026-09-01T20:34:22",
+    "collision_text": "「大堡礁从太空中肉眼可见，两千三百公里长的珊瑚…」吞下「我思故我在」，吐出一段希望的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_10",
+      "phi_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "大堡礁从太空中肉眼可见，两千三百公里长的珊瑚城在暖流中呼吸，彩色鱼群如星尘般穿梭",
+        "source": "大堡礁·澳大利亚"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "我思故我在",
+        "source": "笛卡尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "宁静",
+        "孤寂"
+      ],
+      "themes": [
+        "珊瑚",
+        "自我"
+      ],
+      "domains": [
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "eras": [
+        "永恒",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.42,
+      "luminosity": 0.3
+    }
   }
 ]

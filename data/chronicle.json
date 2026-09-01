@@ -649,5 +649,19 @@
     "event": "genesis",
     "body_id": "body_0093",
     "summary": "第93纪元：history×geography碰撞，诞生暗物质「辉失落·神秘」"
+  },
+  {
+    "epoch": 94,
+    "timestamp": "2026-09-01T20:34:12",
+    "event": "genesis",
+    "body_id": "body_0094",
+    "summary": "第94纪元：philosophy×cinema碰撞，诞生虫洞「墟自然·诡谲」"
+  },
+  {
+    "epoch": 95,
+    "timestamp": "2026-09-01T20:34:22",
+    "event": "genesis",
+    "body_id": "body_0095",
+    "summary": "第95纪元：geography×philosophy碰撞，诞生蓝巨星「尘珊瑚·希望」"
   }
 ]
