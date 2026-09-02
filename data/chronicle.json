@@ -663,5 +663,19 @@
     "event": "genesis",
     "body_id": "body_0095",
     "summary": "第95纪元：geography×philosophy碰撞，诞生蓝巨星「尘珊瑚·希望」"
+  },
+  {
+    "epoch": 96,
+    "timestamp": "2026-09-02T20:31:04",
+    "event": "genesis",
+    "body_id": "body_0096",
+    "summary": "第96纪元：myth×astronomy碰撞，诞生超空洞「幽不屈·壮阔」"
+  },
+  {
+    "epoch": 97,
+    "timestamp": "2026-09-02T20:31:12",
+    "event": "genesis",
+    "body_id": "body_0097",
+    "summary": "第97纪元：myth×philosophy碰撞，诞生超空洞「魄呼吸·壮阔」"
   }
 ]

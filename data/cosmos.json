@@ -4717,5 +4717,109 @@
       "size": 0.42,
       "luminosity": 0.3
     }
+  },
+  {
+    "id": "body_0096",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "幽不屈·壮阔",
+    "epoch": 96,
+    "born_at": "2026-09-02T20:31:04",
+    "collision_text": "「刑天与帝争神，帝断其首，葬之常羊之山，以乳为…」吞下「Meteor in the Milky Wa…」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_12",
+      "apo_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "刑天与帝争神，帝断其首，葬之常羊之山，以乳为目，以脐为口，操干戚以舞",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "孤寂"
+      ],
+      "themes": [
+        "不屈",
+        "恒星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 1.0,
+      "luminosity": 0.41
+    }
+  },
+  {
+    "id": "body_0097",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "魄呼吸·壮阔",
+    "epoch": 97,
+    "born_at": "2026-09-02T20:31:12",
+    "collision_text": "梵天呼出世界时无言，人一开口，宇宙便褪去一层夜。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_25",
+      "phi_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "语言的边界即是世界的边界",
+        "source": "维特根斯坦"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "呼吸",
+        "语言"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.97,
+      "luminosity": 0.23
+    }
   }
 ]

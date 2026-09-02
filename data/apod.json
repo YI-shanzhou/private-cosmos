@@ -385,6 +385,39 @@
     "fetched_at": "2026-08-23T18:26:05.635921"
   },
   {
+    "date": "2006-04-01",
+    "title": "Hubble Resolves Expiration Date For Green Cheese Moon",
+    "url": "https://apod.nasa.gov/apod/image/0604/gcmoon_ranger9_big.gif",
+    "local_path": "assets/apod/apod_2006-04-01.jpg",
+    "explanation": "Using the new camera on the Hubble Space Telescope, astronomers have been able to confirm that the Moon is made of green cheese.  The telling clue was the resolution of a marked date after which the Moon may go bad.  Controversy still exists, however, over whether the date resolved is truly an expiration date or just a \"sell by\" date.  \"To be cautious, we should completely devour the Moon by tomorrow,\" a spokesperson advised.  Happy April Fool's Day from the folks at APOD.  The above image (slig",
+    "tags": {
+      "colors": [
+        "#505050",
+        "#303030",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-02T20:30:56.166255"
+  },
+  {
     "date": "2006-12-25",
     "title": "Upgrading the International Space Station",
     "url": "https://apod.nasa.gov/apod/image/0612/trussnauts_sts116_big.jpg",

@@ -4718,6 +4718,110 @@ window.COSMOS_DATA = [
       "size": 0.42,
       "luminosity": 0.3
     }
+  },
+  {
+    "id": "body_0096",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "幽不屈·壮阔",
+    "epoch": 96,
+    "born_at": "2026-09-02T20:31:04",
+    "collision_text": "「刑天与帝争神，帝断其首，葬之常羊之山，以乳为…」吞下「Meteor in the Milky Wa…」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_12",
+      "apo_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "刑天与帝争神，帝断其首，葬之常羊之山，以乳为目，以脐为口，操干戚以舞",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "孤寂"
+      ],
+      "themes": [
+        "不屈",
+        "恒星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 1.0,
+      "luminosity": 0.41
+    }
+  },
+  {
+    "id": "body_0097",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "魄呼吸·壮阔",
+    "epoch": 97,
+    "born_at": "2026-09-02T20:31:12",
+    "collision_text": "梵天呼出世界时无言，人一开口，宇宙便褪去一层夜。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "myth_25",
+      "phi_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "语言的边界即是世界的边界",
+        "source": "维特根斯坦"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "呼吸",
+        "语言"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.97,
+      "luminosity": 0.23
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5385,6 +5489,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0095",
     "summary": "第95纪元：geography×philosophy碰撞，诞生蓝巨星「尘珊瑚·希望」"
+  },
+  {
+    "epoch": 96,
+    "timestamp": "2026-09-02T20:31:04",
+    "event": "genesis",
+    "body_id": "body_0096",
+    "summary": "第96纪元：myth×astronomy碰撞，诞生超空洞「幽不屈·壮阔」"
+  },
+  {
+    "epoch": 97,
+    "timestamp": "2026-09-02T20:31:12",
+    "event": "genesis",
+    "body_id": "body_0097",
+    "summary": "第97纪元：myth×philosophy碰撞，诞生超空洞「魄呼吸·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -5772,6 +5890,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-23T18:26:05.635921"
+  },
+  {
+    "date": "2006-04-01",
+    "title": "Hubble Resolves Expiration Date For Green Cheese Moon",
+    "url": "https://apod.nasa.gov/apod/image/0604/gcmoon_ranger9_big.gif",
+    "local_path": "assets/apod/apod_2006-04-01.jpg",
+    "explanation": "Using the new camera on the Hubble Space Telescope, astronomers have been able to confirm that the Moon is made of green cheese.  The telling clue was the resolution of a marked date after which the Moon may go bad.  Controversy still exists, however, over whether the date resolved is truly an expiration date or just a \"sell by\" date.  \"To be cautious, we should completely devour the Moon by tomorrow,\" a spokesperson advised.  Happy April Fool's Day from the folks at APOD.  The above image (slig",
+    "tags": {
+      "colors": [
+        "#505050",
+        "#303030",
+        "#707070"
+      ],
+      "themes": [
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-02T20:30:56.166255"
   },
   {
     "date": "2006-12-25",
@@ -7342,18 +7493,46 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-02",
+    "summary": "宇宙日报：今日，幽不屈与魄呼吸自虚无处睁眼——两座超空洞以壮阔为名，吞纳神话、哲学与星光的余烬。无繁衍，无碰撞，唯有沉默撑开时空的褶皱，令寂静本身也为之震颤。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽不屈·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0096"
+      },
+      {
+        "name": "魄呼吸·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0097"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 2
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "philosophy": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 95,
-  "chronicle_entries": 95,
-  "daily_report_count": 19,
+  "total_bodies": 97,
+  "chronicle_entries": 97,
+  "daily_report_count": 20,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 9,
     "卫星": 7,
     "星云": 7,
     "暗物质": 7,
+    "超空洞": 6,
     "彗星": 5,
     "星系": 5,
     "黑洞": 5,
@@ -7361,7 +7540,6 @@ window.COSMOS_STATS = {
     "虫洞": 4,
     "行星": 4,
     "超新星": 4,
-    "超空洞": 4,
     "遗迹": 4,
     "类星体": 3,
     "脉冲星": 3,
@@ -7372,25 +7550,25 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 46,
+    "壮阔": 48,
     "苍凉": 39,
+    "诡谲": 37,
     "宁静": 36,
-    "诡谲": 36,
-    "孤寂": 32,
-    "激烈": 25,
+    "孤寂": 34,
+    "激烈": 26,
     "未知": 23,
     "激越": 13,
+    "神秘": 12,
     "辽阔": 12,
-    "神秘": 11,
     "希望": 8,
     "热闹": 3
   },
   "domain_distribution": {
     "literature": 38,
-    "philosophy": 36,
+    "philosophy": 37,
+    "myth": 31,
+    "astronomy": 30,
     "art": 29,
-    "astronomy": 29,
-    "myth": 29,
     "science": 10,
     "history": 8,
     "geography": 7,
