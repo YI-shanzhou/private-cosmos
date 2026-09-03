@@ -4822,6 +4822,118 @@ window.COSMOS_DATA = [
       "size": 0.97,
       "luminosity": 0.23
     }
+  },
+  {
+    "id": "body_0098",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·孤寂·子",
+    "epoch": 98,
+    "born_at": "2026-09-03T20:31:09",
+    "collision_text": "加速度吞没座椅，十秒耗尽，物自身在仪表盘后坍缩成不可触的坐标。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "cin_31",
+      "phi_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "主角在飞船倒计时的最后十秒按下引擎按钮，全身被加速度压进座椅",
+        "source": "《星际穿越》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "物自身不可知",
+        "source": "康德"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "激越",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "倒计时",
+        "认知"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6f7c9f",
+      "size": 0.67,
+      "luminosity": 0.38
+    },
+    "lineage": {
+      "parent_id": "body_0004",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0099",
+    "type": "kilonova",
+    "type_cn": "千新星",
+    "name": "寂力量·激烈",
+    "epoch": 99,
+    "born_at": "2026-09-03T20:31:13",
+    "collision_text": "杀不死的风暴在木星眼底冷却成苍凉的光环",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_14",
+      "apo_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是杀不死我的，必使我更强大",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Jupiter and Ring in Infrared from Webb",
+        "source": "NASA APOD 2022-07-20"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "力量",
+        "月球"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.5,
+      "luminosity": 0.29
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5503,6 +5615,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0097",
     "summary": "第97纪元：myth×philosophy碰撞，诞生超空洞「魄呼吸·壮阔」"
+  },
+  {
+    "epoch": 98,
+    "timestamp": "2026-09-03T20:31:09",
+    "event": "lineage",
+    "body_id": "body_0098",
+    "summary": "第98纪元：白矮星「澜永恒·苍凉」繁衍出第1代子嗣——白矮星「澜永恒·孤寂·子」"
+  },
+  {
+    "epoch": 99,
+    "timestamp": "2026-09-03T20:31:13",
+    "event": "genesis",
+    "body_id": "body_0099",
+    "summary": "第99纪元：philosophy×astronomy碰撞，诞生千新星「寂力量·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -6106,6 +6232,49 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-03T19:27:54.048099"
+  },
+  {
+    "date": "2009-03-05",
+    "title": "IC 5146: The Cocoon Nebula",
+    "url": "https://apod.nasa.gov/apod/image/0903/IC5146_fleming50.jpg",
+    "local_path": "assets/apod/apod_2009-03-05.jpg",
+    "explanation": "Inside the Cocoon Nebula is a newly developing cluster of stars. Cataloged as IC 5146, the beautiful nebula is nearly 15 light-years wide, located some 4,000 light years away toward the northern constellation Cygnus. Like other star forming regions, it stands out in red, glowing, hydrogen gas excited by young, hot stars and blue, dust-reflected starlight at the edge of an otherwise invisible molecular cloud. In fact, the bright star near the center of this nebula is likely only a few hundred tho",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#303050",
+        "#101030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-03T20:31:03.199543"
   },
   {
     "date": "2011-01-03",
@@ -7520,15 +7689,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-03",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、千新星在philosophy、astronomy、cinema的碰撞中绽放，情绪以孤寂、激烈为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜永恒·孤寂·子",
+        "type_cn": "白矮星",
+        "id": "body_0098"
+      },
+      {
+        "name": "寂力量·激烈",
+        "type_cn": "千新星",
+        "id": "body_0099"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "astronomy": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 97,
-  "chronicle_entries": 97,
-  "daily_report_count": 20,
+  "total_bodies": 99,
+  "chronicle_entries": 99,
+  "daily_report_count": 21,
   "type_distribution": {
     "流浪行星": 12,
-    "白矮星": 9,
+    "白矮星": 10,
     "卫星": 7,
     "星云": 7,
     "暗物质": 7,
@@ -7546,40 +7743,41 @@ window.COSMOS_STATS = {
     "星团": 2,
     "耀变体": 2,
     "虚空": 2,
+    "千新星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 48,
-    "苍凉": 39,
-    "诡谲": 37,
+    "壮阔": 49,
+    "苍凉": 40,
+    "诡谲": 38,
     "宁静": 36,
-    "孤寂": 34,
-    "激烈": 26,
+    "孤寂": 35,
+    "激烈": 28,
     "未知": 23,
-    "激越": 13,
+    "激越": 14,
     "神秘": 12,
     "辽阔": 12,
     "希望": 8,
     "热闹": 3
   },
   "domain_distribution": {
+    "philosophy": 39,
     "literature": 38,
-    "philosophy": 37,
+    "astronomy": 31,
     "myth": 31,
-    "astronomy": 30,
     "art": 29,
     "science": 10,
     "history": 8,
+    "cinema": 7,
     "geography": 7,
-    "music": 7,
-    "cinema": 6
+    "music": 7
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 8,
+    "lineage_bodies": 9,
     "distribution": {
-      "第1代": 7,
+      "第1代": 8,
       "第2代": 1
     }
   }

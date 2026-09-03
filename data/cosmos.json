@@ -4821,5 +4821,117 @@
       "size": 0.97,
       "luminosity": 0.23
     }
+  },
+  {
+    "id": "body_0098",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·孤寂·子",
+    "epoch": 98,
+    "born_at": "2026-09-03T20:31:09",
+    "collision_text": "加速度吞没座椅，十秒耗尽，物自身在仪表盘后坍缩成不可触的坐标。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "cin_31",
+      "phi_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "主角在飞船倒计时的最后十秒按下引擎按钮，全身被加速度压进座椅",
+        "source": "《星际穿越》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "物自身不可知",
+        "source": "康德"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "激越",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "倒计时",
+        "认知"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6f7c9f",
+      "size": 0.67,
+      "luminosity": 0.38
+    },
+    "lineage": {
+      "parent_id": "body_0004",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0099",
+    "type": "kilonova",
+    "type_cn": "千新星",
+    "name": "寂力量·激烈",
+    "epoch": 99,
+    "born_at": "2026-09-03T20:31:13",
+    "collision_text": "杀不死的风暴在木星眼底冷却成苍凉的光环",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_14",
+      "apo_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "凡是杀不死我的，必使我更强大",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Jupiter and Ring in Infrared from Webb",
+        "source": "NASA APOD 2022-07-20"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "苍凉"
+      ],
+      "themes": [
+        "力量",
+        "月球"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.5,
+      "luminosity": 0.29
+    }
   }
 ]

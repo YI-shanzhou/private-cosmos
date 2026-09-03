@@ -677,5 +677,19 @@
     "event": "genesis",
     "body_id": "body_0097",
     "summary": "第97纪元：myth×philosophy碰撞，诞生超空洞「魄呼吸·壮阔」"
+  },
+  {
+    "epoch": 98,
+    "timestamp": "2026-09-03T20:31:09",
+    "event": "lineage",
+    "body_id": "body_0098",
+    "summary": "第98纪元：白矮星「澜永恒·苍凉」繁衍出第1代子嗣——白矮星「澜永恒·孤寂·子」"
+  },
+  {
+    "epoch": 99,
+    "timestamp": "2026-09-03T20:31:13",
+    "event": "genesis",
+    "body_id": "body_0099",
+    "summary": "第99纪元：philosophy×astronomy碰撞，诞生千新星「寂力量·激烈」"
   }
 ]
