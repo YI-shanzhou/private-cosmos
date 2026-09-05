@@ -662,5 +662,34 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "幽极光于星云深处铺展壮阔的银幕，墟太阳在原恒星中点燃希望。今日宇宙放映着天文与历史的映画，两枚新生光辉，静默改写地理的边界。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽极光·壮阔",
+        "type_cn": "星云",
+        "id": "body_0100"
+      },
+      {
+        "name": "墟太阳·希望",
+        "type_cn": "原恒星",
+        "id": "body_0101"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 1,
+      "history": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

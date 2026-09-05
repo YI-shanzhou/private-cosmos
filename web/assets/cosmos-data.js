@@ -4934,6 +4934,109 @@ window.COSMOS_DATA = [
       "size": 0.5,
       "luminosity": 0.29
     }
+  },
+  {
+    "id": "body_0100",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "幽极光·壮阔",
+    "epoch": 100,
+    "born_at": "2026-09-05T19:56:44",
+    "collision_text": "极光在玄武岩上翻身撞响古寺的钟，钟声散作星海间游动的鲸影",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_01",
+      "cin_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方",
+        "source": "《英雄》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "宁静"
+      ],
+      "themes": [
+        "极光",
+        "云海"
+      ],
+      "domains": [
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.67,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0101",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "墟太阳·希望",
+    "epoch": 101,
+    "born_at": "2026-09-05T19:56:52",
+    "collision_text": "铁太阳熔铸的寂静里，一枚人类的足印正把荒原烫成月海。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_08",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      },
+      "b": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "太阳",
+        "登月"
+      ],
+      "domains": [
+        "astronomy",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.89,
+      "luminosity": 0.28
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5629,9 +5732,62 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0099",
     "summary": "第99纪元：philosophy×astronomy碰撞，诞生千新星「寂力量·激烈」"
+  },
+  {
+    "epoch": 100,
+    "timestamp": "2026-09-05T19:56:44",
+    "event": "genesis",
+    "body_id": "body_0100",
+    "summary": "第100纪元：geography×cinema碰撞，诞生星云「幽极光·壮阔」"
+  },
+  {
+    "epoch": 101,
+    "timestamp": "2026-09-05T19:56:52",
+    "event": "genesis",
+    "body_id": "body_0101",
+    "summary": "第101纪元：astronomy×history碰撞，诞生原恒星「墟太阳·希望」"
   }
 ];
 window.APOD_DATA = [
+  {
+    "date": "1995-10-05",
+    "title": "CG4: A Ruptured Cometary Globule",
+    "url": "https://apod.nasa.gov/apod/image/cg4_aat.gif",
+    "local_path": "assets/apod/apod_1995-10-05.jpg",
+    "explanation": "The odd looking \"creature\" to the right of center in the above photo is a gas cloud known as a cometary globule.  This globule, however, has ruptured. Cometary globules are typically characterized by dusty heads and elongated tails.  These features cause cometary globules to have visual similarities to comets, but in reality they are very much different. Cometary globules are frequently the birthplaces of stars, and many show very young stars in their heads.  The reason for the rupture in the he",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#305030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-05T19:56:42.102578"
+  },
   {
     "date": "1995-11-11",
     "title": "Red Sprite Lightning",
@@ -7717,17 +7873,46 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-05",
+    "summary": "幽极光于星云深处铺展壮阔的银幕，墟太阳在原恒星中点燃希望。今日宇宙放映着天文与历史的映画，两枚新生光辉，静默改写地理的边界。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽极光·壮阔",
+        "type_cn": "星云",
+        "id": "body_0100"
+      },
+      {
+        "name": "墟太阳·希望",
+        "type_cn": "原恒星",
+        "id": "body_0101"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 1,
+      "history": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 99,
-  "chronicle_entries": 99,
-  "daily_report_count": 21,
+  "total_bodies": 101,
+  "chronicle_entries": 101,
+  "daily_report_count": 22,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 10,
+    "星云": 8,
     "卫星": 7,
-    "星云": 7,
     "暗物质": 7,
     "超空洞": 6,
     "彗星": 5,
@@ -7744,33 +7929,34 @@ window.COSMOS_STATS = {
     "耀变体": 2,
     "虚空": 2,
     "千新星": 1,
+    "原恒星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 49,
+    "壮阔": 51,
     "苍凉": 40,
     "诡谲": 38,
-    "宁静": 36,
+    "宁静": 37,
     "孤寂": 35,
     "激烈": 28,
-    "未知": 23,
+    "未知": 24,
     "激越": 14,
-    "神秘": 12,
+    "神秘": 13,
     "辽阔": 12,
-    "希望": 8,
+    "希望": 9,
     "热闹": 3
   },
   "domain_distribution": {
     "philosophy": 39,
     "literature": 38,
-    "astronomy": 31,
+    "astronomy": 32,
     "myth": 31,
     "art": 29,
     "science": 10,
-    "history": 8,
-    "cinema": 7,
-    "geography": 7,
+    "history": 9,
+    "cinema": 8,
+    "geography": 8,
     "music": 7
   },
   "generation": {

@@ -691,5 +691,19 @@
     "event": "genesis",
     "body_id": "body_0099",
     "summary": "第99纪元：philosophy×astronomy碰撞，诞生千新星「寂力量·激烈」"
+  },
+  {
+    "epoch": 100,
+    "timestamp": "2026-09-05T19:56:44",
+    "event": "genesis",
+    "body_id": "body_0100",
+    "summary": "第100纪元：geography×cinema碰撞，诞生星云「幽极光·壮阔」"
+  },
+  {
+    "epoch": 101,
+    "timestamp": "2026-09-05T19:56:52",
+    "event": "genesis",
+    "body_id": "body_0101",
+    "summary": "第101纪元：astronomy×history碰撞，诞生原恒星「墟太阳·希望」"
   }
 ]

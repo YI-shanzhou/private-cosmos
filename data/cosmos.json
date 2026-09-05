@@ -4933,5 +4933,108 @@
       "size": 0.5,
       "luminosity": 0.29
     }
+  },
+  {
+    "id": "body_0100",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "幽极光·壮阔",
+    "epoch": 100,
+    "born_at": "2026-09-05T19:56:44",
+    "collision_text": "极光在玄武岩上翻身撞响古寺的钟，钟声散作星海间游动的鲸影",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "geo_01",
+      "cin_27"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方",
+        "source": "《英雄》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "宁静"
+      ],
+      "themes": [
+        "极光",
+        "云海"
+      ],
+      "domains": [
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.67,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0101",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "墟太阳·希望",
+    "epoch": 101,
+    "born_at": "2026-09-05T19:56:52",
+    "collision_text": "铁太阳熔铸的寂静里，一枚人类的足印正把荒原烫成月海。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "apo_08",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "The Iron Sun",
+        "source": "NASA APOD 2001-09-29"
+      },
+      "b": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "太阳",
+        "登月"
+      ],
+      "domains": [
+        "astronomy",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.89,
+      "luminosity": 0.28
+    }
   }
 ]

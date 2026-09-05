@@ -1,5 +1,44 @@
 [
   {
+    "date": "1995-10-05",
+    "title": "CG4: A Ruptured Cometary Globule",
+    "url": "https://apod.nasa.gov/apod/image/cg4_aat.gif",
+    "local_path": "assets/apod/apod_1995-10-05.jpg",
+    "explanation": "The odd looking \"creature\" to the right of center in the above photo is a gas cloud known as a cometary globule.  This globule, however, has ruptured. Cometary globules are typically characterized by dusty heads and elongated tails.  These features cause cometary globules to have visual similarities to comets, but in reality they are very much different. Cometary globules are frequently the birthplaces of stars, and many show very young stars in their heads.  The reason for the rupture in the he",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#305030",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-05T19:56:42.102578"
+  },
+  {
     "date": "1995-11-11",
     "title": "Red Sprite Lightning",
     "url": "https://apod.nasa.gov/apod/image/redsprite.gif",
