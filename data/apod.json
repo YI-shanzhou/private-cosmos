@@ -599,6 +599,40 @@
     "fetched_at": "2026-07-26T18:55:18.500613"
   },
   {
+    "date": "2008-08-06",
+    "title": "NGC 1818: A Young Globular Cluster",
+    "url": "https://apod.nasa.gov/apod/image/0808/ngc1818_hst_big.jpg",
+    "local_path": "assets/apod/apod_2008-08-06.jpg",
+    "explanation": "Globular clusters once ruled the Milky Way.  Back in the old days, back when our Galaxy first formed, perhaps thousands of globular clusters roamed our Galaxy.  Today, there are perhaps 200 left.  Many globular clusters were destroyed over the eons by repeated fateful encounters with each other or the Galactic center.  Surviving relics are older than any Earth fossil, older than any other structures in our Galaxy, and limit the universe itself in raw age.  There are few, if any, young globular c",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#303010"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-06T20:00:21.878718"
+  },
+  {
     "date": "2009-01-05",
     "title": "Comet and Meteor",
     "url": "https://apod.nasa.gov/apod/image/0901/Quadran-Lulin_tafreshi.jpg",

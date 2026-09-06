@@ -5036,5 +5036,119 @@
       "size": 0.89,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0102",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "茫告别·苍凉",
+    "epoch": 102,
+    "born_at": "2026-09-06T20:00:29",
+    "collision_text": "「马勒·第五交响曲·小柔板」穿过「IC 5146: The Cocoon Ne…」和「物自身不可知」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_22",
+      "apo_21",
+      "phi_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "马勒·第五交响曲·小柔板",
+        "source": "马勒"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "IC 5146: The Cocoon Nebula",
+        "source": "NASA APOD 2009-03-05"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "物自身不可知",
+        "source": "康德"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望",
+        "壮阔",
+        "热闹"
+      ],
+      "themes": [
+        "告别",
+        "星云",
+        "认知"
+      ],
+      "domains": [
+        "music",
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.92,
+      "luminosity": 0.46
+    }
+  },
+  {
+    "id": "body_0103",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "尘无穷·宁静",
+    "epoch": 103,
+    "born_at": "2026-09-06T20:00:31",
+    "collision_text": "天外疏星数点山前微雨两行谁在无穷的岸上追着有限的光",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "phi_30",
+      "lit_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "无穷是一个无法抵达的彼岸，但正是对无穷的追逐定义了有限者的尊严",
+        "source": "帕斯卡"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "七八个星天外，两三点雨山前",
+        "source": "辛弃疾《西江月》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "无穷",
+        "星空"
+      ],
+      "domains": [
+        "philosophy",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.39,
+      "luminosity": 0.71
+    }
   }
 ]

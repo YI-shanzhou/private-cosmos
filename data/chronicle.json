@@ -705,5 +705,19 @@
     "event": "genesis",
     "body_id": "body_0101",
     "summary": "第101纪元：astronomy×history碰撞，诞生原恒星「墟太阳·希望」"
+  },
+  {
+    "epoch": 102,
+    "timestamp": "2026-09-06T20:00:29",
+    "event": "genesis",
+    "body_id": "body_0102",
+    "summary": "第102纪元：music×astronomy碰撞，诞生遗迹「茫告别·苍凉」"
+  },
+  {
+    "epoch": 103,
+    "timestamp": "2026-09-06T20:00:31",
+    "event": "genesis",
+    "body_id": "body_0103",
+    "summary": "第103纪元：philosophy×literature碰撞，诞生卫星「尘无穷·宁静」"
   }
 ]
