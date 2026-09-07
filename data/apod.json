@@ -1021,6 +1021,43 @@
     "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
+    "date": "2017-05-29",
+    "title": "Beneath Jupiter",
+    "url": "https://apod.nasa.gov/apod/image/1705/BeneathJupiter_Juno_vertical960.jpg",
+    "local_path": "assets/apod/apod_2017-05-29.jpg",
+    "explanation": "Jupiter is stranger than we knew. NASA's Juno spacecraft has now completed its sixth swoop past Jupiter as it moves around its highly elliptical orbit. Pictured, Jupiter is seen from below where, surprisingly, the horizontal bands that cover most of the planet disappear into swirls and complex patterns.  A line of white oval clouds is visible nearer to the equator.  Recent results from Juno show that Jupiter's weather phenomena can extend deep below its cloud tops, and that Jupiter's magnetic fi",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#505050",
+        "#303030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-07T21:08:08.677868"
+  },
+  {
     "date": "2017-12-05",
     "title": "A Horizon with Blue and Red",
     "url": "https://apod.nasa.gov/apod/image/1712/BlueMoonRedVolcano_Montufar_4096.jpg",

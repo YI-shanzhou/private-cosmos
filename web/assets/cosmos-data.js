@@ -5151,6 +5151,120 @@ window.COSMOS_DATA = [
       "size": 0.39,
       "luminosity": 0.71
     }
+  },
+  {
+    "id": "body_0104",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "魄追忆·诡谲",
+    "epoch": 104,
+    "born_at": "2026-09-07T21:08:15",
+    "collision_text": "岩浆在玄武岩下温习六十四万年前的旧梦，而人间每一次惘然都是火山将醒未醒的叹息",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_23",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "此情可待成追忆，只是当时已惘然",
+        "source": "李商隐《锦瑟》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "激烈"
+      ],
+      "themes": [
+        "追忆",
+        "地火"
+      ],
+      "domains": [
+        "literature",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "唐",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.85,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0105",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "弦幻象·激越·子",
+    "epoch": 105,
+    "born_at": "2026-09-07T21:08:17",
+    "collision_text": "无人入睡的咏叹漫过野旷，江月垂听——渴望在天树之梢燃成不熄的星。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "mus_20",
+      "lit_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "图兰朵·今夜无人入睡",
+        "source": "普契尼"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "野旷天低树，江清月近人",
+        "source": "孟浩然《宿建德江》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "希望",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "渴望",
+        "旷野"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#e8c146",
+      "size": 0.45,
+      "luminosity": 0.7
+    },
+    "lineage": {
+      "parent_id": "body_0056",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -5874,6 +5988,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0103",
     "summary": "第103纪元：philosophy×literature碰撞，诞生卫星「尘无穷·宁静」"
+  },
+  {
+    "epoch": 104,
+    "timestamp": "2026-09-07T21:08:15",
+    "event": "genesis",
+    "body_id": "body_0104",
+    "summary": "第104纪元：literature×geography碰撞，诞生虫洞「魄追忆·诡谲」"
+  },
+  {
+    "epoch": 105,
+    "timestamp": "2026-09-07T21:08:17",
+    "event": "lineage",
+    "body_id": "body_0105",
+    "summary": "第105纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——恒星「弦幻象·激越·子」"
   }
 ];
 window.APOD_DATA = [
@@ -6897,6 +7025,43 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-01T19:05:36.043064"
+  },
+  {
+    "date": "2017-05-29",
+    "title": "Beneath Jupiter",
+    "url": "https://apod.nasa.gov/apod/image/1705/BeneathJupiter_Juno_vertical960.jpg",
+    "local_path": "assets/apod/apod_2017-05-29.jpg",
+    "explanation": "Jupiter is stranger than we knew. NASA's Juno spacecraft has now completed its sixth swoop past Jupiter as it moves around its highly elliptical orbit. Pictured, Jupiter is seen from below where, surprisingly, the horizontal bands that cover most of the planet disappear into swirls and complex patterns.  A line of white oval clouds is visible nearer to the equator.  Recent results from Juno show that Jupiter's weather phenomena can extend deep below its cloud tops, and that Jupiter's magnetic fi",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#505050",
+        "#303030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "jupiter",
+          "cn": "木星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
     "date": "2017-12-05",
@@ -8093,12 +8258,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-09-07",
+    "summary": "今日双星临世：虫洞「魄追忆·诡谲」于地理褶皱间低语，恒星「弦幻象·激越·子」以音乐与文学共振燃亮。世代繁衍一颗，无碰撞之扰，唯有诡谲激越在私宇宙深处谱成新章。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "魄追忆·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0104"
+      },
+      {
+        "name": "弦幻象·激越·子",
+        "type_cn": "恒星",
+        "id": "body_0105"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "music": 1,
+      "literature": 2,
+      "geography": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 103,
-  "chronicle_entries": 103,
-  "daily_report_count": 23,
+  "total_bodies": 105,
+  "chronicle_entries": 105,
+  "daily_report_count": 24,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 10,
@@ -8108,10 +8301,10 @@ window.COSMOS_STATS = {
     "超空洞": 6,
     "彗星": 5,
     "星系": 5,
+    "虫洞": 5,
     "遗迹": 5,
     "黑洞": 5,
     "尘埃云": 4,
-    "虫洞": 4,
     "行星": 4,
     "超新星": 4,
     "类星体": 3,
@@ -8121,40 +8314,41 @@ window.COSMOS_STATS = {
     "虚空": 2,
     "千新星": 1,
     "原恒星": 1,
+    "恒星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
     "壮阔": 53,
-    "苍凉": 42,
-    "宁静": 38,
-    "诡谲": 38,
-    "孤寂": 36,
-    "激烈": 28,
+    "苍凉": 43,
+    "宁静": 39,
+    "诡谲": 39,
+    "孤寂": 38,
+    "激烈": 29,
     "未知": 24,
-    "激越": 14,
+    "激越": 15,
     "神秘": 13,
     "辽阔": 12,
-    "希望": 10,
+    "希望": 11,
     "热闹": 4
   },
   "domain_distribution": {
+    "literature": 41,
     "philosophy": 41,
-    "literature": 39,
     "astronomy": 33,
     "myth": 31,
     "art": 29,
     "science": 10,
+    "geography": 9,
     "history": 9,
-    "cinema": 8,
-    "geography": 8,
-    "music": 8
+    "music": 9,
+    "cinema": 8
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 9,
+    "lineage_bodies": 10,
     "distribution": {
-      "第1代": 8,
+      "第1代": 9,
       "第2代": 1
     }
   }

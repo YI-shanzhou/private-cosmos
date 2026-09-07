@@ -719,5 +719,19 @@
     "event": "genesis",
     "body_id": "body_0103",
     "summary": "第103纪元：philosophy×literature碰撞，诞生卫星「尘无穷·宁静」"
+  },
+  {
+    "epoch": 104,
+    "timestamp": "2026-09-07T21:08:15",
+    "event": "genesis",
+    "body_id": "body_0104",
+    "summary": "第104纪元：literature×geography碰撞，诞生虫洞「魄追忆·诡谲」"
+  },
+  {
+    "epoch": 105,
+    "timestamp": "2026-09-07T21:08:17",
+    "event": "lineage",
+    "body_id": "body_0105",
+    "summary": "第105纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——恒星「弦幻象·激越·子」"
   }
 ]

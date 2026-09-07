@@ -5150,5 +5150,119 @@
       "size": 0.39,
       "luminosity": 0.71
     }
+  },
+  {
+    "id": "body_0104",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "魄追忆·诡谲",
+    "epoch": 104,
+    "born_at": "2026-09-07T21:08:15",
+    "collision_text": "岩浆在玄武岩下温习六十四万年前的旧梦，而人间每一次惘然都是火山将醒未醒的叹息",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_23",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "此情可待成追忆，只是当时已惘然",
+        "source": "李商隐《锦瑟》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "激烈"
+      ],
+      "themes": [
+        "追忆",
+        "地火"
+      ],
+      "domains": [
+        "literature",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "唐",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.85,
+      "luminosity": 0.75
+    }
+  },
+  {
+    "id": "body_0105",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "弦幻象·激越·子",
+    "epoch": 105,
+    "born_at": "2026-09-07T21:08:17",
+    "collision_text": "无人入睡的咏叹漫过野旷，江月垂听——渴望在天树之梢燃成不熄的星。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "mus_20",
+      "lit_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "图兰朵·今夜无人入睡",
+        "source": "普契尼"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "野旷天低树，江清月近人",
+        "source": "孟浩然《宿建德江》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "希望",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "渴望",
+        "旷野"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#e8c146",
+      "size": 0.45,
+      "luminosity": 0.7
+    },
+    "lineage": {
+      "parent_id": "body_0056",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
