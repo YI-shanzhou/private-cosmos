@@ -733,5 +733,19 @@
     "event": "lineage",
     "body_id": "body_0105",
     "summary": "第105纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——恒星「弦幻象·激越·子」"
+  },
+  {
+    "epoch": 106,
+    "timestamp": "2026-09-08T20:44:17",
+    "event": "genesis",
+    "body_id": "body_0106",
+    "summary": "第106纪元：literature×music碰撞，诞生原恒星「幽思念·希望」"
+  },
+  {
+    "epoch": 107,
+    "timestamp": "2026-09-08T20:44:25",
+    "event": "genesis",
+    "body_id": "body_0107",
+    "summary": "第107纪元：myth×philosophy碰撞，诞生行星「辉编织·宁静」"
   }
 ]

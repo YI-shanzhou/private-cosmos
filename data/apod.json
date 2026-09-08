@@ -901,6 +901,31 @@
     "fetched_at": "2026-08-22T18:27:08.386004"
   },
   {
+    "date": "2014-04-20",
+    "title": "Ash and Lightning above an Icelandic Volcano",
+    "url": "https://apod.nasa.gov/apod/image/1404/volcano_stefnisson_orig_960.jpg",
+    "local_path": "assets/apod/apod_2014-04-20.jpg",
+    "explanation": "Why did a picturesque 2010 volcanic eruption in Iceland create so much ash? Although the large ash plume was not unparalleled in its abundance, its location was particularly noticeable because it drifted across such well-populated areas. The Eyjafjallaj�kull volcano in southern Iceland began erupting on 2010 March 20, with a second eruption starting under the center of a small glacier on 2010 April 14. Neither eruption was unusually powerful.  The second eruption, however, melted a large amount ",
+    "tags": {
+      "colors": [
+        "#101030",
+        "#101010",
+        "#103070"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-08T20:44:12.218858"
+  },
+  {
     "date": "2015-04-23",
     "title": "Meteor in the Milky Way",
     "url": "https://apod.nasa.gov/apod/image/1504/IMG_2999korosecMilkyMet.png",

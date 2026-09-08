@@ -5264,5 +5264,119 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0106",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "幽思念·希望",
+    "epoch": 106,
+    "born_at": "2026-09-08T20:44:17",
+    "collision_text": "巴山夜雨涨成马勒的弦，我们隔着星海共剪一截未完成的告别。",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "lit_21",
+      "mus_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "何当共剪西窗烛，却话巴山夜雨时",
+        "source": "李商隐《夜雨寄北》"
+      },
+      "b": {
+        "domain": "music",
+        "text": "马勒·第五交响曲·小柔板",
+        "source": "马勒"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "思念",
+        "告别"
+      ],
+      "domains": [
+        "literature",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "唐",
+        "浪漫"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.44,
+      "luminosity": 0.27
+    }
+  },
+  {
+    "id": "body_0107",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "辉编织·宁静",
+    "epoch": 107,
+    "born_at": "2026-09-08T20:44:25",
+    "collision_text": "「伏羲女娲在混沌中安静地编织世界的经纬，一阴一…」「他人即地狱」「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」三者在虚空中相撞，坍缩成一粒宁静的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_31",
+      "phi_13",
+      "his_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "伏羲女娲在混沌中安静地编织世界的经纬，一阴一阳，万物有序而生",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "他人即地狱",
+        "source": "萨特"
+      },
+      "c": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "壮阔",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "编织",
+        "他者",
+        "丝路"
+      ],
+      "domains": [
+        "myth",
+        "philosophy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "现代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.3,
+      "luminosity": 0.79
+    }
   }
 ]
