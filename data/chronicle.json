@@ -747,5 +747,19 @@
     "event": "genesis",
     "body_id": "body_0107",
     "summary": "第107纪元：myth×philosophy碰撞，诞生行星「辉编织·宁静」"
+  },
+  {
+    "epoch": 108,
+    "timestamp": "2026-09-09T20:26:18",
+    "event": "lineage",
+    "body_id": "body_0108",
+    "summary": "第108纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——脉冲星「弦幻象·未知·子」"
+  },
+  {
+    "epoch": 109,
+    "timestamp": "2026-09-09T20:26:27",
+    "event": "genesis",
+    "body_id": "body_0109",
+    "summary": "第109纪元：philosophy×astronomy碰撞，诞生尘埃云「茫无常·未知」"
   }
 ]

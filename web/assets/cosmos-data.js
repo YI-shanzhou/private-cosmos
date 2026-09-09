@@ -5379,6 +5379,118 @@ window.COSMOS_DATA = [
       "size": 0.3,
       "luminosity": 0.79
     }
+  },
+  {
+    "id": "body_0108",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "弦幻象·未知·子",
+    "epoch": 108,
+    "born_at": "2026-09-09T20:26:18",
+    "collision_text": "当「测不准原理：你永远无法同时精确知道粒子的位置…」遇见「天地不仁，以万物为刍狗」，未知的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_13",
+      "phi_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "测不准原理：你永远无法同时精确知道粒子的位置和动量，宇宙在最底层是模糊的",
+        "source": "海森堡不确定性原理"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "天地不仁，以万物为刍狗",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "诡谲",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "不确定",
+        "自然"
+      ],
+      "domains": [
+        "science",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#e1d056",
+      "size": 0.49,
+      "luminosity": 0.59
+    },
+    "lineage": {
+      "parent_id": "body_0056",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0109",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫无常·未知",
+    "epoch": 109,
+    "born_at": "2026-09-09T20:26:27",
+    "collision_text": "「一切有为法，如梦幻泡影，如露亦如电，应作如是…」与「The Lyman Alpha Forest」相互缠绕，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_21",
+      "apo_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "一切有为法，如梦幻泡影，如露亦如电，应作如是观",
+        "source": "《金刚经》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "The Lyman Alpha Forest",
+        "source": "NASA APOD 2000-11-12"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "无常",
+        "类星体"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.9,
+      "luminosity": 0.74
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6130,6 +6242,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0107",
     "summary": "第107纪元：myth×philosophy碰撞，诞生行星「辉编织·宁静」"
+  },
+  {
+    "epoch": 108,
+    "timestamp": "2026-09-09T20:26:18",
+    "event": "lineage",
+    "body_id": "body_0108",
+    "summary": "第108纪元：脉冲星「弦幻象·激越」繁衍出第1代子嗣——脉冲星「弦幻象·未知·子」"
+  },
+  {
+    "epoch": 109,
+    "timestamp": "2026-09-09T20:26:27",
+    "event": "genesis",
+    "body_id": "body_0109",
+    "summary": "第109纪元：philosophy×astronomy碰撞，诞生尘埃云「茫无常·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -7379,6 +7505,44 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-25T18:36:44.464476"
   },
   {
+    "date": "2020-07-16",
+    "title": "The Long Tails of Comet NEOWISE",
+    "url": "https://apod.nasa.gov/apod/image/2007/2020_07_14_NEOWISE_Suchy_Vrch_1500px.png",
+    "local_path": "assets/apod/apod_2020-07-16.jpg",
+    "explanation": "This Comet NEOWISE (C/2020 F3) now sweeps through our fair planet's northern skies. Its long tails stretch across this deep skyview from Suchy Vrch, Czech Republic. Recorded on the night of July 13/14, the composite of untracked foreground and tracked and filtered sky exposures teases out details in the comet's tail not visible to the unaided eye. Faint structures extend to the top of the frame, over 20 degrees from the comet's bright coma. Pushed out by the pressure of sunlight itself, the broa",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#103030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-09T20:26:09.659762"
+  },
+  {
     "date": "2020-10-30",
     "title": "Fear and Dread: The Moons of Mars",
     "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
@@ -8469,12 +8633,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-09-09",
+    "summary": "弦幻象自虚无拨响，茫无常于尘中聚形——一颗脉冲星以哲学为律动，一片尘埃云承天文之玄秘。未知孕生，繁衍一星；三体未逢，寂静初启。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦幻象·未知·子",
+        "type_cn": "脉冲星",
+        "id": "body_0108"
+      },
+      {
+        "name": "茫无常·未知",
+        "type_cn": "尘埃云",
+        "id": "body_0109"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 2
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "astronomy": 1,
+      "science": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 107,
-  "chronicle_entries": 107,
-  "daily_report_count": 25,
+  "total_bodies": 109,
+  "chronicle_entries": 109,
+  "daily_report_count": 26,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 10,
@@ -8482,16 +8673,16 @@ window.COSMOS_STATS = {
     "星云": 8,
     "暗物质": 7,
     "超空洞": 6,
+    "尘埃云": 5,
     "彗星": 5,
     "星系": 5,
     "虫洞": 5,
     "行星": 5,
     "遗迹": 5,
     "黑洞": 5,
-    "尘埃云": 4,
+    "脉冲星": 4,
     "超新星": 4,
     "类星体": 3,
-    "脉冲星": 3,
     "原恒星": 2,
     "星团": 2,
     "耀变体": 2,
@@ -8502,13 +8693,13 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 54,
-    "苍凉": 45,
+    "壮阔": 55,
+    "苍凉": 47,
+    "诡谲": 41,
     "宁静": 40,
     "孤寂": 39,
-    "诡谲": 39,
     "激烈": 30,
-    "未知": 24,
+    "未知": 26,
     "激越": 15,
     "神秘": 13,
     "希望": 12,
@@ -8516,22 +8707,22 @@ window.COSMOS_STATS = {
     "热闹": 4
   },
   "domain_distribution": {
+    "philosophy": 44,
     "literature": 42,
-    "philosophy": 42,
-    "astronomy": 33,
+    "astronomy": 34,
     "myth": 32,
     "art": 29,
+    "science": 11,
     "history": 10,
     "music": 10,
-    "science": 10,
     "geography": 9,
     "cinema": 8
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 10,
+    "lineage_bodies": 11,
     "distribution": {
-      "第1代": 9,
+      "第1代": 10,
       "第2代": 1
     }
   }

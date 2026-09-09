@@ -1245,6 +1245,44 @@
     "fetched_at": "2026-08-25T18:36:44.464476"
   },
   {
+    "date": "2020-07-16",
+    "title": "The Long Tails of Comet NEOWISE",
+    "url": "https://apod.nasa.gov/apod/image/2007/2020_07_14_NEOWISE_Suchy_Vrch_1500px.png",
+    "local_path": "assets/apod/apod_2020-07-16.jpg",
+    "explanation": "This Comet NEOWISE (C/2020 F3) now sweeps through our fair planet's northern skies. Its long tails stretch across this deep skyview from Suchy Vrch, Czech Republic. Recorded on the night of July 13/14, the composite of untracked foreground and tracked and filtered sky exposures teases out details in the comet's tail not visible to the unaided eye. Faint structures extend to the top of the frame, over 20 degrees from the comet's bright coma. Pushed out by the pressure of sunlight itself, the broa",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#103030"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "comet",
+          "cn": "彗星"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "孤寂",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-09T20:26:09.659762"
+  },
+  {
     "date": "2020-10-30",
     "title": "Fear and Dread: The Moons of Mars",
     "url": "https://apod.nasa.gov/apod/image/2010/PhobosDeimosOrbitTimesAnnotatedcopy.jpg",
