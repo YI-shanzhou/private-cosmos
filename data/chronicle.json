@@ -761,5 +761,19 @@
     "event": "genesis",
     "body_id": "body_0109",
     "summary": "第109纪元：philosophy×astronomy碰撞，诞生尘埃云「茫无常·未知」"
+  },
+  {
+    "epoch": 110,
+    "timestamp": "2026-09-10T20:26:18",
+    "event": "genesis",
+    "body_id": "body_0110",
+    "summary": "第110纪元：literature×astronomy碰撞，诞生星系「寂美·壮阔」"
+  },
+  {
+    "epoch": 111,
+    "timestamp": "2026-09-10T20:26:24",
+    "event": "genesis",
+    "body_id": "body_0111",
+    "summary": "第111纪元：history×myth碰撞，诞生超新星「尘烽火·激烈」"
   }
 ]

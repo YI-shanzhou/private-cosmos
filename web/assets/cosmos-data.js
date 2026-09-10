@@ -5491,6 +5491,110 @@ window.COSMOS_DATA = [
       "size": 0.9,
       "luminosity": 0.74
     }
+  },
+  {
+    "id": "body_0110",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "寂美·壮阔",
+    "epoch": 110,
+    "born_at": "2026-09-10T20:26:18",
+    "collision_text": "「A thing of beauty is a…」倒映在「Cat's Paw Nebula from …」里，裂成一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_44",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "A thing of beauty is a joy forever（美的事物是永恒的喜悦）",
+        "source": "济慈《恩底弥翁》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Cat's Paw Nebula from Webb Space Telescope",
+        "source": "NASA APOD 2025-07-21"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望",
+        "宁静"
+      ],
+      "themes": [
+        "美",
+        "星云"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.36,
+      "luminosity": 0.27
+    }
+  },
+  {
+    "id": "body_0111",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "尘烽火·激烈",
+    "epoch": 111,
+    "born_at": "2026-09-10T20:26:24",
+    "collision_text": "「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」与「夸父逐日，渴死途中，手杖化为桃林」相互缠绕，坍缩成一粒激烈的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_01",
+      "myth_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "夸父逐日，渴死途中，手杖化为桃林",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "苍凉",
+        "激越"
+      ],
+      "themes": [
+        "烽火",
+        "追逐"
+      ],
+      "domains": [
+        "history",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.85,
+      "luminosity": 0.6
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6256,6 +6360,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0109",
     "summary": "第109纪元：philosophy×astronomy碰撞，诞生尘埃云「茫无常·未知」"
+  },
+  {
+    "epoch": 110,
+    "timestamp": "2026-09-10T20:26:18",
+    "event": "genesis",
+    "body_id": "body_0110",
+    "summary": "第110纪元：literature×astronomy碰撞，诞生星系「寂美·壮阔」"
+  },
+  {
+    "epoch": 111,
+    "timestamp": "2026-09-10T20:26:24",
+    "event": "genesis",
+    "body_id": "body_0111",
+    "summary": "第111纪元：history×myth碰撞，诞生超新星「尘烽火·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -7584,6 +7702,39 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-30T19:23:32.967876"
   },
   {
+    "date": "2021-05-03",
+    "title": "Apollo 11: Earth, Moon, Spaceship",
+    "url": "https://apod.nasa.gov/apod/image/2105/EarthMoonSpaceship_Apollo11Ord_5500.jpg",
+    "local_path": "assets/apod/apod_2021-05-03.jpg",
+    "explanation": "After the most famous voyage of modern times, it was time to go home. After proving that humanity has the ability to go beyond the confines of planet Earth, the first humans to walk on another world -- Neil Armstrong and Buzz Aldrin -- flew the ascent stage of their Lunar Module back to meet Michael Collins in the moon-orbiting Command and Service Module. Pictured here on 1969 July 21 and recently digitally restored, the ascending spaceship was captured by Collins making its approach, with the M",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#707070",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-10T20:26:12.733171"
+  },
+  {
     "date": "2022-07-20",
     "title": "Jupiter and Ring in Infrared from Webb",
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
@@ -8660,28 +8811,57 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-10",
+    "summary": "今日宇宙又长大了——2颗新天体在literature、astronomy、history、myth领域的碰撞中诞生。星系、超新星们带着壮阔、激烈的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂美·壮阔",
+        "type_cn": "星系",
+        "id": "body_0110"
+      },
+      {
+        "name": "尘烽火·激烈",
+        "type_cn": "超新星",
+        "id": "body_0111"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "激烈": 1
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "astronomy": 1,
+      "history": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 109,
-  "chronicle_entries": 109,
-  "daily_report_count": 26,
+  "total_bodies": 111,
+  "chronicle_entries": 111,
+  "daily_report_count": 27,
   "type_distribution": {
     "流浪行星": 12,
     "白矮星": 10,
     "卫星": 8,
     "星云": 8,
     "暗物质": 7,
+    "星系": 6,
     "超空洞": 6,
     "尘埃云": 5,
     "彗星": 5,
-    "星系": 5,
     "虫洞": 5,
     "行星": 5,
+    "超新星": 5,
     "遗迹": 5,
     "黑洞": 5,
     "脉冲星": 4,
-    "超新星": 4,
     "类星体": 3,
     "原恒星": 2,
     "星团": 2,
@@ -8693,27 +8873,27 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 55,
-    "苍凉": 47,
+    "壮阔": 57,
+    "苍凉": 48,
+    "宁静": 41,
     "诡谲": 41,
-    "宁静": 40,
     "孤寂": 39,
-    "激烈": 30,
+    "激烈": 31,
     "未知": 26,
-    "激越": 15,
+    "激越": 16,
+    "希望": 13,
     "神秘": 13,
-    "希望": 12,
     "辽阔": 12,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 44,
-    "literature": 42,
-    "astronomy": 34,
-    "myth": 32,
+    "literature": 43,
+    "astronomy": 35,
+    "myth": 33,
     "art": 29,
+    "history": 11,
     "science": 11,
-    "history": 10,
     "music": 10,
     "geography": 9,
     "cinema": 8

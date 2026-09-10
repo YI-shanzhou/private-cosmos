@@ -1324,6 +1324,39 @@
     "fetched_at": "2026-07-30T19:23:32.967876"
   },
   {
+    "date": "2021-05-03",
+    "title": "Apollo 11: Earth, Moon, Spaceship",
+    "url": "https://apod.nasa.gov/apod/image/2105/EarthMoonSpaceship_Apollo11Ord_5500.jpg",
+    "local_path": "assets/apod/apod_2021-05-03.jpg",
+    "explanation": "After the most famous voyage of modern times, it was time to go home. After proving that humanity has the ability to go beyond the confines of planet Earth, the first humans to walk on another world -- Neil Armstrong and Buzz Aldrin -- flew the ascent stage of their Lunar Module back to meet Michael Collins in the moon-orbiting Command and Service Module. Pictured here on 1969 July 21 and recently digitally restored, the ascending spaceship was captured by Collins making its approach, with the M",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#707070",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-10T20:26:12.733171"
+  },
+  {
     "date": "2022-07-20",
     "title": "Jupiter and Ring in Infrared from Webb",
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",

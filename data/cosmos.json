@@ -5490,5 +5490,109 @@
       "size": 0.9,
       "luminosity": 0.74
     }
+  },
+  {
+    "id": "body_0110",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "寂美·壮阔",
+    "epoch": 110,
+    "born_at": "2026-09-10T20:26:18",
+    "collision_text": "「A thing of beauty is a…」倒映在「Cat's Paw Nebula from …」里，裂成一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_44",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "A thing of beauty is a joy forever（美的事物是永恒的喜悦）",
+        "source": "济慈《恩底弥翁》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Cat's Paw Nebula from Webb Space Telescope",
+        "source": "NASA APOD 2025-07-21"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望",
+        "宁静"
+      ],
+      "themes": [
+        "美",
+        "星云"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.36,
+      "luminosity": 0.27
+    }
+  },
+  {
+    "id": "body_0111",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "尘烽火·激烈",
+    "epoch": 111,
+    "born_at": "2026-09-10T20:26:24",
+    "collision_text": "「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」与「夸父逐日，渴死途中，手杖化为桃林」相互缠绕，坍缩成一粒激烈的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_01",
+      "myth_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "夸父逐日，渴死途中，手杖化为桃林",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔",
+        "苍凉",
+        "激越"
+      ],
+      "themes": [
+        "烽火",
+        "追逐"
+      ],
+      "domains": [
+        "history",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.85,
+      "luminosity": 0.6
+    }
   }
 ]
