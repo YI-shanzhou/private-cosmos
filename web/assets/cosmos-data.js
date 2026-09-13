@@ -5595,6 +5595,120 @@ window.COSMOS_DATA = [
       "size": 0.85,
       "luminosity": 0.6
     }
+  },
+  {
+    "id": "body_0112",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺告别·苍凉",
+    "epoch": 112,
+    "born_at": "2026-09-13T20:20:29",
+    "collision_text": "「马勒·第五交响曲·小柔板」穿过「山顶的古寺在晨雾中若隐若现，钟声穿越云海传向…」和「波粒二象性：光既是波也是粒子，取决于你如何观…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_22",
+      "cin_27",
+      "sci_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "马勒·第五交响曲·小柔板",
+        "source": "马勒"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方",
+        "source": "《英雄》"
+      },
+      "c": {
+        "domain": "science",
+        "text": "波粒二象性：光既是波也是粒子，取决于你如何观察它",
+        "source": "量子力学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "告别",
+        "云海",
+        "二象"
+      ],
+      "domains": [
+        "music",
+        "cinema",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.9,
+      "luminosity": 0.94
+    }
+  },
+  {
+    "id": "body_0113",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·苍凉",
+    "epoch": 113,
+    "born_at": "2026-09-13T20:20:35",
+    "collision_text": "「西西弗斯推石上山，石头日日滚落，永无止境」与「世界是我的表象」相互缠绕，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_09",
+      "phi_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "世界是我的表象",
+        "source": "叔本华"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "永恒",
+        "表象"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.77,
+      "luminosity": 0.4
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6374,6 +6488,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0111",
     "summary": "第111纪元：history×myth碰撞，诞生超新星「尘烽火·激烈」"
+  },
+  {
+    "epoch": 112,
+    "timestamp": "2026-09-13T20:20:29",
+    "event": "genesis",
+    "body_id": "body_0112",
+    "summary": "第112纪元：music×cinema碰撞，诞生白矮星「渺告别·苍凉」"
+  },
+  {
+    "epoch": 113,
+    "timestamp": "2026-09-13T20:20:35",
+    "event": "genesis",
+    "body_id": "body_0113",
+    "summary": "第113纪元：myth×philosophy碰撞，诞生白矮星「澜永恒·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -7583,6 +7711,48 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-29T20:25:39.878410"
+  },
+  {
+    "date": "2019-02-16",
+    "title": "NGC 2359: Thor's Helmet",
+    "url": "https://apod.nasa.gov/apod/image/1902/thor_LHORHGOBO_final.jpg",
+    "local_path": "assets/apod/apod_2019-02-16.jpg",
+    "explanation": "NGC 2359 is a helmet-shaped cosmic cloud with wing-like appendages popularly called Thor's Helmet. Heroically sized even for a Norse god, Thor's Helmet is about 30 light-years across. In fact, the helmet is more like an interstellar bubble, blown as a fast wind from the bright, massive star near the bubble's center inflates a region within the surrounding molecular cloud. Known as a Wolf-Rayet star, the central star is an extremely hot giant thought to be in a brief, pre-supernova stage of evolu",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-13T20:20:23.601764"
   },
   {
     "date": "2019-03-08",
@@ -8840,15 +9010,44 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-13",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、myth、philosophy、cinema、music的交叉中诞生。白矮星、白矮星携带着苍凉、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺告别·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0112"
+      },
+      {
+        "name": "澜永恒·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0113"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 2
+    },
+    "domain_distribution": {
+      "science": 1,
+      "myth": 1,
+      "philosophy": 1,
+      "cinema": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 111,
-  "chronicle_entries": 111,
-  "daily_report_count": 27,
+  "total_bodies": 113,
+  "chronicle_entries": 113,
+  "daily_report_count": 28,
   "type_distribution": {
     "流浪行星": 12,
-    "白矮星": 10,
+    "白矮星": 12,
     "卫星": 8,
     "星云": 8,
     "暗物质": 7,
@@ -8873,30 +9072,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 57,
-    "苍凉": 48,
-    "宁静": 41,
-    "诡谲": 41,
-    "孤寂": 39,
+    "壮阔": 58,
+    "苍凉": 50,
+    "宁静": 42,
+    "诡谲": 42,
+    "孤寂": 40,
     "激烈": 31,
     "未知": 26,
     "激越": 16,
-    "希望": 13,
+    "希望": 14,
     "神秘": 13,
     "辽阔": 12,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 44,
+    "philosophy": 45,
     "literature": 43,
     "astronomy": 35,
-    "myth": 33,
+    "myth": 34,
     "art": 29,
+    "science": 12,
     "history": 11,
-    "science": 11,
-    "music": 10,
-    "geography": 9,
-    "cinema": 8
+    "music": 11,
+    "cinema": 9,
+    "geography": 9
   },
   "generation": {
     "max_generation": 2,

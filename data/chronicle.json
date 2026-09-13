@@ -775,5 +775,19 @@
     "event": "genesis",
     "body_id": "body_0111",
     "summary": "第111纪元：history×myth碰撞，诞生超新星「尘烽火·激烈」"
+  },
+  {
+    "epoch": 112,
+    "timestamp": "2026-09-13T20:20:29",
+    "event": "genesis",
+    "body_id": "body_0112",
+    "summary": "第112纪元：music×cinema碰撞，诞生白矮星「渺告别·苍凉」"
+  },
+  {
+    "epoch": 113,
+    "timestamp": "2026-09-13T20:20:35",
+    "event": "genesis",
+    "body_id": "body_0113",
+    "summary": "第113纪元：myth×philosophy碰撞，诞生白矮星「澜永恒·苍凉」"
   }
 ]

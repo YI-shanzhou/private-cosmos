@@ -1207,6 +1207,48 @@
     "fetched_at": "2026-08-29T20:25:39.878410"
   },
   {
+    "date": "2019-02-16",
+    "title": "NGC 2359: Thor's Helmet",
+    "url": "https://apod.nasa.gov/apod/image/1902/thor_LHORHGOBO_final.jpg",
+    "local_path": "assets/apod/apod_2019-02-16.jpg",
+    "explanation": "NGC 2359 is a helmet-shaped cosmic cloud with wing-like appendages popularly called Thor's Helmet. Heroically sized even for a Norse god, Thor's Helmet is about 30 light-years across. In fact, the helmet is more like an interstellar bubble, blown as a fast wind from the bright, massive star near the bubble's center inflates a region within the surrounding molecular cloud. Known as a Wolf-Rayet star, the central star is an extremely hot giant thought to be in a brief, pre-supernova stage of evolu",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-13T20:20:23.601764"
+  },
+  {
     "date": "2019-03-08",
     "title": "Stardust and Starlight in M78",
     "url": "https://apod.nasa.gov/apod/image/1903/M78_RGBwright.jpg",

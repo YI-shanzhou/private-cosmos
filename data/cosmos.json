@@ -5594,5 +5594,119 @@
       "size": 0.85,
       "luminosity": 0.6
     }
+  },
+  {
+    "id": "body_0112",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺告别·苍凉",
+    "epoch": 112,
+    "born_at": "2026-09-13T20:20:29",
+    "collision_text": "「马勒·第五交响曲·小柔板」穿过「山顶的古寺在晨雾中若隐若现，钟声穿越云海传向…」和「波粒二象性：光既是波也是粒子，取决于你如何观…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_22",
+      "cin_27",
+      "sci_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "马勒·第五交响曲·小柔板",
+        "source": "马勒"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "山顶的古寺在晨雾中若隐若现，钟声穿越云海传向远方",
+        "source": "《英雄》"
+      },
+      "c": {
+        "domain": "science",
+        "text": "波粒二象性：光既是波也是粒子，取决于你如何观察它",
+        "source": "量子力学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "希望",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "告别",
+        "云海",
+        "二象"
+      ],
+      "domains": [
+        "music",
+        "cinema",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.9,
+      "luminosity": 0.94
+    }
+  },
+  {
+    "id": "body_0113",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·苍凉",
+    "epoch": 113,
+    "born_at": "2026-09-13T20:20:35",
+    "collision_text": "「西西弗斯推石上山，石头日日滚落，永无止境」与「世界是我的表象」相互缠绕，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_09",
+      "phi_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "世界是我的表象",
+        "source": "叔本华"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "永恒",
+        "表象"
+      ],
+      "domains": [
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.77,
+      "luminosity": 0.4
+    }
   }
 ]

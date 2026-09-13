@@ -834,5 +834,34 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-13",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、myth、philosophy、cinema、music的交叉中诞生。白矮星、白矮星携带着苍凉、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺告别·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0112"
+      },
+      {
+        "name": "澜永恒·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0113"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 2
+    },
+    "domain_distribution": {
+      "science": 1,
+      "myth": 1,
+      "philosophy": 1,
+      "cinema": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ]
