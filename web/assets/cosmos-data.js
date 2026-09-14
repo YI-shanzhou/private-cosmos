@@ -5709,6 +5709,129 @@ window.COSMOS_DATA = [
       "size": 0.77,
       "luminosity": 0.4
     }
+  },
+  {
+    "id": "body_0114",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "幽沙海·苍凉",
+    "epoch": 114,
+    "born_at": "2026-09-14T21:29:56",
+    "collision_text": "「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」「俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽…」「DNA双螺旋：生命的全部密码写在四字母的分子…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_03",
+      "myth_16",
+      "sci_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽冥",
+        "source": "希腊神话"
+      },
+      "c": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "沙海",
+        "回望",
+        "密码"
+      ],
+      "domains": [
+        "geography",
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.39,
+      "luminosity": 0.8
+    }
+  },
+  {
+    "id": "body_0115",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺星座·诡谲·子",
+    "epoch": 115,
+    "born_at": "2026-09-14T21:30:04",
+    "collision_text": "当「基因编辑CRISPR：人类第一次拥有了改写生…」遇见「两个时空中的同一个人隔着一面镜子对望，时间在…」，诡谲的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_28",
+      "cin_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因",
+        "source": "基因工程"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开",
+        "source": "《彗星来的那一夜》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "编辑",
+        "平行"
+      ],
+      "domains": [
+        "science",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#5b6d6c",
+      "size": 0.89,
+      "luminosity": 0.88
+    },
+    "lineage": {
+      "parent_id": "body_0032",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6502,6 +6625,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0113",
     "summary": "第113纪元：myth×philosophy碰撞，诞生白矮星「澜永恒·苍凉」"
+  },
+  {
+    "epoch": 114,
+    "timestamp": "2026-09-14T21:29:56",
+    "event": "genesis",
+    "body_id": "body_0114",
+    "summary": "第114纪元：geography×myth碰撞，诞生虚空「幽沙海·苍凉」"
+  },
+  {
+    "epoch": 115,
+    "timestamp": "2026-09-14T21:30:04",
+    "event": "lineage",
+    "body_id": "body_0115",
+    "summary": "第115纪元：流浪行星「渺星座·孤寂」繁衍出第1代子嗣——流浪行星「渺星座·诡谲·子」"
   }
 ];
 window.APOD_DATA = [
@@ -6543,6 +6680,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-05T19:56:42.102578"
+  },
+  {
+    "date": "1995-10-11",
+    "title": "LMC Star Clouds",
+    "url": "https://apod.nasa.gov/apod/image/lmcstars_uit.gif",
+    "local_path": "assets/apod/apod_1995-10-11.jpg",
+    "explanation": "Pictured above are clouds of young stars forming an arc in the nearby Large Magellanic Cloud, the nearest galaxy to the our Milky Way Galaxy.  These stars are situated in a star forming region known as N 51.  The stars are so young they shine mostly in blue and ultraviolet light, and so massive their lifetimes are only millions of years - much shorter than the billions of years of lower mass stars like our Sun.  This picture was taken in ultraviolet light by NASA's Ultraviolet Imaging Telescope ",
+    "tags": {
+      "colors": [
+        "#305050",
+        "#507070",
+        "#509090"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        }
+      ],
+      "moods": [
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-14T21:29:50.372256"
   },
   {
     "date": "1995-11-11",
@@ -9039,14 +9217,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-09-14",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、geography、science、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽沙海·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0114"
+      },
+      {
+        "name": "渺星座·诡谲·子",
+        "type_cn": "流浪行星",
+        "id": "body_0115"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "geography": 1,
+      "science": 2,
+      "myth": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 113,
-  "chronicle_entries": 113,
-  "daily_report_count": 28,
+  "total_bodies": 115,
+  "chronicle_entries": 115,
+  "daily_report_count": 29,
   "type_distribution": {
-    "流浪行星": 12,
+    "流浪行星": 13,
     "白矮星": 12,
     "卫星": 8,
     "星云": 8,
@@ -9062,46 +9269,46 @@ window.COSMOS_STATS = {
     "黑洞": 5,
     "脉冲星": 4,
     "类星体": 3,
+    "虚空": 3,
     "原恒星": 2,
     "星团": 2,
     "耀变体": 2,
-    "虚空": 2,
     "千新星": 1,
     "恒星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 58,
-    "苍凉": 50,
+    "壮阔": 59,
+    "苍凉": 51,
+    "诡谲": 43,
     "宁静": 42,
-    "诡谲": 42,
-    "孤寂": 40,
-    "激烈": 31,
+    "孤寂": 41,
+    "激烈": 32,
     "未知": 26,
     "激越": 16,
-    "希望": 14,
-    "神秘": 13,
-    "辽阔": 12,
+    "希望": 15,
+    "神秘": 14,
+    "辽阔": 13,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 45,
     "literature": 43,
     "astronomy": 35,
-    "myth": 34,
+    "myth": 35,
     "art": 29,
-    "science": 12,
+    "science": 14,
     "history": 11,
     "music": 11,
-    "cinema": 9,
-    "geography": 9
+    "cinema": 10,
+    "geography": 10
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 11,
+    "lineage_bodies": 12,
     "distribution": {
-      "第1代": 10,
+      "第1代": 11,
       "第2代": 1
     }
   }

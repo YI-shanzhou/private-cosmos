@@ -5708,5 +5708,128 @@
       "size": 0.77,
       "luminosity": 0.4
     }
+  },
+  {
+    "id": "body_0114",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "幽沙海·苍凉",
+    "epoch": 114,
+    "born_at": "2026-09-14T21:29:56",
+    "collision_text": "「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」「俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽…」「DNA双螺旋：生命的全部密码写在四字母的分子…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_03",
+      "myth_16",
+      "sci_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽冥",
+        "source": "希腊神话"
+      },
+      "c": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "沙海",
+        "回望",
+        "密码"
+      ],
+      "domains": [
+        "geography",
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.39,
+      "luminosity": 0.8
+    }
+  },
+  {
+    "id": "body_0115",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺星座·诡谲·子",
+    "epoch": 115,
+    "born_at": "2026-09-14T21:30:04",
+    "collision_text": "当「基因编辑CRISPR：人类第一次拥有了改写生…」遇见「两个时空中的同一个人隔着一面镜子对望，时间在…」，诡谲的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_28",
+      "cin_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "基因编辑CRISPR：人类第一次拥有了改写生命底层代码的笔，可以剪切粘贴基因",
+        "source": "基因工程"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开",
+        "source": "《彗星来的那一夜》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "编辑",
+        "平行"
+      ],
+      "domains": [
+        "science",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#5b6d6c",
+      "size": 0.89,
+      "luminosity": 0.88
+    },
+    "lineage": {
+      "parent_id": "body_0032",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

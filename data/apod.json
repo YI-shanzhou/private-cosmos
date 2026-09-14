@@ -39,6 +39,47 @@
     "fetched_at": "2026-09-05T19:56:42.102578"
   },
   {
+    "date": "1995-10-11",
+    "title": "LMC Star Clouds",
+    "url": "https://apod.nasa.gov/apod/image/lmcstars_uit.gif",
+    "local_path": "assets/apod/apod_1995-10-11.jpg",
+    "explanation": "Pictured above are clouds of young stars forming an arc in the nearby Large Magellanic Cloud, the nearest galaxy to the our Milky Way Galaxy.  These stars are situated in a star forming region known as N 51.  The stars are so young they shine mostly in blue and ultraviolet light, and so massive their lifetimes are only millions of years - much shorter than the billions of years of lower mass stars like our Sun.  This picture was taken in ultraviolet light by NASA's Ultraviolet Imaging Telescope ",
+    "tags": {
+      "colors": [
+        "#305050",
+        "#507070",
+        "#509090"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        }
+      ],
+      "moods": [
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-14T21:29:50.372256"
+  },
+  {
     "date": "1995-11-11",
     "title": "Red Sprite Lightning",
     "url": "https://apod.nasa.gov/apod/image/redsprite.gif",

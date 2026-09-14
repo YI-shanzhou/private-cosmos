@@ -789,5 +789,19 @@
     "event": "genesis",
     "body_id": "body_0113",
     "summary": "第113纪元：myth×philosophy碰撞，诞生白矮星「澜永恒·苍凉」"
+  },
+  {
+    "epoch": 114,
+    "timestamp": "2026-09-14T21:29:56",
+    "event": "genesis",
+    "body_id": "body_0114",
+    "summary": "第114纪元：geography×myth碰撞，诞生虚空「幽沙海·苍凉」"
+  },
+  {
+    "epoch": 115,
+    "timestamp": "2026-09-14T21:30:04",
+    "event": "lineage",
+    "body_id": "body_0115",
+    "summary": "第115纪元：流浪行星「渺星座·孤寂」繁衍出第1代子嗣——流浪行星「渺星座·诡谲·子」"
   }
 ]
