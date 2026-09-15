@@ -5831,5 +5831,128 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0116",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "幽星座·孤寂",
+    "epoch": 116,
+    "born_at": "2026-09-15T20:52:47",
+    "collision_text": "「迢迢牵牛星，皎皎河汉女」穿过「Apollo 14: A View from…」和「玛雅人用天文台观测金星，精确到五百年仅差一天…」，在混沌中凝成孤寂的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "lit_03",
+      "apo_48",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "星座",
+        "月球",
+        "失落"
+      ],
+      "domains": [
+        "literature",
+        "astronomy",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "汉",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.69,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0117",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "澜五维·壮阔",
+    "epoch": 117,
+    "born_at": "2026-09-15T20:52:52",
+    "collision_text": "「宇航员穿越星际虫洞，在五维空间中看见女儿房间…」穿过「图灵停机问题：不存在任何算法能判断任意程序是…」和「珠穆朗玛峰顶的风速达到每小时三百公里，登山者…」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_01",
+      "sci_29",
+      "geo_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇航员穿越星际虫洞，在五维空间中看见女儿房间书架后的时间线条",
+        "source": "《星际穿越》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界",
+        "source": "计算理论"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+        "source": "珠穆朗玛峰·喜马拉雅"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "未知",
+        "孤寂"
+      ],
+      "themes": [
+        "五维",
+        "停机",
+        "绝顶"
+      ],
+      "domains": [
+        "cinema",
+        "science",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.99,
+      "luminosity": 0.53
+    }
   }
 ]

@@ -803,5 +803,19 @@
     "event": "lineage",
     "body_id": "body_0115",
     "summary": "第115纪元：流浪行星「渺星座·孤寂」繁衍出第1代子嗣——流浪行星「渺星座·诡谲·子」"
+  },
+  {
+    "epoch": 116,
+    "timestamp": "2026-09-15T20:52:47",
+    "event": "genesis",
+    "body_id": "body_0116",
+    "summary": "第116纪元：literature×astronomy碰撞，诞生流浪行星「幽星座·孤寂」"
+  },
+  {
+    "epoch": 117,
+    "timestamp": "2026-09-15T20:52:52",
+    "event": "genesis",
+    "body_id": "body_0117",
+    "summary": "第117纪元：cinema×science碰撞，诞生星系「澜五维·壮阔」"
   }
 ]

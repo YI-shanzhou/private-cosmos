@@ -5832,6 +5832,129 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0116",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "幽星座·孤寂",
+    "epoch": 116,
+    "born_at": "2026-09-15T20:52:47",
+    "collision_text": "「迢迢牵牛星，皎皎河汉女」穿过「Apollo 14: A View from…」和「玛雅人用天文台观测金星，精确到五百年仅差一天…」，在混沌中凝成孤寂的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "lit_03",
+      "apo_48",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Apollo 14: A View from Antares",
+        "source": "NASA APOD 2026-01-17"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "宁静",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "星座",
+        "月球",
+        "失落"
+      ],
+      "domains": [
+        "literature",
+        "astronomy",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "汉",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.69,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0117",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "澜五维·壮阔",
+    "epoch": 117,
+    "born_at": "2026-09-15T20:52:52",
+    "collision_text": "「宇航员穿越星际虫洞，在五维空间中看见女儿房间…」穿过「图灵停机问题：不存在任何算法能判断任意程序是…」和「珠穆朗玛峰顶的风速达到每小时三百公里，登山者…」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_01",
+      "sci_29",
+      "geo_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇航员穿越星际虫洞，在五维空间中看见女儿房间书架后的时间线条",
+        "source": "《星际穿越》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界",
+        "source": "计算理论"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+        "source": "珠穆朗玛峰·喜马拉雅"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "未知",
+        "孤寂"
+      ],
+      "themes": [
+        "五维",
+        "停机",
+        "绝顶"
+      ],
+      "domains": [
+        "cinema",
+        "science",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.99,
+      "luminosity": 0.53
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6639,6 +6762,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0115",
     "summary": "第115纪元：流浪行星「渺星座·孤寂」繁衍出第1代子嗣——流浪行星「渺星座·诡谲·子」"
+  },
+  {
+    "epoch": 116,
+    "timestamp": "2026-09-15T20:52:47",
+    "event": "genesis",
+    "body_id": "body_0116",
+    "summary": "第116纪元：literature×astronomy碰撞，诞生流浪行星「幽星座·孤寂」"
+  },
+  {
+    "epoch": 117,
+    "timestamp": "2026-09-15T20:52:52",
+    "event": "genesis",
+    "body_id": "body_0117",
+    "summary": "第117纪元：cinema×science碰撞，诞生星系「澜五维·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -7399,6 +7536,50 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-03T20:31:03.199543"
+  },
+  {
+    "date": "2009-05-08",
+    "title": "Galaxies of the Perseus Cluster",
+    "url": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426.jpg",
+    "local_path": "assets/apod/apod_2009-05-08.jpg",
+    "explanation": "This colorful telescopic skyscape is filled with galaxies that lie nearly 250 million light-years away, the galaxies of the Perseus cluster. Their extended and sometimes surprising shapes are seen beyond a veil of foreground stars in our own Milky Way. Ultimately consisting of over a thousand galaxies, the cluster is filled with yellowish elliptical and lenticular galaxies, like those scattered throughout this view of the cluster's central region. Notably, the large galaxy at the left is the mas",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈",
+        "诡谲",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-15T20:52:41.507317"
   },
   {
     "date": "2011-01-03",
@@ -9246,19 +9427,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-09-15",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在astronomy、cinema、science、geography、literature、history的交叉中诞生。流浪行星、星系携带着孤寂、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽星座·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0116"
+      },
+      {
+        "name": "澜五维·壮阔",
+        "type_cn": "星系",
+        "id": "body_0117"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "cinema": 1,
+      "science": 1,
+      "geography": 1,
+      "literature": 1,
+      "history": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 115,
-  "chronicle_entries": 115,
-  "daily_report_count": 29,
+  "total_bodies": 117,
+  "chronicle_entries": 117,
+  "daily_report_count": 30,
   "type_distribution": {
-    "流浪行星": 13,
+    "流浪行星": 14,
     "白矮星": 12,
     "卫星": 8,
     "星云": 8,
+    "星系": 7,
     "暗物质": 7,
-    "星系": 6,
     "超空洞": 6,
     "尘埃云": 5,
     "彗星": 5,
@@ -9279,30 +9491,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 59,
+    "壮阔": 60,
     "苍凉": 51,
-    "诡谲": 43,
-    "宁静": 42,
-    "孤寂": 41,
+    "诡谲": 44,
+    "孤寂": 43,
+    "宁静": 43,
     "激烈": 32,
-    "未知": 26,
+    "未知": 28,
     "激越": 16,
     "希望": 15,
-    "神秘": 14,
+    "神秘": 15,
     "辽阔": 13,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 45,
-    "literature": 43,
-    "astronomy": 35,
+    "literature": 44,
+    "astronomy": 36,
     "myth": 35,
     "art": 29,
-    "science": 14,
-    "history": 11,
-    "music": 11,
-    "cinema": 10,
-    "geography": 10
+    "science": 15,
+    "history": 12,
+    "cinema": 11,
+    "geography": 11,
+    "music": 11
   },
   "generation": {
     "max_generation": 2,

@@ -758,6 +758,50 @@
     "fetched_at": "2026-09-03T20:31:03.199543"
   },
   {
+    "date": "2009-05-08",
+    "title": "Galaxies of the Perseus Cluster",
+    "url": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426.jpg",
+    "local_path": "assets/apod/apod_2009-05-08.jpg",
+    "explanation": "This colorful telescopic skyscape is filled with galaxies that lie nearly 250 million light-years away, the galaxies of the Perseus cluster. Their extended and sometimes surprising shapes are seen beyond a veil of foreground stars in our own Milky Way. Ultimately consisting of over a thousand galaxies, the cluster is filled with yellowish elliptical and lenticular galaxies, like those scattered throughout this view of the cluster's central region. Notably, the large galaxy at the left is the mas",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "black hole",
+          "cn": "黑洞"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        }
+      ],
+      "moods": [
+        "辽阔",
+        "激烈",
+        "诡谲",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-15T20:52:41.507317"
+  },
+  {
     "date": "2011-01-03",
     "title": "Winter Hexagon Over Stagecoach Colorado",
     "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
