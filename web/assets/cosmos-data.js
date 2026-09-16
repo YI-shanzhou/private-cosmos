@@ -5955,6 +5955,129 @@ window.COSMOS_DATA = [
       "size": 0.99,
       "luminosity": 0.53
     }
+  },
+  {
+    "id": "body_0118",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "茫可观·辽阔",
+    "epoch": 118,
+    "born_at": "2026-09-16T20:53:11",
+    "collision_text": "「可观测宇宙直径约930亿光年，但这只是我们能…」「枝上柳绵吹又少，天涯何处无芳草」「阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人…」相互缠绕，编织出一片辽阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_23",
+      "lit_25",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "可观测宇宙直径约930亿光年，但这只是我们能看到的，之外可能无限",
+        "source": "宇宙学"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "枝上柳绵吹又少，天涯何处无芳草",
+        "source": "苏轼《蝶恋花》"
+      },
+      "c": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "未知",
+        "希望",
+        "壮阔"
+      ],
+      "themes": [
+        "可观测",
+        "远方",
+        "登月"
+      ],
+      "domains": [
+        "science",
+        "literature",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.95,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0119",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "茫时间·苍凉",
+    "epoch": 119,
+    "born_at": "2026-09-16T20:53:16",
+    "collision_text": "「时间膨胀：速度越快、引力越强，时间流逝越慢，…」穿过「图兰朵·今夜无人入睡」和「末路英雄在荒原上独行，身后是无尽的尘土和落日」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_11",
+      "mus_20",
+      "cin_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻",
+        "source": "相对论"
+      },
+      "b": {
+        "domain": "music",
+        "text": "图兰朵·今夜无人入睡",
+        "source": "普契尼"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "末路英雄在荒原上独行，身后是无尽的尘土和落日",
+        "source": "《疯狂的麦克斯》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "激越",
+        "希望"
+      ],
+      "themes": [
+        "时间扭曲",
+        "渴望",
+        "荒原"
+      ],
+      "domains": [
+        "science",
+        "music",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "浪漫",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.38,
+      "luminosity": 0.31
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6776,6 +6899,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0117",
     "summary": "第117纪元：cinema×science碰撞，诞生星系「澜五维·壮阔」"
+  },
+  {
+    "epoch": 118,
+    "timestamp": "2026-09-16T20:53:11",
+    "event": "genesis",
+    "body_id": "body_0118",
+    "summary": "第118纪元：science×literature碰撞，诞生星团「茫可观·辽阔」"
+  },
+  {
+    "epoch": 119,
+    "timestamp": "2026-09-16T20:53:16",
+    "event": "genesis",
+    "body_id": "body_0119",
+    "summary": "第119纪元：science×music碰撞，诞生白矮星「茫时间·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -7911,6 +8048,47 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
+    "date": "2016-11-21",
+    "title": "Nova over Thailand",
+    "url": "https://apod.nasa.gov/apod/image/1611/NovaSag2016_Dai_1500_annotated.jpg",
+    "local_path": "assets/apod/apod_2016-11-21.jpg",
+    "explanation": "A nova in Sagittarius is bright enough to see with binoculars.  Discovered last month by the All-Sky Automated Survey for Supernovae (ASAS-SN), the stellar explosion even approached the limit of naked-eye visibility last week. A classical nova results from a thermonuclear explosion on the surface of a white dwarf star -- a dense star having the size of our Earth but the mass of our Sun.  In the featured image, the nova was captured last week above ancient Wat Mahathat in Sukhothai, Thailand. To ",
+    "tags": {
+      "colors": [
+        "#505070",
+        "#101010",
+        "#305050"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "supernova",
+          "cn": "超新星"
+        },
+        {
+          "en": "venus",
+          "cn": "金星"
+        }
+      ],
+      "moods": [
+        "激烈"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-16T20:53:05.070583"
+  },
+  {
     "date": "2017-05-29",
     "title": "Beneath Jupiter",
     "url": "https://apod.nasa.gov/apod/image/1705/BeneathJupiter_Juno_vertical960.jpg",
@@ -8534,49 +8712,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-12",
-    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、白矮星、流浪行星在cinema、geography、science、music、philosophy的碰撞中绽放，情绪以壮阔、苍凉、苍凉为主导。",
-    "body_count": 4,
-    "new_bodies": [
-      {
-        "name": "魄运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0035"
-      },
-      {
-        "name": "茫降临·壮阔",
-        "type_cn": "星系",
-        "id": "body_0036"
-      },
-      {
-        "name": "弦消解·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0037"
-      },
-      {
-        "name": "寂星座·苍凉·子",
-        "type_cn": "流浪行星",
-        "id": "body_0038"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "苍凉": 2,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "history": 1,
-      "literature": 1,
-      "cinema": 1,
-      "geography": 2,
-      "science": 2,
-      "music": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 2
-  },
   {
     "date": "2026-08-14",
     "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、超新星、流浪行星在geography、literature、science、astronomy的碰撞中绽放，情绪以辽阔、激烈、希望为主导。",
@@ -9458,15 +9593,45 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-09-16",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫可观·辽阔",
+        "type_cn": "星团",
+        "id": "body_0118"
+      },
+      {
+        "name": "茫时间·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0119"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "science": 2,
+      "literature": 1,
+      "music": 1,
+      "history": 1,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 117,
-  "chronicle_entries": 117,
+  "total_bodies": 119,
+  "chronicle_entries": 119,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 14,
-    "白矮星": 12,
+    "白矮星": 13,
     "卫星": 8,
     "星云": 8,
     "星系": 7,
@@ -9480,10 +9645,10 @@ window.COSMOS_STATS = {
     "遗迹": 5,
     "黑洞": 5,
     "脉冲星": 4,
+    "星团": 3,
     "类星体": 3,
     "虚空": 3,
     "原恒星": 2,
-    "星团": 2,
     "耀变体": 2,
     "千新星": 1,
     "恒星": 1,
@@ -9491,30 +9656,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 60,
-    "苍凉": 51,
-    "诡谲": 44,
+    "壮阔": 61,
+    "苍凉": 52,
+    "诡谲": 45,
     "孤寂": 43,
     "宁静": 43,
     "激烈": 32,
-    "未知": 28,
-    "激越": 16,
-    "希望": 15,
+    "未知": 29,
+    "希望": 17,
+    "激越": 17,
     "神秘": 15,
-    "辽阔": 13,
+    "辽阔": 14,
     "热闹": 4
   },
   "domain_distribution": {
+    "literature": 45,
     "philosophy": 45,
-    "literature": 44,
     "astronomy": 36,
     "myth": 35,
     "art": 29,
-    "science": 15,
-    "history": 12,
-    "cinema": 11,
-    "geography": 11,
-    "music": 11
+    "science": 17,
+    "history": 13,
+    "cinema": 12,
+    "music": 12,
+    "geography": 11
   },
   "generation": {
     "max_generation": 2,

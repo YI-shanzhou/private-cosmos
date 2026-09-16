@@ -817,5 +817,19 @@
     "event": "genesis",
     "body_id": "body_0117",
     "summary": "第117纪元：cinema×science碰撞，诞生星系「澜五维·壮阔」"
+  },
+  {
+    "epoch": 118,
+    "timestamp": "2026-09-16T20:53:11",
+    "event": "genesis",
+    "body_id": "body_0118",
+    "summary": "第118纪元：science×literature碰撞，诞生星团「茫可观·辽阔」"
+  },
+  {
+    "epoch": 119,
+    "timestamp": "2026-09-16T20:53:16",
+    "event": "genesis",
+    "body_id": "body_0119",
+    "summary": "第119纪元：science×music碰撞，诞生白矮星「茫时间·苍凉」"
   }
 ]

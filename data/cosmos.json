@@ -5954,5 +5954,128 @@
       "size": 0.99,
       "luminosity": 0.53
     }
+  },
+  {
+    "id": "body_0118",
+    "type": "cluster",
+    "type_cn": "星团",
+    "name": "茫可观·辽阔",
+    "epoch": 118,
+    "born_at": "2026-09-16T20:53:11",
+    "collision_text": "「可观测宇宙直径约930亿光年，但这只是我们能…」「枝上柳绵吹又少，天涯何处无芳草」「阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人…」相互缠绕，编织出一片辽阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_23",
+      "lit_25",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "可观测宇宙直径约930亿光年，但这只是我们能看到的，之外可能无限",
+        "source": "宇宙学"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "枝上柳绵吹又少，天涯何处无芳草",
+        "source": "苏轼《蝶恋花》"
+      },
+      "c": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "未知",
+        "希望",
+        "壮阔"
+      ],
+      "themes": [
+        "可观测",
+        "远方",
+        "登月"
+      ],
+      "domains": [
+        "science",
+        "literature",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.95,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0119",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "茫时间·苍凉",
+    "epoch": 119,
+    "born_at": "2026-09-16T20:53:16",
+    "collision_text": "「时间膨胀：速度越快、引力越强，时间流逝越慢，…」穿过「图兰朵·今夜无人入睡」和「末路英雄在荒原上独行，身后是无尽的尘土和落日」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_11",
+      "mus_20",
+      "cin_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "时间膨胀：速度越快、引力越强，时间流逝越慢，双生子之一远行归来比留下的更年轻",
+        "source": "相对论"
+      },
+      "b": {
+        "domain": "music",
+        "text": "图兰朵·今夜无人入睡",
+        "source": "普契尼"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "末路英雄在荒原上独行，身后是无尽的尘土和落日",
+        "source": "《疯狂的麦克斯》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "激越",
+        "希望"
+      ],
+      "themes": [
+        "时间扭曲",
+        "渴望",
+        "荒原"
+      ],
+      "domains": [
+        "science",
+        "music",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "浪漫",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.38,
+      "luminosity": 0.31
+    }
   }
 ]

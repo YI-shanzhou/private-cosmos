@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、白矮星、流浪行星在cinema、geography、science、music、philosophy的碰撞中绽放，情绪以壮阔、苍凉、苍凉为主导。",
-    "body_count": 4,
-    "new_bodies": [
-      {
-        "name": "魄运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0035"
-      },
-      {
-        "name": "茫降临·壮阔",
-        "type_cn": "星系",
-        "id": "body_0036"
-      },
-      {
-        "name": "弦消解·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0037"
-      },
-      {
-        "name": "寂星座·苍凉·子",
-        "type_cn": "流浪行星",
-        "id": "body_0038"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "苍凉": 2,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "history": 1,
-      "literature": 1,
-      "cinema": 1,
-      "geography": 2,
-      "science": 2,
-      "music": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-14",
     "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、超新星、流浪行星在geography、literature、science、astronomy的碰撞中绽放，情绪以辽阔、激烈、希望为主导。",
     "body_count": 3,
@@ -920,6 +877,36 @@
       "geography": 1,
       "literature": 1,
       "history": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
+  },
+  {
+    "date": "2026-09-16",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫可观·辽阔",
+        "type_cn": "星团",
+        "id": "body_0118"
+      },
+      {
+        "name": "茫时间·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0119"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "science": 2,
+      "literature": 1,
+      "music": 1,
+      "history": 1,
+      "cinema": 1
     },
     "lineage_count": 0,
     "triple_count": 2
