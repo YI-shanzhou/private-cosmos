@@ -831,5 +831,19 @@
     "event": "genesis",
     "body_id": "body_0119",
     "summary": "第119纪元：science×music碰撞，诞生白矮星「茫时间·苍凉」"
+  },
+  {
+    "epoch": 120,
+    "timestamp": "2026-09-17T20:57:35",
+    "event": "genesis",
+    "body_id": "body_0120",
+    "summary": "第120纪元：geography×astronomy碰撞，诞生彗星「幽绝顶·孤寂」"
+  },
+  {
+    "epoch": 121,
+    "timestamp": "2026-09-17T20:57:40",
+    "event": "genesis",
+    "body_id": "body_0121",
+    "summary": "第121纪元：geography×history碰撞，诞生白矮星「澜沙海·苍凉」"
   }
 ]

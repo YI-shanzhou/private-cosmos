@@ -6078,6 +6078,129 @@ window.COSMOS_DATA = [
       "size": 0.38,
       "luminosity": 0.31
     }
+  },
+  {
+    "id": "body_0120",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "幽绝顶·孤寂",
+    "epoch": 120,
+    "born_at": "2026-09-17T20:57:35",
+    "collision_text": "「珠穆朗玛峰顶的风速达到每小时三百公里，登山者…」「Hubble Resolves Expira…」「图灵用一台机器破译了恩尼格码，却因性向被化学…」相互缠绕，编织出一片孤寂的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_04",
+      "apo_15",
+      "his_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "珠穆朗玛峰顶的风速达到每小时三百公里，登山者的遗体成了永久的路标",
+        "source": "珠穆朗玛峰·喜马拉雅"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Hubble Resolves Expiration Date For Green Cheese Moon",
+        "source": "NASA APOD 2006-04-01"
+      },
+      "c": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "壮阔",
+        "未知",
+        "诡谲"
+      ],
+      "themes": [
+        "绝顶",
+        "月球",
+        "密码"
+      ],
+      "domains": [
+        "geography",
+        "astronomy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.93,
+      "luminosity": 0.8
+    }
+  },
+  {
+    "id": "body_0121",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜沙海·苍凉",
+    "epoch": 121,
+    "born_at": "2026-09-17T20:57:40",
+    "collision_text": "「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」「庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年…」「蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_03",
+      "his_04",
+      "sci_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      },
+      "b": {
+        "domain": "history",
+        "text": "庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年后人们挖出了面包店里的烤炉和恋人的拥抱",
+        "source": "庞贝末日·公元79年"
+      },
+      "c": {
+        "domain": "science",
+        "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风",
+        "source": "混沌理论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "辽阔",
+        "诡谲",
+        "激越"
+      ],
+      "themes": [
+        "沙海",
+        "凝固",
+        "混沌"
+      ],
+      "domains": [
+        "geography",
+        "history",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.78,
+      "luminosity": 0.37
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -6913,6 +7036,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0119",
     "summary": "第119纪元：science×music碰撞，诞生白矮星「茫时间·苍凉」"
+  },
+  {
+    "epoch": 120,
+    "timestamp": "2026-09-17T20:57:35",
+    "event": "genesis",
+    "body_id": "body_0120",
+    "summary": "第120纪元：geography×astronomy碰撞，诞生彗星「幽绝顶·孤寂」"
+  },
+  {
+    "epoch": 121,
+    "timestamp": "2026-09-17T20:57:40",
+    "event": "genesis",
+    "body_id": "body_0121",
+    "summary": "第121纪元：geography×history碰撞，诞生白矮星「澜沙海·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -8558,6 +8695,47 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-16T18:26:04.094674"
   },
   {
+    "date": "2022-12-30",
+    "title": "Mars and the Star Clusters",
+    "url": "https://apod.nasa.gov/apod/image/2212/mars_clusters.jpg",
+    "local_path": "assets/apod/apod_2022-12-30.jpg",
+    "explanation": "At this year's end Mars still shines brightly in planet Earth's night as it wanders through the head-strong constellation Taurus. Its bright yellowish hue dominates this starry field of view that includes Taurus' alpha star Aldebaran and the Hyades and Pleiades star clusters. While red giant Aldebaran appears to anchor the V-shape of the Hyades at the left of the frame, Aldebaran is not a member of the Hyades star cluster. The Hyades cluster is 151 light-years away making it the nearest establis",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#503030",
+        "#705030"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-17T20:57:29.502334"
+  },
+  {
     "date": "2024-04-29",
     "title": "Comet, Planet, Moon",
     "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
@@ -8712,41 +8890,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-14",
-    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、超新星、流浪行星在geography、literature、science、astronomy的碰撞中绽放，情绪以辽阔、激烈、希望为主导。",
-    "body_count": 3,
-    "new_bodies": [
-      {
-        "name": "渺星空·辽阔",
-        "type_cn": "星系",
-        "id": "body_0039"
-      },
-      {
-        "name": "幽地火·激烈",
-        "type_cn": "超新星",
-        "id": "body_0040"
-      },
-      {
-        "name": "寂星座·希望·子",
-        "type_cn": "流浪行星",
-        "id": "body_0041"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "激烈": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "literature": 2,
-      "science": 2,
-      "astronomy": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-15",
     "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
@@ -9623,22 +9766,51 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-09-17",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽绝顶·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0120"
+      },
+      {
+        "name": "澜沙海·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0121"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "history": 2,
+      "astronomy": 1,
+      "science": 1,
+      "geography": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 119,
-  "chronicle_entries": 119,
+  "total_bodies": 121,
+  "chronicle_entries": 121,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 14,
-    "白矮星": 13,
+    "白矮星": 14,
     "卫星": 8,
     "星云": 8,
     "星系": 7,
     "暗物质": 7,
+    "彗星": 6,
     "超空洞": 6,
     "尘埃云": 5,
-    "彗星": 5,
     "虫洞": 5,
     "行星": 5,
     "超新星": 5,
@@ -9656,30 +9828,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 61,
-    "苍凉": 52,
-    "诡谲": 45,
-    "孤寂": 43,
+    "壮阔": 62,
+    "苍凉": 53,
+    "诡谲": 47,
+    "孤寂": 44,
     "宁静": 43,
     "激烈": 32,
-    "未知": 29,
+    "未知": 30,
+    "激越": 18,
     "希望": 17,
-    "激越": 17,
     "神秘": 15,
-    "辽阔": 14,
+    "辽阔": 15,
     "热闹": 4
   },
   "domain_distribution": {
     "literature": 45,
     "philosophy": 45,
-    "astronomy": 36,
+    "astronomy": 37,
     "myth": 35,
     "art": 29,
-    "science": 17,
-    "history": 13,
+    "science": 18,
+    "history": 15,
+    "geography": 13,
     "cinema": 12,
-    "music": 12,
-    "geography": 11
+    "music": 12
   },
   "generation": {
     "max_generation": 2,

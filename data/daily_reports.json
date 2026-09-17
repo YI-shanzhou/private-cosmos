@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "summary": "今日宇宙诞生了3颗新天体，其中1颗源自古老天体的血脉延续。星系、超新星、流浪行星在geography、literature、science、astronomy的碰撞中绽放，情绪以辽阔、激烈、希望为主导。",
-    "body_count": 3,
-    "new_bodies": [
-      {
-        "name": "渺星空·辽阔",
-        "type_cn": "星系",
-        "id": "body_0039"
-      },
-      {
-        "name": "幽地火·激烈",
-        "type_cn": "超新星",
-        "id": "body_0040"
-      },
-      {
-        "name": "寂星座·希望·子",
-        "type_cn": "流浪行星",
-        "id": "body_0041"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "激烈": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "literature": 2,
-      "science": 2,
-      "astronomy": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-15",
     "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
     "body_count": 5,
@@ -907,6 +872,35 @@
       "music": 1,
       "history": 1,
       "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
+  },
+  {
+    "date": "2026-09-17",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽绝顶·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0120"
+      },
+      {
+        "name": "澜沙海·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0121"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "history": 2,
+      "astronomy": 1,
+      "science": 1,
+      "geography": 2
     },
     "lineage_count": 0,
     "triple_count": 2

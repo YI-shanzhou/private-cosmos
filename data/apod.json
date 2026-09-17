@@ -1641,6 +1641,47 @@
     "fetched_at": "2026-08-16T18:26:04.094674"
   },
   {
+    "date": "2022-12-30",
+    "title": "Mars and the Star Clusters",
+    "url": "https://apod.nasa.gov/apod/image/2212/mars_clusters.jpg",
+    "local_path": "assets/apod/apod_2022-12-30.jpg",
+    "explanation": "At this year's end Mars still shines brightly in planet Earth's night as it wanders through the head-strong constellation Taurus. Its bright yellowish hue dominates this starry field of view that includes Taurus' alpha star Aldebaran and the Hyades and Pleiades star clusters. While red giant Aldebaran appears to anchor the V-shape of the Hyades at the left of the frame, Aldebaran is not a member of the Hyades star cluster. The Hyades cluster is 151 light-years away making it the nearest establis",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#503030",
+        "#705030"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-17T20:57:29.502334"
+  },
+  {
     "date": "2024-04-29",
     "title": "Comet, Planet, Moon",
     "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",
