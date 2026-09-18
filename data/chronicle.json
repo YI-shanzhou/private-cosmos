@@ -845,5 +845,19 @@
     "event": "genesis",
     "body_id": "body_0121",
     "summary": "第121纪元：geography×history碰撞，诞生白矮星「澜沙海·苍凉」"
+  },
+  {
+    "epoch": 122,
+    "timestamp": "2026-09-18T20:25:09",
+    "event": "genesis",
+    "body_id": "body_0122",
+    "summary": "第122纪元：astronomy×myth碰撞，诞生虚空「墟类星·未知」"
+  },
+  {
+    "epoch": 123,
+    "timestamp": "2026-09-18T20:25:15",
+    "event": "genesis",
+    "body_id": "body_0123",
+    "summary": "第123纪元：myth×philosophy碰撞，诞生白矮星「渺末日·苍凉」"
   }
 ]

@@ -6200,5 +6200,127 @@
       "size": 0.78,
       "luminosity": 0.37
     }
+  },
+  {
+    "id": "body_0122",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "墟类星·未知",
+    "epoch": 122,
+    "born_at": "2026-09-18T20:25:09",
+    "collision_text": "「The Lyman Alpha Forest」「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_07",
+      "myth_15",
+      "geo_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "The Lyman Alpha Forest",
+        "source": "NASA APOD 2000-11-12"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "苍凉",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "类星体",
+        "治水",
+        "盐海"
+      ],
+      "domains": [
+        "astronomy",
+        "myth",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.88,
+      "luminosity": 0.59
+    }
+  },
+  {
+    "id": "body_0123",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺末日·苍凉",
+    "epoch": 123,
+    "born_at": "2026-09-18T20:25:15",
+    "collision_text": "「诸神黄昏，众神与巨人在维格利德平原决战，世界…」穿过「一切坚固的东西都烟消云散了」和「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_07",
+      "phi_09",
+      "geo_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈",
+        "辽阔"
+      ],
+      "themes": [
+        "末日",
+        "消解",
+        "沙海"
+      ],
+      "domains": [
+        "myth",
+        "philosophy",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "近代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.96,
+      "luminosity": 0.47
+    }
   }
 ]

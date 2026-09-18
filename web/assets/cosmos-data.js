@@ -6201,6 +6201,128 @@ window.COSMOS_DATA = [
       "size": 0.78,
       "luminosity": 0.37
     }
+  },
+  {
+    "id": "body_0122",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "墟类星·未知",
+    "epoch": 122,
+    "born_at": "2026-09-18T20:25:09",
+    "collision_text": "「The Lyman Alpha Forest」「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_07",
+      "myth_15",
+      "geo_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "The Lyman Alpha Forest",
+        "source": "NASA APOD 2000-11-12"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "苍凉",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "类星体",
+        "治水",
+        "盐海"
+      ],
+      "domains": [
+        "astronomy",
+        "myth",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.88,
+      "luminosity": 0.59
+    }
+  },
+  {
+    "id": "body_0123",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺末日·苍凉",
+    "epoch": 123,
+    "born_at": "2026-09-18T20:25:15",
+    "collision_text": "「诸神黄昏，众神与巨人在维格利德平原决战，世界…」穿过「一切坚固的东西都烟消云散了」和「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_07",
+      "phi_09",
+      "geo_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "诸神黄昏，众神与巨人在维格利德平原决战，世界沉入大海",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      },
+      "c": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈",
+        "辽阔"
+      ],
+      "themes": [
+        "末日",
+        "消解",
+        "沙海"
+      ],
+      "domains": [
+        "myth",
+        "philosophy",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "近代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.96,
+      "luminosity": 0.47
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7050,6 +7172,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0121",
     "summary": "第121纪元：geography×history碰撞，诞生白矮星「澜沙海·苍凉」"
+  },
+  {
+    "epoch": 122,
+    "timestamp": "2026-09-18T20:25:09",
+    "event": "genesis",
+    "body_id": "body_0122",
+    "summary": "第122纪元：astronomy×myth碰撞，诞生虚空「墟类星·未知」"
+  },
+  {
+    "epoch": 123,
+    "timestamp": "2026-09-18T20:25:15",
+    "event": "genesis",
+    "body_id": "body_0123",
+    "summary": "第123纪元：myth×philosophy碰撞，诞生白矮星「渺末日·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -7854,6 +7990,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-15T20:52:41.507317"
+  },
+  {
+    "date": "2010-04-14",
+    "title": "A Large Space Station Over Earth",
+    "url": "https://apod.nasa.gov/apod/image/1004/kiboearth_iss_big.jpg",
+    "local_path": "assets/apod/apod_2010-04-14.jpg",
+    "explanation": "The International Space Station is the largest object ever constructed by humans in space.  The station perimeter now extends over roughly the area of a football field, although only a small fraction of this is composed of modules habitable by humans. The station is so large that it could not be launched all at once -- it is being built piecemeal with large sections added continually by flights of the Space Shuttle.  To function, the ISS needs huge trusses, some over 15 meters long and with mass",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0f0f0",
+        "#303030"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-18T20:25:02.572619"
   },
   {
     "date": "2011-01-03",
@@ -8891,55 +9047,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-15",
-    "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
-    "body_count": 5,
-    "new_bodies": [
-      {
-        "name": "茫过滤·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0042"
-      },
-      {
-        "name": "澜旷野·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0043"
-      },
-      {
-        "name": "弦荒原·激烈",
-        "type_cn": "磁星",
-        "id": "body_0044"
-      },
-      {
-        "name": "寂决战·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0059"
-      },
-      {
-        "name": "渺月下·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0060"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "诡谲": 1,
-      "壮阔": 2,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "geography": 2,
-      "philosophy": 2,
-      "cinema": 1,
-      "music": 2,
-      "science": 3,
-      "myth": 1,
-      "history": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-16",
     "summary": "今日宇宙又长大了——2颗新天体在science、music、literature、geography领域的碰撞中诞生。卫星、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
     "body_count": 3,
@@ -9795,15 +9902,44 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-09-18",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟类星·未知",
+        "type_cn": "虚空",
+        "id": "body_0122"
+      },
+      {
+        "name": "渺末日·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0123"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "geography": 2,
+      "astronomy": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 121,
-  "chronicle_entries": 121,
+  "total_bodies": 123,
+  "chronicle_entries": 123,
   "daily_report_count": 30,
   "type_distribution": {
+    "白矮星": 15,
     "流浪行星": 14,
-    "白矮星": 14,
     "卫星": 8,
     "星云": 8,
     "星系": 7,
@@ -9817,9 +9953,9 @@ window.COSMOS_STATS = {
     "遗迹": 5,
     "黑洞": 5,
     "脉冲星": 4,
+    "虚空": 4,
     "星团": 3,
     "类星体": 3,
-    "虚空": 3,
     "原恒星": 2,
     "耀变体": 2,
     "千新星": 1,
@@ -9828,28 +9964,28 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 62,
-    "苍凉": 53,
+    "壮阔": 63,
+    "苍凉": 55,
     "诡谲": 47,
     "孤寂": 44,
-    "宁静": 43,
-    "激烈": 32,
-    "未知": 30,
+    "宁静": 44,
+    "激烈": 33,
+    "未知": 31,
     "激越": 18,
     "希望": 17,
+    "辽阔": 16,
     "神秘": 15,
-    "辽阔": 15,
     "热闹": 4
   },
   "domain_distribution": {
+    "philosophy": 46,
     "literature": 45,
-    "philosophy": 45,
-    "astronomy": 37,
-    "myth": 35,
+    "astronomy": 38,
+    "myth": 37,
     "art": 29,
     "science": 18,
+    "geography": 15,
     "history": 15,
-    "geography": 13,
     "cinema": 12,
     "music": 12
   },

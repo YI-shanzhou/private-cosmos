@@ -1,54 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "summary": "寂决战于超空洞中铺展壮阔史诗，渺月下凝白矮星之苍凉。三体一撞，神话与乐音共震，历史与哲思同烁。",
-    "body_count": 5,
-    "new_bodies": [
-      {
-        "name": "茫过滤·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0042"
-      },
-      {
-        "name": "澜旷野·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0043"
-      },
-      {
-        "name": "弦荒原·激烈",
-        "type_cn": "磁星",
-        "id": "body_0044"
-      },
-      {
-        "name": "寂决战·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0059"
-      },
-      {
-        "name": "渺月下·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0060"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "诡谲": 1,
-      "壮阔": 2,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "geography": 2,
-      "philosophy": 2,
-      "cinema": 1,
-      "music": 2,
-      "science": 3,
-      "myth": 1,
-      "history": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-16",
     "summary": "今日宇宙又长大了——2颗新天体在science、music、literature、geography领域的碰撞中诞生。卫星、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
     "body_count": 3,
@@ -901,6 +852,35 @@
       "astronomy": 1,
       "science": 1,
       "geography": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 2
+  },
+  {
+    "date": "2026-09-18",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟类星·未知",
+        "type_cn": "虚空",
+        "id": "body_0122"
+      },
+      {
+        "name": "渺末日·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0123"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "geography": 2,
+      "astronomy": 1,
+      "philosophy": 1
     },
     "lineage_count": 0,
     "triple_count": 2

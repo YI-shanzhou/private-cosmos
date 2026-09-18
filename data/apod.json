@@ -802,6 +802,26 @@
     "fetched_at": "2026-09-15T20:52:41.507317"
   },
   {
+    "date": "2010-04-14",
+    "title": "A Large Space Station Over Earth",
+    "url": "https://apod.nasa.gov/apod/image/1004/kiboearth_iss_big.jpg",
+    "local_path": "assets/apod/apod_2010-04-14.jpg",
+    "explanation": "The International Space Station is the largest object ever constructed by humans in space.  The station perimeter now extends over roughly the area of a football field, although only a small fraction of this is composed of modules habitable by humans. The station is so large that it could not be launched all at once -- it is being built piecemeal with large sections added continually by flights of the Space Shuttle.  To function, the ISS needs huge trusses, some over 15 meters long and with mass",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#f0f0f0",
+        "#303030"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-18T20:25:02.572619"
+  },
+  {
     "date": "2011-01-03",
     "title": "Winter Hexagon Over Stagecoach Colorado",
     "url": "https://apod.nasa.gov/apod/image/1101/winterhexagon_westlake_big.jpg",
