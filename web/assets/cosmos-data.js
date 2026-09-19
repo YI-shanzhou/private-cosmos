@@ -6323,6 +6323,110 @@ window.COSMOS_DATA = [
       "size": 0.96,
       "luminosity": 0.47
     }
+  },
+  {
+    "id": "body_0124",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "渺执念·激越",
+    "epoch": 124,
+    "born_at": "2026-09-19T20:03:57",
+    "collision_text": "「精卫衔微木填东海，常衔西山之木石，至死不辍」在「蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引…」的引力下弯曲，折成激越的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_11",
+      "sci_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "精卫衔微木填东海，常衔西山之木石，至死不辍",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "science",
+        "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风",
+        "source": "混沌理论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "执念",
+        "混沌"
+      ],
+      "domains": [
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.97,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0125",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "茫自由·希望",
+    "epoch": 125,
+    "born_at": "2026-09-19T20:04:03",
+    "collision_text": "「自由不是想做什么就做什么，而是不想做什么就能…」在「大堡礁从太空中肉眼可见，两千三百公里长的珊瑚…」的引力下弯曲，折成希望的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_29",
+      "geo_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "自由不是想做什么就做什么，而是不想做什么就能不做什么",
+        "source": "康德"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "大堡礁从太空中肉眼可见，两千三百公里长的珊瑚城在暖流中呼吸，彩色鱼群如星尘般穿梭",
+        "source": "大堡礁·澳大利亚"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "自由",
+        "珊瑚"
+      ],
+      "domains": [
+        "philosophy",
+        "geography"
+      ],
+      "intensity": 2,
+      "eras": [
+        "近代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.88,
+      "luminosity": 0.89
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7186,6 +7290,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0123",
     "summary": "第123纪元：myth×philosophy碰撞，诞生白矮星「渺末日·苍凉」"
+  },
+  {
+    "epoch": 124,
+    "timestamp": "2026-09-19T20:03:57",
+    "event": "genesis",
+    "body_id": "body_0124",
+    "summary": "第124纪元：myth×science碰撞，诞生脉冲星「渺执念·激越」"
+  },
+  {
+    "epoch": 125,
+    "timestamp": "2026-09-19T20:04:03",
+    "event": "genesis",
+    "body_id": "body_0125",
+    "summary": "第125纪元：philosophy×geography碰撞，诞生恒星「茫自由·希望」"
   }
 ];
 window.APOD_DATA = [
@@ -8419,6 +8537,39 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
+    "date": "2017-11-21",
+    "title": "Big Dipper over Pyramid Mountain",
+    "url": "https://apod.nasa.gov/apod/image/1711/BigDipperMt2_Cullen_1365.jpg",
+    "local_path": "assets/apod/apod_2017-11-21.jpg",
+    "explanation": "When did you first learn to identify this group of stars? Although they are familiar to many people around the world, different cultures have associated this asterism with different icons and folklore. Known in the USA as the Big Dipper, the stars are part of a constellation designated by the International Astronomical Union in 1922 as the Great Bear (Ursa Major).  The recognized star names of these stars are (left to right) Alkaid, Mizar/Alcor, Alioth, Megrez, Phecda, Merak, and Dubhe.  Of cour",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#7070f0",
+        "#5050d0"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-19T20:03:52.031399"
+  },
+  {
     "date": "2017-12-05",
     "title": "A Horizon with Blue and Red",
     "url": "https://apod.nasa.gov/apod/image/1712/BlueMoonRedVolcano_Montufar_4096.jpg",
@@ -9046,43 +9197,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-16",
-    "summary": "今日宇宙又长大了——2颗新天体在science、music、literature、geography领域的碰撞中诞生。卫星、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
-    "body_count": 3,
-    "new_bodies": [
-      {
-        "name": "尘牺牲·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0061"
-      },
-      {
-        "name": "墟知音·宁静",
-        "type_cn": "卫星",
-        "id": "body_0062"
-      },
-      {
-        "name": "辉密码·诡谲",
-        "type_cn": "黑洞",
-        "id": "body_0063"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "宁静": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "astronomy": 1,
-      "myth": 1,
-      "science": 1,
-      "music": 1,
-      "literature": 1,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-17",
     "summary": "今日两粒星尘自历史与神话的罅隙坠入宇宙——澜星座·辽阔·子曳着彗尾拓开疆土，幽修补·苍凉凝作遗迹低语旧章。繁衍一颗新生，无碰撞惊扰，唯苍茫诗行在深空缓缓铺展。",
@@ -9931,11 +10045,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-09-19",
+    "summary": "今日宇宙又长大了——2颗新天体在science、myth、geography、philosophy领域的碰撞中诞生。脉冲星、恒星们带着激越、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺执念·激越",
+        "type_cn": "脉冲星",
+        "id": "body_0124"
+      },
+      {
+        "name": "茫自由·希望",
+        "type_cn": "恒星",
+        "id": "body_0125"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "myth": 1,
+      "geography": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 123,
-  "chronicle_entries": 123,
+  "total_bodies": 125,
+  "chronicle_entries": 125,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 15,
@@ -9947,44 +10090,44 @@ window.COSMOS_STATS = {
     "彗星": 6,
     "超空洞": 6,
     "尘埃云": 5,
+    "脉冲星": 5,
     "虫洞": 5,
     "行星": 5,
     "超新星": 5,
     "遗迹": 5,
     "黑洞": 5,
-    "脉冲星": 4,
     "虚空": 4,
     "星团": 3,
     "类星体": 3,
     "原恒星": 2,
+    "恒星": 2,
     "耀变体": 2,
     "千新星": 1,
-    "恒星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
     "壮阔": 63,
-    "苍凉": 55,
-    "诡谲": 47,
-    "孤寂": 44,
-    "宁静": 44,
+    "苍凉": 56,
+    "诡谲": 48,
+    "孤寂": 45,
+    "宁静": 45,
     "激烈": 33,
     "未知": 31,
-    "激越": 18,
-    "希望": 17,
+    "激越": 19,
+    "希望": 18,
     "辽阔": 16,
     "神秘": 15,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 46,
+    "philosophy": 47,
     "literature": 45,
     "astronomy": 38,
-    "myth": 37,
+    "myth": 38,
     "art": 29,
-    "science": 18,
-    "geography": 15,
+    "science": 19,
+    "geography": 16,
     "history": 15,
     "cinema": 12,
     "music": 12

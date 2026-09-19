@@ -6322,5 +6322,109 @@
       "size": 0.96,
       "luminosity": 0.47
     }
+  },
+  {
+    "id": "body_0124",
+    "type": "pulsar",
+    "type_cn": "脉冲星",
+    "name": "渺执念·激越",
+    "epoch": 124,
+    "born_at": "2026-09-19T20:03:57",
+    "collision_text": "「精卫衔微木填东海，常衔西山之木石，至死不辍」在「蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引…」的引力下弯曲，折成激越的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_11",
+      "sci_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "精卫衔微木填东海，常衔西山之木石，至死不辍",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "science",
+        "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风",
+        "source": "混沌理论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "执念",
+        "混沌"
+      ],
+      "domains": [
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.97,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0125",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "茫自由·希望",
+    "epoch": 125,
+    "born_at": "2026-09-19T20:04:03",
+    "collision_text": "「自由不是想做什么就做什么，而是不想做什么就能…」在「大堡礁从太空中肉眼可见，两千三百公里长的珊瑚…」的引力下弯曲，折成希望的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_29",
+      "geo_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "自由不是想做什么就做什么，而是不想做什么就能不做什么",
+        "source": "康德"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "大堡礁从太空中肉眼可见，两千三百公里长的珊瑚城在暖流中呼吸，彩色鱼群如星尘般穿梭",
+        "source": "大堡礁·澳大利亚"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "自由",
+        "珊瑚"
+      ],
+      "domains": [
+        "philosophy",
+        "geography"
+      ],
+      "intensity": 2,
+      "eras": [
+        "近代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.88,
+      "luminosity": 0.89
+    }
   }
 ]

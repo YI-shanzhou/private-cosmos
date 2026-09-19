@@ -859,5 +859,19 @@
     "event": "genesis",
     "body_id": "body_0123",
     "summary": "第123纪元：myth×philosophy碰撞，诞生白矮星「渺末日·苍凉」"
+  },
+  {
+    "epoch": 124,
+    "timestamp": "2026-09-19T20:03:57",
+    "event": "genesis",
+    "body_id": "body_0124",
+    "summary": "第124纪元：myth×science碰撞，诞生脉冲星「渺执念·激越」"
+  },
+  {
+    "epoch": 125,
+    "timestamp": "2026-09-19T20:04:03",
+    "event": "genesis",
+    "body_id": "body_0125",
+    "summary": "第125纪元：philosophy×geography碰撞，诞生恒星「茫自由·希望」"
   }
 ]

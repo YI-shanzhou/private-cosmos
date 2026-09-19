@@ -1229,6 +1229,39 @@
     "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
+    "date": "2017-11-21",
+    "title": "Big Dipper over Pyramid Mountain",
+    "url": "https://apod.nasa.gov/apod/image/1711/BigDipperMt2_Cullen_1365.jpg",
+    "local_path": "assets/apod/apod_2017-11-21.jpg",
+    "explanation": "When did you first learn to identify this group of stars? Although they are familiar to many people around the world, different cultures have associated this asterism with different icons and folklore. Known in the USA as the Big Dipper, the stars are part of a constellation designated by the International Astronomical Union in 1922 as the Great Bear (Ursa Major).  The recognized star names of these stars are (left to right) Alkaid, Mizar/Alcor, Alioth, Megrez, Phecda, Merak, and Dubhe.  Of cour",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#7070f0",
+        "#5050d0"
+      ],
+      "themes": [
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-19T20:03:52.031399"
+  },
+  {
     "date": "2017-12-05",
     "title": "A Horizon with Blue and Red",
     "url": "https://apod.nasa.gov/apod/image/1712/BlueMoonRedVolcano_Montufar_4096.jpg",
