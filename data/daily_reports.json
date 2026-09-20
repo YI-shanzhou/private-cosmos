@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "summary": "今日两粒星尘自历史与神话的罅隙坠入宇宙——澜星座·辽阔·子曳着彗尾拓开疆土，幽修补·苍凉凝作遗迹低语旧章。繁衍一颗新生，无碰撞惊扰，唯苍茫诗行在深空缓缓铺展。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜星座·辽阔·子",
-        "type_cn": "彗星",
-        "id": "body_0064"
-      },
-      {
-        "name": "幽修补·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0065"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "history": 1,
-      "myth": 1,
-      "literature": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-18",
     "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
     "body_count": 2,
@@ -873,6 +845,34 @@
       "myth": 1,
       "geography": 1,
       "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-09-20",
+    "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂生命·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0126"
+      },
+      {
+        "name": "尘感知·希望",
+        "type_cn": "恒星",
+        "id": "body_0127"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "music": 1,
+      "philosophy": 2,
+      "cinema": 1
     },
     "lineage_count": 0,
     "triple_count": 0

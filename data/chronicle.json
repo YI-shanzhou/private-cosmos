@@ -873,5 +873,19 @@
     "event": "genesis",
     "body_id": "body_0125",
     "summary": "第125纪元：philosophy×geography碰撞，诞生恒星「茫自由·希望」"
+  },
+  {
+    "epoch": 126,
+    "timestamp": "2026-09-20T20:20:45",
+    "event": "genesis",
+    "body_id": "body_0126",
+    "summary": "第126纪元：philosophy×cinema碰撞，诞生彗星「寂生命·孤寂」"
+  },
+  {
+    "epoch": 127,
+    "timestamp": "2026-09-20T20:20:51",
+    "event": "genesis",
+    "body_id": "body_0127",
+    "summary": "第127纪元：philosophy×music碰撞，诞生恒星「尘感知·希望」"
   }
 ]

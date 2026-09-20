@@ -6427,6 +6427,110 @@ window.COSMOS_DATA = [
       "size": 0.88,
       "luminosity": 0.89
     }
+  },
+  {
+    "id": "body_0126",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "寂生命·孤寂",
+    "epoch": 126,
+    "born_at": "2026-09-20T20:20:45",
+    "collision_text": "「未经审视的人生不值得过」穿过「黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声…」，留下一道孤寂的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_06",
+      "cin_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "生命",
+        "奔跑"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.49,
+      "luminosity": 0.81
+    }
+  },
+  {
+    "id": "body_0127",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "尘感知·希望",
+    "epoch": 127,
+    "born_at": "2026-09-20T20:20:51",
+    "collision_text": "「存在即被感知」穿过「帕赫贝尔·卡农」，留下一道希望的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_12",
+      "mus_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "存在即被感知",
+        "source": "贝克莱"
+      },
+      "b": {
+        "domain": "music",
+        "text": "帕赫贝尔·卡农",
+        "source": "帕赫贝尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "感知",
+        "永恒"
+      ],
+      "domains": [
+        "philosophy",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古典",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.88,
+      "luminosity": 0.34
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7304,6 +7408,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0125",
     "summary": "第125纪元：philosophy×geography碰撞，诞生恒星「茫自由·希望」"
+  },
+  {
+    "epoch": 126,
+    "timestamp": "2026-09-20T20:20:45",
+    "event": "genesis",
+    "body_id": "body_0126",
+    "summary": "第126纪元：philosophy×cinema碰撞，诞生彗星「寂生命·孤寂」"
+  },
+  {
+    "epoch": 127,
+    "timestamp": "2026-09-20T20:20:51",
+    "event": "genesis",
+    "body_id": "body_0127",
+    "summary": "第127纪元：philosophy×music碰撞，诞生恒星「尘感知·希望」"
   }
 ];
 window.APOD_DATA = [
@@ -7406,6 +7524,43 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-29T01:28:21.854045"
+  },
+  {
+    "date": "1996-01-09",
+    "title": "M100 and the Expanding Universe",
+    "url": "https://apod.nasa.gov/apod/image/m100b_hst_big.gif",
+    "local_path": "assets/apod/apod_1996-01-09.jpg",
+    "explanation": "The distance to the swirling grand design spiral M100 is causing quite a stir among astronomers. Many believe that the Hubble Space Telescope's recent distance measurement to this galaxy accurately calibrates the expansion rate of the universe. Others believe this distance measurement is misleading. The universe's expansion rate is usually given as a quantity called \"Hubble's constant\", a factor dividing well-measured recession velocity of a galaxy to give actual distance. Scientific debate over",
+    "tags": {
+      "colors": [
+        "#303050",
+        "#101010",
+        "#101030"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "spiral",
+          "cn": "螺旋"
+        },
+        {
+          "en": "telescope",
+          "cn": "telescope"
+        },
+        {
+          "en": "hubble",
+          "cn": "hubble"
+        }
+      ],
+      "moods": [
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-20T20:20:40.265231"
   },
   {
     "date": "1997-01-09",
@@ -9198,34 +9353,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-17",
-    "summary": "今日两粒星尘自历史与神话的罅隙坠入宇宙——澜星座·辽阔·子曳着彗尾拓开疆土，幽修补·苍凉凝作遗迹低语旧章。繁衍一颗新生，无碰撞惊扰，唯苍茫诗行在深空缓缓铺展。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜星座·辽阔·子",
-        "type_cn": "彗星",
-        "id": "body_0064"
-      },
-      {
-        "name": "幽修补·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0065"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "history": 1,
-      "myth": 1,
-      "literature": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-18",
     "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
     "body_count": 2,
@@ -10074,20 +10201,48 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-20",
+    "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂生命·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0126"
+      },
+      {
+        "name": "尘感知·希望",
+        "type_cn": "恒星",
+        "id": "body_0127"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "music": 1,
+      "philosophy": 2,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 125,
-  "chronicle_entries": 125,
+  "total_bodies": 127,
+  "chronicle_entries": 127,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 15,
     "流浪行星": 14,
     "卫星": 8,
     "星云": 8,
+    "彗星": 7,
     "星系": 7,
     "暗物质": 7,
-    "彗星": 6,
     "超空洞": 6,
     "尘埃云": 5,
     "脉冲星": 5,
@@ -10097,31 +10252,31 @@ window.COSMOS_STATS = {
     "遗迹": 5,
     "黑洞": 5,
     "虚空": 4,
+    "恒星": 3,
     "星团": 3,
     "类星体": 3,
     "原恒星": 2,
-    "恒星": 2,
     "耀变体": 2,
     "千新星": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 63,
+    "壮阔": 64,
     "苍凉": 56,
-    "诡谲": 48,
-    "孤寂": 45,
-    "宁静": 45,
+    "诡谲": 49,
+    "孤寂": 46,
+    "宁静": 46,
     "激烈": 33,
     "未知": 31,
+    "希望": 19,
     "激越": 19,
-    "希望": 18,
-    "辽阔": 16,
+    "辽阔": 17,
     "神秘": 15,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 47,
+    "philosophy": 49,
     "literature": 45,
     "astronomy": 38,
     "myth": 38,
@@ -10129,8 +10284,8 @@ window.COSMOS_STATS = {
     "science": 19,
     "geography": 16,
     "history": 15,
-    "cinema": 12,
-    "music": 12
+    "cinema": 13,
+    "music": 13
   },
   "generation": {
     "max_generation": 2,

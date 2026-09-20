@@ -6426,5 +6426,109 @@
       "size": 0.88,
       "luminosity": 0.89
     }
+  },
+  {
+    "id": "body_0126",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "寂生命·孤寂",
+    "epoch": 126,
+    "born_at": "2026-09-20T20:20:45",
+    "collision_text": "「未经审视的人生不值得过」穿过「黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声…」，留下一道孤寂的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_06",
+      "cin_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "未经审视的人生不值得过",
+        "source": "苏格拉底"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "生命",
+        "奔跑"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.49,
+      "luminosity": 0.81
+    }
+  },
+  {
+    "id": "body_0127",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "尘感知·希望",
+    "epoch": 127,
+    "born_at": "2026-09-20T20:20:51",
+    "collision_text": "「存在即被感知」穿过「帕赫贝尔·卡农」，留下一道希望的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_12",
+      "mus_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "存在即被感知",
+        "source": "贝克莱"
+      },
+      "b": {
+        "domain": "music",
+        "text": "帕赫贝尔·卡农",
+        "source": "帕赫贝尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "感知",
+        "永恒"
+      ],
+      "domains": [
+        "philosophy",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古典",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.88,
+      "luminosity": 0.34
+    }
   }
 ]
