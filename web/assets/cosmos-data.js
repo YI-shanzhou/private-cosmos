@@ -6531,6 +6531,110 @@ window.COSMOS_DATA = [
       "size": 0.88,
       "luminosity": 0.34
     }
+  },
+  {
+    "id": "body_0128",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "渺命运·激越",
+    "epoch": 128,
+    "born_at": "2026-09-21T21:42:44",
+    "collision_text": "「热爱命运——对自己所遭遇的一切说'是'，这是…」沉入「柏林墙在一夜之间倒塌，素不相识的人们在残垣上…」，泛起激越的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_31",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "热爱命运——对自己所遭遇的一切说'是'，这是力量的最高形式",
+        "source": "尼采·命运之爱"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "希望"
+      ],
+      "themes": [
+        "命运之爱",
+        "解放"
+      ],
+      "domains": [
+        "philosophy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.3,
+      "luminosity": 0.57
+    }
+  },
+  {
+    "id": "body_0129",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "辉深渊·神秘",
+    "epoch": 129,
+    "born_at": "2026-09-21T21:42:49",
+    "collision_text": "「马里亚纳海沟一万一千米深处，水压足以压碎钢铁…」与「玛雅人用天文台观测金星，精确到五百年仅差一天…」相互缠绕，坍缩成一粒神秘的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_02",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "马里亚纳海沟一万一千米深处，水压足以压碎钢铁，却仍有透明小鱼在黑暗中游弋",
+        "source": "马里亚纳海沟·太平洋"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "苍凉"
+      ],
+      "themes": [
+        "深渊",
+        "失落"
+      ],
+      "domains": [
+        "geography",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.4,
+      "luminosity": 0.98
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7422,6 +7526,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0127",
     "summary": "第127纪元：philosophy×music碰撞，诞生恒星「尘感知·希望」"
+  },
+  {
+    "epoch": 128,
+    "timestamp": "2026-09-21T21:42:44",
+    "event": "genesis",
+    "body_id": "body_0128",
+    "summary": "第128纪元：philosophy×history碰撞，诞生类星体「渺命运·激越」"
+  },
+  {
+    "epoch": 129,
+    "timestamp": "2026-09-21T21:42:49",
+    "event": "genesis",
+    "body_id": "body_0129",
+    "summary": "第129纪元：geography×history碰撞，诞生暗星云「辉深渊·神秘」"
   }
 ];
 window.APOD_DATA = [
@@ -8325,6 +8443,39 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-05T19:27:06.830260"
+  },
+  {
+    "date": "2011-04-09",
+    "title": "Lunar Farside",
+    "url": "https://apod.nasa.gov/apod/image/1104/farside_lro1600.jpg",
+    "local_path": "assets/apod/apod_2011-04-09.jpg",
+    "explanation": "Tidally locked in synchronous rotation, the Moon always presents its familiar nearside to denizens of planet Earth. From lunar orbit, the Moon's farside can become familiar, though. In fact this sharp picture, a mosaic from the Lunar Reconnaissance Orbiter's wide angle camera, is centered on the lunar farside. Part of a global mosaic of over 15,000 images acquired between November 2009 and February 2011, the highest resolution version shows features at a scale of 100 meters per pixel. Surprising",
+    "tags": {
+      "colors": [
+        "#707070",
+        "#909090",
+        "#101010"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-21T21:42:37.776098"
   },
   {
     "date": "2012-06-16",
@@ -9353,33 +9504,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-18",
-    "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫星河·激越",
-        "type_cn": "类星体",
-        "id": "body_0066"
-      },
-      {
-        "name": "弦幻象·壮阔·子",
-        "type_cn": "脉冲星",
-        "id": "body_0067"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "myth": 2,
-      "literature": 2
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-19",
     "summary": "于虚无的皱褶间，「茫深渊·神秘」悄然张阖，一道虫洞吐纳星光；「魄星汉·壮阔·子」自星尘中苏醒，繁衍出第一缕血脉。宇宙无碰撞，唯有神秘与壮阔，在时空中写下哲思与史篇。",
     "body_count": 2,
@@ -10229,11 +10353,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-21",
+    "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺命运·激越",
+        "type_cn": "类星体",
+        "id": "body_0128"
+      },
+      {
+        "name": "辉深渊·神秘",
+        "type_cn": "暗星云",
+        "id": "body_0129"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "神秘": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "history": 2,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 127,
-  "chronicle_entries": 127,
+  "total_bodies": 129,
+  "chronicle_entries": 129,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 15,
@@ -10251,39 +10403,40 @@ window.COSMOS_STATS = {
     "超新星": 5,
     "遗迹": 5,
     "黑洞": 5,
+    "类星体": 4,
     "虚空": 4,
     "恒星": 3,
     "星团": 3,
-    "类星体": 3,
     "原恒星": 2,
     "耀变体": 2,
     "千新星": 1,
+    "暗星云": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 64,
-    "苍凉": 56,
-    "诡谲": 49,
+    "壮阔": 65,
+    "苍凉": 57,
+    "诡谲": 50,
     "孤寂": 46,
     "宁静": 46,
     "激烈": 33,
     "未知": 31,
-    "希望": 19,
-    "激越": 19,
+    "希望": 20,
+    "激越": 20,
     "辽阔": 17,
-    "神秘": 15,
+    "神秘": 16,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 49,
+    "philosophy": 50,
     "literature": 45,
     "astronomy": 38,
     "myth": 38,
     "art": 29,
     "science": 19,
-    "geography": 16,
-    "history": 15,
+    "geography": 17,
+    "history": 17,
     "cinema": 13,
     "music": 13
   },

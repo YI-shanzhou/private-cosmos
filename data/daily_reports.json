@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-08-18",
-    "summary": "今日宇宙孕生二子：茫星河·激越以类星体之怒照亮神话废墟，弦幻象·壮阔·子以脉冲星韵律重写文学长诗。世代繁衍一颗，无三体相撞，唯激越与壮阔在虚无中交缠成新史诗。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫星河·激越",
-        "type_cn": "类星体",
-        "id": "body_0066"
-      },
-      {
-        "name": "弦幻象·壮阔·子",
-        "type_cn": "脉冲星",
-        "id": "body_0067"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "myth": 2,
-      "literature": 2
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-19",
     "summary": "于虚无的皱褶间，「茫深渊·神秘」悄然张阖，一道虫洞吐纳星光；「魄星汉·壮阔·子」自星尘中苏醒，繁衍出第一缕血脉。宇宙无碰撞，唯有神秘与壮阔，在时空中写下哲思与史篇。",
     "body_count": 2,
@@ -873,6 +846,34 @@
       "music": 1,
       "philosophy": 2,
       "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-09-21",
+    "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺命运·激越",
+        "type_cn": "类星体",
+        "id": "body_0128"
+      },
+      {
+        "name": "辉深渊·神秘",
+        "type_cn": "暗星云",
+        "id": "body_0129"
+      }
+    ],
+    "mood_distribution": {
+      "激越": 1,
+      "神秘": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "history": 2,
+      "geography": 1
     },
     "lineage_count": 0,
     "triple_count": 0

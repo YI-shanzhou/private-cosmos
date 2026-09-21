@@ -887,5 +887,19 @@
     "event": "genesis",
     "body_id": "body_0127",
     "summary": "第127纪元：philosophy×music碰撞，诞生恒星「尘感知·希望」"
+  },
+  {
+    "epoch": 128,
+    "timestamp": "2026-09-21T21:42:44",
+    "event": "genesis",
+    "body_id": "body_0128",
+    "summary": "第128纪元：philosophy×history碰撞，诞生类星体「渺命运·激越」"
+  },
+  {
+    "epoch": 129,
+    "timestamp": "2026-09-21T21:42:49",
+    "event": "genesis",
+    "body_id": "body_0129",
+    "summary": "第129纪元：geography×history碰撞，诞生暗星云「辉深渊·神秘」"
   }
 ]

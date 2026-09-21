@@ -6530,5 +6530,109 @@
       "size": 0.88,
       "luminosity": 0.34
     }
+  },
+  {
+    "id": "body_0128",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "渺命运·激越",
+    "epoch": 128,
+    "born_at": "2026-09-21T21:42:44",
+    "collision_text": "「热爱命运——对自己所遭遇的一切说'是'，这是…」沉入「柏林墙在一夜之间倒塌，素不相识的人们在残垣上…」，泛起激越的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_31",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "热爱命运——对自己所遭遇的一切说'是'，这是力量的最高形式",
+        "source": "尼采·命运之爱"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "壮阔",
+        "希望"
+      ],
+      "themes": [
+        "命运之爱",
+        "解放"
+      ],
+      "domains": [
+        "philosophy",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.3,
+      "luminosity": 0.57
+    }
+  },
+  {
+    "id": "body_0129",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "辉深渊·神秘",
+    "epoch": 129,
+    "born_at": "2026-09-21T21:42:49",
+    "collision_text": "「马里亚纳海沟一万一千米深处，水压足以压碎钢铁…」与「玛雅人用天文台观测金星，精确到五百年仅差一天…」相互缠绕，坍缩成一粒神秘的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_02",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "马里亚纳海沟一万一千米深处，水压足以压碎钢铁，却仍有透明小鱼在黑暗中游弋",
+        "source": "马里亚纳海沟·太平洋"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "苍凉"
+      ],
+      "themes": [
+        "深渊",
+        "失落"
+      ],
+      "domains": [
+        "geography",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.4,
+      "luminosity": 0.98
+    }
   }
 ]
