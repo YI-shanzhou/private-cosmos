@@ -1142,6 +1142,47 @@
     "fetched_at": "2026-08-20T18:36:19.965835"
   },
   {
+    "date": "2015-08-24",
+    "title": "Dione, Rings, Shadows, Saturn",
+    "url": "https://apod.nasa.gov/apod/image/1508/Dione02_Cassini_1024.jpg",
+    "local_path": "assets/apod/apod_2015-08-24.jpg",
+    "explanation": "What's happening in this strange juxtaposition of moon and planet?  First and foremost, Saturn's moon Dione was captured here in a dramatic panorama by the robotic Cassini spacecraft currently orbiting the giant planet. The bright and cratered moon itself spans about 1100-km, with the large multi-ringed crater Evander visible on the lower right. Since the rings of Saturn are seen here nearly edge-on, they are directly visible only as a thin horizontal line that passes behind Dione. Arcing across",
+    "tags": {
+      "colors": [
+        "#707070",
+        "#909090",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-22T20:54:01.912944"
+  },
+  {
     "date": "2015-09-14",
     "title": "Pluto from above Cthulhu Regio",
     "url": "https://apod.nasa.gov/apod/image/1509/pluto05_NewHorizons_2475.jpg",

@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-08-19",
-    "summary": "于虚无的皱褶间，「茫深渊·神秘」悄然张阖，一道虫洞吐纳星光；「魄星汉·壮阔·子」自星尘中苏醒，繁衍出第一缕血脉。宇宙无碰撞，唯有神秘与壮阔，在时空中写下哲思与史篇。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫深渊·神秘",
-        "type_cn": "虫洞",
-        "id": "body_0068"
-      },
-      {
-        "name": "魄星汉·壮阔·子",
-        "type_cn": "星团",
-        "id": "body_0069"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "神秘": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "philosophy": 1,
-      "geography": 1,
-      "history": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-20",
     "summary": "今日宇宙分娩二象：流浪行星“澜星座·希望·子”携世代希声漂游，超空洞“渺命运·壮阔”以虚空拓印哲学之穹。三体未逢，历史新页自天文深处展开——零次碰撞，无限壮阔。",
     "body_count": 2,
@@ -876,6 +847,33 @@
       "geography": 1
     },
     "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-09-22",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰牺牲·辽阔·子",
+        "type_cn": "星云",
+        "id": "body_0130"
+      },
+      {
+        "name": "辉奔跑·辽阔",
+        "type_cn": "星系",
+        "id": "body_0131"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 2
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "geography": 1,
+      "cinema": 2
+    },
+    "lineage_count": 1,
     "triple_count": 0
   }
 ]

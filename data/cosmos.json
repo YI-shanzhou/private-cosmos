@@ -6634,5 +6634,118 @@
       "size": 0.4,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0130",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "焰牺牲·辽阔·子",
+    "epoch": 130,
+    "born_at": "2026-09-22T20:54:07",
+    "collision_text": "「地球的最后夜晚，主角在废墟城市中点燃最后一盏…」与「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」相互缠绕，坍缩成一粒辽阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_03",
+      "geo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "地球的最后夜晚，主角在废墟城市中点燃最后一盏灯",
+        "source": "《地球最后的夜晚》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "废墟",
+        "峡湾"
+      ],
+      "domains": [
+        "cinema",
+        "geography"
+      ],
+      "intensity": 3,
+      "eras": [
+        "当代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#655cea",
+      "size": 0.3,
+      "luminosity": 0.86
+    },
+    "lineage": {
+      "parent_id": "body_0047",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0131",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "辉奔跑·辽阔",
+    "epoch": 131,
+    "born_at": "2026-09-22T20:54:12",
+    "collision_text": "「黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声…」撞上「上善若水，水善利万物而不争」，碎成一团辽阔的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_25",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "奔跑",
+        "柔德"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.68,
+      "luminosity": 0.68
+    }
   }
 ]

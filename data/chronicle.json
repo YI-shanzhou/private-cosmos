@@ -901,5 +901,19 @@
     "event": "genesis",
     "body_id": "body_0129",
     "summary": "第129纪元：geography×history碰撞，诞生暗星云「辉深渊·神秘」"
+  },
+  {
+    "epoch": 130,
+    "timestamp": "2026-09-22T20:54:07",
+    "event": "lineage",
+    "body_id": "body_0130",
+    "summary": "第130纪元：星云「焰牺牲·壮阔」繁衍出第1代子嗣——星云「焰牺牲·辽阔·子」"
+  },
+  {
+    "epoch": 131,
+    "timestamp": "2026-09-22T20:54:12",
+    "event": "genesis",
+    "body_id": "body_0131",
+    "summary": "第131纪元：cinema×philosophy碰撞，诞生星系「辉奔跑·辽阔」"
   }
 ]

@@ -6635,6 +6635,119 @@ window.COSMOS_DATA = [
       "size": 0.4,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0130",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "焰牺牲·辽阔·子",
+    "epoch": 130,
+    "born_at": "2026-09-22T20:54:07",
+    "collision_text": "「地球的最后夜晚，主角在废墟城市中点燃最后一盏…」与「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」相互缠绕，坍缩成一粒辽阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_03",
+      "geo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "地球的最后夜晚，主角在废墟城市中点燃最后一盏灯",
+        "source": "《地球最后的夜晚》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "废墟",
+        "峡湾"
+      ],
+      "domains": [
+        "cinema",
+        "geography"
+      ],
+      "intensity": 3,
+      "eras": [
+        "当代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#655cea",
+      "size": 0.3,
+      "luminosity": 0.86
+    },
+    "lineage": {
+      "parent_id": "body_0047",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0131",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "辉奔跑·辽阔",
+    "epoch": 131,
+    "born_at": "2026-09-22T20:54:12",
+    "collision_text": "「黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声…」撞上「上善若水，水善利万物而不争」，碎成一团辽阔的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_25",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "奔跑",
+        "柔德"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.68,
+      "luminosity": 0.68
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7540,6 +7653,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0129",
     "summary": "第129纪元：geography×history碰撞，诞生暗星云「辉深渊·神秘」"
+  },
+  {
+    "epoch": 130,
+    "timestamp": "2026-09-22T20:54:07",
+    "event": "lineage",
+    "body_id": "body_0130",
+    "summary": "第130纪元：星云「焰牺牲·壮阔」繁衍出第1代子嗣——星云「焰牺牲·辽阔·子」"
+  },
+  {
+    "epoch": 131,
+    "timestamp": "2026-09-22T20:54:12",
+    "event": "genesis",
+    "body_id": "body_0131",
+    "summary": "第131纪元：cinema×philosophy碰撞，诞生星系「辉奔跑·辽阔」"
   }
 ];
 window.APOD_DATA = [
@@ -8686,6 +8813,47 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-20T18:36:19.965835"
   },
   {
+    "date": "2015-08-24",
+    "title": "Dione, Rings, Shadows, Saturn",
+    "url": "https://apod.nasa.gov/apod/image/1508/Dione02_Cassini_1024.jpg",
+    "local_path": "assets/apod/apod_2015-08-24.jpg",
+    "explanation": "What's happening in this strange juxtaposition of moon and planet?  First and foremost, Saturn's moon Dione was captured here in a dramatic panorama by the robotic Cassini spacecraft currently orbiting the giant planet. The bright and cratered moon itself spans about 1100-km, with the large multi-ringed crater Evander visible on the lower right. Since the rings of Saturn are seen here nearly edge-on, they are directly visible only as a thin horizontal line that passes behind Dione. Arcing across",
+    "tags": {
+      "colors": [
+        "#707070",
+        "#909090",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "moon",
+          "cn": "月球"
+        },
+        {
+          "en": "saturn",
+          "cn": "土星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-22T20:54:01.912944"
+  },
+  {
     "date": "2015-09-14",
     "title": "Pluto from above Cthulhu Regio",
     "url": "https://apod.nasa.gov/apod/image/1509/pluto05_NewHorizons_2475.jpg",
@@ -9503,35 +9671,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-19",
-    "summary": "于虚无的皱褶间，「茫深渊·神秘」悄然张阖，一道虫洞吐纳星光；「魄星汉·壮阔·子」自星尘中苏醒，繁衍出第一缕血脉。宇宙无碰撞，唯有神秘与壮阔，在时空中写下哲思与史篇。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫深渊·神秘",
-        "type_cn": "虫洞",
-        "id": "body_0068"
-      },
-      {
-        "name": "魄星汉·壮阔·子",
-        "type_cn": "星团",
-        "id": "body_0069"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "神秘": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "philosophy": 1,
-      "geography": 1,
-      "history": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-20",
     "summary": "今日宇宙分娩二象：流浪行星“澜星座·希望·子”携世代希声漂游，超空洞“渺命运·壮阔”以虚空拓印哲学之穹。三体未逢，历史新页自天文深处展开——零次碰撞，无限壮阔。",
@@ -10381,19 +10520,46 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-22",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰牺牲·辽阔·子",
+        "type_cn": "星云",
+        "id": "body_0130"
+      },
+      {
+        "name": "辉奔跑·辽阔",
+        "type_cn": "星系",
+        "id": "body_0131"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 2
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "geography": 1,
+      "cinema": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 129,
-  "chronicle_entries": 129,
+  "total_bodies": 131,
+  "chronicle_entries": 131,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 15,
     "流浪行星": 14,
+    "星云": 9,
     "卫星": 8,
-    "星云": 8,
+    "星系": 8,
     "彗星": 7,
-    "星系": 7,
     "暗物质": 7,
     "超空洞": 6,
     "尘埃云": 5,
@@ -10415,36 +10581,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 65,
-    "苍凉": 57,
+    "壮阔": 67,
+    "苍凉": 58,
     "诡谲": 50,
-    "孤寂": 46,
-    "宁静": 46,
+    "孤寂": 47,
+    "宁静": 47,
     "激烈": 33,
     "未知": 31,
     "希望": 20,
     "激越": 20,
-    "辽阔": 17,
+    "辽阔": 19,
     "神秘": 16,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 50,
+    "philosophy": 51,
     "literature": 45,
     "astronomy": 38,
     "myth": 38,
     "art": 29,
     "science": 19,
-    "geography": 17,
+    "geography": 18,
     "history": 17,
-    "cinema": 13,
+    "cinema": 15,
     "music": 13
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 12,
+    "lineage_bodies": 13,
     "distribution": {
-      "第1代": 11,
+      "第1代": 12,
       "第2代": 1
     }
   }
