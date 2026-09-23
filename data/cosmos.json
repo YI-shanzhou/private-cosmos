@@ -6747,5 +6747,118 @@
       "size": 0.68,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0132",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·壮阔·子",
+    "epoch": 132,
+    "born_at": "2026-09-23T21:05:45",
+    "collision_text": "「宇宙尽头的灯塔散发金色光芒，记忆在光中消融重…」被「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」点燃，烧成一片壮阔的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_09",
+      "his_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "湮灭",
+        "烽火"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#57838c",
+      "size": 0.96,
+      "luminosity": 0.64
+    },
+    "lineage": {
+      "parent_id": "body_0004",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0133",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "幽雨林·诡谲",
+    "epoch": 133,
+    "born_at": "2026-09-23T21:05:51",
+    "collision_text": "「亚马逊雨林的树冠层中，每平方米有超过四百种生…」撞上「存在即被感知」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_05",
+      "phi_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在即被感知",
+        "source": "贝克莱"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "壮阔"
+      ],
+      "themes": [
+        "雨林",
+        "感知"
+      ],
+      "domains": [
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.91,
+      "luminosity": 0.67
+    }
   }
 ]

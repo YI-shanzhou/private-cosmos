@@ -1730,6 +1730,47 @@
     "fetched_at": "2026-07-26T19:09:34.338711"
   },
   {
+    "date": "2022-09-10",
+    "title": "Galaxy by the Lake",
+    "url": "https://apod.nasa.gov/apod/image/2209/Traful-Lake.jpg",
+    "local_path": "assets/apod/apod_2022-09-10.jpg",
+    "explanation": "This 180 degree panoramic night skyscape captures our Milky Way Galaxy as it arcs above the horizon on a winter's night in August. Near midnight, the galactic center is close to the zenith with the clear waters of Lake Traful, Neuquen, Argentina, South America, planet Earth below. Zodiacal light, dust reflected sunlight along the Solar System's ecliptic plane, is also visible in the region's very dark night sky. The faint band of light reaches up from the distant snowy peaks toward the galaxy's ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#305050",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        }
+      ],
+      "moods": [
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-23T21:05:39.171026"
+  },
+  {
     "date": "2022-11-14",
     "title": "NGC 7380: The Wizard Nebula",
     "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",

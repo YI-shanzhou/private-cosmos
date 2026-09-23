@@ -6748,6 +6748,119 @@ window.COSMOS_DATA = [
       "size": 0.68,
       "luminosity": 0.68
     }
+  },
+  {
+    "id": "body_0132",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "澜永恒·壮阔·子",
+    "epoch": 132,
+    "born_at": "2026-09-23T21:05:45",
+    "collision_text": "「宇宙尽头的灯塔散发金色光芒，记忆在光中消融重…」被「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」点燃，烧成一片壮阔的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_09",
+      "his_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "宇宙尽头的灯塔散发金色光芒，记忆在光中消融重组",
+        "source": "《湮灭》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "诡谲",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "湮灭",
+        "烽火"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#57838c",
+      "size": 0.96,
+      "luminosity": 0.64
+    },
+    "lineage": {
+      "parent_id": "body_0004",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0133",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "幽雨林·诡谲",
+    "epoch": 133,
+    "born_at": "2026-09-23T21:05:51",
+    "collision_text": "「亚马逊雨林的树冠层中，每平方米有超过四百种生…」撞上「存在即被感知」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_05",
+      "phi_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在即被感知",
+        "source": "贝克莱"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "壮阔"
+      ],
+      "themes": [
+        "雨林",
+        "感知"
+      ],
+      "domains": [
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.91,
+      "luminosity": 0.67
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7667,6 +7780,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0131",
     "summary": "第131纪元：cinema×philosophy碰撞，诞生星系「辉奔跑·辽阔」"
+  },
+  {
+    "epoch": 132,
+    "timestamp": "2026-09-23T21:05:45",
+    "event": "lineage",
+    "body_id": "body_0132",
+    "summary": "第132纪元：白矮星「澜永恒·苍凉」繁衍出第1代子嗣——白矮星「澜永恒·壮阔·子」"
+  },
+  {
+    "epoch": 133,
+    "timestamp": "2026-09-23T21:05:51",
+    "event": "genesis",
+    "body_id": "body_0133",
+    "summary": "第133纪元：geography×philosophy碰撞，诞生虫洞「幽雨林·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -9401,6 +9528,47 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-26T19:09:34.338711"
   },
   {
+    "date": "2022-09-10",
+    "title": "Galaxy by the Lake",
+    "url": "https://apod.nasa.gov/apod/image/2209/Traful-Lake.jpg",
+    "local_path": "assets/apod/apod_2022-09-10.jpg",
+    "explanation": "This 180 degree panoramic night skyscape captures our Milky Way Galaxy as it arcs above the horizon on a winter's night in August. Near midnight, the galactic center is close to the zenith with the clear waters of Lake Traful, Neuquen, Argentina, South America, planet Earth below. Zodiacal light, dust reflected sunlight along the Solar System's ecliptic plane, is also visible in the region's very dark night sky. The faint band of light reaches up from the distant snowy peaks toward the galaxy's ",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#305050",
+        "#505050"
+      ],
+      "themes": [
+        {
+          "en": "galaxy",
+          "cn": "星系"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "planet",
+          "cn": "行星"
+        },
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "milky way",
+          "cn": "银河"
+        }
+      ],
+      "moods": [
+        "辽阔"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-23T21:05:39.171026"
+  },
+  {
     "date": "2022-11-14",
     "title": "NGC 7380: The Wizard Nebula",
     "url": "https://apod.nasa.gov/apod/image/2211/Wizard_Popa_1975.jpg",
@@ -9671,34 +9839,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-20",
-    "summary": "今日宇宙分娩二象：流浪行星“澜星座·希望·子”携世代希声漂游，超空洞“渺命运·壮阔”以虚空拓印哲学之穹。三体未逢，历史新页自天文深处展开——零次碰撞，无限壮阔。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜星座·希望·子",
-        "type_cn": "流浪行星",
-        "id": "body_0070"
-      },
-      {
-        "name": "渺命运·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0071"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "history": 1,
-      "astronomy": 2,
-      "philosophy": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-21",
     "summary": "弦静止于孤寂，流浪行星默写银幕上的地理；寂运动成诡谲，虫洞折入哲学未启封的篇章。两度三体相撞，零次世代繁衍，仅余天穹暗涌的韵律。",
@@ -10547,24 +10687,53 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-23",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、虫洞在philosophy、cinema、history、geography的碰撞中绽放，情绪以壮阔、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜永恒·壮阔·子",
+        "type_cn": "白矮星",
+        "id": "body_0132"
+      },
+      {
+        "name": "幽雨林·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0133"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "cinema": 1,
+      "history": 1,
+      "geography": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 131,
-  "chronicle_entries": 131,
+  "total_bodies": 133,
+  "chronicle_entries": 133,
   "daily_report_count": 30,
   "type_distribution": {
-    "白矮星": 15,
+    "白矮星": 16,
     "流浪行星": 14,
     "星云": 9,
     "卫星": 8,
     "星系": 8,
     "彗星": 7,
     "暗物质": 7,
+    "虫洞": 6,
     "超空洞": 6,
     "尘埃云": 5,
     "脉冲星": 5,
-    "虫洞": 5,
     "行星": 5,
     "超新星": 5,
     "遗迹": 5,
@@ -10581,36 +10750,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 67,
+    "壮阔": 69,
     "苍凉": 58,
-    "诡谲": 50,
+    "诡谲": 52,
     "孤寂": 47,
     "宁静": 47,
-    "激烈": 33,
+    "激烈": 34,
     "未知": 31,
     "希望": 20,
     "激越": 20,
     "辽阔": 19,
-    "神秘": 16,
+    "神秘": 18,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 51,
+    "philosophy": 52,
     "literature": 45,
     "astronomy": 38,
     "myth": 38,
     "art": 29,
+    "geography": 19,
     "science": 19,
-    "geography": 18,
-    "history": 17,
-    "cinema": 15,
+    "history": 18,
+    "cinema": 16,
     "music": 13
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 13,
+    "lineage_bodies": 14,
     "distribution": {
-      "第1代": 12,
+      "第1代": 13,
       "第2代": 1
     }
   }
