@@ -929,5 +929,19 @@
     "event": "genesis",
     "body_id": "body_0133",
     "summary": "第133纪元：geography×philosophy碰撞，诞生虫洞「幽雨林·诡谲」"
+  },
+  {
+    "epoch": 134,
+    "timestamp": "2026-09-24T21:09:42",
+    "event": "genesis",
+    "body_id": "body_0134",
+    "summary": "第134纪元：philosophy×astronomy碰撞，诞生暗物质「幽梦境·诡谲」"
+  },
+  {
+    "epoch": 135,
+    "timestamp": "2026-09-24T21:09:47",
+    "event": "genesis",
+    "body_id": "body_0135",
+    "summary": "第135纪元：science×geography碰撞，诞生超空洞「渺密码·壮阔」"
   }
 ]

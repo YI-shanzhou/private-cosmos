@@ -6860,5 +6860,126 @@
       "size": 0.91,
       "luminosity": 0.67
     }
+  },
+  {
+    "id": "body_0134",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽梦境·诡谲",
+    "epoch": 134,
+    "born_at": "2026-09-24T21:09:42",
+    "collision_text": "「不知周之梦为胡蝶与，胡蝶之梦为周与」「A Large Space Station …」「阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人…」三者在虚空中相撞，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "phi_18",
+      "apo_26",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "不知周之梦为胡蝶与，胡蝶之梦为周与",
+        "source": "庄子《齐物论》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      },
+      "c": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "梦境",
+        "登月"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "先秦",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.46,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0135",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渺密码·壮阔",
+    "epoch": 135,
+    "born_at": "2026-09-24T21:09:47",
+    "collision_text": "「DNA双螺旋：生命的全部密码写在四字母的分子…」「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」「女娲炼五色石补天，断鳌足以立四极」三者在虚空中相撞，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_14",
+      "geo_07",
+      "myth_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "苍凉"
+      ],
+      "themes": [
+        "密码",
+        "冰封",
+        "修补"
+      ],
+      "domains": [
+        "science",
+        "geography",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "永恒",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.81,
+      "luminosity": 0.47
+    }
   }
 ]

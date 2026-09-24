@@ -6861,6 +6861,127 @@ window.COSMOS_DATA = [
       "size": 0.91,
       "luminosity": 0.67
     }
+  },
+  {
+    "id": "body_0134",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽梦境·诡谲",
+    "epoch": 134,
+    "born_at": "2026-09-24T21:09:42",
+    "collision_text": "「不知周之梦为胡蝶与，胡蝶之梦为周与」「A Large Space Station …」「阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人…」三者在虚空中相撞，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "phi_18",
+      "apo_26",
+      "his_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "不知周之梦为胡蝶与，胡蝶之梦为周与",
+        "source": "庄子《齐物论》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      },
+      "c": {
+        "domain": "history",
+        "text": "阿姆斯特朗踏上月球，在寂静的灰色荒原上留下人类第一个脚印",
+        "source": "阿波罗11号登月·1969年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "神秘",
+        "未知",
+        "壮阔"
+      ],
+      "themes": [
+        "梦境",
+        "登月"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "先秦",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.46,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0135",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渺密码·壮阔",
+    "epoch": 135,
+    "born_at": "2026-09-24T21:09:47",
+    "collision_text": "「DNA双螺旋：生命的全部密码写在四字母的分子…」「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」「女娲炼五色石补天，断鳌足以立四极」三者在虚空中相撞，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_14",
+      "geo_07",
+      "myth_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "女娲炼五色石补天，断鳌足以立四极",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "苍凉"
+      ],
+      "themes": [
+        "密码",
+        "冰封",
+        "修补"
+      ],
+      "domains": [
+        "science",
+        "geography",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "永恒",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.81,
+      "luminosity": 0.47
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7794,6 +7915,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0133",
     "summary": "第133纪元：geography×philosophy碰撞，诞生虫洞「幽雨林·诡谲」"
+  },
+  {
+    "epoch": 134,
+    "timestamp": "2026-09-24T21:09:42",
+    "event": "genesis",
+    "body_id": "body_0134",
+    "summary": "第134纪元：philosophy×astronomy碰撞，诞生暗物质「幽梦境·诡谲」"
+  },
+  {
+    "epoch": 135,
+    "timestamp": "2026-09-24T21:09:47",
+    "event": "genesis",
+    "body_id": "body_0135",
+    "summary": "第135纪元：science×geography碰撞，诞生超空洞「渺密码·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -7933,6 +8068,41 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-20T20:20:40.265231"
+  },
+  {
+    "date": "1996-03-01",
+    "title": "A Mysterious Cone Nebula",
+    "url": "https://apod.nasa.gov/apod/image/cone_aat.gif",
+    "local_path": "assets/apod/apod_1996-03-01.jpg",
+    "explanation": "Sometimes the simplest shapes are the hardest to explain. For example, the origin of the mysterious cone-shaped region located just below the center of the above picture remains a mystery. The dark region clearly contains much dust which blocks light from the emission nebula and open cluster NGC 2264 behind it.  One hypothesis holds that the cone is formed by wind particles from an energetic source blowing past the Bok globule at the head of the cone.   Information: The Scale of the Universe Deb",
+    "tags": {
+      "colors": [
+        "#303030",
+        "#301010",
+        "#503030"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "dust",
+          "cn": "尘埃"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹",
+        "苍凉"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-24T21:09:36.423334"
   },
   {
     "date": "1997-01-09",
@@ -9840,36 +10010,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-21",
-    "summary": "弦静止于孤寂，流浪行星默写银幕上的地理；寂运动成诡谲，虫洞折入哲学未启封的篇章。两度三体相撞，零次世代繁衍，仅余天穹暗涌的韵律。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "弦静止·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0072"
-      },
-      {
-        "name": "寂运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0073"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "literature": 1,
-      "geography": 1,
-      "philosophy": 2,
-      "astronomy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-22",
     "summary": "焰消逝于壮阔中，渊悲剧浸透苍凉。两枚空洞与遗迹，自cinema、史册与神话的褶皱间坍缩成诗。零代繁衍，二次三体相撞，宇宙在静默里改写自己的墓志铭。",
     "body_count": 2,
@@ -10716,11 +10856,42 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-24",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、geography、myth、science、astronomy、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽梦境·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0134"
+      },
+      {
+        "name": "渺密码·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0135"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "geography": 1,
+      "myth": 1,
+      "science": 1,
+      "astronomy": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 133,
-  "chronicle_entries": 133,
+  "total_bodies": 135,
+  "chronicle_entries": 135,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 16,
@@ -10728,10 +10899,10 @@ window.COSMOS_STATS = {
     "星云": 9,
     "卫星": 8,
     "星系": 8,
+    "暗物质": 8,
     "彗星": 7,
-    "暗物质": 7,
+    "超空洞": 7,
     "虫洞": 6,
-    "超空洞": 6,
     "尘埃云": 5,
     "脉冲星": 5,
     "行星": 5,
@@ -10750,28 +10921,28 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 69,
-    "苍凉": 58,
-    "诡谲": 52,
+    "壮阔": 71,
+    "苍凉": 59,
+    "诡谲": 53,
     "孤寂": 47,
     "宁静": 47,
     "激烈": 34,
-    "未知": 31,
+    "未知": 32,
     "希望": 20,
     "激越": 20,
+    "神秘": 20,
     "辽阔": 19,
-    "神秘": 18,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 52,
+    "philosophy": 53,
     "literature": 45,
-    "astronomy": 38,
-    "myth": 38,
+    "astronomy": 39,
+    "myth": 39,
     "art": 29,
-    "geography": 19,
-    "science": 19,
-    "history": 18,
+    "geography": 20,
+    "science": 20,
+    "history": 19,
     "cinema": 16,
     "music": 13
   },

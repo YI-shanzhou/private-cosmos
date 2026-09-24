@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "summary": "弦静止于孤寂，流浪行星默写银幕上的地理；寂运动成诡谲，虫洞折入哲学未启封的篇章。两度三体相撞，零次世代繁衍，仅余天穹暗涌的韵律。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "弦静止·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0072"
-      },
-      {
-        "name": "寂运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0073"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "literature": 1,
-      "geography": 1,
-      "philosophy": 2,
-      "astronomy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-22",
     "summary": "焰消逝于壮阔中，渊悲剧浸透苍凉。两枚空洞与遗迹，自cinema、史册与神话的褶皱间坍缩成诗。零代繁衍，二次三体相撞，宇宙在静默里改写自己的墓志铭。",
     "body_count": 2,
@@ -876,5 +846,36 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-24",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、geography、myth、science、astronomy、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽梦境·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0134"
+      },
+      {
+        "name": "渺密码·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0135"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "geography": 1,
+      "myth": 1,
+      "science": 1,
+      "astronomy": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]
