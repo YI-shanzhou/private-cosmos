@@ -6982,6 +6982,117 @@ window.COSMOS_DATA = [
       "size": 0.81,
       "luminosity": 0.47
     }
+  },
+  {
+    "id": "body_0136",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "墟沉思·神秘",
+    "epoch": 136,
+    "born_at": "2026-09-25T21:06:25",
+    "collision_text": "「哥德堡变奏曲」撞上「梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之…」，碎成一团神秘的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_17",
+      "myth_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "哥德堡变奏曲",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "沉思",
+        "呼吸"
+      ],
+      "domains": [
+        "music",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "巴洛克",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.85,
+      "luminosity": 0.3
+    }
+  },
+  {
+    "id": "body_0137",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "渊理性·苍凉·子",
+    "epoch": 137,
+    "born_at": "2026-09-25T21:06:31",
+    "collision_text": "「钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没…」倒映在「Ash and Lightning abov…」里，裂成一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_12",
+      "apo_34"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Ash and Lightning above an Icelandic Volcano",
+        "source": "NASA APOD 2014-04-20"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "沉没",
+        "恒星"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#6147f4",
+      "size": 0.97,
+      "luminosity": 0.88
+    },
+    "lineage": {
+      "parent_id": "body_0016",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -7929,6 +8040,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0135",
     "summary": "第135纪元：science×geography碰撞，诞生超空洞「渺密码·壮阔」"
+  },
+  {
+    "epoch": 136,
+    "timestamp": "2026-09-25T21:06:25",
+    "event": "genesis",
+    "body_id": "body_0136",
+    "summary": "第136纪元：music×myth碰撞，诞生暗星云「墟沉思·神秘」"
+  },
+  {
+    "epoch": 137,
+    "timestamp": "2026-09-25T21:06:31",
+    "event": "lineage",
+    "body_id": "body_0137",
+    "summary": "第137纪元：星系「渊理性·壮阔」繁衍出第1代子嗣——星系「渊理性·苍凉·子」"
   }
 ];
 window.APOD_DATA = [
@@ -8468,6 +8593,47 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-23T18:26:05.635921"
+  },
+  {
+    "date": "2005-10-31",
+    "title": "A Martian Halloween",
+    "url": "https://apod.nasa.gov/apod/image/0510/marshalloween_pacholka_big.jpg",
+    "local_path": "assets/apod/apod_2005-10-31.jpg",
+    "explanation": "From sunset to sunrise, an unusually bright yellowish orb will hang in the sky this Halloween: Mars.  Yesterday, Earth passed Mars as they orbited the Sun, bringing Mars closer than it will be for the next thirteen years.  Tonight though, Mars will be nearly as bright as last night, a beacon of extraterrestrial spookiness.  Opposite the Sun, Mars will rise just when the Sun sets, set just when the Sun rises, and be visible the entire night.  Mars will not always be the brightest object in tonigh",
+    "tags": {
+      "colors": [
+        "#503050",
+        "#101010",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "venus",
+          "cn": "金星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-25T21:06:18.032397"
   },
   {
     "date": "2006-04-01",
@@ -10010,37 +10176,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-22",
-    "summary": "焰消逝于壮阔中，渊悲剧浸透苍凉。两枚空洞与遗迹，自cinema、史册与神话的褶皱间坍缩成诗。零代繁衍，二次三体相撞，宇宙在静默里改写自己的墓志铭。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰消逝·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0074"
-      },
-      {
-        "name": "渊悲剧·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0075"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "history": 1,
-      "literature": 1,
-      "myth": 1,
-      "philosophy": 1,
-      "music": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-08-23",
     "summary": "今日澜极光·宁静绕行于无声之轨，寂炼星·激烈在磁场深处奏响挽歌。科学、音乐与大地交织，二星同诞，宇宙于静谧与炽烈间，续写无字史诗。",
     "body_count": 2,
@@ -10887,18 +11022,47 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-09-25",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。暗星云、星系在myth、cinema、astronomy、music的碰撞中绽放，情绪以神秘、苍凉为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟沉思·神秘",
+        "type_cn": "暗星云",
+        "id": "body_0136"
+      },
+      {
+        "name": "渊理性·苍凉·子",
+        "type_cn": "星系",
+        "id": "body_0137"
+      }
+    ],
+    "mood_distribution": {
+      "神秘": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "cinema": 1,
+      "astronomy": 1,
+      "music": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 135,
-  "chronicle_entries": 135,
+  "total_bodies": 137,
+  "chronicle_entries": 137,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 16,
     "流浪行星": 14,
     "星云": 9,
+    "星系": 9,
     "卫星": 8,
-    "星系": 8,
     "暗物质": 8,
     "彗星": 7,
     "超空洞": 7,
@@ -10914,43 +11078,43 @@ window.COSMOS_STATS = {
     "恒星": 3,
     "星团": 3,
     "原恒星": 2,
+    "暗星云": 2,
     "耀变体": 2,
     "千新星": 1,
-    "暗星云": 1,
     "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 71,
-    "苍凉": 59,
+    "壮阔": 72,
+    "苍凉": 60,
     "诡谲": 53,
+    "宁静": 49,
     "孤寂": 47,
-    "宁静": 47,
     "激烈": 34,
-    "未知": 32,
+    "未知": 33,
+    "神秘": 21,
     "希望": 20,
     "激越": 20,
-    "神秘": 20,
     "辽阔": 19,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 53,
     "literature": 45,
-    "astronomy": 39,
-    "myth": 39,
+    "astronomy": 40,
+    "myth": 40,
     "art": 29,
     "geography": 20,
     "science": 20,
     "history": 19,
-    "cinema": 16,
-    "music": 13
+    "cinema": 17,
+    "music": 14
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 14,
+    "lineage_bodies": 15,
     "distribution": {
-      "第1代": 13,
+      "第1代": 14,
       "第2代": 1
     }
   }

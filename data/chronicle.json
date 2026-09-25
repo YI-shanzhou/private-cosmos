@@ -943,5 +943,19 @@
     "event": "genesis",
     "body_id": "body_0135",
     "summary": "第135纪元：science×geography碰撞，诞生超空洞「渺密码·壮阔」"
+  },
+  {
+    "epoch": 136,
+    "timestamp": "2026-09-25T21:06:25",
+    "event": "genesis",
+    "body_id": "body_0136",
+    "summary": "第136纪元：music×myth碰撞，诞生暗星云「墟沉思·神秘」"
+  },
+  {
+    "epoch": 137,
+    "timestamp": "2026-09-25T21:06:31",
+    "event": "lineage",
+    "body_id": "body_0137",
+    "summary": "第137纪元：星系「渊理性·壮阔」繁衍出第1代子嗣——星系「渊理性·苍凉·子」"
   }
 ]

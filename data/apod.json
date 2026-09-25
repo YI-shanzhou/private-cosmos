@@ -537,6 +537,47 @@
     "fetched_at": "2026-08-23T18:26:05.635921"
   },
   {
+    "date": "2005-10-31",
+    "title": "A Martian Halloween",
+    "url": "https://apod.nasa.gov/apod/image/0510/marshalloween_pacholka_big.jpg",
+    "local_path": "assets/apod/apod_2005-10-31.jpg",
+    "explanation": "From sunset to sunrise, an unusually bright yellowish orb will hang in the sky this Halloween: Mars.  Yesterday, Earth passed Mars as they orbited the Sun, bringing Mars closer than it will be for the next thirteen years.  Tonight though, Mars will be nearly as bright as last night, a beacon of extraterrestrial spookiness.  Opposite the Sun, Mars will rise just when the Sun sets, set just when the Sun rises, and be visible the entire night.  Mars will not always be the brightest object in tonigh",
+    "tags": {
+      "colors": [
+        "#503050",
+        "#101010",
+        "#301010"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        },
+        {
+          "en": "venus",
+          "cn": "金星"
+        },
+        {
+          "en": "horizon",
+          "cn": "horizon"
+        },
+        {
+          "en": "orbit",
+          "cn": "轨道"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-25T21:06:18.032397"
+  },
+  {
     "date": "2006-04-01",
     "title": "Hubble Resolves Expiration Date For Green Cheese Moon",
     "url": "https://apod.nasa.gov/apod/image/0604/gcmoon_ranger9_big.gif",

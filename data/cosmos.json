@@ -6981,5 +6981,116 @@
       "size": 0.81,
       "luminosity": 0.47
     }
+  },
+  {
+    "id": "body_0136",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "墟沉思·神秘",
+    "epoch": 136,
+    "born_at": "2026-09-25T21:06:25",
+    "collision_text": "「哥德堡变奏曲」撞上「梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之…」，碎成一团神秘的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_17",
+      "myth_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "哥德堡变奏曲",
+        "source": "巴赫"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "梵天从莲华中诞生，一呼为昼，一吸为夜，呼吸之间世界生灭",
+        "source": "印度神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "宁静",
+        "壮阔"
+      ],
+      "themes": [
+        "沉思",
+        "呼吸"
+      ],
+      "domains": [
+        "music",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "巴洛克",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.85,
+      "luminosity": 0.3
+    }
+  },
+  {
+    "id": "body_0137",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "渊理性·苍凉·子",
+    "epoch": 137,
+    "born_at": "2026-09-25T21:06:31",
+    "collision_text": "「钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没…」倒映在「Ash and Lightning abov…」里，裂成一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_12",
+      "apo_34"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Ash and Lightning above an Icelandic Volcano",
+        "source": "NASA APOD 2014-04-20"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "沉没",
+        "恒星"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#6147f4",
+      "size": 0.97,
+      "luminosity": 0.88
+    },
+    "lineage": {
+      "parent_id": "body_0016",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
