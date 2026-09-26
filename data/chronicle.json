@@ -957,5 +957,19 @@
     "event": "lineage",
     "body_id": "body_0137",
     "summary": "第137纪元：星系「渊理性·壮阔」繁衍出第1代子嗣——星系「渊理性·苍凉·子」"
+  },
+  {
+    "epoch": 138,
+    "timestamp": "2026-09-26T20:39:47",
+    "event": "genesis",
+    "body_id": "body_0138",
+    "summary": "第138纪元：science×astronomy碰撞，诞生虚空「渊暗物·未知」"
+  },
+  {
+    "epoch": 139,
+    "timestamp": "2026-09-26T20:39:52",
+    "event": "genesis",
+    "body_id": "body_0139",
+    "summary": "第139纪元：history×philosophy碰撞，诞生卫星「魄丝路·宁静」"
   }
 ]

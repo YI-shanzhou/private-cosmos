@@ -7093,6 +7093,108 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0138",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "渊暗物·未知",
+    "epoch": 138,
+    "born_at": "2026-09-26T20:39:47",
+    "collision_text": "「暗物质占据宇宙质量的27%，却不发光、不反射…」撞上「Beneath Jupiter」，碎成一团未知的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_04",
+      "apo_41"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "暗物质占据宇宙质量的27%，却不发光、不反射光，我们只能通过引力效应感知它的存在",
+        "source": "宇宙学"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Beneath Jupiter",
+        "source": "NASA APOD 2017-05-29"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "暗物质",
+        "行星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.84,
+      "luminosity": 0.72
+    }
+  },
+  {
+    "id": "body_0139",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "魄丝路·宁静",
+    "epoch": 139,
+    "born_at": "2026-09-26T20:39:52",
+    "collision_text": "「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」与「幸福不在于占有牲畜，也不在于占有黄金，幸福在…」相互缠绕，坍缩成一粒宁静的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_05",
+      "phi_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "幸福不在于占有牲畜，也不在于占有黄金，幸福在于灵魂的安宁",
+        "source": "伊壁鸠鲁"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "辽阔",
+        "希望"
+      ],
+      "themes": [
+        "丝路",
+        "幸福"
+      ],
+      "domains": [
+        "history",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "eras": [
+        "古代",
+        "古希腊"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.8,
+      "luminosity": 0.22
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8054,6 +8156,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0137",
     "summary": "第137纪元：星系「渊理性·壮阔」繁衍出第1代子嗣——星系「渊理性·苍凉·子」"
+  },
+  {
+    "epoch": 138,
+    "timestamp": "2026-09-26T20:39:47",
+    "event": "genesis",
+    "body_id": "body_0138",
+    "summary": "第138纪元：science×astronomy碰撞，诞生虚空「渊暗物·未知」"
+  },
+  {
+    "epoch": 139,
+    "timestamp": "2026-09-26T20:39:52",
+    "event": "genesis",
+    "body_id": "body_0139",
+    "summary": "第139纪元：history×philosophy碰撞，诞生卫星「魄丝路·宁静」"
   }
 ];
 window.APOD_DATA = [
@@ -8593,6 +8709,35 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-23T18:26:05.635921"
+  },
+  {
+    "date": "2005-08-22",
+    "title": "Desolate Mars: Rub al Khali",
+    "url": "https://apod.nasa.gov/apod/image/0508/khali_opportunity_big.jpg",
+    "local_path": "assets/apod/apod_2005-08-22.jpg",
+    "explanation": "Sometimes on Mars, there is nothing to see but red sand.  Traveling two kilometers south of Endurance Crater, the robotic rover Opportunity now exploring Mars stopped and took a 360 degree panorama of a desolate and rusted Martian landscape.  The site was dubbed Rub al Khali for its similarity to a barren part of the Saudi Arabian desert on Earth.  In the center of the frame, the tracks from the rover's grated wheels can be seen receding far into the distance.  Near the bottom, several parts of ",
+    "tags": {
+      "colors": [
+        "#503030",
+        "#101010",
+        "#705030"
+      ],
+      "themes": [
+        {
+          "en": "sun",
+          "cn": "太阳"
+        },
+        {
+          "en": "mars",
+          "cn": "火星"
+        }
+      ],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-26T20:39:42.675346"
   },
   {
     "date": "2005-10-31",
@@ -10176,34 +10321,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-23",
-    "summary": "今日澜极光·宁静绕行于无声之轨，寂炼星·激烈在磁场深处奏响挽歌。科学、音乐与大地交织，二星同诞，宇宙于静谧与炽烈间，续写无字史诗。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜极光·宁静",
-        "type_cn": "卫星",
-        "id": "body_0076"
-      },
-      {
-        "name": "寂炼星·激烈",
-        "type_cn": "磁星",
-        "id": "body_0077"
-      }
-    ],
-    "mood_distribution": {
-      "宁静": 1,
-      "激烈": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "music": 2,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-24",
     "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
     "body_count": 2,
@@ -11051,30 +11168,59 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-26",
+    "summary": "今日宇宙又长大了——2颗新天体在astronomy、science、history、philosophy领域的碰撞中诞生。虚空、卫星们带着未知、宁静的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊暗物·未知",
+        "type_cn": "虚空",
+        "id": "body_0138"
+      },
+      {
+        "name": "魄丝路·宁静",
+        "type_cn": "卫星",
+        "id": "body_0139"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "宁静": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "science": 1,
+      "history": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 137,
-  "chronicle_entries": 137,
+  "total_bodies": 139,
+  "chronicle_entries": 139,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 16,
     "流浪行星": 14,
+    "卫星": 9,
     "星云": 9,
     "星系": 9,
-    "卫星": 8,
     "暗物质": 8,
     "彗星": 7,
     "超空洞": 7,
     "虫洞": 6,
     "尘埃云": 5,
     "脉冲星": 5,
+    "虚空": 5,
     "行星": 5,
     "超新星": 5,
     "遗迹": 5,
     "黑洞": 5,
     "类星体": 4,
-    "虚空": 4,
     "恒星": 3,
     "星团": 3,
     "原恒星": 2,
@@ -11088,25 +11234,25 @@ window.COSMOS_STATS = {
     "壮阔": 72,
     "苍凉": 60,
     "诡谲": 53,
-    "宁静": 49,
+    "宁静": 50,
     "孤寂": 47,
+    "未知": 34,
     "激烈": 34,
-    "未知": 33,
-    "神秘": 21,
-    "希望": 20,
+    "神秘": 22,
+    "希望": 21,
     "激越": 20,
-    "辽阔": 19,
+    "辽阔": 20,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 53,
+    "philosophy": 54,
     "literature": 45,
-    "astronomy": 40,
+    "astronomy": 41,
     "myth": 40,
     "art": 29,
+    "science": 21,
     "geography": 20,
-    "science": 20,
-    "history": 19,
+    "history": 20,
     "cinema": 17,
     "music": 14
   },

@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "summary": "今日澜极光·宁静绕行于无声之轨，寂炼星·激烈在磁场深处奏响挽歌。科学、音乐与大地交织，二星同诞，宇宙于静谧与炽烈间，续写无字史诗。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜极光·宁静",
-        "type_cn": "卫星",
-        "id": "body_0076"
-      },
-      {
-        "name": "寂炼星·激烈",
-        "type_cn": "磁星",
-        "id": "body_0077"
-      }
-    ],
-    "mood_distribution": {
-      "宁静": 1,
-      "激烈": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "music": 2,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-24",
     "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
     "body_count": 2,
@@ -874,6 +846,35 @@
       "music": 1
     },
     "lineage_count": 1,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-09-26",
+    "summary": "今日宇宙又长大了——2颗新天体在astronomy、science、history、philosophy领域的碰撞中诞生。虚空、卫星们带着未知、宁静的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊暗物·未知",
+        "type_cn": "虚空",
+        "id": "body_0138"
+      },
+      {
+        "name": "魄丝路·宁静",
+        "type_cn": "卫星",
+        "id": "body_0139"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "宁静": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "science": 1,
+      "history": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
     "triple_count": 0
   }
 ]
