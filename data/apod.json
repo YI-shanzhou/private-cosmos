@@ -1367,6 +1367,48 @@
     "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
+    "date": "2015-10-15",
+    "title": "M16 and the Eagle Nebula",
+    "url": "https://apod.nasa.gov/apod/image/1510/M16HubbleV4-X3walker.jpg",
+    "local_path": "assets/apod/apod_2015-10-15.jpg",
+    "explanation": "A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed image of the region includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-28T22:56:20.686043"
+  },
+  {
     "date": "2016-11-21",
     "title": "Nova over Thailand",
     "url": "https://apod.nasa.gov/apod/image/1611/NovaSag2016_Dai_1500_annotated.jpg",

@@ -971,5 +971,19 @@
     "event": "genesis",
     "body_id": "body_0139",
     "summary": "第139纪元：history×philosophy碰撞，诞生卫星「魄丝路·宁静」"
+  },
+  {
+    "epoch": 140,
+    "timestamp": "2026-09-28T22:56:25",
+    "event": "genesis",
+    "body_id": "body_0140",
+    "summary": "第140纪元：history×science碰撞，诞生超空洞「渊远航·壮阔」"
+  },
+  {
+    "epoch": 141,
+    "timestamp": "2026-09-28T22:56:31",
+    "event": "lineage",
+    "body_id": "body_0141",
+    "summary": "第141纪元：尘埃云「茫无常·未知」繁衍出第1代子嗣——尘埃云「茫无常·苍凉·子」"
   }
 ]

@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-08-24",
-    "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "辉坠落·激越",
-        "type_cn": "耀变体",
-        "id": "body_0078"
-      },
-      {
-        "name": "辉时间·苍凉",
-        "type_cn": "虚空",
-        "id": "body_0079"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "激越": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "cinema": 1,
-      "astronomy": 1,
-      "science": 1,
-      "music": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-08-25",
     "summary": "墟知音·孤寂·子曳尾而过，陨落成诗；渊变化·诡谲悄然裂开，吞吐哲学的微光。一次三体碰撞，繁衍孤寂，宇宙在诡谲中更为深邃。",
     "body_count": 2,
@@ -876,5 +846,34 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-28",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。超空洞、尘埃云在history、astronomy、science、literature的碰撞中绽放，情绪以壮阔、苍凉为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊远航·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0140"
+      },
+      {
+        "name": "茫无常·苍凉·子",
+        "type_cn": "尘埃云",
+        "id": "body_0141"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 2,
+      "astronomy": 1,
+      "science": 1,
+      "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ]

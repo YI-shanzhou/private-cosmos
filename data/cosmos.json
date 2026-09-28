@@ -7194,5 +7194,126 @@
       "size": 0.8,
       "luminosity": 0.22
     }
+  },
+  {
+    "id": "body_0140",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渊远航·壮阔",
+    "epoch": 140,
+    "born_at": "2026-09-28T22:56:25",
+    "collision_text": "「哥伦布的船队驶向未知的西方，地平线尽头不是深…」「分形几何：海岸线的长度取决于你用的尺子，无限…」「A Landing On Mars」相互缠绕，编织出一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "his_07",
+      "sci_17",
+      "apo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "b": {
+        "domain": "science",
+        "text": "分形几何：海岸线的长度取决于你用的尺子，无限放大仍见自相似的图案",
+        "source": "分形几何"
+      },
+      "c": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望",
+        "神秘",
+        "辽阔"
+      ],
+      "themes": [
+        "远航",
+        "自相似",
+        "行星"
+      ],
+      "domains": [
+        "history",
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.57,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0141",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫无常·苍凉·子",
+    "epoch": 141,
+    "born_at": "2026-09-28T22:56:31",
+    "collision_text": "「沧海月明珠有泪，蓝田日暖玉生烟」沉入「玛雅人用天文台观测金星，精确到五百年仅差一天…」，泛起苍凉的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_22",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "沧海月明珠有泪，蓝田日暖玉生烟",
+        "source": "李商隐《锦瑟》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "神秘"
+      ],
+      "themes": [
+        "迷惘",
+        "失落"
+      ],
+      "domains": [
+        "literature",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#7387b4",
+      "size": 0.76,
+      "luminosity": 0.87
+    },
+    "lineage": {
+      "parent_id": "body_0109",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

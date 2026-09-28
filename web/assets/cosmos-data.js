@@ -7195,6 +7195,127 @@ window.COSMOS_DATA = [
       "size": 0.8,
       "luminosity": 0.22
     }
+  },
+  {
+    "id": "body_0140",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "渊远航·壮阔",
+    "epoch": 140,
+    "born_at": "2026-09-28T22:56:25",
+    "collision_text": "「哥伦布的船队驶向未知的西方，地平线尽头不是深…」「分形几何：海岸线的长度取决于你用的尺子，无限…」「A Landing On Mars」相互缠绕，编织出一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "his_07",
+      "sci_17",
+      "apo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "b": {
+        "domain": "science",
+        "text": "分形几何：海岸线的长度取决于你用的尺子，无限放大仍见自相似的图案",
+        "source": "分形几何"
+      },
+      "c": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "希望",
+        "神秘",
+        "辽阔"
+      ],
+      "themes": [
+        "远航",
+        "自相似",
+        "行星"
+      ],
+      "domains": [
+        "history",
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.57,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0141",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫无常·苍凉·子",
+    "epoch": 141,
+    "born_at": "2026-09-28T22:56:31",
+    "collision_text": "「沧海月明珠有泪，蓝田日暖玉生烟」沉入「玛雅人用天文台观测金星，精确到五百年仅差一天…」，泛起苍凉的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_22",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "沧海月明珠有泪，蓝田日暖玉生烟",
+        "source": "李商隐《锦瑟》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "神秘"
+      ],
+      "themes": [
+        "迷惘",
+        "失落"
+      ],
+      "domains": [
+        "literature",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#7387b4",
+      "size": 0.76,
+      "luminosity": 0.87
+    },
+    "lineage": {
+      "parent_id": "body_0109",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8170,6 +8291,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0139",
     "summary": "第139纪元：history×philosophy碰撞，诞生卫星「魄丝路·宁静」"
+  },
+  {
+    "epoch": 140,
+    "timestamp": "2026-09-28T22:56:25",
+    "event": "genesis",
+    "body_id": "body_0140",
+    "summary": "第140纪元：history×science碰撞，诞生超空洞「渊远航·壮阔」"
+  },
+  {
+    "epoch": 141,
+    "timestamp": "2026-09-28T22:56:31",
+    "event": "lineage",
+    "body_id": "body_0141",
+    "summary": "第141纪元：尘埃云「茫无常·未知」繁衍出第1代子嗣——尘埃云「茫无常·苍凉·子」"
   }
 ];
 window.APOD_DATA = [
@@ -9541,6 +9676,48 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-01T19:05:36.043064"
   },
   {
+    "date": "2015-10-15",
+    "title": "M16 and the Eagle Nebula",
+    "url": "https://apod.nasa.gov/apod/image/1510/M16HubbleV4-X3walker.jpg",
+    "local_path": "assets/apod/apod_2015-10-15.jpg",
+    "explanation": "A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed image of the region includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#303030",
+        "#303050"
+      ],
+      "themes": [
+        {
+          "en": "nebula",
+          "cn": "星云"
+        },
+        {
+          "en": "star",
+          "cn": "恒星"
+        },
+        {
+          "en": "cluster",
+          "cn": "星团"
+        },
+        {
+          "en": "cosmic",
+          "cn": "宇宙"
+        },
+        {
+          "en": "constellation",
+          "cn": "星座"
+        }
+      ],
+      "moods": [
+        "壮阔",
+        "热闹"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-09-28T22:56:20.686043"
+  },
+  {
     "date": "2016-11-21",
     "title": "Nova over Thailand",
     "url": "https://apod.nasa.gov/apod/image/1611/NovaSag2016_Dai_1500_annotated.jpg",
@@ -10320,36 +10497,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-24",
-    "summary": "辉坠落·激越燃尽神话的银幕，辉时间·苍凉沉入虚空；一次三体碰撞震彻科学与音乐，无新世代诞生，唯余两道光在宇宙中互为回响。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "辉坠落·激越",
-        "type_cn": "耀变体",
-        "id": "body_0078"
-      },
-      {
-        "name": "辉时间·苍凉",
-        "type_cn": "虚空",
-        "id": "body_0079"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "激越": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "cinema": 1,
-      "astronomy": 1,
-      "science": 1,
-      "music": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
   {
     "date": "2026-08-25",
     "summary": "墟知音·孤寂·子曳尾而过，陨落成诗；渊变化·诡谲悄然裂开，吞吐哲学的微光。一次三体碰撞，繁衍孤寂，宇宙在诡谲中更为深邃。",
@@ -11197,11 +11344,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-09-28",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。超空洞、尘埃云在history、astronomy、science、literature的碰撞中绽放，情绪以壮阔、苍凉为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊远航·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0140"
+      },
+      {
+        "name": "茫无常·苍凉·子",
+        "type_cn": "尘埃云",
+        "id": "body_0141"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 2,
+      "astronomy": 1,
+      "science": 1,
+      "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 139,
-  "chronicle_entries": 139,
+  "total_bodies": 141,
+  "chronicle_entries": 141,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 16,
@@ -11210,10 +11386,10 @@ window.COSMOS_STATS = {
     "星云": 9,
     "星系": 9,
     "暗物质": 8,
+    "超空洞": 8,
     "彗星": 7,
-    "超空洞": 7,
+    "尘埃云": 6,
     "虫洞": 6,
-    "尘埃云": 5,
     "脉冲星": 5,
     "虚空": 5,
     "行星": 5,
@@ -11231,36 +11407,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 72,
-    "苍凉": 60,
-    "诡谲": 53,
+    "壮阔": 73,
+    "苍凉": 61,
+    "诡谲": 54,
     "宁静": 50,
     "孤寂": 47,
     "未知": 34,
     "激烈": 34,
-    "神秘": 22,
-    "希望": 21,
+    "神秘": 24,
+    "希望": 22,
+    "辽阔": 21,
     "激越": 20,
-    "辽阔": 20,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 54,
-    "literature": 45,
-    "astronomy": 41,
+    "literature": 46,
+    "astronomy": 42,
     "myth": 40,
     "art": 29,
-    "science": 21,
+    "history": 22,
+    "science": 22,
     "geography": 20,
-    "history": 20,
     "cinema": 17,
     "music": 14
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 15,
+    "lineage_bodies": 16,
     "distribution": {
-      "第1代": 14,
+      "第1代": 15,
       "第2代": 1
     }
   }
