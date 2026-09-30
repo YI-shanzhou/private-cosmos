@@ -985,5 +985,19 @@
     "event": "lineage",
     "body_id": "body_0141",
     "summary": "第141纪元：尘埃云「茫无常·未知」繁衍出第1代子嗣——尘埃云「茫无常·苍凉·子」"
+  },
+  {
+    "epoch": 142,
+    "timestamp": "2026-09-30T21:53:12",
+    "event": "lineage",
+    "body_id": "body_0142",
+    "summary": "第142纪元：遗迹「辉月球·苍凉」繁衍出第1代子嗣——卫星「辉月球·辽阔·子」"
+  },
+  {
+    "epoch": 143,
+    "timestamp": "2026-09-30T21:53:17",
+    "event": "genesis",
+    "body_id": "body_0143",
+    "summary": "第143纪元：music×science碰撞，诞生黑洞「魄叙事·诡谲」"
   }
 ]

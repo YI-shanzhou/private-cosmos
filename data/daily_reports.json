@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-25",
-    "summary": "墟知音·孤寂·子曳尾而过，陨落成诗；渊变化·诡谲悄然裂开，吞吐哲学的微光。一次三体碰撞，繁衍孤寂，宇宙在诡谲中更为深邃。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟知音·孤寂·子",
-        "type_cn": "彗星",
-        "id": "body_0080"
-      },
-      {
-        "name": "渊变化·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0081"
-      }
-    ],
-    "mood_distribution": {
-      "孤寂": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "astronomy": 2,
-      "philosophy": 2,
-      "science": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
-  {
     "date": "2026-08-26",
     "summary": "今日宇宙裂开两道诗行：类星体“渺远航·激越”以光焰书写航史，遗迹“辉月球·苍凉”静默如古籍余温。激越与苍凉交轨，天文在尘埃里梦见文学。",
     "body_count": 2,
@@ -872,6 +844,35 @@
       "astronomy": 1,
       "science": 1,
       "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
+  },
+  {
+    "date": "2026-09-30",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。卫星、黑洞在science、literature、astronomy、music的碰撞中绽放，情绪以辽阔、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉月球·辽阔·子",
+        "type_cn": "卫星",
+        "id": "body_0142"
+      },
+      {
+        "name": "魄叙事·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0143"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "辽阔": 1
+    },
+    "domain_distribution": {
+      "science": 2,
+      "literature": 1,
+      "astronomy": 1,
+      "music": 1
     },
     "lineage_count": 1,
     "triple_count": 1
