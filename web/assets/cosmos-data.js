@@ -7438,6 +7438,118 @@ window.COSMOS_DATA = [
       "size": 0.55,
       "luminosity": 0.55
     }
+  },
+  {
+    "id": "body_0144",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "焰流逝·苍凉",
+    "epoch": 144,
+    "born_at": "2026-10-01T22:21:27",
+    "collision_text": "「无可奈何花落去，似曾相识燕归来」吞下「极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨…」，吐出一段苍凉的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_24",
+      "geo_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "无可奈何花落去，似曾相识燕归来",
+        "source": "晏殊《浣溪沙》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "流逝",
+        "极光"
+      ],
+      "domains": [
+        "literature",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.92,
+      "luminosity": 0.36
+    }
+  },
+  {
+    "id": "body_0145",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "渺行星·壮阔·子",
+    "epoch": 145,
+    "born_at": "2026-10-01T22:21:32",
+    "collision_text": "「无穷是一个无法抵达的彼岸，但正是对无穷的追逐…」吞下「凡是杀不死我的，必使我更强大」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_30",
+      "phi_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "无穷是一个无法抵达的彼岸，但正是对无穷的追逐定义了有限者的尊严",
+        "source": "帕斯卡"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "凡是杀不死我的，必使我更强大",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "无穷",
+        "力量"
+      ],
+      "domains": [
+        "philosophy",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#737ab7",
+      "size": 1.16,
+      "luminosity": 1.0
+    },
+    "lineage": {
+      "parent_id": "body_0043",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8441,6 +8553,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0143",
     "summary": "第143纪元：music×science碰撞，诞生黑洞「魄叙事·诡谲」"
+  },
+  {
+    "epoch": 144,
+    "timestamp": "2026-10-01T22:21:27",
+    "event": "genesis",
+    "body_id": "body_0144",
+    "summary": "第144纪元：literature×geography碰撞，诞生白矮星「焰流逝·苍凉」"
+  },
+  {
+    "epoch": 145,
+    "timestamp": "2026-10-01T22:21:32",
+    "event": "lineage",
+    "body_id": "body_0145",
+    "summary": "第145纪元：尘埃云「渺行星·未知」繁衍出第1代子嗣——尘埃云「渺行星·壮阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -10342,6 +10468,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-26T19:09:34.338711"
   },
   {
+    "date": "2022-08-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2022-08-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-01T22:21:21.528546"
+  },
+  {
     "date": "2022-09-10",
     "title": "Galaxy by the Lake",
     "url": "https://apod.nasa.gov/apod/image/2209/Traful-Lake.jpg",
@@ -10653,35 +10799,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-26",
-    "summary": "今日宇宙裂开两道诗行：类星体“渺远航·激越”以光焰书写航史，遗迹“辉月球·苍凉”静默如古籍余温。激越与苍凉交轨，天文在尘埃里梦见文学。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺远航·激越",
-        "type_cn": "类星体",
-        "id": "body_0082"
-      },
-      {
-        "name": "辉月球·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0083"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "history": 1,
-      "literature": 1,
-      "astronomy": 1,
-      "science": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-28",
     "summary": "今日虚空深处，两粒孤独的种子悄然绽开：幽编辑·孤寂凝结成无声的胶片，茫盐海·诡谲在暗物质潮汐中铺展谜样的盐图。宇宙于沉默中，添了两笔未解的隐喻。",
@@ -11530,22 +11647,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-01",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、尘埃云在philosophy、literature、geography的碰撞中绽放，情绪以苍凉、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰流逝·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0144"
+      },
+      {
+        "name": "渺行星·壮阔·子",
+        "type_cn": "尘埃云",
+        "id": "body_0145"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "literature": 1,
+      "geography": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 143,
-  "chronicle_entries": 143,
+  "total_bodies": 145,
+  "chronicle_entries": 145,
   "daily_report_count": 30,
   "type_distribution": {
-    "白矮星": 16,
+    "白矮星": 17,
     "流浪行星": 14,
     "卫星": 10,
     "星云": 9,
     "星系": 9,
     "暗物质": 8,
     "超空洞": 8,
+    "尘埃云": 7,
     "彗星": 7,
-    "尘埃云": 6,
     "虫洞": 6,
     "黑洞": 6,
     "脉冲星": 5,
@@ -11564,36 +11709,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 74,
-    "苍凉": 63,
+    "壮阔": 76,
+    "苍凉": 65,
     "诡谲": 55,
-    "宁静": 50,
+    "宁静": 51,
     "孤寂": 47,
     "未知": 35,
-    "激烈": 34,
-    "神秘": 25,
+    "激烈": 35,
+    "神秘": 26,
     "希望": 22,
     "辽阔": 22,
     "激越": 21,
     "热闹": 4
   },
   "domain_distribution": {
-    "philosophy": 54,
-    "literature": 47,
+    "philosophy": 56,
+    "literature": 48,
     "astronomy": 43,
     "myth": 40,
     "art": 29,
     "science": 24,
     "history": 22,
-    "geography": 20,
+    "geography": 21,
     "cinema": 17,
     "music": 15
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 17,
+    "lineage_bodies": 18,
     "distribution": {
-      "第1代": 16,
+      "第1代": 17,
       "第2代": 1
     }
   }

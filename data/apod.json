@@ -1897,6 +1897,26 @@
     "fetched_at": "2026-07-26T19:09:34.338711"
   },
   {
+    "date": "2022-08-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2022-08-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-01T22:21:21.528546"
+  },
+  {
     "date": "2022-09-10",
     "title": "Galaxy by the Lake",
     "url": "https://apod.nasa.gov/apod/image/2209/Traful-Lake.jpg",

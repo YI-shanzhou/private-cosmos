@@ -7437,5 +7437,117 @@
       "size": 0.55,
       "luminosity": 0.55
     }
+  },
+  {
+    "id": "body_0144",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "焰流逝·苍凉",
+    "epoch": 144,
+    "born_at": "2026-10-01T22:21:27",
+    "collision_text": "「无可奈何花落去，似曾相识燕归来」吞下「极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨…」，吐出一段苍凉的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_24",
+      "geo_01"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "无可奈何花落去，似曾相识燕归来",
+        "source": "晏殊《浣溪沙》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "宁静",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "流逝",
+        "极光"
+      ],
+      "domains": [
+        "literature",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.92,
+      "luminosity": 0.36
+    }
+  },
+  {
+    "id": "body_0145",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "渺行星·壮阔·子",
+    "epoch": 145,
+    "born_at": "2026-10-01T22:21:32",
+    "collision_text": "「无穷是一个无法抵达的彼岸，但正是对无穷的追逐…」吞下「凡是杀不死我的，必使我更强大」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_30",
+      "phi_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "无穷是一个无法抵达的彼岸，但正是对无穷的追逐定义了有限者的尊严",
+        "source": "帕斯卡"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "凡是杀不死我的，必使我更强大",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "无穷",
+        "力量"
+      ],
+      "domains": [
+        "philosophy",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#737ab7",
+      "size": 1.16,
+      "luminosity": 1.0
+    },
+    "lineage": {
+      "parent_id": "body_0043",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

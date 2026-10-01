@@ -999,5 +999,19 @@
     "event": "genesis",
     "body_id": "body_0143",
     "summary": "第143纪元：music×science碰撞，诞生黑洞「魄叙事·诡谲」"
+  },
+  {
+    "epoch": 144,
+    "timestamp": "2026-10-01T22:21:27",
+    "event": "genesis",
+    "body_id": "body_0144",
+    "summary": "第144纪元：literature×geography碰撞，诞生白矮星「焰流逝·苍凉」"
+  },
+  {
+    "epoch": 145,
+    "timestamp": "2026-10-01T22:21:32",
+    "event": "lineage",
+    "body_id": "body_0145",
+    "summary": "第145纪元：尘埃云「渺行星·未知」繁衍出第1代子嗣——尘埃云「渺行星·壮阔·子」"
   }
 ]
