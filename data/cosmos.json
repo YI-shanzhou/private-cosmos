@@ -7549,5 +7549,107 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0146",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "渺行星·宁静",
+    "epoch": 146,
+    "born_at": "2026-10-02T21:50:00",
+    "collision_text": "「Sun with Solar Flare」沉入「上善若水，水善利万物而不争」，泛起宁静的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_36",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Sun with Solar Flare",
+        "source": "NASA APOD 2013-04-13"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "辽阔"
+      ],
+      "themes": [
+        "行星",
+        "柔德"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.59,
+      "luminosity": 0.73
+    }
+  },
+  {
+    "id": "body_0147",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "魄沙海·辽阔",
+    "epoch": 147,
+    "born_at": "2026-10-02T21:50:05",
+    "collision_text": "「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」倒映在「致爱丽丝」里，裂成一片辽阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_03",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      },
+      "b": {
+        "domain": "music",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "宁静"
+      ],
+      "themes": [
+        "沙海",
+        "柔情"
+      ],
+      "domains": [
+        "geography",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.91,
+      "luminosity": 0.84
+    }
   }
 ]

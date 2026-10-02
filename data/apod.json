@@ -345,6 +345,26 @@
     "fetched_at": "2026-08-13T19:00:25.767116"
   },
   {
+    "date": "2001-08-06",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2001-08-06.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-02T21:49:55.009753"
+  },
+  {
     "date": "2001-09-29",
     "title": "The Iron Sun",
     "url": "https://apod.nasa.gov/apod/image/0109/feii_eit010922_1812_big.jpg",

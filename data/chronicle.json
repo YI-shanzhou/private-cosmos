@@ -1013,5 +1013,19 @@
     "event": "lineage",
     "body_id": "body_0145",
     "summary": "第145纪元：尘埃云「渺行星·未知」繁衍出第1代子嗣——尘埃云「渺行星·壮阔·子」"
+  },
+  {
+    "epoch": 146,
+    "timestamp": "2026-10-02T21:50:00",
+    "event": "genesis",
+    "body_id": "body_0146",
+    "summary": "第146纪元：astronomy×philosophy碰撞，诞生卫星「渺行星·宁静」"
+  },
+  {
+    "epoch": 147,
+    "timestamp": "2026-10-02T21:50:05",
+    "event": "genesis",
+    "body_id": "body_0147",
+    "summary": "第147纪元：geography×music碰撞，诞生超空洞「魄沙海·辽阔」"
   }
 ]

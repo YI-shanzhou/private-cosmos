@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "summary": "今日虚空深处，两粒孤独的种子悄然绽开：幽编辑·孤寂凝结成无声的胶片，茫盐海·诡谲在暗物质潮汐中铺展谜样的盐图。宇宙于沉默中，添了两笔未解的隐喻。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽编辑·孤寂",
-        "type_cn": "虚空",
-        "id": "body_0084"
-      },
-      {
-        "name": "茫盐海·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0085"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "science": 1,
-      "geography": 1,
-      "astronomy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-29",
     "summary": "今日宇宙又长大了——2颗新天体在science、myth、astronomy、history领域的碰撞中诞生。尘埃云、星系们带着热闹、壮阔的情绪，在星空中找到了自己的位置。",
     "body_count": 4,
@@ -874,6 +845,35 @@
       "geography": 1
     },
     "lineage_count": 1,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-02",
+    "summary": "今日宇宙又长大了——2颗新天体在astronomy、music、geography、philosophy领域的碰撞中诞生。卫星、超空洞们带着宁静、辽阔的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺行星·宁静",
+        "type_cn": "卫星",
+        "id": "body_0146"
+      },
+      {
+        "name": "魄沙海·辽阔",
+        "type_cn": "超空洞",
+        "id": "body_0147"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "辽阔": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "music": 1,
+      "geography": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
     "triple_count": 0
   }
 ]
