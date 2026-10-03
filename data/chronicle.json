@@ -1027,5 +1027,19 @@
     "event": "genesis",
     "body_id": "body_0147",
     "summary": "第147纪元：geography×music碰撞，诞生超空洞「魄沙海·辽阔」"
+  },
+  {
+    "epoch": 148,
+    "timestamp": "2026-10-03T20:36:40",
+    "event": "genesis",
+    "body_id": "body_0148",
+    "summary": "第148纪元：geography×history碰撞，诞生超空洞「茫峡湾·壮阔」"
+  },
+  {
+    "epoch": 149,
+    "timestamp": "2026-10-03T20:36:46",
+    "event": "genesis",
+    "body_id": "body_0149",
+    "summary": "第149纪元：myth×astronomy碰撞，诞生星系「弦英雄·壮阔」"
   }
 ]

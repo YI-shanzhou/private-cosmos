@@ -7652,6 +7652,119 @@ window.COSMOS_DATA = [
       "size": 0.91,
       "luminosity": 0.84
     }
+  },
+  {
+    "id": "body_0148",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "茫峡湾·壮阔",
+    "epoch": 148,
+    "born_at": "2026-10-03T20:36:40",
+    "collision_text": "峡湾峭壁是凝固的巨浪，柏林墙碎成德彪西的潮声，长船载着拥抱的人们驶入没有铁幕的北海。",
+    "collision_mode": "deepseek",
+    "collision_type": "triple",
+    "parents": [
+      "geo_09",
+      "his_08",
+      "mus_13"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      },
+      "c": {
+        "domain": "music",
+        "text": "大海",
+        "source": "德彪西"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "激越",
+        "希望"
+      ],
+      "themes": [
+        "峡湾",
+        "解放",
+        "海浪"
+      ],
+      "domains": [
+        "geography",
+        "history",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒",
+        "现代",
+        "印象"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.67,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0149",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "弦英雄·壮阔",
+    "epoch": 149,
+    "born_at": "2026-10-03T20:36:46",
+    "collision_text": "「后羿射九日，留其一以照人间」倒映在「A Landing On Mars」里，裂成一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_04",
+      "apo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Landing On Mars",
+        "source": "NASA APOD 1997-07-04"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "未知"
+      ],
+      "themes": [
+        "英雄",
+        "行星"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.83,
+      "luminosity": 0.86
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8683,6 +8796,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0147",
     "summary": "第147纪元：geography×music碰撞，诞生超空洞「魄沙海·辽阔」"
+  },
+  {
+    "epoch": 148,
+    "timestamp": "2026-10-03T20:36:40",
+    "event": "genesis",
+    "body_id": "body_0148",
+    "summary": "第148纪元：geography×history碰撞，诞生超空洞「茫峡湾·壮阔」"
+  },
+  {
+    "epoch": 149,
+    "timestamp": "2026-10-03T20:36:46",
+    "event": "genesis",
+    "body_id": "body_0149",
+    "summary": "第149纪元：myth×astronomy碰撞，诞生星系「弦英雄·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -10214,6 +10341,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
+    "date": "2017-10-17",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2017-10-17.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-03T20:36:35.481794"
+  },
+  {
     "date": "2017-11-21",
     "title": "Big Dipper over Pyramid Mountain",
     "url": "https://apod.nasa.gov/apod/image/1711/BigDipperMt2_Cullen_1365.jpg",
@@ -10935,48 +11082,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-29",
-    "summary": "今日宇宙又长大了——2颗新天体在science、myth、astronomy、history领域的碰撞中诞生。尘埃云、星系们带着热闹、壮阔的情绪，在星空中找到了自己的位置。",
-    "body_count": 4,
-    "new_bodies": [
-      {
-        "name": "澜月球·未知",
-        "type_cn": "流浪行星",
-        "id": "body_0086"
-      },
-      {
-        "name": "澜月球·诡谲·子",
-        "type_cn": "流浪行星",
-        "id": "body_0087"
-      },
-      {
-        "name": "澜星系·热闹",
-        "type_cn": "尘埃云",
-        "id": "body_0088"
-      },
-      {
-        "name": "弦意识·壮阔",
-        "type_cn": "星系",
-        "id": "body_0089"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 1,
-      "诡谲": 1,
-      "热闹": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "myth": 2,
-      "philosophy": 1,
-      "science": 2,
-      "astronomy": 3,
-      "history": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
   {
     "date": "2026-08-30",
     "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、耀变体在music、astronomy、myth、cinema的碰撞中绽放，情绪以宁静、诡谲为主导。",
@@ -11811,19 +11916,48 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-03",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、geography、music、astronomy、myth的交叉中诞生。超空洞、星系携带着壮阔、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫峡湾·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0148"
+      },
+      {
+        "name": "弦英雄·壮阔",
+        "type_cn": "星系",
+        "id": "body_0149"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 2
+    },
+    "domain_distribution": {
+      "history": 1,
+      "geography": 1,
+      "music": 1,
+      "astronomy": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 147,
-  "chronicle_entries": 147,
+  "total_bodies": 149,
+  "chronicle_entries": 149,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
     "流浪行星": 14,
     "卫星": 11,
+    "星系": 10,
+    "超空洞": 10,
     "星云": 9,
-    "星系": 9,
-    "超空洞": 9,
     "暗物质": 8,
     "尘埃云": 7,
     "彗星": 7,
@@ -11845,30 +11979,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 76,
+    "壮阔": 78,
     "苍凉": 66,
     "诡谲": 55,
     "宁静": 53,
     "孤寂": 47,
-    "未知": 35,
-    "激烈": 35,
+    "未知": 36,
+    "激烈": 36,
     "神秘": 26,
-    "辽阔": 24,
-    "希望": 22,
-    "激越": 21,
+    "辽阔": 25,
+    "希望": 23,
+    "激越": 22,
     "热闹": 4
   },
   "domain_distribution": {
     "philosophy": 57,
     "literature": 48,
-    "astronomy": 44,
-    "myth": 40,
+    "astronomy": 45,
+    "myth": 41,
     "art": 29,
     "science": 24,
-    "geography": 22,
-    "history": 22,
+    "geography": 23,
+    "history": 23,
     "cinema": 17,
-    "music": 16
+    "music": 17
   },
   "generation": {
     "max_generation": 2,
