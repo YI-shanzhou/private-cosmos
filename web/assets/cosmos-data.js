@@ -7765,6 +7765,117 @@ window.COSMOS_DATA = [
       "size": 0.83,
       "luminosity": 0.86
     }
+  },
+  {
+    "id": "body_0150",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "澜运动·诡谲",
+    "epoch": 150,
+    "born_at": "2026-10-04T20:52:50",
+    "collision_text": "「飞矢不动」「墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸…」「A Large Space Station …」相互缠绕，编织出一片诡谲的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "phi_07",
+      "cin_17",
+      "apo_30"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "飞矢不动",
+        "source": "芝诺悖论"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸回梦境",
+        "source": "《黑客帝国》"
+      },
+      "c": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望",
+        "未知"
+      ],
+      "themes": [
+        "运动",
+        "选择"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.9,
+      "luminosity": 0.74
+    }
+  },
+  {
+    "id": "body_0151",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "墟星系·诡谲",
+    "epoch": 151,
+    "born_at": "2026-10-04T20:52:55",
+    "collision_text": "「Winter Hexagon Over St…」撞上「焦虑是自由的眩晕——站在悬崖边，你既害怕坠落…」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_31",
+      "phi_32"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Winter Hexagon Over Stagecoach Colorado",
+        "source": "NASA APOD 2011-01-03"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "焦虑是自由的眩晕——站在悬崖边，你既害怕坠落，又害怕能坠落",
+        "source": "克尔凯郭尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "辽阔",
+        "热闹",
+        "激越"
+      ],
+      "themes": [
+        "星系",
+        "焦虑"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.59,
+      "luminosity": 0.88
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8810,6 +8921,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0149",
     "summary": "第149纪元：myth×astronomy碰撞，诞生星系「弦英雄·壮阔」"
+  },
+  {
+    "epoch": 150,
+    "timestamp": "2026-10-04T20:52:50",
+    "event": "genesis",
+    "body_id": "body_0150",
+    "summary": "第150纪元：philosophy×cinema碰撞，诞生虫洞「澜运动·诡谲」"
+  },
+  {
+    "epoch": 151,
+    "timestamp": "2026-10-04T20:52:55",
+    "event": "genesis",
+    "body_id": "body_0151",
+    "summary": "第151纪元：astronomy×philosophy碰撞，诞生暗物质「墟星系·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -10710,6 +10835,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-10T20:26:12.733171"
   },
   {
+    "date": "2021-05-27",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2021-05-27.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-04T20:52:45.119058"
+  },
+  {
     "date": "2022-07-20",
     "title": "Jupiter and Ring in Infrared from Webb",
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
@@ -11082,35 +11227,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-08-30",
-    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、耀变体在music、astronomy、myth、cinema的碰撞中绽放，情绪以宁静、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟孤独·宁静·子",
-        "type_cn": "流浪行星",
-        "id": "body_0090"
-      },
-      {
-        "name": "茫星河·诡谲·子",
-        "type_cn": "耀变体",
-        "id": "body_0091"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "宁静": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "astronomy": 1,
-      "myth": 1,
-      "cinema": 1
-    },
-    "lineage_count": 2,
-    "triple_count": 0
-  },
   {
     "date": "2026-08-31",
     "summary": "弦起处，深渊诡谲；光落时，辉映神秘。两粒暗物质悄然凝结，哲学与天文交叠，历史与地理共鸣。三体一次相撞，繁衍未生，然宇宙的谜底，又多两道褶皱。",
@@ -11945,11 +12061,38 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-04",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、astronomy、cinema的交叉中诞生。虫洞、暗物质携带着诡谲、诡谲的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜运动·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0150"
+      },
+      {
+        "name": "墟星系·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0151"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 2
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "astronomy": 2,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 149,
-  "chronicle_entries": 149,
+  "total_bodies": 151,
+  "chronicle_entries": 151,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
@@ -11958,10 +12101,10 @@ window.COSMOS_STATS = {
     "星系": 10,
     "超空洞": 10,
     "星云": 9,
-    "暗物质": 8,
+    "暗物质": 9,
     "尘埃云": 7,
     "彗星": 7,
-    "虫洞": 6,
+    "虫洞": 7,
     "黑洞": 6,
     "脉冲星": 5,
     "虚空": 5,
@@ -11981,27 +12124,27 @@ window.COSMOS_STATS = {
   "mood_distribution": {
     "壮阔": 78,
     "苍凉": 66,
-    "诡谲": 55,
+    "诡谲": 57,
     "宁静": 53,
     "孤寂": 47,
-    "未知": 36,
+    "未知": 37,
     "激烈": 36,
     "神秘": 26,
-    "辽阔": 25,
-    "希望": 23,
-    "激越": 22,
-    "热闹": 4
+    "辽阔": 26,
+    "希望": 24,
+    "激越": 23,
+    "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 57,
+    "philosophy": 59,
     "literature": 48,
-    "astronomy": 45,
+    "astronomy": 47,
     "myth": 41,
     "art": 29,
     "science": 24,
     "geography": 23,
     "history": 23,
-    "cinema": 17,
+    "cinema": 18,
     "music": 17
   },
   "generation": {

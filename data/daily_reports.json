@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-08-30",
-    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、耀变体在music、astronomy、myth、cinema的碰撞中绽放，情绪以宁静、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟孤独·宁静·子",
-        "type_cn": "流浪行星",
-        "id": "body_0090"
-      },
-      {
-        "name": "茫星河·诡谲·子",
-        "type_cn": "耀变体",
-        "id": "body_0091"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "宁静": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "astronomy": 1,
-      "myth": 1,
-      "cinema": 1
-    },
-    "lineage_count": 2,
-    "triple_count": 0
-  },
-  {
     "date": "2026-08-31",
     "summary": "弦起处，深渊诡谲；光落时，辉映神秘。两粒暗物质悄然凝结，哲学与天文交叠，历史与地理共鸣。三体一次相撞，繁衍未生，然宇宙的谜底，又多两道褶皱。",
     "body_count": 2,
@@ -859,6 +830,33 @@
       "music": 1,
       "astronomy": 1,
       "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
+  },
+  {
+    "date": "2026-10-04",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、astronomy、cinema的交叉中诞生。虫洞、暗物质携带着诡谲、诡谲的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜运动·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0150"
+      },
+      {
+        "name": "墟星系·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0151"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 2
+    },
+    "domain_distribution": {
+      "philosophy": 2,
+      "astronomy": 2,
+      "cinema": 1
     },
     "lineage_count": 0,
     "triple_count": 1

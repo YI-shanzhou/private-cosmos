@@ -1041,5 +1041,19 @@
     "event": "genesis",
     "body_id": "body_0149",
     "summary": "第149纪元：myth×astronomy碰撞，诞生星系「弦英雄·壮阔」"
+  },
+  {
+    "epoch": 150,
+    "timestamp": "2026-10-04T20:52:50",
+    "event": "genesis",
+    "body_id": "body_0150",
+    "summary": "第150纪元：philosophy×cinema碰撞，诞生虫洞「澜运动·诡谲」"
+  },
+  {
+    "epoch": 151,
+    "timestamp": "2026-10-04T20:52:55",
+    "event": "genesis",
+    "body_id": "body_0151",
+    "summary": "第151纪元：astronomy×philosophy碰撞，诞生暗物质「墟星系·诡谲」"
   }
 ]

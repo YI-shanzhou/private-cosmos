@@ -7764,5 +7764,116 @@
       "size": 0.83,
       "luminosity": 0.86
     }
+  },
+  {
+    "id": "body_0150",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "澜运动·诡谲",
+    "epoch": 150,
+    "born_at": "2026-10-04T20:52:50",
+    "collision_text": "「飞矢不动」「墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸…」「A Large Space Station …」相互缠绕，编织出一片诡谲的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "phi_07",
+      "cin_17",
+      "apo_30"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "飞矢不动",
+        "source": "芝诺悖论"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "墨菲斯向尼奥伸出手：红色药丸看真相，蓝色药丸回梦境",
+        "source": "《黑客帝国》"
+      },
+      "c": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "希望",
+        "未知"
+      ],
+      "themes": [
+        "运动",
+        "选择"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.9,
+      "luminosity": 0.74
+    }
+  },
+  {
+    "id": "body_0151",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "墟星系·诡谲",
+    "epoch": 151,
+    "born_at": "2026-10-04T20:52:55",
+    "collision_text": "「Winter Hexagon Over St…」撞上「焦虑是自由的眩晕——站在悬崖边，你既害怕坠落…」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_31",
+      "phi_32"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Winter Hexagon Over Stagecoach Colorado",
+        "source": "NASA APOD 2011-01-03"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "焦虑是自由的眩晕——站在悬崖边，你既害怕坠落，又害怕能坠落",
+        "source": "克尔凯郭尔"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "辽阔",
+        "热闹",
+        "激越"
+      ],
+      "themes": [
+        "星系",
+        "焦虑"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.59,
+      "luminosity": 0.88
+    }
   }
 ]
