@@ -1079,6 +1079,26 @@
     "fetched_at": "2026-09-21T21:42:37.776098"
   },
   {
+    "date": "2012-04-17",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2012-04-17.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-05T23:45:15.094508"
+  },
+  {
     "date": "2012-06-16",
     "title": "APOD Turns 17",
     "url": "https://apod.nasa.gov/apod/image/1206/apod17_person_2500.jpg",

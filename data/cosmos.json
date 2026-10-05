@@ -7875,5 +7875,122 @@
       "size": 0.59,
       "luminosity": 0.88
     }
+  },
+  {
+    "id": "body_0152",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽梦境·苍凉·子",
+    "epoch": 152,
+    "born_at": "2026-10-05T23:45:20",
+    "collision_text": "「APOD Turns 17」与「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」相互缠绕，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_34",
+      "geo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "APOD Turns 17",
+        "source": "NASA APOD 2012-06-16"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "telescope",
+        "冰封"
+      ],
+      "domains": [
+        "astronomy",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#642de7",
+      "size": 0.33,
+      "luminosity": 0.42
+    },
+    "lineage": {
+      "parent_id": "body_0134",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0153",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "渺行星·激烈·子",
+    "epoch": 153,
+    "born_at": "2026-10-05T23:45:25",
+    "collision_text": "「Fear and Dread: The Mo…」吞下「上帝已死」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_54",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "未知"
+      ],
+      "themes": [
+        "恒星",
+        "信仰"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#8023d7",
+      "size": 0.8,
+      "luminosity": 0.77
+    },
+    "lineage": {
+      "parent_id": "body_0037",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

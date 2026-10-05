@@ -1055,5 +1055,19 @@
     "event": "genesis",
     "body_id": "body_0151",
     "summary": "第151纪元：astronomy×philosophy碰撞，诞生暗物质「墟星系·诡谲」"
+  },
+  {
+    "epoch": 152,
+    "timestamp": "2026-10-05T23:45:20",
+    "event": "lineage",
+    "body_id": "body_0152",
+    "summary": "第152纪元：暗物质「幽梦境·诡谲」繁衍出第1代子嗣——暗物质「幽梦境·苍凉·子」"
+  },
+  {
+    "epoch": 153,
+    "timestamp": "2026-10-05T23:45:25",
+    "event": "lineage",
+    "body_id": "body_0153",
+    "summary": "第153纪元：黑洞「渺行星·诡谲」繁衍出第1代子嗣——黑洞「渺行星·激烈·子」"
   }
 ]

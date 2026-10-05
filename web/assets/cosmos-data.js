@@ -7876,6 +7876,123 @@ window.COSMOS_DATA = [
       "size": 0.59,
       "luminosity": 0.88
     }
+  },
+  {
+    "id": "body_0152",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽梦境·苍凉·子",
+    "epoch": 152,
+    "born_at": "2026-10-05T23:45:20",
+    "collision_text": "「APOD Turns 17」与「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」相互缠绕，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_34",
+      "geo_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "APOD Turns 17",
+        "source": "NASA APOD 2012-06-16"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "未知",
+        "神秘"
+      ],
+      "themes": [
+        "telescope",
+        "冰封"
+      ],
+      "domains": [
+        "astronomy",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#642de7",
+      "size": 0.33,
+      "luminosity": 0.42
+    },
+    "lineage": {
+      "parent_id": "body_0134",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0153",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "渺行星·激烈·子",
+    "epoch": 153,
+    "born_at": "2026-10-05T23:45:25",
+    "collision_text": "「Fear and Dread: The Mo…」吞下「上帝已死」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_54",
+      "phi_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "未知"
+      ],
+      "themes": [
+        "恒星",
+        "信仰"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#8023d7",
+      "size": 0.8,
+      "luminosity": 0.77
+    },
+    "lineage": {
+      "parent_id": "body_0037",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -8935,6 +9052,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0151",
     "summary": "第151纪元：astronomy×philosophy碰撞，诞生暗物质「墟星系·诡谲」"
+  },
+  {
+    "epoch": 152,
+    "timestamp": "2026-10-05T23:45:20",
+    "event": "lineage",
+    "body_id": "body_0152",
+    "summary": "第152纪元：暗物质「幽梦境·诡谲」繁衍出第1代子嗣——暗物质「幽梦境·苍凉·子」"
+  },
+  {
+    "epoch": 153,
+    "timestamp": "2026-10-05T23:45:25",
+    "event": "lineage",
+    "body_id": "body_0153",
+    "summary": "第153纪元：黑洞「渺行星·诡谲」繁衍出第1代子嗣——黑洞「渺行星·激烈·子」"
   }
 ];
 window.APOD_DATA = [
@@ -10016,6 +10147,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-21T21:42:37.776098"
+  },
+  {
+    "date": "2012-04-17",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2012-04-17.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-05T23:45:15.094508"
   },
   {
     "date": "2012-06-16",
@@ -11228,35 +11379,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-08-31",
-    "summary": "弦起处，深渊诡谲；光落时，辉映神秘。两粒暗物质悄然凝结，哲学与天文交叠，历史与地理共鸣。三体一次相撞，繁衍未生，然宇宙的谜底，又多两道褶皱。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "弦深渊·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0092"
-      },
-      {
-        "name": "辉失落·神秘",
-        "type_cn": "暗物质",
-        "id": "body_0093"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "神秘": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 1,
-      "history": 1,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-09-01",
     "summary": "今日宇宙又长大了——2颗新天体在geography、cinema、philosophy领域的碰撞中诞生。虫洞、蓝巨星们带着诡谲、希望的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -12088,24 +12210,52 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-05",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。暗物质、黑洞在philosophy、astronomy、geography的碰撞中绽放，情绪以苍凉、激烈为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽梦境·苍凉·子",
+        "type_cn": "暗物质",
+        "id": "body_0152"
+      },
+      {
+        "name": "渺行星·激烈·子",
+        "type_cn": "黑洞",
+        "id": "body_0153"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "激烈": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "astronomy": 2,
+      "geography": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 151,
-  "chronicle_entries": 151,
+  "total_bodies": 153,
+  "chronicle_entries": 153,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
     "流浪行星": 14,
     "卫星": 11,
     "星系": 10,
+    "暗物质": 10,
     "超空洞": 10,
     "星云": 9,
-    "暗物质": 9,
     "尘埃云": 7,
     "彗星": 7,
     "虫洞": 7,
-    "黑洞": 6,
+    "黑洞": 7,
     "脉冲星": 5,
     "虚空": 5,
     "行星": 5,
@@ -12123,35 +12273,35 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 78,
-    "苍凉": 66,
+    "苍凉": 67,
     "诡谲": 57,
     "宁静": 53,
     "孤寂": 47,
-    "未知": 37,
-    "激烈": 36,
-    "神秘": 26,
+    "未知": 39,
+    "激烈": 37,
+    "神秘": 27,
     "辽阔": 26,
     "希望": 24,
     "激越": 23,
     "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 59,
+    "philosophy": 60,
+    "astronomy": 49,
     "literature": 48,
-    "astronomy": 47,
     "myth": 41,
     "art": 29,
+    "geography": 24,
     "science": 24,
-    "geography": 23,
     "history": 23,
     "cinema": 18,
     "music": 17
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 18,
+    "lineage_bodies": 20,
     "distribution": {
-      "第1代": 17,
+      "第1代": 19,
       "第2代": 1
     }
   }
