@@ -254,6 +254,26 @@
     "fetched_at": "2026-07-26T19:13:11.597476"
   },
   {
+    "date": "1997-11-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_1997-11-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-06T22:20:59.578735"
+  },
+  {
     "date": "2000-07-21",
     "title": "Eros Craters And Boulders",
     "url": "https://apod.nasa.gov/apod/image/0007/erosjul7_near.jpg",

@@ -7992,5 +7992,108 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0154",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "墟冰封·苍凉",
+    "epoch": 154,
+    "born_at": "2026-10-06T22:21:05",
+    "collision_text": "「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」与「光速是宇宙的终极速度极限，约每秒30万公里，…」在虚空中相撞，迸出苍凉的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_07",
+      "sci_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "b": {
+        "domain": "science",
+        "text": "光速是宇宙的终极速度极限，约每秒30万公里，任何携带信息的信号都无法超越",
+        "source": "狭义相对论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "壮阔"
+      ],
+      "themes": [
+        "冰封",
+        "极限"
+      ],
+      "domains": [
+        "geography",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.38,
+      "luminosity": 0.53
+    }
+  },
+  {
+    "id": "body_0155",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "辉毁灭·激烈",
+    "epoch": 155,
+    "born_at": "2026-10-06T22:21:10",
+    "collision_text": "「湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，…」吞下「沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_24",
+      "cin_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，宇宙在其足下震颤",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪",
+        "source": "《沙丘》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "毁灭与新生",
+        "沙虫"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.6,
+      "luminosity": 0.27
+    }
   }
 ]

@@ -1069,5 +1069,19 @@
     "event": "lineage",
     "body_id": "body_0153",
     "summary": "第153纪元：黑洞「渺行星·诡谲」繁衍出第1代子嗣——黑洞「渺行星·激烈·子」"
+  },
+  {
+    "epoch": 154,
+    "timestamp": "2026-10-06T22:21:05",
+    "event": "genesis",
+    "body_id": "body_0154",
+    "summary": "第154纪元：geography×science碰撞，诞生遗迹「墟冰封·苍凉」"
+  },
+  {
+    "epoch": 155,
+    "timestamp": "2026-10-06T22:21:10",
+    "event": "genesis",
+    "body_id": "body_0155",
+    "summary": "第155纪元：myth×cinema碰撞，诞生磁星「辉毁灭·激烈」"
   }
 ]

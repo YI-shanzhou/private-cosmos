@@ -7993,6 +7993,109 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0154",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "墟冰封·苍凉",
+    "epoch": 154,
+    "born_at": "2026-10-06T22:21:05",
+    "collision_text": "「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」与「光速是宇宙的终极速度极限，约每秒30万公里，…」在虚空中相撞，迸出苍凉的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_07",
+      "sci_10"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "b": {
+        "domain": "science",
+        "text": "光速是宇宙的终极速度极限，约每秒30万公里，任何携带信息的信号都无法超越",
+        "source": "狭义相对论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "壮阔"
+      ],
+      "themes": [
+        "冰封",
+        "极限"
+      ],
+      "domains": [
+        "geography",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.38,
+      "luminosity": 0.53
+    }
+  },
+  {
+    "id": "body_0155",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "辉毁灭·激烈",
+    "epoch": 155,
+    "born_at": "2026-10-06T22:21:10",
+    "collision_text": "「湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，…」吞下「沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_24",
+      "cin_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "湿婆舞毁灭之舞，一脚踏碎无知，一脚赐予新生，宇宙在其足下震颤",
+        "source": "印度神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪",
+        "source": "《沙丘》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "毁灭与新生",
+        "沙虫"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.6,
+      "luminosity": 0.27
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -9066,6 +9169,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0153",
     "summary": "第153纪元：黑洞「渺行星·诡谲」繁衍出第1代子嗣——黑洞「渺行星·激烈·子」"
+  },
+  {
+    "epoch": 154,
+    "timestamp": "2026-10-06T22:21:05",
+    "event": "genesis",
+    "body_id": "body_0154",
+    "summary": "第154纪元：geography×science碰撞，诞生遗迹「墟冰封·苍凉」"
+  },
+  {
+    "epoch": 155,
+    "timestamp": "2026-10-06T22:21:10",
+    "event": "genesis",
+    "body_id": "body_0155",
+    "summary": "第155纪元：myth×cinema碰撞，诞生磁星「辉毁灭·激烈」"
   }
 ];
 window.APOD_DATA = [
@@ -9322,6 +9439,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-26T19:13:11.597476"
+  },
+  {
+    "date": "1997-11-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_1997-11-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-06T22:20:59.578735"
   },
   {
     "date": "2000-07-21",
@@ -11379,34 +11516,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-01",
-    "summary": "今日宇宙又长大了——2颗新天体在geography、cinema、philosophy领域的碰撞中诞生。虫洞、蓝巨星们带着诡谲、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟自然·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0094"
-      },
-      {
-        "name": "尘珊瑚·希望",
-        "type_cn": "蓝巨星",
-        "id": "body_0095"
-      }
-    ],
-    "mood_distribution": {
-      "希望": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "cinema": 1,
-      "philosophy": 2
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-02",
     "summary": "宇宙日报：今日，幽不屈与魄呼吸自虚无处睁眼——两座超空洞以壮阔为名，吞纳神话、哲学与星光的余烬。无繁衍，无碰撞，唯有沉默撑开时空的褶皱，令寂静本身也为之震颤。",
     "body_count": 2,
@@ -12238,11 +12347,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 2,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-06",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、science、cinema、geography领域的碰撞中诞生。遗迹、磁星们带着苍凉、激烈的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟冰封·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0154"
+      },
+      {
+        "name": "辉毁灭·激烈",
+        "type_cn": "磁星",
+        "id": "body_0155"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "science": 1,
+      "cinema": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 153,
-  "chronicle_entries": 153,
+  "total_bodies": 155,
+  "chronicle_entries": 155,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
@@ -12256,30 +12394,30 @@ window.COSMOS_STATS = {
     "彗星": 7,
     "虫洞": 7,
     "黑洞": 7,
+    "遗迹": 6,
     "脉冲星": 5,
     "虚空": 5,
     "行星": 5,
     "超新星": 5,
-    "遗迹": 5,
     "类星体": 4,
     "恒星": 3,
     "星团": 3,
     "原恒星": 2,
     "暗星云": 2,
+    "磁星": 2,
     "耀变体": 2,
     "千新星": 1,
-    "磁星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 78,
-    "苍凉": 67,
+    "壮阔": 80,
+    "苍凉": 68,
     "诡谲": 57,
     "宁静": 53,
     "孤寂": 47,
     "未知": 39,
-    "激烈": 37,
-    "神秘": 27,
+    "激烈": 38,
+    "神秘": 28,
     "辽阔": 26,
     "希望": 24,
     "激越": 23,
@@ -12289,12 +12427,12 @@ window.COSMOS_STATS = {
     "philosophy": 60,
     "astronomy": 49,
     "literature": 48,
-    "myth": 41,
+    "myth": 42,
     "art": 29,
-    "geography": 24,
-    "science": 24,
+    "geography": 25,
+    "science": 25,
     "history": 23,
-    "cinema": 18,
+    "cinema": 19,
     "music": 17
   },
   "generation": {

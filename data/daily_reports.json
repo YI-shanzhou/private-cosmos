@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "summary": "今日宇宙又长大了——2颗新天体在geography、cinema、philosophy领域的碰撞中诞生。虫洞、蓝巨星们带着诡谲、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟自然·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0094"
-      },
-      {
-        "name": "尘珊瑚·希望",
-        "type_cn": "蓝巨星",
-        "id": "body_0095"
-      }
-    ],
-    "mood_distribution": {
-      "希望": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "cinema": 1,
-      "philosophy": 2
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-02",
     "summary": "宇宙日报：今日，幽不屈与魄呼吸自虚无处睁眼——两座超空洞以壮阔为名，吞纳神话、哲学与星光的余烬。无繁衍，无碰撞，唯有沉默撑开时空的褶皱，令寂静本身也为之震颤。",
     "body_count": 2,
@@ -858,6 +830,35 @@
       "geography": 1
     },
     "lineage_count": 2,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-06",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、science、cinema、geography领域的碰撞中诞生。遗迹、磁星们带着苍凉、激烈的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟冰封·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0154"
+      },
+      {
+        "name": "辉毁灭·激烈",
+        "type_cn": "磁星",
+        "id": "body_0155"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "science": 1,
+      "cinema": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
     "triple_count": 0
   }
 ]
