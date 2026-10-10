@@ -700,6 +700,26 @@
     "fetched_at": "2026-09-02T20:30:56.166255"
   },
   {
+    "date": "2006-09-19",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2006-09-19.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-10T21:10:34.806554"
+  },
+  {
     "date": "2006-12-25",
     "title": "Upgrading the International Space Station",
     "url": "https://apod.nasa.gov/apod/image/0612/trussnauts_sts116_big.jpg",

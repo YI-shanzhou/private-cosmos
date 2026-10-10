@@ -1083,5 +1083,19 @@
     "event": "genesis",
     "body_id": "body_0155",
     "summary": "第155纪元：myth×cinema碰撞，诞生磁星「辉毁灭·激烈」"
+  },
+  {
+    "epoch": 156,
+    "timestamp": "2026-10-10T21:10:40",
+    "event": "lineage",
+    "body_id": "body_0156",
+    "summary": "第156纪元：卫星「弦柔情·宁静」繁衍出第1代子嗣——卫星「弦柔情·辽阔·子」"
+  },
+  {
+    "epoch": 157,
+    "timestamp": "2026-10-10T21:10:45",
+    "event": "genesis",
+    "body_id": "body_0157",
+    "summary": "第157纪元：myth×astronomy碰撞，诞生暗物质「渺渴望·诡谲」"
   }
 ]

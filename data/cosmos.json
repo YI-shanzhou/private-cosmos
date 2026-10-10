@@ -8095,5 +8095,117 @@
       "size": 0.6,
       "luminosity": 0.27
     }
+  },
+  {
+    "id": "body_0156",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "弦柔情·辽阔·子",
+    "epoch": 156,
+    "born_at": "2026-10-10T21:10:40",
+    "collision_text": "「日月之行，若出其中；星汉灿烂，若出其里」吞下「迢迢牵牛星，皎皎河汉女」，吐出一段辽阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_07",
+      "lit_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "日月之行，若出其中；星汉灿烂，若出其里",
+        "source": "曹操《观沧海》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "迢迢牵牛星，皎皎河汉女",
+        "source": "古诗十九首"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "星汉",
+        "星座"
+      ],
+      "domains": [
+        "literature",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "汉魏",
+        "汉"
+      ]
+    },
+    "visual": {
+      "color": "#0dca99",
+      "size": 0.83,
+      "luminosity": 0.71
+    },
+    "lineage": {
+      "parent_id": "body_0041",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0157",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "渺渴望·诡谲",
+    "epoch": 157,
+    "born_at": "2026-10-10T21:10:45",
+    "collision_text": "「坦塔罗斯立水中，水退至颌下；头顶果实，风起即…」被「A Martian Halloween」点燃，烧成一片诡谲的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_20",
+      "apo_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "坦塔罗斯立水中，水退至颌下；头顶果实，风起即远",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Martian Halloween",
+        "source": "NASA APOD 2005-10-31"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "渴望",
+        "太阳"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.46,
+      "luminosity": 0.65
+    }
   }
 ]
