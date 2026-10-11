@@ -8207,5 +8207,116 @@
       "size": 0.46,
       "luminosity": 0.65
     }
+  },
+  {
+    "id": "body_0158",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "茫审判·激烈",
+    "epoch": 158,
+    "born_at": "2026-10-11T21:29:48",
+    "collision_text": "「阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒…」穿过「中子星一茶匙物质重达数十亿吨，是原子被压碎后…」，留下一道激烈的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_29",
+      "sci_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒田野",
+        "source": "埃及神话"
+      },
+      "b": {
+        "domain": "science",
+        "text": "中子星一茶匙物质重达数十亿吨，是原子被压碎后的极致密残骸",
+        "source": "天体物理学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "神秘",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "审判",
+        "致密"
+      ],
+      "domains": [
+        "myth",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.64,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0159",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "辉毁灭·壮阔·子",
+    "epoch": 159,
+    "born_at": "2026-10-11T21:29:54",
+    "collision_text": "「第九交响曲·欢乐颂」与「Cat's Paw Nebula from …」相互缠绕，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_09",
+      "apo_68"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "第九交响曲·欢乐颂",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Cat's Paw Nebula from Webb Space Telescope",
+        "source": "NASA APOD 2025-07-21"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "themes": [
+        "崇高",
+        "星云"
+      ],
+      "domains": [
+        "music",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#f98665",
+      "size": 0.58,
+      "luminosity": 0.37
+    },
+    "lineage": {
+      "parent_id": "body_0155",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

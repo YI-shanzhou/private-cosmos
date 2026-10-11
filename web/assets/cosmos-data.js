@@ -8208,6 +8208,117 @@ window.COSMOS_DATA = [
       "size": 0.46,
       "luminosity": 0.65
     }
+  },
+  {
+    "id": "body_0158",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "茫审判·激烈",
+    "epoch": 158,
+    "born_at": "2026-10-11T21:29:48",
+    "collision_text": "「阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒…」穿过「中子星一茶匙物质重达数十亿吨，是原子被压碎后…」，留下一道激烈的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_29",
+      "sci_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "阿努比斯以羽毛称量亡者之心，轻于羽毛者入永恒田野",
+        "source": "埃及神话"
+      },
+      "b": {
+        "domain": "science",
+        "text": "中子星一茶匙物质重达数十亿吨，是原子被压碎后的极致密残骸",
+        "source": "天体物理学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "神秘",
+        "苍凉",
+        "诡谲"
+      ],
+      "themes": [
+        "审判",
+        "致密"
+      ],
+      "domains": [
+        "myth",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.64,
+      "luminosity": 0.9
+    }
+  },
+  {
+    "id": "body_0159",
+    "type": "star",
+    "type_cn": "恒星",
+    "name": "辉毁灭·壮阔·子",
+    "epoch": 159,
+    "born_at": "2026-10-11T21:29:54",
+    "collision_text": "「第九交响曲·欢乐颂」与「Cat's Paw Nebula from …」相互缠绕，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_09",
+      "apo_68"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "第九交响曲·欢乐颂",
+        "source": "贝多芬"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Cat's Paw Nebula from Webb Space Telescope",
+        "source": "NASA APOD 2025-07-21"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越"
+      ],
+      "themes": [
+        "崇高",
+        "星云"
+      ],
+      "domains": [
+        "music",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#f98665",
+      "size": 0.58,
+      "luminosity": 0.37
+    },
+    "lineage": {
+      "parent_id": "body_0155",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -9309,6 +9420,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0157",
     "summary": "第157纪元：myth×astronomy碰撞，诞生暗物质「渺渴望·诡谲」"
+  },
+  {
+    "epoch": 158,
+    "timestamp": "2026-10-11T21:29:48",
+    "event": "genesis",
+    "body_id": "body_0158",
+    "summary": "第158纪元：myth×science碰撞，诞生磁星「茫审判·激烈」"
+  },
+  {
+    "epoch": 159,
+    "timestamp": "2026-10-11T21:29:54",
+    "event": "lineage",
+    "body_id": "body_0159",
+    "summary": "第159纪元：磁星「辉毁灭·激烈」繁衍出第1代子嗣——恒星「辉毁灭·壮阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -9676,6 +9801,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-13T19:00:25.767116"
+  },
+  {
+    "date": "2001-03-05",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2001-03-05.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-11T21:29:42.584958"
   },
   {
     "date": "2001-08-06",
@@ -11662,34 +11807,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-03",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、千新星在philosophy、astronomy、cinema的碰撞中绽放，情绪以孤寂、激烈为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜永恒·孤寂·子",
-        "type_cn": "白矮星",
-        "id": "body_0098"
-      },
-      {
-        "name": "寂力量·激烈",
-        "type_cn": "千新星",
-        "id": "body_0099"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 1,
-      "cinema": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-05",
     "summary": "幽极光于星云深处铺展壮阔的银幕，墟太阳在原恒星中点燃希望。今日宇宙放映着天文与历史的映画，两枚新生光辉，静默改写地理的边界。",
     "body_count": 2,
@@ -12523,11 +12640,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-11",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。磁星、恒星在myth、science、astronomy、music的碰撞中绽放，情绪以激烈、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫审判·激烈",
+        "type_cn": "磁星",
+        "id": "body_0158"
+      },
+      {
+        "name": "辉毁灭·壮阔·子",
+        "type_cn": "恒星",
+        "id": "body_0159"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "science": 1,
+      "astronomy": 1,
+      "music": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 157,
-  "chronicle_entries": 157,
+  "total_bodies": 159,
+  "chronicle_entries": 159,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
@@ -12546,47 +12692,47 @@ window.COSMOS_STATS = {
     "虚空": 5,
     "行星": 5,
     "超新星": 5,
+    "恒星": 4,
     "类星体": 4,
-    "恒星": 3,
     "星团": 3,
+    "磁星": 3,
     "原恒星": 2,
     "暗星云": 2,
-    "磁星": 2,
     "耀变体": 2,
     "千新星": 1,
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 81,
-    "苍凉": 69,
-    "诡谲": 58,
+    "壮阔": 82,
+    "苍凉": 70,
+    "诡谲": 59,
     "宁静": 54,
     "孤寂": 48,
     "未知": 40,
-    "激烈": 38,
-    "神秘": 28,
+    "激烈": 39,
+    "神秘": 29,
     "辽阔": 27,
     "希望": 24,
-    "激越": 23,
+    "激越": 24,
     "热闹": 5
   },
   "domain_distribution": {
     "philosophy": 60,
-    "astronomy": 50,
+    "astronomy": 51,
     "literature": 50,
-    "myth": 43,
+    "myth": 44,
     "art": 29,
+    "science": 26,
     "geography": 25,
-    "science": 25,
     "history": 23,
     "cinema": 19,
-    "music": 17
+    "music": 18
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 21,
+    "lineage_bodies": 22,
     "distribution": {
-      "第1代": 20,
+      "第1代": 21,
       "第2代": 1
     }
   }

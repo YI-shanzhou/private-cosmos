@@ -1097,5 +1097,19 @@
     "event": "genesis",
     "body_id": "body_0157",
     "summary": "第157纪元：myth×astronomy碰撞，诞生暗物质「渺渴望·诡谲」"
+  },
+  {
+    "epoch": 158,
+    "timestamp": "2026-10-11T21:29:48",
+    "event": "genesis",
+    "body_id": "body_0158",
+    "summary": "第158纪元：myth×science碰撞，诞生磁星「茫审判·激烈」"
+  },
+  {
+    "epoch": 159,
+    "timestamp": "2026-10-11T21:29:54",
+    "event": "lineage",
+    "body_id": "body_0159",
+    "summary": "第159纪元：磁星「辉毁灭·激烈」繁衍出第1代子嗣——恒星「辉毁灭·壮阔·子」"
   }
 ]
