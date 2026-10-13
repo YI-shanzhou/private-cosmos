@@ -1111,5 +1111,19 @@
     "event": "lineage",
     "body_id": "body_0159",
     "summary": "第159纪元：磁星「辉毁灭·激烈」繁衍出第1代子嗣——恒星「辉毁灭·壮阔·子」"
+  },
+  {
+    "epoch": 160,
+    "timestamp": "2026-10-13T00:09:59",
+    "event": "genesis",
+    "body_id": "body_0160",
+    "summary": "第160纪元：philosophy×astronomy碰撞，诞生流浪行星「焰信仰·未知」"
+  },
+  {
+    "epoch": 161,
+    "timestamp": "2026-10-13T00:10:05",
+    "event": "lineage",
+    "body_id": "body_0161",
+    "summary": "第161纪元：遗迹「茫告别·苍凉」繁衍出第1代子嗣——遗迹「茫告别·神秘·子」"
   }
 ]

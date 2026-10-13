@@ -2214,6 +2214,26 @@
     "fetched_at": "2026-09-17T20:57:29.502334"
   },
   {
+    "date": "2024-04-18",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2024-04-18.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-13T00:09:54.340669"
+  },
+  {
     "date": "2024-04-29",
     "title": "Comet, Planet, Moon",
     "url": "https://apod.nasa.gov/apod/image/2404/CometTriple_Casado_2000.jpg",

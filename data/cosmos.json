@@ -8318,5 +8318,115 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0160",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "焰信仰·未知",
+    "epoch": 160,
+    "born_at": "2026-10-13T00:09:59",
+    "collision_text": "「上帝已死」与「A Horizon with Blue an…」在虚空中相撞，迸出未知的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_05",
+      "apo_51"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Horizon with Blue and Red",
+        "source": "NASA APOD 2017-12-05"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "激烈"
+      ],
+      "themes": [
+        "信仰",
+        "恒星"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.8,
+      "luminosity": 0.24
+    }
+  },
+  {
+    "id": "body_0161",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "茫告别·神秘·子",
+    "epoch": 161,
+    "born_at": "2026-10-13T00:10:05",
+    "collision_text": "「飞矢不动」撞上「哥德堡变奏曲」，碎成一团神秘的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_07",
+      "mus_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "飞矢不动",
+        "source": "芝诺悖论"
+      },
+      "b": {
+        "domain": "music",
+        "text": "哥德堡变奏曲",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "运动",
+        "沉思"
+      ],
+      "domains": [
+        "philosophy",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古希腊",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#686b9f",
+      "size": 0.84,
+      "luminosity": 0.36
+    },
+    "lineage": {
+      "parent_id": "body_0102",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "summary": "幽极光于星云深处铺展壮阔的银幕，墟太阳在原恒星中点燃希望。今日宇宙放映着天文与历史的映画，两枚新生光辉，静默改写地理的边界。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽极光·壮阔",
-        "type_cn": "星云",
-        "id": "body_0100"
-      },
-      {
-        "name": "墟太阳·希望",
-        "type_cn": "原恒星",
-        "id": "body_0101"
-      }
-    ],
-    "mood_distribution": {
-      "希望": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "astronomy": 1,
-      "history": 1,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-06",
     "summary": "今日宇宙深处，遗迹“茫告别·苍凉”与卫星“尘无穷·宁静”悄然诞生。一次三体碰撞，令哲学、音乐、文学与天文共振，繁衍未启，唯余苍凉宁静，在星尘间低语。",
     "body_count": 2,
@@ -857,6 +828,34 @@
     "domain_distribution": {
       "myth": 1,
       "science": 1,
+      "astronomy": 1,
+      "music": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-13",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。流浪行星、遗迹在philosophy、astronomy、music的碰撞中绽放，情绪以未知、神秘为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰信仰·未知",
+        "type_cn": "流浪行星",
+        "id": "body_0160"
+      },
+      {
+        "name": "茫告别·神秘·子",
+        "type_cn": "遗迹",
+        "id": "body_0161"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "神秘": 1
+    },
+    "domain_distribution": {
+      "philosophy": 2,
       "astronomy": 1,
       "music": 1
     },
