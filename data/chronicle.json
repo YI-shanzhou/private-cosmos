@@ -1125,5 +1125,19 @@
     "event": "lineage",
     "body_id": "body_0161",
     "summary": "第161纪元：遗迹「茫告别·苍凉」繁衍出第1代子嗣——遗迹「茫告别·神秘·子」"
+  },
+  {
+    "epoch": 162,
+    "timestamp": "2026-10-13T22:18:14",
+    "event": "genesis",
+    "body_id": "body_0162",
+    "summary": "第162纪元：myth×science碰撞，诞生遗迹「辉编织·苍凉」"
+  },
+  {
+    "epoch": 163,
+    "timestamp": "2026-10-13T22:18:21",
+    "event": "genesis",
+    "body_id": "body_0163",
+    "summary": "第163纪元：history×science碰撞，诞生恒星「渊登月·希望」"
   }
 ]

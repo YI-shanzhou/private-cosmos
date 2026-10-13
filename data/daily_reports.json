@@ -836,8 +836,8 @@
   },
   {
     "date": "2026-10-13",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。流浪行星、遗迹在philosophy、astronomy、music的碰撞中绽放，情绪以未知、神秘为主导。",
-    "body_count": 2,
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、history、music、myth的交叉中诞生。遗迹、恒星携带着苍凉、希望的情绪，加入了星空。",
+    "body_count": 4,
     "new_bodies": [
       {
         "name": "焰信仰·未知",
@@ -848,18 +848,33 @@
         "name": "茫告别·神秘·子",
         "type_cn": "遗迹",
         "id": "body_0161"
+      },
+      {
+        "name": "辉编织·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0162"
+      },
+      {
+        "name": "渊登月·希望",
+        "type_cn": "恒星",
+        "id": "body_0163"
       }
     ],
     "mood_distribution": {
       "未知": 1,
-      "神秘": 1
+      "神秘": 1,
+      "希望": 1,
+      "苍凉": 1
     },
     "domain_distribution": {
       "philosophy": 2,
       "astronomy": 1,
-      "music": 1
+      "music": 2,
+      "science": 2,
+      "history": 1,
+      "myth": 1
     },
     "lineage_count": 1,
-    "triple_count": 0
+    "triple_count": 1
   }
 ]
