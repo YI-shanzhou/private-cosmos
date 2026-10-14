@@ -8542,6 +8542,126 @@ window.COSMOS_DATA = [
       "size": 0.71,
       "luminosity": 0.69
     }
+  },
+  {
+    "id": "body_0164",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "渊重生·苍凉",
+    "epoch": 164,
+    "born_at": "2026-10-14T21:17:45",
+    "collision_text": "「拉赫玛尼诺夫·第二钢琴协奏曲」「太空舱外，地球在脚下缓缓旋转，宇航员在无尽寂…」「俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽…」三者在虚空中相撞，坍缩成一粒苍凉的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_23",
+      "cin_07",
+      "myth_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "拉赫玛尼诺夫·第二钢琴协奏曲",
+        "source": "拉赫玛尼诺夫"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "太空舱外，地球在脚下缓缓旋转，宇航员在无尽寂静中坠落",
+        "source": "《地心引力》"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "俄耳甫斯入冥府寻妻，回首一刻，欧律狄刻永坠幽冥",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "孤寂"
+      ],
+      "themes": [
+        "重生",
+        "失联",
+        "回望"
+      ],
+      "domains": [
+        "music",
+        "cinema",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "当代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.93,
+      "luminosity": 0.84
+    }
+  },
+  {
+    "id": "body_0165",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺星座·诡谲·子",
+    "epoch": 165,
+    "born_at": "2026-10-14T21:17:50",
+    "collision_text": "「时间静止的街道上，只有主角一人在走，橱窗里的…」倒映在「存在即被感知」里，裂成一片诡谲的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_23",
+      "phi_12"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "时间静止的街道上，只有主角一人在走，橱窗里的模特仿佛在注视",
+        "source": "《Omega Code》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在即被感知",
+        "source": "贝克莱"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "静止",
+        "感知"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#647b5d",
+      "size": 1.07,
+      "luminosity": 0.9
+    },
+    "lineage": {
+      "parent_id": "body_0115",
+      "generation": 2,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -9685,6 +9805,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0163",
     "summary": "第163纪元：history×science碰撞，诞生恒星「渊登月·希望」"
+  },
+  {
+    "epoch": 164,
+    "timestamp": "2026-10-14T21:17:45",
+    "event": "genesis",
+    "body_id": "body_0164",
+    "summary": "第164纪元：music×cinema碰撞，诞生虚空「渊重生·苍凉」"
+  },
+  {
+    "epoch": 165,
+    "timestamp": "2026-10-14T21:17:50",
+    "event": "lineage",
+    "body_id": "body_0165",
+    "summary": "第165纪元：流浪行星「渺星座·诡谲·子」繁衍出第2代子嗣——流浪行星「渺星座·诡谲·子」"
   }
 ];
 window.APOD_DATA = [
@@ -9844,6 +9978,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-20T20:20:40.265231"
+  },
+  {
+    "date": "1996-02-19",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_1996-02-19.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-14T21:17:39.398834"
   },
   {
     "date": "1996-03-01",
@@ -12098,35 +12252,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-06",
-    "summary": "今日宇宙深处，遗迹“茫告别·苍凉”与卫星“尘无穷·宁静”悄然诞生。一次三体碰撞，令哲学、音乐、文学与天文共振，繁衍未启，唯余苍凉宁静，在星尘间低语。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫告别·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0102"
-      },
-      {
-        "name": "尘无穷·宁静",
-        "type_cn": "卫星",
-        "id": "body_0103"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "宁静": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "music": 1,
-      "literature": 1,
-      "astronomy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-09-07",
     "summary": "今日双星临世：虫洞「魄追忆·诡谲」于地理褶皱间低语，恒星「弦幻象·激越·子」以音乐与文学共振燃亮。世代繁衍一颗，无碰撞之扰，唯有诡谲激越在私宇宙深处谱成新章。",
     "body_count": 2,
@@ -12974,15 +13099,44 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-14",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、music、philosophy、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊重生·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0164"
+      },
+      {
+        "name": "渺星座·诡谲·子",
+        "type_cn": "流浪行星",
+        "id": "body_0165"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "cinema": 2,
+      "music": 1,
+      "philosophy": 1,
+      "myth": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 163,
-  "chronicle_entries": 163,
+  "total_bodies": 165,
+  "chronicle_entries": 165,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 17,
-    "流浪行星": 15,
+    "流浪行星": 16,
     "卫星": 12,
     "暗物质": 11,
     "星系": 10,
@@ -12993,9 +13147,9 @@ window.COSMOS_STATS = {
     "彗星": 7,
     "虫洞": 7,
     "黑洞": 7,
+    "虚空": 6,
     "恒星": 5,
     "脉冲星": 5,
-    "虚空": 5,
     "行星": 5,
     "超新星": 5,
     "类星体": 4,
@@ -13008,11 +13162,11 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 84,
-    "苍凉": 71,
-    "诡谲": 60,
+    "壮阔": 85,
+    "苍凉": 72,
+    "诡谲": 61,
     "宁静": 56,
-    "孤寂": 48,
+    "孤寂": 50,
     "未知": 42,
     "激烈": 41,
     "神秘": 30,
@@ -13022,23 +13176,23 @@ window.COSMOS_STATS = {
     "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 62,
+    "philosophy": 63,
     "astronomy": 52,
     "literature": 50,
-    "myth": 45,
+    "myth": 46,
     "art": 29,
     "science": 28,
     "geography": 25,
     "history": 24,
-    "music": 20,
-    "cinema": 19
+    "cinema": 21,
+    "music": 21
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 23,
+    "lineage_bodies": 24,
     "distribution": {
       "第1代": 22,
-      "第2代": 1
+      "第2代": 2
     }
   }
 };

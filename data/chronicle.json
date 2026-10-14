@@ -1139,5 +1139,19 @@
     "event": "genesis",
     "body_id": "body_0163",
     "summary": "第163纪元：history×science碰撞，诞生恒星「渊登月·希望」"
+  },
+  {
+    "epoch": 164,
+    "timestamp": "2026-10-14T21:17:45",
+    "event": "genesis",
+    "body_id": "body_0164",
+    "summary": "第164纪元：music×cinema碰撞，诞生虚空「渊重生·苍凉」"
+  },
+  {
+    "epoch": 165,
+    "timestamp": "2026-10-14T21:17:50",
+    "event": "lineage",
+    "body_id": "body_0165",
+    "summary": "第165纪元：流浪行星「渺星座·诡谲·子」繁衍出第2代子嗣——流浪行星「渺星座·诡谲·子」"
   }
 ]
