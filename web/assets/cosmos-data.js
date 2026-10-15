@@ -8662,6 +8662,129 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0166",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "幽幻象·苍凉",
+    "epoch": 166,
+    "born_at": "2026-10-15T20:57:03",
+    "collision_text": "「幻想即兴曲」「一切坚固的东西都烟消云散了」「宇宙终将走向热寂，所有恒星熄灭，一切归于绝对…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_04",
+      "phi_09",
+      "sci_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "幻想即兴曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      },
+      "c": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激越",
+        "诡谲",
+        "激烈"
+      ],
+      "themes": [
+        "幻象",
+        "消解",
+        "热寂"
+      ],
+      "domains": [
+        "music",
+        "philosophy",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "浪漫",
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.9,
+      "luminosity": 0.3
+    }
+  },
+  {
+    "id": "body_0167",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "尘英雄·壮阔",
+    "epoch": 167,
+    "born_at": "2026-10-15T20:57:10",
+    "collision_text": "「后羿射九日，留其一以照人间」穿过「哥伦布的船队驶向未知的西方，地平线尽头不是深…」和「危楼高百尺，手可摘星辰」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_04",
+      "his_07",
+      "lit_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "希望"
+      ],
+      "themes": [
+        "英雄",
+        "远航",
+        "星辰"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "近代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.42,
+      "luminosity": 0.54
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -9819,6 +9942,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0165",
     "summary": "第165纪元：流浪行星「渺星座·诡谲·子」繁衍出第2代子嗣——流浪行星「渺星座·诡谲·子」"
+  },
+  {
+    "epoch": 166,
+    "timestamp": "2026-10-15T20:57:03",
+    "event": "genesis",
+    "body_id": "body_0166",
+    "summary": "第166纪元：music×philosophy碰撞，诞生白矮星「幽幻象·苍凉」"
+  },
+  {
+    "epoch": 167,
+    "timestamp": "2026-10-15T20:57:10",
+    "event": "genesis",
+    "body_id": "body_0167",
+    "summary": "第167纪元：myth×history碰撞，诞生星云「尘英雄·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -10626,6 +10763,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-19T18:32:14.720521"
+  },
+  {
+    "date": "2007-03-09",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2007-03-09.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-15T20:56:57.698800"
   },
   {
     "date": "2007-05-11",
@@ -12252,34 +12409,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-07",
-    "summary": "今日双星临世：虫洞「魄追忆·诡谲」于地理褶皱间低语，恒星「弦幻象·激越·子」以音乐与文学共振燃亮。世代繁衍一颗，无碰撞之扰，唯有诡谲激越在私宇宙深处谱成新章。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "魄追忆·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0104"
-      },
-      {
-        "name": "弦幻象·激越·子",
-        "type_cn": "恒星",
-        "id": "body_0105"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "literature": 2,
-      "geography": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-08",
     "summary": "幽思念·希望，一颗原恒星，在文学与神话的虚空中点燃；辉编织·宁静，绕其而行，以历史与哲学为壤。一次三体碰撞，摇落世代未生的寂静，宇宙今日有了低语。",
     "body_count": 2,
@@ -13128,20 +13257,51 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-15",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、history、literature、myth、philosophy、music的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽幻象·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0166"
+      },
+      {
+        "name": "尘英雄·壮阔",
+        "type_cn": "星云",
+        "id": "body_0167"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "history": 1,
+      "literature": 1,
+      "myth": 1,
+      "philosophy": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 165,
-  "chronicle_entries": 165,
+  "total_bodies": 167,
+  "chronicle_entries": 167,
   "daily_report_count": 30,
   "type_distribution": {
-    "白矮星": 17,
+    "白矮星": 18,
     "流浪行星": 16,
     "卫星": 12,
     "暗物质": 11,
+    "星云": 10,
     "星系": 10,
     "超空洞": 10,
-    "星云": 9,
     "遗迹": 8,
     "尘埃云": 7,
     "彗星": 7,
@@ -13162,30 +13322,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 85,
-    "苍凉": 72,
-    "诡谲": 61,
+    "壮阔": 86,
+    "苍凉": 73,
+    "诡谲": 62,
     "宁静": 56,
     "孤寂": 50,
+    "激烈": 43,
     "未知": 42,
-    "激烈": 41,
     "神秘": 30,
     "辽阔": 27,
-    "希望": 25,
-    "激越": 24,
+    "希望": 26,
+    "激越": 25,
     "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 63,
+    "philosophy": 64,
     "astronomy": 52,
-    "literature": 50,
-    "myth": 46,
+    "literature": 51,
+    "myth": 47,
     "art": 29,
-    "science": 28,
+    "science": 29,
     "geography": 25,
-    "history": 24,
-    "cinema": 21,
-    "music": 21
+    "history": 25,
+    "music": 22,
+    "cinema": 21
   },
   "generation": {
     "max_generation": 2,

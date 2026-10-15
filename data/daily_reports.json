@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-07",
-    "summary": "今日双星临世：虫洞「魄追忆·诡谲」于地理褶皱间低语，恒星「弦幻象·激越·子」以音乐与文学共振燃亮。世代繁衍一颗，无碰撞之扰，唯有诡谲激越在私宇宙深处谱成新章。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "魄追忆·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0104"
-      },
-      {
-        "name": "弦幻象·激越·子",
-        "type_cn": "恒星",
-        "id": "body_0105"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "literature": 2,
-      "geography": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-08",
     "summary": "幽思念·希望，一颗原恒星，在文学与神话的虚空中点燃；辉编织·宁静，绕其而行，以历史与哲学为壤。一次三体碰撞，摇落世代未生的寂静，宇宙今日有了低语。",
     "body_count": 2,
@@ -876,5 +848,36 @@
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-15",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、history、literature、myth、philosophy、music的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽幻象·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0166"
+      },
+      {
+        "name": "尘英雄·壮阔",
+        "type_cn": "星云",
+        "id": "body_0167"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "history": 1,
+      "literature": 1,
+      "myth": 1,
+      "philosophy": 1,
+      "music": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]

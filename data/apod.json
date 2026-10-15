@@ -805,6 +805,26 @@
     "fetched_at": "2026-08-19T18:32:14.720521"
   },
   {
+    "date": "2007-03-09",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2007-03-09.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-15T20:56:57.698800"
+  },
+  {
     "date": "2007-05-11",
     "title": "LDN 1622: Dark Nebula in Orion",
     "url": "https://apod.nasa.gov/apod/image/0705/ldn1622_carboni.jpg",

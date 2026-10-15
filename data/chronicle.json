@@ -1153,5 +1153,19 @@
     "event": "lineage",
     "body_id": "body_0165",
     "summary": "第165纪元：流浪行星「渺星座·诡谲·子」繁衍出第2代子嗣——流浪行星「渺星座·诡谲·子」"
+  },
+  {
+    "epoch": 166,
+    "timestamp": "2026-10-15T20:57:03",
+    "event": "genesis",
+    "body_id": "body_0166",
+    "summary": "第166纪元：music×philosophy碰撞，诞生白矮星「幽幻象·苍凉」"
+  },
+  {
+    "epoch": 167,
+    "timestamp": "2026-10-15T20:57:10",
+    "event": "genesis",
+    "body_id": "body_0167",
+    "summary": "第167纪元：myth×history碰撞，诞生星云「尘英雄·壮阔」"
   }
 ]

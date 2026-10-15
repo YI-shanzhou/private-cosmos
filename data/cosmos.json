@@ -8661,5 +8661,128 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0166",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "幽幻象·苍凉",
+    "epoch": 166,
+    "born_at": "2026-10-15T20:57:03",
+    "collision_text": "「幻想即兴曲」「一切坚固的东西都烟消云散了」「宇宙终将走向热寂，所有恒星熄灭，一切归于绝对…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_04",
+      "phi_09",
+      "sci_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "幻想即兴曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "一切坚固的东西都烟消云散了",
+        "source": "马克思"
+      },
+      "c": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激越",
+        "诡谲",
+        "激烈"
+      ],
+      "themes": [
+        "幻象",
+        "消解",
+        "热寂"
+      ],
+      "domains": [
+        "music",
+        "philosophy",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "浪漫",
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.9,
+      "luminosity": 0.3
+    }
+  },
+  {
+    "id": "body_0167",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "尘英雄·壮阔",
+    "epoch": 167,
+    "born_at": "2026-10-15T20:57:10",
+    "collision_text": "「后羿射九日，留其一以照人间」穿过「哥伦布的船队驶向未知的西方，地平线尽头不是深…」和「危楼高百尺，手可摘星辰」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_04",
+      "his_07",
+      "lit_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "危楼高百尺，手可摘星辰",
+        "source": "李白《夜宿山寺》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "希望"
+      ],
+      "themes": [
+        "英雄",
+        "远航",
+        "星辰"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "近代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.42,
+      "luminosity": 0.54
+    }
   }
 ]
