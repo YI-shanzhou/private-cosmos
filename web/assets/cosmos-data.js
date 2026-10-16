@@ -8785,6 +8785,111 @@ window.COSMOS_DATA = [
       "size": 0.42,
       "luminosity": 0.54
     }
+  },
+  {
+    "id": "body_0168",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂凝固·诡谲",
+    "epoch": 168,
+    "born_at": "2026-10-16T20:31:08",
+    "collision_text": "「庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年…」与「春之祭」在虚空中相撞，迸出诡谲的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_04",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年后人们挖出了面包店里的烤炉和恋人的拥抱",
+        "source": "庞贝末日·公元79年"
+      },
+      "b": {
+        "domain": "music",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "凝固",
+        "原始"
+      ],
+      "domains": [
+        "history",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.87,
+      "luminosity": 0.71
+    }
+  },
+  {
+    "id": "body_0169",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渊变革·孤寂",
+    "epoch": 169,
+    "born_at": "2026-10-16T20:31:14",
+    "collision_text": "「哲学家们只是用不同的方式解释世界，而问题在于…」吞下「不知何处吹芦管，一夜征人尽望乡」，吐出一段孤寂的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_33",
+      "lit_37"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "哲学家们只是用不同的方式解释世界，而问题在于改变世界",
+        "source": "马克思《关于费尔巴哈的提纲》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "不知何处吹芦管，一夜征人尽望乡",
+        "source": "李益《夜上受降城闻笛》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "激越",
+        "激烈",
+        "苍凉"
+      ],
+      "themes": [
+        "变革",
+        "乡愁"
+      ],
+      "domains": [
+        "philosophy",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.86,
+      "luminosity": 0.87
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -9956,6 +10061,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0167",
     "summary": "第167纪元：myth×history碰撞，诞生星云「尘英雄·壮阔」"
+  },
+  {
+    "epoch": 168,
+    "timestamp": "2026-10-16T20:31:08",
+    "event": "genesis",
+    "body_id": "body_0168",
+    "summary": "第168纪元：history×music碰撞，诞生虫洞「寂凝固·诡谲」"
+  },
+  {
+    "epoch": 169,
+    "timestamp": "2026-10-16T20:31:14",
+    "event": "genesis",
+    "body_id": "body_0169",
+    "summary": "第169纪元：philosophy×literature碰撞，诞生流浪行星「渊变革·孤寂」"
   }
 ];
 window.APOD_DATA = [
@@ -11346,6 +11465,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-08T20:44:12.218858"
   },
   {
+    "date": "2015-04-02",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2015-04-02.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-16T20:31:01.205828"
+  },
+  {
     "date": "2015-04-23",
     "title": "Meteor in the Milky Way",
     "url": "https://apod.nasa.gov/apod/image/1504/IMG_2999korosecMilkyMet.png",
@@ -12409,36 +12548,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-08",
-    "summary": "幽思念·希望，一颗原恒星，在文学与神话的虚空中点燃；辉编织·宁静，绕其而行，以历史与哲学为壤。一次三体碰撞，摇落世代未生的寂静，宇宙今日有了低语。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽思念·希望",
-        "type_cn": "原恒星",
-        "id": "body_0106"
-      },
-      {
-        "name": "辉编织·宁静",
-        "type_cn": "行星",
-        "id": "body_0107"
-      }
-    ],
-    "mood_distribution": {
-      "希望": 1,
-      "宁静": 1
-    },
-    "domain_distribution": {
-      "literature": 1,
-      "history": 1,
-      "music": 1,
-      "myth": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-09-09",
     "summary": "弦幻象自虚无拨响，茫无常于尘中聚形——一颗脉冲星以哲学为律动，一片尘埃云承天文之玄秘。未知孕生，繁衍一星；三体未逢，寂静初启。",
     "body_count": 2,
@@ -13288,24 +13397,53 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-10-16",
+    "summary": "今日宇宙又长大了——2颗新天体在literature、history、music、philosophy领域的碰撞中诞生。虫洞、流浪行星们带着诡谲、孤寂的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂凝固·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0168"
+      },
+      {
+        "name": "渊变革·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0169"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "history": 1,
+      "music": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 167,
-  "chronicle_entries": 167,
+  "total_bodies": 169,
+  "chronicle_entries": 169,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 18,
-    "流浪行星": 16,
+    "流浪行星": 17,
     "卫星": 12,
     "暗物质": 11,
     "星云": 10,
     "星系": 10,
     "超空洞": 10,
+    "虫洞": 8,
     "遗迹": 8,
     "尘埃云": 7,
     "彗星": 7,
-    "虫洞": 7,
     "黑洞": 7,
     "虚空": 6,
     "恒星": 5,
@@ -13323,28 +13461,28 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 86,
-    "苍凉": 73,
-    "诡谲": 62,
+    "苍凉": 75,
+    "诡谲": 63,
     "宁静": 56,
-    "孤寂": 50,
-    "激烈": 43,
+    "孤寂": 51,
+    "激烈": 45,
     "未知": 42,
     "神秘": 30,
     "辽阔": 27,
     "希望": 26,
-    "激越": 25,
+    "激越": 26,
     "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 64,
+    "philosophy": 65,
     "astronomy": 52,
-    "literature": 51,
+    "literature": 52,
     "myth": 47,
     "art": 29,
     "science": 29,
+    "history": 26,
     "geography": 25,
-    "history": 25,
-    "music": 22,
+    "music": 23,
     "cinema": 21
   },
   "generation": {

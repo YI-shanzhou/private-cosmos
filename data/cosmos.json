@@ -8784,5 +8784,110 @@
       "size": 0.42,
       "luminosity": 0.54
     }
+  },
+  {
+    "id": "body_0168",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂凝固·诡谲",
+    "epoch": 168,
+    "born_at": "2026-10-16T20:31:08",
+    "collision_text": "「庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年…」与「春之祭」在虚空中相撞，迸出诡谲的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_04",
+      "mus_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年后人们挖出了面包店里的烤炉和恋人的拥抱",
+        "source": "庞贝末日·公元79年"
+      },
+      "b": {
+        "domain": "music",
+        "text": "春之祭",
+        "source": "斯特拉文斯基"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "激烈"
+      ],
+      "themes": [
+        "凝固",
+        "原始"
+      ],
+      "domains": [
+        "history",
+        "music"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.87,
+      "luminosity": 0.71
+    }
+  },
+  {
+    "id": "body_0169",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渊变革·孤寂",
+    "epoch": 169,
+    "born_at": "2026-10-16T20:31:14",
+    "collision_text": "「哲学家们只是用不同的方式解释世界，而问题在于…」吞下「不知何处吹芦管，一夜征人尽望乡」，吐出一段孤寂的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_33",
+      "lit_37"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "哲学家们只是用不同的方式解释世界，而问题在于改变世界",
+        "source": "马克思《关于费尔巴哈的提纲》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "不知何处吹芦管，一夜征人尽望乡",
+        "source": "李益《夜上受降城闻笛》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "激越",
+        "激烈",
+        "苍凉"
+      ],
+      "themes": [
+        "变革",
+        "乡愁"
+      ],
+      "domains": [
+        "philosophy",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.86,
+      "luminosity": 0.87
+    }
   }
 ]

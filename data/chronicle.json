@@ -1167,5 +1167,19 @@
     "event": "genesis",
     "body_id": "body_0167",
     "summary": "第167纪元：myth×history碰撞，诞生星云「尘英雄·壮阔」"
+  },
+  {
+    "epoch": 168,
+    "timestamp": "2026-10-16T20:31:08",
+    "event": "genesis",
+    "body_id": "body_0168",
+    "summary": "第168纪元：history×music碰撞，诞生虫洞「寂凝固·诡谲」"
+  },
+  {
+    "epoch": 169,
+    "timestamp": "2026-10-16T20:31:14",
+    "event": "genesis",
+    "body_id": "body_0169",
+    "summary": "第169纪元：philosophy×literature碰撞，诞生流浪行星「渊变革·孤寂」"
   }
 ]
