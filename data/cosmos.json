@@ -8889,5 +8889,120 @@
       "size": 0.86,
       "luminosity": 0.87
     }
+  },
+  {
+    "id": "body_0170",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "焰密码·辽阔",
+    "epoch": 170,
+    "born_at": "2026-10-17T20:08:30",
+    "collision_text": "「图灵用一台机器破译了恩尼格码，却因性向被化学…」沉入「上善若水，水善利万物而不争」，泛起辽阔的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_10",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "孤寂",
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "密码",
+        "柔德"
+      ],
+      "domains": [
+        "history",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.76,
+      "luminosity": 0.51
+    }
+  },
+  {
+    "id": "body_0171",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "墟盐海·诡谲",
+    "epoch": 171,
+    "born_at": "2026-10-17T20:08:36",
+    "collision_text": "「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」「云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩…」「沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪」三者在虚空中相撞，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_06",
+      "lit_19",
+      "cin_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开",
+        "source": "李白《梦游天姥吟留别》"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪",
+        "source": "《沙丘》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静",
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "盐海",
+        "幻境",
+        "沙虫"
+      ],
+      "domains": [
+        "geography",
+        "literature",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒",
+        "唐",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.47,
+      "luminosity": 0.39
+    }
   }
 ]

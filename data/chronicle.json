@@ -1181,5 +1181,19 @@
     "event": "genesis",
     "body_id": "body_0169",
     "summary": "第169纪元：philosophy×literature碰撞，诞生流浪行星「渊变革·孤寂」"
+  },
+  {
+    "epoch": 170,
+    "timestamp": "2026-10-17T20:08:30",
+    "event": "genesis",
+    "body_id": "body_0170",
+    "summary": "第170纪元：history×philosophy碰撞，诞生星系「焰密码·辽阔」"
+  },
+  {
+    "epoch": 171,
+    "timestamp": "2026-10-17T20:08:36",
+    "event": "genesis",
+    "body_id": "body_0171",
+    "summary": "第171纪元：geography×literature碰撞，诞生黑洞「墟盐海·诡谲」"
   }
 ]

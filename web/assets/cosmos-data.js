@@ -8890,6 +8890,121 @@ window.COSMOS_DATA = [
       "size": 0.86,
       "luminosity": 0.87
     }
+  },
+  {
+    "id": "body_0170",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "焰密码·辽阔",
+    "epoch": 170,
+    "born_at": "2026-10-17T20:08:30",
+    "collision_text": "「图灵用一台机器破译了恩尼格码，却因性向被化学…」沉入「上善若水，水善利万物而不争」，泛起辽阔的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_10",
+      "phi_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "孤寂",
+        "诡谲",
+        "宁静"
+      ],
+      "themes": [
+        "密码",
+        "柔德"
+      ],
+      "domains": [
+        "history",
+        "philosophy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.76,
+      "luminosity": 0.51
+    }
+  },
+  {
+    "id": "body_0171",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "墟盐海·诡谲",
+    "epoch": 171,
+    "born_at": "2026-10-17T20:08:36",
+    "collision_text": "「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」「云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩…」「沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪」三者在虚空中相撞，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_06",
+      "lit_19",
+      "cin_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "云青青兮欲雨，水澹澹兮生烟。列缺霹雳，丘峦崩摧。洞天石扉，訇然中开",
+        "source": "李白《梦游天姥吟留别》"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "沙漠星球上巨型沙虫从地底升起，掀起滔天沙浪",
+        "source": "《沙丘》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "宁静",
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "盐海",
+        "幻境",
+        "沙虫"
+      ],
+      "domains": [
+        "geography",
+        "literature",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒",
+        "唐",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.47,
+      "luminosity": 0.39
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10075,6 +10190,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0169",
     "summary": "第169纪元：philosophy×literature碰撞，诞生流浪行星「渊变革·孤寂」"
+  },
+  {
+    "epoch": 170,
+    "timestamp": "2026-10-17T20:08:30",
+    "event": "genesis",
+    "body_id": "body_0170",
+    "summary": "第170纪元：history×philosophy碰撞，诞生星系「焰密码·辽阔」"
+  },
+  {
+    "epoch": 171,
+    "timestamp": "2026-10-17T20:08:36",
+    "event": "genesis",
+    "body_id": "body_0171",
+    "summary": "第171纪元：geography×literature碰撞，诞生黑洞「墟盐海·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -10527,6 +10656,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
+    "date": "2002-04-22",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2002-04-22.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-17T20:08:24.248474"
   },
   {
     "date": "2002-05-02",
@@ -12548,33 +12697,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-09",
-    "summary": "弦幻象自虚无拨响，茫无常于尘中聚形——一颗脉冲星以哲学为律动，一片尘埃云承天文之玄秘。未知孕生，繁衍一星；三体未逢，寂静初启。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "弦幻象·未知·子",
-        "type_cn": "脉冲星",
-        "id": "body_0108"
-      },
-      {
-        "name": "茫无常·未知",
-        "type_cn": "尘埃云",
-        "id": "body_0109"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 2
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 1,
-      "science": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-10",
     "summary": "今日宇宙又长大了——2颗新天体在literature、astronomy、history、myth领域的碰撞中诞生。星系、超新星们带着壮阔、激烈的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -13426,25 +13548,55 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-17",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在geography、cinema、literature、history、philosophy的交叉中诞生。星系、黑洞携带着辽阔、诡谲的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰密码·辽阔",
+        "type_cn": "星系",
+        "id": "body_0170"
+      },
+      {
+        "name": "墟盐海·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0171"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "geography": 1,
+      "cinema": 1,
+      "literature": 1,
+      "history": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 169,
-  "chronicle_entries": 169,
+  "total_bodies": 171,
+  "chronicle_entries": 171,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 18,
     "流浪行星": 17,
     "卫星": 12,
+    "星系": 11,
     "暗物质": 11,
     "星云": 10,
-    "星系": 10,
     "超空洞": 10,
     "虫洞": 8,
     "遗迹": 8,
+    "黑洞": 8,
     "尘埃云": 7,
     "彗星": 7,
-    "黑洞": 7,
     "虚空": 6,
     "恒星": 5,
     "脉冲星": 5,
@@ -13460,30 +13612,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 86,
+    "壮阔": 87,
     "苍凉": 75,
-    "诡谲": 63,
-    "宁静": 56,
-    "孤寂": 51,
-    "激烈": 45,
+    "诡谲": 65,
+    "宁静": 58,
+    "孤寂": 52,
+    "激烈": 46,
     "未知": 42,
     "神秘": 30,
-    "辽阔": 27,
+    "辽阔": 28,
     "希望": 26,
     "激越": 26,
     "热闹": 5
   },
   "domain_distribution": {
-    "philosophy": 65,
+    "philosophy": 66,
+    "literature": 53,
     "astronomy": 52,
-    "literature": 52,
     "myth": 47,
     "art": 29,
     "science": 29,
-    "history": 26,
-    "geography": 25,
+    "history": 27,
+    "geography": 26,
     "music": 23,
-    "cinema": 21
+    "cinema": 22
   },
   "generation": {
     "max_generation": 2,
