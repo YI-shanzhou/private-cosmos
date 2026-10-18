@@ -9004,5 +9004,119 @@
       "size": 0.47,
       "luminosity": 0.39
     }
+  },
+  {
+    "id": "body_0172",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫归航·未知",
+    "epoch": 172,
+    "born_at": "2026-10-18T20:07:11",
+    "collision_text": "「太空中的蓝色星球缓缓放大，从一粒微尘变成整个…」撞上「图灵停机问题：不存在任何算法能判断任意程序是…」，碎成一团未知的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_14",
+      "sci_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "太空中的蓝色星球缓缓放大，从一粒微尘变成整个世界",
+        "source": "《太阳浩劫》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界",
+        "source": "计算理论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔",
+        "希望",
+        "诡谲"
+      ],
+      "themes": [
+        "归航",
+        "停机"
+      ],
+      "domains": [
+        "cinema",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.72,
+      "luminosity": 0.72
+    }
+  },
+  {
+    "id": "body_0173",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "幽星云·苍凉",
+    "epoch": 173,
+    "born_at": "2026-10-18T20:07:17",
+    "collision_text": "「M16 and the Eagle Nebu…」穿过「存在先于本质」和「玛雅人用天文台观测金星，精确到五百年仅差一天…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_51",
+      "phi_03",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "M16 and the Eagle Nebula",
+        "source": "NASA APOD 2015-10-15"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "热闹",
+        "神秘"
+      ],
+      "themes": [
+        "星云",
+        "存在",
+        "失落"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.59,
+      "luminosity": 0.29
+    }
   }
 ]

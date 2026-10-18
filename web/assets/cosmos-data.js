@@ -9005,6 +9005,120 @@ window.COSMOS_DATA = [
       "size": 0.47,
       "luminosity": 0.39
     }
+  },
+  {
+    "id": "body_0172",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫归航·未知",
+    "epoch": 172,
+    "born_at": "2026-10-18T20:07:11",
+    "collision_text": "「太空中的蓝色星球缓缓放大，从一粒微尘变成整个…」撞上「图灵停机问题：不存在任何算法能判断任意程序是…」，碎成一团未知的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_14",
+      "sci_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "太空中的蓝色星球缓缓放大，从一粒微尘变成整个世界",
+        "source": "《太阳浩劫》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "图灵停机问题：不存在任何算法能判断任意程序是否会终止，计算的边界即是数学的边界",
+        "source": "计算理论"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "壮阔",
+        "希望",
+        "诡谲"
+      ],
+      "themes": [
+        "归航",
+        "停机"
+      ],
+      "domains": [
+        "cinema",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.72,
+      "luminosity": 0.72
+    }
+  },
+  {
+    "id": "body_0173",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "幽星云·苍凉",
+    "epoch": 173,
+    "born_at": "2026-10-18T20:07:17",
+    "collision_text": "「M16 and the Eagle Nebu…」穿过「存在先于本质」和「玛雅人用天文台观测金星，精确到五百年仅差一天…」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_51",
+      "phi_03",
+      "his_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "M16 and the Eagle Nebula",
+        "source": "NASA APOD 2015-10-15"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "存在先于本质",
+        "source": "萨特"
+      },
+      "c": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "热闹",
+        "神秘"
+      ],
+      "themes": [
+        "星云",
+        "存在",
+        "失落"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy",
+        "history"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.59,
+      "luminosity": 0.29
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10204,6 +10318,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0171",
     "summary": "第171纪元：geography×literature碰撞，诞生黑洞「墟盐海·诡谲」"
+  },
+  {
+    "epoch": 172,
+    "timestamp": "2026-10-18T20:07:11",
+    "event": "genesis",
+    "body_id": "body_0172",
+    "summary": "第172纪元：cinema×science碰撞，诞生尘埃云「茫归航·未知」"
+  },
+  {
+    "epoch": 173,
+    "timestamp": "2026-10-18T20:07:17",
+    "event": "genesis",
+    "body_id": "body_0173",
+    "summary": "第173纪元：astronomy×philosophy碰撞，诞生白矮星「幽星云·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -12304,6 +12432,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-10-04T20:52:45.119058"
   },
   {
+    "date": "2022-05-19",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2022-05-19.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-18T20:07:04.843872"
+  },
+  {
     "date": "2022-07-20",
     "title": "Jupiter and Ring in Infrared from Webb",
     "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_2429.jpg",
@@ -12696,35 +12844,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-09-10",
-    "summary": "今日宇宙又长大了——2颗新天体在literature、astronomy、history、myth领域的碰撞中诞生。星系、超新星们带着壮阔、激烈的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "寂美·壮阔",
-        "type_cn": "星系",
-        "id": "body_0110"
-      },
-      {
-        "name": "尘烽火·激烈",
-        "type_cn": "超新星",
-        "id": "body_0111"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "激烈": 1
-    },
-    "domain_distribution": {
-      "literature": 1,
-      "astronomy": 1,
-      "history": 1,
-      "myth": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
   {
     "date": "2026-09-13",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、myth、philosophy、cinema、music的交叉中诞生。白矮星、白矮星携带着苍凉、苍凉的情绪，加入了星空。",
@@ -13578,24 +13697,54 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-18",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、cinema、history、science、astronomy的交叉中诞生。尘埃云、白矮星携带着未知、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫归航·未知",
+        "type_cn": "尘埃云",
+        "id": "body_0172"
+      },
+      {
+        "name": "幽星云·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0173"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "未知": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "cinema": 1,
+      "history": 1,
+      "science": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 171,
-  "chronicle_entries": 171,
+  "total_bodies": 173,
+  "chronicle_entries": 173,
   "daily_report_count": 30,
   "type_distribution": {
-    "白矮星": 18,
+    "白矮星": 19,
     "流浪行星": 17,
     "卫星": 12,
     "星系": 11,
     "暗物质": 11,
     "星云": 10,
     "超空洞": 10,
+    "尘埃云": 8,
     "虫洞": 8,
     "遗迹": 8,
     "黑洞": 8,
-    "尘埃云": 7,
     "彗星": 7,
     "虚空": 6,
     "恒星": 5,
@@ -13612,30 +13761,30 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 87,
-    "苍凉": 75,
-    "诡谲": 65,
+    "壮阔": 89,
+    "苍凉": 76,
+    "诡谲": 66,
     "宁静": 58,
     "孤寂": 52,
     "激烈": 46,
-    "未知": 42,
-    "神秘": 30,
+    "未知": 43,
+    "神秘": 31,
     "辽阔": 28,
-    "希望": 26,
+    "希望": 27,
     "激越": 26,
-    "热闹": 5
+    "热闹": 6
   },
   "domain_distribution": {
-    "philosophy": 66,
+    "philosophy": 67,
+    "astronomy": 53,
     "literature": 53,
-    "astronomy": 52,
     "myth": 47,
+    "science": 30,
     "art": 29,
-    "science": 29,
-    "history": 27,
+    "history": 28,
     "geography": 26,
-    "music": 23,
-    "cinema": 22
+    "cinema": 23,
+    "music": 23
   },
   "generation": {
     "max_generation": 2,

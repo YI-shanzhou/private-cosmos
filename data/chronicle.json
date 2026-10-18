@@ -1195,5 +1195,19 @@
     "event": "genesis",
     "body_id": "body_0171",
     "summary": "第171纪元：geography×literature碰撞，诞生黑洞「墟盐海·诡谲」"
+  },
+  {
+    "epoch": 172,
+    "timestamp": "2026-10-18T20:07:11",
+    "event": "genesis",
+    "body_id": "body_0172",
+    "summary": "第172纪元：cinema×science碰撞，诞生尘埃云「茫归航·未知」"
+  },
+  {
+    "epoch": 173,
+    "timestamp": "2026-10-18T20:07:17",
+    "event": "genesis",
+    "body_id": "body_0173",
+    "summary": "第173纪元：astronomy×philosophy碰撞，诞生白矮星「幽星云·苍凉」"
   }
 ]
