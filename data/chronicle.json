@@ -1209,5 +1209,19 @@
     "event": "genesis",
     "body_id": "body_0173",
     "summary": "第173纪元：astronomy×philosophy碰撞，诞生白矮星「幽星云·苍凉」"
+  },
+  {
+    "epoch": 174,
+    "timestamp": "2026-10-19T22:00:38",
+    "event": "genesis",
+    "body_id": "body_0174",
+    "summary": "第174纪元：myth×music碰撞，诞生超空洞「焰献祭·辽阔」"
+  },
+  {
+    "epoch": 175,
+    "timestamp": "2026-10-19T22:00:44",
+    "event": "genesis",
+    "body_id": "body_0175",
+    "summary": "第175纪元：history×cinema碰撞，诞生遗迹「魄封存·苍凉」"
   }
 ]

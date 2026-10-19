@@ -9119,6 +9119,111 @@ window.COSMOS_DATA = [
       "size": 0.59,
       "luminosity": 0.29
     }
+  },
+  {
+    "id": "body_0174",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "焰献祭·辽阔",
+    "epoch": 174,
+    "born_at": "2026-10-19T22:00:38",
+    "collision_text": "「奥丁献出右眼于密米尔之泉，换取智慧与预知」撞上「高山流水」，碎成一团辽阔的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_21",
+      "mus_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "music",
+        "text": "高山流水",
+        "source": "古曲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "神秘",
+        "宁静"
+      ],
+      "themes": [
+        "献祭",
+        "知音"
+      ],
+      "domains": [
+        "myth",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "上古",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 1.0,
+      "luminosity": 0.43
+    }
+  },
+  {
+    "id": "body_0175",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "魄封存·苍凉",
+    "epoch": 175,
+    "born_at": "2026-10-19T22:00:44",
+    "collision_text": "「敦煌藏经洞在黄沙中沉睡了九百年，五万卷经书重…」沉入「深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖…」，泛起苍凉的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_02",
+      "cin_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "敦煌藏经洞在黄沙中沉睡了九百年，五万卷经书重见天日，却散落四方",
+        "source": "敦煌藏经洞·1900年"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖出最后一道光",
+        "source": "《深海末日》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "封存",
+        "深潜"
+      ],
+      "domains": [
+        "history",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.41,
+      "luminosity": 0.62
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10332,6 +10437,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0173",
     "summary": "第173纪元：astronomy×philosophy碰撞，诞生白矮星「幽星云·苍凉」"
+  },
+  {
+    "epoch": 174,
+    "timestamp": "2026-10-19T22:00:38",
+    "event": "genesis",
+    "body_id": "body_0174",
+    "summary": "第174纪元：myth×music碰撞，诞生超空洞「焰献祭·辽阔」"
+  },
+  {
+    "epoch": 175,
+    "timestamp": "2026-10-19T22:00:44",
+    "event": "genesis",
+    "body_id": "body_0175",
+    "summary": "第175纪元：history×cinema碰撞，诞生遗迹「魄封存·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -12178,6 +12297,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2018-12-14",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2018-12-14.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-19T22:00:31.947222"
+  },
+  {
     "date": "2019-02-07",
     "title": "Fox Fur, Unicorn, and Christmas Tree",
     "url": "https://apod.nasa.gov/apod/image/1902/FoxFur_new_color_2048px.jpg",
@@ -12844,35 +12983,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-09-13",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、myth、philosophy、cinema、music的交叉中诞生。白矮星、白矮星携带着苍凉、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺告别·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0112"
-      },
-      {
-        "name": "澜永恒·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0113"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 2
-    },
-    "domain_distribution": {
-      "science": 1,
-      "myth": 1,
-      "philosophy": 1,
-      "cinema": 1,
-      "music": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
   {
     "date": "2026-09-14",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、geography、science、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
@@ -13727,11 +13837,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-19",
+    "summary": "今日宇宙又长大了——2颗新天体在history、myth、music、cinema领域的碰撞中诞生。超空洞、遗迹们带着辽阔、苍凉的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰献祭·辽阔",
+        "type_cn": "超空洞",
+        "id": "body_0174"
+      },
+      {
+        "name": "魄封存·苍凉",
+        "type_cn": "遗迹",
+        "id": "body_0175"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "辽阔": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "myth": 1,
+      "music": 1,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 173,
-  "chronicle_entries": 173,
+  "total_bodies": 175,
+  "chronicle_entries": 175,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -13739,11 +13878,11 @@ window.COSMOS_STATS = {
     "卫星": 12,
     "星系": 11,
     "暗物质": 11,
+    "超空洞": 11,
     "星云": 10,
-    "超空洞": 10,
+    "遗迹": 9,
     "尘埃云": 8,
     "虫洞": 8,
-    "遗迹": 8,
     "黑洞": 8,
     "彗星": 7,
     "虚空": 6,
@@ -13762,14 +13901,14 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 89,
-    "苍凉": 76,
+    "苍凉": 78,
     "诡谲": 66,
-    "宁静": 58,
+    "宁静": 59,
     "孤寂": 52,
-    "激烈": 46,
+    "激烈": 47,
     "未知": 43,
-    "神秘": 31,
-    "辽阔": 28,
+    "神秘": 33,
+    "辽阔": 29,
     "希望": 27,
     "激越": 26,
     "热闹": 6
@@ -13778,13 +13917,13 @@ window.COSMOS_STATS = {
     "philosophy": 67,
     "astronomy": 53,
     "literature": 53,
-    "myth": 47,
+    "myth": 48,
     "science": 30,
     "art": 29,
-    "history": 28,
+    "history": 29,
     "geography": 26,
-    "cinema": 23,
-    "music": 23
+    "cinema": 24,
+    "music": 24
   },
   "generation": {
     "max_generation": 2,

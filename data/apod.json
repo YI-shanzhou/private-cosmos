@@ -1842,6 +1842,26 @@
     "fetched_at": "2026-07-26T19:03:36.479574"
   },
   {
+    "date": "2018-12-14",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2018-12-14.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-19T22:00:31.947222"
+  },
+  {
     "date": "2019-02-07",
     "title": "Fox Fur, Unicorn, and Christmas Tree",
     "url": "https://apod.nasa.gov/apod/image/1902/FoxFur_new_color_2048px.jpg",

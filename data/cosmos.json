@@ -9118,5 +9118,110 @@
       "size": 0.59,
       "luminosity": 0.29
     }
+  },
+  {
+    "id": "body_0174",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "焰献祭·辽阔",
+    "epoch": 174,
+    "born_at": "2026-10-19T22:00:38",
+    "collision_text": "「奥丁献出右眼于密米尔之泉，换取智慧与预知」撞上「高山流水」，碎成一团辽阔的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_21",
+      "mus_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "music",
+        "text": "高山流水",
+        "source": "古曲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "神秘",
+        "宁静"
+      ],
+      "themes": [
+        "献祭",
+        "知音"
+      ],
+      "domains": [
+        "myth",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "上古",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 1.0,
+      "luminosity": 0.43
+    }
+  },
+  {
+    "id": "body_0175",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "魄封存·苍凉",
+    "epoch": 175,
+    "born_at": "2026-10-19T22:00:44",
+    "collision_text": "「敦煌藏经洞在黄沙中沉睡了九百年，五万卷经书重…」沉入「深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖…」，泛起苍凉的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_02",
+      "cin_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "敦煌藏经洞在黄沙中沉睡了九百年，五万卷经书重见天日，却散落四方",
+        "source": "敦煌藏经洞·1900年"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "深海中一艘失事潜艇缓缓沉入黑暗，舷灯在水中拖出最后一道光",
+        "source": "《深海末日》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "激烈"
+      ],
+      "themes": [
+        "封存",
+        "深潜"
+      ],
+      "domains": [
+        "history",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.41,
+      "luminosity": 0.62
+    }
   }
 ]
