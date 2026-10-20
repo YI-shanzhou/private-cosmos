@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-14",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、geography、science、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽沙海·苍凉",
-        "type_cn": "虚空",
-        "id": "body_0114"
-      },
-      {
-        "name": "渺星座·诡谲·子",
-        "type_cn": "流浪行星",
-        "id": "body_0115"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "geography": 1,
-      "science": 2,
-      "myth": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
-  {
     "date": "2026-09-15",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在astronomy、cinema、science、geography、literature、history的交叉中诞生。流浪行星、星系携带着孤寂、壮阔的情绪，加入了星空。",
     "body_count": 2,
@@ -879,6 +850,34 @@
       "myth": 1,
       "music": 1,
       "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-20",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、cinema、literature领域的碰撞中诞生。尘埃云、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫净土·宁静",
+        "type_cn": "尘埃云",
+        "id": "body_0176"
+      },
+      {
+        "name": "焰吞噬·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0177"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "cinema": 1,
+      "literature": 2
     },
     "lineage_count": 0,
     "triple_count": 0

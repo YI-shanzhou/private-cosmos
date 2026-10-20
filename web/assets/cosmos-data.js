@@ -9224,6 +9224,111 @@ window.COSMOS_DATA = [
       "size": 0.41,
       "luminosity": 0.62
     }
+  },
+  {
+    "id": "body_0176",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫净土·宁静",
+    "epoch": 176,
+    "born_at": "2026-10-20T21:15:37",
+    "collision_text": "「阿弥陀佛教主在西方极乐世界端坐莲台，宝池微波…」撞上「明月松间照，清泉石上流」，碎成一团宁静的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_32",
+      "lit_31"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "阿弥陀佛教主在西方极乐世界端坐莲台，宝池微波，金沙铺地，一切寂静光明",
+        "source": "佛教神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "明月松间照，清泉石上流",
+        "source": "王维《山居秋暝》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "希望",
+        "神秘"
+      ],
+      "themes": [
+        "净土",
+        "山林"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ],
+      "intensity": 3,
+      "eras": [
+        "上古",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.6,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0177",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "焰吞噬·诡谲",
+    "epoch": 177,
+    "born_at": "2026-10-20T21:15:42",
+    "collision_text": "当「旧金山的浓雾中，金门大桥若隐若现，一切正在被…」遇见「野旷天低树，江清月近人」，诡谲的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_20",
+      "lit_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+        "source": "《迷雾》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "野旷天低树，江清月近人",
+        "source": "孟浩然《宿建德江》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "吞噬",
+        "旷野"
+      ],
+      "domains": [
+        "cinema",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.6,
+      "luminosity": 0.86
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10451,6 +10556,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0175",
     "summary": "第175纪元：history×cinema碰撞，诞生遗迹「魄封存·苍凉」"
+  },
+  {
+    "epoch": 176,
+    "timestamp": "2026-10-20T21:15:37",
+    "event": "genesis",
+    "body_id": "body_0176",
+    "summary": "第176纪元：myth×literature碰撞，诞生尘埃云「茫净土·宁静」"
+  },
+  {
+    "epoch": 177,
+    "timestamp": "2026-10-20T21:15:42",
+    "event": "genesis",
+    "body_id": "body_0177",
+    "summary": "第177纪元：cinema×literature碰撞，诞生黑洞「焰吞噬·诡谲」"
   }
 ];
 window.APOD_DATA = [
@@ -12317,6 +12436,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-10-19T22:00:31.947222"
   },
   {
+    "date": "2019-01-06",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2019-01-06.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-20T21:15:30.727627"
+  },
+  {
     "date": "2019-02-07",
     "title": "Fox Fur, Unicorn, and Christmas Tree",
     "url": "https://apod.nasa.gov/apod/image/1902/FoxFur_new_color_2048px.jpg",
@@ -12983,35 +13122,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-09-14",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、geography、science、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽沙海·苍凉",
-        "type_cn": "虚空",
-        "id": "body_0114"
-      },
-      {
-        "name": "渺星座·诡谲·子",
-        "type_cn": "流浪行星",
-        "id": "body_0115"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "cinema": 1,
-      "geography": 1,
-      "science": 2,
-      "myth": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
   {
     "date": "2026-09-15",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在astronomy、cinema、science、geography、literature、history的交叉中诞生。流浪行星、星系携带着孤寂、壮阔的情绪，加入了星空。",
@@ -13866,11 +13976,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-20",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、cinema、literature领域的碰撞中诞生。尘埃云、黑洞们带着宁静、诡谲的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫净土·宁静",
+        "type_cn": "尘埃云",
+        "id": "body_0176"
+      },
+      {
+        "name": "焰吞噬·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0177"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "cinema": 1,
+      "literature": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 175,
-  "chronicle_entries": 175,
+  "total_bodies": 177,
+  "chronicle_entries": 177,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -13880,10 +14018,10 @@ window.COSMOS_STATS = {
     "暗物质": 11,
     "超空洞": 11,
     "星云": 10,
+    "尘埃云": 9,
     "遗迹": 9,
-    "尘埃云": 8,
+    "黑洞": 9,
     "虫洞": 8,
-    "黑洞": 8,
     "彗星": 7,
     "虚空": 6,
     "恒星": 5,
@@ -13901,28 +14039,28 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 89,
-    "苍凉": 78,
-    "诡谲": 66,
-    "宁静": 59,
-    "孤寂": 52,
+    "苍凉": 79,
+    "诡谲": 67,
+    "宁静": 61,
+    "孤寂": 53,
     "激烈": 47,
     "未知": 43,
-    "神秘": 33,
+    "神秘": 34,
     "辽阔": 29,
-    "希望": 27,
+    "希望": 28,
     "激越": 26,
     "热闹": 6
   },
   "domain_distribution": {
     "philosophy": 67,
+    "literature": 55,
     "astronomy": 53,
-    "literature": 53,
-    "myth": 48,
+    "myth": 49,
     "science": 30,
     "art": 29,
     "history": 29,
     "geography": 26,
-    "cinema": 24,
+    "cinema": 25,
     "music": 24
   },
   "generation": {

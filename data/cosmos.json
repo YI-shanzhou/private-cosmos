@@ -9223,5 +9223,110 @@
       "size": 0.41,
       "luminosity": 0.62
     }
+  },
+  {
+    "id": "body_0176",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "茫净土·宁静",
+    "epoch": 176,
+    "born_at": "2026-10-20T21:15:37",
+    "collision_text": "「阿弥陀佛教主在西方极乐世界端坐莲台，宝池微波…」撞上「明月松间照，清泉石上流」，碎成一团宁静的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_32",
+      "lit_31"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "阿弥陀佛教主在西方极乐世界端坐莲台，宝池微波，金沙铺地，一切寂静光明",
+        "source": "佛教神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "明月松间照，清泉石上流",
+        "source": "王维《山居秋暝》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "希望",
+        "神秘"
+      ],
+      "themes": [
+        "净土",
+        "山林"
+      ],
+      "domains": [
+        "myth",
+        "literature"
+      ],
+      "intensity": 3,
+      "eras": [
+        "上古",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#14B8A6",
+      "size": 0.6,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0177",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "焰吞噬·诡谲",
+    "epoch": 177,
+    "born_at": "2026-10-20T21:15:42",
+    "collision_text": "当「旧金山的浓雾中，金门大桥若隐若现，一切正在被…」遇见「野旷天低树，江清月近人」，诡谲的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_20",
+      "lit_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+        "source": "《迷雾》"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "野旷天低树，江清月近人",
+        "source": "孟浩然《宿建德江》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "吞噬",
+        "旷野"
+      ],
+      "domains": [
+        "cinema",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.6,
+      "luminosity": 0.86
+    }
   }
 ]

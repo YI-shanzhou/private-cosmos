@@ -1223,5 +1223,19 @@
     "event": "genesis",
     "body_id": "body_0175",
     "summary": "第175纪元：history×cinema碰撞，诞生遗迹「魄封存·苍凉」"
+  },
+  {
+    "epoch": 176,
+    "timestamp": "2026-10-20T21:15:37",
+    "event": "genesis",
+    "body_id": "body_0176",
+    "summary": "第176纪元：myth×literature碰撞，诞生尘埃云「茫净土·宁静」"
+  },
+  {
+    "epoch": 177,
+    "timestamp": "2026-10-20T21:15:42",
+    "event": "genesis",
+    "body_id": "body_0177",
+    "summary": "第177纪元：cinema×literature碰撞，诞生黑洞「焰吞噬·诡谲」"
   }
 ]
