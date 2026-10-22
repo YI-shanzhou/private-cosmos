@@ -9328,5 +9328,117 @@
       "size": 0.6,
       "luminosity": 0.86
     }
+  },
+  {
+    "id": "body_0178",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "寂星河·壮阔",
+    "epoch": 178,
+    "born_at": "2026-10-22T21:12:18",
+    "collision_text": "当「天接云涛连晓雾，星河欲转千帆舞」遇见「SMART-1: Pythagoras Cr…」，壮阔的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_02",
+      "apo_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "恒星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.91,
+      "luminosity": 0.69
+    }
+  },
+  {
+    "id": "body_0179",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "幽修补·孤寂·子",
+    "epoch": 179,
+    "born_at": "2026-10-22T21:12:25",
+    "collision_text": "「机器人在废弃城市中独自整理人类留下的遗物，日…」在「哲学家们只是用不同的方式解释世界，而问题在于…」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_26",
+      "phi_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "哲学家们只是用不同的方式解释世界，而问题在于改变世界",
+        "source": "马克思《关于费尔巴哈的提纲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "激越",
+        "激烈"
+      ],
+      "themes": [
+        "等待",
+        "变革"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#57698f",
+      "size": 0.67,
+      "luminosity": 0.74
+    },
+    "lineage": {
+      "parent_id": "body_0065",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

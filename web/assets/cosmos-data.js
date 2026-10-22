@@ -9329,6 +9329,118 @@ window.COSMOS_DATA = [
       "size": 0.6,
       "luminosity": 0.86
     }
+  },
+  {
+    "id": "body_0178",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "寂星河·壮阔",
+    "epoch": 178,
+    "born_at": "2026-10-22T21:12:18",
+    "collision_text": "当「天接云涛连晓雾，星河欲转千帆舞」遇见「SMART-1: Pythagoras Cr…」，壮阔的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_02",
+      "apo_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "天接云涛连晓雾，星河欲转千帆舞",
+        "source": "李清照《渔家傲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "星河",
+        "恒星"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.91,
+      "luminosity": 0.69
+    }
+  },
+  {
+    "id": "body_0179",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "幽修补·孤寂·子",
+    "epoch": 179,
+    "born_at": "2026-10-22T21:12:25",
+    "collision_text": "「机器人在废弃城市中独自整理人类留下的遗物，日…」在「哲学家们只是用不同的方式解释世界，而问题在于…」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_26",
+      "phi_33"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "哲学家们只是用不同的方式解释世界，而问题在于改变世界",
+        "source": "马克思《关于费尔巴哈的提纲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "激越",
+        "激烈"
+      ],
+      "themes": [
+        "等待",
+        "变革"
+      ],
+      "domains": [
+        "cinema",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#57698f",
+      "size": 0.67,
+      "luminosity": 0.74
+    },
+    "lineage": {
+      "parent_id": "body_0065",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10570,6 +10682,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0177",
     "summary": "第177纪元：cinema×literature碰撞，诞生黑洞「焰吞噬·诡谲」"
+  },
+  {
+    "epoch": 178,
+    "timestamp": "2026-10-22T21:12:18",
+    "event": "genesis",
+    "body_id": "body_0178",
+    "summary": "第178纪元：literature×astronomy碰撞，诞生星云「寂星河·壮阔」"
+  },
+  {
+    "epoch": 179,
+    "timestamp": "2026-10-22T21:12:25",
+    "event": "lineage",
+    "body_id": "body_0179",
+    "summary": "第179纪元：遗迹「幽修补·苍凉」繁衍出第1代子嗣——遗迹「幽修补·孤寂·子」"
   }
 ];
 window.APOD_DATA = [
@@ -11104,6 +11230,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-10-13T22:18:07.195001"
+  },
+  {
+    "date": "2004-01-25",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2004-01-25.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-22T21:12:11.666514"
   },
   {
     "date": "2004-02-20",
@@ -13123,37 +13269,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-15",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在astronomy、cinema、science、geography、literature、history的交叉中诞生。流浪行星、星系携带着孤寂、壮阔的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽星座·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0116"
-      },
-      {
-        "name": "澜五维·壮阔",
-        "type_cn": "星系",
-        "id": "body_0117"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "astronomy": 1,
-      "cinema": 1,
-      "science": 1,
-      "geography": 1,
-      "literature": 1,
-      "history": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-16",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -14004,22 +14119,51 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-22",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、遗迹在astronomy、philosophy、literature、cinema的碰撞中绽放，情绪以壮阔、孤寂为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂星河·壮阔",
+        "type_cn": "星云",
+        "id": "body_0178"
+      },
+      {
+        "name": "幽修补·孤寂·子",
+        "type_cn": "遗迹",
+        "id": "body_0179"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "philosophy": 1,
+      "literature": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 177,
-  "chronicle_entries": 177,
+  "total_bodies": 179,
+  "chronicle_entries": 179,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
     "流浪行星": 17,
     "卫星": 12,
+    "星云": 11,
     "星系": 11,
     "暗物质": 11,
     "超空洞": 11,
-    "星云": 10,
+    "遗迹": 10,
     "尘埃云": 9,
-    "遗迹": 9,
     "黑洞": 9,
     "虫洞": 8,
     "彗星": 7,
@@ -14038,36 +14182,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 89,
+    "壮阔": 90,
     "苍凉": 79,
     "诡谲": 67,
     "宁静": 61,
-    "孤寂": 53,
-    "激烈": 47,
-    "未知": 43,
+    "孤寂": 54,
+    "激烈": 48,
+    "未知": 44,
     "神秘": 34,
+    "希望": 29,
     "辽阔": 29,
-    "希望": 28,
-    "激越": 26,
+    "激越": 28,
     "热闹": 6
   },
   "domain_distribution": {
-    "philosophy": 67,
-    "literature": 55,
-    "astronomy": 53,
+    "philosophy": 68,
+    "literature": 56,
+    "astronomy": 54,
     "myth": 49,
     "science": 30,
     "art": 29,
     "history": 29,
+    "cinema": 26,
     "geography": 26,
-    "cinema": 25,
     "music": 24
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 24,
+    "lineage_bodies": 25,
     "distribution": {
-      "第1代": 22,
+      "第1代": 23,
       "第2代": 2
     }
   }

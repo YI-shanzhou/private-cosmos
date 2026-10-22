@@ -1237,5 +1237,19 @@
     "event": "genesis",
     "body_id": "body_0177",
     "summary": "第177纪元：cinema×literature碰撞，诞生黑洞「焰吞噬·诡谲」"
+  },
+  {
+    "epoch": 178,
+    "timestamp": "2026-10-22T21:12:18",
+    "event": "genesis",
+    "body_id": "body_0178",
+    "summary": "第178纪元：literature×astronomy碰撞，诞生星云「寂星河·壮阔」"
+  },
+  {
+    "epoch": 179,
+    "timestamp": "2026-10-22T21:12:25",
+    "event": "lineage",
+    "body_id": "body_0179",
+    "summary": "第179纪元：遗迹「幽修补·苍凉」繁衍出第1代子嗣——遗迹「幽修补·孤寂·子」"
   }
 ]

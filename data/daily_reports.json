@@ -1,36 +1,5 @@
 [
   {
-    "date": "2026-09-15",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在astronomy、cinema、science、geography、literature、history的交叉中诞生。流浪行星、星系携带着孤寂、壮阔的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽星座·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0116"
-      },
-      {
-        "name": "澜五维·壮阔",
-        "type_cn": "星系",
-        "id": "body_0117"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "astronomy": 1,
-      "cinema": 1,
-      "science": 1,
-      "geography": 1,
-      "literature": 1,
-      "history": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-16",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -880,6 +849,35 @@
       "literature": 2
     },
     "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-22",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、遗迹在astronomy、philosophy、literature、cinema的碰撞中绽放，情绪以壮阔、孤寂为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂星河·壮阔",
+        "type_cn": "星云",
+        "id": "body_0178"
+      },
+      {
+        "name": "幽修补·孤寂·子",
+        "type_cn": "遗迹",
+        "id": "body_0179"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "philosophy": 1,
+      "literature": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
     "triple_count": 0
   }
 ]
