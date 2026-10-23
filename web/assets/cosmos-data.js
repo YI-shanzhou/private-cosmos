@@ -9441,6 +9441,121 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0180",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "焰信仰·宁静·子",
+    "epoch": 180,
+    "born_at": "2026-10-23T21:00:15",
+    "collision_text": "「Jupiter in Infrared fr…」吞下「Sun with Solar Flare」，吐出一段宁静的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_58",
+      "apo_45"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter in Infrared from Hubble",
+        "source": "NASA APOD 2018-02-21"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Sun with Solar Flare",
+        "source": "NASA APOD 2013-04-13"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "行星"
+      ],
+      "domains": [
+        "astronomy",
+        "astronomy"
+      ],
+      "intensity": 2,
+      "eras": []
+    },
+    "visual": {
+      "color": "#a279b4",
+      "size": 0.67,
+      "luminosity": 0.19
+    },
+    "lineage": {
+      "parent_id": "body_0160",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0181",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "渊恒星·壮阔·子",
+    "epoch": 181,
+    "born_at": "2026-10-23T21:00:21",
+    "collision_text": "「钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没…」与「女主角站在雪山之巅张开双臂，风将她的围巾吹成…」相互缠绕，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_12",
+      "cin_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "女主角站在雪山之巅张开双臂，风将她的围巾吹成长长的飘带",
+        "source": "《白日梦想家》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "宁静",
+        "希望"
+      ],
+      "themes": [
+        "沉没",
+        "飞翔"
+      ],
+      "domains": [
+        "cinema",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#35656c",
+      "size": 0.6,
+      "luminosity": 1.0
+    },
+    "lineage": {
+      "parent_id": "body_0040",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10696,6 +10811,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0179",
     "summary": "第179纪元：遗迹「幽修补·苍凉」繁衍出第1代子嗣——遗迹「幽修补·孤寂·子」"
+  },
+  {
+    "epoch": 180,
+    "timestamp": "2026-10-23T21:00:15",
+    "event": "lineage",
+    "body_id": "body_0180",
+    "summary": "第180纪元：流浪行星「焰信仰·未知」繁衍出第1代子嗣——彗星「焰信仰·宁静·子」"
+  },
+  {
+    "epoch": 181,
+    "timestamp": "2026-10-23T21:00:21",
+    "event": "lineage",
+    "body_id": "body_0181",
+    "summary": "第181纪元：彗星「渊恒星·孤寂」繁衍出第1代子嗣——彗星「渊恒星·壮阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -13265,39 +13394,29 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-07-27T19:25:13.777044"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2026-07-14.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-23T21:00:08.895115"
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-09-16",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫可观·辽阔",
-        "type_cn": "星团",
-        "id": "body_0118"
-      },
-      {
-        "name": "茫时间·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0119"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "science": 2,
-      "literature": 1,
-      "music": 1,
-      "history": 1,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
   {
     "date": "2026-09-17",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
@@ -14148,11 +14267,38 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-23",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。彗星、彗星在cinema、astronomy的碰撞中绽放，情绪以宁静、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰信仰·宁静·子",
+        "type_cn": "彗星",
+        "id": "body_0180"
+      },
+      {
+        "name": "渊恒星·壮阔·子",
+        "type_cn": "彗星",
+        "id": "body_0181"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 179,
-  "chronicle_entries": 179,
+  "total_bodies": 181,
+  "chronicle_entries": 181,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -14164,9 +14310,9 @@ window.COSMOS_STATS = {
     "超空洞": 11,
     "遗迹": 10,
     "尘埃云": 9,
+    "彗星": 9,
     "黑洞": 9,
     "虫洞": 8,
-    "彗星": 7,
     "虚空": 6,
     "恒星": 5,
     "脉冲星": 5,
@@ -14182,36 +14328,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 90,
-    "苍凉": 79,
+    "壮阔": 91,
+    "苍凉": 80,
     "诡谲": 67,
-    "宁静": 61,
+    "宁静": 63,
     "孤寂": 54,
     "激烈": 48,
-    "未知": 44,
+    "未知": 45,
     "神秘": 34,
-    "希望": 29,
+    "希望": 30,
     "辽阔": 29,
     "激越": 28,
     "热闹": 6
   },
   "domain_distribution": {
     "philosophy": 68,
+    "astronomy": 56,
     "literature": 56,
-    "astronomy": 54,
     "myth": 49,
     "science": 30,
     "art": 29,
     "history": 29,
-    "cinema": 26,
+    "cinema": 28,
     "geography": 26,
     "music": 24
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 25,
+    "lineage_bodies": 27,
     "distribution": {
-      "第1代": 23,
+      "第1代": 25,
       "第2代": 2
     }
   }

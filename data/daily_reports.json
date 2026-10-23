@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-09-16",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、literature、music、history、cinema的交叉中诞生。星团、白矮星携带着辽阔、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫可观·辽阔",
-        "type_cn": "星团",
-        "id": "body_0118"
-      },
-      {
-        "name": "茫时间·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0119"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "science": 2,
-      "literature": 1,
-      "music": 1,
-      "history": 1,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-17",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -878,6 +848,33 @@
       "cinema": 1
     },
     "lineage_count": 1,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-23",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。彗星、彗星在cinema、astronomy的碰撞中绽放，情绪以宁静、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "焰信仰·宁静·子",
+        "type_cn": "彗星",
+        "id": "body_0180"
+      },
+      {
+        "name": "渊恒星·壮阔·子",
+        "type_cn": "彗星",
+        "id": "body_0181"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 2,
     "triple_count": 0
   }
 ]

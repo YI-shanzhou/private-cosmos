@@ -9440,5 +9440,120 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0180",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "焰信仰·宁静·子",
+    "epoch": 180,
+    "born_at": "2026-10-23T21:00:15",
+    "collision_text": "「Jupiter in Infrared fr…」吞下「Sun with Solar Flare」，吐出一段宁静的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_58",
+      "apo_45"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Jupiter in Infrared from Hubble",
+        "source": "NASA APOD 2018-02-21"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Sun with Solar Flare",
+        "source": "NASA APOD 2013-04-13"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知"
+      ],
+      "themes": [
+        "行星"
+      ],
+      "domains": [
+        "astronomy",
+        "astronomy"
+      ],
+      "intensity": 2,
+      "eras": []
+    },
+    "visual": {
+      "color": "#a279b4",
+      "size": 0.67,
+      "luminosity": 0.19
+    },
+    "lineage": {
+      "parent_id": "body_0160",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0181",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "渊恒星·壮阔·子",
+    "epoch": 181,
+    "born_at": "2026-10-23T21:00:21",
+    "collision_text": "「钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没…」与「女主角站在雪山之巅张开双臂，风将她的围巾吹成…」相互缠绕，坍缩成一粒壮阔的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_12",
+      "cin_16"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "钢琴师在废弃的船舱中弹奏，海水从舷窗涌入淹没一切",
+        "source": "《海上钢琴师》"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "女主角站在雪山之巅张开双臂，风将她的围巾吹成长长的飘带",
+        "source": "《白日梦想家》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "宁静",
+        "希望"
+      ],
+      "themes": [
+        "沉没",
+        "飞翔"
+      ],
+      "domains": [
+        "cinema",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#35656c",
+      "size": 0.6,
+      "luminosity": 1.0
+    },
+    "lineage": {
+      "parent_id": "body_0040",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
