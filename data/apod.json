@@ -2455,6 +2455,26 @@
     "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
+    "date": "2024-05-02",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2024-05-02.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-24T20:14:55.694191"
+  },
+  {
     "date": "2024-06-08",
     "title": "Pandora's Cluster of Galaxies",
     "url": "https://apod.nasa.gov/apod/image/2406/abell2744_jwst.png",

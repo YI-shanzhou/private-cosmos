@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-17",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽绝顶·孤寂",
-        "type_cn": "彗星",
-        "id": "body_0120"
-      },
-      {
-        "name": "澜沙海·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0121"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "history": 2,
-      "astronomy": 1,
-      "science": 1,
-      "geography": 2
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-18",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -873,6 +844,34 @@
     "domain_distribution": {
       "cinema": 1,
       "astronomy": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-24",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、行星在astronomy、music、geography的碰撞中绽放，情绪以孤寂、激烈为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜月球·孤寂·子",
+        "type_cn": "流浪行星",
+        "id": "body_0182"
+      },
+      {
+        "name": "渊变革·激烈·子",
+        "type_cn": "行星",
+        "id": "body_0183"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "music": 2,
+      "geography": 1
     },
     "lineage_count": 2,
     "triple_count": 0

@@ -9555,5 +9555,124 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0182",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜月球·孤寂·子",
+    "epoch": 182,
+    "born_at": "2026-10-24T20:15:02",
+    "collision_text": "「二泉映月」在「NASA Science」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_26",
+      "apo_47"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2015-04-02"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "月下"
+      ],
+      "domains": [
+        "music",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8c8091",
+      "size": 0.7,
+      "luminosity": 0.79
+    },
+    "lineage": {
+      "parent_id": "body_0087",
+      "generation": 2,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0183",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "渊变革·激烈·子",
+    "epoch": 183,
+    "born_at": "2026-10-24T20:15:08",
+    "collision_text": "「萨蒂·第一号裸体舞曲」吞下「黄石公园的超级火山每六十万年喷发一次，地表下…」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_30",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "萨蒂·第一号裸体舞曲",
+        "source": "萨蒂"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "孤寂",
+        "神秘",
+        "诡谲"
+      ],
+      "themes": [
+        "幽暗",
+        "地火"
+      ],
+      "domains": [
+        "music",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#4e5b5e",
+      "size": 0.86,
+      "luminosity": 0.98
+    },
+    "lineage": {
+      "parent_id": "body_0169",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

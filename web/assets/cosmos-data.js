@@ -9556,6 +9556,125 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0182",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "澜月球·孤寂·子",
+    "epoch": 182,
+    "born_at": "2026-10-24T20:15:02",
+    "collision_text": "「二泉映月」在「NASA Science」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_26",
+      "apo_47"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2015-04-02"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉",
+        "未知"
+      ],
+      "themes": [
+        "月下"
+      ],
+      "domains": [
+        "music",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8c8091",
+      "size": 0.7,
+      "luminosity": 0.79
+    },
+    "lineage": {
+      "parent_id": "body_0087",
+      "generation": 2,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0183",
+    "type": "planet",
+    "type_cn": "行星",
+    "name": "渊变革·激烈·子",
+    "epoch": 183,
+    "born_at": "2026-10-24T20:15:08",
+    "collision_text": "「萨蒂·第一号裸体舞曲」吞下「黄石公园的超级火山每六十万年喷发一次，地表下…」，吐出一段激烈的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_30",
+      "geo_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "萨蒂·第一号裸体舞曲",
+        "source": "萨蒂"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "孤寂",
+        "神秘",
+        "诡谲"
+      ],
+      "themes": [
+        "幽暗",
+        "地火"
+      ],
+      "domains": [
+        "music",
+        "geography"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#4e5b5e",
+      "size": 0.86,
+      "luminosity": 0.98
+    },
+    "lineage": {
+      "parent_id": "body_0169",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10825,6 +10944,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0181",
     "summary": "第181纪元：彗星「渊恒星·孤寂」繁衍出第1代子嗣——彗星「渊恒星·壮阔·子」"
+  },
+  {
+    "epoch": 182,
+    "timestamp": "2026-10-24T20:15:02",
+    "event": "lineage",
+    "body_id": "body_0182",
+    "summary": "第182纪元：流浪行星「澜月球·诡谲·子」繁衍出第2代子嗣——流浪行星「澜月球·孤寂·子」"
+  },
+  {
+    "epoch": 183,
+    "timestamp": "2026-10-24T20:15:08",
+    "event": "lineage",
+    "body_id": "body_0183",
+    "summary": "第183纪元：流浪行星「渊变革·孤寂」繁衍出第1代子嗣——行星「渊变革·激烈·子」"
   }
 ];
 window.APOD_DATA = [
@@ -13284,6 +13417,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-08-09T18:37:40.677162"
   },
   {
+    "date": "2024-05-02",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2024-05-02.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-24T20:14:55.694191"
+  },
+  {
     "date": "2024-06-08",
     "title": "Pandora's Cluster of Galaxies",
     "url": "https://apod.nasa.gov/apod/image/2406/abell2744_jwst.png",
@@ -13417,35 +13570,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-09-17",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、astronomy、science、geography的交叉中诞生。彗星、白矮星携带着孤寂、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽绝顶·孤寂",
-        "type_cn": "彗星",
-        "id": "body_0120"
-      },
-      {
-        "name": "澜沙海·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0121"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "history": 2,
-      "astronomy": 1,
-      "science": 1,
-      "geography": 2
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
   {
     "date": "2026-09-18",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
@@ -14294,15 +14418,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 2,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-24",
+    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。流浪行星、行星在astronomy、music、geography的碰撞中绽放，情绪以孤寂、激烈为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜月球·孤寂·子",
+        "type_cn": "流浪行星",
+        "id": "body_0182"
+      },
+      {
+        "name": "渊变革·激烈·子",
+        "type_cn": "行星",
+        "id": "body_0183"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "music": 2,
+      "geography": 1
+    },
+    "lineage_count": 2,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 181,
-  "chronicle_entries": 181,
+  "total_bodies": 183,
+  "chronicle_entries": 183,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
-    "流浪行星": 17,
+    "流浪行星": 18,
     "卫星": 12,
     "星云": 11,
     "星系": 11,
@@ -14314,9 +14466,9 @@ window.COSMOS_STATS = {
     "黑洞": 9,
     "虫洞": 8,
     "虚空": 6,
+    "行星": 6,
     "恒星": 5,
     "脉冲星": 5,
-    "行星": 5,
     "超新星": 5,
     "类星体": 4,
     "星团": 3,
@@ -14329,13 +14481,13 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 91,
-    "苍凉": 80,
-    "诡谲": 67,
+    "苍凉": 81,
+    "诡谲": 68,
     "宁静": 63,
-    "孤寂": 54,
-    "激烈": 48,
-    "未知": 45,
-    "神秘": 34,
+    "孤寂": 56,
+    "激烈": 49,
+    "未知": 46,
+    "神秘": 35,
     "希望": 30,
     "辽阔": 29,
     "激越": 28,
@@ -14343,22 +14495,22 @@ window.COSMOS_STATS = {
   },
   "domain_distribution": {
     "philosophy": 68,
-    "astronomy": 56,
+    "astronomy": 57,
     "literature": 56,
     "myth": 49,
     "science": 30,
     "art": 29,
     "history": 29,
     "cinema": 28,
-    "geography": 26,
-    "music": 24
+    "geography": 27,
+    "music": 26
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 27,
+    "lineage_bodies": 29,
     "distribution": {
-      "第1代": 25,
-      "第2代": 2
+      "第1代": 26,
+      "第2代": 3
     }
   }
 };
