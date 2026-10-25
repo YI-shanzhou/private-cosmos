@@ -1279,5 +1279,19 @@
     "event": "lineage",
     "body_id": "body_0183",
     "summary": "第183纪元：流浪行星「渊变革·孤寂」繁衍出第1代子嗣——行星「渊变革·激烈·子」"
+  },
+  {
+    "epoch": 184,
+    "timestamp": "2026-10-25T20:23:34",
+    "event": "genesis",
+    "body_id": "body_0184",
+    "summary": "第184纪元：astronomy×cinema碰撞，诞生尘埃云「澜星云·热闹」"
+  },
+  {
+    "epoch": 185,
+    "timestamp": "2026-10-25T20:23:40",
+    "event": "lineage",
+    "body_id": "body_0185",
+    "summary": "第185纪元：虫洞「寂凝固·诡谲」繁衍出第1代子嗣——虫洞「寂凝固·壮阔·子」"
   }
 ]

@@ -9675,6 +9675,118 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0184",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "澜星云·热闹",
+    "epoch": 184,
+    "born_at": "2026-10-25T20:23:34",
+    "collision_text": "「IC 5146: The Cocoon Ne…」与「机器人在废弃城市中独自整理人类留下的遗物，日…」在虚空中相撞，迸出热闹的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_36",
+      "cin_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "IC 5146: The Cocoon Nebula",
+        "source": "NASA APOD 2009-03-05"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "热闹",
+        "壮阔",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "星云",
+        "等待"
+      ],
+      "domains": [
+        "astronomy",
+        "cinema"
+      ],
+      "intensity": 2,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.45,
+      "luminosity": 0.96
+    }
+  },
+  {
+    "id": "body_0185",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂凝固·壮阔·子",
+    "epoch": 185,
+    "born_at": "2026-10-25T20:23:40",
+    "collision_text": "「多重宇宙假说：我们的宇宙只是无数气泡中的一个…」倒映在「后羿射九日，留其一以照人间」里，裂成一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_24",
+      "myth_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "多重宇宙假说：我们的宇宙只是无数气泡中的一个，每个都有不同的物理常数",
+        "source": "多重宇宙理论"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "未知",
+        "激烈"
+      ],
+      "themes": [
+        "多元",
+        "英雄"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#943bf5",
+      "size": 0.72,
+      "luminosity": 0.81
+    },
+    "lineage": {
+      "parent_id": "body_0168",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -10958,6 +11070,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0183",
     "summary": "第183纪元：流浪行星「渊变革·孤寂」繁衍出第1代子嗣——行星「渊变革·激烈·子」"
+  },
+  {
+    "epoch": 184,
+    "timestamp": "2026-10-25T20:23:34",
+    "event": "genesis",
+    "body_id": "body_0184",
+    "summary": "第184纪元：astronomy×cinema碰撞，诞生尘埃云「澜星云·热闹」"
+  },
+  {
+    "epoch": 185,
+    "timestamp": "2026-10-25T20:23:40",
+    "event": "lineage",
+    "body_id": "body_0185",
+    "summary": "第185纪元：虫洞「寂凝固·诡谲」繁衍出第1代子嗣——虫洞「寂凝固·壮阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -12060,6 +12186,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-03T20:31:03.199543"
+  },
+  {
+    "date": "2009-04-28",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2009-04-28.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-25T20:23:26.803150"
   },
   {
     "date": "2009-05-08",
@@ -13571,35 +13717,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-18",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟类星·未知",
-        "type_cn": "虚空",
-        "id": "body_0122"
-      },
-      {
-        "name": "渺末日·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0123"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "myth": 2,
-      "geography": 2,
-      "astronomy": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-19",
     "summary": "今日宇宙又长大了——2颗新天体在science、myth、geography、philosophy领域的碰撞中诞生。脉冲星、恒星们带着激越、希望的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -14446,11 +14563,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 2,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-25",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。尘埃云、虫洞在cinema、myth、astronomy、science的碰撞中绽放，情绪以热闹、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜星云·热闹",
+        "type_cn": "尘埃云",
+        "id": "body_0184"
+      },
+      {
+        "name": "寂凝固·壮阔·子",
+        "type_cn": "虫洞",
+        "id": "body_0185"
+      }
+    ],
+    "mood_distribution": {
+      "热闹": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "myth": 1,
+      "astronomy": 1,
+      "science": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 183,
-  "chronicle_entries": 183,
+  "total_bodies": 185,
+  "chronicle_entries": 185,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -14460,11 +14606,11 @@ window.COSMOS_STATS = {
     "星系": 11,
     "暗物质": 11,
     "超空洞": 11,
+    "尘埃云": 10,
     "遗迹": 10,
-    "尘埃云": 9,
     "彗星": 9,
+    "虫洞": 9,
     "黑洞": 9,
-    "虫洞": 8,
     "虚空": 6,
     "行星": 6,
     "恒星": 5,
@@ -14480,36 +14626,36 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 91,
-    "苍凉": 81,
+    "壮阔": 93,
+    "苍凉": 82,
     "诡谲": 68,
     "宁静": 63,
-    "孤寂": 56,
-    "激烈": 49,
-    "未知": 46,
+    "孤寂": 57,
+    "激烈": 50,
+    "未知": 47,
     "神秘": 35,
     "希望": 30,
     "辽阔": 29,
     "激越": 28,
-    "热闹": 6
+    "热闹": 7
   },
   "domain_distribution": {
     "philosophy": 68,
-    "astronomy": 57,
+    "astronomy": 58,
     "literature": 56,
-    "myth": 49,
-    "science": 30,
+    "myth": 50,
+    "science": 31,
     "art": 29,
+    "cinema": 29,
     "history": 29,
-    "cinema": 28,
     "geography": 27,
     "music": 26
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 29,
+    "lineage_bodies": 30,
     "distribution": {
-      "第1代": 26,
+      "第1代": 27,
       "第2代": 3
     }
   }

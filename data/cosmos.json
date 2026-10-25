@@ -9674,5 +9674,117 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0184",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "澜星云·热闹",
+    "epoch": 184,
+    "born_at": "2026-10-25T20:23:34",
+    "collision_text": "「IC 5146: The Cocoon Ne…」与「机器人在废弃城市中独自整理人类留下的遗物，日…」在虚空中相撞，迸出热闹的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_36",
+      "cin_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "IC 5146: The Cocoon Nebula",
+        "source": "NASA APOD 2009-03-05"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "热闹",
+        "壮阔",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "星云",
+        "等待"
+      ],
+      "domains": [
+        "astronomy",
+        "cinema"
+      ],
+      "intensity": 2,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.45,
+      "luminosity": 0.96
+    }
+  },
+  {
+    "id": "body_0185",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "寂凝固·壮阔·子",
+    "epoch": 185,
+    "born_at": "2026-10-25T20:23:40",
+    "collision_text": "「多重宇宙假说：我们的宇宙只是无数气泡中的一个…」倒映在「后羿射九日，留其一以照人间」里，裂成一片壮阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_24",
+      "myth_04"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "多重宇宙假说：我们的宇宙只是无数气泡中的一个，每个都有不同的物理常数",
+        "source": "多重宇宙理论"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "后羿射九日，留其一以照人间",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "未知",
+        "激烈"
+      ],
+      "themes": [
+        "多元",
+        "英雄"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#943bf5",
+      "size": 0.72,
+      "luminosity": 0.81
+    },
+    "lineage": {
+      "parent_id": "body_0168",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

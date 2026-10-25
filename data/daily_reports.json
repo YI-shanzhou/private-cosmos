@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-18",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、geography、astronomy、philosophy的交叉中诞生。虚空、白矮星携带着未知、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟类星·未知",
-        "type_cn": "虚空",
-        "id": "body_0122"
-      },
-      {
-        "name": "渺末日·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0123"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "myth": 2,
-      "geography": 2,
-      "astronomy": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-19",
     "summary": "今日宇宙又长大了——2颗新天体在science、myth、geography、philosophy领域的碰撞中诞生。脉冲星、恒星们带着激越、希望的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -874,6 +845,35 @@
       "geography": 1
     },
     "lineage_count": 2,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-25",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。尘埃云、虫洞在cinema、myth、astronomy、science的碰撞中绽放，情绪以热闹、壮阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜星云·热闹",
+        "type_cn": "尘埃云",
+        "id": "body_0184"
+      },
+      {
+        "name": "寂凝固·壮阔·子",
+        "type_cn": "虫洞",
+        "id": "body_0185"
+      }
+    ],
+    "mood_distribution": {
+      "热闹": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "myth": 1,
+      "astronomy": 1,
+      "science": 1
+    },
+    "lineage_count": 1,
     "triple_count": 0
   }
 ]

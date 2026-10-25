@@ -1100,6 +1100,26 @@
     "fetched_at": "2026-09-03T20:31:03.199543"
   },
   {
+    "date": "2009-04-28",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2009-04-28.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-25T20:23:26.803150"
+  },
+  {
     "date": "2009-05-08",
     "title": "Galaxies of the Perseus Cluster",
     "url": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426.jpg",
