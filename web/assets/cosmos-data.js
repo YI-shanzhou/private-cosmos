@@ -9787,6 +9787,120 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0186",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "墟涅槃·激烈",
+    "epoch": 186,
+    "born_at": "2026-10-26T22:18:26",
+    "collision_text": "「凤凰集香木自焚，三日三夜，从灰烬中重生」「图灵用一台机器破译了恩尼格码，却因性向被化学…」「平均律 BWV846」相互缠绕，编织出一片激烈的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_30",
+      "his_10",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+        "source": "跨文化神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "c": {
+        "domain": "music",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "希望",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "涅槃",
+        "密码",
+        "秩序"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.42,
+      "luminosity": 0.96
+    }
+  },
+  {
+    "id": "body_0187",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜峡湾·壮阔",
+    "epoch": 187,
+    "born_at": "2026-10-26T22:18:32",
+    "collision_text": "「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」吞下「致爱丽丝」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_09",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      },
+      "b": {
+        "domain": "music",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "宁静"
+      ],
+      "themes": [
+        "峡湾",
+        "柔情"
+      ],
+      "domains": [
+        "geography",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.31,
+      "luminosity": 0.94
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11084,6 +11198,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0185",
     "summary": "第185纪元：虫洞「寂凝固·诡谲」繁衍出第1代子嗣——虫洞「寂凝固·壮阔·子」"
+  },
+  {
+    "epoch": 186,
+    "timestamp": "2026-10-26T22:18:26",
+    "event": "genesis",
+    "body_id": "body_0186",
+    "summary": "第186纪元：myth×history碰撞，诞生磁星「墟涅槃·激烈」"
+  },
+  {
+    "epoch": 187,
+    "timestamp": "2026-10-26T22:18:32",
+    "event": "genesis",
+    "body_id": "body_0187",
+    "summary": "第187纪元：geography×music碰撞，诞生星云「澜峡湾·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -12394,6 +12522,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-12T18:59:24.142072"
+  },
+  {
+    "date": "2012-07-30",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2012-07-30.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-26T22:18:19.867534"
   },
   {
     "date": "2013-01-27",
@@ -13717,35 +13865,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-19",
-    "summary": "今日宇宙又长大了——2颗新天体在science、myth、geography、philosophy领域的碰撞中诞生。脉冲星、恒星们带着激越、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺执念·激越",
-        "type_cn": "脉冲星",
-        "id": "body_0124"
-      },
-      {
-        "name": "茫自由·希望",
-        "type_cn": "恒星",
-        "id": "body_0125"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "myth": 1,
-      "geography": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-20",
     "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -14592,17 +14711,46 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-26",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、music、geography、myth的交叉中诞生。磁星、星云携带着激烈、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟涅槃·激烈",
+        "type_cn": "磁星",
+        "id": "body_0186"
+      },
+      {
+        "name": "澜峡湾·壮阔",
+        "type_cn": "星云",
+        "id": "body_0187"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "music": 2,
+      "geography": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 185,
-  "chronicle_entries": 185,
+  "total_bodies": 187,
+  "chronicle_entries": 187,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
     "流浪行星": 18,
     "卫星": 12,
-    "星云": 11,
+    "星云": 12,
     "星系": 11,
     "暗物质": 11,
     "超空洞": 11,
@@ -14616,9 +14764,9 @@ window.COSMOS_STATS = {
     "恒星": 5,
     "脉冲星": 5,
     "超新星": 5,
+    "磁星": 4,
     "类星体": 4,
     "星团": 3,
-    "磁星": 3,
     "原恒星": 2,
     "暗星云": 2,
     "耀变体": 2,
@@ -14626,16 +14774,16 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 93,
+    "壮阔": 94,
     "苍凉": 82,
-    "诡谲": 68,
-    "宁静": 63,
-    "孤寂": 57,
-    "激烈": 50,
+    "诡谲": 69,
+    "宁静": 64,
+    "孤寂": 58,
+    "激烈": 51,
     "未知": 47,
     "神秘": 35,
-    "希望": 30,
-    "辽阔": 29,
+    "希望": 31,
+    "辽阔": 30,
     "激越": 28,
     "热闹": 7
   },
@@ -14643,13 +14791,13 @@ window.COSMOS_STATS = {
     "philosophy": 68,
     "astronomy": 58,
     "literature": 56,
-    "myth": 50,
+    "myth": 51,
     "science": 31,
+    "history": 30,
     "art": 29,
     "cinema": 29,
-    "history": 29,
-    "geography": 27,
-    "music": 26
+    "geography": 28,
+    "music": 28
   },
   "generation": {
     "max_generation": 2,

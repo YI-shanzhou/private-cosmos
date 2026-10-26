@@ -9786,5 +9786,119 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0186",
+    "type": "magnetar",
+    "type_cn": "磁星",
+    "name": "墟涅槃·激烈",
+    "epoch": 186,
+    "born_at": "2026-10-26T22:18:26",
+    "collision_text": "「凤凰集香木自焚，三日三夜，从灰烬中重生」「图灵用一台机器破译了恩尼格码，却因性向被化学…」「平均律 BWV846」相互缠绕，编织出一片激烈的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_30",
+      "his_10",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+        "source": "跨文化神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "c": {
+        "domain": "music",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "希望",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "涅槃",
+        "密码",
+        "秩序"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.42,
+      "luminosity": 0.96
+    }
+  },
+  {
+    "id": "body_0187",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "澜峡湾·壮阔",
+    "epoch": 187,
+    "born_at": "2026-10-26T22:18:32",
+    "collision_text": "「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」吞下「致爱丽丝」，吐出一段壮阔的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_09",
+      "mus_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      },
+      "b": {
+        "domain": "music",
+        "text": "致爱丽丝",
+        "source": "贝多芬"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "辽阔",
+        "宁静"
+      ],
+      "themes": [
+        "峡湾",
+        "柔情"
+      ],
+      "domains": [
+        "geography",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒",
+        "古典"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.31,
+      "luminosity": 0.94
+    }
   }
 ]

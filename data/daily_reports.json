@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-19",
-    "summary": "今日宇宙又长大了——2颗新天体在science、myth、geography、philosophy领域的碰撞中诞生。脉冲星、恒星们带着激越、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺执念·激越",
-        "type_cn": "脉冲星",
-        "id": "body_0124"
-      },
-      {
-        "name": "茫自由·希望",
-        "type_cn": "恒星",
-        "id": "body_0125"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "myth": 1,
-      "geography": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-20",
     "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -875,5 +846,34 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-26",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、music、geography、myth的交叉中诞生。磁星、星云携带着激烈、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "墟涅槃·激烈",
+        "type_cn": "磁星",
+        "id": "body_0186"
+      },
+      {
+        "name": "澜峡湾·壮阔",
+        "type_cn": "星云",
+        "id": "body_0187"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "music": 2,
+      "geography": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ]

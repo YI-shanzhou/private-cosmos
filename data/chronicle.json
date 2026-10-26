@@ -1293,5 +1293,19 @@
     "event": "lineage",
     "body_id": "body_0185",
     "summary": "第185纪元：虫洞「寂凝固·诡谲」繁衍出第1代子嗣——虫洞「寂凝固·壮阔·子」"
+  },
+  {
+    "epoch": 186,
+    "timestamp": "2026-10-26T22:18:26",
+    "event": "genesis",
+    "body_id": "body_0186",
+    "summary": "第186纪元：myth×history碰撞，诞生磁星「墟涅槃·激烈」"
+  },
+  {
+    "epoch": 187,
+    "timestamp": "2026-10-26T22:18:32",
+    "event": "genesis",
+    "body_id": "body_0187",
+    "summary": "第187纪元：geography×music碰撞，诞生星云「澜峡湾·壮阔」"
   }
 ]
