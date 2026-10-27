@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-20",
-    "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "寂生命·孤寂",
-        "type_cn": "彗星",
-        "id": "body_0126"
-      },
-      {
-        "name": "尘感知·希望",
-        "type_cn": "恒星",
-        "id": "body_0127"
-      }
-    ],
-    "mood_distribution": {
-      "孤寂": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "philosophy": 2,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-21",
     "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -875,5 +847,35 @@
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-27",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、literature、science、cinema、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽渴望·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0188"
+      },
+      {
+        "name": "弦炼星·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0189"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "literature": 1,
+      "science": 1,
+      "cinema": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]

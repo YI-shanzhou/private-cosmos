@@ -9900,5 +9900,128 @@
       "size": 0.31,
       "luminosity": 0.94
     }
+  },
+  {
+    "id": "body_0188",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽渴望·诡谲",
+    "epoch": 188,
+    "born_at": "2026-10-27T21:50:01",
+    "collision_text": "「坦塔罗斯立水中，水退至颌下；头顶果实，风起即…」穿过「众里寻他千百度，蓦然回首，那人却在，灯火阑珊…」和「黑洞的吸积盘在视觉上呈现为一个旋转的火环，时…」，在混沌中凝成诡谲的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_20",
+      "lit_26",
+      "cin_28"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "坦塔罗斯立水中，水退至颌下；头顶果实，风起即远",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处",
+        "source": "辛弃疾《青玉案·元夕》"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "黑洞的吸积盘在视觉上呈现为一个旋转的火环，时间在环外被拉伸为永恒",
+        "source": "《星际穿越》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "神秘",
+        "希望"
+      ],
+      "themes": [
+        "渴望",
+        "寻觅",
+        "火环"
+      ],
+      "domains": [
+        "myth",
+        "literature",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "宋",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.74,
+      "luminosity": 0.6
+    }
+  },
+  {
+    "id": "body_0189",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "弦炼星·壮阔",
+    "epoch": 189,
+    "born_at": "2026-10-27T21:50:07",
+    "collision_text": "「恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳…」穿过「索尔锤击巨蛇耶梦加得，双方同归于尽」和「道生一，一生二，二生三，三生万物」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_19",
+      "myth_22",
+      "phi_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+        "source": "恒星物理学"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "索尔锤击巨蛇耶梦加得，双方同归于尽",
+        "source": "北欧神话"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "道生一，一生二，二生三，三生万物",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "炼星",
+        "决战",
+        "生成"
+      ],
+      "domains": [
+        "science",
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "上古",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.7,
+      "luminosity": 0.22
+    }
   }
 ]

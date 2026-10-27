@@ -9901,6 +9901,129 @@ window.COSMOS_DATA = [
       "size": 0.31,
       "luminosity": 0.94
     }
+  },
+  {
+    "id": "body_0188",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "幽渴望·诡谲",
+    "epoch": 188,
+    "born_at": "2026-10-27T21:50:01",
+    "collision_text": "「坦塔罗斯立水中，水退至颌下；头顶果实，风起即…」穿过「众里寻他千百度，蓦然回首，那人却在，灯火阑珊…」和「黑洞的吸积盘在视觉上呈现为一个旋转的火环，时…」，在混沌中凝成诡谲的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_20",
+      "lit_26",
+      "cin_28"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "坦塔罗斯立水中，水退至颌下；头顶果实，风起即远",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处",
+        "source": "辛弃疾《青玉案·元夕》"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "黑洞的吸积盘在视觉上呈现为一个旋转的火环，时间在环外被拉伸为永恒",
+        "source": "《星际穿越》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "神秘",
+        "希望"
+      ],
+      "themes": [
+        "渴望",
+        "寻觅",
+        "火环"
+      ],
+      "domains": [
+        "myth",
+        "literature",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "宋",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.74,
+      "luminosity": 0.6
+    }
+  },
+  {
+    "id": "body_0189",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "弦炼星·壮阔",
+    "epoch": 189,
+    "born_at": "2026-10-27T21:50:07",
+    "collision_text": "「恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳…」穿过「索尔锤击巨蛇耶梦加得，双方同归于尽」和「道生一，一生二，二生三，三生万物」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_19",
+      "myth_22",
+      "phi_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+        "source": "恒星物理学"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "索尔锤击巨蛇耶梦加得，双方同归于尽",
+        "source": "北欧神话"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "道生一，一生二，二生三，三生万物",
+        "source": "老子《道德经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "炼星",
+        "决战",
+        "生成"
+      ],
+      "domains": [
+        "science",
+        "myth",
+        "philosophy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "上古",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.7,
+      "luminosity": 0.22
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11212,6 +11335,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0187",
     "summary": "第187纪元：geography×music碰撞，诞生星云「澜峡湾·壮阔」"
+  },
+  {
+    "epoch": 188,
+    "timestamp": "2026-10-27T21:50:01",
+    "event": "genesis",
+    "body_id": "body_0188",
+    "summary": "第188纪元：myth×literature碰撞，诞生暗物质「幽渴望·诡谲」"
+  },
+  {
+    "epoch": 189,
+    "timestamp": "2026-10-27T21:50:07",
+    "event": "genesis",
+    "body_id": "body_0189",
+    "summary": "第189纪元：science×myth碰撞，诞生超空洞「弦炼星·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -11726,6 +11863,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-24T18:37:11.982594"
+  },
+  {
+    "date": "2003-03-12",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2003-03-12.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-27T21:49:54.237272"
   },
   {
     "date": "2003-07-19",
@@ -13865,34 +14022,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-20",
-    "summary": "今日宇宙又长大了——2颗新天体在music、philosophy、cinema领域的碰撞中诞生。彗星、恒星们带着孤寂、希望的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "寂生命·孤寂",
-        "type_cn": "彗星",
-        "id": "body_0126"
-      },
-      {
-        "name": "尘感知·希望",
-        "type_cn": "恒星",
-        "id": "body_0127"
-      }
-    ],
-    "mood_distribution": {
-      "孤寂": 1,
-      "希望": 1
-    },
-    "domain_distribution": {
-      "music": 1,
-      "philosophy": 2,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-21",
     "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -14740,20 +14869,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-10-27",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在myth、literature、science、cinema、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "幽渴望·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0188"
+      },
+      {
+        "name": "弦炼星·壮阔",
+        "type_cn": "超空洞",
+        "id": "body_0189"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "壮阔": 1
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "literature": 1,
+      "science": 1,
+      "cinema": 1,
+      "philosophy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 187,
-  "chronicle_entries": 187,
+  "total_bodies": 189,
+  "chronicle_entries": 189,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
     "流浪行星": 18,
     "卫星": 12,
     "星云": 12,
+    "暗物质": 12,
+    "超空洞": 12,
     "星系": 11,
-    "暗物质": 11,
-    "超空洞": 11,
     "尘埃云": 10,
     "遗迹": 10,
     "彗星": 9,
@@ -14774,28 +14933,28 @@ window.COSMOS_STATS = {
     "蓝巨星": 1
   },
   "mood_distribution": {
-    "壮阔": 94,
-    "苍凉": 82,
-    "诡谲": 69,
+    "壮阔": 95,
+    "苍凉": 83,
+    "诡谲": 70,
     "宁静": 64,
     "孤寂": 58,
-    "激烈": 51,
+    "激烈": 52,
     "未知": 47,
-    "神秘": 35,
-    "希望": 31,
+    "神秘": 37,
+    "希望": 32,
     "辽阔": 30,
     "激越": 28,
     "热闹": 7
   },
   "domain_distribution": {
-    "philosophy": 68,
+    "philosophy": 69,
     "astronomy": 58,
-    "literature": 56,
-    "myth": 51,
-    "science": 31,
+    "literature": 57,
+    "myth": 53,
+    "science": 32,
+    "cinema": 30,
     "history": 30,
     "art": 29,
-    "cinema": 29,
     "geography": 28,
     "music": 28
   },

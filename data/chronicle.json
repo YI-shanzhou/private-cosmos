@@ -1307,5 +1307,19 @@
     "event": "genesis",
     "body_id": "body_0187",
     "summary": "第187纪元：geography×music碰撞，诞生星云「澜峡湾·壮阔」"
+  },
+  {
+    "epoch": 188,
+    "timestamp": "2026-10-27T21:50:01",
+    "event": "genesis",
+    "body_id": "body_0188",
+    "summary": "第188纪元：myth×literature碰撞，诞生暗物质「幽渴望·诡谲」"
+  },
+  {
+    "epoch": 189,
+    "timestamp": "2026-10-27T21:50:07",
+    "event": "genesis",
+    "body_id": "body_0189",
+    "summary": "第189纪元：science×myth碰撞，诞生超空洞「弦炼星·壮阔」"
   }
 ]
