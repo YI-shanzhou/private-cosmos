@@ -10023,5 +10023,110 @@
       "size": 0.7,
       "luminosity": 0.22
     }
+  },
+  {
+    "id": "body_0190",
+    "type": "blue_giant",
+    "type_cn": "蓝巨星",
+    "name": "辉生死·希望",
+    "epoch": 190,
+    "born_at": "2026-10-28T22:11:33",
+    "collision_text": "「伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁…」倒映在「机器人在废弃城市中独自整理人类留下的遗物，日…」里，裂成一片希望的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_28",
+      "cin_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁，巨石堵黄泉比良坂",
+        "source": "日本神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "诡谲",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "生死别",
+        "等待"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.53,
+      "luminosity": 0.21
+    }
+  },
+  {
+    "id": "body_0191",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "幽自由·希望",
+    "epoch": 191,
+    "born_at": "2026-10-28T22:11:40",
+    "collision_text": "「自由不是想做什么就做什么，而是不想做什么就能…」与「凤凰集香木自焚，三日三夜，从灰烬中重生」在虚空中相撞，迸出希望的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_29",
+      "myth_30"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "自由不是想做什么就做什么，而是不想做什么就能不做什么",
+        "source": "康德"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+        "source": "跨文化神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂",
+        "激烈"
+      ],
+      "themes": [
+        "自由",
+        "涅槃"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.45,
+      "luminosity": 0.63
+    }
   }
 ]

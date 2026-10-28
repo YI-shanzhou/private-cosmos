@@ -1321,5 +1321,19 @@
     "event": "genesis",
     "body_id": "body_0189",
     "summary": "第189纪元：science×myth碰撞，诞生超空洞「弦炼星·壮阔」"
+  },
+  {
+    "epoch": 190,
+    "timestamp": "2026-10-28T22:11:33",
+    "event": "genesis",
+    "body_id": "body_0190",
+    "summary": "第190纪元：myth×cinema碰撞，诞生蓝巨星「辉生死·希望」"
+  },
+  {
+    "epoch": 191,
+    "timestamp": "2026-10-28T22:11:40",
+    "event": "genesis",
+    "body_id": "body_0191",
+    "summary": "第191纪元：philosophy×myth碰撞，诞生原恒星「幽自由·希望」"
   }
 ]

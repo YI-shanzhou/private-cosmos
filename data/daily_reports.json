@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-21",
-    "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺命运·激越",
-        "type_cn": "类星体",
-        "id": "body_0128"
-      },
-      {
-        "name": "辉深渊·神秘",
-        "type_cn": "暗星云",
-        "id": "body_0129"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "神秘": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "history": 2,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-22",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
     "body_count": 2,
@@ -877,5 +849,32 @@
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-10-28",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、philosophy、cinema领域的碰撞中诞生。蓝巨星、原恒星们带着希望、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉生死·希望",
+        "type_cn": "蓝巨星",
+        "id": "body_0190"
+      },
+      {
+        "name": "幽自由·希望",
+        "type_cn": "原恒星",
+        "id": "body_0191"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 2
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "philosophy": 1,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

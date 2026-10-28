@@ -10024,6 +10024,111 @@ window.COSMOS_DATA = [
       "size": 0.7,
       "luminosity": 0.22
     }
+  },
+  {
+    "id": "body_0190",
+    "type": "blue_giant",
+    "type_cn": "蓝巨星",
+    "name": "辉生死·希望",
+    "epoch": 190,
+    "born_at": "2026-10-28T22:11:33",
+    "collision_text": "「伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁…」倒映在「机器人在废弃城市中独自整理人类留下的遗物，日…」里，裂成一片希望的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_28",
+      "cin_26"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "伊邪那岐赴黄泉国寻妻，见其腐朽之容，惊而逃遁，巨石堵黄泉比良坂",
+        "source": "日本神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "诡谲",
+        "苍凉",
+        "孤寂"
+      ],
+      "themes": [
+        "生死别",
+        "等待"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.53,
+      "luminosity": 0.21
+    }
+  },
+  {
+    "id": "body_0191",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "幽自由·希望",
+    "epoch": 191,
+    "born_at": "2026-10-28T22:11:40",
+    "collision_text": "「自由不是想做什么就做什么，而是不想做什么就能…」与「凤凰集香木自焚，三日三夜，从灰烬中重生」在虚空中相撞，迸出希望的光。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_29",
+      "myth_30"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "自由不是想做什么就做什么，而是不想做什么就能不做什么",
+        "source": "康德"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "凤凰集香木自焚，三日三夜，从灰烬中重生",
+        "source": "跨文化神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "孤寂",
+        "激烈"
+      ],
+      "themes": [
+        "自由",
+        "涅槃"
+      ],
+      "domains": [
+        "philosophy",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "近代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.45,
+      "luminosity": 0.63
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11349,6 +11454,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0189",
     "summary": "第189纪元：science×myth碰撞，诞生超空洞「弦炼星·壮阔」"
+  },
+  {
+    "epoch": 190,
+    "timestamp": "2026-10-28T22:11:33",
+    "event": "genesis",
+    "body_id": "body_0190",
+    "summary": "第190纪元：myth×cinema碰撞，诞生蓝巨星「辉生死·希望」"
+  },
+  {
+    "epoch": 191,
+    "timestamp": "2026-10-28T22:11:40",
+    "event": "genesis",
+    "body_id": "body_0191",
+    "summary": "第191纪元：philosophy×myth碰撞，诞生原恒星「幽自由·希望」"
   }
 ];
 window.APOD_DATA = [
@@ -11801,6 +11920,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-06T23:56:32.634738"
+  },
+  {
+    "date": "2001-10-25",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2001-10-25.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-28T22:11:26.557988"
   },
   {
     "date": "2002-04-22",
@@ -14022,34 +14161,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-21",
-    "summary": "今日宇宙又长大了——2颗新天体在philosophy、history、geography领域的碰撞中诞生。类星体、暗星云们带着激越、神秘的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渺命运·激越",
-        "type_cn": "类星体",
-        "id": "body_0128"
-      },
-      {
-        "name": "辉深渊·神秘",
-        "type_cn": "暗星云",
-        "id": "body_0129"
-      }
-    ],
-    "mood_distribution": {
-      "激越": 1,
-      "神秘": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "history": 2,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-22",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
     "body_count": 2,
@@ -14899,11 +15010,38 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-10-28",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、philosophy、cinema领域的碰撞中诞生。蓝巨星、原恒星们带着希望、希望的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉生死·希望",
+        "type_cn": "蓝巨星",
+        "id": "body_0190"
+      },
+      {
+        "name": "幽自由·希望",
+        "type_cn": "原恒星",
+        "id": "body_0191"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 2
+    },
+    "domain_distribution": {
+      "myth": 2,
+      "philosophy": 1,
+      "cinema": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 189,
-  "chronicle_entries": 189,
+  "total_bodies": 191,
+  "chronicle_entries": 191,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -14925,34 +15063,34 @@ window.COSMOS_STATS = {
     "超新星": 5,
     "磁星": 4,
     "类星体": 4,
+    "原恒星": 3,
     "星团": 3,
-    "原恒星": 2,
     "暗星云": 2,
     "耀变体": 2,
-    "千新星": 1,
-    "蓝巨星": 1
+    "蓝巨星": 2,
+    "千新星": 1
   },
   "mood_distribution": {
     "壮阔": 95,
-    "苍凉": 83,
-    "诡谲": 70,
+    "苍凉": 84,
+    "诡谲": 71,
     "宁静": 64,
-    "孤寂": 58,
-    "激烈": 52,
+    "孤寂": 60,
+    "激烈": 53,
     "未知": 47,
     "神秘": 37,
-    "希望": 32,
+    "希望": 34,
     "辽阔": 30,
     "激越": 28,
     "热闹": 7
   },
   "domain_distribution": {
-    "philosophy": 69,
+    "philosophy": 70,
     "astronomy": 58,
     "literature": 57,
-    "myth": 53,
+    "myth": 55,
     "science": 32,
-    "cinema": 30,
+    "cinema": 31,
     "history": 30,
     "art": 29,
     "geography": 28,
