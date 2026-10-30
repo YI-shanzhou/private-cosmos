@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-09-22",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰牺牲·辽阔·子",
-        "type_cn": "星云",
-        "id": "body_0130"
-      },
-      {
-        "name": "辉奔跑·辽阔",
-        "type_cn": "星系",
-        "id": "body_0131"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 2
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "geography": 1,
-      "cinema": 2
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-23",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、虫洞在philosophy、cinema、history、geography的碰撞中绽放，情绪以壮阔、诡谲为主导。",
     "body_count": 2,
@@ -875,6 +848,34 @@
       "cinema": 1
     },
     "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-10-30",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虫洞、虚空在literature、myth、astronomy的碰撞中绽放，情绪以宁静、未知为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫深渊·宁静·子",
+        "type_cn": "虫洞",
+        "id": "body_0192"
+      },
+      {
+        "name": "墟怒触·未知",
+        "type_cn": "虚空",
+        "id": "body_0193"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "未知": 1
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "myth": 1,
+      "astronomy": 2
+    },
+    "lineage_count": 1,
     "triple_count": 0
   }
 ]

@@ -10128,5 +10128,114 @@
       "size": 0.45,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0192",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "茫深渊·宁静·子",
+    "epoch": 192,
+    "born_at": "2026-10-30T21:56:36",
+    "collision_text": "当「NASA Science」遇见「我见青山多妩媚，料青山见我应如是」，宁静的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_45",
+      "lit_43"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2012-04-17"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "我见青山多妩媚，料青山见我应如是",
+        "source": "辛弃疾《贺新郎》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知",
+        "希望"
+      ],
+      "themes": [
+        "相照"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ],
+      "intensity": 2,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#a458f9",
+      "size": 0.99,
+      "luminosity": 0.74
+    },
+    "lineage": {
+      "parent_id": "body_0068",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0193",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "墟怒触·未知",
+    "epoch": 193,
+    "born_at": "2026-10-30T21:56:43",
+    "collision_text": "「共工怒触不周山，天柱折，地维绝，天倾西北，地…」与「A Manhattan Sunset」相互缠绕，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_13",
+      "apo_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "共工怒触不周山，天柱折，地维绝，天倾西北，地陷东南",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Manhattan Sunset",
+        "source": "NASA APOD 2004-05-28"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "怒触",
+        "太阳"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.64,
+      "luminosity": 0.21
+    }
   }
 ]

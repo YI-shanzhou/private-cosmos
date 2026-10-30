@@ -659,6 +659,26 @@
     "fetched_at": "2026-08-04T19:29:31.368308"
   },
   {
+    "date": "2004-08-01",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2004-08-01.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-30T21:56:29.591335"
+  },
+  {
     "date": "2005-02-03",
     "title": "SMART-1: Pythagoras Crater",
     "url": "https://apod.nasa.gov/apod/image/0502/pythagorasCrater_smart_m1.jpg",

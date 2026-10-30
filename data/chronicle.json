@@ -1335,5 +1335,19 @@
     "event": "genesis",
     "body_id": "body_0191",
     "summary": "第191纪元：philosophy×myth碰撞，诞生原恒星「幽自由·希望」"
+  },
+  {
+    "epoch": 192,
+    "timestamp": "2026-10-30T21:56:36",
+    "event": "lineage",
+    "body_id": "body_0192",
+    "summary": "第192纪元：虫洞「茫深渊·神秘」繁衍出第1代子嗣——虫洞「茫深渊·宁静·子」"
+  },
+  {
+    "epoch": 193,
+    "timestamp": "2026-10-30T21:56:43",
+    "event": "genesis",
+    "body_id": "body_0193",
+    "summary": "第193纪元：myth×astronomy碰撞，诞生虚空「墟怒触·未知」"
   }
 ]

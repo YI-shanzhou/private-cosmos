@@ -10129,6 +10129,115 @@ window.COSMOS_DATA = [
       "size": 0.45,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0192",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "茫深渊·宁静·子",
+    "epoch": 192,
+    "born_at": "2026-10-30T21:56:36",
+    "collision_text": "当「NASA Science」遇见「我见青山多妩媚，料青山见我应如是」，宁静的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_45",
+      "lit_43"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2012-04-17"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "我见青山多妩媚，料青山见我应如是",
+        "source": "辛弃疾《贺新郎》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知",
+        "希望"
+      ],
+      "themes": [
+        "相照"
+      ],
+      "domains": [
+        "astronomy",
+        "literature"
+      ],
+      "intensity": 2,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#a458f9",
+      "size": 0.99,
+      "luminosity": 0.74
+    },
+    "lineage": {
+      "parent_id": "body_0068",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0193",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "墟怒触·未知",
+    "epoch": 193,
+    "born_at": "2026-10-30T21:56:43",
+    "collision_text": "「共工怒触不周山，天柱折，地维绝，天倾西北，地…」与「A Manhattan Sunset」相互缠绕，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_13",
+      "apo_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "共工怒触不周山，天柱折，地维绝，天倾西北，地陷东南",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Manhattan Sunset",
+        "source": "NASA APOD 2004-05-28"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "激烈",
+        "壮阔"
+      ],
+      "themes": [
+        "怒触",
+        "太阳"
+      ],
+      "domains": [
+        "myth",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.64,
+      "luminosity": 0.21
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11468,6 +11577,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0191",
     "summary": "第191纪元：philosophy×myth碰撞，诞生原恒星「幽自由·希望」"
+  },
+  {
+    "epoch": 192,
+    "timestamp": "2026-10-30T21:56:36",
+    "event": "lineage",
+    "body_id": "body_0192",
+    "summary": "第192纪元：虫洞「茫深渊·神秘」繁衍出第1代子嗣——虫洞「茫深渊·宁静·子」"
+  },
+  {
+    "epoch": 193,
+    "timestamp": "2026-10-30T21:56:43",
+    "event": "genesis",
+    "body_id": "body_0193",
+    "summary": "第193纪元：myth×astronomy碰撞，诞生虚空「墟怒触·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -12129,6 +12252,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-04T19:29:31.368308"
+  },
+  {
+    "date": "2004-08-01",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2004-08-01.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-30T21:56:29.591335"
   },
   {
     "date": "2005-02-03",
@@ -14161,33 +14304,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-22",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、星系在philosophy、geography、cinema的碰撞中绽放，情绪以辽阔、辽阔为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰牺牲·辽阔·子",
-        "type_cn": "星云",
-        "id": "body_0130"
-      },
-      {
-        "name": "辉奔跑·辽阔",
-        "type_cn": "星系",
-        "id": "body_0131"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 2
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "geography": 1,
-      "cinema": 2
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-23",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、虫洞在philosophy、cinema、history、geography的碰撞中绽放，情绪以壮阔、诡谲为主导。",
     "body_count": 2,
@@ -15037,11 +15153,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-30",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虫洞、虚空在literature、myth、astronomy的碰撞中绽放，情绪以宁静、未知为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫深渊·宁静·子",
+        "type_cn": "虫洞",
+        "id": "body_0192"
+      },
+      {
+        "name": "墟怒触·未知",
+        "type_cn": "虚空",
+        "id": "body_0193"
+      }
+    ],
+    "mood_distribution": {
+      "宁静": 1,
+      "未知": 1
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "myth": 1,
+      "astronomy": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 191,
-  "chronicle_entries": 191,
+  "total_bodies": 193,
+  "chronicle_entries": 193,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -15052,11 +15196,11 @@ window.COSMOS_STATS = {
     "超空洞": 12,
     "星系": 11,
     "尘埃云": 10,
+    "虫洞": 10,
     "遗迹": 10,
     "彗星": 9,
-    "虫洞": 9,
     "黑洞": 9,
-    "虚空": 6,
+    "虚空": 7,
     "行星": 6,
     "恒星": 5,
     "脉冲星": 5,
@@ -15071,24 +15215,24 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 95,
+    "壮阔": 96,
     "苍凉": 84,
     "诡谲": 71,
-    "宁静": 64,
+    "宁静": 65,
     "孤寂": 60,
-    "激烈": 53,
-    "未知": 47,
+    "激烈": 54,
+    "未知": 49,
     "神秘": 37,
-    "希望": 34,
+    "希望": 35,
     "辽阔": 30,
     "激越": 28,
     "热闹": 7
   },
   "domain_distribution": {
     "philosophy": 70,
-    "astronomy": 58,
-    "literature": 57,
-    "myth": 55,
+    "astronomy": 60,
+    "literature": 58,
+    "myth": 56,
     "science": 32,
     "cinema": 31,
     "history": 30,
@@ -15098,9 +15242,9 @@ window.COSMOS_STATS = {
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 30,
+    "lineage_bodies": 31,
     "distribution": {
-      "第1代": 27,
+      "第1代": 28,
       "第2代": 3
     }
   }
