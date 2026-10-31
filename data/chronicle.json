@@ -1349,5 +1349,19 @@
     "event": "genesis",
     "body_id": "body_0193",
     "summary": "第193纪元：myth×astronomy碰撞，诞生虚空「墟怒触·未知」"
+  },
+  {
+    "epoch": 194,
+    "timestamp": "2026-10-31T20:59:30",
+    "event": "genesis",
+    "body_id": "body_0194",
+    "summary": "第194纪元：history×science碰撞，诞生虫洞「辉失落·神秘」"
+  },
+  {
+    "epoch": 195,
+    "timestamp": "2026-10-31T20:59:36",
+    "event": "lineage",
+    "body_id": "body_0195",
+    "summary": "第195纪元：白矮星「辉存在·苍凉」繁衍出第1代子嗣——耀变体「辉存在·苍凉·子」"
   }
 ]

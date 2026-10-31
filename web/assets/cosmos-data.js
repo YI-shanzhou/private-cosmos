@@ -10238,6 +10238,118 @@ window.COSMOS_DATA = [
       "size": 0.64,
       "luminosity": 0.21
     }
+  },
+  {
+    "id": "body_0194",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "辉失落·神秘",
+    "epoch": 194,
+    "born_at": "2026-10-31T20:59:30",
+    "collision_text": "「玛雅人用天文台观测金星，精确到五百年仅差一天…」吞下「神经元以电信号传递信息，860亿个神经元组成…」，吐出一段神秘的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_09",
+      "sci_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "玛雅人用天文台观测金星，精确到五百年仅差一天，却在鼎盛时期集体弃城走入丛林",
+        "source": "玛雅文明消失·公元9世纪"
+      },
+      "b": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "失落",
+        "意识"
+      ],
+      "domains": [
+        "history",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.98,
+      "luminosity": 0.49
+    }
+  },
+  {
+    "id": "body_0195",
+    "type": "blazar",
+    "type_cn": "耀变体",
+    "name": "辉存在·苍凉·子",
+    "epoch": 195,
+    "born_at": "2026-10-31T20:59:36",
+    "collision_text": "「进化论：生命通过自然选择从单细胞演化出千万形…」被「切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森…」点燃，烧成一片苍凉的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_25",
+      "his_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "进化论：生命通过自然选择从单细胞演化出千万形态，没有设计者却造就了无限精妙",
+        "source": "达尔文进化论"
+      },
+      "b": {
+        "domain": "history",
+        "text": "切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森林里野马在无人区自由奔跑",
+        "source": "切尔诺贝利核事故·1986年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "演化",
+        "禁区"
+      ],
+      "domains": [
+        "science",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#4b7482",
+      "size": 0.57,
+      "luminosity": 0.13
+    },
+    "lineage": {
+      "parent_id": "body_0028",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11591,6 +11703,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0193",
     "summary": "第193纪元：myth×astronomy碰撞，诞生虚空「墟怒触·未知」"
+  },
+  {
+    "epoch": 194,
+    "timestamp": "2026-10-31T20:59:30",
+    "event": "genesis",
+    "body_id": "body_0194",
+    "summary": "第194纪元：history×science碰撞，诞生虫洞「辉失落·神秘」"
+  },
+  {
+    "epoch": 195,
+    "timestamp": "2026-10-31T20:59:36",
+    "event": "lineage",
+    "body_id": "body_0195",
+    "summary": "第195纪元：白矮星「辉存在·苍凉」繁衍出第1代子嗣——耀变体「辉存在·苍凉·子」"
   }
 ];
 window.APOD_DATA = [
@@ -11887,6 +12013,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-10-06T22:20:59.578735"
+  },
+  {
+    "date": "2000-04-11",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2000-04-11.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-10-31T20:59:23.306742"
   },
   {
     "date": "2000-07-21",
@@ -14304,35 +14450,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-23",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、虫洞在philosophy、cinema、history、geography的碰撞中绽放，情绪以壮阔、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜永恒·壮阔·子",
-        "type_cn": "白矮星",
-        "id": "body_0132"
-      },
-      {
-        "name": "幽雨林·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0133"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "cinema": 1,
-      "history": 1,
-      "geography": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-24",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、geography、myth、science、astronomy、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
     "body_count": 2,
@@ -15181,11 +15298,38 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-10-31",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虫洞、耀变体在science、history的碰撞中绽放，情绪以神秘、苍凉为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉失落·神秘",
+        "type_cn": "虫洞",
+        "id": "body_0194"
+      },
+      {
+        "name": "辉存在·苍凉·子",
+        "type_cn": "耀变体",
+        "id": "body_0195"
+      }
+    ],
+    "mood_distribution": {
+      "神秘": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "science": 2,
+      "history": 2
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 193,
-  "chronicle_entries": 193,
+  "total_bodies": 195,
+  "chronicle_entries": 195,
   "daily_report_count": 30,
   "type_distribution": {
     "白矮星": 19,
@@ -15195,8 +15339,8 @@ window.COSMOS_STATS = {
     "暗物质": 12,
     "超空洞": 12,
     "星系": 11,
+    "虫洞": 11,
     "尘埃云": 10,
-    "虫洞": 10,
     "遗迹": 10,
     "彗星": 9,
     "黑洞": 9,
@@ -15209,20 +15353,20 @@ window.COSMOS_STATS = {
     "类星体": 4,
     "原恒星": 3,
     "星团": 3,
+    "耀变体": 3,
     "暗星云": 2,
-    "耀变体": 2,
     "蓝巨星": 2,
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 96,
-    "苍凉": 84,
-    "诡谲": 71,
+    "壮阔": 98,
+    "苍凉": 86,
+    "诡谲": 72,
     "宁静": 65,
-    "孤寂": 60,
+    "孤寂": 61,
     "激烈": 54,
     "未知": 49,
-    "神秘": 37,
+    "神秘": 38,
     "希望": 35,
     "辽阔": 30,
     "激越": 28,
@@ -15233,18 +15377,18 @@ window.COSMOS_STATS = {
     "astronomy": 60,
     "literature": 58,
     "myth": 56,
-    "science": 32,
+    "science": 34,
+    "history": 32,
     "cinema": 31,
-    "history": 30,
     "art": 29,
     "geography": 28,
     "music": 28
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 31,
+    "lineage_bodies": 32,
     "distribution": {
-      "第1代": 28,
+      "第1代": 29,
       "第2代": 3
     }
   }
