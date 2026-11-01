@@ -1363,5 +1363,19 @@
     "event": "lineage",
     "body_id": "body_0195",
     "summary": "第195纪元：白矮星「辉存在·苍凉」繁衍出第1代子嗣——耀变体「辉存在·苍凉·子」"
+  },
+  {
+    "epoch": 196,
+    "timestamp": "2026-11-01T21:42:33",
+    "event": "genesis",
+    "body_id": "body_0196",
+    "summary": "第196纪元：geography×astronomy碰撞，诞生超新星「渊地火·激烈」"
+  },
+  {
+    "epoch": 197,
+    "timestamp": "2026-11-01T21:42:39",
+    "event": "genesis",
+    "body_id": "body_0197",
+    "summary": "第197纪元：science×astronomy碰撞，诞生流浪行星「渺沉默·未知」"
   }
 ]

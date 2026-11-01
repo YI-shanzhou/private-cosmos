@@ -10350,6 +10350,107 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0196",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "渊地火·激烈",
+    "epoch": 196,
+    "born_at": "2026-11-01T21:42:33",
+    "collision_text": "当「黄石公园的超级火山每六十万年喷发一次，地表下…」遇见「SMART-1: Pythagoras Cr…」，激烈的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_08",
+      "apo_28"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲",
+        "未知"
+      ],
+      "themes": [
+        "地火",
+        "恒星"
+      ],
+      "domains": [
+        "geography",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.68,
+      "luminosity": 0.68
+    }
+  },
+  {
+    "id": "body_0197",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺沉默·未知",
+    "epoch": 197,
+    "born_at": "2026-11-01T21:42:39",
+    "collision_text": "「费米悖论：宇宙如此广袤古老，外星文明理应存在…」沉入「A Large Space Station …」，泛起未知的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_08",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹",
+        "source": "费米悖论"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "沉默"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.34,
+      "luminosity": 0.3
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11717,6 +11818,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0195",
     "summary": "第195纪元：白矮星「辉存在·苍凉」繁衍出第1代子嗣——耀变体「辉存在·苍凉·子」"
+  },
+  {
+    "epoch": 196,
+    "timestamp": "2026-11-01T21:42:33",
+    "event": "genesis",
+    "body_id": "body_0196",
+    "summary": "第196纪元：geography×astronomy碰撞，诞生超新星「渊地火·激烈」"
+  },
+  {
+    "epoch": 197,
+    "timestamp": "2026-11-01T21:42:39",
+    "event": "genesis",
+    "body_id": "body_0197",
+    "summary": "第197纪元：science×astronomy碰撞，诞生流浪行星「渺沉默·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -12209,6 +12324,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-10-28T22:11:26.557988"
+  },
+  {
+    "date": "2002-02-02",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2002-02-02.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-01T21:42:26.394295"
   },
   {
     "date": "2002-04-22",
@@ -14450,37 +14585,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-24",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、geography、myth、science、astronomy、philosophy的交叉中诞生。暗物质、超空洞携带着诡谲、壮阔的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽梦境·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0134"
-      },
-      {
-        "name": "渺密码·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0135"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "history": 1,
-      "geography": 1,
-      "myth": 1,
-      "science": 1,
-      "astronomy": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-09-25",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。暗星云、星系在myth、cinema、astronomy、music的碰撞中绽放，情绪以神秘、苍凉为主导。",
     "body_count": 2,
@@ -15325,15 +15429,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-01",
+    "summary": "今日宇宙又长大了——2颗新天体在astronomy、science、geography领域的碰撞中诞生。超新星、流浪行星们带着激烈、未知的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊地火·激烈",
+        "type_cn": "超新星",
+        "id": "body_0196"
+      },
+      {
+        "name": "渺沉默·未知",
+        "type_cn": "流浪行星",
+        "id": "body_0197"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "激烈": 1
+    },
+    "domain_distribution": {
+      "astronomy": 2,
+      "science": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 195,
-  "chronicle_entries": 195,
+  "total_bodies": 197,
+  "chronicle_entries": 197,
   "daily_report_count": 30,
   "type_distribution": {
+    "流浪行星": 19,
     "白矮星": 19,
-    "流浪行星": 18,
     "卫星": 12,
     "星云": 12,
     "暗物质": 12,
@@ -15346,9 +15478,9 @@ window.COSMOS_STATS = {
     "黑洞": 9,
     "虚空": 7,
     "行星": 6,
+    "超新星": 6,
     "恒星": 5,
     "脉冲星": 5,
-    "超新星": 5,
     "磁星": 4,
     "类星体": 4,
     "原恒星": 3,
@@ -15361,11 +15493,11 @@ window.COSMOS_STATS = {
   "mood_distribution": {
     "壮阔": 98,
     "苍凉": 86,
-    "诡谲": 72,
+    "诡谲": 74,
     "宁静": 65,
-    "孤寂": 61,
-    "激烈": 54,
-    "未知": 49,
+    "孤寂": 62,
+    "激烈": 55,
+    "未知": 51,
     "神秘": 38,
     "希望": 35,
     "辽阔": 30,
@@ -15374,14 +15506,14 @@ window.COSMOS_STATS = {
   },
   "domain_distribution": {
     "philosophy": 70,
-    "astronomy": 60,
+    "astronomy": 62,
     "literature": 58,
     "myth": 56,
-    "science": 34,
+    "science": 35,
     "history": 32,
     "cinema": 31,
     "art": 29,
-    "geography": 28,
+    "geography": 29,
     "music": 28
   },
   "generation": {

@@ -10349,5 +10349,106 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0196",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "渊地火·激烈",
+    "epoch": 196,
+    "born_at": "2026-11-01T21:42:33",
+    "collision_text": "当「黄石公园的超级火山每六十万年喷发一次，地表下…」遇见「SMART-1: Pythagoras Cr…」，激烈的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "geo_08",
+      "apo_28"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "黄石公园的超级火山每六十万年喷发一次，地表下是直径七十公里的岩浆房，上一次喷发是在六十四万年前",
+        "source": "黄石超级火山·美国"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "SMART-1: Pythagoras Crater",
+        "source": "NASA APOD 2005-02-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲",
+        "未知"
+      ],
+      "themes": [
+        "地火",
+        "恒星"
+      ],
+      "domains": [
+        "geography",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.68,
+      "luminosity": 0.68
+    }
+  },
+  {
+    "id": "body_0197",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺沉默·未知",
+    "epoch": 197,
+    "born_at": "2026-11-01T21:42:39",
+    "collision_text": "「费米悖论：宇宙如此广袤古老，外星文明理应存在…」沉入「A Large Space Station …」，泛起未知的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_08",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹",
+        "source": "费米悖论"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "沉默"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.34,
+      "luminosity": 0.3
+    }
   }
 ]
