@@ -867,6 +867,26 @@
     "fetched_at": "2026-09-25T21:06:18.032397"
   },
   {
+    "date": "2006-02-20",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2006-02-20.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-03T22:54:59.313440"
+  },
+  {
     "date": "2006-04-01",
     "title": "Hubble Resolves Expiration Date For Green Cheese Moon",
     "url": "https://apod.nasa.gov/apod/image/0604/gcmoon_ranger9_big.gif",

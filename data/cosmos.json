@@ -10553,5 +10553,127 @@
       "size": 0.9,
       "luminosity": 0.37
     }
+  },
+  {
+    "id": "body_0200",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊吞噬·诡谲",
+    "epoch": 200,
+    "born_at": "2026-11-03T22:55:06",
+    "collision_text": "「旧金山的浓雾中，金门大桥若隐若现，一切正在被…」「切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森…」「无可奈何花落去，似曾相识燕归来」三者在虚空中相撞，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_20",
+      "his_06",
+      "lit_24"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+        "source": "《迷雾》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "切尔诺贝利的石棺沉默地罩住四号反应堆，辐射森林里野马在无人区自由奔跑",
+        "source": "切尔诺贝利核事故·1986年"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "无可奈何花落去，似曾相识燕归来",
+        "source": "晏殊《浣溪沙》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "吞噬",
+        "禁区",
+        "流逝"
+      ],
+      "domains": [
+        "cinema",
+        "history",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "现代",
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.53,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0201",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘炼星·壮阔",
+    "epoch": 201,
+    "born_at": "2026-11-03T22:55:12",
+    "collision_text": "「恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳…」穿过「帕赫贝尔·卡农」和「NASA Science」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "sci_19",
+      "mus_29",
+      "apo_79"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "恒星在核聚变中燃烧自身，将氢炼成氦，氦炼成碳，直至铁，然后在超新星爆发中将重元素洒向宇宙",
+        "source": "恒星物理学"
+      },
+      "b": {
+        "domain": "music",
+        "text": "帕赫贝尔·卡农",
+        "source": "帕赫贝尔"
+      },
+      "c": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2022-08-03"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "激烈",
+        "宁静",
+        "希望"
+      ],
+      "themes": [
+        "炼星",
+        "永恒"
+      ],
+      "domains": [
+        "science",
+        "music",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "现代",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.81,
+      "luminosity": 0.66
+    }
   }
 ]
