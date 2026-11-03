@@ -10450,5 +10450,108 @@
       "size": 0.34,
       "luminosity": 0.3
     }
+  },
+  {
+    "id": "body_0198",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "澜战场·激烈",
+    "epoch": 198,
+    "born_at": "2026-11-03T00:31:13",
+    "collision_text": "「十面埋伏」倒映在「黑云压城城欲摧，甲光向日金鳞开」里，裂成一片激烈的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_25",
+      "lit_38"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "十面埋伏",
+        "source": "古曲"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "黑云压城城欲摧，甲光向日金鳞开",
+        "source": "李贺《雁门太守行》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲",
+        "壮阔"
+      ],
+      "themes": [
+        "战场",
+        "压城"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古典",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.82,
+      "luminosity": 0.46
+    }
+  },
+  {
+    "id": "body_0199",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "寂沉默·孤寂",
+    "epoch": 199,
+    "born_at": "2026-11-03T00:31:20",
+    "collision_text": "「费米悖论：宇宙如此广袤古老，外星文明理应存在…」在「那耳喀索斯凝视水中倒影，至死不移，化作水仙」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_08",
+      "myth_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹",
+        "source": "费米悖论"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "那耳喀索斯凝视水中倒影，至死不移，化作水仙",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "沉默",
+        "自恋"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.9,
+      "luminosity": 0.37
+    }
   }
 ]

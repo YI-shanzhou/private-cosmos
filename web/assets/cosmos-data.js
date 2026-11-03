@@ -10451,6 +10451,109 @@ window.COSMOS_DATA = [
       "size": 0.34,
       "luminosity": 0.3
     }
+  },
+  {
+    "id": "body_0198",
+    "type": "supernova",
+    "type_cn": "超新星",
+    "name": "澜战场·激烈",
+    "epoch": 198,
+    "born_at": "2026-11-03T00:31:13",
+    "collision_text": "「十面埋伏」倒映在「黑云压城城欲摧，甲光向日金鳞开」里，裂成一片激烈的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_25",
+      "lit_38"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "十面埋伏",
+        "source": "古曲"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "黑云压城城欲摧，甲光向日金鳞开",
+        "source": "李贺《雁门太守行》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激烈",
+        "诡谲",
+        "壮阔"
+      ],
+      "themes": [
+        "战场",
+        "压城"
+      ],
+      "domains": [
+        "music",
+        "literature"
+      ],
+      "intensity": 5,
+      "eras": [
+        "古典",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#F2715E",
+      "size": 0.82,
+      "luminosity": 0.46
+    }
+  },
+  {
+    "id": "body_0199",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "寂沉默·孤寂",
+    "epoch": 199,
+    "born_at": "2026-11-03T00:31:20",
+    "collision_text": "「费米悖论：宇宙如此广袤古老，外星文明理应存在…」在「那耳喀索斯凝视水中倒影，至死不移，化作水仙」的引力下弯曲，折成孤寂的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_08",
+      "myth_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "费米悖论：宇宙如此广袤古老，外星文明理应存在，但我们至今未发现任何踪迹",
+        "source": "费米悖论"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "那耳喀索斯凝视水中倒影，至死不移，化作水仙",
+        "source": "希腊神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "沉默",
+        "自恋"
+      ],
+      "domains": [
+        "science",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.9,
+      "luminosity": 0.37
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -11832,6 +11935,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0197",
     "summary": "第197纪元：science×astronomy碰撞，诞生流浪行星「渺沉默·未知」"
+  },
+  {
+    "epoch": 198,
+    "timestamp": "2026-11-03T00:31:13",
+    "event": "genesis",
+    "body_id": "body_0198",
+    "summary": "第198纪元：music×literature碰撞，诞生超新星「澜战场·激烈」"
+  },
+  {
+    "epoch": 199,
+    "timestamp": "2026-11-03T00:31:20",
+    "event": "genesis",
+    "body_id": "body_0199",
+    "summary": "第199纪元：science×myth碰撞，诞生彗星「寂沉默·孤寂」"
   }
 ];
 window.APOD_DATA = [
@@ -13703,6 +13820,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
+    "date": "2017-10-06",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2017-10-06.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-03T00:31:06.063477"
+  },
+  {
     "date": "2017-10-17",
     "title": "NASA Science",
     "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -14585,35 +14722,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-09-25",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。暗星云、星系在myth、cinema、astronomy、music的碰撞中绽放，情绪以神秘、苍凉为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟沉思·神秘",
-        "type_cn": "暗星云",
-        "id": "body_0136"
-      },
-      {
-        "name": "渊理性·苍凉·子",
-        "type_cn": "星系",
-        "id": "body_0137"
-      }
-    ],
-    "mood_distribution": {
-      "神秘": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "cinema": 1,
-      "astronomy": 1,
-      "music": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-26",
     "summary": "今日宇宙又长大了——2颗新天体在astronomy、science、history、philosophy领域的碰撞中诞生。虚空、卫星们带着未知、宁静的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -15457,11 +15565,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-03",
+    "summary": "今日宇宙又长大了——2颗新天体在literature、myth、music、science领域的碰撞中诞生。超新星、彗星们带着激烈、孤寂的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜战场·激烈",
+        "type_cn": "超新星",
+        "id": "body_0198"
+      },
+      {
+        "name": "寂沉默·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0199"
+      }
+    ],
+    "mood_distribution": {
+      "激烈": 1,
+      "孤寂": 1
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "myth": 1,
+      "music": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 197,
-  "chronicle_entries": 197,
+  "total_bodies": 199,
+  "chronicle_entries": 199,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 19,
@@ -15473,12 +15610,12 @@ window.COSMOS_STATS = {
     "星系": 11,
     "虫洞": 11,
     "尘埃云": 10,
+    "彗星": 10,
     "遗迹": 10,
-    "彗星": 9,
     "黑洞": 9,
     "虚空": 7,
+    "超新星": 7,
     "行星": 6,
-    "超新星": 6,
     "恒星": 5,
     "脉冲星": 5,
     "磁星": 4,
@@ -15491,12 +15628,12 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 98,
+    "壮阔": 99,
     "苍凉": 86,
-    "诡谲": 74,
+    "诡谲": 76,
     "宁静": 65,
-    "孤寂": 62,
-    "激烈": 55,
+    "孤寂": 63,
+    "激烈": 56,
     "未知": 51,
     "神秘": 38,
     "希望": 35,
@@ -15507,14 +15644,14 @@ window.COSMOS_STATS = {
   "domain_distribution": {
     "philosophy": 70,
     "astronomy": 62,
-    "literature": 58,
-    "myth": 56,
-    "science": 35,
+    "literature": 59,
+    "myth": 57,
+    "science": 36,
     "history": 32,
     "cinema": 31,
     "art": 29,
     "geography": 29,
-    "music": 28
+    "music": 29
   },
   "generation": {
     "max_generation": 2,

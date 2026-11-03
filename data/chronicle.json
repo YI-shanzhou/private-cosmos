@@ -1377,5 +1377,19 @@
     "event": "genesis",
     "body_id": "body_0197",
     "summary": "第197纪元：science×astronomy碰撞，诞生流浪行星「渺沉默·未知」"
+  },
+  {
+    "epoch": 198,
+    "timestamp": "2026-11-03T00:31:13",
+    "event": "genesis",
+    "body_id": "body_0198",
+    "summary": "第198纪元：music×literature碰撞，诞生超新星「澜战场·激烈」"
+  },
+  {
+    "epoch": 199,
+    "timestamp": "2026-11-03T00:31:20",
+    "event": "genesis",
+    "body_id": "body_0199",
+    "summary": "第199纪元：science×myth碰撞，诞生彗星「寂沉默·孤寂」"
   }
 ]
