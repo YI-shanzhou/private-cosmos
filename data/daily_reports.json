@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "summary": "今日宇宙又长大了——2颗新天体在astronomy、science、history、philosophy领域的碰撞中诞生。虚空、卫星们带着未知、宁静的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渊暗物·未知",
-        "type_cn": "虚空",
-        "id": "body_0138"
-      },
-      {
-        "name": "魄丝路·宁静",
-        "type_cn": "卫星",
-        "id": "body_0139"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 1,
-      "宁静": 1
-    },
-    "domain_distribution": {
-      "astronomy": 1,
-      "science": 1,
-      "history": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-09-28",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。超空洞、尘埃云在history、astronomy、science、literature的碰撞中绽放，情绪以壮阔、苍凉为主导。",
     "body_count": 2,
@@ -887,5 +858,33 @@
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-11-04",
+    "summary": "今日宇宙又长大了——2颗新天体在literature、myth、science、history领域的碰撞中诞生。暗物质、黑洞们带着诡谲、诡谲的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊世界·诡谲",
+        "type_cn": "暗物质",
+        "id": "body_0202"
+      },
+      {
+        "name": "渺凝固·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0203"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 2
+    },
+    "domain_distribution": {
+      "literature": 1,
+      "myth": 1,
+      "science": 1,
+      "history": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

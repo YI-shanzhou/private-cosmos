@@ -1405,5 +1405,19 @@
     "event": "genesis",
     "body_id": "body_0201",
     "summary": "第201纪元：science×music碰撞，诞生星系「尘炼星·壮阔」"
+  },
+  {
+    "epoch": 202,
+    "timestamp": "2026-11-04T23:12:43",
+    "event": "genesis",
+    "body_id": "body_0202",
+    "summary": "第202纪元：myth×science碰撞，诞生暗物质「渊世界·诡谲」"
+  },
+  {
+    "epoch": 203,
+    "timestamp": "2026-11-04T23:12:50",
+    "event": "genesis",
+    "body_id": "body_0203",
+    "summary": "第203纪元：history×literature碰撞，诞生黑洞「渺凝固·诡谲」"
   }
 ]

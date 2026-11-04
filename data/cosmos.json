@@ -10675,5 +10675,111 @@
       "size": 0.81,
       "luminosity": 0.66
     }
+  },
+  {
+    "id": "body_0202",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "渊世界·诡谲",
+    "epoch": 202,
+    "born_at": "2026-11-04T23:12:43",
+    "collision_text": "「北欧神话中，世界树尤克特拉希尔连接九界，树根…」在「神经元以电信号传递信息，860亿个神经元组成…」的引力下弯曲，折成诡谲的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_06",
+      "sci_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "世界树",
+        "意识"
+      ],
+      "domains": [
+        "myth",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.32,
+      "luminosity": 0.69
+    }
+  },
+  {
+    "id": "body_0203",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "渺凝固·诡谲",
+    "epoch": 203,
+    "born_at": "2026-11-04T23:12:50",
+    "collision_text": "「庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年…」在「野旷天低树，江清月近人」的引力下弯曲，折成诡谲的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "his_04",
+      "lit_17"
+    ],
+    "composition": {
+      "a": {
+        "domain": "history",
+        "text": "庞贝古城在维苏威火山的灰烬中瞬间凝固，两千年后人们挖出了面包店里的烤炉和恋人的拥抱",
+        "source": "庞贝末日·公元79年"
+      },
+      "b": {
+        "domain": "literature",
+        "text": "野旷天低树，江清月近人",
+        "source": "孟浩然《宿建德江》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "凝固",
+        "旷野"
+      ],
+      "domains": [
+        "history",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "古代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.55,
+      "luminosity": 0.29
+    }
   }
 ]
