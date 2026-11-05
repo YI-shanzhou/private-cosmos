@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-09-28",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。超空洞、尘埃云在history、astronomy、science、literature的碰撞中绽放，情绪以壮阔、苍凉为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渊远航·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0140"
-      },
-      {
-        "name": "茫无常·苍凉·子",
-        "type_cn": "尘埃云",
-        "id": "body_0141"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "history": 2,
-      "astronomy": 1,
-      "science": 1,
-      "literature": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
-  {
     "date": "2026-09-30",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。卫星、黑洞在science、literature、astronomy、music的碰撞中绽放，情绪以辽阔、诡谲为主导。",
     "body_count": 2,
@@ -883,6 +854,34 @@
       "myth": 1,
       "science": 1,
       "history": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-11-05",
+    "summary": "今日宇宙又长大了——2颗新天体在myth、astronomy、music、cinema领域的碰撞中诞生。流浪行星、虚空们带着孤寂、孤寂的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "寂永恒·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0204"
+      },
+      {
+        "name": "澜行星·孤寂",
+        "type_cn": "虚空",
+        "id": "body_0205"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 2
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "astronomy": 1,
+      "music": 1,
+      "cinema": 1
     },
     "lineage_count": 0,
     "triple_count": 0

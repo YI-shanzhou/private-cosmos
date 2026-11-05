@@ -1419,5 +1419,19 @@
     "event": "genesis",
     "body_id": "body_0203",
     "summary": "第203纪元：history×literature碰撞，诞生黑洞「渺凝固·诡谲」"
+  },
+  {
+    "epoch": 204,
+    "timestamp": "2026-11-05T23:16:21",
+    "event": "genesis",
+    "body_id": "body_0204",
+    "summary": "第204纪元：myth×music碰撞，诞生流浪行星「寂永恒·孤寂」"
+  },
+  {
+    "epoch": 205,
+    "timestamp": "2026-11-05T23:16:28",
+    "event": "genesis",
+    "body_id": "body_0205",
+    "summary": "第205纪元：astronomy×cinema碰撞，诞生虚空「澜行星·孤寂」"
   }
 ]

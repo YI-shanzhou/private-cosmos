@@ -10781,5 +10781,108 @@
       "size": 0.55,
       "luminosity": 0.29
     }
+  },
+  {
+    "id": "body_0204",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "寂永恒·孤寂",
+    "epoch": 204,
+    "born_at": "2026-11-05T23:16:21",
+    "collision_text": "「西西弗斯推石上山，石头日日滚落，永无止境」穿过「萨蒂·第一号裸体舞曲」，留下一道孤寂的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_09",
+      "mus_30"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "西西弗斯推石上山，石头日日滚落，永无止境",
+        "source": "希腊神话"
+      },
+      "b": {
+        "domain": "music",
+        "text": "萨蒂·第一号裸体舞曲",
+        "source": "萨蒂"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "苍凉",
+        "神秘"
+      ],
+      "themes": [
+        "永恒",
+        "幽暗"
+      ],
+      "domains": [
+        "myth",
+        "music"
+      ],
+      "intensity": 3,
+      "eras": [
+        "上古",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.49,
+      "luminosity": 0.86
+    }
+  },
+  {
+    "id": "body_0205",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "澜行星·孤寂",
+    "epoch": 205,
+    "born_at": "2026-11-05T23:16:28",
+    "collision_text": "「Dione, Rings, Shadows,…」与「少年在星空下的麦田中奔跑，追逐一架消失在云层…」相互缠绕，坍缩成一粒孤寂的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_58",
+      "cin_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Dione, Rings, Shadows, Saturn",
+        "source": "NASA APOD 2015-08-24"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "少年在星空下的麦田中奔跑，追逐一架消失在云层的飞机",
+        "source": "《菊次郎的夏天》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知",
+        "宁静"
+      ],
+      "themes": [
+        "行星",
+        "追跑"
+      ],
+      "domains": [
+        "astronomy",
+        "cinema"
+      ],
+      "intensity": 2,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.32,
+      "luminosity": 0.84
+    }
   }
 ]
