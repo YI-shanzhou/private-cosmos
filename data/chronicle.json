@@ -1433,5 +1433,19 @@
     "event": "genesis",
     "body_id": "body_0205",
     "summary": "第205纪元：astronomy×cinema碰撞，诞生虚空「澜行星·孤寂」"
+  },
+  {
+    "epoch": 206,
+    "timestamp": "2026-11-07T21:27:52",
+    "event": "genesis",
+    "body_id": "body_0206",
+    "summary": "第206纪元：astronomy×geography碰撞，诞生星系「渺星系·辽阔」"
+  },
+  {
+    "epoch": 207,
+    "timestamp": "2026-11-07T21:27:58",
+    "event": "genesis",
+    "body_id": "body_0207",
+    "summary": "第207纪元：science×astronomy碰撞，诞生暗物质「弦混沌·诡谲」"
   }
 ]

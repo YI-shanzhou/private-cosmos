@@ -10884,5 +10884,106 @@
       "size": 0.32,
       "luminosity": 0.84
     }
+  },
+  {
+    "id": "body_0206",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "渺星系·辽阔",
+    "epoch": 206,
+    "born_at": "2026-11-07T21:27:52",
+    "collision_text": "「LMC Star Clouds」撞上「撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没…」，碎成一团辽阔的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_02",
+      "geo_03"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "LMC Star Clouds",
+        "source": "NASA APOD 1995-10-11"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "撒哈拉沙漠的沙丘在风中迁徙，一夜之间可以吞没绿洲，又在千年后吐出古城",
+        "source": "撒哈拉沙漠·非洲"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉"
+      ],
+      "themes": [
+        "星系",
+        "沙海"
+      ],
+      "domains": [
+        "astronomy",
+        "geography"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.7,
+      "luminosity": 0.28
+    }
+  },
+  {
+    "id": "body_0207",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦混沌·诡谲",
+    "epoch": 207,
+    "born_at": "2026-11-07T21:27:58",
+    "collision_text": "「蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引…」穿过「Fear and Dread: The Mo…」，留下一道诡谲的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_16",
+      "apo_77"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "蝴蝶效应：亚马逊雨林一只蝴蝶扇动翅膀，可能引发德克萨斯州的一场龙卷风",
+        "source": "混沌理论"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Fear and Dread: The Moons of Mars",
+        "source": "NASA APOD 2020-10-30"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "激越",
+        "未知"
+      ],
+      "themes": [
+        "混沌",
+        "恒星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.78,
+      "luminosity": 0.35
+    }
   }
 ]
