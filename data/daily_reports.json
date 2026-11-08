@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-01",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。白矮星、尘埃云在philosophy、literature、geography的碰撞中绽放，情绪以苍凉、壮阔为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰流逝·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0144"
-      },
-      {
-        "name": "渺行星·壮阔·子",
-        "type_cn": "尘埃云",
-        "id": "body_0145"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "literature": 1,
-      "geography": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-02",
     "summary": "今日宇宙又长大了——2颗新天体在astronomy、music、geography、philosophy领域的碰撞中诞生。卫星、超空洞们带着宁静、辽阔的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -884,5 +856,35 @@
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-08",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在myth、music、geography、cinema、science的交叉中诞生。暗物质、恒星携带着神秘、希望的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊叠加·神秘",
+        "type_cn": "暗物质",
+        "id": "body_0208"
+      },
+      {
+        "name": "茫深渊·希望",
+        "type_cn": "恒星",
+        "id": "body_0209"
+      }
+    ],
+    "mood_distribution": {
+      "希望": 1,
+      "神秘": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "music": 1,
+      "geography": 1,
+      "cinema": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ]
