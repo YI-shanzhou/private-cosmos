@@ -11100,5 +11100,115 @@
       "size": 0.92,
       "luminosity": 0.28
     }
+  },
+  {
+    "id": "body_0210",
+    "type": "supervoid",
+    "type_cn": "超空洞",
+    "name": "辉奔跑·辽阔",
+    "epoch": 210,
+    "born_at": "2026-11-10T01:12:00",
+    "collision_text": "「黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声…」沉入「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」，泛起辽阔的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_25",
+      "his_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "壮阔",
+        "宁静"
+      ],
+      "themes": [
+        "奔跑",
+        "丝路"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.86,
+      "luminosity": 0.22
+    }
+  },
+  {
+    "id": "body_0211",
+    "type": "dust_cloud",
+    "type_cn": "尘埃云",
+    "name": "魄英雄·未知·子",
+    "epoch": 211,
+    "born_at": "2026-11-10T01:12:07",
+    "collision_text": "「上善若水，水善利万物而不争」穿过「NASA Science」，留下一道未知的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_16",
+      "apo_29"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上善若水，水善利万物而不争",
+        "source": "老子《道德经》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2004-08-04"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "宁静",
+        "辽阔"
+      ],
+      "themes": [
+        "柔德"
+      ],
+      "domains": [
+        "philosophy",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#6156f7",
+      "size": 0.47,
+      "luminosity": 0.46
+    },
+    "lineage": {
+      "parent_id": "body_0027",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
