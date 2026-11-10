@@ -11211,6 +11211,120 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0212",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "焰孤独·诡谲",
+    "epoch": 212,
+    "born_at": "2026-11-10T22:51:11",
+    "collision_text": "「嫦娥奔月，窃不死之药，居广寒宫」与「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」相互缠绕，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_05",
+      "geo_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "孤独",
+        "盐海"
+      ],
+      "domains": [
+        "myth",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.42,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0213",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺吞噬·苍凉",
+    "epoch": 213,
+    "born_at": "2026-11-10T22:51:16",
+    "collision_text": "「旧金山的浓雾中，金门大桥若隐若现，一切正在被…」穿过「暗物质占据宇宙质量的27%，却不发光、不反射…」和「大漠孤烟直，长河落日圆」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_20",
+      "sci_04",
+      "lit_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+        "source": "《迷雾》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "暗物质占据宇宙质量的27%，却不发光、不反射光，我们只能通过引力效应感知它的存在",
+        "source": "宇宙学"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "大漠孤烟直，长河落日圆",
+        "source": "王维《使至塞上》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "神秘",
+        "未知"
+      ],
+      "themes": [
+        "吞噬",
+        "暗物质",
+        "荒原"
+      ],
+      "domains": [
+        "cinema",
+        "science",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "现代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.64,
+      "luminosity": 0.99
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -12690,6 +12804,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0211",
     "summary": "第211纪元：星云「魄英雄·壮阔」繁衍出第1代子嗣——尘埃云「魄英雄·未知·子」"
+  },
+  {
+    "epoch": 212,
+    "timestamp": "2026-11-10T22:51:11",
+    "event": "genesis",
+    "body_id": "body_0212",
+    "summary": "第212纪元：myth×geography碰撞，诞生黑洞「焰孤独·诡谲」"
+  },
+  {
+    "epoch": 213,
+    "timestamp": "2026-11-10T22:51:16",
+    "event": "genesis",
+    "body_id": "body_0213",
+    "summary": "第213纪元：cinema×science碰撞，诞生白矮星「渺吞噬·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -14333,6 +14461,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-08-22T18:27:08.386004"
+  },
+  {
+    "date": "2014-02-24",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2014-02-24.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-10T22:51:05.115627"
   },
   {
     "date": "2014-04-20",
@@ -16443,8 +16591,8 @@ window.DAILY_REPORTS = [
   },
   {
     "date": "2026-11-10",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。超空洞、尘埃云在astronomy、history、philosophy、cinema的碰撞中绽放，情绪以辽阔、未知为主导。",
-    "body_count": 2,
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在myth、science、geography、cinema、literature的交叉中诞生。黑洞、白矮星携带着诡谲、苍凉的情绪，加入了星空。",
+    "body_count": 4,
     "new_bodies": [
       {
         "name": "辉奔跑·辽阔",
@@ -16455,29 +16603,45 @@ window.DAILY_REPORTS = [
         "name": "魄英雄·未知·子",
         "type_cn": "尘埃云",
         "id": "body_0211"
+      },
+      {
+        "name": "焰孤独·诡谲",
+        "type_cn": "黑洞",
+        "id": "body_0212"
+      },
+      {
+        "name": "渺吞噬·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0213"
       }
     ],
     "mood_distribution": {
       "未知": 1,
-      "辽阔": 1
+      "辽阔": 1,
+      "苍凉": 1,
+      "诡谲": 1
     },
     "domain_distribution": {
       "astronomy": 1,
       "history": 1,
       "philosophy": 1,
-      "cinema": 1
+      "cinema": 2,
+      "myth": 1,
+      "science": 1,
+      "geography": 1,
+      "literature": 1
     },
     "lineage_count": 1,
-    "triple_count": 0
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 211,
-  "chronicle_entries": 211,
+  "total_bodies": 213,
+  "chronicle_entries": 213,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 20,
-    "白矮星": 19,
+    "白矮星": 20,
     "暗物质": 15,
     "星系": 13,
     "超空洞": 13,
@@ -16485,9 +16649,9 @@ window.COSMOS_STATS = {
     "星云": 12,
     "虫洞": 12,
     "尘埃云": 11,
+    "黑洞": 11,
     "彗星": 10,
     "遗迹": 10,
-    "黑洞": 10,
     "虚空": 8,
     "超新星": 7,
     "恒星": 6,
@@ -16504,13 +16668,13 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 103,
-    "苍凉": 91,
-    "诡谲": 82,
-    "宁静": 72,
-    "孤寂": 68,
+    "苍凉": 92,
+    "诡谲": 84,
+    "宁静": 73,
+    "孤寂": 69,
     "激烈": 57,
-    "未知": 54,
-    "神秘": 42,
+    "未知": 55,
+    "神秘": 43,
     "希望": 37,
     "辽阔": 33,
     "激越": 29,
@@ -16519,13 +16683,13 @@ window.COSMOS_STATS = {
   "domain_distribution": {
     "philosophy": 71,
     "astronomy": 67,
-    "literature": 61,
-    "myth": 60,
-    "science": 40,
-    "cinema": 35,
+    "literature": 62,
+    "myth": 61,
+    "science": 41,
+    "cinema": 36,
     "history": 35,
+    "geography": 32,
     "music": 32,
-    "geography": 31,
     "art": 29
   },
   "generation": {

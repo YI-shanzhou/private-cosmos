@@ -11210,5 +11210,119 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0212",
+    "type": "black_hole",
+    "type_cn": "黑洞",
+    "name": "焰孤独·诡谲",
+    "epoch": 212,
+    "born_at": "2026-11-10T22:51:11",
+    "collision_text": "「嫦娥奔月，窃不死之药，居广寒宫」与「死海的盐度高达34%，在阳光下泛着矿物蓝，人…」相互缠绕，坍缩成一粒诡谲的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_05",
+      "geo_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "嫦娥奔月，窃不死之药，居广寒宫",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "死海的盐度高达34%，在阳光下泛着矿物蓝，人可以躺在水面上读一本永不沉没的书",
+        "source": "死海·中东"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "孤寂",
+        "宁静"
+      ],
+      "themes": [
+        "孤独",
+        "盐海"
+      ],
+      "domains": [
+        "myth",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.42,
+      "luminosity": 0.26
+    }
+  },
+  {
+    "id": "body_0213",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺吞噬·苍凉",
+    "epoch": 213,
+    "born_at": "2026-11-10T22:51:16",
+    "collision_text": "「旧金山的浓雾中，金门大桥若隐若现，一切正在被…」穿过「暗物质占据宇宙质量的27%，却不发光、不反射…」和「大漠孤烟直，长河落日圆」，在混沌中凝成苍凉的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_20",
+      "sci_04",
+      "lit_11"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "旧金山的浓雾中，金门大桥若隐若现，一切正在被吞噬",
+        "source": "《迷雾》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "暗物质占据宇宙质量的27%，却不发光、不反射光，我们只能通过引力效应感知它的存在",
+        "source": "宇宙学"
+      },
+      "c": {
+        "domain": "literature",
+        "text": "大漠孤烟直，长河落日圆",
+        "source": "王维《使至塞上》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "诡谲",
+        "神秘",
+        "未知"
+      ],
+      "themes": [
+        "吞噬",
+        "暗物质",
+        "荒原"
+      ],
+      "domains": [
+        "cinema",
+        "science",
+        "literature"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "现代",
+        "唐"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.64,
+      "luminosity": 0.99
+    }
   }
 ]

@@ -1475,5 +1475,19 @@
     "event": "lineage",
     "body_id": "body_0211",
     "summary": "第211纪元：星云「魄英雄·壮阔」繁衍出第1代子嗣——尘埃云「魄英雄·未知·子」"
+  },
+  {
+    "epoch": 212,
+    "timestamp": "2026-11-10T22:51:11",
+    "event": "genesis",
+    "body_id": "body_0212",
+    "summary": "第212纪元：myth×geography碰撞，诞生黑洞「焰孤独·诡谲」"
+  },
+  {
+    "epoch": 213,
+    "timestamp": "2026-11-10T22:51:16",
+    "event": "genesis",
+    "body_id": "body_0213",
+    "summary": "第213纪元：cinema×science碰撞，诞生白矮星「渺吞噬·苍凉」"
   }
 ]
