@@ -11325,6 +11325,122 @@ window.COSMOS_DATA = [
       "size": 0.64,
       "luminosity": 0.99
     }
+  },
+  {
+    "id": "body_0214",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "渊相思·孤寂",
+    "epoch": 214,
+    "born_at": "2026-11-12T23:13:57",
+    "collision_text": "「牛郎织女隔银河相望，每年七夕鹊桥相会一次」「黑色巨石静立于月球表面，无声地发出尖锐信号射…」「拉赫玛尼诺夫·第二钢琴协奏曲」相互缠绕，编织出一片孤寂的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_14",
+      "cin_02",
+      "mus_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      },
+      "c": {
+        "domain": "music",
+        "text": "拉赫玛尼诺夫·第二钢琴协奏曲",
+        "source": "拉赫玛尼诺夫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "神秘",
+        "诡谲"
+      ],
+      "themes": [
+        "相思",
+        "巨石",
+        "重生"
+      ],
+      "domains": [
+        "myth",
+        "cinema",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代",
+        "浪漫"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.64,
+      "luminosity": 0.67
+    }
+  },
+  {
+    "id": "body_0215",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "辉编织·辽阔·子",
+    "epoch": 215,
+    "born_at": "2026-11-12T23:14:03",
+    "collision_text": "「Galaxy by the Lake」倒映在「M100 and the Expanding…」里，裂成一片辽阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_87",
+      "apo_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Galaxy by the Lake",
+        "source": "NASA APOD 2022-09-10"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "M100 and the Expanding Universe",
+        "source": "NASA APOD 1996-01-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔"
+      ],
+      "themes": [
+        "星系"
+      ],
+      "domains": [
+        "astronomy",
+        "astronomy"
+      ],
+      "intensity": 2,
+      "eras": []
+    },
+    "visual": {
+      "color": "#08ac9c",
+      "size": 0.43,
+      "luminosity": 0.78
+    },
+    "lineage": {
+      "parent_id": "body_0107",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -12818,6 +12934,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0213",
     "summary": "第213纪元：cinema×science碰撞，诞生白矮星「渺吞噬·苍凉」"
+  },
+  {
+    "epoch": 214,
+    "timestamp": "2026-11-12T23:13:57",
+    "event": "genesis",
+    "body_id": "body_0214",
+    "summary": "第214纪元：myth×cinema碰撞，诞生彗星「渊相思·孤寂」"
+  },
+  {
+    "epoch": 215,
+    "timestamp": "2026-11-12T23:14:03",
+    "event": "lineage",
+    "body_id": "body_0215",
+    "summary": "第215纪元：行星「辉编织·宁静」繁衍出第1代子嗣——遗迹「辉编织·辽阔·子」"
   }
 ];
 window.APOD_DATA = [
@@ -14809,6 +14939,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-07T21:08:08.677868"
   },
   {
+    "date": "2017-08-05",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2017-08-05.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-12T23:13:51.276450"
+  },
+  {
     "date": "2017-10-06",
     "title": "NASA Science",
     "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -15731,35 +15881,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-03",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、geography、music、astronomy、myth的交叉中诞生。超空洞、星系携带着壮阔、壮阔的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫峡湾·壮阔",
-        "type_cn": "超空洞",
-        "id": "body_0148"
-      },
-      {
-        "name": "弦英雄·壮阔",
-        "type_cn": "星系",
-        "id": "body_0149"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 2
-    },
-    "domain_distribution": {
-      "history": 1,
-      "geography": 1,
-      "music": 1,
-      "astronomy": 1,
-      "myth": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-04",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、astronomy、cinema的交叉中诞生。虫洞、暗物质携带着诡谲、诡谲的情绪，加入了星空。",
     "body_count": 2,
@@ -16633,11 +16754,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-11-12",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。彗星、遗迹在cinema、astronomy、music、myth的碰撞中绽放，情绪以孤寂、辽阔为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊相思·孤寂",
+        "type_cn": "彗星",
+        "id": "body_0214"
+      },
+      {
+        "name": "辉编织·辽阔·子",
+        "type_cn": "遗迹",
+        "id": "body_0215"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "辽阔": 1
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 1,
+      "music": 1,
+      "myth": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 213,
-  "chronicle_entries": 213,
+  "total_bodies": 215,
+  "chronicle_entries": 215,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 20,
@@ -16649,9 +16799,9 @@ window.COSMOS_STATS = {
     "星云": 12,
     "虫洞": 12,
     "尘埃云": 11,
+    "彗星": 11,
+    "遗迹": 11,
     "黑洞": 11,
-    "彗星": 10,
-    "遗迹": 10,
     "虚空": 8,
     "超新星": 7,
     "恒星": 6,
@@ -16669,34 +16819,34 @@ window.COSMOS_STATS = {
   "mood_distribution": {
     "壮阔": 103,
     "苍凉": 92,
-    "诡谲": 84,
+    "诡谲": 85,
     "宁静": 73,
-    "孤寂": 69,
+    "孤寂": 70,
     "激烈": 57,
     "未知": 55,
-    "神秘": 43,
-    "希望": 37,
-    "辽阔": 33,
+    "神秘": 44,
+    "希望": 38,
+    "辽阔": 34,
     "激越": 29,
     "热闹": 7
   },
   "domain_distribution": {
     "philosophy": 71,
-    "astronomy": 67,
+    "astronomy": 69,
     "literature": 62,
-    "myth": 61,
+    "myth": 62,
     "science": 41,
-    "cinema": 36,
+    "cinema": 37,
     "history": 35,
+    "music": 33,
     "geography": 32,
-    "music": 32,
     "art": 29
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 33,
+    "lineage_bodies": 34,
     "distribution": {
-      "第1代": 30,
+      "第1代": 31,
       "第2代": 3
     }
   }

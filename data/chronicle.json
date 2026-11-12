@@ -1489,5 +1489,19 @@
     "event": "genesis",
     "body_id": "body_0213",
     "summary": "第213纪元：cinema×science碰撞，诞生白矮星「渺吞噬·苍凉」"
+  },
+  {
+    "epoch": 214,
+    "timestamp": "2026-11-12T23:13:57",
+    "event": "genesis",
+    "body_id": "body_0214",
+    "summary": "第214纪元：myth×cinema碰撞，诞生彗星「渊相思·孤寂」"
+  },
+  {
+    "epoch": 215,
+    "timestamp": "2026-11-12T23:14:03",
+    "event": "lineage",
+    "body_id": "body_0215",
+    "summary": "第215纪元：行星「辉编织·宁静」繁衍出第1代子嗣——遗迹「辉编织·辽阔·子」"
   }
 ]

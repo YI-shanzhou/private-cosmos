@@ -11324,5 +11324,121 @@
       "size": 0.64,
       "luminosity": 0.99
     }
+  },
+  {
+    "id": "body_0214",
+    "type": "comet",
+    "type_cn": "彗星",
+    "name": "渊相思·孤寂",
+    "epoch": 214,
+    "born_at": "2026-11-12T23:13:57",
+    "collision_text": "「牛郎织女隔银河相望，每年七夕鹊桥相会一次」「黑色巨石静立于月球表面，无声地发出尖锐信号射…」「拉赫玛尼诺夫·第二钢琴协奏曲」相互缠绕，编织出一片孤寂的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_14",
+      "cin_02",
+      "mus_23"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      },
+      "c": {
+        "domain": "music",
+        "text": "拉赫玛尼诺夫·第二钢琴协奏曲",
+        "source": "拉赫玛尼诺夫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "神秘",
+        "诡谲"
+      ],
+      "themes": [
+        "相思",
+        "巨石",
+        "重生"
+      ],
+      "domains": [
+        "myth",
+        "cinema",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代",
+        "浪漫"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.64,
+      "luminosity": 0.67
+    }
+  },
+  {
+    "id": "body_0215",
+    "type": "remnant",
+    "type_cn": "遗迹",
+    "name": "辉编织·辽阔·子",
+    "epoch": 215,
+    "born_at": "2026-11-12T23:14:03",
+    "collision_text": "「Galaxy by the Lake」倒映在「M100 and the Expanding…」里，裂成一片辽阔的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_87",
+      "apo_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Galaxy by the Lake",
+        "source": "NASA APOD 2022-09-10"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "M100 and the Expanding Universe",
+        "source": "NASA APOD 1996-01-09"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔"
+      ],
+      "themes": [
+        "星系"
+      ],
+      "domains": [
+        "astronomy",
+        "astronomy"
+      ],
+      "intensity": 2,
+      "eras": []
+    },
+    "visual": {
+      "color": "#08ac9c",
+      "size": 0.43,
+      "luminosity": 0.78
+    },
+    "lineage": {
+      "parent_id": "body_0107",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]
