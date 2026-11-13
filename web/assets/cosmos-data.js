@@ -11441,6 +11441,119 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0216",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "渊月圆·神秘",
+    "epoch": 216,
+    "born_at": "2026-11-13T23:15:29",
+    "collision_text": "「人有悲欢离合，月有阴晴圆缺，此事古难全。但愿…」「亚马逊雨林的树冠层中，每平方米有超过四百种生…」「黑色巨石静立于月球表面，无声地发出尖锐信号射…」相互缠绕，编织出一片神秘的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "lit_28",
+      "geo_05",
+      "cin_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟",
+        "source": "苏轼《水调歌头》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "希望",
+        "壮阔"
+      ],
+      "themes": [
+        "月圆",
+        "雨林",
+        "巨石"
+      ],
+      "domains": [
+        "literature",
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.75,
+      "luminosity": 0.34
+    }
+  },
+  {
+    "id": "body_0217",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊不完·神秘",
+    "epoch": 217,
+    "born_at": "2026-11-13T23:15:36",
+    "collision_text": "「哥德尔不完备定理：任何足够复杂的数学体系都包…」在「Meteor in the Milky Wa…」的引力下弯曲，折成神秘的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_30",
+      "apo_62"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "哥德尔不完备定理：任何足够复杂的数学体系都包含无法证明也无法证伪的真命题，真理总有余处",
+        "source": "数理逻辑"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "不完备",
+        "恒星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.48,
+      "luminosity": 0.82
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -12948,6 +13061,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0215",
     "summary": "第215纪元：行星「辉编织·宁静」繁衍出第1代子嗣——遗迹「辉编织·辽阔·子」"
+  },
+  {
+    "epoch": 216,
+    "timestamp": "2026-11-13T23:15:29",
+    "event": "genesis",
+    "body_id": "body_0216",
+    "summary": "第216纪元：literature×geography碰撞，诞生暗物质「渊月圆·神秘」"
+  },
+  {
+    "epoch": 217,
+    "timestamp": "2026-11-13T23:15:36",
+    "event": "genesis",
+    "body_id": "body_0217",
+    "summary": "第217纪元：science×astronomy碰撞，诞生虫洞「渊不完·神秘」"
   }
 ];
 window.APOD_DATA = [
@@ -14638,6 +14765,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-08T20:44:12.218858"
   },
   {
+    "date": "2014-10-26",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2014-10-26.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-13T23:15:21.929978"
+  },
+  {
     "date": "2015-04-02",
     "title": "NASA Science",
     "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -15881,33 +16028,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-04",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、astronomy、cinema的交叉中诞生。虫洞、暗物质携带着诡谲、诡谲的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0150"
-      },
-      {
-        "name": "墟星系·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0151"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 2
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 2,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-05",
     "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。暗物质、黑洞在philosophy、astronomy、geography的碰撞中绽放，情绪以苍凉、激烈为主导。",
     "body_count": 2,
@@ -16783,21 +16903,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 1
+  },
+  {
+    "date": "2026-11-13",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、literature、cinema、astronomy、geography的交叉中诞生。暗物质、虫洞携带着神秘、神秘的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊月圆·神秘",
+        "type_cn": "暗物质",
+        "id": "body_0216"
+      },
+      {
+        "name": "渊不完·神秘",
+        "type_cn": "虫洞",
+        "id": "body_0217"
+      }
+    ],
+    "mood_distribution": {
+      "神秘": 2
+    },
+    "domain_distribution": {
+      "science": 1,
+      "literature": 1,
+      "cinema": 1,
+      "astronomy": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 215,
-  "chronicle_entries": 215,
+  "total_bodies": 217,
+  "chronicle_entries": 217,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 20,
     "白矮星": 20,
-    "暗物质": 15,
+    "暗物质": 16,
     "星系": 13,
+    "虫洞": 13,
     "超空洞": 13,
     "卫星": 12,
     "星云": 12,
-    "虫洞": 12,
     "尘埃云": 11,
     "彗星": 11,
     "遗迹": 11,
@@ -16817,29 +16966,29 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 103,
-    "苍凉": 92,
-    "诡谲": 85,
+    "壮阔": 104,
+    "苍凉": 93,
+    "诡谲": 86,
     "宁静": 73,
-    "孤寂": 70,
+    "孤寂": 71,
     "激烈": 57,
     "未知": 55,
-    "神秘": 44,
-    "希望": 38,
+    "神秘": 46,
+    "希望": 39,
     "辽阔": 34,
     "激越": 29,
     "热闹": 7
   },
   "domain_distribution": {
     "philosophy": 71,
-    "astronomy": 69,
-    "literature": 62,
+    "astronomy": 70,
+    "literature": 63,
     "myth": 62,
-    "science": 41,
-    "cinema": 37,
+    "science": 42,
+    "cinema": 38,
     "history": 35,
+    "geography": 33,
     "music": 33,
-    "geography": 32,
     "art": 29
   },
   "generation": {

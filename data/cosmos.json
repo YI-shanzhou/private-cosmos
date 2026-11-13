@@ -11440,5 +11440,118 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0216",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "渊月圆·神秘",
+    "epoch": 216,
+    "born_at": "2026-11-13T23:15:29",
+    "collision_text": "「人有悲欢离合，月有阴晴圆缺，此事古难全。但愿…」「亚马逊雨林的树冠层中，每平方米有超过四百种生…」「黑色巨石静立于月球表面，无声地发出尖锐信号射…」相互缠绕，编织出一片神秘的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "lit_28",
+      "geo_05",
+      "cin_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟",
+        "source": "苏轼《水调歌头》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "希望",
+        "壮阔"
+      ],
+      "themes": [
+        "月圆",
+        "雨林",
+        "巨石"
+      ],
+      "domains": [
+        "literature",
+        "geography",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "宋",
+        "永恒",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.75,
+      "luminosity": 0.34
+    }
+  },
+  {
+    "id": "body_0217",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊不完·神秘",
+    "epoch": 217,
+    "born_at": "2026-11-13T23:15:36",
+    "collision_text": "「哥德尔不完备定理：任何足够复杂的数学体系都包…」在「Meteor in the Milky Wa…」的引力下弯曲，折成神秘的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_30",
+      "apo_62"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "哥德尔不完备定理：任何足够复杂的数学体系都包含无法证明也无法证伪的真命题，真理总有余处",
+        "source": "数理逻辑"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "Meteor in the Milky Way",
+        "source": "NASA APOD 2015-04-23"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "诡谲",
+        "孤寂"
+      ],
+      "themes": [
+        "不完备",
+        "恒星"
+      ],
+      "domains": [
+        "science",
+        "astronomy"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.48,
+      "luminosity": 0.82
+    }
   }
 ]

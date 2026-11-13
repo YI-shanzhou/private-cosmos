@@ -1503,5 +1503,19 @@
     "event": "lineage",
     "body_id": "body_0215",
     "summary": "第215纪元：行星「辉编织·宁静」繁衍出第1代子嗣——遗迹「辉编织·辽阔·子」"
+  },
+  {
+    "epoch": 216,
+    "timestamp": "2026-11-13T23:15:29",
+    "event": "genesis",
+    "body_id": "body_0216",
+    "summary": "第216纪元：literature×geography碰撞，诞生暗物质「渊月圆·神秘」"
+  },
+  {
+    "epoch": 217,
+    "timestamp": "2026-11-13T23:15:36",
+    "event": "genesis",
+    "body_id": "body_0217",
+    "summary": "第217纪元：science×astronomy碰撞，诞生虫洞「渊不完·神秘」"
   }
 ]

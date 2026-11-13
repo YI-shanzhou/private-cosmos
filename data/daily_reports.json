@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-10-04",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、astronomy、cinema的交叉中诞生。虫洞、暗物质携带着诡谲、诡谲的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "澜运动·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0150"
-      },
-      {
-        "name": "墟星系·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0151"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 2
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 2,
-      "cinema": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-05",
     "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。暗物质、黑洞在philosophy、astronomy、geography的碰撞中绽放，情绪以苍凉、激烈为主导。",
     "body_count": 2,
@@ -901,6 +874,35 @@
       "myth": 1
     },
     "lineage_count": 1,
+    "triple_count": 1
+  },
+  {
+    "date": "2026-11-13",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、literature、cinema、astronomy、geography的交叉中诞生。暗物质、虫洞携带着神秘、神秘的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊月圆·神秘",
+        "type_cn": "暗物质",
+        "id": "body_0216"
+      },
+      {
+        "name": "渊不完·神秘",
+        "type_cn": "虫洞",
+        "id": "body_0217"
+      }
+    ],
+    "mood_distribution": {
+      "神秘": 2
+    },
+    "domain_distribution": {
+      "science": 1,
+      "literature": 1,
+      "cinema": 1,
+      "astronomy": 1,
+      "geography": 1
+    },
+    "lineage_count": 0,
     "triple_count": 1
   }
 ]
