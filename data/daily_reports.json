@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-05",
-    "summary": "今日宇宙诞生了2颗新天体，其中2颗源自古老天体的血脉延续。暗物质、黑洞在philosophy、astronomy、geography的碰撞中绽放，情绪以苍凉、激烈为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽梦境·苍凉·子",
-        "type_cn": "暗物质",
-        "id": "body_0152"
-      },
-      {
-        "name": "渺行星·激烈·子",
-        "type_cn": "黑洞",
-        "id": "body_0153"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "激烈": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "astronomy": 2,
-      "geography": 1
-    },
-    "lineage_count": 2,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-06",
     "summary": "今日宇宙又长大了——2颗新天体在myth、science、cinema、geography领域的碰撞中诞生。遗迹、磁星们带着苍凉、激烈的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -904,5 +876,34 @@
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-11-14",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、geography、music、cinema的交叉中诞生。流浪行星、原恒星携带着孤寂、希望的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺等待·孤寂",
+        "type_cn": "流浪行星",
+        "id": "body_0218"
+      },
+      {
+        "name": "渺叙事·希望",
+        "type_cn": "原恒星",
+        "id": "body_0219"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "希望": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "geography": 1,
+      "music": 2,
+      "cinema": 2
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]

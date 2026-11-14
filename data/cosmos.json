@@ -11553,5 +11553,129 @@
       "size": 0.48,
       "luminosity": 0.82
     }
+  },
+  {
+    "id": "body_0218",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "渺等待·孤寂",
+    "epoch": 218,
+    "born_at": "2026-11-14T21:59:12",
+    "collision_text": "「机器人在废弃城市中独自整理人类留下的遗物，日…」穿过「极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨…」和「平均律 BWV846」，在混沌中凝成孤寂的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "cin_26",
+      "geo_01",
+      "mus_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "机器人在废弃城市中独自整理人类留下的遗物，日复一日等待不归的主人",
+        "source": "《机器人总动员》"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "极光在冰岛黑色玄武岩上方流淌，绿色的光幔如巨鲸在星海中缓缓翻身",
+        "source": "冰岛极光"
+      },
+      "c": {
+        "domain": "music",
+        "text": "平均律 BWV846",
+        "source": "巴赫"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "希望",
+        "壮阔",
+        "神秘"
+      ],
+      "themes": [
+        "等待",
+        "极光",
+        "秩序"
+      ],
+      "domains": [
+        "cinema",
+        "geography",
+        "music"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "永恒",
+        "巴洛克"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.36,
+      "luminosity": 0.36
+    }
+  },
+  {
+    "id": "body_0219",
+    "type": "protostar",
+    "type_cn": "原恒星",
+    "name": "渺叙事·希望",
+    "epoch": 219,
+    "born_at": "2026-11-14T21:59:19",
+    "collision_text": "「g小调第一叙事曲」「废弃空间站中一株植物在暗光中独自生长，是宇宙…」「哥伦布的船队驶向未知的西方，地平线尽头不是深…」三者在虚空中相撞，坍缩成一粒希望的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "mus_16",
+      "cin_18",
+      "his_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "g小调第一叙事曲",
+        "source": "肖邦"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "废弃空间站中一株植物在暗光中独自生长，是宇宙中最后的绿色",
+        "source": "《月球》"
+      },
+      "c": {
+        "domain": "history",
+        "text": "哥伦布的船队驶向未知的西方，地平线尽头不是深渊，而是一个新世界",
+        "source": "哥伦布发现新大陆·1492年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "希望",
+        "苍凉",
+        "激越",
+        "孤寂"
+      ],
+      "themes": [
+        "叙事",
+        "最后绿意",
+        "远航"
+      ],
+      "domains": [
+        "music",
+        "cinema",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "浪漫",
+        "当代",
+        "近代"
+      ]
+    },
+    "visual": {
+      "color": "#FBBF24",
+      "size": 0.52,
+      "luminosity": 0.64
+    }
   }
 ]
