@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "summary": "今日宇宙又长大了——2颗新天体在myth、science、cinema、geography领域的碰撞中诞生。遗迹、磁星们带着苍凉、激烈的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟冰封·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0154"
-      },
-      {
-        "name": "辉毁灭·激烈",
-        "type_cn": "磁星",
-        "id": "body_0155"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "science": 1,
-      "cinema": 1,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-10",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。卫星、暗物质在astronomy、myth、literature的碰撞中绽放，情绪以辽阔、诡谲为主导。",
     "body_count": 2,
@@ -905,5 +876,34 @@
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-11-15",
+    "summary": "今日宇宙又长大了——2颗新天体在philosophy、myth、cinema、science领域的碰撞中诞生。虫洞、白矮星们带着诡谲、苍凉的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦世界·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0220"
+      },
+      {
+        "name": "渺信仰·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0221"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "myth": 1,
+      "cinema": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ]

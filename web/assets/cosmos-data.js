@@ -11678,6 +11678,110 @@ window.COSMOS_DATA = [
       "size": 0.52,
       "luminosity": 0.64
     }
+  },
+  {
+    "id": "body_0220",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "弦世界·诡谲",
+    "epoch": 220,
+    "born_at": "2026-11-15T22:29:21",
+    "collision_text": "「北欧神话中，世界树尤克特拉希尔连接九界，树根…」撞上「黑色巨石静立于月球表面，无声地发出尖锐信号射…」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_06",
+      "cin_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "神秘"
+      ],
+      "themes": [
+        "世界树",
+        "巨石"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.74,
+      "luminosity": 0.41
+    }
+  },
+  {
+    "id": "body_0221",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺信仰·苍凉",
+    "epoch": 221,
+    "born_at": "2026-11-15T22:29:27",
+    "collision_text": "「上帝已死」在「熵增定律：孤立系统的混乱度永远增加不可逆转，…」的引力下弯曲，折成苍凉的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_05",
+      "sci_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "science",
+        "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向",
+        "source": "热力学第二定律"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈",
+        "未知"
+      ],
+      "themes": [
+        "信仰",
+        "熵增"
+      ],
+      "domains": [
+        "philosophy",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 1.0,
+      "luminosity": 0.92
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13213,6 +13317,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0219",
     "summary": "第219纪元：music×cinema碰撞，诞生原恒星「渺叙事·希望」"
+  },
+  {
+    "epoch": 220,
+    "timestamp": "2026-11-15T22:29:21",
+    "event": "genesis",
+    "body_id": "body_0220",
+    "summary": "第220纪元：myth×cinema碰撞，诞生虫洞「弦世界·诡谲」"
+  },
+  {
+    "epoch": 221,
+    "timestamp": "2026-11-15T22:29:27",
+    "event": "genesis",
+    "body_id": "body_0221",
+    "summary": "第221纪元：philosophy×science碰撞，诞生白矮星「渺信仰·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -13847,6 +13965,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-10-13T22:18:07.195001"
+  },
+  {
+    "date": "2003-10-05",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2003-10-05.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-15T22:29:14.875986"
   },
   {
     "date": "2003-12-23",
@@ -16186,35 +16324,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-06",
-    "summary": "今日宇宙又长大了——2颗新天体在myth、science、cinema、geography领域的碰撞中诞生。遗迹、磁星们带着苍凉、激烈的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "墟冰封·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0154"
-      },
-      {
-        "name": "辉毁灭·激烈",
-        "type_cn": "磁星",
-        "id": "body_0155"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "science": 1,
-      "cinema": 1,
-      "geography": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-10",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。卫星、暗物质在astronomy、myth、literature的碰撞中绽放，情绪以辽阔、诡谲为主导。",
     "body_count": 2,
@@ -17091,18 +17200,47 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-11-15",
+    "summary": "今日宇宙又长大了——2颗新天体在philosophy、myth、cinema、science领域的碰撞中诞生。虫洞、白矮星们带着诡谲、苍凉的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦世界·诡谲",
+        "type_cn": "虫洞",
+        "id": "body_0220"
+      },
+      {
+        "name": "渺信仰·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0221"
+      }
+    ],
+    "mood_distribution": {
+      "诡谲": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "philosophy": 1,
+      "myth": 1,
+      "cinema": 1,
+      "science": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 219,
-  "chronicle_entries": 219,
+  "total_bodies": 221,
+  "chronicle_entries": 221,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 21,
-    "白矮星": 20,
+    "白矮星": 21,
     "暗物质": 16,
+    "虫洞": 14,
     "星系": 13,
-    "虫洞": 13,
     "超空洞": 13,
     "卫星": 12,
     "星云": 12,
@@ -17126,25 +17264,25 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 105,
-    "苍凉": 94,
-    "诡谲": 86,
+    "苍凉": 96,
+    "诡谲": 87,
     "孤寂": 73,
     "宁静": 73,
-    "激烈": 57,
-    "未知": 55,
-    "神秘": 47,
+    "激烈": 58,
+    "未知": 56,
+    "神秘": 48,
     "希望": 41,
     "辽阔": 34,
     "激越": 30,
     "热闹": 7
   },
   "domain_distribution": {
-    "philosophy": 71,
+    "philosophy": 72,
     "astronomy": 70,
     "literature": 63,
-    "myth": 62,
-    "science": 42,
-    "cinema": 40,
+    "myth": 63,
+    "science": 43,
+    "cinema": 41,
     "history": 36,
     "music": 35,
     "geography": 34,

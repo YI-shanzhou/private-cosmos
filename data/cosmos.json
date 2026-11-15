@@ -11677,5 +11677,109 @@
       "size": 0.52,
       "luminosity": 0.64
     }
+  },
+  {
+    "id": "body_0220",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "弦世界·诡谲",
+    "epoch": 220,
+    "born_at": "2026-11-15T22:29:21",
+    "collision_text": "「北欧神话中，世界树尤克特拉希尔连接九界，树根…」撞上「黑色巨石静立于月球表面，无声地发出尖锐信号射…」，碎成一团诡谲的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "myth_06",
+      "cin_02"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "北欧神话中，世界树尤克特拉希尔连接九界，树根被毒龙尼德霍格啃噬",
+        "source": "北欧神话"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黑色巨石静立于月球表面，无声地发出尖锐信号射向木星",
+        "source": "《2001太空漫游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "神秘"
+      ],
+      "themes": [
+        "世界树",
+        "巨石"
+      ],
+      "domains": [
+        "myth",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "上古",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#7C3AED",
+      "size": 0.74,
+      "luminosity": 0.41
+    }
+  },
+  {
+    "id": "body_0221",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "渺信仰·苍凉",
+    "epoch": 221,
+    "born_at": "2026-11-15T22:29:27",
+    "collision_text": "「上帝已死」在「熵增定律：孤立系统的混乱度永远增加不可逆转，…」的引力下弯曲，折成苍凉的弧线。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_05",
+      "sci_06"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "science",
+        "text": "熵增定律：孤立系统的混乱度永远增加不可逆转，时间因此有了方向",
+        "source": "热力学第二定律"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "激烈",
+        "未知"
+      ],
+      "themes": [
+        "信仰",
+        "熵增"
+      ],
+      "domains": [
+        "philosophy",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 1.0,
+      "luminosity": 0.92
+    }
   }
 ]
