@@ -11782,6 +11782,118 @@ window.COSMOS_DATA = [
       "size": 1.0,
       "luminosity": 0.92
     }
+  },
+  {
+    "id": "body_0222",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "辉极速·激越",
+    "epoch": 222,
+    "born_at": "2026-11-18T23:53:46",
+    "collision_text": "当「赛车手在最后弯道全速漂移，引擎轰鸣撕裂夜空，…」遇见「柏林墙在一夜之间倒塌，素不相识的人们在残垣上…」，激越的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_33",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "赛车手在最后弯道全速漂移，引擎轰鸣撕裂夜空，只差一个车身的距离",
+        "source": "《速度与激情》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "激烈",
+        "希望"
+      ],
+      "themes": [
+        "极速",
+        "解放"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.91,
+      "luminosity": 0.87
+    }
+  },
+  {
+    "id": "body_0223",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "辉丝路·未知",
+    "epoch": 223,
+    "born_at": "2026-11-18T23:53:54",
+    "collision_text": "「NASA Science」「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」「奥丁献出右眼于密米尔之泉，换取智慧与预知」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_26",
+      "his_05",
+      "myth_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2003-12-23"
+      },
+      "b": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知",
+        "source": "北欧神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "辽阔",
+        "宁静",
+        "苍凉"
+      ],
+      "themes": [
+        "丝路",
+        "献祭"
+      ],
+      "domains": [
+        "astronomy",
+        "history",
+        "myth"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.38,
+      "luminosity": 0.98
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13331,6 +13443,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0221",
     "summary": "第221纪元：philosophy×science碰撞，诞生白矮星「渺信仰·苍凉」"
+  },
+  {
+    "epoch": 222,
+    "timestamp": "2026-11-18T23:53:46",
+    "event": "genesis",
+    "body_id": "body_0222",
+    "summary": "第222纪元：cinema×history碰撞，诞生类星体「辉极速·激越」"
+  },
+  {
+    "epoch": 223,
+    "timestamp": "2026-11-18T23:53:54",
+    "event": "genesis",
+    "body_id": "body_0223",
+    "summary": "第223纪元：astronomy×history碰撞，诞生流浪行星「辉丝路·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -16109,6 +16235,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-17T20:57:29.502334"
   },
   {
+    "date": "2024-02-16",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2024-02-16.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-18T23:53:36.932652"
+  },
+  {
     "date": "2024-04-18",
     "title": "NASA Science",
     "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -16323,34 +16469,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-10-10",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。卫星、暗物质在astronomy、myth、literature的碰撞中绽放，情绪以辽阔、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "弦柔情·辽阔·子",
-        "type_cn": "卫星",
-        "id": "body_0156"
-      },
-      {
-        "name": "渺渴望·诡谲",
-        "type_cn": "暗物质",
-        "id": "body_0157"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "辽阔": 1
-    },
-    "domain_distribution": {
-      "astronomy": 1,
-      "myth": 1,
-      "literature": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
   {
     "date": "2026-10-11",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。磁星、恒星在myth、science、astronomy、music的碰撞中绽放，情绪以激烈、壮阔为主导。",
@@ -17229,14 +17347,43 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-18",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在astronomy、history、cinema、myth的交叉中诞生。类星体、流浪行星携带着激越、未知的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉极速·激越",
+        "type_cn": "类星体",
+        "id": "body_0222"
+      },
+      {
+        "name": "辉丝路·未知",
+        "type_cn": "流浪行星",
+        "id": "body_0223"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 1,
+      "激越": 1
+    },
+    "domain_distribution": {
+      "astronomy": 1,
+      "history": 2,
+      "cinema": 1,
+      "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 221,
-  "chronicle_entries": 221,
+  "total_bodies": 223,
+  "chronicle_entries": 223,
   "daily_report_count": 30,
   "type_distribution": {
-    "流浪行星": 21,
+    "流浪行星": 22,
     "白矮星": 21,
     "暗物质": 16,
     "虫洞": 14,
@@ -17252,10 +17399,10 @@ window.COSMOS_STATS = {
     "超新星": 7,
     "恒星": 6,
     "行星": 6,
+    "类星体": 5,
     "脉冲星": 5,
     "原恒星": 4,
     "磁星": 4,
-    "类星体": 4,
     "星团": 3,
     "耀变体": 3,
     "暗星云": 2,
@@ -17264,26 +17411,26 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 105,
-    "苍凉": 96,
+    "苍凉": 97,
     "诡谲": 87,
+    "宁静": 74,
     "孤寂": 73,
-    "宁静": 73,
-    "激烈": 58,
-    "未知": 56,
+    "激烈": 59,
+    "未知": 57,
     "神秘": 48,
-    "希望": 41,
-    "辽阔": 34,
-    "激越": 30,
+    "希望": 42,
+    "辽阔": 35,
+    "激越": 31,
     "热闹": 7
   },
   "domain_distribution": {
     "philosophy": 72,
-    "astronomy": 70,
+    "astronomy": 71,
+    "myth": 64,
     "literature": 63,
-    "myth": 63,
     "science": 43,
-    "cinema": 41,
-    "history": 36,
+    "cinema": 42,
+    "history": 38,
     "music": 35,
     "geography": 34,
     "art": 29

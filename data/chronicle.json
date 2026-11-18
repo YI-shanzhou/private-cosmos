@@ -1545,5 +1545,19 @@
     "event": "genesis",
     "body_id": "body_0221",
     "summary": "第221纪元：philosophy×science碰撞，诞生白矮星「渺信仰·苍凉」"
+  },
+  {
+    "epoch": 222,
+    "timestamp": "2026-11-18T23:53:46",
+    "event": "genesis",
+    "body_id": "body_0222",
+    "summary": "第222纪元：cinema×history碰撞，诞生类星体「辉极速·激越」"
+  },
+  {
+    "epoch": 223,
+    "timestamp": "2026-11-18T23:53:54",
+    "event": "genesis",
+    "body_id": "body_0223",
+    "summary": "第223纪元：astronomy×history碰撞，诞生流浪行星「辉丝路·未知」"
   }
 ]

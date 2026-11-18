@@ -11781,5 +11781,117 @@
       "size": 1.0,
       "luminosity": 0.92
     }
+  },
+  {
+    "id": "body_0222",
+    "type": "quasar",
+    "type_cn": "类星体",
+    "name": "辉极速·激越",
+    "epoch": 222,
+    "born_at": "2026-11-18T23:53:46",
+    "collision_text": "当「赛车手在最后弯道全速漂移，引擎轰鸣撕裂夜空，…」遇见「柏林墙在一夜之间倒塌，素不相识的人们在残垣上…」，激越的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_33",
+      "his_08"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "赛车手在最后弯道全速漂移，引擎轰鸣撕裂夜空，只差一个车身的距离",
+        "source": "《速度与激情》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "柏林墙在一夜之间倒塌，素不相识的人们在残垣上拥抱，铁幕在锤子声中碎成自由的石子",
+        "source": "柏林墙倒塌·1989年"
+      }
+    },
+    "tags": {
+      "moods": [
+        "激越",
+        "激烈",
+        "希望"
+      ],
+      "themes": [
+        "极速",
+        "解放"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#F2C94C",
+      "size": 0.91,
+      "luminosity": 0.87
+    }
+  },
+  {
+    "id": "body_0223",
+    "type": "rogue_planet",
+    "type_cn": "流浪行星",
+    "name": "辉丝路·未知",
+    "epoch": 223,
+    "born_at": "2026-11-18T23:53:54",
+    "collision_text": "「NASA Science」「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」「奥丁献出右眼于密米尔之泉，换取智慧与预知」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_26",
+      "his_05",
+      "myth_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2003-12-23"
+      },
+      "b": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      },
+      "c": {
+        "domain": "myth",
+        "text": "奥丁献出右眼于密米尔之泉，换取智慧与预知",
+        "source": "北欧神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "辽阔",
+        "宁静",
+        "苍凉"
+      ],
+      "themes": [
+        "丝路",
+        "献祭"
+      ],
+      "domains": [
+        "astronomy",
+        "history",
+        "myth"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.38,
+      "luminosity": 0.98
+    }
   }
 ]
