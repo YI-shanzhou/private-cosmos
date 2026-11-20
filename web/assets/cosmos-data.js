@@ -11894,6 +11894,119 @@ window.COSMOS_DATA = [
       "size": 0.38,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0224",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "尘星云·苍凉",
+    "epoch": 224,
+    "born_at": "2026-11-20T23:40:57",
+    "collision_text": "「Stardust and Starlight…」穿过「宇宙终将走向热寂，所有恒星熄灭，一切归于绝对…」，留下一道苍凉的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_82",
+      "sci_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Stardust and Starlight in M78",
+        "source": "NASA APOD 2019-03-08"
+      },
+      "b": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "星云",
+        "热寂"
+      ],
+      "domains": [
+        "astronomy",
+        "science"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.41,
+      "luminosity": 0.58
+    }
+  },
+  {
+    "id": "body_0225",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "墟治水·壮阔",
+    "epoch": 225,
+    "born_at": "2026-11-20T23:41:04",
+    "collision_text": "「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」穿过「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」和「DNA双螺旋：生命的全部密码写在四字母的分子…」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_15",
+      "his_01",
+      "sci_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "c": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "治水",
+        "烽火",
+        "密码"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.7,
+      "luminosity": 0.98
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13457,6 +13570,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0223",
     "summary": "第223纪元：astronomy×history碰撞，诞生流浪行星「辉丝路·未知」"
+  },
+  {
+    "epoch": 224,
+    "timestamp": "2026-11-20T23:40:57",
+    "event": "genesis",
+    "body_id": "body_0224",
+    "summary": "第224纪元：astronomy×science碰撞，诞生白矮星「尘星云·苍凉」"
+  },
+  {
+    "epoch": 225,
+    "timestamp": "2026-11-20T23:41:04",
+    "event": "genesis",
+    "body_id": "body_0225",
+    "summary": "第225纪元：myth×history碰撞，诞生星云「墟治水·壮阔」"
   }
 ];
 window.APOD_DATA = [
@@ -15601,6 +15728,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-19T20:03:52.031399"
   },
   {
+    "date": "2017-11-25",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2017-11-25.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-20T23:40:52.057745"
+  },
+  {
     "date": "2017-12-05",
     "title": "A Horizon with Blue and Red",
     "url": "https://apod.nasa.gov/apod/image/1712/BlueMoonRedVolcano_Montufar_4096.jpg",
@@ -16469,35 +16616,6 @@ window.APOD_DATA = [
   }
 ];
 window.DAILY_REPORTS = [
-  {
-    "date": "2026-10-11",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。磁星、恒星在myth、science、astronomy、music的碰撞中绽放，情绪以激烈、壮阔为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫审判·激烈",
-        "type_cn": "磁星",
-        "id": "body_0158"
-      },
-      {
-        "name": "辉毁灭·壮阔·子",
-        "type_cn": "恒星",
-        "id": "body_0159"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "science": 1,
-      "astronomy": 1,
-      "music": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
   {
     "date": "2026-10-13",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、history、music、myth的交叉中诞生。遗迹、恒星携带着苍凉、希望的情绪，加入了星空。",
@@ -17376,21 +17494,50 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-11-20",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、science、myth、astronomy的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "尘星云·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0224"
+      },
+      {
+        "name": "墟治水·壮阔",
+        "type_cn": "星云",
+        "id": "body_0225"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "science": 2,
+      "myth": 1,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 223,
-  "chronicle_entries": 223,
+  "total_bodies": 225,
+  "chronicle_entries": 225,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
-    "白矮星": 21,
+    "白矮星": 22,
     "暗物质": 16,
     "虫洞": 14,
+    "星云": 13,
     "星系": 13,
     "超空洞": 13,
     "卫星": 12,
-    "星云": 12,
     "尘埃云": 11,
     "彗星": 11,
     "遗迹": 11,
@@ -17410,27 +17557,27 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 105,
-    "苍凉": 97,
+    "壮阔": 107,
+    "苍凉": 99,
     "诡谲": 87,
     "宁静": 74,
     "孤寂": 73,
-    "激烈": 59,
+    "激烈": 60,
     "未知": 57,
-    "神秘": 48,
+    "神秘": 49,
     "希望": 42,
-    "辽阔": 35,
+    "辽阔": 36,
     "激越": 31,
     "热闹": 7
   },
   "domain_distribution": {
+    "astronomy": 72,
     "philosophy": 72,
-    "astronomy": 71,
-    "myth": 64,
+    "myth": 65,
     "literature": 63,
-    "science": 43,
+    "science": 45,
     "cinema": 42,
-    "history": 38,
+    "history": 39,
     "music": 35,
     "geography": 34,
     "art": 29

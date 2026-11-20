@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-10-11",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。磁星、恒星在myth、science、astronomy、music的碰撞中绽放，情绪以激烈、壮阔为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫审判·激烈",
-        "type_cn": "磁星",
-        "id": "body_0158"
-      },
-      {
-        "name": "辉毁灭·壮阔·子",
-        "type_cn": "恒星",
-        "id": "body_0159"
-      }
-    ],
-    "mood_distribution": {
-      "激烈": 1,
-      "壮阔": 1
-    },
-    "domain_distribution": {
-      "myth": 1,
-      "science": 1,
-      "astronomy": 1,
-      "music": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-13",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、history、music、myth的交叉中诞生。遗迹、恒星携带着苍凉、希望的情绪，加入了星空。",
     "body_count": 4,
@@ -903,6 +874,35 @@
       "history": 2,
       "cinema": 1,
       "myth": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 1
+  },
+  {
+    "date": "2026-11-20",
+    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在history、science、myth、astronomy的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "尘星云·苍凉",
+        "type_cn": "白矮星",
+        "id": "body_0224"
+      },
+      {
+        "name": "墟治水·壮阔",
+        "type_cn": "星云",
+        "id": "body_0225"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "science": 2,
+      "myth": 1,
+      "astronomy": 1
     },
     "lineage_count": 0,
     "triple_count": 1

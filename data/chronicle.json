@@ -1559,5 +1559,19 @@
     "event": "genesis",
     "body_id": "body_0223",
     "summary": "第223纪元：astronomy×history碰撞，诞生流浪行星「辉丝路·未知」"
+  },
+  {
+    "epoch": 224,
+    "timestamp": "2026-11-20T23:40:57",
+    "event": "genesis",
+    "body_id": "body_0224",
+    "summary": "第224纪元：astronomy×science碰撞，诞生白矮星「尘星云·苍凉」"
+  },
+  {
+    "epoch": 225,
+    "timestamp": "2026-11-20T23:41:04",
+    "event": "genesis",
+    "body_id": "body_0225",
+    "summary": "第225纪元：myth×history碰撞，诞生星云「墟治水·壮阔」"
   }
 ]

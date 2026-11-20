@@ -11893,5 +11893,118 @@
       "size": 0.38,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0224",
+    "type": "white_dwarf",
+    "type_cn": "白矮星",
+    "name": "尘星云·苍凉",
+    "epoch": 224,
+    "born_at": "2026-11-20T23:40:57",
+    "collision_text": "「Stardust and Starlight…」穿过「宇宙终将走向热寂，所有恒星熄灭，一切归于绝对…」，留下一道苍凉的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_82",
+      "sci_07"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "Stardust and Starlight in M78",
+        "source": "NASA APOD 2019-03-08"
+      },
+      "b": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "星云",
+        "热寂"
+      ],
+      "domains": [
+        "astronomy",
+        "science"
+      ],
+      "intensity": 3,
+      "eras": [
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.41,
+      "luminosity": 0.58
+    }
+  },
+  {
+    "id": "body_0225",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "墟治水·壮阔",
+    "epoch": 225,
+    "born_at": "2026-11-20T23:41:04",
+    "collision_text": "「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」穿过「赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三…」和「DNA双螺旋：生命的全部密码写在四字母的分子…」，在混沌中凝成壮阔的星环。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "myth_15",
+      "his_01",
+      "sci_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      },
+      "b": {
+        "domain": "history",
+        "text": "赤壁江面火光冲天，东风借箭，樯橹灰飞烟灭，三分天下就此定格",
+        "source": "赤壁之战·公元208年"
+      },
+      "c": {
+        "domain": "science",
+        "text": "DNA双螺旋：生命的全部密码写在四字母的分子语言中，三十亿个字母构成一个人类",
+        "source": "分子生物学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "苍凉",
+        "激烈",
+        "神秘"
+      ],
+      "themes": [
+        "治水",
+        "烽火",
+        "密码"
+      ],
+      "domains": [
+        "myth",
+        "history",
+        "science"
+      ],
+      "intensity": 5,
+      "eras": [
+        "上古",
+        "古代",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.7,
+      "luminosity": 0.98
+    }
   }
 ]
