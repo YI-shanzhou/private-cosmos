@@ -1573,5 +1573,19 @@
     "event": "genesis",
     "body_id": "body_0225",
     "summary": "第225纪元：myth×history碰撞，诞生星云「墟治水·壮阔」"
+  },
+  {
+    "epoch": 226,
+    "timestamp": "2026-11-21T22:46:46",
+    "event": "lineage",
+    "body_id": "body_0226",
+    "summary": "第226纪元：虫洞「渊吞噬·诡谲」繁衍出第1代子嗣——虫洞「渊吞噬·未知·子」"
+  },
+  {
+    "epoch": 227,
+    "timestamp": "2026-11-21T22:46:52",
+    "event": "genesis",
+    "body_id": "body_0227",
+    "summary": "第227纪元：cinema×astronomy碰撞，诞生虚空「澜燃烧·未知」"
   }
 ]

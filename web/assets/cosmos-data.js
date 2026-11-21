@@ -12007,6 +12007,114 @@ window.COSMOS_DATA = [
       "size": 0.7,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0226",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊吞噬·未知·子",
+    "epoch": 226,
+    "born_at": "2026-11-21T22:46:46",
+    "collision_text": "「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江…」倒映在「A Large Space Station …」里，裂成一片未知的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_12",
+      "apo_51"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪",
+        "source": "柳宗元《江雪》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "寂灭"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#7f39f4",
+      "size": 0.59,
+      "luminosity": 0.13
+    },
+    "lineage": {
+      "parent_id": "body_0200",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0227",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "澜燃烧·未知",
+    "epoch": 227,
+    "born_at": "2026-11-21T22:46:52",
+    "collision_text": "当「摇滚乐手在舞台中央撕裂吉他独奏，聚光灯下汗水…」遇见「NASA Science」，未知的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_32",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "摇滚乐手在舞台中央撕裂吉他独奏，聚光灯下汗水飞溅，人群沸腾",
+        "source": "《波西米亚狂想曲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2008-06-16"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "激越",
+        "壮阔"
+      ],
+      "themes": [
+        "燃烧"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.36,
+      "luminosity": 0.63
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13584,6 +13692,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0225",
     "summary": "第225纪元：myth×history碰撞，诞生星云「墟治水·壮阔」"
+  },
+  {
+    "epoch": 226,
+    "timestamp": "2026-11-21T22:46:46",
+    "event": "lineage",
+    "body_id": "body_0226",
+    "summary": "第226纪元：虫洞「渊吞噬·诡谲」繁衍出第1代子嗣——虫洞「渊吞噬·未知·子」"
+  },
+  {
+    "epoch": 227,
+    "timestamp": "2026-11-21T22:46:52",
+    "event": "genesis",
+    "body_id": "body_0227",
+    "summary": "第227纪元：cinema×astronomy碰撞，诞生虚空「澜燃烧·未知」"
   }
 ];
 window.APOD_DATA = [
@@ -15557,6 +15679,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-09-28T22:56:20.686043"
   },
   {
+    "date": "2016-01-13",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2016-01-13.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-21T22:46:40.821621"
+  },
+  {
     "date": "2016-11-21",
     "title": "Nova over Thailand",
     "url": "https://apod.nasa.gov/apod/image/1611/NovaSag2016_Dai_1500_annotated.jpg",
@@ -16617,49 +16759,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-13",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在science、history、music、myth的交叉中诞生。遗迹、恒星携带着苍凉、希望的情绪，加入了星空。",
-    "body_count": 4,
-    "new_bodies": [
-      {
-        "name": "焰信仰·未知",
-        "type_cn": "流浪行星",
-        "id": "body_0160"
-      },
-      {
-        "name": "茫告别·神秘·子",
-        "type_cn": "遗迹",
-        "id": "body_0161"
-      },
-      {
-        "name": "辉编织·苍凉",
-        "type_cn": "遗迹",
-        "id": "body_0162"
-      },
-      {
-        "name": "渊登月·希望",
-        "type_cn": "恒星",
-        "id": "body_0163"
-      }
-    ],
-    "mood_distribution": {
-      "未知": 1,
-      "神秘": 1,
-      "希望": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "philosophy": 2,
-      "astronomy": 1,
-      "music": 2,
-      "science": 2,
-      "history": 1,
-      "myth": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-14",
     "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、music、philosophy、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
     "body_count": 2,
@@ -17523,17 +17622,44 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 1
+  },
+  {
+    "date": "2026-11-21",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虫洞、虚空在cinema、astronomy、literature的碰撞中绽放，情绪以未知、未知为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渊吞噬·未知·子",
+        "type_cn": "虫洞",
+        "id": "body_0226"
+      },
+      {
+        "name": "澜燃烧·未知",
+        "type_cn": "虚空",
+        "id": "body_0227"
+      }
+    ],
+    "mood_distribution": {
+      "未知": 2
+    },
+    "domain_distribution": {
+      "cinema": 1,
+      "astronomy": 2,
+      "literature": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 225,
-  "chronicle_entries": 225,
+  "total_bodies": 227,
+  "chronicle_entries": 227,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
     "白矮星": 22,
     "暗物质": 16,
-    "虫洞": 14,
+    "虫洞": 15,
     "星云": 13,
     "星系": 13,
     "超空洞": 13,
@@ -17542,7 +17668,7 @@ window.COSMOS_STATS = {
     "彗星": 11,
     "遗迹": 11,
     "黑洞": 11,
-    "虚空": 8,
+    "虚空": 9,
     "超新星": 7,
     "恒星": 6,
     "行星": 6,
@@ -17557,26 +17683,26 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 107,
-    "苍凉": 99,
+    "壮阔": 108,
+    "苍凉": 100,
     "诡谲": 87,
+    "孤寂": 74,
     "宁静": 74,
-    "孤寂": 73,
     "激烈": 60,
-    "未知": 57,
+    "未知": 59,
     "神秘": 49,
     "希望": 42,
     "辽阔": 36,
-    "激越": 31,
+    "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
-    "astronomy": 72,
+    "astronomy": 74,
     "philosophy": 72,
     "myth": 65,
-    "literature": 63,
+    "literature": 64,
     "science": 45,
-    "cinema": 42,
+    "cinema": 43,
     "history": 39,
     "music": 35,
     "geography": 34,
@@ -17584,9 +17710,9 @@ window.COSMOS_STATS = {
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 34,
+    "lineage_bodies": 35,
     "distribution": {
-      "第1代": 31,
+      "第1代": 32,
       "第2代": 3
     }
   }

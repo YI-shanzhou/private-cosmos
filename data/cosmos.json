@@ -12006,5 +12006,113 @@
       "size": 0.7,
       "luminosity": 0.98
     }
+  },
+  {
+    "id": "body_0226",
+    "type": "wormhole",
+    "type_cn": "虫洞",
+    "name": "渊吞噬·未知·子",
+    "epoch": 226,
+    "born_at": "2026-11-21T22:46:46",
+    "collision_text": "「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江…」倒映在「A Large Space Station …」里，裂成一片未知的星云。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_12",
+      "apo_51"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪",
+        "source": "柳宗元《江雪》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "A Large Space Station Over Earth",
+        "source": "NASA APOD 2010-04-14"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "孤寂",
+        "苍凉"
+      ],
+      "themes": [
+        "寂灭"
+      ],
+      "domains": [
+        "literature",
+        "astronomy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "宋"
+      ]
+    },
+    "visual": {
+      "color": "#7f39f4",
+      "size": 0.59,
+      "luminosity": 0.13
+    },
+    "lineage": {
+      "parent_id": "body_0200",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0227",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "澜燃烧·未知",
+    "epoch": 227,
+    "born_at": "2026-11-21T22:46:52",
+    "collision_text": "当「摇滚乐手在舞台中央撕裂吉他独奏，聚光灯下汗水…」遇见「NASA Science」，未知的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_32",
+      "apo_44"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "摇滚乐手在舞台中央撕裂吉他独奏，聚光灯下汗水飞溅，人群沸腾",
+        "source": "《波西米亚狂想曲》"
+      },
+      "b": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2008-06-16"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "激越",
+        "壮阔"
+      ],
+      "themes": [
+        "燃烧"
+      ],
+      "domains": [
+        "cinema",
+        "astronomy"
+      ],
+      "intensity": 5,
+      "eras": [
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.36,
+      "luminosity": 0.63
+    }
   }
 ]
