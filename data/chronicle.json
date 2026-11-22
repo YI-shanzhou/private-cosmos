@@ -1587,5 +1587,19 @@
     "event": "genesis",
     "body_id": "body_0227",
     "summary": "第227纪元：cinema×astronomy碰撞，诞生虚空「澜燃烧·未知」"
+  },
+  {
+    "epoch": 228,
+    "timestamp": "2026-11-22T23:15:02",
+    "event": "genesis",
+    "body_id": "body_0228",
+    "summary": "第228纪元：science×cinema碰撞，诞生星系「茫热寂·辽阔」"
+  },
+  {
+    "epoch": 229,
+    "timestamp": "2026-11-22T23:15:10",
+    "event": "lineage",
+    "body_id": "body_0229",
+    "summary": "第229纪元：星系「尘星河·壮阔」繁衍出第1代子嗣——星系「尘星河·苍凉·子」"
   }
 ]

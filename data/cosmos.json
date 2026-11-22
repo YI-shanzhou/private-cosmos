@@ -12114,5 +12114,117 @@
       "size": 0.36,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0228",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "茫热寂·辽阔",
+    "epoch": 228,
+    "born_at": "2026-11-22T23:15:02",
+    "collision_text": "恒星群如羚羊奔过",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_07",
+      "cin_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "热寂",
+        "奔跑"
+      ],
+      "domains": [
+        "science",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.92,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0229",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·苍凉·子",
+    "epoch": 229,
+    "born_at": "2026-11-22T23:15:10",
+    "collision_text": "「二泉映月」穿过「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」，留下一道苍凉的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_26",
+      "myth_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "月下",
+        "治水"
+      ],
+      "domains": [
+        "music",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#604efa",
+      "size": 1.11,
+      "luminosity": 0.66
+    },
+    "lineage": {
+      "parent_id": "body_0045",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

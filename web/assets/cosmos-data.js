@@ -12115,6 +12115,118 @@ window.COSMOS_DATA = [
       "size": 0.36,
       "luminosity": 0.63
     }
+  },
+  {
+    "id": "body_0228",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "茫热寂·辽阔",
+    "epoch": 228,
+    "born_at": "2026-11-22T23:15:02",
+    "collision_text": "恒星群如羚羊奔过",
+    "collision_mode": "deepseek",
+    "collision_type": "dual",
+    "parents": [
+      "sci_07",
+      "cin_25"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "宇宙终将走向热寂，所有恒星熄灭，一切归于绝对零度的永恒黑暗",
+        "source": "热寂说"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "黄昏的草原上，羚羊群在落日中奔跑，大地在蹄声中震颤",
+        "source": "《走出非洲》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "辽阔",
+        "苍凉",
+        "壮阔"
+      ],
+      "themes": [
+        "热寂",
+        "奔跑"
+      ],
+      "domains": [
+        "science",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#0EA5E9",
+      "size": 0.92,
+      "luminosity": 0.76
+    }
+  },
+  {
+    "id": "body_0229",
+    "type": "galaxy",
+    "type_cn": "星系",
+    "name": "尘星河·苍凉·子",
+    "epoch": 229,
+    "born_at": "2026-11-22T23:15:10",
+    "collision_text": "「二泉映月」穿过「鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊」，留下一道苍凉的尾迹。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "mus_26",
+      "myth_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "music",
+        "text": "二泉映月",
+        "source": "阿炳"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "鲧窃天帝息壤以埋洪水，天帝命祝融杀鲧于羽郊",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "孤寂",
+        "壮阔"
+      ],
+      "themes": [
+        "月下",
+        "治水"
+      ],
+      "domains": [
+        "music",
+        "myth"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#604efa",
+      "size": 1.11,
+      "luminosity": 0.66
+    },
+    "lineage": {
+      "parent_id": "body_0045",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13706,6 +13818,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0227",
     "summary": "第227纪元：cinema×astronomy碰撞，诞生虚空「澜燃烧·未知」"
+  },
+  {
+    "epoch": 228,
+    "timestamp": "2026-11-22T23:15:02",
+    "event": "genesis",
+    "body_id": "body_0228",
+    "summary": "第228纪元：science×cinema碰撞，诞生星系「茫热寂·辽阔」"
+  },
+  {
+    "epoch": 229,
+    "timestamp": "2026-11-22T23:15:10",
+    "event": "lineage",
+    "body_id": "body_0229",
+    "summary": "第229纪元：星系「尘星河·壮阔」繁衍出第1代子嗣——星系「尘星河·苍凉·子」"
   }
 ];
 window.APOD_DATA = [
@@ -15112,6 +15238,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-15T20:52:41.507317"
+  },
+  {
+    "date": "2009-12-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2009-12-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-22T23:15:00.498885"
   },
   {
     "date": "2010-04-14",
@@ -16759,35 +16905,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-14",
-    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。虚空、流浪行星在cinema、music、philosophy、myth的碰撞中绽放，情绪以苍凉、诡谲为主导。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "渊重生·苍凉",
-        "type_cn": "虚空",
-        "id": "body_0164"
-      },
-      {
-        "name": "渺星座·诡谲·子",
-        "type_cn": "流浪行星",
-        "id": "body_0165"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "cinema": 2,
-      "music": 1,
-      "philosophy": 1,
-      "myth": 1
-    },
-    "lineage_count": 1,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-15",
     "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、history、literature、myth、philosophy、music的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
     "body_count": 2,
@@ -17649,19 +17766,48 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-22",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星系、星系在myth、music、science、cinema的碰撞中绽放，情绪以辽阔、苍凉为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "茫热寂·辽阔",
+        "type_cn": "星系",
+        "id": "body_0228"
+      },
+      {
+        "name": "尘星河·苍凉·子",
+        "type_cn": "星系",
+        "id": "body_0229"
+      }
+    ],
+    "mood_distribution": {
+      "辽阔": 1,
+      "苍凉": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "music": 1,
+      "science": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 227,
-  "chronicle_entries": 227,
+  "total_bodies": 229,
+  "chronicle_entries": 229,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
     "白矮星": 22,
     "暗物质": 16,
+    "星系": 15,
     "虫洞": 15,
     "星云": 13,
-    "星系": 13,
     "超空洞": 13,
     "卫星": 12,
     "尘埃云": 11,
@@ -17683,36 +17829,36 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 108,
-    "苍凉": 100,
+    "壮阔": 110,
+    "苍凉": 102,
     "诡谲": 87,
-    "孤寂": 74,
+    "孤寂": 75,
     "宁静": 74,
     "激烈": 60,
     "未知": 59,
     "神秘": 49,
     "希望": 42,
-    "辽阔": 36,
+    "辽阔": 37,
     "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
     "astronomy": 74,
     "philosophy": 72,
-    "myth": 65,
+    "myth": 66,
     "literature": 64,
-    "science": 45,
-    "cinema": 43,
+    "science": 46,
+    "cinema": 44,
     "history": 39,
-    "music": 35,
+    "music": 36,
     "geography": 34,
     "art": 29
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 35,
+    "lineage_bodies": 36,
     "distribution": {
-      "第1代": 32,
+      "第1代": 33,
       "第2代": 3
     }
   }
