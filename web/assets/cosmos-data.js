@@ -12227,6 +12227,111 @@ window.COSMOS_DATA = [
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0230",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "辉永恒·神秘",
+    "epoch": 230,
+    "born_at": "2026-11-25T01:55:12",
+    "collision_text": "「江畔何人初见月，江月何年初照人。人生代代无穷…」与「神经元以电信号传递信息，860亿个神经元组成…」相互缠绕，坍缩成一粒神秘的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_36",
+      "sci_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "江畔何人初见月，江月何年初照人。人生代代无穷已，江月年年望相似",
+        "source": "张若虚《春江花月夜》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "辽阔",
+        "壮阔"
+      ],
+      "themes": [
+        "永恒",
+        "意识"
+      ],
+      "domains": [
+        "literature",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.62,
+      "luminosity": 0.38
+    }
+  },
+  {
+    "id": "body_0231",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "寂信仰·神秘",
+    "epoch": 231,
+    "born_at": "2026-11-25T01:55:19",
+    "collision_text": "「上帝已死」被「两个时空中的同一个人隔着一面镜子对望，时间在…」点燃，烧成一片神秘的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_05",
+      "cin_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开",
+        "source": "《彗星来的那一夜》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "信仰",
+        "平行"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.87,
+      "luminosity": 0.31
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13832,6 +13937,20 @@ window.CHRONICLE_DATA = [
     "event": "lineage",
     "body_id": "body_0229",
     "summary": "第229纪元：星系「尘星河·壮阔」繁衍出第1代子嗣——星系「尘星河·苍凉·子」"
+  },
+  {
+    "epoch": 230,
+    "timestamp": "2026-11-25T01:55:12",
+    "event": "genesis",
+    "body_id": "body_0230",
+    "summary": "第230纪元：literature×science碰撞，诞生暗星云「辉永恒·神秘」"
+  },
+  {
+    "epoch": 231,
+    "timestamp": "2026-11-25T01:55:19",
+    "event": "genesis",
+    "body_id": "body_0231",
+    "summary": "第231纪元：philosophy×cinema碰撞，诞生暗星云「寂信仰·神秘」"
   }
 ];
 window.APOD_DATA = [
@@ -15353,6 +15472,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-09-21T21:42:37.776098"
+  },
+  {
+    "date": "2012-01-10",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2012-01-10.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-25T01:55:03.693245"
   },
   {
     "date": "2012-04-17",
@@ -16905,37 +17044,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-15",
-    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在science、history、literature、myth、philosophy、music的交叉中诞生。白矮星、星云携带着苍凉、壮阔的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "幽幻象·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0166"
-      },
-      {
-        "name": "尘英雄·壮阔",
-        "type_cn": "星云",
-        "id": "body_0167"
-      }
-    ],
-    "mood_distribution": {
-      "壮阔": 1,
-      "苍凉": 1
-    },
-    "domain_distribution": {
-      "science": 1,
-      "history": 1,
-      "literature": 1,
-      "myth": 1,
-      "philosophy": 1,
-      "music": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 2
-  },
-  {
     "date": "2026-10-16",
     "summary": "今日宇宙又长大了——2颗新天体在literature、history、music、philosophy领域的碰撞中诞生。虫洞、流浪行星们带着诡谲、孤寂的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -17795,11 +17903,39 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-25",
+    "summary": "今日宇宙又长大了——2颗新天体在science、cinema、philosophy、literature领域的碰撞中诞生。暗星云、暗星云们带着神秘、神秘的情绪，在星空中找到了自己的位置。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "辉永恒·神秘",
+        "type_cn": "暗星云",
+        "id": "body_0230"
+      },
+      {
+        "name": "寂信仰·神秘",
+        "type_cn": "暗星云",
+        "id": "body_0231"
+      }
+    ],
+    "mood_distribution": {
+      "神秘": 2
+    },
+    "domain_distribution": {
+      "science": 1,
+      "cinema": 1,
+      "philosophy": 1,
+      "literature": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 229,
-  "chronicle_entries": 229,
+  "total_bodies": 231,
+  "chronicle_entries": 231,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
@@ -17821,34 +17957,34 @@ window.COSMOS_STATS = {
     "类星体": 5,
     "脉冲星": 5,
     "原恒星": 4,
+    "暗星云": 4,
     "磁星": 4,
     "星团": 3,
     "耀变体": 3,
-    "暗星云": 2,
     "蓝巨星": 2,
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 110,
-    "苍凉": 102,
-    "诡谲": 87,
+    "壮阔": 111,
+    "苍凉": 103,
+    "诡谲": 88,
     "孤寂": 75,
     "宁静": 74,
-    "激烈": 60,
+    "激烈": 61,
     "未知": 59,
-    "神秘": 49,
+    "神秘": 51,
     "希望": 42,
-    "辽阔": 37,
+    "辽阔": 38,
     "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
     "astronomy": 74,
-    "philosophy": 72,
+    "philosophy": 73,
     "myth": 66,
-    "literature": 64,
-    "science": 46,
-    "cinema": 44,
+    "literature": 65,
+    "science": 47,
+    "cinema": 45,
     "history": 39,
     "music": 36,
     "geography": 34,

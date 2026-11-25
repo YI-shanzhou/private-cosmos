@@ -12226,5 +12226,110 @@
         "color"
       ]
     }
+  },
+  {
+    "id": "body_0230",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "辉永恒·神秘",
+    "epoch": 230,
+    "born_at": "2026-11-25T01:55:12",
+    "collision_text": "「江畔何人初见月，江月何年初照人。人生代代无穷…」与「神经元以电信号传递信息，860亿个神经元组成…」相互缠绕，坍缩成一粒神秘的奇点。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "lit_36",
+      "sci_15"
+    ],
+    "composition": {
+      "a": {
+        "domain": "literature",
+        "text": "江畔何人初见月，江月何年初照人。人生代代无穷已，江月年年望相似",
+        "source": "张若虚《春江花月夜》"
+      },
+      "b": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "苍凉",
+        "辽阔",
+        "壮阔"
+      ],
+      "themes": [
+        "永恒",
+        "意识"
+      ],
+      "domains": [
+        "literature",
+        "science"
+      ],
+      "intensity": 4,
+      "eras": [
+        "唐",
+        "现代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.62,
+      "luminosity": 0.38
+    }
+  },
+  {
+    "id": "body_0231",
+    "type": "dark_nebula",
+    "type_cn": "暗星云",
+    "name": "寂信仰·神秘",
+    "epoch": 231,
+    "born_at": "2026-11-25T01:55:19",
+    "collision_text": "「上帝已死」被「两个时空中的同一个人隔着一面镜子对望，时间在…」点燃，烧成一片神秘的余烬。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "phi_05",
+      "cin_21"
+    ],
+    "composition": {
+      "a": {
+        "domain": "philosophy",
+        "text": "上帝已死",
+        "source": "尼采"
+      },
+      "b": {
+        "domain": "cinema",
+        "text": "两个时空中的同一个人隔着一面镜子对望，时间在玻璃上裂开",
+        "source": "《彗星来的那一夜》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "神秘",
+        "激烈",
+        "诡谲"
+      ],
+      "themes": [
+        "信仰",
+        "平行"
+      ],
+      "domains": [
+        "philosophy",
+        "cinema"
+      ],
+      "intensity": 5,
+      "eras": [
+        "近代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#8B5CF6",
+      "size": 0.87,
+      "luminosity": 0.31
+    }
   }
 ]
