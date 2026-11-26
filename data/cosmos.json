@@ -12331,5 +12331,116 @@
       "size": 0.87,
       "luminosity": 0.31
     }
+  },
+  {
+    "id": "body_0232",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦变化·诡谲·子",
+    "epoch": 232,
+    "born_at": "2026-11-26T01:34:47",
+    "collision_text": "「雨中的赛博朋克城市，霓虹倒映在积水的街道上，…」吞下「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」，吐出一段诡谲的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_04",
+      "his_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "雨中的赛博朋克城市，霓虹倒映在积水的街道上，复制人在雨中述说看见的奇观",
+        "source": "《银翼杀手》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "辽阔",
+        "宁静"
+      ],
+      "themes": [
+        "雨夜",
+        "丝路"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#703af4",
+      "size": 0.6,
+      "luminosity": 0.66
+    },
+    "lineage": {
+      "parent_id": "body_0012",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0233",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "渊相思·孤寂",
+    "epoch": 233,
+    "born_at": "2026-11-26T01:34:54",
+    "collision_text": "当「NASA Science」遇见「牛郎织女隔银河相望，每年七夕鹊桥相会一次」，孤寂的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_92",
+      "myth_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2022-05-19"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知",
+        "希望"
+      ],
+      "themes": [
+        "相思"
+      ],
+      "domains": [
+        "astronomy",
+        "myth"
+      ],
+      "intensity": 2,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.82,
+      "luminosity": 0.96
+    }
   }
 ]

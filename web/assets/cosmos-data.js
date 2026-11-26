@@ -12332,6 +12332,117 @@ window.COSMOS_DATA = [
       "size": 0.87,
       "luminosity": 0.31
     }
+  },
+  {
+    "id": "body_0232",
+    "type": "dark_matter",
+    "type_cn": "暗物质",
+    "name": "弦变化·诡谲·子",
+    "epoch": 232,
+    "born_at": "2026-11-26T01:34:47",
+    "collision_text": "「雨中的赛博朋克城市，霓虹倒映在积水的街道上，…」吞下「丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，…」，吐出一段诡谲的回响。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "cin_04",
+      "his_05"
+    ],
+    "composition": {
+      "a": {
+        "domain": "cinema",
+        "text": "雨中的赛博朋克城市，霓虹倒映在积水的街道上，复制人在雨中述说看见的奇观",
+        "source": "《银翼杀手》"
+      },
+      "b": {
+        "domain": "history",
+        "text": "丝绸之路驼铃万里，茶叶、丝绸与香料穿越沙漠，东西方在商队篝火旁第一次握手",
+        "source": "丝绸之路·公元前2世纪"
+      }
+    },
+    "tags": {
+      "moods": [
+        "诡谲",
+        "苍凉",
+        "辽阔",
+        "宁静"
+      ],
+      "themes": [
+        "雨夜",
+        "丝路"
+      ],
+      "domains": [
+        "cinema",
+        "history"
+      ],
+      "intensity": 4,
+      "eras": [
+        "当代",
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#703af4",
+      "size": 0.6,
+      "luminosity": 0.66
+    },
+    "lineage": {
+      "parent_id": "body_0012",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
+  },
+  {
+    "id": "body_0233",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "渊相思·孤寂",
+    "epoch": 233,
+    "born_at": "2026-11-26T01:34:54",
+    "collision_text": "当「NASA Science」遇见「牛郎织女隔银河相望，每年七夕鹊桥相会一次」，孤寂的引力把它们拧成了新的轨道。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_92",
+      "myth_14"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2022-05-19"
+      },
+      "b": {
+        "domain": "myth",
+        "text": "牛郎织女隔银河相望，每年七夕鹊桥相会一次",
+        "source": "中国神话"
+      }
+    },
+    "tags": {
+      "moods": [
+        "孤寂",
+        "未知",
+        "希望"
+      ],
+      "themes": [
+        "相思"
+      ],
+      "domains": [
+        "astronomy",
+        "myth"
+      ],
+      "intensity": 2,
+      "eras": [
+        "上古"
+      ]
+    },
+    "visual": {
+      "color": "#475569",
+      "size": 0.82,
+      "luminosity": 0.96
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -13951,6 +14062,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0231",
     "summary": "第231纪元：philosophy×cinema碰撞，诞生暗星云「寂信仰·神秘」"
+  },
+  {
+    "epoch": 232,
+    "timestamp": "2026-11-26T01:34:47",
+    "event": "lineage",
+    "body_id": "body_0232",
+    "summary": "第232纪元：暗物质「弦变化·诡谲」繁衍出第1代子嗣——暗物质「弦变化·诡谲·子」"
+  },
+  {
+    "epoch": 233,
+    "timestamp": "2026-11-26T01:34:54",
+    "event": "genesis",
+    "body_id": "body_0233",
+    "summary": "第233纪元：astronomy×myth碰撞，诞生虚空「渊相思·孤寂」"
   }
 ];
 window.APOD_DATA = [
@@ -15984,6 +16109,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-11-21T22:46:40.821621"
   },
   {
+    "date": "2016-10-26",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2016-10-26.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-26T01:34:39.705524"
+  },
+  {
     "date": "2016-11-21",
     "title": "Nova over Thailand",
     "url": "https://apod.nasa.gov/apod/image/1611/NovaSag2016_Dai_1500_annotated.jpg",
@@ -17044,35 +17189,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-16",
-    "summary": "今日宇宙又长大了——2颗新天体在literature、history、music、philosophy领域的碰撞中诞生。虫洞、流浪行星们带着诡谲、孤寂的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "寂凝固·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0168"
-      },
-      {
-        "name": "渊变革·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0169"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "literature": 1,
-      "history": 1,
-      "music": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-17",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在geography、cinema、literature、history、philosophy的交叉中诞生。星系、黑洞携带着辽阔、诡谲的情绪，加入了星空。",
     "body_count": 2,
@@ -17931,16 +18047,45 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-26",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。暗物质、虚空在myth、history、astronomy、cinema的碰撞中绽放，情绪以诡谲、孤寂为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦变化·诡谲·子",
+        "type_cn": "暗物质",
+        "id": "body_0232"
+      },
+      {
+        "name": "渊相思·孤寂",
+        "type_cn": "虚空",
+        "id": "body_0233"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "history": 1,
+      "astronomy": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 231,
-  "chronicle_entries": 231,
+  "total_bodies": 233,
+  "chronicle_entries": 233,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
     "白矮星": 22,
-    "暗物质": 16,
+    "暗物质": 17,
     "星系": 15,
     "虫洞": 15,
     "星云": 13,
@@ -17950,7 +18095,7 @@ window.COSMOS_STATS = {
     "彗星": 11,
     "遗迹": 11,
     "黑洞": 11,
-    "虚空": 9,
+    "虚空": 10,
     "超新星": 7,
     "恒星": 6,
     "行星": 6,
@@ -17966,35 +18111,35 @@ window.COSMOS_STATS = {
   },
   "mood_distribution": {
     "壮阔": 111,
-    "苍凉": 103,
-    "诡谲": 88,
-    "孤寂": 75,
-    "宁静": 74,
+    "苍凉": 104,
+    "诡谲": 89,
+    "孤寂": 76,
+    "宁静": 75,
     "激烈": 61,
-    "未知": 59,
+    "未知": 60,
     "神秘": 51,
-    "希望": 42,
-    "辽阔": 38,
+    "希望": 43,
+    "辽阔": 39,
     "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
-    "astronomy": 74,
+    "astronomy": 75,
     "philosophy": 73,
-    "myth": 66,
+    "myth": 67,
     "literature": 65,
     "science": 47,
-    "cinema": 45,
-    "history": 39,
+    "cinema": 46,
+    "history": 40,
     "music": 36,
     "geography": 34,
     "art": 29
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 36,
+    "lineage_bodies": 37,
     "distribution": {
-      "第1代": 33,
+      "第1代": 34,
       "第2代": 3
     }
   }

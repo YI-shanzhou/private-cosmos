@@ -1615,5 +1615,19 @@
     "event": "genesis",
     "body_id": "body_0231",
     "summary": "第231纪元：philosophy×cinema碰撞，诞生暗星云「寂信仰·神秘」"
+  },
+  {
+    "epoch": 232,
+    "timestamp": "2026-11-26T01:34:47",
+    "event": "lineage",
+    "body_id": "body_0232",
+    "summary": "第232纪元：暗物质「弦变化·诡谲」繁衍出第1代子嗣——暗物质「弦变化·诡谲·子」"
+  },
+  {
+    "epoch": 233,
+    "timestamp": "2026-11-26T01:34:54",
+    "event": "genesis",
+    "body_id": "body_0233",
+    "summary": "第233纪元：astronomy×myth碰撞，诞生虚空「渊相思·孤寂」"
   }
 ]

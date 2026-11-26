@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-10-16",
-    "summary": "今日宇宙又长大了——2颗新天体在literature、history、music、philosophy领域的碰撞中诞生。虫洞、流浪行星们带着诡谲、孤寂的情绪，在星空中找到了自己的位置。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "寂凝固·诡谲",
-        "type_cn": "虫洞",
-        "id": "body_0168"
-      },
-      {
-        "name": "渊变革·孤寂",
-        "type_cn": "流浪行星",
-        "id": "body_0169"
-      }
-    ],
-    "mood_distribution": {
-      "诡谲": 1,
-      "孤寂": 1
-    },
-    "domain_distribution": {
-      "literature": 1,
-      "history": 1,
-      "music": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 0
-  },
-  {
     "date": "2026-10-17",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在geography、cinema、literature、history、philosophy的交叉中诞生。星系、黑洞携带着辽阔、诡谲的情绪，加入了星空。",
     "body_count": 2,
@@ -886,6 +857,35 @@
       "literature": 1
     },
     "lineage_count": 0,
+    "triple_count": 0
+  },
+  {
+    "date": "2026-11-26",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。暗物质、虚空在myth、history、astronomy、cinema的碰撞中绽放，情绪以诡谲、孤寂为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "弦变化·诡谲·子",
+        "type_cn": "暗物质",
+        "id": "body_0232"
+      },
+      {
+        "name": "渊相思·孤寂",
+        "type_cn": "虚空",
+        "id": "body_0233"
+      }
+    ],
+    "mood_distribution": {
+      "孤寂": 1,
+      "诡谲": 1
+    },
+    "domain_distribution": {
+      "myth": 1,
+      "history": 1,
+      "astronomy": 1,
+      "cinema": 1
+    },
+    "lineage_count": 1,
     "triple_count": 0
   }
 ]
