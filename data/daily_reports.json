@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-10-17",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在geography、cinema、literature、history、philosophy的交叉中诞生。星系、黑洞携带着辽阔、诡谲的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰密码·辽阔",
-        "type_cn": "星系",
-        "id": "body_0170"
-      },
-      {
-        "name": "墟盐海·诡谲",
-        "type_cn": "黑洞",
-        "id": "body_0171"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "cinema": 1,
-      "literature": 1,
-      "history": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-18",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、cinema、history、science、astronomy的交叉中诞生。尘埃云、白矮星携带着未知、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -887,5 +857,35 @@
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-27",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、philosophy、cinema、geography、astronomy的交叉中诞生。虚空、虚空携带着未知、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜太阳·未知",
+        "type_cn": "虚空",
+        "id": "body_0234"
+      },
+      {
+        "name": "寂冰封·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0235"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "未知": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "philosophy": 1,
+      "cinema": 1,
+      "geography": 2,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ]

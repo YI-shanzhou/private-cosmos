@@ -12443,6 +12443,129 @@ window.COSMOS_DATA = [
       "size": 0.82,
       "luminosity": 0.96
     }
+  },
+  {
+    "id": "body_0234",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "澜太阳·未知",
+    "epoch": 234,
+    "born_at": "2026-11-27T01:29:30",
+    "collision_text": "「A Martian Halloween」「亚马逊雨林的树冠层中，每平方米有超过四百种生…」「至人无己，神人无功，圣人无名」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_36",
+      "geo_05",
+      "phi_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Martian Halloween",
+        "source": "NASA APOD 2005-10-31"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "至人无己，神人无功，圣人无名",
+        "source": "庄子《逍遥游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "神秘",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "太阳",
+        "雨林",
+        "逍遥"
+      ],
+      "domains": [
+        "astronomy",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.68,
+      "luminosity": 0.88
+    }
+  },
+  {
+    "id": "body_0235",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "寂冰封·苍凉",
+    "epoch": 235,
+    "born_at": "2026-11-27T01:29:38",
+    "collision_text": "「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」「图灵用一台机器破译了恩尼格码，却因性向被化学…」「末世废土上，一辆卡车载着最后的种子驶向远方的…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_07",
+      "his_10",
+      "cin_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "b": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "末世废土上，一辆卡车载着最后的种子驶向远方的山",
+        "source": "《疯狂的麦克斯4》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "冰封",
+        "密码",
+        "种子"
+      ],
+      "domains": [
+        "geography",
+        "history",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.69,
+      "luminosity": 0.77
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -14076,6 +14199,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0233",
     "summary": "第233纪元：astronomy×myth碰撞，诞生虚空「渊相思·孤寂」"
+  },
+  {
+    "epoch": 234,
+    "timestamp": "2026-11-27T01:29:30",
+    "event": "genesis",
+    "body_id": "body_0234",
+    "summary": "第234纪元：astronomy×geography碰撞，诞生虚空「澜太阳·未知」"
+  },
+  {
+    "epoch": 235,
+    "timestamp": "2026-11-27T01:29:38",
+    "event": "genesis",
+    "body_id": "body_0235",
+    "summary": "第235纪元：geography×history碰撞，诞生虚空「寂冰封·苍凉」"
   }
 ];
 window.APOD_DATA = [
@@ -14503,6 +14640,26 @@ window.APOD_DATA = [
       "domain": "astronomy"
     },
     "fetched_at": "2026-10-11T21:29:42.584958"
+  },
+  {
+    "date": "2001-08-03",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2001-08-03.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-27T01:29:22.844661"
   },
   {
     "date": "2001-08-06",
@@ -17189,36 +17346,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-17",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在geography、cinema、literature、history、philosophy的交叉中诞生。星系、黑洞携带着辽阔、诡谲的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "焰密码·辽阔",
-        "type_cn": "星系",
-        "id": "body_0170"
-      },
-      {
-        "name": "墟盐海·诡谲",
-        "type_cn": "黑洞",
-        "id": "body_0171"
-      }
-    ],
-    "mood_distribution": {
-      "辽阔": 1,
-      "诡谲": 1
-    },
-    "domain_distribution": {
-      "geography": 1,
-      "cinema": 1,
-      "literature": 1,
-      "history": 1,
-      "philosophy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-18",
     "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、cinema、history、science、astronomy的交叉中诞生。尘埃云、白矮星携带着未知、苍凉的情绪，加入了星空。",
     "body_count": 2,
@@ -18076,11 +18203,41 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 1,
     "triple_count": 0
+  },
+  {
+    "date": "2026-11-27",
+    "summary": "今日宇宙经历了2次三体混沌碰撞，2颗新天体在history、philosophy、cinema、geography、astronomy的交叉中诞生。虚空、虚空携带着未知、苍凉的情绪，加入了星空。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "澜太阳·未知",
+        "type_cn": "虚空",
+        "id": "body_0234"
+      },
+      {
+        "name": "寂冰封·苍凉",
+        "type_cn": "虚空",
+        "id": "body_0235"
+      }
+    ],
+    "mood_distribution": {
+      "苍凉": 1,
+      "未知": 1
+    },
+    "domain_distribution": {
+      "history": 1,
+      "philosophy": 1,
+      "cinema": 1,
+      "geography": 2,
+      "astronomy": 1
+    },
+    "lineage_count": 0,
+    "triple_count": 2
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 233,
-  "chronicle_entries": 233,
+  "total_bodies": 235,
+  "chronicle_entries": 235,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
@@ -18091,11 +18248,11 @@ window.COSMOS_STATS = {
     "星云": 13,
     "超空洞": 13,
     "卫星": 12,
+    "虚空": 12,
     "尘埃云": 11,
     "彗星": 11,
     "遗迹": 11,
     "黑洞": 11,
-    "虚空": 10,
     "超新星": 7,
     "恒星": 6,
     "行星": 6,
@@ -18110,29 +18267,29 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 111,
-    "苍凉": 104,
-    "诡谲": 89,
-    "孤寂": 76,
+    "壮阔": 112,
+    "苍凉": 105,
+    "诡谲": 90,
+    "孤寂": 77,
     "宁静": 75,
+    "未知": 61,
     "激烈": 61,
-    "未知": 60,
-    "神秘": 51,
+    "神秘": 53,
     "希望": 43,
-    "辽阔": 39,
+    "辽阔": 40,
     "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
-    "astronomy": 75,
-    "philosophy": 73,
+    "astronomy": 76,
+    "philosophy": 74,
     "myth": 67,
     "literature": 65,
+    "cinema": 47,
     "science": 47,
-    "cinema": 46,
-    "history": 40,
+    "history": 41,
+    "geography": 36,
     "music": 36,
-    "geography": 34,
     "art": 29
   },
   "generation": {

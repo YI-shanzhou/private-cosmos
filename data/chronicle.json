@@ -1629,5 +1629,19 @@
     "event": "genesis",
     "body_id": "body_0233",
     "summary": "第233纪元：astronomy×myth碰撞，诞生虚空「渊相思·孤寂」"
+  },
+  {
+    "epoch": 234,
+    "timestamp": "2026-11-27T01:29:30",
+    "event": "genesis",
+    "body_id": "body_0234",
+    "summary": "第234纪元：astronomy×geography碰撞，诞生虚空「澜太阳·未知」"
+  },
+  {
+    "epoch": 235,
+    "timestamp": "2026-11-27T01:29:38",
+    "event": "genesis",
+    "body_id": "body_0235",
+    "summary": "第235纪元：geography×history碰撞，诞生虚空「寂冰封·苍凉」"
   }
 ]

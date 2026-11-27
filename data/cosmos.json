@@ -12442,5 +12442,128 @@
       "size": 0.82,
       "luminosity": 0.96
     }
+  },
+  {
+    "id": "body_0234",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "澜太阳·未知",
+    "epoch": 234,
+    "born_at": "2026-11-27T01:29:30",
+    "collision_text": "「A Martian Halloween」「亚马逊雨林的树冠层中，每平方米有超过四百种生…」「至人无己，神人无功，圣人无名」三者在虚空中相撞，坍缩成一粒未知的奇点。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "apo_36",
+      "geo_05",
+      "phi_19"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "A Martian Halloween",
+        "source": "NASA APOD 2005-10-31"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "亚马逊雨林的树冠层中，每平方米有超过四百种生物，一半尚未被人类命名",
+        "source": "亚马逊雨林·南美洲"
+      },
+      "c": {
+        "domain": "philosophy",
+        "text": "至人无己，神人无功，圣人无名",
+        "source": "庄子《逍遥游》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "未知",
+        "神秘",
+        "壮阔",
+        "辽阔"
+      ],
+      "themes": [
+        "太阳",
+        "雨林",
+        "逍遥"
+      ],
+      "domains": [
+        "astronomy",
+        "geography",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "永恒",
+        "先秦"
+      ]
+    },
+    "visual": {
+      "color": "#8A86A8",
+      "size": 0.68,
+      "luminosity": 0.88
+    }
+  },
+  {
+    "id": "body_0235",
+    "type": "void",
+    "type_cn": "虚空",
+    "name": "寂冰封·苍凉",
+    "epoch": 235,
+    "born_at": "2026-11-27T01:29:38",
+    "collision_text": "「南极冰盖下四千米的沃斯托克湖，被封存了一千五…」「图灵用一台机器破译了恩尼格码，却因性向被化学…」「末世废土上，一辆卡车载着最后的种子驶向远方的…」相互缠绕，编织出一片苍凉的星云。",
+    "collision_mode": "local",
+    "collision_type": "triple",
+    "parents": [
+      "geo_07",
+      "his_10",
+      "cin_22"
+    ],
+    "composition": {
+      "a": {
+        "domain": "geography",
+        "text": "南极冰盖下四千米的沃斯托克湖，被封存了一千五百万年，湖水中可能存活着人类从未见过的微生物",
+        "source": "沃斯托克湖·南极洲"
+      },
+      "b": {
+        "domain": "history",
+        "text": "图灵用一台机器破译了恩尼格码，却因性向被化学阉割，咬下毒苹果，在诘问中结束了四十二年的孤独",
+        "source": "艾伦·图灵·1954年"
+      },
+      "c": {
+        "domain": "cinema",
+        "text": "末世废土上，一辆卡车载着最后的种子驶向远方的山",
+        "source": "《疯狂的麦克斯4》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "苍凉",
+        "神秘",
+        "孤寂",
+        "诡谲"
+      ],
+      "themes": [
+        "冰封",
+        "密码",
+        "种子"
+      ],
+      "domains": [
+        "geography",
+        "history",
+        "cinema"
+      ],
+      "intensity": 4,
+      "eras": [
+        "永恒",
+        "现代",
+        "当代"
+      ]
+    },
+    "visual": {
+      "color": "#64748B",
+      "size": 0.69,
+      "luminosity": 0.77
+    }
   }
 ]
