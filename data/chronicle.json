@@ -1643,5 +1643,19 @@
     "event": "genesis",
     "body_id": "body_0235",
     "summary": "第235纪元：geography×history碰撞，诞生虚空「寂冰封·苍凉」"
+  },
+  {
+    "epoch": 236,
+    "timestamp": "2026-11-28T01:06:02",
+    "event": "genesis",
+    "body_id": "body_0236",
+    "summary": "第236纪元：science×geography碰撞，诞生星云「渺意识·壮阔」"
+  },
+  {
+    "epoch": 237,
+    "timestamp": "2026-11-28T01:06:08",
+    "event": "lineage",
+    "body_id": "body_0237",
+    "summary": "第237纪元：行星「辉编织·宁静」繁衍出第1代子嗣——卫星「辉编织·宁静·子」"
   }
 ]

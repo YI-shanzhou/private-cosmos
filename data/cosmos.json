@@ -12565,5 +12565,115 @@
       "size": 0.69,
       "luminosity": 0.77
     }
+  },
+  {
+    "id": "body_0236",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "渺意识·壮阔",
+    "epoch": 236,
+    "born_at": "2026-11-28T01:06:02",
+    "collision_text": "「神经元以电信号传递信息，860亿个神经元组成…」沉入「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」，泛起壮阔的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_15",
+      "geo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "辽阔"
+      ],
+      "themes": [
+        "意识",
+        "峡湾"
+      ],
+      "domains": [
+        "science",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.94,
+      "luminosity": 0.94
+    }
+  },
+  {
+    "id": "body_0237",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "辉编织·宁静·子",
+    "epoch": 237,
+    "born_at": "2026-11-28T01:06:08",
+    "collision_text": "「NASA Science」撞上「色即是空，空即是色」，碎成一团宁静的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_101",
+      "phi_20"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2024-02-16"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "色即是空，空即是色",
+        "source": "《般若波罗蜜多心经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知",
+        "诡谲"
+      ],
+      "themes": [
+        "空性"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#22c9b8",
+      "size": 0.5,
+      "luminosity": 0.93
+    },
+    "lineage": {
+      "parent_id": "body_0107",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ]

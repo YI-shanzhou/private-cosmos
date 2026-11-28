@@ -12566,6 +12566,116 @@ window.COSMOS_DATA = [
       "size": 0.69,
       "luminosity": 0.77
     }
+  },
+  {
+    "id": "body_0236",
+    "type": "nebula",
+    "type_cn": "星云",
+    "name": "渺意识·壮阔",
+    "epoch": 236,
+    "born_at": "2026-11-28T01:06:02",
+    "collision_text": "「神经元以电信号传递信息，860亿个神经元组成…」沉入「挪威峡湾的峭壁从海面垂直升起一千米，维京长船…」，泛起壮阔的涟漪。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "sci_15",
+      "geo_09"
+    ],
+    "composition": {
+      "a": {
+        "domain": "science",
+        "text": "神经元以电信号传递信息，860亿个神经元组成宇宙中已知最复杂的结构——人脑",
+        "source": "神经科学"
+      },
+      "b": {
+        "domain": "geography",
+        "text": "挪威峡湾的峭壁从海面垂直升起一千米，维京长船曾在狭窄水道中驶向未知的北海",
+        "source": "挪威峡湾·北欧"
+      }
+    },
+    "tags": {
+      "moods": [
+        "壮阔",
+        "神秘",
+        "辽阔"
+      ],
+      "themes": [
+        "意识",
+        "峡湾"
+      ],
+      "domains": [
+        "science",
+        "geography"
+      ],
+      "intensity": 4,
+      "eras": [
+        "现代",
+        "永恒"
+      ]
+    },
+    "visual": {
+      "color": "#6D5AE6",
+      "size": 0.94,
+      "luminosity": 0.94
+    }
+  },
+  {
+    "id": "body_0237",
+    "type": "moon",
+    "type_cn": "卫星",
+    "name": "辉编织·宁静·子",
+    "epoch": 237,
+    "born_at": "2026-11-28T01:06:08",
+    "collision_text": "「NASA Science」撞上「色即是空，空即是色」，碎成一团宁静的星尘。",
+    "collision_mode": "local",
+    "collision_type": "dual",
+    "parents": [
+      "apo_101",
+      "phi_20"
+    ],
+    "composition": {
+      "a": {
+        "domain": "astronomy",
+        "text": "NASA Science",
+        "source": "NASA APOD 2024-02-16"
+      },
+      "b": {
+        "domain": "philosophy",
+        "text": "色即是空，空即是色",
+        "source": "《般若波罗蜜多心经》"
+      }
+    },
+    "tags": {
+      "moods": [
+        "宁静",
+        "未知",
+        "诡谲"
+      ],
+      "themes": [
+        "空性"
+      ],
+      "domains": [
+        "astronomy",
+        "philosophy"
+      ],
+      "intensity": 3,
+      "eras": [
+        "古代"
+      ]
+    },
+    "visual": {
+      "color": "#22c9b8",
+      "size": 0.5,
+      "luminosity": 0.93
+    },
+    "lineage": {
+      "parent_id": "body_0107",
+      "generation": 1,
+      "inherited_traits": [
+        "type_family",
+        "color"
+      ]
+    }
   }
 ];
 window.CHRONICLE_DATA = [
@@ -14213,6 +14323,20 @@ window.CHRONICLE_DATA = [
     "event": "genesis",
     "body_id": "body_0235",
     "summary": "第235纪元：geography×history碰撞，诞生虚空「寂冰封·苍凉」"
+  },
+  {
+    "epoch": 236,
+    "timestamp": "2026-11-28T01:06:02",
+    "event": "genesis",
+    "body_id": "body_0236",
+    "summary": "第236纪元：science×geography碰撞，诞生星云「渺意识·壮阔」"
+  },
+  {
+    "epoch": 237,
+    "timestamp": "2026-11-28T01:06:08",
+    "event": "lineage",
+    "body_id": "body_0237",
+    "summary": "第237纪元：行星「辉编织·宁静」繁衍出第1代子嗣——卫星「辉编织·宁静·子」"
   }
 ];
 window.APOD_DATA = [
@@ -16266,6 +16390,26 @@ window.APOD_DATA = [
     "fetched_at": "2026-11-21T22:46:40.821621"
   },
   {
+    "date": "2016-02-21",
+    "title": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "local_path": "assets/apod/apod_2016-02-21.jpg",
+    "explanation": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.\t\t\t",
+    "tags": {
+      "colors": [
+        "#101010",
+        "#103090",
+        "#f0f0f0"
+      ],
+      "themes": [],
+      "moods": [
+        "未知"
+      ],
+      "domain": "astronomy"
+    },
+    "fetched_at": "2026-11-28T01:05:57.185666"
+  },
+  {
     "date": "2016-10-26",
     "title": "NASA Science",
     "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -17346,36 +17490,6 @@ window.APOD_DATA = [
 ];
 window.DAILY_REPORTS = [
   {
-    "date": "2026-10-18",
-    "summary": "今日宇宙经历了1次三体混沌碰撞，2颗新天体在philosophy、cinema、history、science、astronomy的交叉中诞生。尘埃云、白矮星携带着未知、苍凉的情绪，加入了星空。",
-    "body_count": 2,
-    "new_bodies": [
-      {
-        "name": "茫归航·未知",
-        "type_cn": "尘埃云",
-        "id": "body_0172"
-      },
-      {
-        "name": "幽星云·苍凉",
-        "type_cn": "白矮星",
-        "id": "body_0173"
-      }
-    ],
-    "mood_distribution": {
-      "苍凉": 1,
-      "未知": 1
-    },
-    "domain_distribution": {
-      "philosophy": 1,
-      "cinema": 1,
-      "history": 1,
-      "science": 1,
-      "astronomy": 1
-    },
-    "lineage_count": 0,
-    "triple_count": 1
-  },
-  {
     "date": "2026-10-19",
     "summary": "今日宇宙又长大了——2颗新天体在history、myth、music、cinema领域的碰撞中诞生。超空洞、遗迹们带着辽阔、苍凉的情绪，在星空中找到了自己的位置。",
     "body_count": 2,
@@ -18233,11 +18347,40 @@ window.DAILY_REPORTS = [
     },
     "lineage_count": 0,
     "triple_count": 2
+  },
+  {
+    "date": "2026-11-28",
+    "summary": "今日宇宙诞生了2颗新天体，其中1颗源自古老天体的血脉延续。星云、卫星在science、astronomy、philosophy、geography的碰撞中绽放，情绪以壮阔、宁静为主导。",
+    "body_count": 2,
+    "new_bodies": [
+      {
+        "name": "渺意识·壮阔",
+        "type_cn": "星云",
+        "id": "body_0236"
+      },
+      {
+        "name": "辉编织·宁静·子",
+        "type_cn": "卫星",
+        "id": "body_0237"
+      }
+    ],
+    "mood_distribution": {
+      "壮阔": 1,
+      "宁静": 1
+    },
+    "domain_distribution": {
+      "science": 1,
+      "astronomy": 1,
+      "philosophy": 1,
+      "geography": 1
+    },
+    "lineage_count": 1,
+    "triple_count": 0
   }
 ];
 window.COSMOS_STATS = {
-  "total_bodies": 235,
-  "chronicle_entries": 235,
+  "total_bodies": 237,
+  "chronicle_entries": 237,
   "daily_report_count": 30,
   "type_distribution": {
     "流浪行星": 22,
@@ -18245,9 +18388,9 @@ window.COSMOS_STATS = {
     "暗物质": 17,
     "星系": 15,
     "虫洞": 15,
-    "星云": 13,
+    "星云": 14,
+    "卫星": 13,
     "超空洞": 13,
-    "卫星": 12,
     "虚空": 12,
     "尘埃云": 11,
     "彗星": 11,
@@ -18267,36 +18410,36 @@ window.COSMOS_STATS = {
     "千新星": 1
   },
   "mood_distribution": {
-    "壮阔": 112,
+    "壮阔": 113,
     "苍凉": 105,
-    "诡谲": 90,
+    "诡谲": 91,
     "孤寂": 77,
-    "宁静": 75,
-    "未知": 61,
+    "宁静": 76,
+    "未知": 62,
     "激烈": 61,
-    "神秘": 53,
+    "神秘": 54,
     "希望": 43,
-    "辽阔": 40,
+    "辽阔": 41,
     "激越": 32,
     "热闹": 7
   },
   "domain_distribution": {
-    "astronomy": 76,
-    "philosophy": 74,
+    "astronomy": 77,
+    "philosophy": 75,
     "myth": 67,
     "literature": 65,
+    "science": 48,
     "cinema": 47,
-    "science": 47,
     "history": 41,
-    "geography": 36,
+    "geography": 37,
     "music": 36,
     "art": 29
   },
   "generation": {
     "max_generation": 2,
-    "lineage_bodies": 37,
+    "lineage_bodies": 38,
     "distribution": {
-      "第1代": 34,
+      "第1代": 35,
       "第2代": 3
     }
   }
